@@ -276,12 +276,15 @@ const translations = {
 
 let currentLang = localStorage.getItem('mayrwirt-lang') || 'de';
 
+const menuUrls = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html' };
+
 function setLang(lang) {
     currentLang = lang;
     localStorage.setItem('mayrwirt-lang', lang);
     document.documentElement.lang = lang;
     applyTranslations();
     updateLangBtns();
+    updateMenuLink();
 }
 
 function applyTranslations() {
@@ -300,7 +303,13 @@ function updateLangBtns() {
     });
 }
 
+function updateMenuLink() {
+    const link = document.getElementById('menu-link');
+    if (link) link.href = menuUrls[currentLang] || menuUrls.de;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     applyTranslations();
     updateLangBtns();
+    updateMenuLink();
 });
