@@ -177,6 +177,42 @@ html { scroll-behavior: smooth; }
     margin-bottom: 1rem;
     line-height: 1.15;
 }
+.section-title::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 3px;
+    background: #C9962C;
+    border-radius: 2px;
+    margin-top: 0.75rem;
+}
+.text-center .section-title::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Inverse section title (white text, dark background) */
+.section-title-inv {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    line-height: 1.15;
+}
+.section-title-inv::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 3px;
+    background: #C9962C;
+    border-radius: 2px;
+    margin-top: 0.75rem;
+}
+
+/* Hero tagline decorative dashes */
+.hero-tagline::before { content: '——\00a0\00a0'; opacity: 0.45; }
+.hero-tagline::after  { content: '\00a0\00a0——'; opacity: 0.45; }
 
 .footer-heading {
     font-size: 0.7rem;
@@ -215,12 +251,57 @@ html { scroll-behavior: smooth; }
     font-size: 0.875rem;
 }
 .feature-item::before {
-    content: '';
-    display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
+    content: '✓';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    min-width: 1.35rem;
+    background: rgba(201, 150, 44, 0.12);
+    color: #C9962C;
     border-radius: 50%;
-    background: #C9962C;
+    font-size: 0.68rem;
+    font-weight: 900;
+    flex-shrink: 0;
+}
+
+/* ---- Hours cards ---- */
+.hours-card     { border-top: 4px solid #C9962C; }
+.hours-card-inv { border-top: 4px solid rgba(201, 150, 44, 0.7); }
+
+/* Live open/closed status badge */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.15rem 0.6rem;
+    border-radius: 9999px;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    letter-spacing: 0.01em;
+}
+.status-badge.open   { background: rgba(45,80,22,0.12); color: #2D5016; }
+.status-badge.closed { background: rgba(180,40,30,0.10); color: #b42820; }
+.status-badge.open::before   { content: '●'; font-size: 0.45rem; line-height: 1; }
+.status-badge.closed::before { content: '●'; font-size: 0.45rem; line-height: 1; }
+/* Inverse (dark forest background — metzgerei section) */
+.status-badge-inv.open   { background: rgba(255,255,255,0.15); color: #fff; }
+.status-badge-inv.closed { background: rgba(255,100,80,0.20);  color: #ffbfb8; }
+.status-badge-inv.open::before   { content: '●'; font-size: 0.45rem; line-height: 1; }
+.status-badge-inv.closed::before { content: '●'; font-size: 0.45rem; line-height: 1; }
+
+/* Area card distance badge */
+.area-dist-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #2D5016;
+    background: rgba(45, 80, 22, 0.08);
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    white-space: nowrap;
     flex-shrink: 0;
 }
 

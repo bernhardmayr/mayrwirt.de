@@ -48,6 +48,62 @@ document.querySelectorAll('.mobile-link').forEach(link => {
     });
 });
 
+// ---- Live hours status ----
+function initHoursStatus() {
+    const now  = new Date();
+    const day  = now.getDay();          // 0=Sun … 6=Sat
+    const mins = now.getHours() * 60 + now.getMinutes();
+
+    const lang = localStorage.getItem('mayrwirt-lang') || document.documentElement.lang || 'de';
+    const labels = {
+        de: { open: 'Jetzt geöffnet', closed: 'Heute geschlossen' },
+        en: { open: 'Open now',        closed: 'Closed today' },
+        it: { open: 'Aperto ora',      closed: 'Chiuso oggi' },
+        hu: { open: 'Most nyitva',     closed: 'Ma zárva' },
+        cs: { open: 'Nyní otevřeno',   closed: 'Dnes zavřeno' },
+    };
+    const lbl = labels[lang] || labels.de;
+
+    // Restaurant: Mo–Do 11–14 & 17–22, Fr–Sa 11–14 & 17–23, So 10–21
+    function restOpen() {
+        if (day >= 1 && day <= 4) return (mins >= 660 && mins < 840) || (mins >= 1020 && mins < 1320);
+        if (day === 5 || day === 6) return (mins >= 660 && mins < 840) || (mins >= 1020 && mins < 1380);
+        if (day === 0) return mins >= 600 && mins < 1260;
+        return false;
+    }
+    // Butcher: Mo–Fr 07–12 & 14–18, Sa 07–12, So closed
+    function butchOpen() {
+        if (day >= 1 && day <= 5) return (mins >= 420 && mins < 720) || (mins >= 840 && mins < 1080);
+        if (day === 6) return mins >= 420 && mins < 720;
+        return false;
+    }
+
+    function setBadge(id, isOpen, inv) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.className = 'status-badge' + (inv ? ' status-badge-inv' : '') + (isOpen ? ' open' : ' closed');
+        el.textContent = isOpen ? lbl.open : lbl.closed;
+    }
+    setBadge('rest-status',  restOpen(),  false);
+    setBadge('butch-status', butchOpen(), true);
+
+    // Highlight today's row — restaurant table
+    document.querySelectorAll('[data-days]').forEach(row => {
+        const days = row.getAttribute('data-days').split(',').map(Number);
+        if (days.includes(day)) {
+            row.querySelectorAll('span').forEach(s => s.classList.add('font-semibold', 'text-forest'));
+        }
+    });
+    // Highlight today's row — butcher table
+    document.querySelectorAll('[data-days-butch]').forEach(row => {
+        const days = row.getAttribute('data-days-butch').split(',').map(Number);
+        if (days.includes(day)) {
+            row.querySelectorAll('span').forEach(s => s.classList.add('font-bold', 'text-white'));
+        }
+    });
+}
+document.addEventListener('DOMContentLoaded', initHoursStatus);
+
 // ---- Scroll fade-in ----
 const observer = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
