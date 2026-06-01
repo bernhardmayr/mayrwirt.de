@@ -40,16 +40,21 @@
 <header class="act-site-header">
     <a href="../index.html" class="back">← <span id="act-back">Retour au site</span></a>
     <span class="brand">Mayrwirt</span>
-    <div class="lang-switcher">
-        <a href="index.html">🇩🇪 DE</a>
-        <a href="en.html">🇬🇧 EN</a>
-        <a href="it.html">🇮🇹 IT</a>
-        <a href="hu.html">🇭🇺 HU</a>
-        <a href="cs.html">🇨🇿 CS</a>
-        <a href="es.html">🇪🇸 ES</a>
-        <a href="fr.html" class="active">🇫🇷 FR</a>
-        <a href="pl.html">🇵🇱 PL</a>
-        <a href="hr.html">🇭🇷 HR</a>
+    <div class="sub-lang-dd" id="sub-lang-wrap">
+        <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
+            🇫🇷&nbsp;FR <span class="sub-lang-chevron">▾</span>
+        </button>
+        <div class="sub-lang-menu hidden" id="sub-lang-menu">
+        <a href="index.html">🇩🇪 Deutsch</a>
+        <a href="en.html">🇬🇧 English</a>
+        <a href="it.html">🇮🇹 Italiano</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
+        <a href="cs.html">🇨🇿 Čeština</a>
+        <a href="es.html">🇪🇸 Español</a>
+        <a href="fr.html" class="active">🇫🇷 Français</a>
+        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="hr.html">🇭🇷 Hrvatski</a>
+        </div>
     </div>
 </header>
 
