@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Weather Hub",
+    "slug": "expo-weather-hub",
+    "version": "1.0.0",
+    "scheme": "weather-hub",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "de.mayrwirt.weatherhub"
+    },
+    "android": {
+      "package": "de.mayrwirt.weatherhub",
+      "adaptiveIcon": {
+        "backgroundColor": "#1a73e8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Weather Hub to access your location to show local weather."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
