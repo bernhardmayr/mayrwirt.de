@@ -97,6 +97,7 @@ function getReply(text) {
 
     const r = {
         de: {
+            jobs:         `Wir suchen aktuell eine Zimmermädchen (m/w/d) und eine Verkäuferin (m/w/d) für unsere Metzgerei. Bewerbungen bitte an ${mail} oder ${tel}.`,
             reservation: `Für Reservierungen erreichen Sie uns unter ${tel} oder per ${mail}.`,
             rooms:        `Wir bieten gemütliche Zimmer mit Frühstück. Bitte kontaktieren Sie uns: ${tel}.`,
             hours:        'Wirtshaus: Mo–Do 11–14 &amp; 17–22 Uhr, Fr–Sa 11–14 &amp; 17–23 Uhr, So 10–21 Uhr.<br>Metzgerei: Mo–Fr 7–12 &amp; 14–18 Uhr, Sa 7–12 Uhr.',
@@ -109,6 +110,7 @@ function getReply(text) {
             fallback:     `Vielen Dank für Ihre Frage! Für genaue Auskünfte: ${tel} oder ${mail}.`,
         },
         en: {
+            jobs:         `We are currently looking for a Housekeeping Staff (m/f/d) and a Butcher Shop Sales Assistant (m/f/d). Please send your application to ${mail} or call ${tel}.`,
             reservation: `For reservations please contact us at ${tel} or ${mail}.`,
             rooms:        `We offer cosy rooms with breakfast included. Please contact us: ${tel}.`,
             hours:        'Restaurant: Mon–Thu 11am–2pm &amp; 5–10pm, Fri–Sat 11am–2pm &amp; 5–11pm, Sun 10am–9pm.<br>Butcher: Mon–Fri 7am–12pm &amp; 2–6pm, Sat 7am–12pm.',
@@ -121,6 +123,7 @@ function getReply(text) {
             fallback:     `Thank you for your question! For detailed information: ${tel} or ${mail}.`,
         },
         it: {
+            jobs:         `Stiamo cercando un addetta alle pulizie (m/f/d) e una commessa per la macelleria (m/f/d). Invia la tua candidatura a ${mail} o chiamaci al ${tel}.`,
             reservation: `Per prenotazioni ci può contattare al ${tel} o via ${mail}.`,
             rooms:        `Offriamo camere accoglienti con colazione inclusa. Contattateci: ${tel}.`,
             hours:        'Ristorante: Lun–Gio 11–14 &amp; 17–22, Ven–Sab 11–14 &amp; 17–23, Dom 10–21.<br>Macelleria: Lun–Ven 7–12 &amp; 14–18, Sab 7–12.',
@@ -133,6 +136,7 @@ function getReply(text) {
             fallback:     `Grazie per la domanda! Per informazioni: ${tel} o ${mail}.`,
         },
         hu: {
+            jobs:         `Jelenleg szobaasszonyt (m/n/d) és hentesüzleti eladót (m/n/d) keresünk. Önéletrajzát küldje az ${mail} címre vagy hívjon: ${tel}.`,
             reservation: `Foglaláshoz hívjon minket: ${tel} vagy írjon: ${mail}.`,
             rooms:        `Reggelivel ellátott, hangulatos szobákat kínálunk. Kérjük, vegye fel velünk a kapcsolatot: ${tel}.`,
             hours:        'Étterem: H–Cs 11–14 &amp; 17–22, P–Szo 11–14 &amp; 17–23, V 10–21.<br>Hentesüzlet: H–P 7–12 &amp; 14–18, Szo 7–12.',
@@ -145,6 +149,7 @@ function getReply(text) {
             fallback:     `Köszönjük a kérdést! Részletes tájékoztatásért: ${tel} vagy ${mail}.`,
         },
         cs: {
+            jobs:         `Hledáme pokojskou (m/ž/d) a prodavač/ku do řeznictví (m/ž/d). Přihlášky zasílejte na ${mail} nebo volejte ${tel}.`,
             reservation: `Pro rezervace nás kontaktujte na ${tel} nebo ${mail}.`,
             rooms:        `Nabízíme útulné pokoje se snídaní. Kontaktujte nás: ${tel}.`,
             hours:        'Hostinec: Po–Čt 11–14 &amp; 17–22, Pá–So 11–14 &amp; 17–23, Ne 10–21.<br>Řeznictví: Po–Pá 7–12 &amp; 14–18, So 7–12.',
@@ -160,6 +165,7 @@ function getReply(text) {
 
     const s = r[lang] || r.de;
 
+    if (/stell|job|karriere|arbeit|bewerb|career|lavoro|állás|práce|pokojsk|zimmermäd|verkäuf/.test(t)) return s.jobs;
     if (/reservier|tisch|buchen|book|reserv|prenotar|foglal|rezerv/.test(t))  return s.reservation;
     if (/zimmer|übernacht|schlaf|room|camera|szoba|pokoj/.test(t))             return s.rooms;
     if (/öffnung|uhrzeit|wann|open|orari|nyitva|otev/.test(t))                return s.hours;

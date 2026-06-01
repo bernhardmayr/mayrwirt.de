@@ -86,6 +86,17 @@
   "footer.sun":     "So: 10–21 Uhr",
   "footer.contactTitle": "Kontakt",
   "footer.imprint": "Impressum &amp; Datenschutz",
+  "nav.jobs":       "Jobs",
+  "jobs.label":     "Karriere",
+  "jobs.title":     "Jetzt beim Mayrwirt einsteigen",
+  "jobs.subtitle":  "Wir suchen engagierte Mitarbeiterinnen und Mitarbeiter, die unser familiäres Team verstärken.",
+  "jobs.parttime":  "Teilzeit / Vollzeit",
+  "jobs.apply":     "Jetzt bewerben",
+  "jobs.contact":   "Bewerbungen bitte an <a href=\"mailto:office@mayrwirt.com\" class=\"text-forest font-semibold hover:underline\">office@mayrwirt.com</a> oder telefonisch unter <a href=\"tel:+4986546903900\" class=\"text-forest font-semibold hover:underline\">+49 8654 69 03 90</a>.",
+  "job1.title":     "Zimmermädchen (m/w/d)",
+  "job1.desc":      "Sie übernehmen die Reinigung und Pflege unserer Gästezimmer und sorgen mit Sorgfalt dafür, dass sich unsere Gäste von Anfang an rundum wohlfühlen.",
+  "job2.title":     "Verkäuferin Metzgerei (m/w/d)",
+  "job2.desc":      "Sie beraten unsere Kunden an der Theke, helfen bei der Präsentation unserer hausgemachten Fleisch- und Wurstwaren und sind das freundliche Gesicht unserer Metzgerei.",
   "chat.online":    "Online · antwortet sofort",
   "chat.greeting":  "Hallo! 👋 Wie kann ich Ihnen helfen? Ich beantworte Fragen zu Reservierungen, Speisekarte und Zimmern."
 }

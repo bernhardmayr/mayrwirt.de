@@ -86,6 +86,17 @@
   "footer.sun":     "V: 10–21 h",
   "footer.contactTitle": "Kapcsolat",
   "footer.imprint": "Impresszum &amp; Adatvédelem",
+  "nav.jobs":       "Állások",
+  "jobs.label":     "Karrier",
+  "jobs.title":     "Csatlakozz a Mayrwirt csapatához",
+  "jobs.subtitle":  "Motivált munkatársakat keresünk, akik erősítik a mi családias csapatunkat.",
+  "jobs.parttime":  "Részmunkaidő / Teljes munkaidő",
+  "jobs.apply":     "Jelentkezés",
+  "jobs.contact":   "Önéletrajzát kérjük küldje az <a href=\"mailto:office@mayrwirt.com\" class=\"text-forest font-semibold hover:underline\">office@mayrwirt.com</a> címre, vagy hívjon minket: <a href=\"tel:+4986546903900\" class=\"text-forest font-semibold hover:underline\">+49 8654 69 03 90</a>.",
+  "job1.title":     "Szobaasszony (m/n/d)",
+  "job1.desc":      "Feladata a vendégszobák takarítása és gondozása, hogy vendégeink már az első pillanattól fogva otthonosan érezzék magukat.",
+  "job2.title":     "Eladó a hentesüzletben (m/n/d)",
+  "job2.desc":      "Feladata a vevők kiszolgálása és tanácsadása a pultnál, házi hústermékek bemutatása és hentesüzletünk barátságos képviselete.",
   "chat.online":    "Online · azonnal válaszol",
   "chat.greeting":  "Üdvözöljük! 👋 Miben segíthetek? Foglalásokkal, étlappal és szobákkal kapcsolatos kérdésekre válaszolok."
 }

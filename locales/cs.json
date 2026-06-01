@@ -86,6 +86,17 @@
   "footer.sun":     "Ne: 10–21 hod.",
   "footer.contactTitle": "Kontakt",
   "footer.imprint": "Impressum &amp; Ochrana dat",
+  "nav.jobs":       "Práce",
+  "jobs.label":     "Kariéra",
+  "jobs.title":     "Přidejte se k týmu Mayrwirt",
+  "jobs.subtitle":  "Hledáme motivované pracovníky, kteří posílí náš rodinný tým.",
+  "jobs.parttime":  "Částečný / Plný úvazek",
+  "jobs.apply":     "Přihlásit se",
+  "jobs.contact":   "Přihlášky zasílejte na <a href=\"mailto:office@mayrwirt.com\" class=\"text-forest font-semibold hover:underline\">office@mayrwirt.com</a> nebo nás zavolejte na <a href=\"tel:+4986546903900\" class=\"text-forest font-semibold hover:underline\">+49 8654 69 03 90</a>.",
+  "job1.title":     "Pokojská (m/ž/d)",
+  "job1.desc":      "Budete se starat o úklid a údržbu pokojů pro hosty a zajistíte, aby se každý host cítil od první chvíle jako doma.",
+  "job2.title":     "Prodavač/ka v řeznictví (m/ž/d)",
+  "job2.desc":      "Budete radit zákazníkům u pultu, pomáhat s prezentací domácích masných výrobků a být přátelskou tváří našeho řeznictví.",
   "chat.online":    "Online · odpovídá ihned",
   "chat.greeting":  "Vítejte! 👋 Jak vám mohu pomoci? Zodpovídám dotazy k rezervacím, jídelnímu lístku a pokojům."
 }

@@ -86,6 +86,17 @@
   "footer.sun":     "Sun: 10 am – 9 pm",
   "footer.contactTitle": "Contact",
   "footer.imprint": "Legal Notice &amp; Privacy",
+  "nav.jobs":       "Jobs",
+  "jobs.label":     "Careers",
+  "jobs.title":     "Join the Mayrwirt Team",
+  "jobs.subtitle":  "We are looking for motivated team members to join our family-run guesthouse.",
+  "jobs.parttime":  "Part-time / Full-time",
+  "jobs.apply":     "Apply now",
+  "jobs.contact":   "Send your application to <a href=\"mailto:office@mayrwirt.com\" class=\"text-forest font-semibold hover:underline\">office@mayrwirt.com</a> or call us at <a href=\"tel:+4986546903900\" class=\"text-forest font-semibold hover:underline\">+49 8654 69 03 90</a>.",
+  "job1.title":     "Housekeeping Staff (m/f/d)",
+  "job1.desc":      "You will be responsible for cleaning and maintaining our guest rooms, ensuring every guest enjoys a comfortable and welcoming stay from the very first moment.",
+  "job2.title":     "Butcher Shop Sales Assistant (m/f/d)",
+  "job2.desc":      "You will advise customers at the counter, assist with the presentation of our home-made meat and sausage products, and be the friendly face of our butcher's shop.",
   "chat.online":    "Online · replies instantly",
   "chat.greeting":  "Hello! 👋 How can I help you? I can answer questions about reservations, the menu and rooms."
 }

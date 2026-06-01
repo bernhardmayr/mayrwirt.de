@@ -86,6 +86,17 @@
   "footer.sun":     "Dom: 10–21",
   "footer.contactTitle": "Contatto",
   "footer.imprint": "Note legali &amp; Privacy",
+  "nav.jobs":       "Lavoro",
+  "jobs.label":     "Carriera",
+  "jobs.title":     "Entra nel team Mayrwirt",
+  "jobs.subtitle":  "Cerchiamo collaboratori motivati per rafforzare il nostro team di famiglia.",
+  "jobs.parttime":  "Part-time / Full-time",
+  "jobs.apply":     "Candidati ora",
+  "jobs.contact":   "Invia la tua candidatura a <a href=\"mailto:office@mayrwirt.com\" class=\"text-forest font-semibold hover:underline\">office@mayrwirt.com</a> o chiamaci al <a href=\"tel:+4986546903900\" class=\"text-forest font-semibold hover:underline\">+49 8654 69 03 90</a>.",
+  "job1.title":     "Addetta alle pulizie (m/f/d)",
+  "job1.desc":      "Ti occuperai della pulizia e della cura delle camere degli ospiti, garantendo fin dal primo momento un soggiorno confortevole e accogliente.",
+  "job2.title":     "Commessa macelleria (m/f/d)",
+  "job2.desc":      "Consiglierai i clienti al banco, aiuterai nella presentazione dei nostri prodotti artigianali e sarai il volto accogliente della nostra macelleria.",
   "chat.online":    "Online · risponde subito",
   "chat.greeting":  "Ciao! 👋 Come posso aiutarla? Rispondo a domande su prenotazioni, menù e camere."
 }
