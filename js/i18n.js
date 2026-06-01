@@ -1,7 +1,7 @@
 const cache = {};
 let currentLang = localStorage.getItem('mayrwirt-lang') || 'de';
 
-const menuUrls = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html' };
+const menuUrls = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', bar: 'Karte/de.html' };
 
 async function loadLocale(lang) {
     if (!cache[lang]) {
@@ -20,7 +20,7 @@ async function setLang(lang) {
         const key = el.getAttribute('data-i18n');
         if (t[key] !== undefined) el.innerHTML = t[key];
     });
-    ['de', 'en', 'it'].forEach(l => {
+    ['de', 'en', 'it', 'bar'].forEach(l => {
         document.querySelectorAll(`#lang-${l}, #lang-${l}-m`).forEach(btn => {
             btn.classList.toggle('active', l === lang);
         });
