@@ -487,15 +487,15 @@
         "en": {"name": "Mirabell Palace & Gardens", "town": "Salzburg", "desc": "A magnificent palace with baroque gardens — famous from 'The Sound of Music'."},
         "it": {"name": "Castello e giardini Mirabell", "town": "Salisburgo", "desc": "Splendido castello con giardino barocco — celebre per 'Tutti insieme appassionatamente'."},
         "hu": {"name": "Mirabell-kastély & kert", "town": "Salzburg", "desc": "Pompás kastély barokk kerttel — a „The Sound of Music“ filmből ismert."},
-        “cs”: {“name”: “Zámek a zahrady Mirabell”, “town”: “Salcburk”, “desc”: “Nádherný zámek s barokní zahradou — známý z filmu „Za zvuků hudby”.”},
-        “es”: {“name”: “Palacio y Jardines Mirabell”, “town”: “Salzburgo”, “desc”: “Un magnífico palacio con jardines barrocos — famoso por 'Sonrisas y Lágrimas'.”},
-        “fr”: {“name”: “Palais et Jardins Mirabell”, “town”: “Salzbourg”, “desc”: “Un magnifique palais avec des jardins baroques — célèbre pour 'La Mélodie du Bonheur'.”},
-        “pl”: {“name”: “Pałac i Ogrody Mirabell”, “town”: “Salzburg”, “desc”: “Wspaniały pałac z barokowymi ogrodami — znany z musicalu 'Dźwięki muzyki'.”},
-        “hr”: {“name”: “Dvorac i vrtovi Mirabell”, “town”: “Salzburg”, “desc”: “Veličanstvan dvorac s baroknim vrtovima — poznat iz filma 'Zvuk glazbe'.”}
+        "cs": {"name": "Zámek a zahrady Mirabell", "town": "Salcburk", "desc": "Nádherný zámek s barokní zahradou — známý z filmu „Za zvuků hudby\"."},
+        "es": {"name": "Palacio y Jardines Mirabell", "town": "Salzburgo", "desc": "Un magnífico palacio con jardines barrocos — famoso por 'Sonrisas y Lágrimas'."},
+        "fr": {"name": "Palais et Jardins Mirabell", "town": "Salzbourg", "desc": "Un magnifique palais avec des jardins baroques — célèbre pour 'La Mélodie du Bonheur'."},
+        "pl": {"name": "Pałac i Ogrody Mirabell", "town": "Salzburg", "desc": "Wspaniały pałac z barokowymi ogrodami — znany z musicalu 'Dźwięki muzyki'."},
+        "hr": {"name": "Dvorac i vrtovi Mirabell", "town": "Salzburg", "desc": "Veličanstvan dvorac s baroknim vrtovima — poznat iz filma 'Zvuk glazbe'."}
       }
     },
     {
-      “id”: “haus-der-natur”, "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🦖",
+      "id": "haus-der-natur", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🦖",
       "url": "https://www.hausdernatur.at/",
       "i18n": {
         "de": {"name": "Haus der Natur", "town": "Salzburg", "desc": "Großes Naturkundemuseum mit Aquarium, Reptilienzoo und Science Center."},
