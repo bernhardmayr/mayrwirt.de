@@ -91,7 +91,7 @@ function getReply(text) {
             menu:         `You can find our menu as a ${pdf}.`,
             address:      'We are located at Untere Str. 24, 83416 Saaldorf — between Salzburg and Freilassing.',
             price:        `For price information please contact us directly: ${tel}.`,
-            breakfast:    'Breakfast is included in the room rate — with home-made products from our own butcher's shop.',
+            breakfast:    `Breakfast is included in the room rate — with home-made products from our own butcher's shop.`,
             butcher:      `Our butcher's shop is open Mon–Fri 7am–6pm and Sat 7am–12pm. Current offers: ${offer}.`,
             area:         'Salzburg is approx. 20 km away, Berchtesgaden approx. 30 km — perfect for day trips!',
             fallback:     `Thank you for your question! For detailed information: ${tel} or ${mail}.`,
