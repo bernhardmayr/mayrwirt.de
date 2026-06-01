@@ -1,7 +1,8 @@
 const cache = {};
 let currentLang = localStorage.getItem('mayrwirt-lang') || 'de';
 
-const menuUrls  = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html' };
+const menuUrls       = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html' };
+const activitiesUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html' };
 const langFlags = { de: '🇩🇪', en: '🇬🇧', it: '🇮🇹', hu: '🇭🇺', cs: '🇨🇿' };
 const langCodes = { de: 'DE',  en: 'EN',  it: 'IT',  hu: 'HU',  cs: 'CS'  };
 
@@ -33,6 +34,9 @@ async function setLang(lang) {
     });
     const link = document.getElementById('menu-link');
     if (link) link.href = menuUrls[lang] || menuUrls.de;
+    document.querySelectorAll('[data-activities-link]').forEach(a => {
+        a.href = activitiesUrls[lang] || activitiesUrls.de;
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => setLang(currentLang));

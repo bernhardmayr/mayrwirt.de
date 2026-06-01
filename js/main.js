@@ -94,9 +94,12 @@ function getReply(text) {
     const mail = '<a href="mailto:office@mayrwirt.com" class="font-semibold text-green-800">office@mayrwirt.com</a>';
     const pdf  = `<a href="Karte/Karte.pdf" target="_blank" class="font-semibold text-green-800">PDF</a>`;
     const offer= `<a href="Karte/Angebot.pdf" target="_blank" class="font-semibold text-green-800">PDF</a>`;
+    const actUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html' };
+    const act  = `<a href="${actUrls[lang] || actUrls.de}" class="font-semibold text-green-800">${({de:'Ausflugsziele',en:'destinations page',it:'mete e gite',hu:'kirándulóhelyek',cs:'výlety'})[lang] || 'Ausflugsziele'}</a>`;
 
     const r = {
         de: {
+            activities:   `In der Umgebung gibt es über 30 Ausflugsziele — Berge, Seen, Kultur & mehr. Stöbern Sie auf unserer Seite ${act} und filtern Sie nach Interesse, Entfernung und Wetter.`,
             jobs:         `Wir suchen aktuell eine Zimmermädchen (m/w/d) und eine Verkäuferin (m/w/d) für unsere Metzgerei. Bewerbungen bitte an ${mail} oder ${tel}.`,
             reservation: `Für Reservierungen erreichen Sie uns unter ${tel} oder per ${mail}.`,
             rooms:        `Wir bieten gemütliche Zimmer mit Frühstück. Bitte kontaktieren Sie uns: ${tel}.`,
@@ -110,6 +113,7 @@ function getReply(text) {
             fallback:     `Vielen Dank für Ihre Frage! Für genaue Auskünfte: ${tel} oder ${mail}.`,
         },
         en: {
+            activities:   `There are over 30 things to do nearby — mountains, lakes, culture & more. Browse our ${act} and filter by interest, distance and weather.`,
             jobs:         `We are currently looking for a Housekeeping Staff (m/f/d) and a Butcher Shop Sales Assistant (m/f/d). Please send your application to ${mail} or call ${tel}.`,
             reservation: `For reservations please contact us at ${tel} or ${mail}.`,
             rooms:        `We offer cosy rooms with breakfast included. Please contact us: ${tel}.`,
@@ -123,6 +127,7 @@ function getReply(text) {
             fallback:     `Thank you for your question! For detailed information: ${tel} or ${mail}.`,
         },
         it: {
+            activities:   `Nei dintorni ci sono oltre 30 mete — montagne, laghi, cultura e altro. Sfoglia la nostra pagina ${act} e filtra per interesse, distanza e meteo.`,
             jobs:         `Stiamo cercando un addetta alle pulizie (m/f/d) e una commessa per la macelleria (m/f/d). Invia la tua candidatura a ${mail} o chiamaci al ${tel}.`,
             reservation: `Per prenotazioni ci può contattare al ${tel} o via ${mail}.`,
             rooms:        `Offriamo camere accoglienti con colazione inclusa. Contattateci: ${tel}.`,
@@ -136,6 +141,7 @@ function getReply(text) {
             fallback:     `Grazie per la domanda! Per informazioni: ${tel} o ${mail}.`,
         },
         hu: {
+            activities:   `A környéken több mint 30 kirándulóhely található — hegyek, tavak, kultúra és más. Böngésszen a ${act} oldalunkon, és szűrjön érdeklődés, távolság és időjárás szerint.`,
             jobs:         `Jelenleg szobaasszonyt (m/n/d) és hentesüzleti eladót (m/n/d) keresünk. Önéletrajzát küldje az ${mail} címre vagy hívjon: ${tel}.`,
             reservation: `Foglaláshoz hívjon minket: ${tel} vagy írjon: ${mail}.`,
             rooms:        `Reggelivel ellátott, hangulatos szobákat kínálunk. Kérjük, vegye fel velünk a kapcsolatot: ${tel}.`,
@@ -149,6 +155,7 @@ function getReply(text) {
             fallback:     `Köszönjük a kérdést! Részletes tájékoztatásért: ${tel} vagy ${mail}.`,
         },
         cs: {
+            activities:   `V okolí je přes 30 výletních cílů — hory, jezera, kultura a další. Prohlédněte si naši stránku ${act} a filtrujte podle zájmu, vzdálenosti a počasí.`,
             jobs:         `Hledáme pokojskou (m/ž/d) a prodavač/ku do řeznictví (m/ž/d). Přihlášky zasílejte na ${mail} nebo volejte ${tel}.`,
             reservation: `Pro rezervace nás kontaktujte na ${tel} nebo ${mail}.`,
             rooms:        `Nabízíme útulné pokoje se snídaní. Kontaktujte nás: ${tel}.`,
@@ -174,7 +181,8 @@ function getReply(text) {
     if (/preis|kosten|price|prezzo|ár|cena/.test(t))                           return s.price;
     if (/frühstück|breakfast|colazione|reggeli|snídaně/.test(t))              return s.breakfast;
     if (/metzgerei|wurst|fleisch|butcher|macelleria|hentes|řeznictv/.test(t)) return s.butcher;
-    if (/salzburg|berchtesgaden|ausflug/.test(t))                              return s.area;
+    if (/ausflug|aktivit|unternehm|freizeit|sehenswür|wandern|excursion|things to do|attraction|activit|kirándul|látnivaló|výlet|atrakce|cosa fare|escursion|gita/.test(t)) return s.activities;
+    if (/salzburg|berchtesgaden/.test(t))                                      return s.area;
 
     return s.fallback;
 }

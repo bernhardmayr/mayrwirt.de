@@ -50,6 +50,42 @@
   </url>
 
   <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/it.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/hu.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/cs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/en.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/it.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/hu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/cs.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://bernhardmayr.github.io/mayrwirt.de/impressum-und-datenschutz/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
