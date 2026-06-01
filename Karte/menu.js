@@ -45,4 +45,10 @@
     html += '<div class="note">' + data.note + '</div>';
 
     document.getElementById('menu-root').innerHTML = html;
+
+    document.querySelectorAll('.lang-switcher a').forEach(a => {
+        a.addEventListener('click', () => {
+            localStorage.setItem('mayrwirt-lang', a.getAttribute('href').replace('.html', ''));
+        });
+    });
 })();

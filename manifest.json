@@ -1,0 +1,31 @@
+{
+  "name": "Landgasthof Mayrwirt",
+  "short_name": "Mayrwirt",
+  "description": "Bayerische Küche, Zimmer & Metzgerei in Saaldorf",
+  "start_url": "/mayrwirt.de/",
+  "display": "browser",
+  "background_color": "#FAF7F2",
+  "theme_color": "#2D5016",
+  "icons": [
+    {
+      "src": "wp-content/uploads/2015/05/FavIcon_57x57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "wp-content/uploads/2015/05/FavIcon_72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "wp-content/uploads/2015/05/FavIcon_114x114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "wp-content/uploads/2015/05/FavIcon_144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
