@@ -1,3 +1,27 @@
+// ---- Lang dropdown ----
+function toggleLangDropdown() {
+    const dd      = document.getElementById('lang-dropdown');
+    const btn     = document.getElementById('lang-dropdown-btn');
+    const chevron = document.getElementById('lang-chevron');
+    const opening = dd.classList.toggle('hidden');
+    btn.setAttribute('aria-expanded', String(!opening));
+    chevron.style.transform = opening ? '' : 'rotate(180deg)';
+}
+
+function closeLangDropdown() {
+    const dd      = document.getElementById('lang-dropdown');
+    const btn     = document.getElementById('lang-dropdown-btn');
+    const chevron = document.getElementById('lang-chevron');
+    dd.classList.add('hidden');
+    btn.setAttribute('aria-expanded', 'false');
+    chevron.style.transform = '';
+}
+
+document.addEventListener('click', e => {
+    const wrap = document.getElementById('lang-dropdown-wrap');
+    if (wrap && !wrap.contains(e.target)) closeLangDropdown();
+});
+
 // ---- Header scroll effect ----
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {

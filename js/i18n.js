@@ -1,7 +1,9 @@
 const cache = {};
 let currentLang = localStorage.getItem('mayrwirt-lang') || 'de';
 
-const menuUrls = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html' };
+const menuUrls  = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html' };
+const langFlags = { de: '🇩🇪', en: '🇬🇧', it: '🇮🇹', hu: '🇭🇺', cs: '🇨🇿' };
+const langCodes = { de: 'DE',  en: 'EN',  it: 'IT',  hu: 'HU',  cs: 'CS'  };
 
 async function loadLocale(lang) {
     if (!cache[lang]) {
@@ -20,10 +22,14 @@ async function setLang(lang) {
         const key = el.getAttribute('data-i18n');
         if (t[key] !== undefined) el.innerHTML = t[key];
     });
-    ['de', 'en', 'it', 'hu', 'cs'].forEach(l => {
-        document.querySelectorAll(`#lang-${l}, #lang-${l}-m`).forEach(btn => {
-            btn.classList.toggle('active', l === lang);
-        });
+    // Update dropdown trigger
+    const flagEl = document.getElementById('lang-flag');
+    const codeEl = document.getElementById('lang-code');
+    if (flagEl) flagEl.textContent = langFlags[lang] || langFlags.de;
+    if (codeEl) codeEl.textContent = langCodes[lang] || langCodes.de;
+    // Mark active option
+    document.querySelectorAll('.lang-option').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
     });
     const link = document.getElementById('menu-link');
     if (link) link.href = menuUrls[lang] || menuUrls.de;
