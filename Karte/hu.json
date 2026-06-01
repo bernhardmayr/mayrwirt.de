@@ -1,0 +1,181 @@
+{
+  "title": "Étlap",
+  "subtitle": "Falusi Fogadó &amp; Hentesüzlet Mayrwirt · Saaldorf",
+  "note": "A palackozott borokat borlaptunkból lehet megrendelni.<br>Az allergének az allergénlistánkban szerepelnek — kérje személyzetünket.",
+  "sections": [
+    {
+      "title": "Előételek",
+      "type": "items",
+      "items": [
+        {"name": "Hazai marhaszűz carpaccio", "desc": "olivaolajjal, citrommal, Grana Padano sajttal, vegyes salátával &amp; baguette-tel", "price": "€ 15,50"},
+        {"name": "Karamellizált kecskesajt", "desc": "körte-chutneyval &amp; cikória-narancs salátával", "price": "€ 13,90"},
+        {"name": "Bruschetta", "desc": "Paradicsom, fokhagyma &amp; olivaolaj fehér kenyéren", "price": "€ 9,80"}
+      ]
+    },
+    {
+      "title": "Levesek",
+      "type": "items",
+      "items": [
+        {"name": "Palacsintás leves", "price": "€ 5,50"},
+        {"name": "Fokhagymakrémleves fehér kenyér krutonnal", "price": "€ 5,50"},
+        {"name": "Májgombócleves", "price": "€ 6,50"}
+      ]
+    },
+    {
+      "title": "Tészták",
+      "type": "items",
+      "items": [
+        {"name": "Tagliatelle grillzöldséggel &amp; Grana Padano sajttal", "desc": "szalonnába göngyölt grillezett csirkemellel", "prices": ["€ 13,50", "€ 17,90"]},
+        {"name": "Spaghetti grillezett fűszeres garnélarákkal", "desc": "fokhagyma, párolt paradicsom &amp; Grana Padano", "price": "€ 20,90"}
+      ]
+    },
+    {
+      "title": "Halételek",
+      "type": "items",
+      "items": [
+        {"name": "Sült süllőfilé olvasztott vajjal", "desc": "burgonyával &amp; vegyes salátával", "price": "€ 20,90"},
+        {"name": "Vegyes halgrillezés", "desc": "süllő, saiblingi pisztráng, Szent Péter-hal és garnélarák, burgonyával &amp; vegyes salátával", "price": "€ 22,90"},
+        {"name": "Grillezett saiblingi pisztrángfilé", "desc": "rukolás tésztán &amp; párolt paradicsommal", "price": "€ 20,90"}
+      ]
+    },
+    {
+      "title": "Főételek",
+      "type": "items",
+      "items": [
+        {"name": "Vegyes grillezés", "desc": "marha, sertés, pulyka és grillkolbász, sültkrumplival &amp; fűszervajjal", "price": "€ 18,50"},
+        {"name": "Sertés Wiener schnitzel", "desc": "burgonyasalátával &amp; vörösáfonyával", "price": "€ 14,90"},
+        {"name": "Borjú Wiener schnitzel", "desc": "sült krumplival &amp; vörösáfonyával", "price": "€ 24,90"},
+        {"name": "Sváb serpenyő (Schwabenpfandl)", "desc": "sertésfilé-medaillonok gombás tejszínes szószban Spätzle-vel", "price": "€ 18,50"},
+        {"name": "Marhaszűz steak borsos mártással", "desc": "rösztivel", "price": "€ 25,90"},
+        {"name": "Grillezett rumpsteak", "desc": "sültkrumplival, pirított hagymával és vajbabbal", "price": "€ 26,90"},
+        {"name": "Bécsi hagymás rostélyos marhaszűzből", "desc": "burgonyával és vegyes salátával", "price": "€ 25,90"},
+        {"name": "Grillezett marhaszűz steak", "desc": "sültkrumplival, fűszervajjal és brokkolival", "price": "€ 33,90"}
+      ]
+    },
+    {
+      "title": "Saláták &amp; Snack",
+      "type": "items",
+      "items": [
+        {"name": "Kis vegyes saláta", "price": "€ 5,40"},
+        {"name": "Szezonális vegyes salátástál", "desc": "grillezett pulykaszeletekkel, kukoricával &amp; koktéldresszinggel", "price": "€ 15,90"},
+        {"desc": "sült csirkemellel &amp; stájer tökmag-olajjal", "price": "€ 17,50"},
+        {"desc": "grillezett garnélarákkal, balzsamecetes dresszinggel &amp; baguette-tel", "price": "€ 19,90"},
+        {"name": "Sült camembert", "desc": "vörösáfonyával, salátadíszítéssel és pirítóssal", "price": "€ 12,90"},
+        {"name": "Sült gombák", "desc": "remoulade mártással és salátadíszítéssel", "price": "€ 12,90"}
+      ]
+    },
+    {
+      "title": "Desszertek",
+      "type": "items",
+      "items": [
+        {"name": "Túrógombóc vajban pirított morzsával", "desc": "meggy-kompote-tal", "prices": ["1 db. € 7,50", "2 db. € 8,50"]},
+        {"name": "Palacsinta", "desc": "sárgabarack-lekvárral vagy vaníliafagylalttal", "prices": ["1 db. € 8,50", "2 db. € 9,50"]},
+        {"name": "Kaiserschmarrn", "desc": "szilva-kompote-tal vagy almaszósszal", "price": "€ 13,50"},
+        {"name": "Sörös tésztában sütött almafánk", "desc": "diófagylalttal &amp; tejszínhabbal", "price": "€ 9,90"},
+        {"name": "Vegyes fagylalt – eper, vanília &amp; csoki tejszínhabbal", "prices": ["2 gomb. € 5,90", "3 gomb. € 6,50"]},
+        {"name": "Jeges kávé – vanília fagylalt, kávé &amp; tejszínhab", "price": "€ 6,90"},
+        {"name": "Jeges csokoládé – vanília fagylalt, csokoládé &amp; tejszínhab", "price": "€ 6,90"},
+        {"name": "Gyümölcspohár – eperfagylalt, vanília fagylalt, friss gyümölcsök &amp; tejszínhab", "price": "€ 8,20"},
+        {"name": "Csokoládépohár – csokifagylalt, tojáslikőr &amp; tejszínhab", "price": "€ 8,20"},
+        {"name": "Diópohár – diófagylalt, diók, mogyorólikőr &amp; tejszínhab", "price": "€ 8,20"},
+        {"name": "Banánhasítás – vanília fagylalt, csokifagylalt, mandula, csokiszósz &amp; tejszínhab", "price": "€ 8,20"},
+        {"name": "Vanília fagylalt forró málnával vagy forró cseresznyével", "price": "€ 8,20"}
+      ]
+    },
+    {
+      "title": "Meleg italok",
+      "type": "drinks",
+      "items": [
+        {"name": "Csésze kávé", "price": "€ 3,90"},
+        {"name": "Adag kávé", "price": "€ 4,40"},
+        {"name": "Cappuccino", "price": "€ 4,20"},
+        {"name": "Latte Macchiato", "price": "€ 4,60"},
+        {"name": "Tejeskávé", "price": "€ 4,00"},
+        {"name": "Café Crème", "price": "€ 4,60"},
+        {"name": "Espresso", "price": "€ 4,60"},
+        {"name": "Pohár tea", "price": "€ 4,60"},
+        {"name": "Kanna tea", "price": "€ 4,60"},
+        {"name": "Forralt bor", "price": "€ 4,40"}
+      ]
+    },
+    {
+      "title": "Sörök – Wieninger Sörfőzde",
+      "type": "drinks",
+      "items": [
+        {"name": "Teisendorfer világos 0,3 l", "price": "€ 3,40"},
+        {"name": "Teisendorfer világos 0,5 l", "price": "€ 4,70"},
+        {"name": "Pils 0,3 l", "price": "€ 3,70"},
+        {"name": "Sötét lager 0,5 l", "price": "€ 5,50"},
+        {"name": "Búzasör 0,3 l", "price": "€ 3,80"},
+        {"name": "Búzasör 0,5 l", "price": "€ 4,80"},
+        {"name": "Sötét búzasör 0,5 l", "price": "€ 4,80"},
+        {"name": "Könnyű búzasör 0,5 l", "price": "€ 4,80"},
+        {"name": "Alkoholmentes búzasör 0,5 l", "price": "€ 4,60"},
+        {"name": "Radler 0,5 l", "price": "€ 4,50"},
+        {"name": "1813 Spezial szűretlen 0,5 l", "price": "€ 5,50"},
+        {"name": "Jever Fun alkoholmentes 0,33 l", "price": "€ 3,40"}
+      ]
+    },
+    {
+      "title": "Aperitifek",
+      "type": "drinks",
+      "items": [
+        {"name": "Campari 5 cl", "price": "€ 5,00"},
+        {"name": "Campari-narancs 5 cl", "price": "€ 6,20"},
+        {"name": "Sherry 5 cl", "price": "€ 4,50"},
+        {"name": "Piccolo Prosecco 0,2 l", "price": "€ 7,50"},
+        {"name": "Pohár pezsgő 0,1 l", "price": "€ 4,50"},
+        {"name": "Hugo", "price": "€ 5,50"},
+        {"name": "Aperol Spritz", "price": "€ 5,50"},
+        {"name": "Prosecco-Spritz-Aperol", "price": "€ 6,00"}
+      ]
+    },
+    {
+      "title": "Alkoholmentes italok",
+      "type": "drinks",
+      "items": [
+        {"name": "Asztali víz 0,3 l", "price": "€ 3,30"},
+        {"name": "Asztali víz 0,5 l", "price": "€ 3,80"},
+        {"name": "Ásványvíz 0,25 l", "price": "€ 3,50"},
+        {"name": "Ásványvíz 0,5 l", "price": "€ 4,50"},
+        {"name": "Libella limonádé 0,3 l", "price": "€ 3,60"},
+        {"name": "Libella limonádé 0,5 l", "price": "€ 4,20"},
+        {"name": "Cola 0,33 l", "price": "€ 3,90"},
+        {"name": "Fanta 0,33 l", "price": "€ 3,90"},
+        {"name": "Almdudler 0,33 l", "price": "€ 4,00"},
+        {"name": "Schweppes Bitter Lemon 0,2 l", "price": "€ 3,80"},
+        {"name": "Schweppes Tonic 0,2 l", "price": "€ 3,80"},
+        {"name": "Gyümölcslé-fröccs 0,3 l", "price": "€ 4,80"}
+      ]
+    },
+    {
+      "title": "Fehérborok",
+      "type": "wine",
+      "items": [
+        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Alsó-Ausztria", "price": "1/8 l &nbsp; € 3,20"},
+        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Alsó-Ausztria", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Weißburgunder", "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+      ]
+    },
+    {
+      "title": "Rozé",
+      "type": "wine",
+      "items": [
+        {"name": "Portugieser Rosé", "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz", "price": "1/8 l &nbsp; € 3,00"},
+        {"name": "Heideboden Rosé – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+      ]
+    },
+    {
+      "title": "Vörösborok",
+      "type": "wine",
+      "items": [
+        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Alsó-Ausztria", "price": "1/8 l &nbsp; € 3,20"},
+        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Alsó-Ausztria", "price": "1/8 l &nbsp; € 4,50"},
+        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
+        {"name": "Borfröccs fehér vagy vörös", "price": "1/4 l &nbsp; € 3,80"}
+      ]
+    }
+  ]
+}

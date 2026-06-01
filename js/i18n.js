@@ -1,7 +1,7 @@
 const cache = {};
 let currentLang = localStorage.getItem('mayrwirt-lang') || 'de';
 
-const menuUrls = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/de.html', cs: 'Karte/de.html' };
+const menuUrls = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html' };
 
 async function loadLocale(lang) {
     if (!cache[lang]) {
