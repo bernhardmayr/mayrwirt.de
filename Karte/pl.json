@@ -1,0 +1,177 @@
+{
+  "title": "Karta",
+  "subtitle": "Gospoda &amp; Rzeźnictwo Mayrwirt · Saaldorf",
+  "note": "Wina w butelkach dostępne są w naszej karcie win.<br>Alergeny podane są w naszej karcie informacyjnej — zapytaj naszego personelu.",
+  "sections": [
+    {
+      "title": "Przystawki",
+      "type": "items",
+      "items": [
+        {"name": "Carpaccio z Polędwicy Wołowej", "desc": "z oliwą z oliwek, cytryną, Grana Padano, sałatką mixową &amp; bagietką", "price": "€ 15,50"},
+        {"name": "Karmelizowany Ser Kozi", "desc": "z chutney gruszkowym &amp; sałatką z cykorii i pomarańczy", "price": "€ 13,90"},
+        {"name": "Bruschetta", "desc": "Pomidory, czosnek &amp; oliwa z oliwek na białym pieczywie", "price": "€ 9,80"}
+      ]
+    },
+    {
+      "title": "Zupy",
+      "type": "items",
+      "items": [
+        {"name": "Rosół z Naleśnikami", "price": "€ 5,50"},
+        {"name": "Zupa Czosnkowa z Grzankami", "price": "€ 5,50"},
+        {"name": "Rosół z Kluseczkami Wątrobianymi", "price": "€ 6,50"}
+      ]
+    },
+    {
+      "title": "Makaron",
+      "type": "items",
+      "items": [
+        {"name": "Tagliatelle z Grillowanymi Warzywami &amp; Grana Padano", "desc": "z piersią z kurczaka zawijana w boczek", "prices": ["€ 13,50", "€ 17,90"]},
+        {"name": "Spaghetti z Krewetkami Ziołowymi", "desc": "Czosnek, duszone pomidory &amp; Grana Padano", "price": "€ 20,90"}
+      ]
+    },
+    {
+      "title": "Ryby",
+      "type": "items",
+      "items": [
+        {"name": "Sandacz Smażony z Klarowanym Masłem", "desc": "Ziemniaki &amp; sałatka mixowa", "price": "€ 20,90"},
+        {"name": "Mieszana Grillada Rybna", "desc": "Sandacz, palia, świętopiotrowiec &amp; krewetki, z ziemniakami &amp; sałatką mixową", "price": "€ 22,90"},
+        {"name": "Grillowana Palia", "desc": "na makaronie z rukolą &amp; duszonymi pomidorami", "price": "€ 20,90"}
+      ]
+    },
+    {
+      "title": "Dania Główne",
+      "type": "items",
+      "items": [
+        {"name": "Mieszana Grillada", "desc": "Wołowina, wieprzowina, indyk &amp; kiełbasa z grilla, z frytkami &amp; masłem ziołowym", "price": "€ 18,50"},
+        {"name": "Wiedeński Sznycel Wieprzowy", "desc": "z sałatką ziemniaczaną &amp; żurawiną", "price": "€ 14,90"},
+        {"name": "Wiener Schnitzel Cielęcy", "desc": "z smażonymi ziemniakami &amp; żurawiną", "price": "€ 24,90"},
+        {"name": "Szwabska Patelnia (Schwabenpfandl)", "desc": "Medaliony z polędwicy wieprzowej w sosie grzybowym ze Spätzle", "price": "€ 18,50"},
+        {"name": "Polędwica Wołowa w Sosie Pieprzowym", "desc": "z ziemniaczanym rösti", "price": "€ 25,90"},
+        {"name": "Grillowany Antrykot", "desc": "z frytkami, złocistą cebulką &amp; fasolką szparagową z masłem", "price": "€ 26,90"},
+        {"name": "Pieczony Rostbef z Cebulą po Wiedeńsku", "desc": "z ziemniakami &amp; sałatką mixową", "price": "€ 25,90"},
+        {"name": "Grillowany Stek z Polędwicy Wołowej", "desc": "z frytkami, masłem ziołowym &amp; brokułami", "price": "€ 33,90"}
+      ]
+    },
+    {
+      "title": "Sałatki &amp; Przekąski",
+      "type": "items",
+      "items": [
+        {"name": "Mała Sałatka Mixowa", "price": "€ 5,40"},
+        {"name": "Sezonowa Sałatka Mixowa", "desc": "z paskami grillowanego indyka, kukurydzą &amp; sosem koktajlowym", "price": "€ 15,90"},
+        {"desc": "z chrupiącą piersią z kurczaka &amp; olejem z pestek dyni ze Styrii", "price": "€ 17,50"},
+        {"desc": "z grillowanymi krewetkami, octem balsamicznym &amp; bagietką", "price": "€ 19,90"},
+        {"name": "Smażony Camembert", "desc": "z żurawiną, dodatkami sałatkowymi &amp; tostami", "price": "€ 12,90"},
+        {"name": "Smażone Pieczarki", "desc": "z sosem remoulade &amp; dodatkami sałatkowymi", "price": "€ 12,90"}
+      ]
+    },
+    {
+      "title": "Desery",
+      "type": "items",
+      "items": [
+        {"name": "Kopytka Twarogowe w Maślanej Bułce Tartej", "desc": "z kompotem z wiśni", "prices": ["1 szt. € 7,50", "2 szt. € 8,50"]},
+        {"name": "Naleśniki", "desc": "z dżemem morelowym lub lodami waniliowymi", "prices": ["1 szt. € 8,50", "2 szt. € 9,50"]},
+        {"name": "Kaiserschmarrn", "desc": "z kompotem śliwkowym lub musem jabłkowym", "price": "€ 13,50"},
+        {"name": "Racuchy Jabłkowe w Cieście Piwnym", "desc": "z lodami orzechowymi &amp; bitą śmietaną", "price": "€ 9,90"},
+        {"name": "Mieszane Lody – Truskawka, Wanilia &amp; Czekolada z Bitą Śmietaną", "prices": ["2 gał. € 5,90", "3 gał. € 6,50"]},
+        {"name": "Kawa Mrożona – Lody Waniliowe, Kawa &amp; Bita Śmietana", "price": "€ 6,90"},
+        {"name": "Czekolada Mrożona – Lody Waniliowe, Czekolada &amp; Bita Śmietana", "price": "€ 6,90"},
+        {"name": "Puchar Owocowy – Lody Truskawkowe, Waniliowe, Świeże Owoce &amp; Bita Śmietana", "price": "€ 8,20"},
+        {"name": "Puchar Czekoladowy – Lody Czekoladowe, Advocaat &amp; Bita Śmietana", "price": "€ 8,20"},
+        {"name": "Puchar Orzechowy – Lody Orzechowe, Orzechy, Likier Orzechowy &amp; Bita Śmietana", "price": "€ 8,20"},
+        {"name": "Banana Split – Lody Waniliowe, Czekoladowe, Migdały, Sos Czekoladowy &amp; Bita Śmietana", "price": "€ 8,20"},
+        {"name": "Lody Waniliowe z Gorącymi Malinami lub Gorącymi Wiśniami", "price": "€ 8,20"}
+      ]
+    },
+    {
+      "title": "Napoje Gorące",
+      "type": "drinks",
+      "items": [
+        {"name": "Filiżanka Kawy", "price": "€ 3,90"},
+        {"name": "Kawa w Dzbanku", "price": "€ 4,40"},
+        {"name": "Cappuccino", "price": "€ 4,20"},
+        {"name": "Latte Macchiato", "price": "€ 4,60"},
+        {"name": "Kawa z Mlekiem", "price": "€ 4,00"},
+        {"name": "Café Crème", "price": "€ 4,60"},
+        {"name": "Espresso", "price": "€ 4,60"},
+        {"name": "Herbata (szklanka)", "price": "€ 4,60"},
+        {"name": "Herbata (imbryk)", "price": "€ 4,60"},
+        {"name": "Grzane wino", "price": "€ 4,40"}
+      ]
+    },
+    {
+      "title": "Piwa – Browar Wieninger",
+      "type": "drinks",
+      "items": [
+        {"name": "Jasny lager 0,3 l", "price": "€ 3,40"},
+        {"name": "Jasny lager 0,5 l", "price": "€ 4,70"},
+        {"name": "Pilsner 0,3 l", "price": "€ 3,70"},
+        {"name": "Ciemny lager 0,5 l", "price": "€ 5,50"},
+        {"name": "Piwo pszeniczne 0,3 l", "price": "€ 3,80"},
+        {"name": "Piwo pszeniczne 0,5 l", "price": "€ 4,80"},
+        {"name": "Ciemne piwo pszeniczne 0,5 l", "price": "€ 4,80"},
+        {"name": "Radler 0,5 l", "price": "€ 4,50"},
+        {"name": "Piwo bezalkoholowe 0,5 l", "price": "€ 4,60"},
+        {"name": "1813 Specjalne 0,5 l", "price": "€ 5,50"}
+      ]
+    },
+    {
+      "title": "Aperitify",
+      "type": "drinks",
+      "items": [
+        {"name": "Campari 5 cl", "price": "€ 5,00"},
+        {"name": "Campari pomarańczowe 5 cl", "price": "€ 6,20"},
+        {"name": "Sherry 5 cl", "price": "€ 4,50"},
+        {"name": "Prosecco małe 0,2 l", "price": "€ 7,50"},
+        {"name": "Kieliszek szampana 0,1 l", "price": "€ 4,50"},
+        {"name": "Hugo", "price": "€ 5,50"},
+        {"name": "Aperol Spritz", "price": "€ 5,50"},
+        {"name": "Prosecco-Spritz-Aperol", "price": "€ 6,00"}
+      ]
+    },
+    {
+      "title": "Napoje Bezalkoholowe",
+      "type": "drinks",
+      "items": [
+        {"name": "Woda niegazowana 0,3 l", "price": "€ 3,30"},
+        {"name": "Woda niegazowana 0,5 l", "price": "€ 3,80"},
+        {"name": "Woda mineralna 0,25 l", "price": "€ 3,50"},
+        {"name": "Woda mineralna 0,5 l", "price": "€ 4,50"},
+        {"name": "Lemoniada 0,3 l", "price": "€ 3,60"},
+        {"name": "Cola 0,33 l", "price": "€ 3,90"},
+        {"name": "Fanta 0,33 l", "price": "€ 3,90"},
+        {"name": "Tonic water 0,2 l", "price": "€ 3,80"},
+        {"name": "Bitter Lemon 0,2 l", "price": "€ 3,80"},
+        {"name": "Sok owocowy 0,3 l", "price": "€ 4,80"}
+      ]
+    },
+    {
+      "title": "Wina Białe",
+      "type": "wine",
+      "items": [
+        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Dolna Austria", "price": "1/8 l &nbsp; € 3,20"},
+        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Dolna Austria", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Palatynat", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Pinot Blanc (Weißburgunder)", "producer": "Winzer Matthias Glaser – Hainfeld / Palatynat", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+      ]
+    },
+    {
+      "title": "Różowe",
+      "type": "wine",
+      "items": [
+        {"name": "Portugieser Rosé", "producer": "Winzer Matthias Glaser – Hainfeld / Palatynat", "price": "1/8 l &nbsp; € 3,00"},
+        {"name": "Heideboden Rosé – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+      ]
+    },
+    {
+      "title": "Wina Czerwone",
+      "type": "wine",
+      "items": [
+        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Dolna Austria", "price": "1/8 l &nbsp; € 3,20"},
+        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Dolna Austria", "price": "1/8 l &nbsp; € 4,50"},
+        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
+        {"name": "Musujące białe lub czerwone", "price": "1/4 l &nbsp; € 3,80"}
+      ]
+    }
+  ]
+}

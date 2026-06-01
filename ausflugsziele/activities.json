@@ -89,6 +89,78 @@
       "cats": {"mountains": "Hory & Turistika", "lakes": "Jezera & Koupání", "city": "Města & Kultura", "museum": "Interiér & Muzea", "sport": "Sport & Akce", "wellness": "Wellness & Lázně"},
       "seasons": {"summer": "Léto", "winter": "Zima", "allyear": "Celoročně", "indoor": "Vhodné za deště"},
       "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+    },
+    "es": {
+      "title": "Excursiones alrededor del Mayrwirt",
+      "subtitle": "Más de 30 ideas de excursión en un radio de 50 km — montañas, lagos, cultura y más",
+      "intro": "Saaldorf-Surheim se encuentra en una posición ideal entre Salzburgo, Bad Reichenhall y Berchtesgaden. Filtra por interés, distancia y tiempo — y descubre los destinos más bonitos de la región.",
+      "found": "destinos encontrados",
+      "none": "No hay destinos para esta selección — por favor ajusta los filtros.",
+      "reset": "Restablecer filtros",
+      "more": "Más información",
+      "back": "Volver al sitio",
+      "filterRole": "¿Para quién?",
+      "filterCat": "Categoría",
+      "filterDist": "Distancia",
+      "filterSeason": "Estación / Tiempo",
+      "roles": {"family": "Familia", "couple": "Parejas", "active": "Activos & Deportistas", "culture": "Cultura & Disfrute"},
+      "cats": {"mountains": "Montañas & Senderismo", "lakes": "Lagos & Baño", "city": "Ciudades & Cultura", "museum": "Interior & Museos", "sport": "Deporte & Acción", "wellness": "Bienestar & Spa"},
+      "seasons": {"summer": "Verano", "winter": "Invierno", "allyear": "Todo el año", "indoor": "Apto para lluvia"},
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+    },
+    "fr": {
+      "title": "Excursions autour du Mayrwirt",
+      "subtitle": "Plus de 30 idées d'excursion dans un rayon de 50 km — montagnes, lacs, culture et plus",
+      "intro": "Saaldorf-Surheim est idéalement situé entre Salzbourg, Bad Reichenhall et Berchtesgaden. Filtrez par intérêt, distance et météo — et découvrez les plus belles destinations de la région.",
+      "found": "destinations trouvées",
+      "none": "Aucune destination pour cette sélection — veuillez ajuster les filtres.",
+      "reset": "Réinitialiser les filtres",
+      "more": "En savoir plus",
+      "back": "Retour au site",
+      "filterRole": "Pour qui ?",
+      "filterCat": "Catégorie",
+      "filterDist": "Distance",
+      "filterSeason": "Saison / Météo",
+      "roles": {"family": "Famille", "couple": "Couples", "active": "Actifs & Sportifs", "culture": "Culture & Plaisir"},
+      "cats": {"mountains": "Montagnes & Randonnée", "lakes": "Lacs & Baignade", "city": "Villes & Culture", "museum": "Intérieur & Musées", "sport": "Sport & Action", "wellness": "Bien-être & Spa"},
+      "seasons": {"summer": "Été", "winter": "Hiver", "allyear": "Toute l'année", "indoor": "Par tous les temps"},
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+    },
+    "pl": {
+      "title": "Wycieczki w okolicach Mayrwirt",
+      "subtitle": "Ponad 30 pomysłów na wycieczki w promieniu 50 km — góry, jeziora, kultura i więcej",
+      "intro": "Saaldorf-Surheim leży idealnie między Salzburgiem, Bad Reichenhall a Berchtesgaden. Filtruj według zainteresowań, odległości i pogody — i odkryj najpiękniejsze destynacje regionu.",
+      "found": "znalezionych destynacji",
+      "none": "Brak destynacji dla tego wyboru — zmień filtry.",
+      "reset": "Resetuj filtry",
+      "more": "Więcej informacji",
+      "back": "Powrót do strony",
+      "filterRole": "Dla kogo?",
+      "filterCat": "Kategoria",
+      "filterDist": "Odległość",
+      "filterSeason": "Pora roku / Pogoda",
+      "roles": {"family": "Rodzina", "couple": "Pary", "active": "Aktywni & Sportowcy", "culture": "Kultura & Przyjemność"},
+      "cats": {"mountains": "Góry & Turystyka", "lakes": "Jeziora & Kąpiel", "city": "Miasta & Kultura", "museum": "Wnętrza & Muzea", "sport": "Sport & Akcja", "wellness": "Wellness & Spa"},
+      "seasons": {"summer": "Lato", "winter": "Zima", "allyear": "Cały rok", "indoor": "Na deszczową pogodę"},
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+    },
+    "hr": {
+      "title": "Izleti u okolici Mayrwirta",
+      "subtitle": "Više od 30 ideja za izlete u radijusu od 50 km — planine, jezera, kultura i više",
+      "intro": "Saaldorf-Surheim se nalazi idealno između Salzburga, Bad Reichenhalla i Berchtesgadena. Filtrirajte prema interesu, udaljenosti i vremenu — i otkrijte najljepše destinacije regije.",
+      "found": "pronađenih destinacija",
+      "none": "Nema destinacija za ovaj odabir — prilagodite filtere.",
+      "reset": "Resetiraj filtere",
+      "more": "Saznaj više",
+      "back": "Povratak na stranicu",
+      "filterRole": "Za koga?",
+      "filterCat": "Kategorija",
+      "filterDist": "Udaljenost",
+      "filterSeason": "Godišnje doba / Vrijeme",
+      "roles": {"family": "Obitelj", "couple": "Parovi", "active": "Aktivni & Sportaši", "culture": "Kultura & Užitak"},
+      "cats": {"mountains": "Planine & Pješačenje", "lakes": "Jezera & Kupanje", "city": "Gradovi & Kultura", "museum": "Zatvoreni prostori & Muzeji", "sport": "Sport & Akcija", "wellness": "Wellness & Spa"},
+      "seasons": {"summer": "Ljeto", "winter": "Zima", "allyear": "Cijelu godinu", "indoor": "Prikladno za kišu"},
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
     }
   },
   "activities": [
@@ -100,7 +172,11 @@
         "en": {"name": "Lake Abtsdorf", "town": "Saaldorf-Surheim", "desc": "Bavaria's warmest lake — perfect for swimming, pedal-boating and strolls with Alpine views."},
         "it": {"name": "Lago di Abtsdorf", "town": "Saaldorf-Surheim", "desc": "Il lago più caldo della Baviera — ideale per nuotare, pedalò e passeggiate con vista sulle Alpi."},
         "hu": {"name": "Abtsdorfi-tó", "town": "Saaldorf-Surheim", "desc": "Bajorország legmelegebb tava — ideális fürdéshez, vízibiciklizéshez és sétához alpesi kilátással."},
-        "cs": {"name": "Abtsdorfské jezero", "town": "Saaldorf-Surheim", "desc": "Nejteplejší jezero v Bavorsku — ideální ke koupání, šlapadlům a procházkám s výhledem na Alpy."}
+        "cs": {"name": "Abtsdorfské jezero", "town": "Saaldorf-Surheim", "desc": "Nejteplejší jezero v Bavorsku — ideální ke koupání, šlapadlům a procházkám s výhledem na Alpy."},
+        "es": {"name": "Lago Abtsdorf", "town": "Saaldorf-Surheim", "desc": "El lago más cálido de Baviera — ideal para nadar, pedalear y pasear con vistas a los Alpes."},
+        "fr": {"name": "Lac d'Abtsdorf", "town": "Saaldorf-Surheim", "desc": "Le lac le plus chaud de Bavière — idéal pour nager, faire du pédalo et se promener avec vue sur les Alpes."},
+        "pl": {"name": "Jezioro Abtsdorf", "town": "Saaldorf-Surheim", "desc": "Najcieplejsze jezioro w Bawarii — idealne do pływania, rowerów wodnych i spacerów z widokiem na Alpy."},
+        "hr": {"name": "Jezero Abtsdorf", "town": "Saaldorf-Surheim", "desc": "Najtoplije jezero u Bavarskoj — idealno za plivanje, pedaline i šetnje s pogledom na Alpe."}
       }
     },
     {
@@ -111,7 +187,11 @@
         "en": {"name": "Haarmoos & Moor Lake", "town": "Leobendorf", "desc": "A vast nature reserve with a moor bathing lake, cycle paths and rare birds — pure tranquillity."},
         "it": {"name": "Haarmoos & lago di torbiera", "town": "Leobendorf", "desc": "Ampia riserva naturale con lago balneabile di torbiera, piste ciclabili e uccelli rari — pura quiete."},
         "hu": {"name": "Haarmoos & láp-fürdőtó", "town": "Leobendorf", "desc": "Tágas természetvédelmi terület láptóval, kerékpárutakkal és ritka madarakkal — maga a nyugalom."},
-        "cs": {"name": "Haarmoos & rašelinné jezero", "town": "Leobendorf", "desc": "Rozlehlá přírodní rezervace s rašelinným koupacím jezerem, cyklostezkami a vzácnými ptáky — naprostý klid."}
+        "cs": {"name": "Haarmoos & rašelinné jezero", "town": "Leobendorf", "desc": "Rozlehlá přírodní rezervace s rašelinným koupacím jezerem, cyklostezkami a vzácnými ptáky — naprostý klid."},
+        "es": {"name": "Haarmoos & Lago de turba", "town": "Leobendorf", "desc": "Amplia reserva natural con lago de turba, carriles bici y aves raras — pura tranquilidad."},
+        "fr": {"name": "Haarmoos & Lac de tourbière", "town": "Leobendorf", "desc": "Vaste réserve naturelle avec lac de tourbière, pistes cyclables et oiseaux rares — calme absolu."},
+        "pl": {"name": "Haarmoos & Torfowe Jezioro", "town": "Leobendorf", "desc": "Rozległy rezerwat przyrody z torfowym jeziorem kąpielowym, ścieżkami rowerowymi i rzadkimi ptakami — czysta cisza."},
+        "hr": {"name": "Haarmoos & Tresetno jezero", "town": "Leobendorf", "desc": "Prostran prirodni rezervat s tresetnim kupališnim jezerom, biciklističkim stazama i rijetkim pticama — čisti mir."}
       }
     },
     {
@@ -122,7 +202,11 @@
         "en": {"name": "Surheim Circular Trail", "town": "Saaldorf-Surheim", "desc": "An easy, well-paved circular walk right on the doorstep — perfect for families."},
         "it": {"name": "Anello di Surheim", "town": "Saaldorf-Surheim", "desc": "Facile sentiero ad anello ben percorribile, proprio dietro l'angolo — ideale per famiglie."},
         "hu": {"name": "Surheimi körtúra", "town": "Saaldorf-Surheim", "desc": "Könnyű, jól járható körtúra rögtön a ház előtt — tökéletes családoknak."},
-        "cs": {"name": "Surheimský okruh", "town": "Saaldorf-Surheim", "desc": "Snadný, dobře schůdný okružní okruh hned za dveřmi — ideální pro rodiny."}
+        "cs": {"name": "Surheimský okruh", "town": "Saaldorf-Surheim", "desc": "Snadný, dobře schůdný okružní okruh hned za dveřmi — ideální pro rodiny."},
+        "es": {"name": "Ruta circular de Surheim", "town": "Saaldorf-Surheim", "desc": "Sendero circular fácil y bien transitado, justo a la vuelta de la esquina — perfecto para familias."},
+        "fr": {"name": "Circuit de Surheim", "town": "Saaldorf-Surheim", "desc": "Facile promenade circulaire bien balisée, juste à la porte — parfait pour les familles."},
+        "pl": {"name": "Pętla Surheim", "town": "Saaldorf-Surheim", "desc": "Łatwa, dobrze utwardzona pętla spacerowa tuż za progiem — idealna dla rodzin."},
+        "hr": {"name": "Surheimska kružna staza", "town": "Saaldorf-Surheim", "desc": "Lagana, dobro prohodna kružna staza odmah pred kućom — savršeno za obitelji."}
       }
     },
     {
@@ -133,7 +217,11 @@
         "en": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Railway museum with historic locomotives on 17 tracks and a train simulator to ride."},
         "it": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Museo ferroviario con locomotive storiche su 17 binari e un simulatore di guida."},
         "hu": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Vasúti múzeum történelmi mozdonyokkal 17 vágányon és mozdonyszimulátorral."},
-        "cs": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Železniční muzeum s historickými lokomotivami na 17 kolejích a simulátorem jízdy."}
+        "cs": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Železniční muzeum s historickými lokomotivami na 17 kolejích a simulátorem jízdy."},
+        "es": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Museo ferroviario con locomotoras históricas en 17 vías y un simulador de conducción."},
+        "fr": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Musée ferroviaire avec des locomotives historiques sur 17 voies et un simulateur de conduite."},
+        "pl": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Muzeum kolejowe z historycznymi lokomotywami na 17 torach i symulatorem jazdy."},
+        "hr": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Željezničarski muzej s povijesnim lokomotivama na 17 tračnica i simulatorom vožnje."}
       }
     },
     {
@@ -144,7 +232,11 @@
         "en": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Huge sports centre with indoor pool, climbing hall, skate park and gyms — for any weather."},
         "it": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Enorme centro sportivo con piscina coperta, palestra di arrampicata, skatepark e palestre."},
         "hu": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Hatalmas sportközpont fedett uszodával, mászócsarnokkal, gördeszkapályával és tornatermekkel."},
-        "cs": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Obrovské sportovní centrum s krytým bazénem, lezeckou halou, skateparkem a tělocvičnami."}
+        "cs": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Obrovské sportovní centrum s krytým bazénem, lezeckou halou, skateparkem a tělocvičnami."},
+        "es": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Gran centro deportivo con piscina cubierta, rocódromo, skatepark y gimnasios para cualquier clima."},
+        "fr": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Immense centre sportif avec piscine couverte, salle d'escalade, skatepark et gymnases — par tous les temps."},
+        "pl": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Ogromne centrum sportowe z krytym basenem, ścianką wspinaczkową, skateparkiem i salami gimnastycznymi."},
+        "hr": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Golem sportski centar s unutarnjim bazenom, dvoranom za penjanje, skate-parkom i sportskim dvoranama."}
       }
     },
     {
@@ -155,7 +247,11 @@
         "en": {"name": "Achthal Mining Museum", "town": "Teisendorf", "desc": "Fascinating insights into centuries of iron mining on the Teisenberg."},
         "it": {"name": "Museo minerario di Achthal", "town": "Teisendorf", "desc": "Affascinanti approfondimenti sull'estrazione del ferro sul Teisenberg, vecchia di secoli."},
         "hu": {"name": "Achthali Bányászati Múzeum", "town": "Teisendorf", "desc": "Izgalmas betekintés a Teisenberg több évszázados vasérc-kitermelésébe."},
-        "cs": {"name": "Hornické muzeum Achthal", "town": "Teisendorf", "desc": "Zajímavý pohled do staletí těžby železné rudy na hoře Teisenberg."}
+        "cs": {"name": "Hornické muzeum Achthal", "town": "Teisendorf", "desc": "Zajímavý pohled do staletí těžby železné rudy na hoře Teisenberg."},
+        "es": {"name": "Museo Minero de Achthal", "town": "Teisendorf", "desc": "Fascinantes perspectivas sobre siglos de extracción de hierro en el Teisenberg."},
+        "fr": {"name": "Musée minier d'Achthal", "town": "Teisendorf", "desc": "Aperçus fascinants sur des siècles d'extraction de fer sur le Teisenberg."},
+        "pl": {"name": "Muzeum Górnicze Achthal", "town": "Teisendorf", "desc": "Fascynujące spojrzenie na wieki wydobycia rudy żelaza na górze Teisenberg."},
+        "hr": {"name": "Rudarski muzej Achthal", "town": "Teisendorf", "desc": "Fascinantni uvid u stoljetno rudarenje željezne rude na Teisenbergu."}
       }
     },
     {
@@ -166,7 +262,11 @@
         "en": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Toy museum, a vast model-railway world and an adventure playground for the whole family."},
         "it": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Museo del giocattolo, immenso mondo di trenini e parco avventura per tutta la famiglia."},
         "hu": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Játékmúzeum, hatalmas modellvasút-világ és kalandjátszótér az egész családnak."},
-        "cs": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Muzeum hraček, obrovský svět modelové železnice a dobrodružné hřiště pro celou rodinu."}
+        "cs": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Muzeum hraček, obrovský svět modelové železnice a dobrodružné hřiště pro celou rodinu."},
+        "es": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Museo de juguetes, un vasto mundo de trenes de maqueta y un parque de aventuras para toda la familia."},
+        "fr": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Musée du jouet, un vaste monde de trains miniatures et un terrain d'aventure pour toute la famille."},
+        "pl": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Muzeum zabawek, ogromny świat kolejek modelowych i plac zabaw przygodowych dla całej rodziny."},
+        "hr": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Muzej igračaka, ogroman svijet modelnih željeznica i pustolovni igralište za cijelu obitelj."}
       }
     },
     {
@@ -177,7 +277,11 @@
         "en": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Heated open-air pool with views of the Hochstaufen — a relaxed day out for all the family."},
         "it": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Piscina all'aperto riscaldata con vista sull'Hochstaufen — una giornata in relax per tutta la famiglia."},
         "hu": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Fűtött szabadtéri fürdő a Hochstaufenre néző kilátással — pihentető fürdőnap az egész családnak."},
-        "cs": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Vyhřívané venkovní koupaliště s výhledem na Hochstaufen — pohodový den pro celou rodinu."}
+        "cs": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Vyhřívané venkovní koupaliště s výhledem na Hochstaufen — pohodový den pro celou rodinu."},
+        "es": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Piscina exterior climatizada con vistas al Hochstaufen — un día relajado en familia."},
+        "fr": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Piscine extérieure chauffée avec vue sur le Hochstaufen — une journée détendue pour toute la famille."},
+        "pl": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Ogrzewany odkryty basen z widokiem na Hochstaufen — relaksujący dzień dla całej rodziny."},
+        "hr": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Grijani otvoreni bazen s pogledom na Hochstaufen — opušteni dan za cijelu obitelj."}
       }
     },
     {
@@ -188,7 +292,11 @@
         "en": {"name": "Old Salt Works & Salt Museum", "town": "Bad Reichenhall", "desc": "A fascinating guided tour through the historic tunnel system of the royal salt works."},
         "it": {"name": "Antica Salina & Museo del Sale", "town": "Bad Reichenhall", "desc": "Affascinante visita guidata nell'antico sistema di gallerie della salina reale."},
         "hu": {"name": "Régi Sópárlda & Sómúzeum", "town": "Bad Reichenhall", "desc": "Lenyűgöző vezetett túra a királyi sópárlda történelmi tárórendszerében."},
-        "cs": {"name": "Stará solivarna & muzeum soli", "town": "Bad Reichenhall", "desc": "Fascinující prohlídka historického systému štol královské solivarny."}
+        "cs": {"name": "Stará solivarna & muzeum soli", "town": "Bad Reichenhall", "desc": "Fascinující prohlídka historického systému štol královské solivarny."},
+        "es": {"name": "Antigua Salina & Museo de la Sal", "town": "Bad Reichenhall", "desc": "Una fascinante visita guiada por el histórico sistema de túneles de la salina real."},
+        "fr": {"name": "Ancienne Saline & Musée du Sel", "town": "Bad Reichenhall", "desc": "Une visite guidée fascinante dans le système historique de galeries de la saline royale."},
+        "pl": {"name": "Stara Warzelnia Soli & Muzeum Soli", "town": "Bad Reichenhall", "desc": "Fascynująca wycieczka z przewodnikiem przez historyczny system tuneli królewskiej warzelni soli."},
+        "hr": {"name": "Stara Solana & Muzej soli", "town": "Bad Reichenhall", "desc": "Fascinantno vođenje kroz povijesni sustav hodnika kraljevske solane."}
       }
     },
     {
@@ -199,7 +307,11 @@
         "en": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "A thermal-spa and sauna paradise with Alpine brine, an adventure slide and a family pool."},
         "it": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Paradiso di terme e saune con acqua salina alpina, scivolo avventura e piscina famiglie."},
         "hu": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Termál- és szaunaparadicsom alpesi sóoldattal, élménycsúszdával és családi medencével."},
-        "cs": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Termální a saunový ráj s alpskou solankou, zážitkovou skluzavkou a rodinným bazénem."}
+        "cs": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Termální a saunový ráj s alpskou solankou, zážitkovou skluzavkou a rodinným bazénem."},
+        "es": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Paraíso termal y de sauna con salmuera alpina, tobogán de aventura y piscina familiar."},
+        "fr": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Paradis thermal et de sauna avec saumure alpine, toboggan d'aventure et bassin familial."},
+        "pl": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Raj termalny i saunowy z alpską solanką, zjeżdżalnią przygodową i basenem rodzinnym."},
+        "hr": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Raj termalnih kupelji i sauna s alpskom slanom vodom, pustolovnom toboganom i obiteljskim bazenom."}
       }
     },
     {
@@ -210,7 +322,11 @@
         "en": {"name": "Predigtstuhl Cable Car", "town": "Bad Reichenhall", "desc": "The world's oldest original large-cabin cable car — up to a panoramic mountain."},
         "it": {"name": "Funivia del Predigtstuhl", "town": "Bad Reichenhall", "desc": "La più antica funivia a grandi cabine ancora originale al mondo — su fino al monte panoramico."},
         "hu": {"name": "Predigtstuhl libegő", "town": "Bad Reichenhall", "desc": "A világ legrégebbi, eredeti nagykabinos kötélpályája — fel a kilátóhegyre."},
-        "cs": {"name": "Lanovka Predigtstuhl", "town": "Bad Reichenhall", "desc": "Nejstarší původní velkokabinová lanovka na světě — nahoru na vyhlídkovou horu."}
+        "cs": {"name": "Lanovka Predigtstuhl", "town": "Bad Reichenhall", "desc": "Nejstarší původní velkokabinová lanovka na světě — nahoru na vyhlídkovou horu."},
+        "es": {"name": "Teleférico del Predigtstuhl", "town": "Bad Reichenhall", "desc": "El teleférico de cabina grande original más antiguo del mundo — hasta la montaña panorámica."},
+        "fr": {"name": "Téléphérique du Predigtstuhl", "town": "Bad Reichenhall", "desc": "Le plus ancien téléphérique original à grandes cabines du monde — jusqu'au mont panoramique."},
+        "pl": {"name": "Kolejka linowa Predigtstuhl", "town": "Bad Reichenhall", "desc": "Najstarszy oryginalny telefer wielkokabinowy na świecie — na górę widokową."},
+        "hr": {"name": "Žičara Predigtstuhl", "town": "Bad Reichenhall", "desc": "Najstarija originalna žičara s velikim kabinama na svijetu — gore na panoramsku planinu."}
       }
     },
     {
@@ -221,7 +337,11 @@
         "en": {"name": "Graduation Tower & Spa Gardens", "town": "Bad Reichenhall", "desc": "Breathe healing brine air in the spacious spa gardens with their historic graduation tower."},
         "it": {"name": "Torre di gradazione & Giardini termali", "town": "Bad Reichenhall", "desc": "Respira aria salina curativa negli ampi giardini termali con la storica torre di gradazione."},
         "hu": {"name": "Sógrádirozó & Gyógypark", "town": "Bad Reichenhall", "desc": "Lélegezzen be gyógyító sólevegőt a tágas gyógyparkban, történelmi sógrádirozóval."},
-        "cs": {"name": "Gradovna & lázeňský park", "town": "Bad Reichenhall", "desc": "Dýchejte léčivý solankový vzduch v rozlehlém lázeňském parku s historickou gradovnou."}
+        "cs": {"name": "Gradovna & lázeňský park", "town": "Bad Reichenhall", "desc": "Dýchejte léčivý solankový vzduch v rozlehlém lázeňském parku s historickou gradovnou."},
+        "es": {"name": "Torre de Gradación & Jardines termales", "town": "Bad Reichenhall", "desc": "Respire el aire curativo de salmuera en los amplios jardines termales con su histórica torre de gradación."},
+        "fr": {"name": "Tour de graduation & Jardins thermaux", "town": "Bad Reichenhall", "desc": "Respirez l'air thérapeutique de saumure dans les vastes jardins thermaux avec leur historique tour de graduation."},
+        "pl": {"name": "Wieża Solna & Park Uzdrowiskowy", "town": "Bad Reichenhall", "desc": "Oddychaj leczniczym powietrzem solanki w rozległym parku uzdrowiskowym z historyczną wieżą solną."},
+        "hr": {"name": "Gradirnica & Lječilišni park", "town": "Bad Reichenhall", "desc": "Udišite ljekoviti zrak salamure u prostranom lječilišnom parku s povijesnom gradirnicom."}
       }
     },
     {
@@ -232,7 +352,11 @@
         "en": {"name": "Lake Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "An emerald-green boat trip to St. Bartholomä church with the famous trumpet echo."},
         "it": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Gita in barca sul lago verde smeraldo fino alla chiesa di St. Bartholomä con la famosa eco della tromba."},
         "hu": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Smaragdzöld hajókirándulás a St. Bartholomä-templomhoz a híres trombitavisszhanggal."},
-        "cs": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Smaragdově zelená plavba lodí ke kostelu St. Bartholomä se slavnou trumpetovou ozvěnou."}
+        "cs": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Smaragdově zelená plavba lodí ke kostelu St. Bartholomä se slavnou trumpetovou ozvěnou."},
+        "es": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Paseo en barca verde esmeralda hasta la iglesia de St. Bartholomä con el famoso eco de trompeta."},
+        "fr": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Une promenade en bateau vert émeraude jusqu'à l'église St. Bartholomä avec le célèbre écho de trompette."},
+        "pl": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Szmaragdowozielony rejs łodzią do kościoła St. Bartholomä ze słynnym echem trąbki."},
+        "hr": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Smaragdnozelena vožnja brodom do crkve St. Bartholomä s čuvenom trubačkom odjekom."}
       }
     },
     {
@@ -243,7 +367,11 @@
         "en": {"name": "Berchtesgaden Salt Mine", "town": "Berchtesgaden", "desc": "Deep into the mountain by miners' train, slides and a raft ride across the salt lake."},
         "it": {"name": "Miniera di sale di Berchtesgaden", "town": "Berchtesgaden", "desc": "Nel cuore della montagna con trenino, scivoli dei minatori e zattera sul lago salato."},
         "hu": {"name": "Berchtesgadeni sóbánya", "town": "Berchtesgaden", "desc": "Bányavasúttal, bányászcsúszdákkal és tutajozással a sós tavon mélyen a hegy belsejébe."},
-        "cs": {"name": "Solný důl Berchtesgaden", "town": "Berchtesgaden", "desc": "Hluboko do hory důlním vláčkem, hornickými skluzavkami a na voru přes solné jezero."}
+        "cs": {"name": "Solný důl Berchtesgaden", "town": "Berchtesgaden", "desc": "Hluboko do hory důlním vláčkem, hornickými skluzavkami a na voru přes solné jezero."},
+        "es": {"name": "Mina de Sal de Berchtesgaden", "town": "Berchtesgaden", "desc": "Profundo en la montaña en tren minero, toboganes de mineros y en balsa sobre el lago de sal."},
+        "fr": {"name": "Mine de sel de Berchtesgaden", "town": "Berchtesgaden", "desc": "Profond dans la montagne en train de mine, tobogans de mineurs et sur un radeau sur le lac de sel."},
+        "pl": {"name": "Kopalnia Soli Berchtesgaden", "town": "Berchtesgaden", "desc": "Głęboko w górze kolejką górniczą, zjeżdżalniami górniczymi i tratwą przez jezioro solne."},
+        "hr": {"name": "Rudnik soli Berchtesgaden", "town": "Berchtesgaden", "desc": "Duboko u planinu rudarskim vlakom, rudarskim tobogånima i splavom preko slanog jezera."}
       }
     },
     {
@@ -254,7 +382,11 @@
         "en": {"name": "Jenner & Jenner Cable Car", "town": "Schönau a. Königssee", "desc": "Up to 1,800 m by modern cable car — a magnificent view of the Königssee and Watzmann."},
         "it": {"name": "Jenner & funivia del Jenner", "town": "Schönau a. Königssee", "desc": "A 1.800 m con la moderna funivia — vista grandiosa sul Königssee e sul Watzmann."},
         "hu": {"name": "Jenner & Jenner-libegő", "town": "Schönau a. Königssee", "desc": "Modern kötélpályával 1800 méterre — pazar kilátás a Königssee-re és a Watzmannra."},
-        "cs": {"name": "Jenner & lanovka Jenner", "town": "Schönau a. Königssee", "desc": "Moderní lanovkou do 1 800 m — velkolepý výhled na Königssee a Watzmann."}
+        "cs": {"name": "Jenner & lanovka Jenner", "town": "Schönau a. Königssee", "desc": "Moderní lanovkou do 1 800 m — velkolepý výhled na Königssee a Watzmann."},
+        "es": {"name": "Jenner & Teleférico Jenner", "town": "Schönau a. Königssee", "desc": "Hasta 1.800 m en moderno teleférico — una vista magnífica del Königssee y el Watzmann."},
+        "fr": {"name": "Jenner & Téléphérique Jenner", "town": "Schönau a. Königssee", "desc": "Jusqu'à 1 800 m en téléphérique moderne — une vue magnifique sur le Königssee et le Watzmann."},
+        "pl": {"name": "Jenner & Kolejka Jenner", "town": "Schönau a. Königssee", "desc": "Nowoczesną kolejką na 1800 m — wspaniały widok na Königssee i Watzmann."},
+        "hr": {"name": "Jenner & Žičara Jenner", "town": "Schönau a. Königssee", "desc": "Modernom žičarom na 1800 m — veličanstavan pogled na Königssee i Watzmann."}
       }
     },
     {
@@ -265,7 +397,11 @@
         "en": {"name": "Obersalzberg Documentation Centre", "town": "Berchtesgaden", "desc": "A powerful exhibition on 20th-century history at this significant historic site."},
         "it": {"name": "Centro di documentazione Obersalzberg", "town": "Berchtesgaden", "desc": "Toccante documentazione di storia contemporanea nel luogo storico originale."},
         "hu": {"name": "Obersalzberg Dokumentációs Központ", "town": "Berchtesgaden", "desc": "Megrendítő kortörténeti dokumentáció a történelmi helyszínen."},
-        "cs": {"name": "Dokumentační centrum Obersalzberg", "town": "Berchtesgaden", "desc": "Působivá dokumentace soudobých dějin na historickém místě."}
+        "cs": {"name": "Dokumentační centrum Obersalzberg", "town": "Berchtesgaden", "desc": "Působivá dokumentace soudobých dějin na historickém místě."},
+        "es": {"name": "Centro de Documentación Obersalzberg", "town": "Berchtesgaden", "desc": "Una poderosa exposición sobre la historia del siglo XX en este significativo lugar histórico."},
+        "fr": {"name": "Centre de documentation Obersalzberg", "town": "Berchtesgaden", "desc": "Une exposition saisissante sur l'histoire du XXe siècle sur ce site historique."},
+        "pl": {"name": "Centrum Dokumentacji Obersalzberg", "town": "Berchtesgaden", "desc": "Poruszająca dokumentacja historii współczesnej w historycznym miejscu."},
+        "hr": {"name": "Dokumentacijski centar Obersalzberg", "town": "Berchtesgaden", "desc": "Potresna dokumentacija suvremene povijesti na povijesnom lokalitetu."}
       }
     },
     {
@@ -276,7 +412,11 @@
         "en": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Pure relaxation: thermal pools, a sauna world and slides with a mountain panorama."},
         "it": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Relax assoluto: vasche termali, mondo sauna e scivoli con panorama montano."},
         "hu": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Tiszta kikapcsolódás: termálmedencék, szaunavilág és csúszdák hegyi panorámával."},
-        "cs": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Čistý odpočinek: termální bazény, svět saun a skluzavky s horským panoramatem."}
+        "cs": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Čistý odpočinek: termální bazény, svět saun a skluzavky s horským panoramatem."},
+        "es": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Relajación pura: piscinas termales, mundo de saunas y toboganes con panorama montañoso."},
+        "fr": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Détente pure : bassins thermaux, monde des saunas et tobogans avec panorama montagnard."},
+        "pl": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Czysta relaksacja: baseny termalne, świat saun i zjeżdżalnie z panoramą górską."},
+        "hr": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Čisti odmor: termalni bazeni, svijet sauna i tobogani s planinskim panoramom."}
       }
     },
     {
@@ -287,7 +427,11 @@
         "en": {"name": "Wimbach Gorge & National Park", "town": "Ramsau", "desc": "A roaring wild-water gorge in Germany's only Alpine national park."},
         "it": {"name": "Gola del Wimbach & Parco Nazionale", "town": "Ramsau", "desc": "Impetuosa gola di torrente nell'unico parco nazionale alpino della Germania."},
         "hu": {"name": "Wimbach-szurdok & Nemzeti Park", "town": "Ramsau", "desc": "Zúgó hegyipatak-szurdok Németország egyetlen alpesi nemzeti parkjában."},
-        "cs": {"name": "Wimbašská soutěska & národní park", "town": "Ramsau", "desc": "Burácející bystřinná soutěska v jediném alpském národním parku Německa."}
+        "cs": {"name": "Wimbašská soutěska & národní park", "town": "Ramsau", "desc": "Burácející bystřinná soutěska v jediném alpském národním parku Německa."},
+        "es": {"name": "Garganta de Wimbach & Parque Nacional", "town": "Ramsau", "desc": "Una rugiente garganta de aguas bravas en el único parque nacional alpino de Alemania."},
+        "fr": {"name": "Gorges de Wimbach & Parc national", "town": "Ramsau", "desc": "Des gorges torrentielles rugissantes dans le seul parc national alpin d'Allemagne."},
+        "pl": {"name": "Wąwóz Wimbach & Park Narodowy", "town": "Ramsau", "desc": "Huczący wąwóz górskiego potoku w jedynym alpejskim parku narodowym Niemiec."},
+        "hr": {"name": "Klisura Wimbach & Nacionalni park", "town": "Ramsau", "desc": "Hurlajuća gorska klisura u jedinom alpskom nacionalnom parku Njemačke."}
       }
     },
     {
@@ -298,7 +442,11 @@
         "en": {"name": "Grünstein Via Ferrata", "town": "Schönau a. Königssee", "desc": "A via ferrata for sporty beginners with a sweeping view over the Berchtesgaden valley."},
         "it": {"name": "Via ferrata del Grünstein", "town": "Schönau a. Königssee", "desc": "Via ferrata per principianti sportivi con ampia vista sulla valle di Berchtesgaden."},
         "hu": {"name": "Grünstein via ferrata", "town": "Schönau a. Königssee", "desc": "Via ferrata sportos kezdőknek, tág kilátással a berchtesgadeni völgyre."},
-        "cs": {"name": "Via ferrata Grünstein", "town": "Schönau a. Königssee", "desc": "Zajištěná cesta pro sportovní začátečníky s širokým výhledem na berchtesgadenské údolí."}
+        "cs": {"name": "Via ferrata Grünstein", "town": "Schönau a. Königssee", "desc": "Zajištěná cesta pro sportovní začátečníky s širokým výhledem na berchtesgadenské údolí."},
+        "es": {"name": "Vía ferrata del Grünstein", "town": "Schönau a. Königssee", "desc": "Una vía ferrata para principiantes deportivos con una amplia vista sobre el valle de Berchtesgaden."},
+        "fr": {"name": "Via ferrata du Grünstein", "town": "Schönau a. Königssee", "desc": "Une via ferrata pour débutants sportifs avec une vue étendue sur la vallée de Berchtesgaden."},
+        "pl": {"name": "Via ferrata Grünstein", "town": "Schönau a. Königssee", "desc": "Via ferrata dla sportowych początkujących z rozległym widokiem na dolinę Berchtesgaden."},
+        "hr": {"name": "Via ferrata Grünstein", "town": "Schönau a. Königssee", "desc": "Via ferrata za sportske početnike s prostranim pogledom na berchtesgadensku dolinu."}
       }
     },
     {
@@ -309,7 +457,11 @@
         "en": {"name": "Hohensalzburg Fortress", "town": "Salzburg", "desc": "One of Europe's largest fortresses, high above Salzburg's baroque old town."},
         "it": {"name": "Fortezza di Hohensalzburg", "town": "Salisburgo", "desc": "Una delle più grandi fortezze d'Europa, in alto sopra il centro barocco di Salisburgo."},
         "hu": {"name": "Hohensalzburg erőd", "town": "Salzburg", "desc": "Európa egyik legnagyobb vára, magasan a barokk salzburgi óváros felett."},
-        "cs": {"name": "Pevnost Hohensalzburg", "town": "Salcburk", "desc": "Jedna z největších pevností v Evropě, vysoko nad barokním starým městem Salcburku."}
+        "cs": {"name": "Pevnost Hohensalzburg", "town": "Salcburk", "desc": "Jedna z největších pevností v Evropě, vysoko nad barokním starým městem Salcburku."},
+        "es": {"name": "Fortaleza de Hohensalzburg", "town": "Salzburgo", "desc": "Una de las fortalezas más grandes de Europa, en lo alto sobre el casco antiguo barroco de Salzburgo."},
+        "fr": {"name": "Forteresse de Hohensalzburg", "town": "Salzbourg", "desc": "L'une des plus grandes forteresses d'Europe, dominant la vieille ville baroque de Salzbourg."},
+        "pl": {"name": "Twierdza Hohensalzburg", "town": "Salzburg", "desc": "Jedna z największych twierdz w Europie, wysoko nad barokową starówką Salzburga."},
+        "hr": {"name": "Tvrđava Hohensalzburg", "town": "Salzburg", "desc": "Jedna od najvećih tvrđava u Europi, visoko iznad barokne stare gradske jezgre Salzburga."}
       }
     },
     {
@@ -320,7 +472,11 @@
         "en": {"name": "Mozart's Birthplace & Old Town", "town": "Salzburg", "desc": "UNESCO old town with Mozart's birthplace, the Getreidegasse and the cathedral."},
         "it": {"name": "Casa natale di Mozart & centro storico", "town": "Salisburgo", "desc": "Centro storico UNESCO con la casa natale di Mozart, la Getreidegasse e il duomo."},
         "hu": {"name": "Mozart szülőháza & óváros", "town": "Salzburg", "desc": "UNESCO-óváros Mozart szülőházával, a Getreidegasséval és a dómmal."},
-        "cs": {"name": "Mozartův rodný dům & staré město", "town": "Salcburk", "desc": "Staré město UNESCO s Mozartovým rodným domem, ulicí Getreidegasse a katedrálou."}
+        "cs": {"name": "Mozartův rodný dům & staré město", "town": "Salcburk", "desc": "Staré město UNESCO s Mozartovým rodným domem, ulicí Getreidegasse a katedrálou."},
+        "es": {"name": "Casa natal de Mozart & Casco antiguo", "town": "Salzburgo", "desc": "Casco antiguo UNESCO con la casa natal de Mozart, la Getreidegasse y la catedral."},
+        "fr": {"name": "Maison natale de Mozart & Vieille ville", "town": "Salzbourg", "desc": "Vieille ville UNESCO avec la maison natale de Mozart, la Getreidegasse et la cathédrale."},
+        "pl": {"name": "Dom urodzin Mozarta & Stare Miasto", "town": "Salzburg", "desc": "Stare miasto UNESCO z domem urodzin Mozarta, ulicą Getreidegasse i katedrą."},
+        "hr": {"name": "Mozartova rodna kuća & Stari grad", "town": "Salzburg", "desc": "UNESCO stari grad s Mozartovom rodnom kućom, ulicom Getreidegasse i katedralom."}
       }
     },
     {
@@ -331,18 +487,26 @@
         "en": {"name": "Mirabell Palace & Gardens", "town": "Salzburg", "desc": "A magnificent palace with baroque gardens — famous from 'The Sound of Music'."},
         "it": {"name": "Castello e giardini Mirabell", "town": "Salisburgo", "desc": "Splendido castello con giardino barocco — celebre per 'Tutti insieme appassionatamente'."},
         "hu": {"name": "Mirabell-kastély & kert", "town": "Salzburg", "desc": "Pompás kastély barokk kerttel — a „The Sound of Music“ filmből ismert."},
-        "cs": {"name": "Zámek a zahrady Mirabell", "town": "Salcburk", "desc": "Nádherný zámek s barokní zahradou — známý z filmu „Za zvuků hudby“."}
+        “cs”: {“name”: “Zámek a zahrady Mirabell”, “town”: “Salcburk”, “desc”: “Nádherný zámek s barokní zahradou — známý z filmu „Za zvuků hudby”.”},
+        “es”: {“name”: “Palacio y Jardines Mirabell”, “town”: “Salzburgo”, “desc”: “Un magnífico palacio con jardines barrocos — famoso por 'Sonrisas y Lágrimas'.”},
+        “fr”: {“name”: “Palais et Jardins Mirabell”, “town”: “Salzbourg”, “desc”: “Un magnifique palais avec des jardins baroques — célèbre pour 'La Mélodie du Bonheur'.”},
+        “pl”: {“name”: “Pałac i Ogrody Mirabell”, “town”: “Salzburg”, “desc”: “Wspaniały pałac z barokowymi ogrodami — znany z musicalu 'Dźwięki muzyki'.”},
+        “hr”: {“name”: “Dvorac i vrtovi Mirabell”, “town”: “Salzburg”, “desc”: “Veličanstvan dvorac s baroknim vrtovima — poznat iz filma 'Zvuk glazbe'.”}
       }
     },
     {
-      "id": "haus-der-natur", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🦖",
+      “id”: “haus-der-natur”, "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🦖",
       "url": "https://www.hausdernatur.at/",
       "i18n": {
         "de": {"name": "Haus der Natur", "town": "Salzburg", "desc": "Großes Naturkundemuseum mit Aquarium, Reptilienzoo und Science Center."},
         "en": {"name": "Haus der Natur", "town": "Salzburg", "desc": "A large natural-history museum with an aquarium, reptile zoo and science centre."},
         "it": {"name": "Haus der Natur", "town": "Salisburgo", "desc": "Grande museo di scienze naturali con acquario, zoo dei rettili e science center."},
         "hu": {"name": "Haus der Natur", "town": "Salzburg", "desc": "Nagy természettudományi múzeum akváriummal, hüllőállatkerttel és science centerrel."},
-        "cs": {"name": "Haus der Natur", "town": "Salcburk", "desc": "Velké přírodovědné muzeum s akváriem, zoo plazů a science centrem."}
+        "cs": {"name": "Haus der Natur", "town": "Salcburk", "desc": "Velké přírodovědné muzeum s akváriem, zoo plazů a science centrem."},
+        "es": {"name": "Haus der Natur", "town": "Salzburgo", "desc": "Gran museo de historia natural con acuario, zoo de reptiles y centro de ciencias."},
+        "fr": {"name": "Haus der Natur", "town": "Salzbourg", "desc": "Grand musée d'histoire naturelle avec aquarium, zoo de reptiles et centre scientifique."},
+        "pl": {"name": "Haus der Natur", "town": "Salzburg", "desc": "Duże muzeum przyrodnicze z akwarium, terrarium i centrum nauki."},
+        "hr": {"name": "Haus der Natur", "town": "Salzburg", "desc": "Veliki muzej prirodnih znanosti s akvarijom, zoološkim vrtom gmazova i znanstvenim centrom."}
       }
     },
     {
@@ -353,7 +517,11 @@
         "en": {"name": "Untersberg Cable Car", "town": "Grödig", "desc": "Up in just a few minutes to Salzburg's legendary local mountain."},
         "it": {"name": "Funivia dell'Untersberg", "town": "Grödig", "desc": "In pochi minuti sulla leggendaria montagna di casa di Salisburgo."},
         "hu": {"name": "Untersberg libegő", "town": "Grödig", "desc": "Néhány perc alatt fel Salzburg legendás házihegyére."},
-        "cs": {"name": "Lanovka Untersberg", "town": "Grödig", "desc": "Během několika minut nahoru na bájnou domácí horu Salcburku."}
+        "cs": {"name": "Lanovka Untersberg", "town": "Grödig", "desc": "Během několika minut nahoru na bájnou domácí horu Salcburku."},
+        "es": {"name": "Teleférico del Untersberg", "town": "Grödig", "desc": "En pocos minutos hasta la legendaria montaña local de Salzburgo."},
+        "fr": {"name": "Téléphérique de l'Untersberg", "town": "Grödig", "desc": "En quelques minutes au sommet de la légendaire montagne locale de Salzbourg."},
+        "pl": {"name": "Kolejka linowa Untersberg", "town": "Grödig", "desc": "W kilka minut na legendarną lokalną górę Salzburga."},
+        "hr": {"name": "Žičara Untersberg", "town": "Grödig", "desc": "Za nekoliko minuta gore na legendarnu lokalnu planinu Salzburga."}
       }
     },
     {
@@ -364,7 +532,11 @@
         "en": {"name": "Hellbrunn Palace & Trick Fountains", "town": "Salzburg", "desc": "A pleasure palace with world-famous trick fountains and Salzburg Zoo next door."},
         "it": {"name": "Castello di Hellbrunn & giochi d'acqua", "town": "Salisburgo", "desc": "Castello di delizie con i celebri giochi d'acqua e lo zoo di Salisburgo accanto."},
         "hu": {"name": "Hellbrunn-kastély & vízijátékok", "town": "Salzburg", "desc": "Gyönyörkastély világhírű vízijátékokkal, mellette a salzburgi állatkert."},
-        "cs": {"name": "Zámek Hellbrunn & vodní hrátky", "town": "Salcburk", "desc": "Letohrádek se světoznámými vodními hrátkami a zoo Salcburk hned vedle."}
+        "cs": {"name": "Zámek Hellbrunn & vodní hrátky", "town": "Salcburk", "desc": "Letohrádek se světoznámými vodními hrátkami a zoo Salcburk hned vedle."},
+        "es": {"name": "Palacio Hellbrunn & Fuentes engañosas", "town": "Salzburgo", "desc": "Palacio de placer con famosas fuentes sorpresa y el Zoo de Salzburgo al lado."},
+        "fr": {"name": "Château Hellbrunn & Jeux d'eau", "town": "Salzbourg", "desc": "Château de plaisance avec des jeux d'eau mondialement célèbres et le Zoo de Salzbourg à côté."},
+        "pl": {"name": "Zamek Hellbrunn & Fontanny niespodzianki", "town": "Salzburg", "desc": "Letni pałac ze słynnymi fontannami niespodziankami i zoo Salzburg obok."},
+        "hr": {"name": "Dvorac Hellbrunn & Vodeni trikovi", "town": "Salzburg", "desc": "Ljetni dvorac s čuvenim vodenim trikovima i Zoološkim vrtom Salzburga u blizini."}
       }
     },
     {
@@ -375,7 +547,11 @@
         "en": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "The world's oldest show mine — with miners' slides, a mine train and a salt lake."},
         "it": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "La più antica miniera visitabile al mondo — con scivoli, trenino e lago salato."},
         "hu": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "A világ legrégebbi látogatható bányája — bányászcsúszdákkal, bányavasúttal és sós tóval."},
-        "cs": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "Nejstarší prohlídkový důl na světě — s hornickými skluzavkami, vláčkem a solným jezerem."}
+        "cs": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "Nejstarší prohlídkový důl na světě — s hornickými skluzavkami, vláčkem a solným jezerem."},
+        "es": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "La mina de visita más antigua del mundo — con toboganes de mineros, tren minero y lago de sal."},
+        "fr": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "La plus ancienne mine de visite au monde — avec tobogans de mineurs, petit train et lac de sel."},
+        "pl": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "Najstarsza kopalnia pokazowa na świecie — z zjeżdżalniami górniczymi, kolejką i jeziorem solnym."},
+        "hr": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "Najstariji rudnik za posjetitelje na svijetu — s rudarskim tobogånima, vagonetom i slanim jezerom."}
       }
     },
     {
@@ -386,7 +562,11 @@
         "en": {"name": "Celtic Museum Hallein", "town": "Hallein", "desc": "Important finds from the Celtic era on the Dürrnberg, impressively presented."},
         "it": {"name": "Museo Celtico di Hallein", "town": "Hallein", "desc": "Importanti reperti dell'epoca celtica sul Dürrnberg, presentati con grande effetto."},
         "hu": {"name": "Hallein Kelta Múzeum", "town": "Hallein", "desc": "Jelentős kelta kori leletek a Dürrnbergről, lenyűgöző bemutatásban."},
-        "cs": {"name": "Keltské muzeum Hallein", "town": "Hallein", "desc": "Významné nálezy z keltské doby na Dürrnbergu, působivě prezentované."}
+        "cs": {"name": "Keltské muzeum Hallein", "town": "Hallein", "desc": "Významné nálezy z keltské doby na Dürrnbergu, působivě prezentované."},
+        "es": {"name": "Museo Celta de Hallein", "town": "Hallein", "desc": "Importantes hallazgos de la época celta en el Dürrnberg, presentados de forma impresionante."},
+        "fr": {"name": "Musée celtique de Hallein", "town": "Hallein", "desc": "D'importants objets de l'époque celtique sur le Dürrnberg, présentés de façon impressionnante."},
+        "pl": {"name": "Muzeum Celtyckie Hallein", "town": "Hallein", "desc": "Ważne znaleziska z epoki celtyckiej na Dürrnbergu, imponująco zaprezentowane."},
+        "hr": {"name": "Keltski muzej Hallein", "town": "Hallein", "desc": "Važni nalazi iz keltskog doba na Dürrnbergu, impresivno prezentirani."}
       }
     },
     {
@@ -397,7 +577,11 @@
         "en": {"name": "Hohenwerfen Castle", "town": "Werfen", "desc": "A 900-year-old castle with an impressive birds-of-prey flying show."},
         "it": {"name": "Castello di Hohenwerfen", "town": "Werfen", "desc": "Castello di oltre 900 anni con un'impressionante esibizione di rapaci in volo."},
         "hu": {"name": "Hohenwerfen élménybár", "town": "Werfen", "desc": "Több mint 900 éves vár lenyűgöző ragadozómadár-repülőbemutatóval."},
-        "cs": {"name": "Hrad Hohenwerfen", "town": "Werfen", "desc": "Více než 900 let starý hrad s působivou leteckou show dravců."}
+        "cs": {"name": "Hrad Hohenwerfen", "town": "Werfen", "desc": "Více než 900 let starý hrad s působivou leteckou show dravců."},
+        "es": {"name": "Castillo de Hohenwerfen", "town": "Werfen", "desc": "Un castillo de más de 900 años con un impresionante espectáculo de vuelo de aves rapaces."},
+        "fr": {"name": "Château de Hohenwerfen", "town": "Werfen", "desc": "Un château vieux de plus de 900 ans avec un impressionnant spectacle de vol de rapaces."},
+        "pl": {"name": "Zamek Hohenwerfen", "town": "Werfen", "desc": "Ponad 900-letni zamek z imponującym pokazem lotów ptaków drapieżnych."},
+        "hr": {"name": "Dvorac Hohenwerfen", "town": "Werfen", "desc": "Više od 900 godina stari dvorac s impresivnom letačkom predstavom grabljivica."}
       }
     },
     {
@@ -408,7 +592,11 @@
         "en": {"name": "Eisriesenwelt Ice Cave", "town": "Werfen", "desc": "The world's largest ice cave — fantastic ice sculptures deep inside the mountain."},
         "it": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "La più grande grotta di ghiaccio al mondo — fantastiche sculture di ghiaccio nella montagna."},
         "hu": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "A világ legnagyobb jégbarlangja — fantasztikus jégszobrok a hegy mélyén."},
-        "cs": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "Největší ledová jeskyně na světě — fantastické ledové sochy hluboko v hoře."}
+        "cs": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "Největší ledová jeskyně na světě — fantastické ledové sochy hluboko v hoře."},
+        "es": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "La cueva de hielo más grande del mundo — fantásticas esculturas de hielo en lo profundo de la montaña."},
+        "fr": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "La plus grande grotte de glace du monde — de fantastiques sculptures de glace au cœur de la montagne."},
+        "pl": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "Największa jaskinia lodowa na świecie — fantastyczne lodowe rzeźby głęboko w górze."},
+        "hr": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "Najveća ledena špilja na svijetu — fantastične ledene skulpture duboko u planini."}
       }
     },
     {
@@ -419,7 +607,11 @@
         "en": {"name": "Lake Chiemsee & Herrenchiemsee Palace", "town": "Prien am Chiemsee", "desc": "A boat trip across Bavaria's largest lake to King Ludwig II's palace on Herreninsel."},
         "it": {"name": "Chiemsee & Castello di Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Navigazione sul lago più grande della Baviera fino al castello di Ludovico II sull'isola Herreninsel."},
         "hu": {"name": "Chiemsee & Herrenchiemsee kastély", "town": "Prien am Chiemsee", "desc": "Hajózás Bajorország legnagyobb taván II. Lajos király kastélyához a Herren-szigeten."},
-        "cs": {"name": "Chiemsee & zámek Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Plavba po největším bavorském jezeře k zámku krále Ludvíka II. na ostrově Herreninsel."}
+        "cs": {"name": "Chiemsee & zámek Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Plavba po největším bavorském jezeře k zámku krále Ludvíka II. na ostrově Herreninsel."},
+        "es": {"name": "Chiemsee & Castillo de Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Paseo en barco por el lago más grande de Baviera hasta el castillo del rey Luis II en la isla Herreninsel."},
+        "fr": {"name": "Chiemsee & Château de Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Traversée en bateau du plus grand lac de Bavière jusqu'au château du roi Louis II sur l'île Herreninsel."},
+        "pl": {"name": "Chiemsee & Zamek Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Rejs po największym jeziorze Bawarii do zamku króla Ludwika II na wyspie Herreninsel."},
+        "hr": {"name": "Chiemsee & Dvorac Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Brodska vožnja po najvećem bavarskom jezeru do dvorca kralja Ludwiga II. na otoku Herreninsel."}
       }
     }
   ]

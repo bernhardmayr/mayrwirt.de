@@ -1,10 +1,10 @@
 const cache = {};
 let currentLang = localStorage.getItem('mayrwirt-lang') || 'de';
 
-const menuUrls       = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html' };
-const activitiesUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html' };
-const langFlags = { de: '🇩🇪', en: '🇬🇧', it: '🇮🇹', hu: '🇭🇺', cs: '🇨🇿' };
-const langCodes = { de: 'DE',  en: 'EN',  it: 'IT',  hu: 'HU',  cs: 'CS'  };
+const menuUrls       = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it.html', hu: 'Karte/hu.html', cs: 'Karte/cs.html', es: 'Karte/es.html', fr: 'Karte/fr.html', pl: 'Karte/pl.html', hr: 'Karte/hr.html' };
+const activitiesUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html', es: 'ausflugsziele/es.html', fr: 'ausflugsziele/fr.html', pl: 'ausflugsziele/pl.html', hr: 'ausflugsziele/hr.html' };
+const langFlags = { de: '🇩🇪', en: '🇬🇧', it: '🇮🇹', hu: '🇭🇺', cs: '🇨🇿', es: '🇪🇸', fr: '🇫🇷', pl: '🇵🇱', hr: '🇭🇷' };
+const langCodes = { de: 'DE',  en: 'EN',  it: 'IT',  hu: 'HU',  cs: 'CS',  es: 'ES',  fr: 'FR',  pl: 'PL',  hr: 'HR'  };
 
 async function loadLocale(lang) {
     if (!cache[lang]) {

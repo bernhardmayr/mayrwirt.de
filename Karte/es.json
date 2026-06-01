@@ -1,0 +1,177 @@
+{
+  "title": "Carta",
+  "subtitle": "Posada &amp; Carnicería Mayrwirt · Saaldorf",
+  "note": "Los vinos en botella están disponibles en nuestra carta de vinos.<br>Los alérgenos figuran en nuestra hoja informativa — pregúntele a nuestro personal.",
+  "sections": [
+    {
+      "title": "Entrantes",
+      "type": "items",
+      "items": [
+        {"name": "Carpaccio de Solomillo de Ternera", "desc": "con aceite de oliva, limón, Grana Padano, ensalada mixta &amp; baguette", "price": "€ 15,50"},
+        {"name": "Queso de Cabra Caramelizado", "desc": "con chutney de pera &amp; ensalada de achicoria y naranja", "price": "€ 13,90"},
+        {"name": "Bruschetta", "desc": "Tomates, ajo &amp; aceite de oliva sobre pan blanco", "price": "€ 9,80"}
+      ]
+    },
+    {
+      "title": "Sopas",
+      "type": "items",
+      "items": [
+        {"name": "Caldo con Crepes", "price": "€ 5,50"},
+        {"name": "Sopa de Ajo con Picatostes", "price": "€ 5,50"},
+        {"name": "Caldo con Albóndigas de Hígado", "price": "€ 6,50"}
+      ]
+    },
+    {
+      "title": "Pasta",
+      "type": "items",
+      "items": [
+        {"name": "Tallarines con Verduras a la Parrilla &amp; Grana Padano", "desc": "con pechuga de pollo envuelta en bacon", "prices": ["€ 13,50", "€ 17,90"]},
+        {"name": "Espaguetis con Gambas a las Hierbas", "desc": "Ajo, tomates estofados &amp; Grana Padano", "price": "€ 20,90"}
+      ]
+    },
+    {
+      "title": "Pescado",
+      "type": "items",
+      "items": [
+        {"name": "Lucioperca a la Sartén con Mantequilla Dorada", "desc": "Patatas &amp; ensalada mixta", "price": "€ 20,90"},
+        {"name": "Parrillada Mixta de Pescado", "desc": "Lucioperca, trucha ártica, pez de San Pedro &amp; gambas, con patatas &amp; ensalada mixta", "price": "€ 22,90"},
+        {"name": "Trucha Ártica a la Parrilla", "desc": "sobre pasta de rúcula &amp; tomates estofados", "price": "€ 20,90"}
+      ]
+    },
+    {
+      "title": "Platos Principales",
+      "type": "items",
+      "items": [
+        {"name": "Parrillada Mixta", "desc": "Ternera, cerdo, pavo &amp; salchicha a la parrilla, con patatas fritas &amp; mantequilla de hierbas", "price": "€ 18,50"},
+        {"name": "Escalope de Cerdo a la Vienesa", "desc": "con ensalada de patatas &amp; arándanos rojos", "price": "€ 14,90"},
+        {"name": "Wiener Schnitzel de Ternera", "desc": "con patatas salteadas &amp; arándanos rojos", "price": "€ 24,90"},
+        {"name": "Sartén Suaba (Schwabenpfandl)", "desc": "Medallones de solomillo de cerdo en salsa de setas con Spätzle", "price": "€ 18,50"},
+        {"name": "Solomillo de Ternera en Salsa de Pimienta", "desc": "con rösti de patata", "price": "€ 25,90"},
+        {"name": "Entrecot a la Parrilla", "desc": "con patatas fritas, cebolla dorada &amp; judías verdes con mantequilla", "price": "€ 26,90"},
+        {"name": "Asado de Ternera con Cebolla a la Vienesa", "desc": "con patatas &amp; ensalada mixta", "price": "€ 25,90"},
+        {"name": "Filete de Solomillo de Ternera a la Parrilla", "desc": "con patatas fritas, mantequilla de hierbas &amp; brócoli", "price": "€ 33,90"}
+      ]
+    },
+    {
+      "title": "Ensaladas &amp; Snacks",
+      "type": "items",
+      "items": [
+        {"name": "Ensalada Mixta Pequeña", "price": "€ 5,40"},
+        {"name": "Ensalada Mixta de Temporada", "desc": "con tiras de pavo a la parrilla, maíz &amp; salsa cocktail", "price": "€ 15,90"},
+        {"desc": "con pechuga de pollo crujiente &amp; aceite de semillas de calabaza de Estiria", "price": "€ 17,50"},
+        {"desc": "con gambas a la parrilla, vinagre balsámico &amp; baguette", "price": "€ 19,90"},
+        {"name": "Camembert Frito", "desc": "con arándanos rojos, guarnición de ensalada &amp; tostada", "price": "€ 12,90"},
+        {"name": "Champiñones Fritos", "desc": "con salsa remoulade &amp; guarnición de ensalada", "price": "€ 12,90"}
+      ]
+    },
+    {
+      "title": "Postres",
+      "type": "items",
+      "items": [
+        {"name": "Ñoquis de Requesón con Pan Rallado y Mantequilla", "desc": "con compota de guindas", "prices": ["1 ud. € 7,50", "2 ud. € 8,50"]},
+        {"name": "Crepes", "desc": "con mermelada de albaricoque o helado de vainilla", "prices": ["1 ud. € 8,50", "2 ud. € 9,50"]},
+        {"name": "Kaiserschmarrn", "desc": "con compota de ciruelas o puré de manzana", "price": "€ 13,50"},
+        {"name": "Buñuelos de Manzana en Masa de Cerveza", "desc": "con helado de nuez &amp; nata", "price": "€ 9,90"},
+        {"name": "Helado Mixto – Fresa, Vainilla &amp; Chocolate con Nata", "prices": ["2 bol. € 5,90", "3 bol. € 6,50"]},
+        {"name": "Café Helado – Helado de Vainilla, Café &amp; Nata", "price": "€ 6,90"},
+        {"name": "Chocolate Helado – Helado de Vainilla, Chocolate &amp; Nata", "price": "€ 6,90"},
+        {"name": "Copa de Frutas – Helado de Fresa, Vainilla, Fruta Fresca &amp; Nata", "price": "€ 8,20"},
+        {"name": "Copa de Chocolate – Helado de Chocolate, Advocaat &amp; Nata", "price": "€ 8,20"},
+        {"name": "Copa de Nuez – Helado de Nuez, Nueces, Licor de Avellana &amp; Nata", "price": "€ 8,20"},
+        {"name": "Banana Split – Helado de Vainilla, Chocolate, Almendras, Salsa de Chocolate &amp; Nata", "price": "€ 8,20"},
+        {"name": "Helado de Vainilla con Frambuesas Calientes o Cerezas Calientes", "price": "€ 8,20"}
+      ]
+    },
+    {
+      "title": "Bebidas Calientes",
+      "type": "drinks",
+      "items": [
+        {"name": "Taza de Café", "price": "€ 3,90"},
+        {"name": "Café en Jarra", "price": "€ 4,40"},
+        {"name": "Capuchino", "price": "€ 4,20"},
+        {"name": "Latte Macchiato", "price": "€ 4,60"},
+        {"name": "Café con Leche", "price": "€ 4,00"},
+        {"name": "Café Crème", "price": "€ 4,60"},
+        {"name": "Espresso", "price": "€ 4,60"},
+        {"name": "Té (vaso)", "price": "€ 4,60"},
+        {"name": "Té (tetera)", "price": "€ 4,60"},
+        {"name": "Vino caliente", "price": "€ 4,40"}
+      ]
+    },
+    {
+      "title": "Cervezas – Cervecería Wieninger",
+      "type": "drinks",
+      "items": [
+        {"name": "Lager clara 0,3 l", "price": "€ 3,40"},
+        {"name": "Lager clara 0,5 l", "price": "€ 4,70"},
+        {"name": "Pilsner 0,3 l", "price": "€ 3,70"},
+        {"name": "Lager oscura 0,5 l", "price": "€ 5,50"},
+        {"name": "Cerveza de trigo 0,3 l", "price": "€ 3,80"},
+        {"name": "Cerveza de trigo 0,5 l", "price": "€ 4,80"},
+        {"name": "Cerveza de trigo oscura 0,5 l", "price": "€ 4,80"},
+        {"name": "Shandy (Radler) 0,5 l", "price": "€ 4,50"},
+        {"name": "Cerveza sin alcohol 0,5 l", "price": "€ 4,60"},
+        {"name": "1813 Especial 0,5 l", "price": "€ 5,50"}
+      ]
+    },
+    {
+      "title": "Aperitivos",
+      "type": "drinks",
+      "items": [
+        {"name": "Campari 5 cl", "price": "€ 5,00"},
+        {"name": "Campari con naranja 5 cl", "price": "€ 6,20"},
+        {"name": "Jerez 5 cl", "price": "€ 4,50"},
+        {"name": "Prosecco pequeño 0,2 l", "price": "€ 7,50"},
+        {"name": "Copa de cava 0,1 l", "price": "€ 4,50"},
+        {"name": "Hugo", "price": "€ 5,50"},
+        {"name": "Aperol Spritz", "price": "€ 5,50"},
+        {"name": "Prosecco-Spritz-Aperol", "price": "€ 6,00"}
+      ]
+    },
+    {
+      "title": "Bebidas Sin Alcohol",
+      "type": "drinks",
+      "items": [
+        {"name": "Agua sin gas 0,3 l", "price": "€ 3,30"},
+        {"name": "Agua sin gas 0,5 l", "price": "€ 3,80"},
+        {"name": "Agua con gas 0,25 l", "price": "€ 3,50"},
+        {"name": "Agua con gas 0,5 l", "price": "€ 4,50"},
+        {"name": "Limonada 0,3 l", "price": "€ 3,60"},
+        {"name": "Cola 0,33 l", "price": "€ 3,90"},
+        {"name": "Fanta 0,33 l", "price": "€ 3,90"},
+        {"name": "Tónica 0,2 l", "price": "€ 3,80"},
+        {"name": "Bitter Lemon 0,2 l", "price": "€ 3,80"},
+        {"name": "Zumo de fruta 0,3 l", "price": "€ 4,80"}
+      ]
+    },
+    {
+      "title": "Vinos Blancos",
+      "type": "wine",
+      "items": [
+        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Baja Austria", "price": "1/8 l &nbsp; € 3,20"},
+        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Baja Austria", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinado", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Pinot Blanco (Weißburgunder)", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinado", "price": "1/8 l &nbsp; € 4,00"},
+        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+      ]
+    },
+    {
+      "title": "Rosado",
+      "type": "wine",
+      "items": [
+        {"name": "Portugieser Rosado", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinado", "price": "1/8 l &nbsp; € 3,00"},
+        {"name": "Heideboden Rosado – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+      ]
+    },
+    {
+      "title": "Vinos Tintos",
+      "type": "wine",
+      "items": [
+        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Baja Austria", "price": "1/8 l &nbsp; € 3,20"},
+        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Baja Austria", "price": "1/8 l &nbsp; € 4,50"},
+        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
+        {"name": "Vino espumoso blanco o tinto", "price": "1/4 l &nbsp; € 3,80"}
+      ]
+    }
+  ]
+}
