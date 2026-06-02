@@ -4212,6 +4212,131 @@
           "desc": "Veliki prirodni rezervat visokog tresišta s poučnom stazom, rijetkim biljkama i odmorištem ždralova — doživljaj prirode tik pred vratima."
         }
       }
+    },
+    {
+      "id": "obertrumer-see",
+      "category": "lakes",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 27,
+      "icon": "⛵",
+      "url": "https://www.salzburger-seenland.at",
+      "i18n": {
+        "de": {
+          "name": "Obertrumer See",
+          "town": "Obertrum am See (A)",
+          "desc": "Idyllischer See im Salzburger Seenland mit klarem Wasser, Sandstrand, Bootsvermietung und Blick auf die Berge — beliebt bei Familien und Ausflüglern."
+        },
+        "en": {
+          "name": "Obertrumer See",
+          "town": "Obertrum am See (A)",
+          "desc": "Idyllic lake in the Salzburg Lake District with clear water, sandy beach, boat hire and mountain views — popular with families and day-trippers."
+        },
+        "it": {
+          "name": "Lago di Obertrum",
+          "town": "Obertrum am See (A)",
+          "desc": "Lago idilliaco nel distretto lacustre di Salisburgo con acqua limpida, spiaggia sabbiosa, noleggio barche e vista sui monti — molto amato da famiglie e gitanti."
+        },
+        "hu": {
+          "name": "Obertrumer See",
+          "town": "Obertrum am See (A)",
+          "desc": "Idilli tó a Salzburgi-tóvidéken tiszta vízzel, homokos stranddal, csónakkölcsönzéssel és hegykilátással — kedvelt kirándulóhely famílknak."
+        },
+        "cs": {
+          "name": "Obertrumer See",
+          "town": "Obertrum am See (A)",
+          "desc": "Idylické jezero v Salzburském jezerním kraji s průzračnou vodou, písčitou pláží, půjčovnou lodí a výhledem na hory — oblíbené u rodin a výletníků."
+        },
+        "es": {
+          "name": "Lago Obertrum",
+          "town": "Obertrum am See (A)",
+          "desc": "Idílico lago en el Distrito de los Lagos de Salzburgo con agua cristalina, playa de arena, alquiler de barcas y vistas a las montañas — popular entre familias y excursionistas."
+        },
+        "fr": {
+          "name": "Lac d'Obertrum",
+          "town": "Obertrum am See (A)",
+          "desc": "Lac idyllique dans le Pays des lacs de Salzbourg avec eau claire, plage de sable, location de bateaux et vue sur les montagnes — apprécié des familles et des excursionnistes."
+        },
+        "pl": {
+          "name": "Jezioro Obertrum",
+          "town": "Obertrum am See (A)",
+          "desc": "Idylliczne jezioro w Krainie Jezior Salzburskich z czystą wodą, piaszczystą plażą, wypożyczalnią łódek i widokiem na góry — popularne wśród rodzin i turystów."
+        },
+        "hr": {
+          "name": "Jezero Obertrum",
+          "town": "Obertrum am See (A)",
+          "desc": "Idiličko jezero u Salzburškoj jezerskoj regiji s bistrom vodom, pješčanom plažom, iznajmljivanjem čamaca i pogledom na planine — omiljeno među obiteljima i izletnicima."
+        }
+      }
+    },
+    {
+      "id": "mondsee",
+      "category": "lakes",
+      "roles": [
+        "family",
+        "couple",
+        "active",
+        "culture"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 58,
+      "icon": "🌊",
+      "url": "https://www.mondsee.at",
+      "i18n": {
+        "de": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "Wärmstes Salzkammergut-Gewässer mit türkisblauem Wasser, Strandpromenade, Segelbooten und dem berühmten Stiftskirchen-Dorf — ideal für einen ganzen Ausflugstag."
+        },
+        "en": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "The warmest lake in the Salzkammergut with turquoise water, lakeside promenade, sailing boats and the famous abbey church village — ideal for a full day out."
+        },
+        "it": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "Il lago più caldo del Salzkammergut con acqua turchese, lungologo, barche a vela e il famoso borgo con la chiesa abbaziale — ideale per un'intera giornata."
+        },
+        "hu": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "A Salzkammergut legmelegebb tava türkizkék vízzel, tóparti sétányokkal, vitorlásokkal és a híres apátsági templommal — tökéletes egész napos kirándulásra."
+        },
+        "cs": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "Nejteplejší jezero v Salzkammergut s tyrkysovou vodou, promenádou u jezera, plachetnicemi a slavnou vesnicí s klášterním kostelem — ideální na celodenní výlet."
+        },
+        "es": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "El lago más cálido del Salzkammergut con agua turquesa, paseo marítimo, veleros y el famoso pueblo con iglesia abacial — ideal para pasar todo el día."
+        },
+        "fr": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "Le lac le plus chaud du Salzkammergut avec eau turquoise, promenade lacustre, voiliers et le célèbre village à l'église abbatiale — idéal pour une journée entière."
+        },
+        "pl": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "Najcieplejsze jezioro w Salzkammergut z turkusową wodą, promenadą nad jeziorem, żaglówkami i słynną wioską z kościołem opackim — idealne na cały dzień wycieczki."
+        },
+        "hr": {
+          "name": "Mondsee",
+          "town": "Mondsee (A)",
+          "desc": "Najtoplije jezero u Salzkammergut s tirkiznom vodom, jezerskom promenadnom, jedrenjacima i poznatim selom s opatijskom crkvom — idealno za cijeli dan izleta."
+        }
+      }
     }
   ]
 }
