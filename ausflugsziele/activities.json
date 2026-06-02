@@ -2,7 +2,7 @@
   "labels": {
     "de": {
       "title": "Ausflugsziele rund um den Mayrwirt",
-      "subtitle": "Über 50 Freizeittipps im Umkreis von rund 50 km — Berge, Seen, Kultur & mehr",
+      "subtitle": "Über 100 Freizeittipps im Umkreis von rund 60 km — Berge, Seen, Kultur & mehr",
       "intro": "Saaldorf-Surheim liegt ideal zwischen Salzburg, Bad Reichenhall und Berchtesgaden. Filtern Sie nach Interesse, Entfernung und Wetter — und entdecken Sie die schönsten Ziele der Region.",
       "found": "Ziele gefunden",
       "none": "Keine Ziele für diese Auswahl — bitte Filter anpassen.",
@@ -45,7 +45,7 @@
     },
     "en": {
       "title": "Things to Do Around the Mayrwirt",
-      "subtitle": "Over 50 day-trip ideas within around 50 km — mountains, lakes, culture & more",
+      "subtitle": "Over 100 day-trip ideas within around 60 km — mountains, lakes, culture & more",
       "intro": "Saaldorf-Surheim sits perfectly between Salzburg, Bad Reichenhall and Berchtesgaden. Filter by interest, distance and weather — and discover the region's finest destinations.",
       "found": "destinations found",
       "none": "No destinations for this selection — please adjust the filters.",
@@ -88,7 +88,7 @@
     },
     "it": {
       "title": "Cosa fare intorno al Mayrwirt",
-      "subtitle": "Oltre 50 idee per gite entro circa 50 km — montagne, laghi, cultura e altro",
+      "subtitle": "Oltre 100 idee per gite entro circa 60 km — montagne, laghi, cultura e altro",
       "intro": "Saaldorf-Surheim si trova in posizione ideale tra Salisburgo, Bad Reichenhall e Berchtesgaden. Filtra per interesse, distanza e meteo — e scopri le mete più belle della regione.",
       "found": "mete trovate",
       "none": "Nessuna meta per questa selezione — modifica i filtri.",
@@ -131,7 +131,7 @@
     },
     "hu": {
       "title": "Kirándulóhelyek a Mayrwirt környékén",
-      "subtitle": "Több mint 50 kirándulási ötlet kb. 50 km-en belül — hegyek, tavak, kultúra és más",
+      "subtitle": "Több mint 100 kirándulási ötlet kb. 60 km-en belül — hegyek, tavak, kultúra és más",
       "intro": "Saaldorf-Surheim ideálisan fekszik Salzburg, Bad Reichenhall és Berchtesgaden között. Szűrjön érdeklődés, távolság és időjárás szerint — és fedezze fel a régió legszebb célpontjait.",
       "found": "célpont található",
       "none": "Ehhez a választáshoz nincs célpont — kérjük, módosítsa a szűrőket.",
@@ -174,7 +174,7 @@
     },
     "cs": {
       "title": "Výlety v okolí Mayrwirtu",
-      "subtitle": "Více než 50 tipů na výlety do zhruba 50 km — hory, jezera, kultura a další",
+      "subtitle": "Více než 100 tipů na výlety do zhruba 60 km — hory, jezera, kultura a další",
       "intro": "Saaldorf-Surheim leží ideálně mezi Salcburkem, Bad Reichenhall a Berchtesgadenem. Filtrujte podle zájmu, vzdálenosti a počasí — a objevte nejkrásnější cíle regionu.",
       "found": "cílů nalezeno",
       "none": "Pro tento výběr nejsou žádné cíle — upravte prosím filtry.",
@@ -217,7 +217,7 @@
     },
     "es": {
       "title": "Excursiones alrededor del Mayrwirt",
-      "subtitle": "Más de 50 ideas de excursión en un radio de unos 50 km — montañas, lagos, cultura y más",
+      "subtitle": "Más de 100 ideas de excursión en un radio de unos 60 km — montañas, lagos, cultura y más",
       "intro": "Saaldorf-Surheim se encuentra en una posición ideal entre Salzburgo, Bad Reichenhall y Berchtesgaden. Filtra por interés, distancia y tiempo — y descubre los destinos más bonitos de la región.",
       "found": "destinos encontrados",
       "none": "No hay destinos para esta selección — por favor ajusta los filtros.",
@@ -260,7 +260,7 @@
     },
     "fr": {
       "title": "Excursions autour du Mayrwirt",
-      "subtitle": "Plus de 50 idées d'excursion dans un rayon d'environ 50 km — montagnes, lacs, culture et plus",
+      "subtitle": "Plus de 100 idées d'excursion dans un rayon d'environ 60 km — montagnes, lacs, culture et plus",
       "intro": "Saaldorf-Surheim est idéalement situé entre Salzbourg, Bad Reichenhall et Berchtesgaden. Filtrez par intérêt, distance et météo — et découvrez les plus belles destinations de la région.",
       "found": "destinations trouvées",
       "none": "Aucune destination pour cette sélection — veuillez ajuster les filtres.",
@@ -303,7 +303,7 @@
     },
     "pl": {
       "title": "Wycieczki w okolicach Mayrwirt",
-      "subtitle": "Ponad 50 pomysłów na wycieczki w promieniu około 50 km — góry, jeziora, kultura i więcej",
+      "subtitle": "Ponad 100 pomysłów na wycieczki w promieniu około 60 km — góry, jeziora, kultura i więcej",
       "intro": "Saaldorf-Surheim leży idealnie między Salzburgiem, Bad Reichenhall a Berchtesgaden. Filtruj według zainteresowań, odległości i pogody — i odkryj najpiękniejsze destynacje regionu.",
       "found": "znalezionych destynacji",
       "none": "Brak destynacji dla tego wyboru — zmień filtry.",
@@ -346,7 +346,7 @@
     },
     "hr": {
       "title": "Izleti u okolici Mayrwirta",
-      "subtitle": "Više od 50 ideja za izlete u radijusu od oko 50 km — planine, jezera, kultura i više",
+      "subtitle": "Više od 100 ideja za izlete u radijusu od oko 60 km — planine, jezera, kultura i više",
       "intro": "Saaldorf-Surheim se nalazi idealno između Salzburga, Bad Reichenhalla i Berchtesgadena. Filtrirajte prema interesu, udaljenosti i vremenu — i otkrijte najljepše destinacije regije.",
       "found": "pronađenih destinacija",
       "none": "Nema destinacija za ovaj odabir — prilagodite filtere.",
@@ -389,7 +389,7 @@
     },
     "uk": {
       "title": "Екскурсії навколо Mayrwirt",
-      "subtitle": "Понад 30 ідей для екскурсій у радіусі 50 км — гори, озера, культура та більше",
+      "subtitle": "Понад 100 ідей для екскурсій у радіусі 60 км — гори, озера, культура та більше",
       "intro": "Зальдорф-Зюргайм розташований ідеально між Зальцбургом, Бад-Райхенхалем та Берхтесгаденом. Фільтруйте за інтересами, відстанню та погодою — і відкрийте найкрасивіші місця регіону.",
       "found": "знайдено місць",
       "none": "Немає місць для цього вибору — будь ласка, змініть фільтри.",
@@ -428,7 +428,7 @@
     },
     "sk": {
       "title": "Výlety v okolí Mayrwirtu",
-      "subtitle": "Viac ako 30 tipov na výlety v okruhu 50 km — hory, jazerá, kultúra a ďalšie",
+      "subtitle": "Viac ako 100 tipov na výlety v okruhu 60 km — hory, jazerá, kultúra a ďalšie",
       "intro": "Saaldorf-Surheim leží ideálne medzi Salzburgom, Bad Reichenhallom a Berchtesgadenom. Filtrujte podľa záujmu, vzdialenosti a počasia — a objavte najkrajšie ciele regiónu.",
       "found": "cieľov nájdených",
       "none": "Pre tento výber nie sú žiadne ciele — upravte prosím filtre.",
@@ -467,7 +467,7 @@
     },
     "nl": {
       "title": "Uitstapjes rond de Mayrwirt",
-      "subtitle": "Meer dan 30 uitstapideeën binnen 50 km — bergen, meren, cultuur en meer",
+      "subtitle": "Meer dan 100 uitstapideeën binnen 60 km — bergen, meren, cultuur en meer",
       "intro": "Saaldorf-Surheim ligt ideaal tussen Salzburg, Bad Reichenhall en Berchtesgaden. Filter op interesse, afstand en weer — en ontdek de mooiste bestemmingen van de regio.",
       "found": "bestemmingen gevonden",
       "none": "Geen bestemmingen voor deze selectie — pas de filters aan.",
