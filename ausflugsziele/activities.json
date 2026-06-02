@@ -446,9 +446,10 @@
       "id": "haarmoos",
       "category": "lakes",
       "roles": [
-        "family",
+        "couple",
         "active",
-        "couple"
+        "family",
+        "culture"
       ],
       "seasons": [
         "summer"
@@ -460,47 +461,47 @@
         "de": {
           "name": "Haarmoos am Abtsdorfersee",
           "town": "Leobendorf",
-          "desc": "Weites Naturschutzgebiet mit Moor-Badesee, Radwegen und seltenen Vögeln — Ruhe pur."
+          "desc": "Weitläufiges Hochmoor-Naturschutzgebiet am Abtsdorfersee mit Moor-Badesee, Vogelbeobachtungsturm, seltenen Moorvögeln und typischer Moorlandschaft — Natur pur vor der Haustür."
         },
         "en": {
           "name": "Haarmoos at Lake Abtsdorf",
           "town": "Leobendorf",
-          "desc": "A vast nature reserve with a moor bathing lake, cycle paths and rare birds — pure tranquillity."
+          "desc": "Extensive raised bog nature reserve at Lake Abtsdorf with a moor bathing lake, bird-watching tower, rare bog birds and typical moorland landscape — pure nature on the doorstep."
         },
         "it": {
           "name": "Haarmoos al Lago di Abtsdorf",
           "town": "Leobendorf",
-          "desc": "Ampia riserva naturale con lago balneabile di torbiera, piste ciclabili e uccelli rari — pura quiete."
+          "desc": "Ampia riserva naturale di torbiera al Lago di Abtsdorf con lago balneabile, torre di avvistamento uccelli, uccelli rari e paesaggio tipico di torbiera — natura pura a due passi."
         },
         "hu": {
           "name": "Haarmoos az Abtsdorfi-tónál",
           "town": "Leobendorf",
-          "desc": "Tágas természetvédelmi terület láptóval, kerékpárutakkal és ritka madarakkal — maga a nyugalom."
+          "desc": "Tágas magasláposi természetvédelmi terület az Abtsdorfi-tónál, láptóval, madármegfigyelő toronnyal, ritka lápmadarakkal és tipikus láplandszájjal — természet a küszöb előtt."
         },
         "cs": {
           "name": "Haarmoos u Abtsdorfského jezera",
           "town": "Leobendorf",
-          "desc": "Rozlehlá přírodní rezervace s rašelinným koupacím jezerem, cyklostezkami a vzácnými ptáky — naprostý klid."
+          "desc": "Rozlehlá přírodní rezervace vrchovištního rašeliniště u Abtsdorfského jezera s rašelinným koupacím jezerem, pozorovatelnou ptáků, vzácnými ptáky a typickou rašelinnou krajinou."
         },
         "es": {
           "name": "Haarmoos junto al Lago Abtsdorf",
           "town": "Leobendorf",
-          "desc": "Amplia reserva natural con lago de turba, carriles bici y aves raras — pura tranquilidad."
+          "desc": "Extensa reserva natural de turbera alta en el Lago Abtsdorf con lago de turba, torre de observación de aves, pájaros raros y paisaje de turbera típico — naturaleza pura a la vuelta de la esquina."
         },
         "fr": {
           "name": "Haarmoos au Lac d'Abtsdorf",
           "town": "Leobendorf",
-          "desc": "Vaste réserve naturelle avec lac de tourbière, pistes cyclables et oiseaux rares — calme absolu."
+          "desc": "Vaste réserve naturelle de tourbière haute au Lac d'Abtsdorf avec lac de tourbière, tour d'observation des oiseaux, oiseaux rares et paysage de tourbière typique — nature pure à deux pas."
         },
         "pl": {
           "name": "Haarmoos nad Jeziorem Abtsdorf",
           "town": "Leobendorf",
-          "desc": "Rozległy rezerwat przyrody z torfowym jeziorem kąpielowym, ścieżkami rowerowymi i rzadkimi ptakami — czysta cisza."
+          "desc": "Rozległy rezerwat przyrody torfowiska wysokiego nad Jeziorem Abtsdorf z torfowym jeziorem kąpielowym, wieżą obserwacji ptaków, rzadkimi ptakami i typowym krajobrazem torfowiskowym."
         },
         "hr": {
           "name": "Haarmoos uz Jezero Abtsdorf",
           "town": "Leobendorf",
-          "desc": "Prostran prirodni rezervat s tresetnim kupališnim jezerom, biciklističkim stazama i rijetkim pticama — čisti mir."
+          "desc": "Prostrani prirodni rezervat visokog tresišta uz Jezero Abtsdorf s kupačkim jezerom, tornjem za promatranje ptica, rijetkim pticama i tipičnim krajolikom tresišta — čista priroda pred vratima."
         }
       }
     },
@@ -1140,49 +1141,49 @@
       "url": "https://www.seenschifffahrt.de/koenigssee",
       "i18n": {
         "de": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Schifffahrt",
           "town": "Schönau a. Königssee",
-          "desc": "Smaragdgrüne Bootsfahrt zur Wallfahrtskirche St. Bartholomä mit dem berühmten Trompeten-Echo."
+          "desc": "Smaragdgrüne Elektroschifffahrt zur Wallfahrtskirche St. Bartholomä — berühmtes Trompeten-Echo, kristallklares Wasser und majestätische Bergkulisse im Nationalpark."
         },
         "en": {
-          "name": "Lake Königssee & St. Bartholomä",
+          "name": "Königssee & Boat Trip",
           "town": "Schönau a. Königssee",
-          "desc": "An emerald-green boat trip to St. Bartholomä church with the famous trumpet echo."
+          "desc": "Electric boat ride to the St. Bartholomä pilgrimage church — famous trumpet echo, crystal-clear water and a majestic mountain backdrop in the National Park."
         },
         "it": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Gita in barca",
           "town": "Schönau a. Königssee",
-          "desc": "Gita in barca sul lago verde smeraldo fino alla chiesa di St. Bartholomä con la famosa eco della tromba."
+          "desc": "Gita in barca elettrica alla chiesa di pellegrinaggio di San Bartolomeo — famoso eco della tromba, acqua cristallina e scenografia montana maestosa nel parco nazionale."
         },
         "hu": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Hajókirándulás",
           "town": "Schönau a. Königssee",
-          "desc": "Smaragdzöld hajókirándulás a St. Bartholomä-templomhoz a híres trombitavisszhanggal."
+          "desc": "Elektromos hajókirándulás a Szent Bertalan-zarándoktemplomhoz — a híres trombitaecho, kristálytiszta víz és fenséges hegyháttér a nemzeti parkban."
         },
         "cs": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Plavba lodí",
           "town": "Schönau a. Königssee",
-          "desc": "Smaragdově zelená plavba lodí ke kostelu St. Bartholomä se slavnou trumpetovou ozvěnou."
+          "desc": "Plavba elektrickým člunem ke poutnímu kostelu sv. Bartoloměje — slavná trumpetová ozvěna, křišťálově čistá voda a majestátní horské panorama v národním parku."
         },
         "es": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Excursión en barco",
           "town": "Schönau a. Königssee",
-          "desc": "Paseo en barca verde esmeralda hasta la iglesia de St. Bartholomä con el famoso eco de trompeta."
+          "desc": "Paseo en barco eléctrico a la iglesia de peregrinación de San Bartolomé — el famoso eco de la trompeta, agua cristalina y majestuoso telón de fondo montañoso en el parque nacional."
         },
         "fr": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Croisière",
           "town": "Schönau a. Königssee",
-          "desc": "Une promenade en bateau vert émeraude jusqu'à l'église St. Bartholomä avec le célèbre écho de trompette."
+          "desc": "Bateau électrique jusqu'à l'église de pèlerinage Saint-Barthélemy — célèbre écho de trompette, eau cristalline et décor montagneux majestueux dans le parc national."
         },
         "pl": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Rejs łodzią",
           "town": "Schönau a. Königssee",
-          "desc": "Szmaragdowozielony rejs łodzią do kościoła St. Bartholomä ze słynnym echem trąbki."
+          "desc": "Elektryczna łódź do kościoła pielgrzymkowego św. Bartłomieja — słynne echo trąbki, krystalicznie czysta woda i majestatyczna sceneria górska w parku narodowym."
         },
         "hr": {
-          "name": "Königssee & St. Bartholomä",
+          "name": "Königssee & Izlet brodom",
           "town": "Schönau a. Königssee",
-          "desc": "Smaragdnozelena vožnja brodom do crkve St. Bartholomä s čuvenom trubačkom odjekom."
+          "desc": "Električni brod do hodočasničke crkve sv. Bartolomeja — čuvena trubačka jeka, kristalno čista voda i veličanstvena planinska kulisa u nacionalnom parku."
         }
       }
     },
@@ -4950,6 +4951,443 @@
           "name": "Canyoning u Salzburškim Alpama",
           "town": "Salzburške Alpe (A)",
           "desc": "Avantura u klancima i vodopadima Salzburških Alpa — spuštanje po užetu, skokovi i plivanje s iskusnim canyoning vodičima. Za početnike i napredne."
+        }
+      }
+    },
+    {
+      "id": "thumsee",
+      "category": "lakes",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 24,
+      "icon": "🏊",
+      "url": "https://www.bad-reichenhall.de/freizeit-sport/thumsee/",
+      "i18n": {
+        "de": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idyllischer Gebirgssee direkt bei Bad Reichenhall mit klarem Wasser und Blick auf den Hochstaufen — perfekt zum Baden, Spazieren und Picknicken."
+        },
+        "en": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idyllic mountain lake right by Bad Reichenhall with clear water and views of the Hochstaufen — perfect for swimming, walking and picnicking."
+        },
+        "it": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idilliaco lago montano vicino a Bad Reichenhall con acqua limpida e vista sul Hochstaufen — perfetto per nuotare, passeggiare e fare picnic."
+        },
+        "hu": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idilli hegyi tó közvetlenül Bad Reichenhall mellett tiszta vízzel és Hochstaufen-kilátással — tökéletes fürdésre, sétára és piknikre."
+        },
+        "cs": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idylické horské jezero přímo u Bad Reichenhallu s průzračnou vodou a výhledem na Hochstaufen — ideální ke koupání, procházkám a piknikům."
+        },
+        "es": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idílico lago de montaña junto a Bad Reichenhall con agua cristalina y vistas al Hochstaufen — perfecto para nadar, pasear y hacer picnic."
+        },
+        "fr": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Lac de montagne idyllique juste à côté de Bad Reichenhall avec une eau claire et une vue sur le Hochstaufen — parfait pour nager, se promener et pique-niquer."
+        },
+        "pl": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idylliczne górskie jezioro tuż przy Bad Reichenhall z czystą wodą i widokiem na Hochstaufen — idealne do pływania, spacerów i pikników."
+        },
+        "hr": {
+          "name": "Thumsee",
+          "town": "Bad Reichenhall",
+          "desc": "Idiličko planinsko jezero tik uz Bad Reichenhall s bistrom vodom i pogledom na Hochstaufen — savršeno za kupanje, šetnje i piknik."
+        }
+      }
+    },
+    {
+      "id": "zauberwald-hintersee",
+      "category": "mountains",
+      "roles": [
+        "family",
+        "couple",
+        "active",
+        "culture"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 46,
+      "icon": "🌲",
+      "url": "https://www.ramsau.com/sommer/wandern/zauberwald/",
+      "i18n": {
+        "de": {
+          "name": "Zauberwald am Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Moosbewachsene Felsblöcke, knorrige Wurzeln und türkisblauer See — der Zauberwald am Hintersee ist ein leichter Rundweg mit spektakulären Felsformationen, wie aus einem Märchen."
+        },
+        "en": {
+          "name": "Zauberwald at the Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Moss-covered boulders, gnarled roots and a turquoise lake — the Zauberwald at the Hintersee is an easy circular walk with spectacular rock formations, straight out of a fairy tale."
+        },
+        "it": {
+          "name": "Foresta magica al Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Massi ricoperti di muschio, radici contorte e un lago turchese — il Zauberwald al Hintersee è un facile sentiero circolare con formazioni rocciose spettacolari, come in una fiaba."
+        },
+        "hu": {
+          "name": "Zauberwald a Hintersee-nél",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Mohával borított sziklák, görcsös gyökerek és türkizkék tó — a Hintersee melletti Zauberwald egy könnyű körút látványos sziklaformációkkal, mint egy mesében."
+        },
+        "cs": {
+          "name": "Zauberwald u Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Mechem pokryté balvany, sukovité kořeny a tyrkysové jezero — Zauberwald u Hintersee je lehká okružní trasa se spektakulárními skalními útvary, jako z pohádky."
+        },
+        "es": {
+          "name": "Bosque mágico en el Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Rocas cubiertas de musgo, raíces retorcidas y un lago turquesa — el Zauberwald en el Hintersee es un sencillo sendero circular con espectaculares formaciones rocosas, de cuento de hadas."
+        },
+        "fr": {
+          "name": "Forêt enchantée au Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Rochers couverts de mousse, racines noueuses et lac turquoise — le Zauberwald au Hintersee est une promenade circulaire facile avec des formations rocheuses spectaculaires, tout droit sorti d'un conte."
+        },
+        "pl": {
+          "name": "Zaczarowany Las nad Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Omszałe głazy, poskręcane korzenie i turkusowe jezioro — Zauberwald nad Hintersee to łatwa trasa okrężna ze spektakularnymi formacjami skalnymi, jak z bajki."
+        },
+        "hr": {
+          "name": "Zauberwald uz Hintersee",
+          "town": "Ramsau b. Berchtesgaden",
+          "desc": "Mahovinom prekrivene stijene, čvornovate korijene i tirkizno jezero — Zauberwald uz Hintersee je lagana kružna staza s spektakularnim stijenskim formacijama, kao iz bajke."
+        }
+      }
+    },
+    {
+      "id": "aussichtsplattform-haarmoos",
+      "category": "mountains",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 3,
+      "icon": "🔭",
+      "url": "https://www.saaldorf-surheim.de/tourismus/",
+      "i18n": {
+        "de": {
+          "name": "Aussichtsplattform Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Wunderschöner Alpenpanorama-Blick direkt bei Saaldorf — von der Plattform am Haarmoos reicht der Blick bei klarem Wetter bis zum Hochstaufen, Untersberg und ins Salzburger Land."
+        },
+        "en": {
+          "name": "Haarmoos Viewing Platform",
+          "town": "Saaldorf-Surheim",
+          "desc": "Wonderful Alpine panorama right at Saaldorf — from the platform at the Haarmoos, on a clear day you can see as far as the Hochstaufen, Untersberg and Salzburg region."
+        },
+        "it": {
+          "name": "Piattaforma panoramica Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Meraviglioso panorama alpino direttamente a Saaldorf — dalla piattaforma al Haarmoos, con il cielo sereno si vede fino allo Hochstaufen, Untersberg e la regione di Salisburgo."
+        },
+        "hu": {
+          "name": "Haarmoos kilátóplatform",
+          "town": "Saaldorf-Surheim",
+          "desc": "Csodálatos alpesi panoráma közvetlenül Saaldorfban — a Haarmoos melletti platformról tiszta időben egészen a Hochstaufenig, az Untersbergig és a Salzburger Landig ellátni."
+        },
+        "cs": {
+          "name": "Vyhlídková plošina Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Nádherný výhled na Alpy přímo u Saaldorfu — z plošiny u Haarmoose je za jasného počasí vidět až na Hochstaufen, Untersberg a do Salcburska."
+        },
+        "es": {
+          "name": "Plataforma mirador Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Maravilloso panorama alpino justo en Saaldorf — desde la plataforma en el Haarmoos, en días despejados se puede ver el Hochstaufen, el Untersberg y la región de Salzburgo."
+        },
+        "fr": {
+          "name": "Plate-forme panoramique Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Merveilleux panorama alpin à Saaldorf même — depuis la plate-forme au Haarmoos, par temps clair on aperçoit le Hochstaufen, l'Untersberg et la région de Salzbourg."
+        },
+        "pl": {
+          "name": "Platforma widokowa Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Cudowna panorama alpejska tuż przy Saaldorf — z platformy przy Haarmoos przy dobrej pogodzie widać aż po Hochstaufen, Untersberg i krainę Salzburga."
+        },
+        "hr": {
+          "name": "Vidikovac Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Prekrasan alpski panoramski pogled tik uz Saaldorf — s platforme kod Haarmoosa po lijepom vremenu pogled seže do Hochstaufena, Untersberga i Salzburške regije."
+        }
+      }
+    },
+    {
+      "id": "kehlsteinhaus",
+      "category": "museum",
+      "roles": [
+        "culture",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 45,
+      "icon": "🦅",
+      "url": "https://www.kehlsteinhaus.de",
+      "i18n": {
+        "de": {
+          "name": "Kehlsteinhaus (Adlerhorst)",
+          "town": "Berchtesgaden",
+          "desc": "Historisches Gipfelhaus auf 1.834 m, erbaut 1938 als Geschenk für Hitler — per Sonderbus und Aufzug hinauf, atemberaubendes Panorama über die gesamten Berchtesgadener Alpen."
+        },
+        "en": {
+          "name": "Kehlsteinhaus (Eagle's Nest)",
+          "town": "Berchtesgaden",
+          "desc": "Historic summit building at 1,834 m, built in 1938 as a gift for Hitler — reach it by special bus and lift, breathtaking panorama over the entire Berchtesgaden Alps."
+        },
+        "it": {
+          "name": "Kehlsteinhaus (Nido dell'Aquila)",
+          "town": "Berchtesgaden",
+          "desc": "Storico edificio di vetta a 1.834 m, costruito nel 1938 come dono per Hitler — si raggiunge con bus speciale e ascensore, panorama mozzafiato sulle Alpi di Berchtesgaden."
+        },
+        "hu": {
+          "name": "Kehlsteinhaus (Sas fészke)",
+          "town": "Berchtesgaden",
+          "desc": "Történelmi csúcsépület 1834 m magasságban, 1938-ban Hitlernek ajándékba építve — különbusz és lift visz fel, lélegzetelállító panoráma a teljes Berchtesgadeni-Alpokra."
+        },
+        "cs": {
+          "name": "Kehlsteinhaus (Orlí hnízdo)",
+          "town": "Berchtesgaden",
+          "desc": "Historická vrcholová budova ve výšce 1 834 m, postavená v roce 1938 jako dar Hitlerovi — zvláštní autobusem a výtahem nahoru, dechberoucí panorama celých Berchtesgadenských Alp."
+        },
+        "es": {
+          "name": "Kehlsteinhaus (Nido del Águila)",
+          "town": "Berchtesgaden",
+          "desc": "Edificio histórico en la cumbre a 1.834 m, construido en 1938 como regalo para Hitler — accesible en autobús especial y ascensor, impresionante panorama de todos los Alpes de Berchtesgaden."
+        },
+        "fr": {
+          "name": "Kehlsteinhaus (Nid d'Aigle)",
+          "town": "Berchtesgaden",
+          "desc": "Bâtiment historique au sommet à 1 834 m, construit en 1938 comme cadeau pour Hitler — accessible en bus spécial et ascenseur, panorama à couper le souffle sur toutes les Alpes de Berchtesgaden."
+        },
+        "pl": {
+          "name": "Kehlsteinhaus (Orle Gniazdo)",
+          "town": "Berchtesgaden",
+          "desc": "Historyczny budynek szczytowy na 1834 m n.p.m., zbudowany w 1938 roku jako prezent dla Hitlera — specjalny autobus i winda na górę, zapierająca dech panorama Alp Berchtesgadeńskich."
+        },
+        "hr": {
+          "name": "Kehlsteinhaus (Orlovije gnijezdo)",
+          "town": "Berchtesgaden",
+          "desc": "Povijesna zgrada na vrhu na 1.834 m, izgrađena 1938. kao dar Hitleru — posebnim autobusom i liftom gore, zapanjujuća panorama cijelog Berchtesgadenskog gorja."
+        }
+      }
+    },
+    {
+      "id": "gaisberg",
+      "category": "mountains",
+      "roles": [
+        "family",
+        "active",
+        "couple"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 25,
+      "icon": "🗻",
+      "url": "https://www.salzburg.info/de/sehenswertes/berge/gaisberg",
+      "i18n": {
+        "de": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "Der Hausberg der Salzburger (1.288 m) — per Straße, Rad oder Wanderweg hinauf, fantastischer Rundblick über die Mozartstadt, die Alpen und bis ins Salzkammergut."
+        },
+        "en": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "Salzburg's local mountain (1,288 m) — reachable by road, bike or hiking trail, fantastic panoramic view over Mozart's city, the Alps and into the Salzkammergut."
+        },
+        "it": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "La montagna di casa dei Salisburghesi (1.288 m) — raggiungibile in auto, bici o a piedi, fantastico panorama sulla città di Mozart, le Alpi e il Salzkammergut."
+        },
+        "hu": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "A salzburgi polgárok házhegyje (1288 m) — autóval, kerékpárral vagy gyalog megközelíthető, fantasztikus panoráma Mozart városára, az Alpokra és a Salzkammergut felé."
+        },
+        "cs": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "Domácí hora Salzburčanů (1 288 m) — dostupná autem, kolem nebo pěšky, fantastický výhled na Mozartovo město, Alpy a Salzkammergut."
+        },
+        "es": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "La montaña local de los salzburgenses (1.288 m) — accesible en coche, bicicleta o senderismo, fantámica vista panorámica sobre la ciudad de Mozart, los Alpes y el Salzkammergut."
+        },
+        "fr": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "La montagne locale des Salzbourgeois (1 288 m) — accessible en voiture, vélo ou à pied, fantastique vue panoramique sur la ville de Mozart, les Alpes et le Salzkammergut."
+        },
+        "pl": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "Domowa góra Salzburczyków (1288 m n.p.m.) — dostępna samochodem, rowerem lub pieszo, fantastyczna panorama na miasto Mozarta, Alpy i Salzkammergut."
+        },
+        "hr": {
+          "name": "Gaisberg",
+          "town": "Salzburg (A)",
+          "desc": "Domaća planina Salzburžana (1.288 m) — dostupna automobilom, biciklom ili pješice, fantastičan pogled na Mozartov grad, Alpe i Salzkammergut."
+        }
+      }
+    },
+    {
+      "id": "schneibstein",
+      "category": "mountains",
+      "roles": [
+        "active",
+        "couple"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 45,
+      "icon": "⛰️",
+      "url": "https://www.berchtesgaden.de/schneibstein",
+      "i18n": {
+        "de": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Markante Felsnadel im Hagengebirge (2.276 m) an der deutsch-österreichischen Grenze — anspruchsvolle Bergtour mit großartigem Panorama auf Königssee, Watzmann und Hohe Tauern."
+        },
+        "en": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Striking rock pinnacle in the Hagengebirge (2,276 m) on the German-Austrian border — demanding mountain hike with magnificent views of Königssee, Watzmann and the Hohe Tauern."
+        },
+        "it": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Caratteristica guglia rocciosa nell'Hagengebirge (2.276 m) sul confine austro-tedesco — escursione impegnativa con magnifico panorama sul Königssee, Watzmann e le Alte Tauern."
+        },
+        "hu": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Jellegzetes sziklacsúcs a Hagengebirgében (2276 m) a német-osztrák határon — igényes hegyi túra nagyszerű panorámával a Königssee-re, a Watzmannra és a Hohe Tauernre."
+        },
+        "cs": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Nápadný skalní věž v Hagengebirge (2 276 m) na německo-rakouské hranici — náročná horská túra s nádherným výhledem na Königssee, Watzmann a Vysoké Taury."
+        },
+        "es": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Llamativa aguja rocosa en el Hagengebirge (2.276 m) en la frontera austro-alemana — exigente excursión de montaña con magnificas vistas sobre el Königssee, el Watzmann y los Altos Tauern."
+        },
+        "fr": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Aiguille rocheuse caractéristique dans le Hagengebirge (2 276 m) à la frontière austro-allemande — randonnée montagnarde exigeante avec une vue magnifique sur le Königssee, le Watzmann et les Hohe Tauern."
+        },
+        "pl": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Charakterystyczna skalna iglica w Hagengebirge (2276 m) na granicy austriacko-niemieckiej — wymagająca wycieczka górska z wspaniałą panoramą na Königssee, Watzmann i Wysokie Taury."
+        },
+        "hr": {
+          "name": "Schneibstein",
+          "town": "Hagengebirge / Berchtesgaden",
+          "desc": "Prepoznatljiv kameni vrh u Hagengebirgeu (2.276 m) na austrijsko-njemačkoj granici — zahtjevna planinska tura s veličanstvenim pogledom na Königssee, Watzmann i Visoke Ture."
+        }
+      }
+    },
+    {
+      "id": "untersberg-hochthron",
+      "category": "mountains",
+      "roles": [
+        "active",
+        "couple",
+        "family"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 21,
+      "icon": "🏔️",
+      "url": "https://www.untersberg.net",
+      "i18n": {
+        "de": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Sagenhafter Grenzberg zwischen Bayern und Salzburg (1.972 m) — per Seilbahn oder Wanderweg auf den Hochthron, unvergleichlicher Blick auf Salzburg, Berchtesgaden und die Alpen."
+        },
+        "en": {
+          "name": "Untersberg / Berchtesgaden Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Legendary border mountain between Bavaria and Salzburg (1,972 m) — cable car or hiking trail to the Hochthron summit, incomparable views of Salzburg, Berchtesgaden and the Alps."
+        },
+        "it": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Leggendario monte di confine tra Baviera e Salisburgo (1.972 m) — funivia o sentiero fino all'Hochthron, vista incomparabile su Salisburgo, Berchtesgaden e le Alpi."
+        },
+        "hu": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Legendás határhegy Bajorország és Salzburg között (1972 m) — kötélpályával vagy gyalog az Hochthronra, páratlan kilátás Salzburgra, Berchtesgadenre és az Alpokra."
+        },
+        "cs": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Bájná hraniční hora mezi Bavorskem a Salcburkem (1 972 m) — lanovkou nebo pěšky na Hochthron, nepřekonatelný výhled na Salcburk, Berchtesgaden a Alpy."
+        },
+        "es": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Legendaria montaña fronteriza entre Baviera y Salzburgo (1.972 m) — teleférico o senda de montaña hasta el Hochthron, vistas incomparables de Salzburgo, Berchtesgaden y los Alpes."
+        },
+        "fr": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Montagne frontière légendaire entre la Bavière et Salzbourg (1 972 m) — téléphérique ou sentier de randonnée jusqu'au Hochthron, vue incomparable sur Salzbourg, Berchtesgaden et les Alpes."
+        },
+        "pl": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Legendarna graniczna góra między Bawarią a Salzburgiem (1972 m) — kolejką linową lub szlakiem na Hochthron, niezrównany widok na Salzburg, Berchtesgaden i Alpy."
+        },
+        "hr": {
+          "name": "Untersberg / Berchtesgadener Hochthron",
+          "town": "Grödig / Marktschellenberg",
+          "desc": "Legendarna granična planina između Bavarske i Salzburga (1.972 m) — žičarom ili planinarskim putem na Hochthron, neusporediv pogled na Salzburg, Berchtesgaden i Alpe."
         }
       }
     }
