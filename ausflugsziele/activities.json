@@ -4459,6 +4459,131 @@
           "desc": "Šumski park s užadima tik uz Waldbad Anif — staze različitih razina težine za djecu i odrasle, idealno nakon kupanja."
         }
       }
+    },
+    {
+      "id": "biathlon-weltcup-ruhpolding",
+      "category": "sport",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "winter"
+      ],
+      "distance": 36,
+      "icon": "🎯",
+      "url": "https://www.ruhpolding.de/biathlon",
+      "i18n": {
+        "de": {
+          "name": "Biathlon Weltcup Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "Einer der größten Biathlon-Events der Welt — jedes Jahr im Januar in der ROWE CHIEMGAU ARENA mit bis zu 25.000 begeisterten Zuschauern."
+        },
+        "en": {
+          "name": "Biathlon World Cup Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "One of the world's biggest biathlon events — held every January at the ROWE CHIEMGAU ARENA with up to 25,000 enthusiastic spectators."
+        },
+        "it": {
+          "name": "Coppa del Mondo di Biathlon Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "Uno degli eventi di biathlon più grandi al mondo — ogni gennaio alla ROWE CHIEMGAU ARENA con fino a 25.000 spettatori entusiasti."
+        },
+        "hu": {
+          "name": "Biatlon Világkupa Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "A világ egyik legnagyobb biatlon-eseménye — minden januárban a ROWE CHIEMGAU ARÉNÁBAN, akár 25 000 lelkes nézővel."
+        },
+        "cs": {
+          "name": "Světový pohár v biatlonu Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "Jeden z největších biathlonových závodů na světě — každý leden v ROWE CHIEMGAU ARENĚ s až 25 000 nadšenými diváky."
+        },
+        "es": {
+          "name": "Copa del Mundo de Biatlón Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "Uno de los mayores eventos de biatlón del mundo — cada enero en la ROWE CHIEMGAU ARENA con hasta 25.000 entusiastas espectadores."
+        },
+        "fr": {
+          "name": "Coupe du Monde de Biathlon Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "L'un des plus grands événements de biathlon au monde — chaque janvier à la ROWE CHIEMGAU ARENA avec jusqu'à 25 000 spectateurs enthousiastes."
+        },
+        "pl": {
+          "name": "Puchar Świata w Biathlonie Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "Jeden z największych biathlonowych wydarzeń na świecie — co roku w styczniu na ROWE CHIEMGAU ARENA z nawet 25 000 entuzjastycznych widzów."
+        },
+        "hr": {
+          "name": "Svjetski kup u biatlonu Ruhpolding",
+          "town": "Ruhpolding",
+          "desc": "Jedan od najvećih biathlonskih događaja na svijetu — svaki siječanj u ROWE CHIEMGAU ARENI s do 25.000 oduševljenih gledatelja."
+        }
+      }
+    },
+    {
+      "id": "eisschnelllauf-weltcup-inzell",
+      "category": "sport",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "winter",
+        "indoor"
+      ],
+      "distance": 30,
+      "icon": "⛸️",
+      "url": "https://www.maxaicherarena.de",
+      "i18n": {
+        "de": {
+          "name": "Eisschnelllauf Weltcup Inzell",
+          "town": "Inzell",
+          "desc": "Internationale Weltcup-Rennen in der Max Aicher Arena — eine der schnellsten Eisschnelllaufbahnen der Welt, Weltrekorde garantiert."
+        },
+        "en": {
+          "name": "Speed Skating World Cup Inzell",
+          "town": "Inzell",
+          "desc": "International World Cup races at the Max Aicher Arena — one of the world's fastest speed skating ovals, world records guaranteed."
+        },
+        "it": {
+          "name": "Coppa del Mondo di Pattinaggio di Velocità Inzell",
+          "town": "Inzell",
+          "desc": "Gare internazionali di Coppa del Mondo alla Max Aicher Arena — una delle piste di pattinaggio di velocità più veloci al mondo, record mondiali garantiti."
+        },
+        "hu": {
+          "name": "Gyorskorcsolya Világkupa Inzell",
+          "town": "Inzell",
+          "desc": "Nemzetközi Világkupa-versenyek a Max Aicher Arénában — a világ egyik leggyorsabb gyorskorcsolya-pályája, világrekordok garantáltak."
+        },
+        "cs": {
+          "name": "Světový pohár v rychlobruslení Inzell",
+          "town": "Inzell",
+          "desc": "Mezinárodní závody Světového poháru v Max Aicher Areně — jedna z nejrychlejších rychlobruslařských drah na světě, světové rekordy zaručeny."
+        },
+        "es": {
+          "name": "Copa del Mundo de Patinaje de Velocidad Inzell",
+          "town": "Inzell",
+          "desc": "Carreras internacionales de Copa del Mundo en el Max Aicher Arena — uno de los óvalos de patinaje de velocidad más rápidos del mundo, récords mundiales garantizados."
+        },
+        "fr": {
+          "name": "Coupe du Monde de Patinage de Vitesse Inzell",
+          "town": "Inzell",
+          "desc": "Compétitions internationales de Coupe du Monde au Max Aicher Arena — l'un des ovales de patinage de vitesse les plus rapides au monde, records mondiaux garantis."
+        },
+        "pl": {
+          "name": "Puchar Świata w Łyżwiarstwie Szybkim Inzell",
+          "town": "Inzell",
+          "desc": "Międzynarodowe zawody Pucharu Świata na Max Aicher Arena — jeden z najszybszych torów łyżwiarskich na świecie, rekordy świata gwarantowane."
+        },
+        "hr": {
+          "name": "Svjetski kup u brzom klizanju Inzell",
+          "town": "Inzell",
+          "desc": "Međunarodne utrke Svjetskog kupa u Max Aicher Areni — jedna od najbrzih staza za brzo klizanje na svijetu, svjetski rekordi zajamčeni."
+        }
+      }
     }
   ]
 }
