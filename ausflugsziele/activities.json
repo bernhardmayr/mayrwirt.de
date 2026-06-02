@@ -2436,52 +2436,52 @@
       ],
       "distance": 9,
       "icon": "🎵",
-      "url": "https://www.stillenacht.at/",
+      "url": "https://www.stillenacht.at/de/stille-nacht-kapelle/",
       "i18n": {
         "de": {
-          "name": "Stille-Nacht-Museum",
+          "name": "Stille-Nacht-Kapelle & Museum",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Geburtsort des berühmtesten Weihnachtsliedes der Welt — bewegende Ausstellung zur Entstehungsgeschichte des Liedes."
+          "desc": "Die Gedächtniskapelle markiert den Ort, wo das berühmteste Weihnachtslied der Welt 1818 uraufgeführt wurde — direkt daneben das bewegende Stille-Nacht-Museum."
         },
         "en": {
-          "name": "Silent Night Museum",
+          "name": "Silent Night Chapel & Museum",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Birthplace of the world's most famous Christmas carol — a moving exhibition on the history of 'Silent Night'."
+          "desc": "The memorial chapel marks where the world's most famous Christmas carol was first performed in 1818 — right beside it, the moving Silent Night Museum."
         },
         "it": {
-          "name": "Museo della Notte Silenziosa",
+          "name": "Cappella e Museo della Notte Silenziosa",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Luogo di nascita della canzone natalizia più famosa al mondo — emozionante mostra sulla storia di 'Astro del ciel'."
+          "desc": "La cappella commemorativa segna il luogo dove nel 1818 fu cantata per la prima volta la canzone natalizia più famosa al mondo — accanto c'è il commovente museo."
         },
         "hu": {
-          "name": "Csendes Éj Múzeum",
+          "name": "Csendes Éj Kápolna & Múzeum",
           "town": "Oberndorf bei Salzburg",
-          "desc": "A világ leghíresebb karácsonyi énekének szülőhelye — megható kiállítás a dal keletkezéstörténetéről."
+          "desc": "Az emlékező kápolna jelzi azt a helyet, ahol 1818-ban először adták elő a világ leghíresebb karácsonyi énekét — közvetlenül mellette a megható múzeum."
         },
         "cs": {
-          "name": "Muzeum Tiché noci",
+          "name": "Kaple a muzeum Tiché noci",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Rodiště nejslavnější vánoční písně na světě — dojemná výstava o historii koledy 'Tichá noc'."
+          "desc": "Pamětní kaple označuje místo, kde bylo v roce 1818 poprvé zazpíváno nejslavnější vánoční koleda světa — hned vedle se nachází dojemné muzeum."
         },
         "es": {
-          "name": "Museo de 'Noche de Paz'",
+          "name": "Capilla y Museo de Noche de Paz",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Lugar de nacimiento del villancico más famoso del mundo — una conmovedora exposición sobre la historia de 'Noche de Paz'."
+          "desc": "La capilla conmemorativa marca el lugar donde el villancico más famoso del mundo se interpretó por primera vez en 1818 — justo al lado, el emotivo museo."
         },
         "fr": {
-          "name": "Musée de 'Douce Nuit'",
+          "name": "Chapelle et Musée de Douce Nuit",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Lieu de naissance du chant de Noël le plus célèbre au monde — une exposition émouvante sur l'histoire de 'Douce Nuit'."
+          "desc": "La chapelle commémorative marque l'endroit où le chant de Noël le plus célèbre au monde fut chanté pour la première fois en 1818 — juste à côté, l'émouvant musée."
         },
         "pl": {
-          "name": "Muzeum Cichej Nocy",
+          "name": "Kaplica i Muzeum Cichej Nocy",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Miejsce narodzin najpopularniejszej kolędy na świecie — wzruszająca wystawa o historii 'Cichej Nocy'."
+          "desc": "Kaplica upamiętnia miejsce, gdzie w 1818 roku po raz pierwszy zaśpiewano najsłynniejszą kolędę świata — tuż obok wzruszające muzeum."
         },
         "hr": {
-          "name": "Muzej Tihe noći",
+          "name": "Kapela i Muzej Tihe noći",
           "town": "Oberndorf bei Salzburg",
-          "desc": "Rodno mjesto najpoznatije božićne pjesme na svijetu — dirljiva izložba o povijesti 'Tihe noći'."
+          "desc": "Memorijalna kapela označava mjesto gdje je 1818. prvi put izvedena najpoznatija božićna pjesma na svijetu — odmah pored nje je dirljivi muzej."
         }
       }
     },
