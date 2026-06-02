@@ -2371,7 +2371,7 @@
       }
     },
     {
-      "id": "stiftsmuseum-laufen",
+      "id": "altstadt-laufen",
       "category": "museum",
       "roles": [
         "culture",
@@ -2382,53 +2382,53 @@
         "indoor"
       ],
       "distance": 6,
-      "icon": "🏛️",
+      "icon": "⛪",
       "url": "https://www.laufen-salzach.de/",
       "i18n": {
         "de": {
-          "name": "Stiftsmuseum Laufen",
+          "name": "Altstadt Laufen: Stiftskirche & Museum",
           "town": "Laufen a.d. Salzach",
-          "desc": "Kunst und Geschichte im romanischen Stiftsgebäude — mittelalterliche Skulpturen, sakrale Schätze und Stadtchronik."
+          "desc": "Mittelalterliche Arkadengasse, gotische Stiftskirche und Stiftsmuseum mit sakralen Schaetzen — ein kompakter Altstadtrundweg entlang Salzach und Stadtmauer laesst sich bequem in einer Stunde erkunden."
         },
         "en": {
-          "name": "Laufen Collegiate Museum",
+          "name": "Laufen Old Town: Collegiate Church & Museum",
           "town": "Laufen a.d. Salzach",
-          "desc": "Art and history in the Romanesque collegiate building — medieval sculptures, sacred treasures and town chronicles."
+          "desc": "Medieval arcaded street, Gothic collegiate church and collegiate museum with sacred treasures — a compact old town circular walk along the Salzach and city walls, easily explored in one hour."
         },
         "it": {
-          "name": "Museo capitolare di Laufen",
+          "name": "Centro storico di Laufen: Collegiata & Museo",
           "town": "Laufen a.d. Salzach",
-          "desc": "Arte e storia nell'edificio romanico del capitolo — sculture medievali, tesori sacri e cronache cittadine."
+          "desc": "Porticato medievale, chiesa collegiata gotica e museo capitolare con tesori sacri — un percorso circolare compatto attraverso il centro storico lungo la Salzach e le mura cittadine, esplorabile in un'ora."
         },
         "hu": {
-          "name": "Laufeni Kolostori Múzeum",
+          "name": "Laufen obelvaros: Kollegiata & Muzeum",
           "town": "Laufen a.d. Salzach",
-          "desc": "Művészet és történelem a román kolostorépületben — középkori szobrok, szakrális kincsek és várostörténet."
+          "desc": "Kozepkori arkados utca, goot kollegiata es kaptolni muzeum szakralis kincsekkel — egy kompakt obelvarosi koroeutazas a Salzach menten es a varosfal mentén, egy ora alatt bejarhato."
         },
         "cs": {
-          "name": "Klášterní muzeum Laufen",
+          "name": "Stare mesto Laufen: Kollegiatni kostel & Muzeum",
           "town": "Laufen a.d. Salzach",
-          "desc": "Umění a dějiny v románské klášterní budově — středověké sochy, sakrální poklady a kronika města."
+          "desc": "Stredoveke arkady, goticky kollegiatni kostel a klaserni muzeum se sakralnimi poklady — kompaktni okruzni prochazka podel reky Salzach a mestskych hradeb, zvladnutelna za hodinu."
         },
         "es": {
-          "name": "Museo Capitular de Laufen",
+          "name": "Casco antiguo de Laufen: Colegiata & Museo",
           "town": "Laufen a.d. Salzach",
-          "desc": "Arte e historia en el edificio románico del cabildo — esculturas medievales, tesoros sagrados y crónicas de la ciudad."
+          "desc": "Arcadas medievales, iglesia colegiata gotica y museo capitular con tesoros sacros — una ruta circular compacta por el casco antiguo junto al Salzach y las murallas, perfecta para una hora de paseo."
         },
         "fr": {
-          "name": "Musée capitulaire de Laufen",
+          "name": "Vieille ville de Laufen: Collegiale & Musee",
           "town": "Laufen a.d. Salzach",
-          "desc": "Art et histoire dans l'édifice roman du chapitre — sculptures médiévales, trésors sacrés et chroniques de la ville."
+          "desc": "Arcades medievales, collegiale gothique et musee capitulaire avec tresors sacres — une promenade circulaire compacte dans la vieille ville le long de la Salzach et des remparts, a explorer en une heure."
         },
         "pl": {
-          "name": "Muzeum Kapitulne w Laufen",
+          "name": "Stare Miasto Laufen: Kolegiata & Muzeum",
           "town": "Laufen a.d. Salzach",
-          "desc": "Sztuka i historia w romańskim budynku kapituły — średniowieczne rzeźby, skarby sakralne i kroniki miejskie."
+          "desc": "Sredniowieczne arkady, gotycka kolegiata i muzeum kapitulne ze skarbami sakralnymi — kompaktowa petla po starym miescie wzdluz Salzach i murow miejskich, do przejscia w godzine."
         },
         "hr": {
-          "name": "Muzej kapitola u Laufenu",
+          "name": "Stari grad Laufen: Katedrala & Muzej",
           "town": "Laufen a.d. Salzach",
-          "desc": "Umjetnost i povijest u romaničkoj kaptolskoj zgradi — srednjovjekovne skulpture, sakralni dragulji i gradske kronike."
+          "desc": "Srednji vijek arkade, goticka kolegialna crkva i muzej kapitola sa sakralnim blagom — kompaktna kruzna setnja starim gradom uz Salzach i gradske zidine, za oko sat vremena."
         }
       }
     },
