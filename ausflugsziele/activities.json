@@ -2256,47 +2256,47 @@
         "de": {
           "name": "Seisenbergklamm",
           "town": "Weissbach bei Lofer",
-          "desc": "Naturjuwel im Salzburger Land: enge Klamm mit Stegen, Leitern und beeindruckenden Felsformationen."
+          "desc": "Eine der schönsten Klammen Österreichs — kurzer, spektakulärer Rundweg durch tosende Wasserfälle, enge Felsschluchten und geheimnisvolle Stege."
         },
         "en": {
           "name": "Seisenberg Gorge",
           "town": "Weissbach bei Lofer",
-          "desc": "A natural gem in the Salzburg region: a narrow gorge with walkways, ladders and impressive rock formations."
+          "desc": "One of Austria's most beautiful gorges — a short, spectacular circular walk through roaring waterfalls, narrow rock canyons and mysterious walkways."
         },
         "it": {
           "name": "Gola di Seisenberg",
           "town": "Weissbach bei Lofer",
-          "desc": "Gioiello naturale nel Salisburghese: stretta gola con passerelle, scale e imponenti formazioni rocciose."
+          "desc": "Una delle gole più belle d'Austria — breve e spettacolare sentiero circolare attraverso cascate scroscianti, strette fessure rocciose e passerelle misteriose."
         },
         "hu": {
           "name": "Seisenberg-szurdok",
           "town": "Weissbach bei Lofer",
-          "desc": "Természeti kincs a Salzburger Landban: szűk szurdok sétányokkal, létrákkal és lenyűgöző sziklaformációkkal."
+          "desc": "Ausztria egyik legszebb szurdoka — rövid, látványos körséta zúgó vízeséseken, szűk sziklahasadékokon és titokzatos fahídakon át."
         },
         "cs": {
           "name": "Seisenbergská soutěska",
           "town": "Weissbach bei Lofer",
-          "desc": "Přírodní klenot v Salcbursku: úzká soutěska se lávkami, žebříky a působivými skalními formacemi."
+          "desc": "Jedna z nejkrásnějších soutěsek Rakouska — krátká, velkolepá okružní trasa řvoucími vodopády, úzkými skalními průrvami a tajemnými lávkami."
         },
         "es": {
           "name": "Garganta de Seisenberg",
           "town": "Weissbach bei Lofer",
-          "desc": "Una joya natural en la región de Salzburgo: estrecho desfiladero con pasarelas, escaleras y formaciones rocosas impresionantes."
+          "desc": "Una de las gargantas más hermosas de Austria — corta y espectacular ruta circular a través de rugientes cascadas, estrechos cañones rocosos y misteriosas pasarelas."
         },
         "fr": {
           "name": "Gorges de Seisenberg",
           "town": "Weissbach bei Lofer",
-          "desc": "Un joyau naturel dans la région de Salzbourg : gorges étroites avec passerelles, échelles et formations rocheuses impressionnantes."
+          "desc": "L'une des plus belles gorges d'Autriche — court et spectaculaire sentier circulaire à travers des cascades rugissantes, des canyons rocheux étroits et des passerelles mystérieuses."
         },
         "pl": {
           "name": "Wąwóz Seisenberg",
           "town": "Weissbach bei Lofer",
-          "desc": "Przyrodniczy klejnot Ziemi Salzburskiej: wąski wąwóz z kładkami, drabinami i imponującymi formacjami skalnymi."
+          "desc": "Jeden z najpiękniejszych wąwozów Austrii — krótka, spektakularna trasa okrężna przez hucące wodospady, wąskie skaliste kaniony i tajemnicze kładki."
         },
         "hr": {
           "name": "Klisura Seisenberg",
           "town": "Weissbach bei Lofer",
-          "desc": "Prirodni dragulj u Salzburškoj zemlji: uska klisura sa šetnicama, ljestvama i impresivnim stijenskim formacijama."
+          "desc": "Jedan od najljepših klanaca Austrije — kratka, spektakularna kružna staza kroz hučeće vodopade, uske stjenovite klance i tajanstvene mostove."
         }
       }
     },
@@ -5449,6 +5449,68 @@
           "name": "Bajkovita staza Bischofswiesen",
           "town": "Bischofswiesen",
           "desc": "Čarobna tematska planinarska staza s bajkovitim figurama i postajama duž puta — lako prohodna, idealna za obitelji s djecom, usred prirode Berchtesgadenskog kraja."
+        }
+      }
+    },
+    {
+      "id": "vorderkaserklamm",
+      "category": "mountains",
+      "roles": [
+        "family",
+        "active",
+        "couple"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 38,
+      "icon": "🌊",
+      "url": "https://www.lofer.com/sommer/ausflugsziele/vorderkaserklamm/",
+      "i18n": {
+        "de": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Tiefe Schlucht mit Stegen, Leitern und Brücken — dahinter erwarten natürliche Badeteiche und leichte Familienwanderungen im Loferer Steingebirge."
+        },
+        "en": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Deep gorge with walkways, ladders and bridges — beyond it, natural bathing pools and easy family hikes in the Loferer Steinberge await."
+        },
+        "it": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Profonda gola con passerelle, scale e ponti — oltre si trovano laghetti naturali per il bagno ed escursioni facili per famiglie nei Loferer Steinberge."
+        },
+        "hu": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Mély szurdok hidakkal, létrákkal és fahídakkal — mögötte természetes fürdőtavak és könnyű családi túrák várnak a Loferer Steingebirgében."
+        },
+        "cs": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Hluboká soutěska se lávkami, žebříky a mosty — za ní čekají přírodní koupací jezírka a lehké rodinné túry v Loferských kamenných horách."
+        },
+        "es": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Profunda garganta con pasarelas, escaleras y puentes — más allá esperan estanques naturales de baño y fáciles caminatas familiares en los Loferer Steinberge."
+        },
+        "fr": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Gorge profonde avec passerelles, échelles et ponts — au-delà attendent des étangs naturels de baignade et des randonnées familiales faciles dans le Loferer Steingebirge."
+        },
+        "pl": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Głęboki wąwóz z kładkami, drabinami i mostami — za nim czekają naturalne stawy kąpielowe i łatwe rodzinne wędrówki w Loferer Steinberge."
+        },
+        "hr": {
+          "name": "Vorderkaserklamm",
+          "town": "Weissbach bei Lofer (A)",
+          "desc": "Duboki klanac s mostovima, ljestvama i mostovima — iza njega čekaju prirodni kupački ribnjaci i lagane obiteljske šetnje u Loferer Steingebirgeu."
         }
       }
     }
