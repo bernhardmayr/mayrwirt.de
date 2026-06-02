@@ -452,69 +452,6 @@
       }
     },
     {
-      "id": "haarmoos",
-      "category": "lakes",
-      "roles": [
-        "couple",
-        "active",
-        "family",
-        "culture"
-      ],
-      "seasons": [
-        "summer"
-      ],
-      "distance": 5,
-      "icon": "🌾",
-      "url": "https://www.saaldorf-surheim.de/tourismus/urlaub-in-unserer-gemeinde/",
-      "i18n": {
-        "de": {
-          "name": "Haarmoos am Abtsdorfersee",
-          "town": "Leobendorf",
-          "desc": "Weitläufiges Hochmoor-Naturschutzgebiet am Abtsdorfersee mit Moor-Badesee, Vogelbeobachtungsturm, seltenen Moorvögeln und typischer Moorlandschaft — Natur pur vor der Haustür."
-        },
-        "en": {
-          "name": "Haarmoos at Lake Abtsdorf",
-          "town": "Leobendorf",
-          "desc": "Extensive raised bog nature reserve at Lake Abtsdorf with a moor bathing lake, bird-watching tower, rare bog birds and typical moorland landscape — pure nature on the doorstep."
-        },
-        "it": {
-          "name": "Haarmoos al Lago di Abtsdorf",
-          "town": "Leobendorf",
-          "desc": "Ampia riserva naturale di torbiera al Lago di Abtsdorf con lago balneabile, torre di avvistamento uccelli, uccelli rari e paesaggio tipico di torbiera — natura pura a due passi."
-        },
-        "hu": {
-          "name": "Haarmoos az Abtsdorfi-tónál",
-          "town": "Leobendorf",
-          "desc": "Tágas magasláposi természetvédelmi terület az Abtsdorfi-tónál, láptóval, madármegfigyelő toronnyal, ritka lápmadarakkal és tipikus láplandszájjal — természet a küszöb előtt."
-        },
-        "cs": {
-          "name": "Haarmoos u Abtsdorfského jezera",
-          "town": "Leobendorf",
-          "desc": "Rozlehlá přírodní rezervace vrchovištního rašeliniště u Abtsdorfského jezera s rašelinným koupacím jezerem, pozorovatelnou ptáků, vzácnými ptáky a typickou rašelinnou krajinou."
-        },
-        "es": {
-          "name": "Haarmoos junto al Lago Abtsdorf",
-          "town": "Leobendorf",
-          "desc": "Extensa reserva natural de turbera alta en el Lago Abtsdorf con lago de turba, torre de observación de aves, pájaros raros y paisaje de turbera típico — naturaleza pura a la vuelta de la esquina."
-        },
-        "fr": {
-          "name": "Haarmoos au Lac d'Abtsdorf",
-          "town": "Leobendorf",
-          "desc": "Vaste réserve naturelle de tourbière haute au Lac d'Abtsdorf avec lac de tourbière, tour d'observation des oiseaux, oiseaux rares et paysage de tourbière typique — nature pure à deux pas."
-        },
-        "pl": {
-          "name": "Haarmoos nad Jeziorem Abtsdorf",
-          "town": "Leobendorf",
-          "desc": "Rozległy rezerwat przyrody torfowiska wysokiego nad Jeziorem Abtsdorf z torfowym jeziorem kąpielowym, wieżą obserwacji ptaków, rzadkimi ptakami i typowym krajobrazem torfowiskowym."
-        },
-        "hr": {
-          "name": "Haarmoos uz Jezero Abtsdorf",
-          "town": "Leobendorf",
-          "desc": "Prostrani prirodni rezervat visokog tresišta uz Jezero Abtsdorf s kupačkim jezerom, tornjem za promatranje ptica, rijetkim pticama i tipičnim krajolikom tresišta — čista priroda pred vratima."
-        }
-      }
-    },
-    {
       "id": "lokwelt-freilassing",
       "category": "museum",
       "roles": [
@@ -5029,69 +4966,6 @@
       }
     },
     {
-      "id": "aussichtsplattform-haarmoos",
-      "category": "mountains",
-      "roles": [
-        "family",
-        "couple",
-        "active"
-      ],
-      "seasons": [
-        "summer",
-        "allyear"
-      ],
-      "distance": 3,
-      "icon": "🔭",
-      "url": "https://www.saaldorf-surheim.de/tourismus/",
-      "i18n": {
-        "de": {
-          "name": "Aussichtsplattform Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Wunderschöner Alpenpanorama-Blick direkt bei Saaldorf — von der Plattform am Haarmoos reicht der Blick bei klarem Wetter bis zum Hochstaufen, Untersberg und ins Salzburger Land."
-        },
-        "en": {
-          "name": "Haarmoos Viewing Platform",
-          "town": "Saaldorf-Surheim",
-          "desc": "Wonderful Alpine panorama right at Saaldorf — from the platform at the Haarmoos, on a clear day you can see as far as the Hochstaufen, Untersberg and Salzburg region."
-        },
-        "it": {
-          "name": "Piattaforma panoramica Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Meraviglioso panorama alpino direttamente a Saaldorf — dalla piattaforma al Haarmoos, con il cielo sereno si vede fino allo Hochstaufen, Untersberg e la regione di Salisburgo."
-        },
-        "hu": {
-          "name": "Haarmoos kilátóplatform",
-          "town": "Saaldorf-Surheim",
-          "desc": "Csodálatos alpesi panoráma közvetlenül Saaldorfban — a Haarmoos melletti platformról tiszta időben egészen a Hochstaufenig, az Untersbergig és a Salzburger Landig ellátni."
-        },
-        "cs": {
-          "name": "Vyhlídková plošina Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Nádherný výhled na Alpy přímo u Saaldorfu — z plošiny u Haarmoose je za jasného počasí vidět až na Hochstaufen, Untersberg a do Salcburska."
-        },
-        "es": {
-          "name": "Plataforma mirador Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Maravilloso panorama alpino justo en Saaldorf — desde la plataforma en el Haarmoos, en días despejados se puede ver el Hochstaufen, el Untersberg y la región de Salzburgo."
-        },
-        "fr": {
-          "name": "Plate-forme panoramique Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Merveilleux panorama alpin à Saaldorf même — depuis la plate-forme au Haarmoos, par temps clair on aperçoit le Hochstaufen, l'Untersberg et la région de Salzbourg."
-        },
-        "pl": {
-          "name": "Platforma widokowa Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Cudowna panorama alpejska tuż przy Saaldorf — z platformy przy Haarmoos przy dobrej pogodzie widać aż po Hochstaufen, Untersberg i krainę Salzburga."
-        },
-        "hr": {
-          "name": "Vidikovac Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Prekrasan alpski panoramski pogled tik uz Saaldorf — s platforme kod Haarmoosa po lijepom vremenu pogled seže do Hochstaufena, Untersberga i Salzburške regije."
-        }
-      }
-    },
-    {
       "id": "kehlsteinhaus",
       "category": "museum",
       "roles": [
@@ -6534,70 +6408,6 @@
       }
     },
     {
-      "id": "haarmoos-wanderung",
-      "category": "sport",
-      "roles": [
-        "families",
-        "couples",
-        "adults"
-      ],
-      "seasons": [
-        "spring",
-        "summer",
-        "autumn"
-      ],
-      "distance": 4,
-      "icon": "🥾",
-      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit/haarmoos",
-      "i18n": {
-        "de": {
-          "name": "Haarmoos-Wanderung",
-          "town": "Saaldorf-Surheim",
-          "desc": "Leichter Rundweg durch das Haarmoos-Naturschutzgebiet direkt vor der Haustuer: Hochmoorlandschaft, Vogelbeobachtungsturm, Aussichtsplattform mit Alpenpanorama und der naturnahe Abtsdorfersee als Ziel."
-        },
-        "en": {
-          "name": "Haarmoos Hike",
-          "town": "Saaldorf-Surheim",
-          "desc": "Easy circular walk through the Haarmoos nature reserve right on the doorstep: raised bog landscape, bird-watching tower, panoramic viewpoint and the natural Abtsdorfersee lake as the highlight."
-        },
-        "it": {
-          "name": "Escursione Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Facile percorso circolare attraverso la riserva naturale Haarmoos, a due passi dall'albergo: paesaggio di torbiera, torre di osservazione degli uccelli, terrazza panoramica sulle Alpi e il lago Abtsdorfersee."
-        },
-        "hu": {
-          "name": "Haarmoos-turai setatany",
-          "town": "Saaldorf-Surheim",
-          "desc": "Konnyue koersetatany a kozeli Haarmoos termeszeti rezervatumban: laaplandscap, madarmegfigyeloe torony, panoramas kilato az Alpokra es az Abtsdorfersee-to mint celpontk."
-        },
-        "cs": {
-          "name": "Turas Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Lehka okruzni trasaa skrz prirodni rezervaci Haarmoos primo za dvermi: raseliniste, ptaci pozorovatelna, vyhlid na Alpy a prirozene jezero Abtsdorfersee jako cil."
-        },
-        "es": {
-          "name": "Senderismo por Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Ruta circular sencilla por la reserva natural Haarmoos, a pocos pasos del alojamiento: paisaje de turbera, torre de observacion de aves, mirador panoramico de los Alpes y el lago Abtsdorfersee."
-        },
-        "fr": {
-          "name": "Randonnee Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Promenade circulaire facile a travers la reserve naturelle du Haarmoos, juste a cote de l'hotel : tourbiere, tour d'observation ornithologique, point de vue panoramique sur les Alpes et le lac Abtsdorfersee."
-        },
-        "pl": {
-          "name": "Wedrowka Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Latwa petla przez rezerwat przyrody Haarmoos tuza za progiem: krajobraz torfowiskowy, wieza obserwacji ptakow, panoramiczny punkt widokowy na Alpy oraz jezioro Abtsdorfersee."
-        },
-        "hr": {
-          "name": "Pohod Haarmoos",
-          "town": "Saaldorf-Surheim",
-          "desc": "Laka kruzna setnja kroz prirodni rezervat Haarmoos odmah pored smjestaja: mocvarni krajobraz, kula za promatranje ptica, panoramski vidik na Alpe i jezero Abtsdorfersee."
-        }
-      }
-    },
-    {
       "id": "rund-um-den-abtsee",
       "category": "sport",
       "roles": [
@@ -6977,6 +6787,70 @@
           "name": "Panoramska kruzna staza Saaldorf",
           "town": "Saaldorf-Surheim",
           "desc": "Uzivatelacka kruzna staza s prekrasnom alpskom panoramom iznad Saaldorf-Surheima — put prolazi brdima sa sirokim pogledom na Hochstaufen, Untersberg, Watzmann i salzbursko podgorje."
+        }
+      }
+    },
+    {
+      "id": "haarmoos",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 3,
+      "icon": "🧳",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit/haarmoos",
+      "i18n": {
+        "de": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Naturschutzgebiet direkt vor der Haustuer: leichter Rundweg durch weitlaeufiges Hochmoor mit Badesee, Vogelbeobachtungsturm, Aussichtsplattform mit Alpenpanorama bis Hochstaufen und Untersberg."
+        },
+        "en": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Nature reserve right on the doorstep: easy circular walk through expansive raised bog with a swimming lake, bird-watching tower and panoramic viewpoint with Alpine views to the Hochstaufen and Untersberg."
+        },
+        "it": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Riserva naturale a due passi dall'albergo: facile percorso circolare attraverso un'ampia torbiera con lago balneabile, torre di osservazione degli uccelli e terrazza panoramica con vista sulle Alpi."
+        },
+        "hu": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Termeszeti rezervatum kozvetlenul a szallas elott: konnyue koertur az atalanos lapon uszasi toval, madarfigyeloe toronnyal es panoramas kilatoval a Hochstaufenre es Untersberg-re."
+        },
+        "cs": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Prirodni rezervace primo za dvermi: lehka okruzni trasa rozsahlym raselinistem s koupacim jezerem, ptaci pozorovatelnou a panoramatickym vyhledem na Hochstaufen a Untersberg."
+        },
+        "es": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Reserva natural a la vuelta de la esquina: ruta circular sencilla por una amplia turbera con lago para bañarse, torre de observación de aves y mirador panorámico con vistas a los Alpes."
+        },
+        "fr": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Réserve naturelle à deux pas de l'hôtel : promenade circulaire facile à travers une vaste tourbière avec lac de baignade, tour d'observation ornithologique et belvédère panoramique sur les Alpes."
+        },
+        "pl": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Rezerwat przyrody tuz za progiem: latwa petla przez rozlegle torfowisko z kapiieliskiem, wieza obserwacji ptakow i panoramicznym punktem widokowym na Hochstaufen i Untersberg."
+        },
+        "hr": {
+          "name": "Haarmoos & Abtsdorfersee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Prirodni rezervat odmah pred vratima: laka kruzna staza kroz prostrano tresnjak s jezerom za kupanje, kulom za promatranje ptica i panoramskim vidikovcem prema Hochstaufenu i Untersberg."
         }
       }
     }
