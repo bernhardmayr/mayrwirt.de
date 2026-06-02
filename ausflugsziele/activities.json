@@ -4646,6 +4646,69 @@
           "desc": "Prirodno kupačko jezero tik uz slikoviti samostan Höglwörth — bistra voda, mirne obale i prekrasan alpski pejzaž, idealno za obitelji."
         }
       }
+    },
+    {
+      "id": "haus-der-berge",
+      "category": "museum",
+      "roles": [
+        "family",
+        "culture",
+        "active"
+      ],
+      "seasons": [
+        "allyear",
+        "indoor"
+      ],
+      "distance": 41,
+      "icon": "🏔️",
+      "url": "https://www.haus-der-berge.bayern.de",
+      "i18n": {
+        "de": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Modernes Nationalparkzentrum mit beeindruckenden Erlebnisausstellungen zum Berchtesgadener Nationalpark — Natur hautnah erleben, von der Gletscherwelt bis zum Urwald."
+        },
+        "en": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Modern national park centre with impressive immersive exhibitions on the Berchtesgaden National Park — experience nature up close, from glacial worlds to primeval forests."
+        },
+        "it": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Moderno centro del parco nazionale con mostre esperienziali sul Parco Nazionale di Berchtesgaden — dalla natura glaciale alla foresta primordiale."
+        },
+        "hu": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Modern nemzeti park látogatóközpont a Berchtesgadeni Nemzeti Parkról szóló lenyűgöző élménykiállításokkal — a gleccservilágtól az őserdőig."
+        },
+        "cs": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Moderní centrum národního parku s působivými zážitkovými výstavami o Národním parku Berchtesgaden — od ledovcového světa po prales."
+        },
+        "es": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Moderno centro del parque nacional con impresionantes exposiciones vivenciales sobre el Parque Nacional de Berchtesgaden — desde el mundo glacial hasta el bosque primigenio."
+        },
+        "fr": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Centre moderne du parc national avec des expositions immersives impressionnantes sur le Parc National de Berchtesgaden — des glaciers à la forêt primaire."
+        },
+        "pl": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Nowoczesne centrum parku narodowego z imponującymi wystawami o Parku Narodowym Berchtesgaden — od świata lodowcowego po puszczę."
+        },
+        "hr": {
+          "name": "Haus der Berge",
+          "town": "Berchtesgaden",
+          "desc": "Moderni centar nacionalnog parka s impresivnim izložbama o Nacionalnom parku Berchtesgaden — od ledenjačkog svijeta do prašume."
+        }
+      }
     }
   ]
 }
