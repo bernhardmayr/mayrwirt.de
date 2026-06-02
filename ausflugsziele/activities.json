@@ -4087,6 +4087,131 @@
           "desc": "Pravi tragovi dinosaura na 1869 m nadmorske visine — gondolom gore, zatim Triassic Park s fosilnim otiscima i figurama dinosaura u prirodnoj veličini."
         }
       }
+    },
+    {
+      "id": "zwiesel-bergtour",
+      "category": "mountains",
+      "roles": [
+        "active",
+        "couple",
+        "family"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 30,
+      "icon": "⛰️",
+      "url": "https://www.inzell.de/wandern",
+      "i18n": {
+        "de": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "Beliebter Hausberg von Inzell (1.782 m) — gut markierter Anstieg durch Bergwald, herrliches Gipfelpanorama auf Chiemgauer Alpen und Salzburger Land."
+        },
+        "en": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "Popular local mountain of Inzell (1,782 m) — well-marked ascent through mountain forest, superb summit panorama over the Chiemgau Alps and Salzburg region."
+        },
+        "it": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "La montagna di casa di Inzell (1.782 m) — salita ben segnalata attraverso il bosco montano, splendido panorama dalla vetta sulle Alpi del Chiemgau e sul Salisburghese."
+        },
+        "hu": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "Inzell legnépszerűbb hegycsúcsa (1782 m) — jól jelölt ösvény az erdőn át, csodálatos csúcspanoráma a Chiemgau-Alpokra és a Salzburger Landre."
+        },
+        "cs": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "Oblíbená domácí hora Inzellu (1782 m) — dobře značená stezka horským lesem, nádherné panorama ze štítu na Chiemgauské Alpy a Salcbursko."
+        },
+        "es": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "La montaña local favorita de Inzell (1.782 m) — subida bien señalizada por bosque de montaña, espléndido panorama cumbre sobre los Alpes del Chiemgau y la región de Salzburgo."
+        },
+        "fr": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "La montagne locale préférée d'Inzell (1 782 m) — montée bien balisée à travers la forêt de montagne, splendide panorama depuis le sommet sur les Alpes du Chiemgau et la région de Salzbourg."
+        },
+        "pl": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "Ulubiona miejscowa góra Inzell (1782 m) — dobrze oznakowane podejście przez las górski, wspaniała panorama ze szczytu na Alpy Chiemgau i krainę Salzburga."
+        },
+        "hr": {
+          "name": "Zwiesel",
+          "town": "Inzell",
+          "desc": "Omiljena lokalna planina Inzella (1782 m) — dobro označena staza kroz gorsku šumu, veličanstvena panorama s vrha na Chiemgauske Alpe i Salzburšku zemlju."
+        }
+      }
+    },
+    {
+      "id": "schoenramer-filz",
+      "category": "mountains",
+      "roles": [
+        "active",
+        "couple",
+        "family"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 13,
+      "icon": "🌿",
+      "url": "https://www.rupertiwinkel.de",
+      "i18n": {
+        "de": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Großes Hochmoor-Naturschutzgebiet mit Moorlehrpfad, seltenen Pflanzen und Kranichrastplatz — Naturerlebnis direkt vor der Haustür."
+        },
+        "en": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Large raised bog nature reserve with bog trail, rare plants and crane roosting site — a natural experience right on the doorstep."
+        },
+        "it": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Grande riserva naturale di torbiera con sentiero didattico, piante rare e area di sosta per le gru — un'esperienza naturale a due passi."
+        },
+        "hu": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Nagy magasláposi természetvédelmi terület mocsári tanösvénnyel, ritka növényekkel és daruvonulási hellyel — természeti élmény közvetlenül a küszöb előtt."
+        },
+        "cs": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Velká přírodní rezervace vrchovištního rašeliniště s naučnou stezkou, vzácnými rostlinami a stanovištěm jeřábů — přírodní zážitek přímo za dveřmi."
+        },
+        "es": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Gran reserva natural de turbera alta con sendero didáctico, plantas raras y lugar de descanso de grullas — una experiencia natural a la vuelta de la esquina."
+        },
+        "fr": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Grande réserve naturelle de tourbière avec sentier pédagogique, plantes rares et site de repos des grues — une expérience naturelle à deux pas."
+        },
+        "pl": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Duży rezerwat przyrody torfowiska wysokiego ze ścieżką przyrodniczą, rzadkimi roślinami i miejscem postoju żurawi — doświadczenie natury tuż za progiem."
+        },
+        "hr": {
+          "name": "Schönramer Filz",
+          "town": "Schönram / Petting",
+          "desc": "Veliki prirodni rezervat visokog tresišta s poučnom stazom, rijetkim biljkama i odmorištem ždralova — doživljaj prirode tik pred vratima."
+        }
+      }
     }
   ]
 }
