@@ -2557,67 +2557,6 @@
       }
     },
     {
-      "id": "freibad-ainring",
-      "category": "lakes",
-      "roles": [
-        "family",
-        "active"
-      ],
-      "seasons": [
-        "summer"
-      ],
-      "distance": 9,
-      "icon": "🏊",
-      "url": "https://www.ainring.de/",
-      "i18n": {
-        "de": {
-          "name": "Freibad Ainring",
-          "town": "Ainring",
-          "desc": "Kleines, familiäres Gemeindefreibad direkt vor der Haustür — mit Liegewiese, Kinderbecken und Sprungbrett."
-        },
-        "en": {
-          "name": "Ainring Open-Air Pool",
-          "town": "Ainring",
-          "desc": "Small, family-friendly community pool right on the doorstep — with lawns, a paddling pool and diving board."
-        },
-        "it": {
-          "name": "Piscina all'aperto di Ainring",
-          "town": "Ainring",
-          "desc": "Piccola e familiare piscina comunale a due passi — con prato, vasca per bambini e trampolino."
-        },
-        "hu": {
-          "name": "Ainring közösségi fürdő",
-          "town": "Ainring",
-          "desc": "Kis, családias közösségi fürdő közvetlenül a szomszédságban — napozóréttel, gyermekmedencével és ugródeszka."
-        },
-        "cs": {
-          "name": "Obecní koupaliště Ainring",
-          "town": "Ainring",
-          "desc": "Malé, rodinné obecní koupaliště hned za dveřmi — s travnatou pláží, dětským bazénem a skokanským prknem."
-        },
-        "es": {
-          "name": "Piscina municipal de Ainring",
-          "town": "Ainring",
-          "desc": "Pequeña piscina municipal familiar justo a la vuelta de la esquina — con césped, zona infantil y trampolín."
-        },
-        "fr": {
-          "name": "Piscine municipale d'Ainring",
-          "town": "Ainring",
-          "desc": "Petite piscine municipale familiale juste à la porte — avec pelouse, bassin enfants et plongeoir."
-        },
-        "pl": {
-          "name": "Basen komunalny w Ainring",
-          "town": "Ainring",
-          "desc": "Mały, rodzinny basen komunalny tuż za progiem — z trawnikiem, basenem dla dzieci i trampoliną."
-        },
-        "hr": {
-          "name": "Općinski bazen Ainring",
-          "town": "Ainring",
-          "desc": "Mali, obiteljski općinski bazen odmah pred kućom — s travnjakom, dječjim bazenom i skakaonom."
-        }
-      }
-    },
-    {
       "id": "waldbad-anif",
       "category": "lakes",
       "roles": [
@@ -5774,68 +5713,6 @@
       }
     },
     {
-      "id": "minigolf-ainring",
-      "category": "sport",
-      "roles": [
-        "families",
-        "couples",
-        "adults"
-      ],
-      "seasons": [
-        "summer"
-      ],
-      "distance": 8,
-      "icon": "⛳",
-      "url": "https://www.ainring.de/freizeit-tourismus/freibad",
-      "i18n": {
-        "de": {
-          "name": "Minigolf am Freibad Ainring",
-          "town": "Ainring",
-          "desc": "Spaß für die ganze Familie: Die gepflegte Minigolfanlage direkt am Freibad Ainring lädt zum Spielen ein – ideal für einen entspannten Sommertag mit Badespaß danach."
-        },
-        "en": {
-          "name": "Minigolf at Ainring Open-Air Pool",
-          "town": "Ainring",
-          "desc": "Fun for the whole family: the well-kept minigolf course right next to Ainring's open-air pool – perfect for a relaxed summer day with a swim afterwards."
-        },
-        "it": {
-          "name": "Minigolf alla piscina all'aperto di Ainring",
-          "town": "Ainring",
-          "desc": "Divertimento per tutta la famiglia: il curato campo di minigolf accanto alla piscina all'aperto di Ainring – ideale per una giornata estiva rilassante con bagno finale."
-        },
-        "hu": {
-          "name": "Minigolf az Ainring-i strandfürdőnél",
-          "town": "Ainring",
-          "desc": "Szórakozás az egész családnak: a gondosan karbantartott minigolfpálya közvetlenül az Ainring-i strandfürdő mellett – ideális egy nyugodt nyári naphoz fürdéssel."
-        },
-        "cs": {
-          "name": "Minigolf u koupaliště Ainring",
-          "town": "Ainring",
-          "desc": "Zábava pro celou rodinu: udržované minigolfové hřiště přímo u koupaliště v Ainringu – ideální pro příjemný letní den s koupáním."
-        },
-        "es": {
-          "name": "Minigolf en la piscina de Ainring",
-          "town": "Ainring",
-          "desc": "Diversión para toda la familia: el cuidado campo de minigolf junto a la piscina al aire libre de Ainring – ideal para un relajante día de verano con baño incluido."
-        },
-        "fr": {
-          "name": "Minigolf à la piscine d'Ainring",
-          "town": "Ainring",
-          "desc": "Du plaisir pour toute la famille : le parcours de minigolf bien entretenu juste à côté de la piscine en plein air d'Ainring – idéal pour une journée d'été détendue avec baignade."
-        },
-        "pl": {
-          "name": "Minigolf przy basenie w Ainring",
-          "town": "Ainring",
-          "desc": "Zabawa dla całej rodziny: zadbane pole do minigolfa tuż przy otwartym basenie w Ainring – idealne na relaksujący letni dzień z kąpielą na koniec."
-        },
-        "hr": {
-          "name": "Minigolf uz bazen u Ainringu",
-          "town": "Ainring",
-          "desc": "Zabava za cijelu obitelj: uredni minigolf teren odmah uz otvoreni bazen u Ainringu – idealno za opušteni ljetni dan s kupanjem."
-        }
-      }
-    },
-    {
       "id": "burg-burghausen",
       "category": "museum",
       "roles": [
@@ -6851,6 +6728,68 @@
           "name": "Haarmoos & Abtsdorfersee",
           "town": "Saaldorf-Surheim",
           "desc": "Prirodni rezervat odmah pred vratima: laka kruzna staza kroz prostrano tresnjak s jezerom za kupanje, kulom za promatranje ptica i panoramskim vidikovcem prema Hochstaufenu i Untersberg."
+        }
+      }
+    },
+    {
+      "id": "freibad-ainring",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 8,
+      "icon": "🏖",
+      "url": "https://www.ainring.de/freizeit-tourismus/freibad",
+      "i18n": {
+        "de": {
+          "name": "Freibad & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Familiäres Gemeindefreibad mit Liegewiese, Kinderbecken und Sprungbrett — direkt daneben wartet eine gepflegte Minigolfanlage. Ideale Kombination für einen entspannten Sommertag."
+        },
+        "en": {
+          "name": "Ainring Open-Air Pool & Minigolf",
+          "town": "Ainring",
+          "desc": "Family-friendly municipal lido with sunbathing lawn, paddling pool and diving board — right next to it a well-kept minigolf course. The perfect combination for a relaxed summer day."
+        },
+        "it": {
+          "name": "Piscina all'aperto & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Piscina comunale per famiglie con prato, vasca per bambini e trampolino — accanto si trova un curato campo da minigolf. Combinazione ideale per una giornata estiva rilassante."
+        },
+        "hu": {
+          "name": "Ainring strandfuerdo & Minigolf",
+          "town": "Ainring",
+          "desc": "Csalaadbaraat koezseegi strandfuerdo napozoretveel, gyermekmedencevel es ugrodeszkaval — kozvetlenul mellette egy gondozott minigolfpalya. Tokeletes kombinacio egy kellemes nyari naphoz."
+        },
+        "cs": {
+          "name": "Koupalistrte & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Rodinne obecni koupaliste s lozkou, detskym bazenem a skokanskym mustkem — hned vedle je udrzovane minigolfove hriste. Idealni kombinace pro prijemny letni den."
+        },
+        "es": {
+          "name": "Piscina & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Piscina municipal familiar con zona de descanso, piscina infantil y trampolín — justo al lado hay un cuidado campo de minigolf. Combinación perfecta para un relajante día de verano."
+        },
+        "fr": {
+          "name": "Piscine & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Piscine municipale familiale avec pelouse, pataugeoire et plongeoir — juste à côté se trouve un parcours de minigolf bien entretenu. Combinaison idéale pour une journée d'été détendue."
+        },
+        "pl": {
+          "name": "Basen & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Przyjazny rodzinom basen miejski z lezakowiskiem, basenem dla dzieci i trapolin — tuz obok zadbane pole do minigolfa. Idealne polaaczenie na relaksujacy letni dzien."
+        },
+        "hr": {
+          "name": "Bazen & Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Obiteljski opcinski bazen s lezalisom, decjim bazenom i daskom za skokove — tik do njega uredjeni minigolf teren. Idealna kombinacija za opusteni ljetni dan."
         }
       }
     }
