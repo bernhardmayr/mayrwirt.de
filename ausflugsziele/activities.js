@@ -12,7 +12,7 @@
     const activities = data.activities.slice().sort((a, b) => a.distance - b.distance);
 
     // ---- Filter state ----
-    const state = { roles: new Set(), cats: new Set(), seasons: new Set(), dist: null };
+    const state = { roles: new Set(), cats: new Set(), seasons: new Set(), dist: null, search: '' };
 
     // ---- Header texts ----
     document.getElementById('act-title').textContent    = L.title;
@@ -46,6 +46,18 @@
     filterHtml += '<button id="filter-reset" class="filter-reset">✕ ' + L.reset + '</button>';
 
     document.getElementById('act-filters').innerHTML = filterHtml;
+
+    // ---- Search bar (inserted before filter box) ----
+    const searchWrap = document.createElement('div');
+    searchWrap.className = 'act-search-wrap';
+    searchWrap.innerHTML = '<input id="act-search-input" type="search" class="act-search-input" placeholder="' + (L.search || 'Suchen …') + '" autocomplete="off">';
+    const filtersEl = document.getElementById('act-filters');
+    filtersEl.parentNode.insertBefore(searchWrap, filtersEl);
+
+    document.getElementById('act-search-input').addEventListener('input', e => {
+        state.search = e.target.value.trim().toLowerCase();
+        render();
+    });
 
     // ---- Card rendering ----
     function cardHtml(a) {
@@ -82,6 +94,10 @@
         if (state.cats.size    && !state.cats.has(a.category))                return false;
         if (state.seasons.size && !a.seasons.some(s => state.seasons.has(s))) return false;
         if (state.dist !== null && a.distance > state.dist)                   return false;
+        if (state.search) {
+            const t = a.i18n[lang] || a.i18n.de;
+            if (!(t.name + ' ' + t.town + ' ' + t.desc).toLowerCase().includes(state.search)) return false;
+        }
         return true;
     }
 
@@ -131,7 +147,10 @@
         state.cats.clear();
         state.seasons.clear();
         state.dist = null;
+        state.search = '';
         document.querySelectorAll('.filter-chip.active').forEach(c => c.classList.remove('active'));
+        const inp = document.getElementById('act-search-input');
+        if (inp) inp.value = '';
         render();
     }
 
