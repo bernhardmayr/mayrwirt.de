@@ -1,6 +1,9 @@
 (async function () {
     const lang = document.documentElement.lang || 'de';
 
+    // Starting point for all Google Maps routes
+    const ORIGIN = 'Mayrwirt, Untere Straße 24, 83416 Saaldorf-Surheim';
+
     const res  = await fetch('activities.json');
     const data = await res.json();
     const L    = data.labels[lang] || data.labels.de;
@@ -23,6 +26,7 @@
         { key: 'd10', max: 10 },
         { key: 'd25', max: 25 },
         { key: 'd50', max: 50 },
+        { key: 'd60', max: 60 },
     ];
 
     function chipGroup(legend, dim, entries) {
@@ -46,9 +50,15 @@
     // ---- Card rendering ----
     function cardHtml(a) {
         const t    = a.i18n[lang] || a.i18n.de;
+        const de   = a.i18n.de;
         const tags = [];
         tags.push('<span class="tag-pill tag-cat">' + L.cats[a.category] + '</span>');
         for (const r of a.roles) tags.push('<span class="tag-pill">' + L.roles[r] + '</span>');
+
+        // Google Maps directions from the Mayrwirt to this destination
+        const mapsUrl = 'https://www.google.com/maps/dir/?api=1'
+            + '&origin=' + encodeURIComponent(ORIGIN)
+            + '&destination=' + encodeURIComponent(de.name + ', ' + de.town);
 
         return ''
             + '<article class="activity-card">'
@@ -60,7 +70,10 @@
             +   '<div class="activity-town">📍 ' + t.town + '</div>'
             +   '<p class="activity-desc">' + t.desc + '</p>'
             +   '<div class="activity-tags">' + tags.join('') + '</div>'
-            +   '<a class="activity-link" href="' + a.url + '" target="_blank" rel="noopener">' + L.more + ' →</a>'
+            +   '<div class="activity-links">'
+            +     '<a class="activity-link" href="' + a.url + '" target="_blank" rel="noopener">' + L.more + ' →</a>'
+            +     '<a class="activity-maps" href="' + mapsUrl + '" target="_blank" rel="noopener">📍 ' + (L.route || 'Route') + '</a>'
+            +   '</div>'
             + '</article>';
     }
 
