@@ -6469,6 +6469,130 @@
           "desc": "Besplatna 2 km kruzna staza s 15 postaja o promjenama sume i raznolikosti stabala u sumi Osing. Interaktivne ploce za posjetitelje svih uzrasta."
         }
       }
+    },
+    {
+      "id": "strandbad-waging",
+      "category": "lakes",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 18,
+      "icon": "🏖",
+      "url": "https://www.waging.de/tourismus/strandbad",
+      "i18n": {
+        "de": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Gepflegtes Strandbad am waermsten Badesee Oberbayerns mit Sandstrand, Liegewiese, Rutsche, Beachvolleyball und Bootsverleih. Ideal fuer einen entspannten Familientag am Wasser."
+        },
+        "en": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Well-kept lido on Bavaria's warmest lake with sandy beach, sunbathing lawn, slide, beach volleyball and boat hire. Perfect for a relaxed family day by the water."
+        },
+        "it": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Lido curato sul lago piu caldo della Baviera con spiaggia sabbiosa, prato per il relax, scivolo, beach volley e noleggio barche. Ideale per una giornata in famiglia."
+        },
+        "hu": {
+          "name": "Waging am See strandfuerdo",
+          "town": "Waging am See",
+          "desc": "Gondozott strandfuerdo Bajororszag legmelegebb tavana homokos stranddal, napozoretveel, csuszoadal, strandroptlabda-pallyal es csonikhirre. Tokeletes csalaadi naphoz."
+        },
+        "cs": {
+          "name": "Plovarsky areal Waging am See",
+          "town": "Waging am See",
+          "desc": "Udrzovane koupaliste na nejteplejsim bavorsem jezere s pisecnou plazi, louzkou, tobogánem, plaznim volejbalem a pujcovnou lodi. Idealni pro rodinny den u vody."
+        },
+        "es": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Playa acondicionada junto al lago mas calido de Baviera con playa de arena, zona de descanso, tobogan, voleibol de playa y alquiler de barcas. Ideal para un dia familiar."
+        },
+        "fr": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Bain de soleil amenage sur le lac le plus chaud de Baviere avec plage de sable, pelouse, toboggan, beach-volley et location de bateaux. Ideal pour une journee en famille."
+        },
+        "pl": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Zadbane kapielisko nad najcieplejszym jeziorem Bawarii z piaszczystą plaza, lezakowiskiem, zjezdzalnia, siatkowka plazowa i wypozyczalnia lodek. Idealne na rodzinny dzien."
+        },
+        "hr": {
+          "name": "Strandbad Waging am See",
+          "town": "Waging am See",
+          "desc": "Uredeno kupkaliste na najtoplijem jezeru Bavarske s pjescanom plazom, lezalisom, toboganom, odbojkom na pijesku i iznajmljivanjem camaca. Idealno za obiteljski dan."
+        }
+      }
+    },
+    {
+      "id": "strandbad-tettenhausen",
+      "category": "lakes",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 15,
+      "icon": "🏖",
+      "url": "https://www.tettenhausen.de/tourismus/strandbad",
+      "i18n": {
+        "de": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Naturnahes Strandbad am Waginger See mit ruhigem Badestrand, Liegewiese und klarem Wasser — eine etwas stillere Alternative zum grossen Strandbad, besonders bei Familien beliebt."
+        },
+        "en": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Natural lido on Lake Waging with a quiet beach, sunbathing lawn and clear water — a slightly calmer alternative to the main lido, especially popular with families."
+        },
+        "it": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Lido naturale sul Lago di Waging con spiaggia tranquilla, prato e acqua limpida — un'alternativa piu silenziosa al lido principale, particolarmente amata dalle famiglie."
+        },
+        "hu": {
+          "name": "Tettenhausen strandfuerdo",
+          "town": "Tettenhausen",
+          "desc": "Termeszet koeli strandfuerdo a Waginger-toon csendes stranddal, napozoretveel es tiszta vizzel — csendesebb alternativa a feo strandfuerdehoz, kueloenoeosen csaladok koereben neepszerue."
+        },
+        "cs": {
+          "name": "Koupaliste Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Pristorodni koupaliste na Wagging See s tichy plaziemi, luzkem a cistou vodou — klidnejsi alternativa k hlavnimu koupalisti, oblibena zejmena rodinami."
+        },
+        "es": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Playa natural en el lago Waging con playa tranquila, zona de descanso y agua cristalina — una alternativa mas serena al recinto principal, muy popular entre las familias."
+        },
+        "fr": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Baignade naturelle sur le lac de Waging avec plage calme, pelouse et eau claire — une alternative plus paisible au grand lido, particulierement appreciee des familles."
+        },
+        "pl": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Naturalne kapielisko nad jeziorem Waging z cichą plaza, lezakowiskiem i czystą woda — spokojniejsza alternatywa dla glownego kapieliska, szczegolnie lubiana przez rodziny."
+        },
+        "hr": {
+          "name": "Strandbad Tettenhausen",
+          "town": "Tettenhausen",
+          "desc": "Prirodno kupkaliste na jezeru Waging s mirnom plazom, lezalisom i bistrom vodom — tisa alternativa glavnom kupkalistu, osobito omiljena medu obiteljima."
+        }
+      }
     }
   ]
 }
