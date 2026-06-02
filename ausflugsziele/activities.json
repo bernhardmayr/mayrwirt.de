@@ -4709,6 +4709,249 @@
           "desc": "Moderni centar nacionalnog parka s impresivnim izložbama o Nacionalnom parku Berchtesgaden — od ledenjačkog svijeta do prašume."
         }
       }
+    },
+    {
+      "id": "keltenblitz-sommerrodelbahn",
+      "category": "sport",
+      "roles": [
+        "family",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 33,
+      "icon": "🛷",
+      "url": "https://www.hallein.com/sommer/keltenblitz",
+      "i18n": {
+        "de": {
+          "name": "Sommerrodelbahn Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Rasante Sommerrodelbahn hoch über Hallein — kurvenreiche Bahn mit Panoramablick auf das Salzachtal, Spaß für die ganze Familie."
+        },
+        "en": {
+          "name": "Keltenblitz Summer Toboggan",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Thrilling summer toboggan high above Hallein — winding track with panoramic views over the Salzach valley, fun for the whole family."
+        },
+        "it": {
+          "name": "Pista estiva Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Emozionante pista estiva in alto sopra Hallein — percorso ricco di curve con vista panoramica sulla valle della Salzach, divertimento per tutta la famiglia."
+        },
+        "hu": {
+          "name": "Keltenblitz nyári szánkópálya",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Pörgős nyári szánkópálya Hallein felett — kanyargós pálya panorámával a Salzach-völgyre, szórakozás az egész családnak."
+        },
+        "cs": {
+          "name": "Letní bobová dráha Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Adrenalínová letní bobová dráha vysoko nad Halleinem — klikatá dráha s panoramatickým výhledem na údolí Salzachu, zábava pro celou rodinu."
+        },
+        "es": {
+          "name": "Trineo de verano Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Emocionante pista de trineo de verano sobre Hallein — pista con curvas y vistas panorámicas al valle del Salzach, diversión para toda la familia."
+        },
+        "fr": {
+          "name": "Luge d'été Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Luge d'été palpitante au-dessus de Hallein — piste sinueuse avec vue panoramique sur la vallée de la Salzach, amusement pour toute la famille."
+        },
+        "pl": {
+          "name": "Letnie tory saneczkowe Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Emocjonujące letnie tory saneczkowe wysoko nad Hallein — kręta trasa z panoramicznym widokiem na dolinę Salzach, zabawa dla całej rodziny."
+        },
+        "hr": {
+          "name": "Ljetne sanke Keltenblitz",
+          "town": "Bad Dürrnberg / Hallein (A)",
+          "desc": "Uzbudljive ljetne sanke iznad Halleina — vijugava staza s panoramskim pogledom na dolinu Salzach, zabava za cijelu obitelj."
+        }
+      }
+    },
+    {
+      "id": "kletterwald-berchtesgaden",
+      "category": "sport",
+      "roles": [
+        "family",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 41,
+      "icon": "🌲",
+      "url": "https://www.kletterwald-berchtesgaden.de",
+      "i18n": {
+        "de": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Hochseilgarten im Bergwald mit Parcours für alle Altersklassen und Schwierigkeitsgrade — Kletterabenteuer in einmaliger Nationalpark-Kulisse."
+        },
+        "en": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "High ropes forest course in the mountain forest with routes for all ages and abilities — climbing adventures in a unique National Park setting."
+        },
+        "it": {
+          "name": "Foresta acrobatica Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Parco avventura nella foresta montana con percorsi per tutte le età e livelli di difficoltà — avventure arrampicanti nello scenario unico del parco nazionale."
+        },
+        "hu": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Erdei kalandpálya a hegyerdőben, minden korosztálynak és nehézségi szintnek megfelelő pályákkal — mászókaland egyedülálló nemzeti parki környezetben."
+        },
+        "cs": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Lanový les v horském lese s trasami pro všechny věkové kategorie a obtížnosti — lezecká dobrodružství v unikátní kulise národního parku."
+        },
+        "es": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Bosque de cuerdas en el bosque de montaña con recorridos para todas las edades y niveles — aventuras de escalada en un entorno único de parque nacional."
+        },
+        "fr": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Forêt de cordes en forêt de montagne avec parcours pour tous les âges et niveaux — aventures d'escalade dans un cadre unique de parc national."
+        },
+        "pl": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Park linowy w górskim lesie z trasami dla wszystkich grup wiekowych i poziomów trudności — przygody wspinaczkowe w unikalnej scenerii parku narodowego."
+        },
+        "hr": {
+          "name": "Kletterwald Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Visinski park u gorskoj šumi s parcelama za sve dobi i razine težine — pustolovine penjanja u jedinstvenom okruženju nacionalnog parka."
+        }
+      }
+    },
+    {
+      "id": "rafting-salzach",
+      "category": "sport",
+      "roles": [
+        "active",
+        "couple"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 38,
+      "icon": "🚣",
+      "url": "https://www.rafting-salzach.at",
+      "i18n": {
+        "de": {
+          "name": "Rafting auf der Salzach",
+          "town": "Golling (A)",
+          "desc": "Wildwasser-Rafting auf der Salzach zwischen Golling und Hallein — aufgeregte Stromschnellen, atemberaubende Schluchten und professionelle Guides inklusive."
+        },
+        "en": {
+          "name": "Rafting on the Salzach",
+          "town": "Golling (A)",
+          "desc": "White-water rafting on the Salzach between Golling and Hallein — exciting rapids, breathtaking gorges and professional guides included."
+        },
+        "it": {
+          "name": "Rafting sul Salzach",
+          "town": "Golling (A)",
+          "desc": "Rafting in acque rapide sul Salzach tra Golling e Hallein — rapide emozionanti, gole mozzafiato e guide professionali incluse."
+        },
+        "hu": {
+          "name": "Raftingozás a Salzachon",
+          "town": "Golling (A)",
+          "desc": "Vadvízi raftingozás a Salzachon Golling és Hallein között — izgalmas zuhatagok, lélegzetelállító szurdokok és profi túravezetők."
+        },
+        "cs": {
+          "name": "Rafting na Salzachu",
+          "town": "Golling (A)",
+          "desc": "Divovodní rafting na Salzachu mezi Gollingem a Halleinem — vzrušující peřeje, dechberoucí soutěsky a profesionální průvodci v ceně."
+        },
+        "es": {
+          "name": "Rafting en el Salzach",
+          "town": "Golling (A)",
+          "desc": "Rafting en aguas bravas en el Salzach entre Golling y Hallein — emocionantes rápidos, desfiladeros impresionantes y guías profesionales incluidos."
+        },
+        "fr": {
+          "name": "Rafting sur la Salzach",
+          "town": "Golling (A)",
+          "desc": "Rafting en eaux vives sur la Salzach entre Golling et Hallein — rapides excitants, gorges à couper le souffle et guides professionnels inclus."
+        },
+        "pl": {
+          "name": "Rafting na Salzach",
+          "town": "Golling (A)",
+          "desc": "Rafting na dzikich wodach Salzach między Golling a Hallein — ekscytujące progi, zapierające dech wąwozy i profesjonalni przewodnicy w cenie."
+        },
+        "hr": {
+          "name": "Rafting na Salzachu",
+          "town": "Golling (A)",
+          "desc": "Rafting na bijeloj vodi na Salzachu između Gollinga i Halleina — uzbudljive brzace, zapanjujuće klisure i profesionalni vodiči uključeni."
+        }
+      }
+    },
+    {
+      "id": "canyoning-salzburger-alpen",
+      "category": "sport",
+      "roles": [
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 40,
+      "icon": "💧",
+      "url": "https://www.canyoning-salzburg.at",
+      "i18n": {
+        "de": {
+          "name": "Canyoning in den Salzburger Alpen",
+          "town": "Salzburger Alpen (A)",
+          "desc": "Abenteuer in Schluchten und Wasserfällen der Salzburger Alpen — Abseilen, Springen und Schwimmen mit erfahrenen Canyoning-Guides. Für Einsteiger und Fortgeschrittene."
+        },
+        "en": {
+          "name": "Canyoning in the Salzburg Alps",
+          "town": "Salzburg Alps (A)",
+          "desc": "Adventure in the gorges and waterfalls of the Salzburg Alps — abseiling, jumping and swimming with experienced canyoning guides. Suitable for beginners and advanced."
+        },
+        "it": {
+          "name": "Canyoning nelle Alpi Salisburghesi",
+          "town": "Alpi Salisburghesi (A)",
+          "desc": "Avventura nelle gole e cascate delle Alpi Salisburghesi — calata in corda doppia, tuffi e nuoto con guide esperte di canyoning. Per principianti e avanzati."
+        },
+        "hu": {
+          "name": "Canyoning a Salzburgi-Alpokban",
+          "town": "Salzburgi-Alpok (A)",
+          "desc": "Kaland szurdokokban és vízesésekben a Salzburgi-Alpokban — ereszkedés, ugrás és úszás tapasztalt canyoning-vezető kíséretével. Kezdőknek és haladóknak."
+        },
+        "cs": {
+          "name": "Canyoning v Salcburských Alpách",
+          "town": "Salcburské Alpy (A)",
+          "desc": "Dobrodružství v soutěskách a vodopádech Salcburských Alp — slanění, skoky a plavání se zkušenými canyoning-průvodci. Pro začátečníky i pokročilé."
+        },
+        "es": {
+          "name": "Canyoning en los Alpes de Salzburgo",
+          "town": "Alpes de Salzburgo (A)",
+          "desc": "Aventura en barrancos y cascadas de los Alpes de Salzburgo — rapel, saltos y natación con guías experimentados de canyoning. Para principiantes y avanzados."
+        },
+        "fr": {
+          "name": "Canyoning dans les Alpes de Salzbourg",
+          "town": "Alpes de Salzbourg (A)",
+          "desc": "Aventure dans les gorges et cascades des Alpes de Salzbourg — rappel, sauts et natation avec des guides expérimentés. Convient aux débutants et aux confirmés."
+        },
+        "pl": {
+          "name": "Canyoning w Alpach Salzburskich",
+          "town": "Alpy Salzburskie (A)",
+          "desc": "Przygoda w wąwozach i wodospadach Alp Salzburskich — zjazd na linie, skoki i pływanie z doświadczonymi przewodnikami canyoningu. Dla początkujących i zaawansowanych."
+        },
+        "hr": {
+          "name": "Canyoning u Salzburškim Alpama",
+          "town": "Salzburške Alpe (A)",
+          "desc": "Avantura u klancima i vodopadima Salzburških Alpa — spuštanje po užetu, skokovi i plivanje s iskusnim canyoning vodičima. Za početnike i napredne."
+        }
+      }
     }
   ]
 }
