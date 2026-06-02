@@ -7790,6 +7790,68 @@
           "desc": "Prirodno kupacko jezero blizu Waginger See — mirnija alternativa s bistrom vodom, sljuncanom plazom i lezalisom bez guzve veceg susjeda. Idealno za plivace i obitelji."
         }
       }
+    },
+    {
+      "id": "eislaufen-salzburg",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "⛸",
+      "url": "https://www.volksgarten-salzburg.at/",
+      "i18n": {
+        "de": {
+          "name": "Eislaufen im Volksgarten",
+          "town": "Salzburg",
+          "desc": "Die groesste Freiluft-Kunsteisbahn Salzburgs liegt idyllisch im Volksgarten — von November bis Februar koennen Gross und Klein auf dem Eis ihre Runden drehen, Schlittschuhe koennen vor Ort geliehen werden."
+        },
+        "en": {
+          "name": "Ice Skating in the Volksgarten",
+          "town": "Salzburg",
+          "desc": "Salzburg's largest open-air artificial ice rink is idyllically located in the Volksgarten — from November to February, young and old can skate their rounds, with skate hire available on site."
+        },
+        "it": {
+          "name": "Pattinaggio sul ghiaccio al Volksgarten",
+          "town": "Salisburgo",
+          "desc": "La piu grande pista di pattinaggio artificiale all'aperto di Salisburgo si trova nell'idilliaco Volksgarten — da novembre a febbraio grandi e piccoli possono pattinare, con noleggio pattini in loco."
+        },
+        "hu": {
+          "name": "Korcsolyazas a Volksgartenben",
+          "town": "Salzburg",
+          "desc": "Salzburg legnagyobb szabadteri mujeegpalya ja a Volksgarten idilli kertjeben talalhato — novembertol februarig nagyok es kicsik egyarant korcsolyazhatnak, helyszini koelcsonzoessel."
+        },
+        "cs": {
+          "name": "Brusleni ve Volksgartu",
+          "town": "Salzburg",
+          "desc": "Nejvetsi venkovni umelecke kluzisteoo v Salzburgu se idylicky nachazi ve Volksgartu — od listopadu do unore mohou velci i mali bruslit, pujceni bruslii je k dispozici na miste."
+        },
+        "es": {
+          "name": "Patinaje sobre hielo en el Volksgarten",
+          "town": "Salzburgo",
+          "desc": "La pista de hielo artificial al aire libre mas grande de Salzburgo esta idilicamente ubicada en el Volksgarten — de noviembre a febrero, grandes y pequenos pueden patinar, con alquiler de patines in situ."
+        },
+        "fr": {
+          "name": "Patinage sur glace au Volksgarten",
+          "town": "Salzbourg",
+          "desc": "La plus grande patinoire artificielle en plein air de Salzbourg est idylliquement situee dans le Volksgarten — de novembre a fevrier, petits et grands peuvent patiner, avec location de patins sur place."
+        },
+        "pl": {
+          "name": "Lyzwiarstwo w Volksgarren",
+          "town": "Salzburg",
+          "desc": "Najwieksza otwarta sztuczna lodowisko w Salzburgu jest idyllicznie polozoony w Volksgarren — od listopada do lutego duzi i mali moga jezdzic na lyzwach, z wypozyczalnia lyzew na miejscu."
+        },
+        "hr": {
+          "name": "Klizanje u Volksgarrenu",
+          "town": "Salzburg",
+          "desc": "Najvece otvoreno umjetno klizaliste u Salzburgu idilicno je smjesteno u Volksgarrenu — od studenog do veljace veliki i mali mogu se klizati, s iznajmljivanjem klizaljki na licu mjesta."
+        }
+      }
     }
   ]
 }
