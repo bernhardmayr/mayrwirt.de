@@ -7852,6 +7852,136 @@
           "desc": "Najvece otvoreno umjetno klizaliste u Salzburgu idilicno je smjesteno u Volksgarrenu — od studenog do veljace veliki i mali mogu se klizati, s iznajmljivanjem klizaljki na licu mjesta."
         }
       }
+    },
+    {
+      "id": "kino-salzburg",
+      "category": "city",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "🎬",
+      "url": "https://www.daskino.at/",
+      "i18n": {
+        "de": {
+          "name": "Kino in Salzburg",
+          "town": "Salzburg",
+          "desc": "Salzburg bietet mehrere Kinos fuer jeden Geschmack: 'Das Kino' im Stadtzentrum zeigt Arthouse- und internationale Filme, das Cineplexx die aktuellen Blockbuster — ideal fuer Regentage oder Abende in der Stadt."
+        },
+        "en": {
+          "name": "Cinema in Salzburg",
+          "town": "Salzburg",
+          "desc": "Salzburg offers several cinemas for every taste: 'Das Kino' in the city centre shows arthouse and international films, while Cineplexx screens the latest blockbusters — perfect for rainy days or evenings in the city."
+        },
+        "it": {
+          "name": "Cinema a Salisburgo",
+          "town": "Salisburgo",
+          "desc": "Salisburgo offre diversi cinema per tutti i gusti: 'Das Kino' nel centro mostra film d'autore e internazionali, il Cineplexx i blockbuster piu recenti — ideale per giorni di pioggia o serate in citta."
+        },
+        "hu": {
+          "name": "Mozi Salzburgban",
+          "town": "Salzburg",
+          "desc": "Salzburg toobb mozit kinaal minden izlesnek: a belvaros 'Das Kino' mozija arthouseot es nemzetkozi filmeket vetit, a Cineplexx a legujabb blockbustereket — idealis esoes napokra vagy varoosi estekre."
+        },
+        "cs": {
+          "name": "Kino v Salzburgu",
+          "town": "Salzburg",
+          "desc": "Salzburg nabizi nekolik kin pro kazky vkus: 'Das Kino' v centru mesta uvadi arthousove a mezinarodni filmy, Cineplexx aktualni traky — idealni na destivy den nebo vecery ve meste."
+        },
+        "es": {
+          "name": "Cine en Salzburgo",
+          "town": "Salzburgo",
+          "desc": "Salzburgo ofrece varios cines para todos los gustos: 'Das Kino' en el centro muestra peliculas de autor e internacionales, Cineplexx los blockbusters mas recientes — ideal para dias de lluvia o tardes en la ciudad."
+        },
+        "fr": {
+          "name": "Cinema a Salzbourg",
+          "town": "Salzbourg",
+          "desc": "Salzbourg propose plusieurs cinemas pour tous les gouts : 'Das Kino' au centre-ville projette des films d'auteur et internationaux, le Cineplexx les derniers blockbusters — ideal pour les jours de pluie ou les soirees en ville."
+        },
+        "pl": {
+          "name": "Kino w Salzburgu",
+          "town": "Salzburg",
+          "desc": "Salzburg oferuje kilka kin dla kazdego gustu: 'Das Kino' w centrum wyswietla filmy arthouselowe i miedzynarodowe, Cineplexx najnowsze blockbustery — idealne na deszczowe dni lub wieczory w miescie."
+        },
+        "hr": {
+          "name": "Kino u Salzburgu",
+          "town": "Salzburg",
+          "desc": "Salzburg nudi nekoliko kina za svaki ukus: 'Das Kino' u centru prikazuje art i medjunarodne filmove, Cineplexx najnovije blockbustere — idealno za kišne dane ili veceri u gradu."
+        }
+      }
+    },
+    {
+      "id": "kino-bad-reichenhall",
+      "category": "city",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 23,
+      "icon": "🎥",
+      "url": "https://www.kino-reichenhall.de/",
+      "i18n": {
+        "de": {
+          "name": "Kino Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Das traditionsreiche Stadtlichtspielhaus in Bad Reichenhall zeigt aktuelle Kino-Highlights — ein klassisches Erlebnis fuer zwischendurch, ideal kombinierbar mit einem Kurpark-Spaziergang oder einem Besuch der Therme."
+        },
+        "en": {
+          "name": "Cinema Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "The traditional cinema in Bad Reichenhall screens current film highlights — a classic experience, ideally combined with a stroll through the Kurpark or a visit to the spa."
+        },
+        "it": {
+          "name": "Cinema Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Lo storico cinema di Bad Reichenhall proietta i piu recenti film in cartellone — un'esperienza classica, ideale da abbinare a una passeggiata nel Kurpark o a una visita alle terme."
+        },
+        "hu": {
+          "name": "Mozi Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "A hagyomanyos Bad Reichenhall-i mozi az aktualis mozis slaagereket vetiti — klasszikus elmeleny, amelyet tokelesen lehet kombinalni egy Kurpark-setaaval vagy a termafuerdo latogataasaval."
+        },
+        "cs": {
+          "name": "Kino Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Tradicni kino v Bad Reichenhallu promita aktualni filmove hity — klasicky zaziti, idealni v kombinaci s prochazkou v Kurparku nebo navstevou laznei."
+        },
+        "es": {
+          "name": "Cine Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "El tradicional cine de Bad Reichenhall proyecta los exitos cinematograficos actuales — una experiencia clasica, ideal combinada con un paseo por el Kurpark o una visita al balneario."
+        },
+        "fr": {
+          "name": "Cinema Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Le cinema traditionnel de Bad Reichenhall projette les films actuels — une experience classique, idealement combinee avec une promenade dans le Kurpark ou une visite du spa."
+        },
+        "pl": {
+          "name": "Kino Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Tradycyjne kino w Bad Reichenhall wyswietla aktualne hity kinowe — klasyczne doswiadczenie, idealne do polaczenia ze spacerем po Kurparku lub wizyta w terme."
+        },
+        "hr": {
+          "name": "Kino Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Tradicijsko kino u Bad Reichenhallu prikazuje aktualne filmske hitove — klasicno iskustvo, idealno u kombinaciji sa setnjom kroz Kurpark ili posjetom termama."
+        }
+      }
     }
   ]
 }
