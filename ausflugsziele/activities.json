@@ -6148,6 +6148,71 @@
           "desc": "Besplatan park kretanja za sve uzraste s ravnotežnim stazama, spravama za penjanje i snagu te igralištima u prirodi. Idealno uz posjet dvorcu."
         }
       }
+    },
+    {
+      "id": "hangar7-salzburg",
+      "category": "museum",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "✈️",
+      "url": "https://www.hangar-7.com/",
+      "i18n": {
+        "de": {
+          "name": "Hangar 7",
+          "town": "Salzburg",
+          "desc": "Red Bulls futuristischer Glas-Hangar am Salzburger Flughafen beherbergt historische Flugzeuge, Formel-1-Boliden und Hubschrauber – kostenloser Eintritt und Spitzenrestaurants unter einem Dach."
+        },
+        "en": {
+          "name": "Hangar 7",
+          "town": "Salzburg",
+          "desc": "Red Bull's futuristic glass hangar at Salzburg Airport houses historic aircraft, Formula 1 cars and helicopters – free admission and top-class restaurants all under one roof."
+        },
+        "it": {
+          "name": "Hangar 7",
+          "town": "Salisburgo",
+          "desc": "Il futuristico hangar di vetro di Red Bull all'aeroporto di Salisburgo ospita aerei storici, vetture di Formula 1 ed elicotteri – ingresso gratuito e ristoranti di alto livello sotto un unico tetto."
+        },
+        "hu": {
+          "name": "Hangar 7",
+          "town": "Salzburg",
+          "desc": "A Red Bull futurisztikus üveghangárja a salzburgi repülőtéren történelmi repülőgépeket, Forma-1-es autókat és helikoptereket fog össze – ingyenes belépés és csúcsrestauránsok egy fedél alatt."
+        },
+        "cs": {
+          "name": "Hangar 7",
+          "town": "Salzburg",
+          "desc": "Futuristický skleněný hangár Red Bullu na salzburském letišti ukrývá historická letadla, vozy Formule 1 a vrtulníky – vstup zdarma a prvotřídní restaurace pod jednou střechou."
+        },
+        "es": {
+          "name": "Hangar 7",
+          "town": "Salzburgo",
+          "desc": "El futurista hangar de cristal de Red Bull en el aeropuerto de Salzburgo alberga aviones históricos, coches de Fórmula 1 y helicópteros – entrada gratuita y restaurantes de primer nivel bajo un mismo techo."
+        },
+        "fr": {
+          "name": "Hangar 7",
+          "town": "Salzbourg",
+          "desc": "Le futuriste hangar en verre de Red Bull à l'aéroport de Salzbourg abrite des avions historiques, des monoplaces de Formule 1 et des hélicoptères – entrée gratuite et restaurants haut de gamme sous un même toit."
+        },
+        "pl": {
+          "name": "Hangar 7",
+          "town": "Salzburg",
+          "desc": "Futurystyczny szklany hangar Red Bulla na lotnisku w Salzburgu mieści historyczne samoloty, bolidy Formuły 1 i helikoptery – bezpłatny wstęp i restauracje najwyższej klasy pod jednym dachem."
+        },
+        "hr": {
+          "name": "Hangar 7",
+          "town": "Salzburg",
+          "desc": "Red Bullov futuristički stakleni hangar na salzburškom aerodromu dom je povijesnih zrakoplova, Formula 1 bolida i helikoptera – besplatan ulaz i vrhunski restorani pod jednim krovom."
+        }
+      }
     }
   ]
 }
