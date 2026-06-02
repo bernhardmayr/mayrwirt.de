@@ -6213,6 +6213,198 @@
           "desc": "Red Bullov futuristički stakleni hangar na salzburškom aerodromu dom je povijesnih zrakoplova, Formula 1 bolida i helikoptera – besplatan ulaz i vrhunski restorani pod jednim krovom."
         }
       }
+    },
+    {
+      "id": "stiegl-brauwelt",
+      "category": "museum",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "🍺",
+      "url": "https://www.brauwelt.at/",
+      "i18n": {
+        "de": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburg",
+          "desc": "Oesterreichs groesste private Brauerei laedt zur interaktiven Bierreise ein: Schaubrauerei, Biermuseum, Verkostung und Gastgarten mit Blick auf die Produktionsanlagen."
+        },
+        "en": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburg",
+          "desc": "Austria's largest private brewery offers an interactive beer journey: show brewery, beer museum, tasting and beer garden overlooking the production facilities."
+        },
+        "it": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salisburgo",
+          "desc": "Il piu grande birrificio privato d'Austria invita a un viaggio interattivo nella birra: birrificio dimostrativo, museo della birra, degustazione e biergarten con vista sugli impianti."
+        },
+        "hu": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburg",
+          "desc": "Ausztria legnagyobb magaenfozdejen interaktiv sorutozasra invital: bemutatofozde, sormuzeum, kosztolos es biergarten a gyartosarokra nyilo kilatassal."
+        },
+        "cs": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburg",
+          "desc": "Nejvetsi soukromy pivovar v Rakousku zve na interaktivni pivni cestu: ukazkovy pivovar, pivni muzeum, degustace a pivni zahrada s vyhledem na vyrobni zarizeni."
+        },
+        "es": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburgo",
+          "desc": "La cerveceria privada mas grande de Austria invita a un viaje interactivo por la cerveza: fabrica de exhibicion, museo de la cerveza, degustacion y jardin de cerveza."
+        },
+        "fr": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzbourg",
+          "desc": "La plus grande brasserie privee d'Autriche propose un voyage interactif dans l'univers de la biere : brasserie-spectacle, musee de la biere, degustation et biergarten."
+        },
+        "pl": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburg",
+          "desc": "Najwiekszy prywatny browar w Austrii zaprasza na interaktywna podroz po swiecie piwa: browar pokazowy, muzeum piwa, degustacja i ogrodek piwny z widokiem na zaklad."
+        },
+        "hr": {
+          "name": "Stiegl Brauwelt",
+          "town": "Salzburg",
+          "desc": "Najveca privatna pivovara u Austriji nudi interaktivno putovanje kroz svijet piva: pokazna pivovara, muzej piva, kusanje i pivski vrt s pogledom na proizvodni pogon."
+        }
+      }
+    },
+    {
+      "id": "schloss-leopoldskron",
+      "category": "city",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 27,
+      "icon": "🎬",
+      "url": "https://www.schloss-leopoldskron.com/",
+      "i18n": {
+        "de": {
+          "name": "Schloss Leopoldskron",
+          "town": "Salzburg",
+          "desc": "Das barocke Schloss am See wurde als Kulisse fuer 'The Sound of Music' weltberuehmt. Vom idyllischen Seeufer laesst sich die Fassade mit Blick auf Hohensalzburg perfekt fotografieren."
+        },
+        "en": {
+          "name": "Schloss Leopoldskron",
+          "town": "Salzburg",
+          "desc": "This baroque lakeside palace became world-famous as the backdrop for 'The Sound of Music'. The idyllic lakeside promenade offers perfect views of the facade with Hohensalzburg in the background."
+        },
+        "it": {
+          "name": "Schloss Leopoldskron",
+          "town": "Salisburgo",
+          "desc": "Questo palazzo barocco sul lago e diventato famoso come location de 'Tutti insieme appassionatamente'. Dal lungolago si gode una vista perfetta sulla facciata con Hohensalzburg sullo sfondo."
+        },
+        "hu": {
+          "name": "Leopoldskron kastely",
+          "town": "Salzburg",
+          "desc": "Ez a barokk toparti kastely A muzsika hangja filmforgatasi helyszinekent valt villaghiruuve. Az idilli topartrol tokeletes fotok keszithetok a homlokzatrol a Hohensalzburg-erodessel a hatterben."
+        },
+        "cs": {
+          "name": "Zamek Leopoldskron",
+          "town": "Salzburg",
+          "desc": "Tento barokni zamek na jezere se stal svetoznamy jako kulisa pro film 'Zneni hudby'. Z idylickeho nabrezi jezera lze porizovat dokonale fotografie pruceli s hradem Hohensalzburg v pozadi."
+        },
+        "es": {
+          "name": "Schloss Leopoldskron",
+          "town": "Salzburgo",
+          "desc": "Este palacio barroco a orillas del lago se hizo mundialmente famoso como escenario de 'Sonrisas y lagrimas'. Desde el idilico paseo lacustre se obtienen fotos perfectas con Hohensalzburg al fondo."
+        },
+        "fr": {
+          "name": "Schloss Leopoldskron",
+          "town": "Salzbourg",
+          "desc": "Ce palais baroque au bord du lac est devenu mondialement celebre comme decor de 'La Melodie du bonheur'. La promenade au bord du lac offre des vues parfaites avec Hohensalzburg en arriere-plan."
+        },
+        "pl": {
+          "name": "Zamek Leopoldskron",
+          "town": "Salzburg",
+          "desc": "Ten barokowy palac nad jeziorem zyskal swiatowa slawe jako sceneria do 'Dzwiekow muzyki'. Z idyllicznego brzegu jeziora mozna robic doskonale zdjecia fasady z twierdza Hohensalzburg w tle."
+        },
+        "hr": {
+          "name": "Dvorac Leopoldskron",
+          "town": "Salzburg",
+          "desc": "Ovaj barokni dvorac uz jezero stekao je svjetsku slavu kao kulisa za film 'Zvuci muzike'. S idilichnog jezerskoga setalista pruzla se savrseni pogled na procalje s tvrduavom Hohensalzburg."
+        }
+      }
+    },
+    {
+      "id": "mozarts-wohnhaus",
+      "category": "museum",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "🎼",
+      "url": "https://mozarteum.at/museen/mozarts-wohnhaus/",
+      "i18n": {
+        "de": {
+          "name": "Mozarts Wohnhaus",
+          "town": "Salzburg",
+          "desc": "Im Wohnhaus am Makartplatz lebte Wolfgang Amadeus Mozart von 1773 bis 1780. Originalmoeobel, Instrumente und multimediale Ausstellungen erzaehlen vom Leben des Komponisten und seiner Familie."
+        },
+        "en": {
+          "name": "Mozart's Residence",
+          "town": "Salzburg",
+          "desc": "The Mozart family home on Makartplatz was Wolfgang Amadeus's residence from 1773 to 1780. Original furniture, instruments and multimedia exhibitions bring the composer's life to life."
+        },
+        "it": {
+          "name": "Casa di Mozart",
+          "town": "Salisburgo",
+          "desc": "La casa della famiglia Mozart in Makartplatz fu la residenza di Wolfgang Amadeus dal 1773 al 1780. Mobili originali, strumenti e mostre multimediali raccontano la vita del compositore."
+        },
+        "hu": {
+          "name": "Mozart lakohaaza",
+          "town": "Salzburg",
+          "desc": "A Mozart-csalad Makartplatzon allo otthonaban Wolfgang Amadeus 1773-tol 1780-ig lakott. Eredeti butorok, hangszerek es multimedias kiallitasok elevenitik meg a zenszerzo eleteet."
+        },
+        "cs": {
+          "name": "Mozartuv bytovy dum",
+          "town": "Salzburg",
+          "desc": "Rodinny dum Mozartovych na Makartplatz byl bydlisztem Wolfganga Amadea od roku 1773 do 1780. Originalni nabytek, nastroje a multimedialni vystavy priblizuji zivot skladatele."
+        },
+        "es": {
+          "name": "Residencia de Mozart",
+          "town": "Salzburgo",
+          "desc": "La casa familiar de los Mozart en Makartplatz fue la residencia de Wolfgang Amadeus de 1773 a 1780. Muebles originales, instrumentos y exposiciones multimedia dan vida al compositor y su familia."
+        },
+        "fr": {
+          "name": "Residence de Mozart",
+          "town": "Salzbourg",
+          "desc": "La maison familiale des Mozart sur Makartplatz fut la residence de Wolfgang Amadeus de 1773 a 1780. Meubles originaux, instruments et expositions multimedias retracent la vie du compositeur."
+        },
+        "pl": {
+          "name": "Dom mieszkalny Mozarta",
+          "town": "Salzburg",
+          "desc": "Dom rodziny Mozartow przy Makartplatz byl miejscem zamieszkania Wolfganga Amadeusza w latach 1773-1780. Oryginalne meble, instrumenty i wystawy multimedialne przyblizaja zycie kompozytora."
+        },
+        "hr": {
+          "name": "Mozartova rezidencija",
+          "town": "Salzburg",
+          "desc": "Obiteljska kuca Mozartovih na Makartplatzu bila je Wolfgangova rezidencija od 1773. do 1780. Originalni namjestaj, instrumenti i multimedijske izlozbe docaravaju zivot skladatelja."
+        }
+      }
     }
   ]
 }
