@@ -242,6 +242,7 @@ html { scroll-behavior: smooth; }
     transition: box-shadow 0.3s, transform 0.3s;
 }
 .area-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.12); transform: translateY(-2px); }
+a.area-card { display: block; text-decoration: none; color: inherit; }
 
 .feature-item {
     display: flex;
