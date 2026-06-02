@@ -2,12 +2,13 @@
   "labels": {
     "de": {
       "title": "Ausflugsziele rund um den Mayrwirt",
-      "subtitle": "Über 30 Freizeittipps im Umkreis von 50 km — Berge, Seen, Kultur & mehr",
+      "subtitle": "Über 50 Freizeittipps im Umkreis von rund 50 km — Berge, Seen, Kultur & mehr",
       "intro": "Saaldorf-Surheim liegt ideal zwischen Salzburg, Bad Reichenhall und Berchtesgaden. Filtern Sie nach Interesse, Entfernung und Wetter — und entdecken Sie die schönsten Ziele der Region.",
       "found": "Ziele gefunden",
       "none": "Keine Ziele für diese Auswahl — bitte Filter anpassen.",
       "reset": "Filter zurücksetzen",
       "more": "Mehr erfahren",
+      "route": "Route ab Mayrwirt",
       "back": "Zurück zur Webseite",
       "filterRole": "Für wen?",
       "filterCat": "Kategorie",
@@ -16,16 +17,17 @@
       "roles": {"family": "Familie", "couple": "Paare", "active": "Aktive & Sportler", "culture": "Kultur & Genuss"},
       "cats": {"mountains": "Berge & Wandern", "lakes": "Seen & Baden", "city": "Städte & Kultur", "museum": "Indoor & Museen", "sport": "Sport & Action", "wellness": "Wellness & Genuss"},
       "seasons": {"summer": "Sommer", "winter": "Winter", "allyear": "Ganzjährig", "indoor": "Regentauglich"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "en": {
       "title": "Things to Do Around the Mayrwirt",
-      "subtitle": "Over 30 day-trip ideas within 50 km — mountains, lakes, culture & more",
+      "subtitle": "Over 50 day-trip ideas within around 50 km — mountains, lakes, culture & more",
       "intro": "Saaldorf-Surheim sits perfectly between Salzburg, Bad Reichenhall and Berchtesgaden. Filter by interest, distance and weather — and discover the region's finest destinations.",
       "found": "destinations found",
       "none": "No destinations for this selection — please adjust the filters.",
       "reset": "Reset filters",
       "more": "Learn more",
+      "route": "Route from Mayrwirt",
       "back": "Back to website",
       "filterRole": "For whom?",
       "filterCat": "Category",
@@ -34,16 +36,17 @@
       "roles": {"family": "Family", "couple": "Couples", "active": "Active & Sporty", "culture": "Culture & Enjoyment"},
       "cats": {"mountains": "Mountains & Hiking", "lakes": "Lakes & Swimming", "city": "Cities & Culture", "museum": "Indoor & Museums", "sport": "Sport & Action", "wellness": "Wellness & Spa"},
       "seasons": {"summer": "Summer", "winter": "Winter", "allyear": "All year", "indoor": "Rain-friendly"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "it": {
       "title": "Cosa fare intorno al Mayrwirt",
-      "subtitle": "Oltre 30 idee per gite entro 50 km — montagne, laghi, cultura e altro",
+      "subtitle": "Oltre 50 idee per gite entro circa 50 km — montagne, laghi, cultura e altro",
       "intro": "Saaldorf-Surheim si trova in posizione ideale tra Salisburgo, Bad Reichenhall e Berchtesgaden. Filtra per interesse, distanza e meteo — e scopri le mete più belle della regione.",
       "found": "mete trovate",
       "none": "Nessuna meta per questa selezione — modifica i filtri.",
       "reset": "Azzera filtri",
       "more": "Scopri di più",
+      "route": "Itinerario dal Mayrwirt",
       "back": "Torna al sito",
       "filterRole": "Per chi?",
       "filterCat": "Categoria",
@@ -52,16 +55,17 @@
       "roles": {"family": "Famiglia", "couple": "Coppie", "active": "Attivi & Sportivi", "culture": "Cultura & Gusto"},
       "cats": {"mountains": "Montagna & Trekking", "lakes": "Laghi & Balneazione", "city": "Città & Cultura", "museum": "Al coperto & Musei", "sport": "Sport & Avventura", "wellness": "Benessere & Terme"},
       "seasons": {"summer": "Estate", "winter": "Inverno", "allyear": "Tutto l'anno", "indoor": "Adatto alla pioggia"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "hu": {
       "title": "Kirándulóhelyek a Mayrwirt környékén",
-      "subtitle": "Több mint 30 kirándulási ötlet 50 km-en belül — hegyek, tavak, kultúra és más",
+      "subtitle": "Több mint 50 kirándulási ötlet kb. 50 km-en belül — hegyek, tavak, kultúra és más",
       "intro": "Saaldorf-Surheim ideálisan fekszik Salzburg, Bad Reichenhall és Berchtesgaden között. Szűrjön érdeklődés, távolság és időjárás szerint — és fedezze fel a régió legszebb célpontjait.",
       "found": "célpont található",
       "none": "Ehhez a választáshoz nincs célpont — kérjük, módosítsa a szűrőket.",
       "reset": "Szűrők törlése",
       "more": "Tudjon meg többet",
+      "route": "Útvonal a Mayrwirttől",
       "back": "Vissza a weboldalra",
       "filterRole": "Kinek?",
       "filterCat": "Kategória",
@@ -70,16 +74,17 @@
       "roles": {"family": "Család", "couple": "Pároknak", "active": "Aktív & Sportos", "culture": "Kultúra & Élvezet"},
       "cats": {"mountains": "Hegyek & Túrázás", "lakes": "Tavak & Fürdés", "city": "Városok & Kultúra", "museum": "Fedett & Múzeumok", "sport": "Sport & Akció", "wellness": "Wellness & Gyógyfürdő"},
       "seasons": {"summer": "Nyár", "winter": "Tél", "allyear": "Egész évben", "indoor": "Esőben is"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "cs": {
       "title": "Výlety v okolí Mayrwirtu",
-      "subtitle": "Více než 30 tipů na výlety do 50 km — hory, jezera, kultura a další",
+      "subtitle": "Více než 50 tipů na výlety do zhruba 50 km — hory, jezera, kultura a další",
       "intro": "Saaldorf-Surheim leží ideálně mezi Salcburkem, Bad Reichenhall a Berchtesgadenem. Filtrujte podle zájmu, vzdálenosti a počasí — a objevte nejkrásnější cíle regionu.",
       "found": "cílů nalezeno",
       "none": "Pro tento výběr nejsou žádné cíle — upravte prosím filtry.",
       "reset": "Zrušit filtry",
       "more": "Více informací",
+      "route": "Trasa od Mayrwirtu",
       "back": "Zpět na web",
       "filterRole": "Pro koho?",
       "filterCat": "Kategorie",
@@ -88,16 +93,17 @@
       "roles": {"family": "Rodina", "couple": "Páry", "active": "Aktivní & Sportovci", "culture": "Kultura & Požitek"},
       "cats": {"mountains": "Hory & Turistika", "lakes": "Jezera & Koupání", "city": "Města & Kultura", "museum": "Interiér & Muzea", "sport": "Sport & Akce", "wellness": "Wellness & Lázně"},
       "seasons": {"summer": "Léto", "winter": "Zima", "allyear": "Celoročně", "indoor": "Vhodné za deště"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "es": {
       "title": "Excursiones alrededor del Mayrwirt",
-      "subtitle": "Más de 30 ideas de excursión en un radio de 50 km — montañas, lagos, cultura y más",
+      "subtitle": "Más de 50 ideas de excursión en un radio de unos 50 km — montañas, lagos, cultura y más",
       "intro": "Saaldorf-Surheim se encuentra en una posición ideal entre Salzburgo, Bad Reichenhall y Berchtesgaden. Filtra por interés, distancia y tiempo — y descubre los destinos más bonitos de la región.",
       "found": "destinos encontrados",
       "none": "No hay destinos para esta selección — por favor ajusta los filtros.",
       "reset": "Restablecer filtros",
       "more": "Más información",
+      "route": "Ruta desde Mayrwirt",
       "back": "Volver al sitio",
       "filterRole": "¿Para quién?",
       "filterCat": "Categoría",
@@ -106,16 +112,17 @@
       "roles": {"family": "Familia", "couple": "Parejas", "active": "Activos & Deportistas", "culture": "Cultura & Disfrute"},
       "cats": {"mountains": "Montañas & Senderismo", "lakes": "Lagos & Baño", "city": "Ciudades & Cultura", "museum": "Interior & Museos", "sport": "Deporte & Acción", "wellness": "Bienestar & Spa"},
       "seasons": {"summer": "Verano", "winter": "Invierno", "allyear": "Todo el año", "indoor": "Apto para lluvia"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "fr": {
       "title": "Excursions autour du Mayrwirt",
-      "subtitle": "Plus de 30 idées d'excursion dans un rayon de 50 km — montagnes, lacs, culture et plus",
+      "subtitle": "Plus de 50 idées d'excursion dans un rayon d'environ 50 km — montagnes, lacs, culture et plus",
       "intro": "Saaldorf-Surheim est idéalement situé entre Salzbourg, Bad Reichenhall et Berchtesgaden. Filtrez par intérêt, distance et météo — et découvrez les plus belles destinations de la région.",
       "found": "destinations trouvées",
       "none": "Aucune destination pour cette sélection — veuillez ajuster les filtres.",
       "reset": "Réinitialiser les filtres",
       "more": "En savoir plus",
+      "route": "Itinéraire depuis le Mayrwirt",
       "back": "Retour au site",
       "filterRole": "Pour qui ?",
       "filterCat": "Catégorie",
@@ -124,16 +131,17 @@
       "roles": {"family": "Famille", "couple": "Couples", "active": "Actifs & Sportifs", "culture": "Culture & Plaisir"},
       "cats": {"mountains": "Montagnes & Randonnée", "lakes": "Lacs & Baignade", "city": "Villes & Culture", "museum": "Intérieur & Musées", "sport": "Sport & Action", "wellness": "Bien-être & Spa"},
       "seasons": {"summer": "Été", "winter": "Hiver", "allyear": "Toute l'année", "indoor": "Par tous les temps"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "pl": {
       "title": "Wycieczki w okolicach Mayrwirt",
-      "subtitle": "Ponad 30 pomysłów na wycieczki w promieniu 50 km — góry, jeziora, kultura i więcej",
+      "subtitle": "Ponad 50 pomysłów na wycieczki w promieniu około 50 km — góry, jeziora, kultura i więcej",
       "intro": "Saaldorf-Surheim leży idealnie między Salzburgiem, Bad Reichenhall a Berchtesgaden. Filtruj według zainteresowań, odległości i pogody — i odkryj najpiękniejsze destynacje regionu.",
       "found": "znalezionych destynacji",
       "none": "Brak destynacji dla tego wyboru — zmień filtry.",
       "reset": "Resetuj filtry",
       "more": "Więcej informacji",
+      "route": "Trasa od Mayrwirt",
       "back": "Powrót do strony",
       "filterRole": "Dla kogo?",
       "filterCat": "Kategoria",
@@ -142,16 +150,17 @@
       "roles": {"family": "Rodzina", "couple": "Pary", "active": "Aktywni & Sportowcy", "culture": "Kultura & Przyjemność"},
       "cats": {"mountains": "Góry & Turystyka", "lakes": "Jeziora & Kąpiel", "city": "Miasta & Kultura", "museum": "Wnętrza & Muzea", "sport": "Sport & Akcja", "wellness": "Wellness & Spa"},
       "seasons": {"summer": "Lato", "winter": "Zima", "allyear": "Cały rok", "indoor": "Na deszczową pogodę"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     },
     "hr": {
       "title": "Izleti u okolici Mayrwirta",
-      "subtitle": "Više od 30 ideja za izlete u radijusu od 50 km — planine, jezera, kultura i više",
+      "subtitle": "Više od 50 ideja za izlete u radijusu od oko 50 km — planine, jezera, kultura i više",
       "intro": "Saaldorf-Surheim se nalazi idealno između Salzburga, Bad Reichenhalla i Berchtesgadena. Filtrirajte prema interesu, udaljenosti i vremenu — i otkrijte najljepše destinacije regije.",
       "found": "pronađenih destinacija",
       "none": "Nema destinacija za ovaj odabir — prilagodite filtere.",
       "reset": "Resetiraj filtere",
       "more": "Saznaj više",
+      "route": "Ruta od Mayrwirta",
       "back": "Povratak na stranicu",
       "filterRole": "Za koga?",
       "filterCat": "Kategorija",
@@ -160,12 +169,12 @@
       "roles": {"family": "Obitelj", "couple": "Parovi", "active": "Aktivni & Sportaši", "culture": "Kultura & Užitak"},
       "cats": {"mountains": "Planine & Pješačenje", "lakes": "Jezera & Kupanje", "city": "Gradovi & Kultura", "museum": "Zatvoreni prostori & Muzeji", "sport": "Sport & Akcija", "wellness": "Wellness & Spa"},
       "seasons": {"summer": "Ljeto", "winter": "Zima", "allyear": "Cijelu godinu", "indoor": "Prikladno za kišu"},
-      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km"}
+      "dists": {"d10": "≤ 10 km", "d25": "≤ 25 km", "d50": "≤ 50 km", "d60": "≤ 60 km"}
     }
   },
   "activities": [
     {
-      "id": "abtsdorfer-see", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 6, "icon": "🏊",
+      "id": "abtsdorfer-see", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 5, "icon": "🏊",
       "url": "https://www.berchtesgaden.de/saaldorf-surheim/wandern/rund-um-den-abtsdorfer-see",
       "i18n": {
         "de": {"name": "Abtsdorfer See", "town": "Saaldorf-Surheim", "desc": "Der wärmste See Bayerns — ideal zum Baden, Tretbootfahren und für Spaziergänge mit Alpenblick."},
@@ -195,7 +204,7 @@
       }
     },
     {
-      "id": "surheimer-runde", "category": "mountains", "roles": ["family", "active"], "seasons": ["allyear"], "distance": 1, "icon": "🥾",
+      "id": "surheimer-runde", "category": "mountains", "roles": ["family", "active"], "seasons": ["allyear"], "distance": 2, "icon": "🥾",
       "url": "https://www.outdooractive.com/de/wanderungen/saaldorf-surheim/wanderungen-in-saaldorf-surheim/1419190/",
       "i18n": {
         "de": {"name": "Surheimer Runde", "town": "Saaldorf-Surheim", "desc": "Leichter, gut begehbarer Rundwanderweg direkt vor der Haustür — perfekt für Familien."},
@@ -210,7 +219,7 @@
       }
     },
     {
-      "id": "lokwelt-freilassing", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 8, "icon": "🚂",
+      "id": "lokwelt-freilassing", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 5, "icon": "🚂",
       "url": "https://www.lokwelt.freilassing.de/",
       "i18n": {
         "de": {"name": "Lokwelt Freilassing", "town": "Freilassing", "desc": "Eisenbahnmuseum mit historischen Loks auf 17 Gleisen und einem Loksimulator zum Mitfahren."},
@@ -225,7 +234,7 @@
       }
     },
     {
-      "id": "badylon", "category": "sport", "roles": ["family", "active"], "seasons": ["allyear", "indoor"], "distance": 8, "icon": "🤸",
+      "id": "badylon", "category": "sport", "roles": ["family", "active"], "seasons": ["allyear", "indoor"], "distance": 5, "icon": "🤸",
       "url": "https://www.badylon.de/",
       "i18n": {
         "de": {"name": "Badylon Freilassing", "town": "Freilassing", "desc": "Riesiges Sportzentrum mit Hallenbad, Kletterhalle, Skatepark und Sporthallen für jede Witterung."},
@@ -240,7 +249,7 @@
       }
     },
     {
-      "id": "bergbaumuseum-achthal", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 12, "icon": "⛏️",
+      "id": "bergbaumuseum-achthal", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 17, "icon": "⛏️",
       "url": "https://www.teisendorf.de/sehenswuerdigkeiten/im-rupertiwinkel",
       "i18n": {
         "de": {"name": "Bergbaumuseum Achthal", "town": "Teisendorf", "desc": "Spannende Einblicke in die jahrhundertealte Eisengewinnung am Teisenberg."},
@@ -255,7 +264,7 @@
       }
     },
     {
-      "id": "porsche-traumwerk", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 14, "icon": "🚗",
+      "id": "porsche-traumwerk", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 15, "icon": "🚗",
       "url": "https://www.traumwerk.de/",
       "i18n": {
         "de": {"name": "Hans-Peter Porsche TraumWerk", "town": "Anger", "desc": "Spielzeugmuseum, riesige Modellbahnwelt und Abenteuer-Spielplatz für die ganze Familie."},
@@ -270,7 +279,7 @@
       }
     },
     {
-      "id": "staufenbad-anger", "category": "lakes", "roles": ["family"], "seasons": ["summer"], "distance": 13, "icon": "🏖️",
+      "id": "staufenbad-anger", "category": "lakes", "roles": ["family"], "seasons": ["summer"], "distance": 15, "icon": "🏖️",
       "url": "https://www.anger.de/",
       "i18n": {
         "de": {"name": "Staufenbad Anger", "town": "Anger", "desc": "Beheiztes Freibad mit Blick auf den Hochstaufen — entspannter Badetag für die ganze Familie."},
@@ -285,7 +294,7 @@
       }
     },
     {
-      "id": "alte-saline", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 12, "icon": "🧂",
+      "id": "alte-saline", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 23, "icon": "🧂",
       "url": "https://www.salzwelten.de/de/bad-reichenhall",
       "i18n": {
         "de": {"name": "Alte Saline & Salzmuseum", "town": "Bad Reichenhall", "desc": "Faszinierende Führung durch das historische Stollensystem der königlichen Saline."},
@@ -300,7 +309,7 @@
       }
     },
     {
-      "id": "rupertustherme", "category": "wellness", "roles": ["family", "couple"], "seasons": ["allyear", "indoor"], "distance": 12, "icon": "🧖",
+      "id": "rupertustherme", "category": "wellness", "roles": ["family", "couple"], "seasons": ["allyear", "indoor"], "distance": 23, "icon": "🧖",
       "url": "https://www.rupertustherme.de/",
       "i18n": {
         "de": {"name": "RupertusTherme", "town": "Bad Reichenhall", "desc": "Thermen- und Saunaparadies mit AlpenSole, Erlebnisrutsche und Familienbad."},
@@ -315,7 +324,7 @@
       }
     },
     {
-      "id": "predigtstuhlbahn", "category": "mountains", "roles": ["couple", "active", "family"], "seasons": ["allyear"], "distance": 14, "icon": "🚠",
+      "id": "predigtstuhlbahn", "category": "mountains", "roles": ["couple", "active", "family"], "seasons": ["allyear"], "distance": 24, "icon": "🚠",
       "url": "https://www.predigtstuhlbahn.de/",
       "i18n": {
         "de": {"name": "Predigtstuhlbahn", "town": "Bad Reichenhall", "desc": "Älteste original erhaltene Großkabinen-Seilbahn der Welt — hinauf zum Aussichtsberg."},
@@ -330,7 +339,7 @@
       }
     },
     {
-      "id": "gradierwerk-reichenhall", "category": "wellness", "roles": ["couple", "culture", "family"], "seasons": ["allyear"], "distance": 12, "icon": "🌿",
+      "id": "gradierwerk-reichenhall", "category": "wellness", "roles": ["couple", "culture", "family"], "seasons": ["allyear"], "distance": 23, "icon": "🌿",
       "url": "https://www.bad-reichenhall.de/",
       "i18n": {
         "de": {"name": "Gradierwerk & Kurgarten", "town": "Bad Reichenhall", "desc": "Atmen Sie heilsame Soleluft im weitläufigen Kurgarten mit historischem Gradierwerk."},
@@ -345,7 +354,7 @@
       }
     },
     {
-      "id": "koenigssee", "category": "lakes", "roles": ["family", "couple", "culture", "active"], "seasons": ["summer"], "distance": 30, "icon": "🚤",
+      "id": "koenigssee", "category": "lakes", "roles": ["family", "couple", "culture", "active"], "seasons": ["summer"], "distance": 42, "icon": "🚤",
       "url": "https://www.seenschifffahrt.de/koenigssee",
       "i18n": {
         "de": {"name": "Königssee & St. Bartholomä", "town": "Schönau a. Königssee", "desc": "Smaragdgrüne Bootsfahrt zur Wallfahrtskirche St. Bartholomä mit dem berühmten Trompeten-Echo."},
@@ -360,7 +369,7 @@
       }
     },
     {
-      "id": "salzbergwerk-bgl", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 32, "icon": "⛏️",
+      "id": "salzbergwerk-bgl", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 37, "icon": "⛏️",
       "url": "https://www.salzbergwerk.de/",
       "i18n": {
         "de": {"name": "Salzbergwerk Berchtesgaden", "town": "Berchtesgaden", "desc": "Mit Grubenbahn, Bergmannsrutschen und Floßfahrt über den Salzsee tief in den Berg."},
@@ -375,7 +384,7 @@
       }
     },
     {
-      "id": "jenner", "category": "mountains", "roles": ["family", "couple", "active"], "seasons": ["allyear"], "distance": 33, "icon": "🚠",
+      "id": "jenner", "category": "mountains", "roles": ["family", "couple", "active"], "seasons": ["allyear"], "distance": 42, "icon": "🚠",
       "url": "https://www.jennerbahn.de/",
       "i18n": {
         "de": {"name": "Jenner & Jennerbahn", "town": "Schönau a. Königssee", "desc": "Mit der modernen Seilbahn auf 1.800 m — grandioser Blick auf Königssee und Watzmann."},
@@ -390,7 +399,7 @@
       }
     },
     {
-      "id": "obersalzberg-doku", "category": "museum", "roles": ["culture"], "seasons": ["allyear", "indoor"], "distance": 32, "icon": "📖",
+      "id": "obersalzberg-doku", "category": "museum", "roles": ["culture"], "seasons": ["allyear", "indoor"], "distance": 40, "icon": "📖",
       "url": "https://www.obersalzberg.de/",
       "i18n": {
         "de": {"name": "Dokumentation Obersalzberg", "town": "Berchtesgaden", "desc": "Eindrucksvolle Dokumentation zur Zeitgeschichte am historischen Ort."},
@@ -405,7 +414,7 @@
       }
     },
     {
-      "id": "watzmann-therme", "category": "wellness", "roles": ["family", "couple"], "seasons": ["allyear", "indoor"], "distance": 30, "icon": "💧",
+      "id": "watzmann-therme", "category": "wellness", "roles": ["family", "couple"], "seasons": ["allyear", "indoor"], "distance": 38, "icon": "💧",
       "url": "https://www.watzmann-therme.de/",
       "i18n": {
         "de": {"name": "Watzmann Therme", "town": "Berchtesgaden", "desc": "Erholung pur: Thermalbecken, Saunawelt und Rutschen mit Bergpanorama."},
@@ -420,7 +429,7 @@
       }
     },
     {
-      "id": "nationalpark-wimbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 33, "icon": "🏞️",
+      "id": "nationalpark-wimbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 44, "icon": "🏞️",
       "url": "https://www.nationalpark-berchtesgaden.bayern.de/",
       "i18n": {
         "de": {"name": "Wimbachklamm & Wimbachgries", "town": "Ramsau", "desc": "Tosende Wildbachklamm im Nationalpark — wer weiterwandert, erreicht das weite Wimbachgries mit grandiosem Hochgebirgspanorama."},
@@ -435,7 +444,7 @@
       }
     },
     {
-      "id": "gruenstein-klettersteig", "category": "sport", "roles": ["active"], "seasons": ["summer"], "distance": 31, "icon": "🧗",
+      "id": "gruenstein-klettersteig", "category": "sport", "roles": ["active"], "seasons": ["summer"], "distance": 41, "icon": "🧗",
       "url": "https://www.bergsteigerschule-watzmann.de/wf/sommer/klettersteige",
       "i18n": {
         "de": {"name": "Grünstein-Klettersteig", "town": "Schönau a. Königssee", "desc": "Klettersteig für sportliche Einsteiger mit weitem Blick über das Berchtesgadener Tal."},
@@ -450,7 +459,7 @@
       }
     },
     {
-      "id": "festung-hohensalzburg", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 20, "icon": "🏰",
+      "id": "festung-hohensalzburg", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 15, "icon": "🏰",
       "url": "https://www.festung-hohensalzburg.at/",
       "i18n": {
         "de": {"name": "Festung Hohensalzburg", "town": "Salzburg", "desc": "Eine der größten Burgen Europas, hoch über der barocken Salzburger Altstadt."},
@@ -465,7 +474,7 @@
       }
     },
     {
-      "id": "mozart-altstadt", "category": "city", "roles": ["couple", "culture"], "seasons": ["allyear"], "distance": 20, "icon": "🎼",
+      "id": "mozart-altstadt", "category": "city", "roles": ["couple", "culture"], "seasons": ["allyear"], "distance": 15, "icon": "🎼",
       "url": "https://www.salzburg.info/",
       "i18n": {
         "de": {"name": "Mozarts Geburtshaus & Altstadt", "town": "Salzburg", "desc": "UNESCO-Altstadt mit Mozarts Geburtshaus, der Getreidegasse und dem Dom."},
@@ -480,7 +489,7 @@
       }
     },
     {
-      "id": "schloss-mirabell", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 20, "icon": "🌷",
+      "id": "schloss-mirabell", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 15, "icon": "🌷",
       "url": "https://www.salzburg.info/de/sehenswuerdigkeiten/top10/schloss-mirabell-mirabellgarten",
       "i18n": {
         "de": {"name": "Schloss & Garten Mirabell", "town": "Salzburg", "desc": "Prachtvolles Schloss mit barockem Garten — bekannt aus „The Sound of Music“."},
@@ -495,7 +504,7 @@
       }
     },
     {
-      "id": "haus-der-natur", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🦖",
+      "id": "haus-der-natur", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 15, "icon": "🦖",
       "url": "https://www.hausdernatur.at/",
       "i18n": {
         "de": {"name": "Haus der Natur", "town": "Salzburg", "desc": "Großes Naturkundemuseum mit Aquarium, Reptilienzoo und Science Center."},
@@ -510,7 +519,7 @@
       }
     },
     {
-      "id": "untersbergbahn", "category": "mountains", "roles": ["active", "couple", "family"], "seasons": ["allyear"], "distance": 18, "icon": "🚠",
+      "id": "untersbergbahn", "category": "mountains", "roles": ["active", "couple", "family"], "seasons": ["allyear"], "distance": 21, "icon": "🚠",
       "url": "https://www.untersbergbahn.at/",
       "i18n": {
         "de": {"name": "Untersbergbahn", "town": "Grödig", "desc": "In wenigen Minuten hinauf auf den sagenumwobenen Hausberg Salzburgs."},
@@ -525,7 +534,7 @@
       }
     },
     {
-      "id": "hellbrunn", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 22, "icon": "⛲",
+      "id": "hellbrunn", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 18, "icon": "⛲",
       "url": "https://www.hellbrunn.at/",
       "i18n": {
         "de": {"name": "Schloss Hellbrunn & Wasserspiele", "town": "Salzburg", "desc": "Lustschloss mit weltberühmten Wasserspielen und dem Zoo Salzburg nebenan."},
@@ -540,7 +549,7 @@
       }
     },
     {
-      "id": "salzwelten-hallein", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 30, "icon": "🧂",
+      "id": "salzwelten-hallein", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 35, "icon": "🧂",
       "url": "https://www.salzwelten.at/de/hallein",
       "i18n": {
         "de": {"name": "Salzwelten Hallein", "town": "Hallein", "desc": "Das älteste Schaubergwerk der Welt — mit Bergmannsrutschen, Grubenbahn und Salzsee."},
@@ -555,7 +564,7 @@
       }
     },
     {
-      "id": "keltenmuseum-hallein", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 30, "icon": "🗿",
+      "id": "keltenmuseum-hallein", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 31, "icon": "🗿",
       "url": "https://www.keltenmuseum.at/",
       "i18n": {
         "de": {"name": "Keltenmuseum Hallein", "town": "Hallein", "desc": "Bedeutende Funde aus der Keltenzeit am Dürrnberg, eindrucksvoll präsentiert."},
@@ -570,7 +579,7 @@
       }
     },
     {
-      "id": "burg-hohenwerfen", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 45, "icon": "🦅",
+      "id": "burg-hohenwerfen", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 55, "icon": "🦅",
       "url": "https://www.burg-hohenwerfen.at/",
       "i18n": {
         "de": {"name": "Erlebnisburg Hohenwerfen", "town": "Werfen", "desc": "Über 900 Jahre alte Burg mit beeindruckender Greifvogel-Flugshow."},
@@ -585,7 +594,7 @@
       }
     },
     {
-      "id": "eisriesenwelt", "category": "mountains", "roles": ["active", "couple", "culture"], "seasons": ["summer"], "distance": 48, "icon": "🧊",
+      "id": "eisriesenwelt", "category": "mountains", "roles": ["active", "couple", "culture"], "seasons": ["summer"], "distance": 56, "icon": "🧊",
       "url": "https://www.eisriesenwelt.at/",
       "i18n": {
         "de": {"name": "Eisriesenwelt Werfen", "town": "Werfen", "desc": "Die größte Eishöhle der Welt — fantastische Eisskulpturen tief im Berg."},
@@ -600,7 +609,7 @@
       }
     },
     {
-      "id": "almbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 26, "icon": "🏞️",
+      "id": "almbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 28, "icon": "🏞️",
       "url": "https://www.almbachklamm.de/",
       "i18n": {
         "de": {"name": "Almbachklamm", "town": "Marktschellenberg", "desc": "Dramatische Klamm mit tosenden Wasserfällen und schmalem Steig entlang des rauschenden Almbaches."},
@@ -615,7 +624,7 @@
       }
     },
     {
-      "id": "seisenbergklamm", "category": "mountains", "roles": ["family", "active"], "seasons": ["summer"], "distance": 35, "icon": "💦",
+      "id": "seisenbergklamm", "category": "mountains", "roles": ["family", "active"], "seasons": ["summer"], "distance": 42, "icon": "💦",
       "url": "https://www.lofer.com/",
       "i18n": {
         "de": {"name": "Seisenbergklamm", "town": "Weissbach bei Lofer", "desc": "Naturjuwel im Salzburger Land: enge Klamm mit Stegen, Leitern und beeindruckenden Felsformationen."},
@@ -630,7 +639,7 @@
       }
     },
     {
-      "id": "hochstaufen", "category": "mountains", "roles": ["active", "couple"], "seasons": ["summer"], "distance": 20, "icon": "⛰️",
+      "id": "hochstaufen", "category": "mountains", "roles": ["active", "couple"], "seasons": ["summer"], "distance": 25, "icon": "⛰️",
       "url": "https://www.bad-reichenhall.de/",
       "i18n": {
         "de": {"name": "Hochstaufen-Gipfeltour", "town": "Bad Reichenhall", "desc": "Klassische Bergtour auf den 1.771-m-Gipfel — weites Gipfelpanorama bis weit nach Salzburg und ins Salzburger Land."},
@@ -645,7 +654,7 @@
       }
     },
     {
-      "id": "stiftsmuseum-laufen", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 10, "icon": "🏛️",
+      "id": "stiftsmuseum-laufen", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 6, "icon": "🏛️",
       "url": "https://www.laufen-salzach.de/",
       "i18n": {
         "de": {"name": "Stiftsmuseum Laufen", "town": "Laufen a.d. Salzach", "desc": "Kunst und Geschichte im romanischen Stiftsgebäude — mittelalterliche Skulpturen, sakrale Schätze und Stadtchronik."},
@@ -660,7 +669,7 @@
       }
     },
     {
-      "id": "museum-stille-nacht", "category": "museum", "roles": ["culture", "couple", "family"], "seasons": ["allyear", "indoor"], "distance": 25, "icon": "🎵",
+      "id": "museum-stille-nacht", "category": "museum", "roles": ["culture", "couple", "family"], "seasons": ["allyear", "indoor"], "distance": 9, "icon": "🎵",
       "url": "https://www.stillenacht.at/",
       "i18n": {
         "de": {"name": "Stille-Nacht-Museum", "town": "Oberndorf bei Salzburg", "desc": "Geburtsort des berühmtesten Weihnachtsliedes der Welt — bewegende Ausstellung zur Entstehungsgeschichte des Liedes."},
@@ -675,7 +684,7 @@
       }
     },
     {
-      "id": "roemermuseum-bedaium", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 40, "icon": "🏺",
+      "id": "roemermuseum-bedaium", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 42, "icon": "🏺",
       "url": "https://www.bedaium.de/",
       "i18n": {
         "de": {"name": "Römermuseum Bedaium", "town": "Seebruck am Chiemsee", "desc": "Eindrucksvolle Funde aus der römischen Siedlung Bedaium — direkt am Chiemsee gelegen."},
@@ -690,7 +699,7 @@
       }
     },
     {
-      "id": "chiemsee-herrenchiemsee", "category": "lakes", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 45, "icon": "👑",
+      "id": "chiemsee-herrenchiemsee", "category": "lakes", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 55, "icon": "👑",
       "url": "https://www.herren-chiemsee.de/",
       "i18n": {
         "de": {"name": "Chiemsee & Schloss Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Schifffahrt über Bayerns größten See zum Königsschloss Ludwigs II. auf der Herreninsel."},
@@ -705,7 +714,7 @@
       }
     },
     {
-      "id": "freibad-freilassing", "category": "lakes", "roles": ["family", "active"], "seasons": ["summer"], "distance": 8, "icon": "🏊",
+      "id": "freibad-freilassing", "category": "lakes", "roles": ["family", "active"], "seasons": ["summer"], "distance": 5, "icon": "🏊",
       "url": "https://www.freilassing.de/",
       "i18n": {
         "de": {"name": "Freibad Freilassing", "town": "Freilassing", "desc": "Beliebtes Freibad mit Kinderbecken, Liegewiesen und Wasserrutsche — idealer Badetag für die ganze Familie."},
@@ -720,7 +729,7 @@
       }
     },
     {
-      "id": "freibad-ainring", "category": "lakes", "roles": ["family", "active"], "seasons": ["summer"], "distance": 5, "icon": "🏊",
+      "id": "freibad-ainring", "category": "lakes", "roles": ["family", "active"], "seasons": ["summer"], "distance": 9, "icon": "🏊",
       "url": "https://www.ainring.de/",
       "i18n": {
         "de": {"name": "Freibad Ainring", "town": "Ainring", "desc": "Kleines, familiäres Gemeindefreibad direkt vor der Haustür — mit Liegewiese, Kinderbecken und Sprungbrett."},
@@ -735,7 +744,7 @@
       }
     },
     {
-      "id": "waldbad-anif", "category": "lakes", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 20, "icon": "🌲",
+      "id": "waldbad-anif", "category": "lakes", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 19, "icon": "🌲",
       "url": "https://www.anif.at/",
       "i18n": {
         "de": {"name": "Waldbad Anif", "town": "Anif", "desc": "Naturidyllisches Waldbad mit Kletteranlage, Sprungturm und weiten Liegewiesen — Badespaß im Grünen."},
@@ -750,7 +759,7 @@
       }
     },
     {
-      "id": "spielzeugmuseum-salzburg", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🧸",
+      "id": "spielzeugmuseum-salzburg", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 15, "icon": "🧸",
       "url": "https://www.spielzeugmuseum.at/",
       "i18n": {
         "de": {"name": "Spielzeugmuseum Salzburg", "town": "Salzburg", "desc": "Charmantes Museum im historischen Bürgerspital — über 1.000 Jahre Spielzeuggeschichte auf mehreren Etagen."},
@@ -765,7 +774,7 @@
       }
     },
     {
-      "id": "stoisser-alm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 15, "icon": "🥾",
+      "id": "stoisser-alm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 25, "icon": "🥾",
       "url": "https://www.bad-reichenhall.de/",
       "i18n": {
         "de": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Sonnige Almhütte über Bad Reichenhall mit herrlichem Panoramablick — lohnende Wanderung für die ganze Familie."},
@@ -780,7 +789,7 @@
       }
     },
     {
-      "id": "steiner-alm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 18, "icon": "🥾",
+      "id": "steiner-alm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 26, "icon": "🥾",
       "url": "https://www.bad-reichenhall.de/",
       "i18n": {
         "de": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idyllische Almhütte am Lattengebirge — gemütliche Einkehr nach schöner Wanderung mit weitem Blick ins Tal."},
@@ -795,7 +804,7 @@
       }
     },
     {
-      "id": "waginger-see", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 14, "icon": "🏖️",
+      "id": "waginger-see", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 21, "icon": "🏖️",
       "url": "https://www.waginger-see.de/",
       "i18n": {
         "de": {"name": "Waginger See", "town": "Waging am See", "desc": "Der wärmste Badesee Oberbayerns mit feinen Sandstränden, Tretbooten und Wassertemperaturen bis 27 °C."},
@@ -810,7 +819,7 @@
       }
     },
     {
-      "id": "minigolf-waging", "category": "sport", "roles": ["family", "active"], "seasons": ["summer"], "distance": 14, "icon": "⛳",
+      "id": "minigolf-waging", "category": "sport", "roles": ["family", "active"], "seasons": ["summer"], "distance": 21, "icon": "⛳",
       "url": "https://www.minigolf-kurparkwaging.de/",
       "i18n": {
         "de": {"name": "Minigolf & Adventuregolf", "town": "Waging am See", "desc": "36 abwechslungsreiche Bahnen im Kurpark Waging — klassisches Minigolf und kniffliger Adventuregolf für die ganze Familie."},
@@ -825,7 +834,7 @@
       }
     },
     {
-      "id": "hoppolino-anif", "category": "sport", "roles": ["family"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🎈",
+      "id": "hoppolino-anif", "category": "sport", "roles": ["family"], "seasons": ["allyear", "indoor"], "distance": 19, "icon": "🎈",
       "url": "https://www.hoppolino.at/",
       "i18n": {
         "de": {"name": "Hoppolino Indoor-Spielplatz", "town": "Anif", "desc": "Riesiges Indoor-Spieleparadies bei Salzburg mit Klettern, Rutschen und Trampolinen — Spielspaß bei jedem Wetter."},
@@ -840,7 +849,7 @@
       }
     },
     {
-      "id": "babalu-traunstein", "category": "sport", "roles": ["family"], "seasons": ["allyear", "indoor"], "distance": 24, "icon": "🎪",
+      "id": "babalu-traunstein", "category": "sport", "roles": ["family"], "seasons": ["allyear", "indoor"], "distance": 29, "icon": "🎪",
       "url": "https://babalu-traunstein.de/",
       "i18n": {
         "de": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Chiemgaus größter Indoorspielplatz mit Klettervulkan, Riesenrutschen und Kartbahn — perfekt für Regentage."},
@@ -855,7 +864,7 @@
       }
     },
     {
-      "id": "zoo-salzburg", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 20, "icon": "🦁",
+      "id": "zoo-salzburg", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 18, "icon": "🦁",
       "url": "https://www.salzburg-zoo.at/",
       "i18n": {
         "de": {"name": "Zoo Salzburg Hellbrunn", "town": "Salzburg", "desc": "Naturnaher Tiergarten am Fuße des Hellbrunner Berges mit rund 1.500 Tieren aus aller Welt."},
@@ -870,7 +879,7 @@
       }
     },
     {
-      "id": "freilichtmuseum-grossgmain", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 16, "icon": "🏡",
+      "id": "freilichtmuseum-grossgmain", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 24, "icon": "🏡",
       "url": "https://www.freilichtmuseum.com/",
       "i18n": {
         "de": {"name": "Salzburger Freilichtmuseum", "town": "Großgmain", "desc": "100 originale historische Bauernhäuser und Werkstätten auf weitem Gelände — lebendige Landgeschichte mit Museumsbahn."},
@@ -885,7 +894,7 @@
       }
     },
     {
-      "id": "christkindlmarkt-salzburg", "category": "city", "roles": ["couple", "culture", "family"], "seasons": ["winter"], "distance": 20, "icon": "🎄",
+      "id": "christkindlmarkt-salzburg", "category": "city", "roles": ["couple", "culture", "family"], "seasons": ["winter"], "distance": 15, "icon": "🎄",
       "url": "https://www.christkindlmarkt.co.at/",
       "i18n": {
         "de": {"name": "Salzburger Christkindlmarkt", "town": "Salzburg", "desc": "Stimmungsvoller Adventmarkt am Dom- und Residenzplatz — einer der ältesten und schönsten der Welt."},
@@ -900,7 +909,7 @@
       }
     },
     {
-      "id": "museum-der-moderne", "category": "museum", "roles": ["couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🎨",
+      "id": "museum-der-moderne", "category": "museum", "roles": ["couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 15, "icon": "🎨",
       "url": "https://www.museumdermoderne.at/",
       "i18n": {
         "de": {"name": "Museum der Moderne", "town": "Salzburg", "desc": "Moderne Kunst hoch über der Stadt auf dem Mönchsberg — mit spektakulärer Aussichtsterrasse."},
@@ -915,7 +924,7 @@
       }
     },
     {
-      "id": "domquartier-salzburg", "category": "museum", "roles": ["couple", "culture", "family"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "⛪",
+      "id": "domquartier-salzburg", "category": "museum", "roles": ["couple", "culture", "family"], "seasons": ["allyear", "indoor"], "distance": 15, "icon": "⛪",
       "url": "https://www.domquartier.at/",
       "i18n": {
         "de": {"name": "DomQuartier", "town": "Salzburg", "desc": "Prunkräume der Fürsterzbischöfe, Dombögen und Kunstsammlungen — ein barocker Rundgang im Herzen Salzburgs."},
@@ -930,7 +939,7 @@
       }
     },
     {
-      "id": "moenchsberg", "category": "city", "roles": ["active", "couple", "family"], "seasons": ["allyear"], "distance": 20, "icon": "🌳",
+      "id": "moenchsberg", "category": "city", "roles": ["active", "couple", "family"], "seasons": ["allyear"], "distance": 15, "icon": "🌳",
       "url": "https://www.salzburg.info/",
       "i18n": {
         "de": {"name": "Mönchsberg", "town": "Salzburg", "desc": "Grüner Stadtberg über der Altstadt mit Wanderwegen, Aussichtspunkten und dem schnellen Mönchsberg-Aufzug."},
@@ -945,7 +954,7 @@
       }
     },
     {
-      "id": "kapuzinerberg", "category": "city", "roles": ["active", "couple"], "seasons": ["allyear"], "distance": 20, "icon": "🌲",
+      "id": "kapuzinerberg", "category": "city", "roles": ["active", "couple"], "seasons": ["allyear"], "distance": 15, "icon": "🌲",
       "url": "https://www.salzburg.info/",
       "i18n": {
         "de": {"name": "Kapuzinerberg", "town": "Salzburg", "desc": "Bewaldeter Stadtberg mit steilen Stiegen, Kapuzinerkloster und herrlichem Blick über die Salzburger Altstadt."},
@@ -960,7 +969,7 @@
       }
     },
     {
-      "id": "fossilien-haunsberg", "category": "mountains", "roles": ["family", "active", "culture"], "seasons": ["summer"], "distance": 22, "icon": "🐚",
+      "id": "fossilien-haunsberg", "category": "mountains", "roles": ["family", "active", "culture"], "seasons": ["summer"], "distance": 14, "icon": "🐚",
       "url": "https://www.nussdorf.at/",
       "i18n": {
         "de": {"name": "Fossilien-Lehrpfad Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Auf dem Geologie-Lehrpfad bei Nußdorf nahe Oberndorf rund 50 Mio. Jahre alte Versteinerungen selbst entdecken."},
@@ -975,7 +984,7 @@
       }
     },
     {
-      "id": "glasenbachklamm", "category": "mountains", "roles": ["family", "active", "culture"], "seasons": ["summer"], "distance": 25, "icon": "🦖",
+      "id": "glasenbachklamm", "category": "mountains", "roles": ["family", "active", "culture"], "seasons": ["summer"], "distance": 21, "icon": "🦖",
       "url": "https://www.elsbethen.at/",
       "i18n": {
         "de": {"name": "Glasenbachklamm", "town": "Elsbethen", "desc": "Wildromantische Fossilienklamm bei Salzburg mit Wanderweg, Wasserfällen und versteinerten Meerestieren."},

@@ -519,8 +519,11 @@ html { scroll-behavior: smooth; }
 .activity-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.9rem; }
 .tag-pill { font-size: 0.68rem; font-weight: 600; color: #6B6458; background: #f3f1eb; padding: 0.15rem 0.5rem; border-radius: 9999px; }
 .tag-pill.tag-cat { color: #C9962C; background: rgba(201,150,44,0.1); }
-.activity-link { font-size: 0.85rem; font-weight: 600; color: #2D5016; align-self: flex-start; }
+.activity-links { display: flex; align-items: center; gap: 0.9rem; flex-wrap: wrap; }
+.activity-link { font-size: 0.85rem; font-weight: 600; color: #2D5016; }
 .activity-link:hover { color: #C9962C; text-decoration: none; }
+.activity-maps { font-size: 0.85rem; font-weight: 600; color: #C9962C; }
+.activity-maps:hover { color: #2D5016; text-decoration: none; }
 .act-empty { grid-column: 1 / -1; text-align: center; color: #8a8478; padding: 3rem 1rem; font-size: 0.95rem; }
 
 @media (max-width: 540px) {
