@@ -27,7 +27,8 @@
         "city": "Städte & Kultur",
         "museum": "Indoor & Museen",
         "sport": "Sport & Action",
-        "wellness": "Wellness & Genuss"
+        "wellness": "Wellness & Genuss",
+        "cycling": "Radtouren"
       },
       "seasons": {
         "summer": "Sommer",
@@ -69,7 +70,8 @@
         "city": "Cities & Culture",
         "museum": "Indoor & Museums",
         "sport": "Sport & Action",
-        "wellness": "Wellness & Spa"
+        "wellness": "Wellness & Spa",
+        "cycling": "Cycling Tours"
       },
       "seasons": {
         "summer": "Summer",
@@ -111,7 +113,8 @@
         "city": "Città & Cultura",
         "museum": "Al coperto & Musei",
         "sport": "Sport & Avventura",
-        "wellness": "Benessere & Terme"
+        "wellness": "Benessere & Terme",
+        "cycling": "Cicloturismo"
       },
       "seasons": {
         "summer": "Estate",
@@ -153,7 +156,8 @@
         "city": "Városok & Kultúra",
         "museum": "Fedett & Múzeumok",
         "sport": "Sport & Akció",
-        "wellness": "Wellness & Gyógyfürdő"
+        "wellness": "Wellness & Gyógyfürdő",
+        "cycling": "Kerékpártúrák"
       },
       "seasons": {
         "summer": "Nyár",
@@ -195,7 +199,8 @@
         "city": "Města & Kultura",
         "museum": "Interiér & Muzea",
         "sport": "Sport & Akce",
-        "wellness": "Wellness & Lázně"
+        "wellness": "Wellness & Lázně",
+        "cycling": "Cykloturistika"
       },
       "seasons": {
         "summer": "Léto",
@@ -237,7 +242,8 @@
         "city": "Ciudades & Cultura",
         "museum": "Interior & Museos",
         "sport": "Deporte & Acción",
-        "wellness": "Bienestar & Spa"
+        "wellness": "Bienestar & Spa",
+        "cycling": "Rutas en bici"
       },
       "seasons": {
         "summer": "Verano",
@@ -279,7 +285,8 @@
         "city": "Villes & Culture",
         "museum": "Intérieur & Musées",
         "sport": "Sport & Action",
-        "wellness": "Bien-être & Spa"
+        "wellness": "Bien-être & Spa",
+        "cycling": "Vélo & Cyclisme"
       },
       "seasons": {
         "summer": "Été",
@@ -321,7 +328,8 @@
         "city": "Miasta & Kultura",
         "museum": "Wnętrza & Muzea",
         "sport": "Sport & Akcja",
-        "wellness": "Wellness & Spa"
+        "wellness": "Wellness & Spa",
+        "cycling": "Trasy rowerowe"
       },
       "seasons": {
         "summer": "Lato",
@@ -363,7 +371,8 @@
         "city": "Gradovi & Kultura",
         "museum": "Zatvoreni prostori & Muzeji",
         "sport": "Sport & Akcija",
-        "wellness": "Wellness & Spa"
+        "wellness": "Wellness & Spa",
+        "cycling": "Biciklističke rute"
       },
       "seasons": {
         "summer": "Ljeto",
@@ -5511,6 +5520,382 @@
           "name": "Vorderkaserklamm",
           "town": "Weissbach bei Lofer (A)",
           "desc": "Duboki klanac s mostovima, ljestvama i mostovima — iza njega čekaju prirodni kupački ribnjaci i lagane obiteljske šetnje u Loferer Steingebirgeu."
+        }
+      }
+    },
+    {
+      "id": "saalachau-ausee",
+      "category": "mountains",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 5,
+      "icon": "🦢",
+      "url": "https://www.freilassing.de/erholungsgebiete/",
+      "i18n": {
+        "de": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km langer Naturraum entlang der Saalach — idyllischer Ausee, artenreiche Auwälder, Vogelschutzgebiet und der Saalachspitz an der Mündung in die Salzach. Perfekt zum Spazieren und Radfahren."
+        },
+        "en": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km nature area along the Saalach — idyllic Ausee lake, species-rich riparian forests, bird sanctuary and the Saalachspitz at the confluence with the Salzach. Perfect for walking and cycling."
+        },
+        "it": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km di area naturale lungo la Saalach — idilliaco lago Ausee, foreste ripariali ricche di specie, riserva ornitologica e il Saalachspitz alla confluenza con la Salzach. Perfetto per passeggiate e cicloturismo."
+        },
+        "hu": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km-es természeti terület a Saalach mentén — idilli Ausee-tó, fajgazdag ártéri erdők, madárvédelmi terület és a Saalachspitz a Salzachba ömlésénél. Tökéletes sétára és kerékpározásra."
+        },
+        "cs": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km přírodní oblast podél Saalachu — idylické jezero Ausee, druhově bohaté lužní lesy, ptačí rezervace a Saalachspitz u soutoku se Salzachem. Ideální na procházky a cyklistiku."
+        },
+        "es": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km de área natural a lo largo del Saalach — idílico lago Ausee, bosques ribereños ricos en especies, reserva de aves y el Saalachspitz en la confluencia con el Salzach. Perfecto para pasear y pedalear."
+        },
+        "fr": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km de zone naturelle le long de la Saalach — idyllique lac Ausee, forêts alluviales riches en espèces, réserve ornithologique et le Saalachspitz à la confluence avec la Salzach. Parfait pour se promener et faire du vélo."
+        },
+        "pl": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km obszar przyrodniczy wzdłuż Saalach — idylliczne jezioro Ausee, bogate gatunkowo łęgi, rezerwat ptaków i Saalachspitz u ujścia do Salzach. Idealne do spacerów i jazdy na rowerze."
+        },
+        "hr": {
+          "name": "Saalachau & Ausee",
+          "town": "Freilassing",
+          "desc": "7 km prirodnog područja uz Saalach — idiličko jezero Ausee, vrstama bogata poplavna šuma, ptičji rezervat i Saalachspitz na ušću u Salzach. Savršeno za šetnje i vožnju biciklom."
+        }
+      }
+    },
+    {
+      "id": "saalachtal-radweg",
+      "category": "cycling",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 5,
+      "icon": "🚴",
+      "url": "https://www.bad-reichenhall.de/sommer/radfahren-e-bike/saalachtal-radweg",
+      "i18n": {
+        "de": {
+          "name": "Saalachtal-Radweg",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Flache Familienradtour entlang der Saalach — ~17 km von Freilassing nach Bad Reichenhall, fast autofrei auf Schotter- und Feldwegen, mit Bergblick und Bahnanschluss zurück."
+        },
+        "en": {
+          "name": "Saalachtal Cycle Path",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Flat family cycling tour along the Saalach — ~17 km from Freilassing to Bad Reichenhall, mostly car-free on gravel and field paths, with mountain views and a train back."
+        },
+        "it": {
+          "name": "Pista ciclabile Saalachtal",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Percorso ciclistico pianeggiante per famiglie lungo la Saalach — ~17 km da Freilassing a Bad Reichenhall, quasi senza traffico su sterrato, con vista sulle montagne e treno per il ritorno."
+        },
+        "hu": {
+          "name": "Saalachtal kerékpárút",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Lapos családi kerékpártúra a Saalach mentén — ~17 km Freiassingtól Bad Reichenhallig, csaknem autómentes kavicsos utakon, hegykilátással és visszavonat-lehetőséggel."
+        },
+        "cs": {
+          "name": "Cyklostezka Saalachtal",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Rovinatá rodinná cyklotrasa podél Saalachu — ~17 km z Freilassingu do Bad Reichenhallu, téměř bez aut na štěrkových a polních cestách, s výhledem na hory a vlakem zpět."
+        },
+        "es": {
+          "name": "Ruta ciclista Saalachtal",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Ruta ciclista plana para familias a lo largo del Saalach — ~17 km de Freilassing a Bad Reichenhall, casi sin tráfico por caminos de grava, con vistas a las montañas y tren de vuelta."
+        },
+        "fr": {
+          "name": "Piste cyclable Saalachtal",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Randonnée cycliste plate pour familles le long de la Saalach — ~17 km de Freilassing à Bad Reichenhall, presque sans voitures sur chemins de gravier, avec vue sur les montagnes et retour en train."
+        },
+        "pl": {
+          "name": "Ścieżka rowerowa Saalachtal",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Płaska trasa rowerowa dla rodzin wzdłuż Saalach — ~17 km z Freilassing do Bad Reichenhall, prawie bez ruchu samochodowego na żwirowych ścieżkach, z widokiem na góry i powrotem pociągiem."
+        },
+        "hr": {
+          "name": "Biciklistička staza Saalachtal",
+          "town": "Freilassing – Bad Reichenhall",
+          "desc": "Ravna obiteljska biciklistička tura uz Saalach — ~17 km od Freilassinga do Bad Reichenhalla, gotovo bez automobila na šljunčanim stazama, s pogledom na planine i povratkom vlakom."
+        }
+      }
+    },
+    {
+      "id": "freilassinger-radrundweg",
+      "category": "cycling",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 5,
+      "icon": "🚴",
+      "url": "https://www.saaldorf-surheim.de/touren/freilassinger-radrundweg/",
+      "i18n": {
+        "de": {
+          "name": "Freilassinger Radrundweg",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Gemütliche Rundtour rund um Freilassing und Saaldorf-Surheim — flaches Gelände, Dörfer, Äcker und Alpenblick. Startet direkt vom Mayrwirt, ideal für Familien und Genussradler."
+        },
+        "en": {
+          "name": "Freilassing Cycle Round Route",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Leisurely circular tour around Freilassing and Saaldorf-Surheim — flat terrain, villages, fields and Alpine views. Starts right from the Mayrwirt, ideal for families and leisure cyclists."
+        },
+        "it": {
+          "name": "Cicloitinerario circolare di Freilassing",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Piacevole giro in bicicletta intorno a Freilassing e Saaldorf-Surheim — terreno pianeggiante, villaggi, campi e vista sulle Alpi. Parte direttamente dal Mayrwirt, ideale per famiglie e cicloturisti."
+        },
+        "hu": {
+          "name": "Freilassinger kerékpáros körút",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Kellemes körkerékpározás Freilassing és Saaldorf-Surheim körül — lapos terep, falvak, szántók és alpesi panoráma. Közvetlenül a Mayrwirttől indul, ideális családoknak és élvezeti kerékpárosoknak."
+        },
+        "cs": {
+          "name": "Freilassinská cyklookruh",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Příjemná okružní cyklotrasa kolem Freilassingu a Saaldorf-Surheimia — rovinatý terén, vesnice, pole a výhled na Alpy. Start přímo od Mayrwirtu, ideální pro rodiny a rekreační cyklisty."
+        },
+        "es": {
+          "name": "Ruta circular ciclista de Freilassing",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Tranquila ruta circular en bicicleta alrededor de Freilassing y Saaldorf-Surheim — terreno llano, pueblos, campos y vistas alpinas. Sale directamente del Mayrwirt, ideal para familias y ciclistas de ocio."
+        },
+        "fr": {
+          "name": "Circuit cycliste de Freilassing",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Agréable circuit à vélo autour de Freilassing et Saaldorf-Surheim — terrain plat, villages, champs et vue sur les Alpes. Départ directement du Mayrwirt, idéal pour les familles et les cyclistes du dimanche."
+        },
+        "pl": {
+          "name": "Pętla rowerowa Freilassing",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Przyjemna trasa okrężna wokół Freilassing i Saaldorf-Surheim — płaski teren, wioski, pola i widok na Alpy. Start bezpośrednio od Mayrwirt, idealne dla rodzin i rekreacyjnych rowerzystów."
+        },
+        "hr": {
+          "name": "Freilassinška biciklistička kružna ruta",
+          "town": "Freilassing / Saaldorf-Surheim",
+          "desc": "Ugodna kružna tura biciklom oko Freilassinga i Saaldorf-Surheima — ravničarski teren, sela, polja i alpski pogled. Kreće odmah od Mayrwirta, idealno za obitelji i rekreativne bicikliste."
+        }
+      }
+    },
+    {
+      "id": "gut-aiderbichl",
+      "category": "museum",
+      "roles": [
+        "family",
+        "couple",
+        "culture"
+      ],
+      "seasons": [
+        "allyear"
+      ],
+      "distance": 37,
+      "icon": "🐄",
+      "url": "https://www.gut-aiderbichl.com",
+      "i18n": {
+        "de": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Berühmtes Gnadenhof-Paradies — hunderte gerettete Tiere auf weitläufigem Gehöft, Streichelzoo, Café und der bewegende Gedanke dahinter: Jedes Tier hat ein Recht auf Leben."
+        },
+        "en": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Famous animal sanctuary paradise — hundreds of rescued animals on a spacious farm, petting zoo, café and the moving idea behind it: every animal has a right to live."
+        },
+        "it": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Famoso paradiso per animali salvati — centinaia di animali salvati in un'ampia fattoria, fattoria didattica, caffè e il toccante principio: ogni animale ha diritto alla vita."
+        },
+        "hu": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Híres állatmentő paradicsom — százak megmentett állat egy tágas gazdaságban, simogatóállat-kert, kávézó és a megható gondolat mögötte: minden állatnak joga van élni."
+        },
+        "cs": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Slavný azylový ráj pro zvířata — stovky zachráněných zvířat na rozlehlém statku, zoo pro mazlení, kavárna a dojemná myšlenka za tím: každé zvíře má právo na život."
+        },
+        "es": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Famoso paraíso de animales rescatados — cientos de animales salvados en una amplia granja, zoo de mascotas, cafetería y la conmovedora idea detrás: todo animal tiene derecho a vivir."
+        },
+        "fr": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Célèbre paradis pour animaux sauvés — des centaines d'animaux secourus dans une ferme spacieuse, zoo câlin, café et l'idée touchante derrière : chaque animal a droit à la vie."
+        },
+        "pl": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Słynny raj dla uratowanych zwierząt — setki ocalałych zwierząt na rozległym gospodarstwie, mini zoo, kawiarnia i wzruszająca idea: każde zwierzę ma prawo do życia."
+        },
+        "hr": {
+          "name": "Gut Aiderbichl",
+          "town": "Henndorf am Wallersee (A)",
+          "desc": "Slavni raj za spašene životinje — stotine spašenih životinja na prostranome imanju, zoološki vrt za maženje, kafić i dirljiva ideja iza svega: svaka životinja ima pravo na život."
+        }
+      }
+    },
+    {
+      "id": "malerwinkel-chiemsee",
+      "category": "lakes",
+      "roles": [
+        "family",
+        "couple",
+        "culture"
+      ],
+      "seasons": [
+        "summer",
+        "allyear"
+      ],
+      "distance": 55,
+      "icon": "🎨",
+      "url": "https://www.chiemsee-alpenland.de/sehenswertes/malerwinkel/",
+      "i18n": {
+        "de": {
+          "name": "Malerwinkel am Chiemsee",
+          "town": "Gstadt am Chiemsee",
+          "desc": "Berühmtester Aussichtspunkt am Chiemsee — der flache Weg zum Malerwinkel bietet den klassischen Blick auf Fraueninsel, Herreninsel und das Alpenpanorama, der unzählige Künstler inspirierte."
+        },
+        "en": {
+          "name": "Malerwinkel at Lake Chiemsee",
+          "town": "Gstadt am Chiemsee",
+          "desc": "The most famous viewpoint at Lake Chiemsee — the flat path to the Malerwinkel offers the classic view of Fraueninsel, Herreninsel and the Alpine panorama that inspired countless artists."
+        },
+        "it": {
+          "name": "Malerwinkel al Chiemsee",
+          "town": "Gstadt am Chiemsee",
+          "desc": "Il punto panoramico più famoso del Chiemsee — il percorso pianeggiante verso il Malerwinkel offre la vista classica sulla Fraueninsel, l'Herreninsel e il panorama alpino che ha ispirato innumerevoli artisti."
+        },
+        "hu": {
+          "name": "Malerwinkel a Chiemseenél",
+          "town": "Gstadt am Chiemsee",
+          "desc": "A Chiemsee leghíresebb kilátópontja — a sík út a Malerwinkelig a Fraueninsel, a Herreninsel és az alpesi panoráma klasszikus képét kínálja, amely számtalan művészt ihletett."
+        },
+        "cs": {
+          "name": "Malerwinkel u Chiemského jezera",
+          "town": "Gstadt am Chiemsee",
+          "desc": "Nejznámější vyhlídkový bod u Chiemského jezera — rovinatá cesta k Malerwinkel nabízí klasický pohled na Fraueninsel, Herreninsel a alpské panorama, které inspirovalo nesčetné umělce."
+        },
+        "es": {
+          "name": "Malerwinkel en el Chiemsee",
+          "town": "Gstadt am Chiemsee",
+          "desc": "El punto de vista más famoso del Chiemsee — el camino plano al Malerwinkel ofrece la vista clásica de Fraueninsel, Herreninsel y el panorama alpino que inspiró a innumerables artistas."
+        },
+        "fr": {
+          "name": "Malerwinkel au Chiemsee",
+          "town": "Gstadt am Chiemsee",
+          "desc": "Le point de vue le plus célèbre du Chiemsee — le chemin plat jusqu'au Malerwinkel offre la vue classique sur la Fraueninsel, l'Herreninsel et le panorama alpin qui a inspiré d'innombrables artistes."
+        },
+        "pl": {
+          "name": "Malerwinkel nad Chiemsee",
+          "town": "Gstadt am Chiemsee",
+          "desc": "Najsłynniejszy punkt widokowy nad Chiemsee — płaska ścieżka do Malerwinkla oferuje klasyczny widok na Fraueninsel, Herreninsel i alpską panoramę, która inspirowała niezliczonych artystów."
+        },
+        "hr": {
+          "name": "Malerwinkel na Chiemseeu",
+          "town": "Gstadt am Chiemsee",
+          "desc": "Najpoznatije vidikovačko mjesto na Chiemseeu — ravna staza do Malerwinkela nudi klasičan pogled na Fraueninsel, Herreninsel i alpsku panoramu koja je inspirirala bezbroj umjetnika."
+        }
+      }
+    },
+    {
+      "id": "kuehroint-tour",
+      "category": "mountains",
+      "roles": [
+        "active",
+        "couple",
+        "family"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 42,
+      "icon": "🥾",
+      "url": "https://www.koenigssee.com/wandern/kuehroint/",
+      "i18n": {
+        "de": {
+          "name": "Kühroint-Tour am Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Kleine, lohnende Bergwanderung ab St. Bartholomä hinauf zur Kührointalm — herrlicher Blick auf den smaragdgrünen Königssee, den Watzmann und die umliegenden Gipfel."
+        },
+        "en": {
+          "name": "Kühroint Hike at Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Short, rewarding mountain hike from St. Bartholomä up to the Kührointalm — magnificent views of the emerald-green Königssee, the Watzmann and surrounding peaks."
+        },
+        "it": {
+          "name": "Escursione Kühroint al Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Breve ma appagante escursione in montagna da San Bartolomeo fino alla Kührointalm — magnifiche viste sul verde smeraldo del Königssee, il Watzmann e le cime circostanti."
+        },
+        "hu": {
+          "name": "Kühroint-túra a Königssee-nél",
+          "town": "Schönau a. Königssee",
+          "desc": "Rövid, de jutalmazó hegyitúra St. Bartholomätől a Kührointalm-ra — pompás kilátás a smaragdzöld Königssee-re, a Watzmannra és a környező csúcsokra."
+        },
+        "cs": {
+          "name": "Túra Kühroint u Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Krátká, ale odměňující horská túra ze St. Bartholomä nahoru na Kührointalm — nádherný výhled na smaragdově zelené Königssee, Watzmann a okolní vrcholy."
+        },
+        "es": {
+          "name": "Excursión Kühroint en el Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Corta y gratificante caminata de montaña desde St. Bartholomä hasta la Kührointalm — magníficas vistas del esmeralda Königssee, el Watzmann y los picos circundantes."
+        },
+        "fr": {
+          "name": "Randonnée Kühroint au Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Courte randonnée de montagne gratifiante depuis St. Bartholomä jusqu'à la Kührointalm — magnifique vue sur le Königssee vert émeraude, le Watzmann et les sommets environnants."
+        },
+        "pl": {
+          "name": "Wycieczka Kühroint nad Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Krótka, ale satysfakcjonująca wycieczka górska od St. Bartholomä do Kührointalm — wspaniałe widoki na szmaragdowe Königssee, Watzmann i okoliczne szczyty."
+        },
+        "hr": {
+          "name": "Tura Kühroint uz Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Kratka, ali nagradna planinska tura od St. Bartholomä do Kührointalme — veličanstven pogled na smaragdnozeleni Königssee, Watzmann i okolne vrhove."
         }
       }
     }
