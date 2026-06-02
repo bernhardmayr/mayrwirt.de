@@ -600,6 +600,111 @@
       }
     },
     {
+      "id": "freibad-laufen", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 10, "icon": "🏊",
+      "url": "https://www.laufen-salzach.de/",
+      "i18n": {
+        "de": {"name": "Freibad Laufen", "town": "Laufen a.d. Salzach", "desc": "Familiäres Freibad an der Salzach mit Liegewiese, Wasserrutsche und Blick auf die historische Altstadt."},
+        "en": {"name": "Laufen Open-Air Pool", "town": "Laufen a.d. Salzach", "desc": "Family-friendly outdoor pool on the Salzach with a sunbathing lawn, water slide and views of the historic old town."},
+        "it": {"name": "Piscina all'aperto di Laufen", "town": "Laufen a.d. Salzach", "desc": "Piscina all'aperto a misura di famiglia sulla Salzach con prato, scivolo e vista sul centro storico."},
+        "hu": {"name": "Laufeni szabadtéri fürdő", "town": "Laufen a.d. Salzach", "desc": "Családias szabadtéri strand a Salzach folyó mellett, napozóréttel, vízicsúszdával és kilátással az óvárosra."},
+        "cs": {"name": "Venkovní koupaliště Laufen", "town": "Laufen a.d. Salzach", "desc": "Rodinné venkovní koupaliště na Salzachu s travnatou pláží, vodní skluzavkou a výhledem na historické staré město."},
+        "es": {"name": "Piscina al aire libre de Laufen", "town": "Laufen a.d. Salzach", "desc": "Piscina al aire libre familiar en el Salzach con zona de descanso, tobogán y vistas al casco antiguo histórico."},
+        "fr": {"name": "Piscine en plein air de Laufen", "town": "Laufen a.d. Salzach", "desc": "Piscine familiale en plein air au bord de la Salzach avec pelouse, toboggan et vue sur la vieille ville historique."},
+        "pl": {"name": "Odkryty basen w Laufen", "town": "Laufen a.d. Salzach", "desc": "Rodzinny odkryty basen nad Salzachem z trawnikiem, zjeżdżalnią wodną i widokiem na historyczne stare miasto."},
+        "hr": {"name": "Otvoreni bazen Laufen", "town": "Laufen a.d. Salzach", "desc": "Obiteljski otvoreni bazen na Salzachu s travnatim ležajem, vodenim toboganom i pogledom na povijesni stari grad."}
+      }
+    },
+    {
+      "id": "almbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 26, "icon": "🏞️",
+      "url": "https://www.almbachklamm.de/",
+      "i18n": {
+        "de": {"name": "Almbachklamm", "town": "Marktschellenberg", "desc": "Dramatische Klamm mit tosenden Wasserfällen und schmalem Steig entlang des rauschenden Almbaches."},
+        "en": {"name": "Almbach Gorge", "town": "Marktschellenberg", "desc": "Dramatic gorge with thundering waterfalls and a narrow path along the rushing Almbach stream."},
+        "it": {"name": "Gola dell'Almbach", "town": "Marktschellenberg", "desc": "Drammatica gola con cascate scroscianti e sentiero stretto lungo il tumultuoso torrente Almbach."},
+        "hu": {"name": "Almbach-szurdok", "town": "Marktschellenberg", "desc": "Drámai szurdok zúgó vízesésekkel és szűk ösvénnyel a rohanó Almbach-patak mentén."},
+        "cs": {"name": "Soutěska Almbach", "town": "Marktschellenberg", "desc": "Dramatická soutěska s burácejícími vodopády a úzkou stezkou podél rozbouřeného potoka Almbach."},
+        "es": {"name": "Garganta Almbach", "town": "Marktschellenberg", "desc": "Garganta dramática con cascadas atronadoras y sendero estrecho a lo largo del ruidoso arroyo Almbach."},
+        "fr": {"name": "Gorges de l'Almbach", "town": "Marktschellenberg", "desc": "Gorges spectaculaires avec cascades tonitruantes et sentier étroit le long du torrent Almbach."},
+        "pl": {"name": "Wąwóz Almbach", "town": "Marktschellenberg", "desc": "Dramatyczny wąwóz z huczącymi wodospadami i wąską ścieżką wzdłuż rwącego potoku Almbach."},
+        "hr": {"name": "Klisura Almbach", "town": "Marktschellenberg", "desc": "Dramatična klisura s grmećim slapovima i uskom stazom uz bučni potok Almbach."}
+      }
+    },
+    {
+      "id": "seisenbergklamm", "category": "mountains", "roles": ["family", "active"], "seasons": ["summer"], "distance": 35, "icon": "💦",
+      "url": "https://www.lofer.com/",
+      "i18n": {
+        "de": {"name": "Seisenbergklamm", "town": "Weissbach bei Lofer", "desc": "Naturjuwel im Salzburger Land: enge Klamm mit Stegen, Leitern und beeindruckenden Felsformationen."},
+        "en": {"name": "Seisenberg Gorge", "town": "Weissbach bei Lofer", "desc": "A natural gem in the Salzburg region: a narrow gorge with walkways, ladders and impressive rock formations."},
+        "it": {"name": "Gola di Seisenberg", "town": "Weissbach bei Lofer", "desc": "Gioiello naturale nel Salisburghese: stretta gola con passerelle, scale e imponenti formazioni rocciose."},
+        "hu": {"name": "Seisenberg-szurdok", "town": "Weissbach bei Lofer", "desc": "Természeti kincs a Salzburger Landban: szűk szurdok sétányokkal, létrákkal és lenyűgöző sziklaformációkkal."},
+        "cs": {"name": "Seisenbergská soutěska", "town": "Weissbach bei Lofer", "desc": "Přírodní klenot v Salcbursku: úzká soutěska se lávkami, žebříky a působivými skalními formacemi."},
+        "es": {"name": "Garganta de Seisenberg", "town": "Weissbach bei Lofer", "desc": "Una joya natural en la región de Salzburgo: estrecho desfiladero con pasarelas, escaleras y formaciones rocosas impresionantes."},
+        "fr": {"name": "Gorges de Seisenberg", "town": "Weissbach bei Lofer", "desc": "Un joyau naturel dans la région de Salzbourg : gorges étroites avec passerelles, échelles et formations rocheuses impressionnantes."},
+        "pl": {"name": "Wąwóz Seisenberg", "town": "Weissbach bei Lofer", "desc": "Przyrodniczy klejnot Ziemi Salzburskiej: wąski wąwóz z kładkami, drabinami i imponującymi formacjami skalnymi."},
+        "hr": {"name": "Klisura Seisenberg", "town": "Weissbach bei Lofer", "desc": "Prirodni dragulj u Salzburškoj zemlji: uska klisura sa šetnicama, ljestvama i impresivnim stijenskim formacijama."}
+      }
+    },
+    {
+      "id": "hochstaufen", "category": "mountains", "roles": ["active", "couple"], "seasons": ["summer"], "distance": 20, "icon": "⛰️",
+      "url": "https://www.bad-reichenhall.de/",
+      "i18n": {
+        "de": {"name": "Hochstaufen-Gipfeltour", "town": "Bad Reichenhall", "desc": "Klassische Bergtour auf den 1.771-m-Gipfel — weites Gipfelpanorama bis weit nach Salzburg und ins Salzburger Land."},
+        "en": {"name": "Hochstaufen Summit Hike", "town": "Bad Reichenhall", "desc": "Classic mountain hike to the 1,771-m summit — a sweeping panorama reaching far into the Salzburg region."},
+        "it": {"name": "Escursione alla vetta del Hochstaufen", "town": "Bad Reichenhall", "desc": "Classica gita alla vetta di 1.771 m — ampio panorama fino a Salisburgo e nel Salisburghese."},
+        "hu": {"name": "Hochstaufen-csúcstúra", "town": "Bad Reichenhall", "desc": "Klasszikus hegyitúra az 1771 méteres csúcsra — széles panoráma egészen Salzburgig és a Salzburger Landig."},
+        "cs": {"name": "Výstup na Hochstaufen", "town": "Bad Reichenhall", "desc": "Klasická horská túra na 1 771 m vysoký vrchol — rozsáhlý výhled daleko do Salcburku a Salcburska."},
+        "es": {"name": "Excursión a la cima del Hochstaufen", "town": "Bad Reichenhall", "desc": "Clásica excursión de montaña hasta la cima de 1.771 m — amplio panorama que llega hasta Salzburgo y la región salzburguesa."},
+        "fr": {"name": "Randonnée au sommet du Hochstaufen", "town": "Bad Reichenhall", "desc": "Randonnée classique jusqu'au sommet de 1 771 m — vaste panorama s'étendant jusqu'à Salzbourg et en Salzbourgeoise."},
+        "pl": {"name": "Wycieczka na szczyt Hochstaufen", "town": "Bad Reichenhall", "desc": "Klasyczna wycieczka górska na szczyt 1771 m — rozległa panorama sięgająca daleko na Salzburg i Krainę Salzburską."},
+        "hr": {"name": "Planinski uspon na Hochstaufen", "town": "Bad Reichenhall", "desc": "Klasičan planinarski uspon na vrh od 1.771 m — široka panorama koja seže daleko do Salzburga i Salzburške zemlje."}
+      }
+    },
+    {
+      "id": "stiftsmuseum-laufen", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 10, "icon": "🏛️",
+      "url": "https://www.laufen-salzach.de/",
+      "i18n": {
+        "de": {"name": "Stiftsmuseum Laufen", "town": "Laufen a.d. Salzach", "desc": "Kunst und Geschichte im romanischen Stiftsgebäude — mittelalterliche Skulpturen, sakrale Schätze und Stadtchronik."},
+        "en": {"name": "Laufen Collegiate Museum", "town": "Laufen a.d. Salzach", "desc": "Art and history in the Romanesque collegiate building — medieval sculptures, sacred treasures and town chronicles."},
+        "it": {"name": "Museo capitolare di Laufen", "town": "Laufen a.d. Salzach", "desc": "Arte e storia nell'edificio romanico del capitolo — sculture medievali, tesori sacri e cronache cittadine."},
+        "hu": {"name": "Laufeni Kolostori Múzeum", "town": "Laufen a.d. Salzach", "desc": "Művészet és történelem a román kolostorépületben — középkori szobrok, szakrális kincsek és várostörténet."},
+        "cs": {"name": "Klášterní muzeum Laufen", "town": "Laufen a.d. Salzach", "desc": "Umění a dějiny v románské klášterní budově — středověké sochy, sakrální poklady a kronika města."},
+        "es": {"name": "Museo Capitular de Laufen", "town": "Laufen a.d. Salzach", "desc": "Arte e historia en el edificio románico del cabildo — esculturas medievales, tesoros sagrados y crónicas de la ciudad."},
+        "fr": {"name": "Musée capitulaire de Laufen", "town": "Laufen a.d. Salzach", "desc": "Art et histoire dans l'édifice roman du chapitre — sculptures médiévales, trésors sacrés et chroniques de la ville."},
+        "pl": {"name": "Muzeum Kapitulne w Laufen", "town": "Laufen a.d. Salzach", "desc": "Sztuka i historia w romańskim budynku kapituły — średniowieczne rzeźby, skarby sakralne i kroniki miejskie."},
+        "hr": {"name": "Muzej kapitola u Laufenu", "town": "Laufen a.d. Salzach", "desc": "Umjetnost i povijest u romaničkoj kaptolskoj zgradi — srednjovjekovne skulpture, sakralni dragulji i gradske kronike."}
+      }
+    },
+    {
+      "id": "museum-stille-nacht", "category": "museum", "roles": ["culture", "couple", "family"], "seasons": ["allyear", "indoor"], "distance": 25, "icon": "🎵",
+      "url": "https://www.stillenacht.at/",
+      "i18n": {
+        "de": {"name": "Stille-Nacht-Museum", "town": "Oberndorf bei Salzburg", "desc": "Geburtsort des berühmtesten Weihnachtsliedes der Welt — bewegende Ausstellung zur Entstehungsgeschichte des Liedes."},
+        "en": {"name": "Silent Night Museum", "town": "Oberndorf bei Salzburg", "desc": "Birthplace of the world's most famous Christmas carol — a moving exhibition on the history of 'Silent Night'."},
+        "it": {"name": "Museo della Notte Silenziosa", "town": "Oberndorf bei Salzburg", "desc": "Luogo di nascita della canzone natalizia più famosa al mondo — emozionante mostra sulla storia di 'Astro del ciel'."},
+        "hu": {"name": "Csendes Éj Múzeum", "town": "Oberndorf bei Salzburg", "desc": "A világ leghíresebb karácsonyi énekének szülőhelye — megható kiállítás a dal keletkezéstörténetéről."},
+        "cs": {"name": "Muzeum Tiché noci", "town": "Oberndorf bei Salzburg", "desc": "Rodiště nejslavnější vánoční písně na světě — dojemná výstava o historii koledy 'Tichá noc'."},
+        "es": {"name": "Museo de 'Noche de Paz'", "town": "Oberndorf bei Salzburg", "desc": "Lugar de nacimiento del villancico más famoso del mundo — una conmovedora exposición sobre la historia de 'Noche de Paz'."},
+        "fr": {"name": "Musée de 'Douce Nuit'", "town": "Oberndorf bei Salzburg", "desc": "Lieu de naissance du chant de Noël le plus célèbre au monde — une exposition émouvante sur l'histoire de 'Douce Nuit'."},
+        "pl": {"name": "Muzeum Cichej Nocy", "town": "Oberndorf bei Salzburg", "desc": "Miejsce narodzin najpopularniejszej kolędy na świecie — wzruszająca wystawa o historii 'Cichej Nocy'."},
+        "hr": {"name": "Muzej Tihe noći", "town": "Oberndorf bei Salzburg", "desc": "Rodno mjesto najpoznatije božićne pjesme na svijetu — dirljiva izložba o povijesti 'Tihe noći'."}
+      }
+    },
+    {
+      "id": "roemermuseum-bedaium", "category": "museum", "roles": ["culture", "family"], "seasons": ["allyear", "indoor"], "distance": 40, "icon": "🏺",
+      "url": "https://www.bedaium.de/",
+      "i18n": {
+        "de": {"name": "Römermuseum Bedaium", "town": "Seebruck am Chiemsee", "desc": "Eindrucksvolle Funde aus der römischen Siedlung Bedaium — direkt am Chiemsee gelegen."},
+        "en": {"name": "Roman Museum Bedaium", "town": "Seebruck am Chiemsee", "desc": "Impressive finds from the Roman settlement of Bedaium — right on the shores of Lake Chiemsee."},
+        "it": {"name": "Museo romano Bedaium", "town": "Seebruck am Chiemsee", "desc": "Impressionanti reperti dell'insediamento romano di Bedaium — direttamente sulle rive del Chiemsee."},
+        "hu": {"name": "Bedaium Rómaimúzeum", "town": "Seebruck am Chiemsee", "desc": "Lenyűgöző leletek a Bedaium római településről — közvetlenül a Chiemsee partján."},
+        "cs": {"name": "Římské muzeum Bedaium", "town": "Seebruck am Chiemsee", "desc": "Působivé nálezy z římského osídlení Bedaium — přímo na břehu jezera Chiemsee."},
+        "es": {"name": "Museo Romano Bedaium", "town": "Seebruck am Chiemsee", "desc": "Impresionantes hallazgos del asentamiento romano de Bedaium — junto a las orillas del lago Chiemsee."},
+        "fr": {"name": "Musée romain Bedaium", "town": "Seebruck am Chiemsee", "desc": "D'impressionnants objets de l'établissement romain de Bedaium — directement au bord du lac Chiemsee."},
+        "pl": {"name": "Muzeum Rzymskie Bedaium", "town": "Seebruck am Chiemsee", "desc": "Imponujące znaleziska z osady rzymskiej Bedaium — bezpośrednio nad brzegiem jeziora Chiemsee."},
+        "hr": {"name": "Rimski muzej Bedaium", "town": "Seebruck am Chiemsee", "desc": "Impresivni nalazi iz rimskog naselja Bedaium — direktno na obalama jezera Chiemsee."}
+      }
+    },
+    {
       "id": "chiemsee-herrenchiemsee", "category": "lakes", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 45, "icon": "👑",
       "url": "https://www.herren-chiemsee.de/",
       "i18n": {
