@@ -4337,6 +4337,67 @@
           "desc": "Najtoplije jezero u Salzkammergut s tirkiznom vodom, jezerskom promenadnom, jedrenjacima i poznatim selom s opatijskom crkvom — idealno za cijeli dan izleta."
         }
       }
+    },
+    {
+      "id": "familienbad-reichenhall",
+      "category": "lakes",
+      "roles": [
+        "family",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 23,
+      "icon": "🏊",
+      "url": "https://www.bad-reichenhall.de/freizeit-sport/baeder/",
+      "i18n": {
+        "de": {
+          "name": "Familienbad Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Städtisches Freibad mit Becken für alle Altersgruppen, Wasserrutsche und Liegewiese — direkt in der Kurstadt, kombinierbar mit einem Stadtbummel."
+        },
+        "en": {
+          "name": "Familienbad Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Municipal outdoor pool with lanes for all ages, water slide and sunbathing lawn — right in the spa town, easy to combine with a stroll through town."
+        },
+        "it": {
+          "name": "Piscina familiare di Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Piscina comunale all'aperto con vasche per tutte le età, scivolo acquatico e prato per prendere il sole — nel centro termale, combinabile con una passeggiata."
+        },
+        "hu": {
+          "name": "Familienbad Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Városi szabadtéri uszoda minden korosztálynak, vízicsúszdával és napozóréttel — közvetlenül a fürdővárosban, városnézéssel kombinálható."
+        },
+        "cs": {
+          "name": "Rodinné koupaliště Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Městské venkovní koupaliště s bazény pro všechny věkové skupiny, vodním skluzavkou a travnatou pláží — přímo v lázeňském městě."
+        },
+        "es": {
+          "name": "Piscina familiar de Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Piscina municipal al aire libre con carriles para todas las edades, tobogán acuático y césped para tomar el sol — en pleno centro balneario."
+        },
+        "fr": {
+          "name": "Piscine familiale de Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Piscine municipale en plein air avec bassins pour tous âges, toboggan aquatique et pelouse — en plein cœur de la ville thermale."
+        },
+        "pl": {
+          "name": "Pływalnia rodzinna Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Miejski basen odkryty z torami dla wszystkich grup wiekowych, zjeżdżalnią wodną i łąką do opalania — w samym centrum uzdrowiska."
+        },
+        "hr": {
+          "name": "Obiteljski bazen Bad Reichenhall",
+          "town": "Bad Reichenhall",
+          "desc": "Gradski vanjski bazen s bazenom za sve dobi, vodenim toboganom i livadama za sunčanje — u samom srcu lječilišnog grada."
+        }
+      }
     }
   ]
 }
