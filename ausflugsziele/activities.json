@@ -4398,6 +4398,67 @@
           "desc": "Gradski vanjski bazen s bazenom za sve dobi, vodenim toboganom i livadama za sunčanje — u samom srcu lječilišnog grada."
         }
       }
+    },
+    {
+      "id": "kletterpark-anif",
+      "category": "sport",
+      "roles": [
+        "family",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 19,
+      "icon": "🧗",
+      "url": "https://www.waldbad-anif.at",
+      "i18n": {
+        "de": {
+          "name": "Kletterpark am Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Waldseilpark direkt am Waldbad Anif — Parcours in verschiedenen Schwierigkeitsgraden für Kinder und Erwachsene, ideal nach dem Schwimmbad-Besuch."
+        },
+        "en": {
+          "name": "Climbing Park at Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Forest rope course right next to Waldbad Anif — routes in various difficulty levels for children and adults, perfect after a swim."
+        },
+        "it": {
+          "name": "Parco avventura al Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Parco acrobatico nel bosco accanto al Waldbad Anif — percorsi di vari livelli di difficoltà per bambini e adulti, ideale dopo il bagno."
+        },
+        "hu": {
+          "name": "Kalandpark a Waldbad Anifsban",
+          "town": "Anif (A)",
+          "desc": "Erdei kötélpálya közvetlenül a Waldbad Anif mellett — különböző nehézségű pályák gyerekeknek és felnőtteknek, strandolás után tökéletes."
+        },
+        "cs": {
+          "name": "Lanový park u Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Lesní lanový park přímo u Waldbad Anif — trasy různých obtížností pro děti i dospělé, ideální po koupání."
+        },
+        "es": {
+          "name": "Parque de escalada en Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Parque de cuerdas en el bosque junto al Waldbad Anif — recorridos de distintos niveles de dificultad para niños y adultos, ideal tras el baño."
+        },
+        "fr": {
+          "name": "Parc d'escalade au Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Parc de cordes en forêt juste à côté du Waldbad Anif — parcours de différents niveaux de difficulté pour enfants et adultes, idéal après la baignade."
+        },
+        "pl": {
+          "name": "Park linowy przy Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Leśny park linowy tuż przy Waldbad Anif — trasy o różnych poziomach trudności dla dzieci i dorosłych, idealne po kąpieli."
+        },
+        "hr": {
+          "name": "Park penjanja uz Waldbad Anif",
+          "town": "Anif (A)",
+          "desc": "Šumski park s užadima tik uz Waldbad Anif — staze različitih razina težine za djecu i odrasle, idealno nakon kupanja."
+        }
+      }
     }
   ]
 }
