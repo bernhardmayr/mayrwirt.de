@@ -6087,10 +6087,11 @@
       }
     },
     {
-      "id": "erlebnispielplatz-burghausen",
+      "id": "motorikpark-burghausen",
       "category": "sport",
       "roles": [
-        "families"
+        "families",
+        "adults"
       ],
       "seasons": [
         "spring",
@@ -6098,53 +6099,53 @@
         "autumn"
       ],
       "distance": 40,
-      "icon": "🛝",
-      "url": "https://www.burghausen.de/tourismus-freizeit/freizeit/spielplaetze",
+      "icon": "🤸",
+      "url": "https://www.burghausen.de/tourismus-freizeit/freizeit/motorikpark",
       "i18n": {
         "de": {
-          "name": "Erlebnispielplatz Burghausen",
+          "name": "Motorikpark Burghausen",
           "town": "Burghausen",
-          "desc": "Großer Abenteuerspielplatz mit Klettergerüsten, Rutschen und Wasserspielen – ein Paradies für Kinder. Lässt sich wunderbar mit einem Besuch der Burg und der Altstadt kombinieren."
+          "desc": "Kostenloser Bewegungspark für Jung und Alt mit Balancierpfaden, Kletter- und Kraftgeräten sowie Spielflächen direkt in der Natur. Ideal als Ergänzung zum Burgbesuch."
         },
         "en": {
-          "name": "Adventure Playground Burghausen",
+          "name": "Motorik Park Burghausen",
           "town": "Burghausen",
-          "desc": "Large adventure playground with climbing frames, slides and water features – a paradise for children. Perfectly combined with a visit to the castle and the old town."
+          "desc": "Free outdoor fitness and movement park for all ages with balance trails, climbing and strength equipment, and play areas in a natural setting. Perfect alongside a castle visit."
         },
         "it": {
-          "name": "Parco giochi avventura Burghausen",
+          "name": "Parco motorio Burghausen",
           "town": "Burghausen",
-          "desc": "Grande parco giochi avventura con strutture per arrampicarsi, scivoli e giochi d'acqua – un paradiso per i bambini. Si abbina perfettamente a una visita al castello e alla città vecchia."
+          "desc": "Parco del movimento gratuito per grandi e piccoli con percorsi di equilibrio, attrezzi per arrampicata e forza, e aree gioco nella natura. Ideale da abbinare alla visita al castello."
         },
         "hu": {
-          "name": "Kalandpark Burghausen",
+          "name": "Motorikus park Burghausen",
           "town": "Burghausen",
-          "desc": "Nagy kalandpark mászóvárakkal, csúszdákkal és vizes játékokkal – gyerekek paradicsoma. Tökéletesen kombinálható a vár és az óváros meglátogatásával."
+          "desc": "Ingyenes kültéri mozgáspark minden korosztálynak egyensúlypályákkal, mászó- és erőkészülékekkel, játékterületekkel természetes környezetben. Tökéletes a várral kombinálva."
         },
         "cs": {
-          "name": "Dobrodružné hřiště Burghausen",
+          "name": "Motorický park Burghausen",
           "town": "Burghausen",
-          "desc": "Velké dobrodružné hřiště s lezeckými konstrukcemi, skluzavkami a vodními hrami – ráj pro děti. Lze skvěle kombinovat s návštěvou hradu a starého města."
+          "desc": "Bezplatný park pohybu pro všechny věkové skupiny s balančními stezkami, lezeckými a posilovacími zařízeními a hřišti v přírodě. Ideální doplněk k návštěvě hradu."
         },
         "es": {
-          "name": "Parque de aventuras Burghausen",
+          "name": "Parque motórico Burghausen",
           "town": "Burghausen",
-          "desc": "Gran parque de aventuras con estructuras de escalada, toboganes y juegos de agua – un paraíso para los niños. Se combina perfectamente con una visita al castillo y al casco antiguo."
+          "desc": "Parque de movimiento gratuito para todas las edades con caminos de equilibrio, equipos de escalada y fuerza, y zonas de juego en plena naturaleza. Ideal junto a la visita al castillo."
         },
         "fr": {
-          "name": "Aire de jeux aventure Burghausen",
+          "name": "Parc motricité Burghausen",
           "town": "Burghausen",
-          "desc": "Grande aire de jeux aventure avec structures d'escalade, toboggans et jeux d'eau – un paradis pour les enfants. À combiner idéalement avec une visite du château et de la vieille ville."
+          "desc": "Parc de mouvement gratuit pour tous âges avec parcours d'équilibre, agrès d'escalade et de force, et aires de jeux dans la nature. Idéal en complément de la visite du château."
         },
         "pl": {
-          "name": "Plac zabaw Burghausen",
+          "name": "Park motoryczny Burghausen",
           "town": "Burghausen",
-          "desc": "Duży plac przygód z urządzeniami do wspinaczki, zjeżdżalniami i wodnymi zabawami – raj dla dzieci. Idealnie łączy się z wizytą w zamku i starym mieście."
+          "desc": "Bezpłatny park ruchu dla wszystkich grup wiekowych z trasami równoważnymi, urządzeniami do wspinaczki i siłowymi oraz placami zabaw w naturalnym otoczeniu. Idealny przy okazji zwiedzania zamku."
         },
         "hr": {
-          "name": "Avanturistički playground Burghausen",
+          "name": "Motorički park Burghausen",
           "town": "Burghausen",
-          "desc": "Veliki avanturistički playground s penjalicama, toboganima i vodenim igrama – raj za djecu. Savršeno se kombinira s posjetom dvorcu i starom gradu."
+          "desc": "Besplatan park kretanja za sve uzraste s ravnotežnim stazama, spravama za penjanje i snagu te igralištima u prirodi. Idealno uz posjet dvorcu."
         }
       }
     }
