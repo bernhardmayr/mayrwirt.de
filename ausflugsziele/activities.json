@@ -6596,6 +6596,389 @@
           "desc": "Laka kruzna setnja kroz prirodni rezervat Haarmoos odmah pored smjestaja: mocvarni krajobraz, kula za promatranje ptica, panoramski vidik na Alpe i jezero Abtsdorfersee."
         }
       }
+    },
+    {
+      "id": "rund-um-den-abtsee",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 4,
+      "icon": "🧳",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit",
+      "i18n": {
+        "de": {
+          "name": "Rund um den Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Leichter Rundweg um den naturnahen Abtsdorfersee — flaches Ufergelände, Ried und Ausblicke auf das Haarmoos-Naturschutzgebiet. Ideal für Familien und als ruhige Feierabend-Runde."
+        },
+        "en": {
+          "name": "Around the Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Easy circular walk around the natural Abtsdorfersee — flat lakeshore, reedbeds and views over the Haarmoos nature reserve. Perfect for families and a peaceful evening stroll."
+        },
+        "it": {
+          "name": "Giro del Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Facile percorso circolare attorno al lago Abtsdorfersee — riva piatta, canneti e viste sulla riserva naturale Haarmoos. Ideale per famiglie e come passeggiata serale."
+        },
+        "hu": {
+          "name": "Abtsee koeruet",
+          "town": "Saaldorf-Surheim",
+          "desc": "Konnyue koeruet az Abtsdorfersee koerul — lapos partvidek, nadasok es kilatas a Haarmoos termeszeti rezervatumra. Tokeletetes csalaadoknak es esti seetatanyhoz."
+        },
+        "cs": {
+          "name": "Kolo kolem Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Lehky okruzni prochazka kolem prirodniho jezera Abtsdorfersee — plochy breh, trstiny a vyhled na priorizni rezervaci Haarmoos. Idealni pro rodiny a vecerni prochazky."
+        },
+        "es": {
+          "name": "Vuelta al Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Ruta circular sencilla alrededor del lago Abtsdorfersee — orilla llana, cañaverales y vistas sobre la reserva natural Haarmoos. Perfecta para familias y paseos tranquilos."
+        },
+        "fr": {
+          "name": "Tour du lac Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Promenade circulaire facile autour du lac Abtsdorfersee — bords plats, roselières et vues sur la réserve naturelle Haarmoos. Idéal pour les familles et les balades du soir."
+        },
+        "pl": {
+          "name": "Wokol jeziora Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Latwa petla wokol naturalnego jeziora Abtsdorfersee — plaski brzeg, trzciny i widoki na rezerwat Haarmoos. Idealne dla rodzin i wieczornych spacerów."
+        },
+        "hr": {
+          "name": "Oko jezera Abtsee",
+          "town": "Saaldorf-Surheim",
+          "desc": "Laka kruzna setnja oko jezera Abtsdorfersee — ravna obala, trstici i pogledi na prirodni rezervat Haarmoos. Idealno za obitelji i mirne vecernje setaliste."
+        }
+      }
+    },
+    {
+      "id": "moosrundweg",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 3,
+      "icon": "🌱",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit",
+      "i18n": {
+        "de": {
+          "name": "Moosrundweg",
+          "town": "Saaldorf-Surheim",
+          "desc": "Geführter Rundweg durch die einzigartige Moorlandschaft rund um Saaldorf — informative Tafeln erklären Flora, Fauna und die Entstehung des Hochmoors. Besonders schön bei Morgennebel."
+        },
+        "en": {
+          "name": "Moor Circular Walk",
+          "town": "Saaldorf-Surheim",
+          "desc": "Guided circular walk through the unique moorland around Saaldorf — informative panels explain the flora, fauna and formation of the raised bog. Especially beautiful in morning mist."
+        },
+        "it": {
+          "name": "Sentiero circolare della torbiera",
+          "town": "Saaldorf-Surheim",
+          "desc": "Percorso circolare guidato attraverso il paesaggio di torbiera unico intorno a Saaldorf — pannelli informativi su flora, fauna e la formazione della torbiera. Particolarmente bello con la nebbia mattutina."
+        },
+        "hu": {
+          "name": "Laap-koersetatany",
+          "town": "Saaldorf-Surheim",
+          "desc": "Iranyitott koeroet az egyedulallo laapvilaagon at Saaldorf koerul — informacios tablak magyarazzak a flo rat, faunat es a laap kialakulasat. Reggeli koedben kulonosen gyoenyoeruu."
+        },
+        "cs": {
+          "name": "Okruzni stezka mocalem",
+          "town": "Saaldorf-Surheim",
+          "desc": "Komentovana okruzni prochazka jedinecnou raselinistni krajinou kolem Saaldorfu — informacni tabule vysvetluji floru, faunu a vznik raseliniste. Zvlaste krasne za ranni mlhy."
+        },
+        "es": {
+          "name": "Ruta circular por la turbera",
+          "town": "Saaldorf-Surheim",
+          "desc": "Ruta circular guiada por el único paisaje de turbera alrededor de Saaldorf — paneles informativos explican la flora, fauna y la formación de la turbera. Especialmente hermoso con la niebla matutina."
+        },
+        "fr": {
+          "name": "Sentier circulaire de la tourbière",
+          "town": "Saaldorf-Surheim",
+          "desc": "Promenade circulaire guidée à travers l'unique paysage de tourbière autour de Saaldorf — panneaux informatifs sur la flore, la faune et la formation de la tourbière. Particulièrement beau dans la brume matinale."
+        },
+        "pl": {
+          "name": "Petla przez torfowisko",
+          "town": "Saaldorf-Surheim",
+          "desc": "Oznakowana petla przez unikalny krajobraz torfowiskowy wokol Saaldorf — tablice informacyjne o florze, faunie i powstawaniu torfowiska. Szczegolnie piekna we mgle porannej."
+        },
+        "hr": {
+          "name": "Kruzna staza mocvara",
+          "town": "Saaldorf-Surheim",
+          "desc": "Vodjena kruzna staza kroz jedinstveni mocvarni krajobraz oko Saaldorfa — informativne ploce objasnjaju floru, faunu i nastanak treseta. Posebno lijepo u jutarnjoj magli."
+        }
+      }
+    },
+    {
+      "id": "grosse-saaldorfer-runde",
+      "category": "sport",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 2,
+      "icon": "👟",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit",
+      "i18n": {
+        "de": {
+          "name": "Große Saaldorfer Runde",
+          "town": "Saaldorf-Surheim",
+          "desc": "Anspruchsvollerer Rundweg rund um Saaldorf-Surheim mit abwechslungsreicher Landschaft: Felder, Waldpassagen, Haarmoos-Naturschutzgebiet und Ausblicke auf die Berchtesgadener Alpen."
+        },
+        "en": {
+          "name": "Große Saaldorfer Runde",
+          "town": "Saaldorf-Surheim",
+          "desc": "More challenging circular walk around Saaldorf-Surheim with varied landscapes: fields, woodland sections, the Haarmoos nature reserve and views of the Berchtesgaden Alps."
+        },
+        "it": {
+          "name": "Grande Giro di Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Percorso circolare più impegnativo intorno a Saaldorf-Surheim con paesaggi variati: campi, passaggi boschivi, riserva naturale Haarmoos e viste sulle Alpi di Berchtesgaden."
+        },
+        "hu": {
+          "name": "Nagy Saaldorfi Koeruet",
+          "town": "Saaldorf-Surheim",
+          "desc": "Igenyesebb koertur Saaldorf-Surheim koerul valtozatos tajkepekkel: retek, erdei szakaszok, Haarmoos termeszeti rezervatum es kilatas a Berchtesgadeni-Alpokra."
+        },
+        "cs": {
+          "name": "Velky saaldorfsky okruh",
+          "town": "Saaldorf-Surheim",
+          "desc": "Narocnejsi okruzni trasa kolem Saaldorf-Surheim s pestrou krajinou: pole, lesni useky, prirodni rezervace Haarmoos a vyhled na Berchtesgadenske Alpy."
+        },
+        "es": {
+          "name": "Gran Ruta de Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Ruta circular más exigente alrededor de Saaldorf-Surheim con paisajes variados: campos, tramos de bosque, reserva natural Haarmoos y vistas de los Alpes de Berchtesgaden."
+        },
+        "fr": {
+          "name": "Grande Boucle de Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Randonnée circulaire plus exigeante autour de Saaldorf-Surheim avec des paysages variés : champs, passages boisés, réserve naturelle du Haarmoos et vues sur les Alpes de Berchtesgaden."
+        },
+        "pl": {
+          "name": "Duza Petla Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Bardziej wymagajaca petla wokol Saaldorf-Surheim z urozmaiconym krajobrazem: pola, odcinki lesne, rezerwat Haarmoos i widoki na Alpy Berchtesgadenskie."
+        },
+        "hr": {
+          "name": "Velika Saaldorfska Petlja",
+          "town": "Saaldorf-Surheim",
+          "desc": "Zahtjevnija kruzna staza oko Saaldorf-Surheima s raznovrsnim krajolicima: polja, sumski odsjeci, prirodni rezervat Haarmoos i pogledi na Berchtesgadenske Alpe."
+        }
+      }
+    },
+    {
+      "id": "kleine-saaldorfer-runde",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 2,
+      "icon": "👟",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit",
+      "i18n": {
+        "de": {
+          "name": "Kleine Saaldorfer Runde",
+          "town": "Saaldorf-Surheim",
+          "desc": "Kurzer, familienfreundlicher Rundweg direkt ab dem Mayrwirt durch die Felder und Wälder von Saaldorf — perfekt für einen entspannten Spaziergang vor oder nach dem Abendessen."
+        },
+        "en": {
+          "name": "Kleine Saaldorfer Runde",
+          "town": "Saaldorf-Surheim",
+          "desc": "Short, family-friendly circular walk starting right from the Mayrwirt through the fields and woods of Saaldorf — perfect for a relaxed stroll before or after dinner."
+        },
+        "it": {
+          "name": "Piccolo Giro di Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Breve percorso circolare adatto alle famiglie, direttamente dal Mayrwirt attraverso i campi e i boschi di Saaldorf — perfetto per una passeggiata rilassante prima o dopo cena."
+        },
+        "hu": {
+          "name": "Kis Saaldorfi Koeruet",
+          "town": "Saaldorf-Surheim",
+          "desc": "Rovid, csalaadbaraat koertur kozvetlenul a Mayrwirtbol Saaldorf mezoin es erdein at — tokeletes egy ellazult seetatanyhoz vacsora elott vagy utan."
+        },
+        "cs": {
+          "name": "Maly saaldorfsky okruh",
+          "town": "Saaldorf-Surheim",
+          "desc": "Kratka, rodinna okruzni prochazka primo z Mayrwirtu pres pole a lesy Saaldorfu — idealni pro klidnou prochazku pred nebo po veceri."
+        },
+        "es": {
+          "name": "Pequeña Ruta de Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Ruta circular corta y familiar que parte directamente del Mayrwirt por los campos y bosques de Saaldorf — perfecta para un paseo tranquilo antes o después de cenar."
+        },
+        "fr": {
+          "name": "Petite Boucle de Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Courte promenade circulaire familiale au départ du Mayrwirt à travers les champs et les bois de Saaldorf — parfaite pour une balade détendue avant ou après le dîner."
+        },
+        "pl": {
+          "name": "Mala Petla Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Krotka, rodzinna petla bezposrednio z Mayrwirtu przez pola i lasy Saaldorf — idealna na spokojny spacer przed lub po kolacji."
+        },
+        "hr": {
+          "name": "Mala Saaldorfska Petlja",
+          "town": "Saaldorf-Surheim",
+          "desc": "Kratka, obiteljska kruzna staza direktno od Mayrwirta kroz polja i sume Saaldorfa — savrsena za opustenu setnju prije ili poslije vecere."
+        }
+      }
+    },
+    {
+      "id": "salzachrundweg",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 10,
+      "icon": "🚶",
+      "url": "https://www.laufen-salzach.de/tourismus/wandern",
+      "i18n": {
+        "de": {
+          "name": "Salzachrundweg",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Flacher Rundweg entlang der Salzach zwischen Laufen und Oberndorf — Flussufer, Auwälder, Blick auf die Grenzbrücke und die Altstadt von Laufen. Ideal für Familien und Nordic Walker."
+        },
+        "en": {
+          "name": "Salzach Circular Walk",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Flat circular walk along the Salzach between Laufen and Oberndorf — riverbanks, riparian forests, views of the border bridge and Laufen's old town. Ideal for families and Nordic walkers."
+        },
+        "it": {
+          "name": "Percorso circolare Salzach",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Percorso circolare pianeggiante lungo la Salzach tra Laufen e Oberndorf — rive del fiume, boschi ripariali, vista sul ponte di confine e sulla città vecchia di Laufen. Ideale per famiglie."
+        },
+        "hu": {
+          "name": "Salzach koruet",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Lapos koerut a Salzach menten Laufen es Oberndorf koezoett — folyopart, arto erdok, kilatas a hatarhidra es Laufen obelvarosara. Idealis csalaadoknak es Nordic walkinghoz."
+        },
+        "cs": {
+          "name": "Okruzni stezka podél Salzach",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Plocha okruzni trasa podél reky Salzach mezi Laufenem a Oberndorfem — ricni brehy, luznı lesy, vyhled na pohranicni most a stare mesto Laufen. Idealni pro rodiny."
+        },
+        "es": {
+          "name": "Ruta circular del Salzach",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Ruta circular llana a lo largo del Salzach entre Laufen y Oberndorf — orillas del río, bosques ribereños, vistas al puente fronterizo y al casco antiguo de Laufen. Ideal para familias."
+        },
+        "fr": {
+          "name": "Randonnée circulaire de la Salzach",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Promenade circulaire plate le long de la Salzach entre Laufen et Oberndorf — berges, forêts alluviales, vue sur le pont frontière et la vieille ville de Laufen. Idéal pour les familles."
+        },
+        "pl": {
+          "name": "Petla wzdluz Salzach",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Plaska petla wzdluz Salzach miedzy Laufen a Oberndorf — brzegi rzeki, legi, widoki na most graniczny i stare miasto Laufen. Idealna dla rodzin i Nordic walkingu."
+        },
+        "hr": {
+          "name": "Kruzna staza Salzach",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Ravna kruzna staza uz Salzach izmedju Laufena i Oberndorfa — obale rijeke, poplavni sumarak, pogled na granicni most i stari grad Laufen. Idealno za obitelji."
+        }
+      }
+    },
+    {
+      "id": "panoramarundweg-saaldorf",
+      "category": "sport",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 2,
+      "icon": "🌄",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit",
+      "i18n": {
+        "de": {
+          "name": "Panoramarundweg Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Genussrundweg mit herrlichem Alpenpanorama über Saaldorf-Surheim — der Weg führt über Anhöhen mit Weitsicht auf Hochstaufen, Untersberg, Watzmann und das Salzburger Alpenvorland."
+        },
+        "en": {
+          "name": "Panorama Circular Walk Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Scenic circular walk with stunning Alpine panorama above Saaldorf-Surheim — the route passes over hilltops with sweeping views of the Hochstaufen, Untersberg, Watzmann and the Salzburg foothills."
+        },
+        "it": {
+          "name": "Percorso panoramico Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Piacevole percorso circolare con splendido panorama alpino sopra Saaldorf-Surheim — il sentiero passa per alture con viste ampie su Hochstaufen, Untersberg, Watzmann e il pedemonte salisburghese."
+        },
+        "hu": {
+          "name": "Panoramas koertur Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Elvezetetes koertur csodaalatos alppanoramaaval Saaldorf-Surheim felett — az ut dombtetokoen at vezet szeles kilatassal a Hochstaufenre, Untersberg-re, Watzmann-ra es a salzburgi elohegysegre."
+        },
+        "cs": {
+          "name": "Panoramaticky okruh Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Prijemna okruzni trasa s pukrásnym alpskym panoramatem nad Saaldorf-Surheim — cesta prochazi pahrbky se sirokouhleho vyhledem na Hochstaufen, Untersberg, Watzmann a salzburske podhori."
+        },
+        "es": {
+          "name": "Ruta panorámica Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Agradable ruta circular con impresionante panorama alpino sobre Saaldorf-Surheim — el camino pasa por colinas con amplias vistas al Hochstaufen, Untersberg, Watzmann y el piedemonte de Salzburgo."
+        },
+        "fr": {
+          "name": "Boucle panoramique Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Promenade circulaire agréable avec un magnifique panorama alpin au-dessus de Saaldorf-Surheim — le chemin passe par des hauteurs avec de larges vues sur le Hochstaufen, l'Untersberg, le Watzmann et le piémont salzbourgeois."
+        },
+        "pl": {
+          "name": "Panoramiczna petla Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Przyjemna petla z piekna alpska panorama nad Saaldorf-Surheim — trasa prowadzi przez wzniesienia z rozleglymi widokami na Hochstaufen, Untersberg, Watzmann i podgorze Salzburg."
+        },
+        "hr": {
+          "name": "Panoramska kruzna staza Saaldorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Uzivatelacka kruzna staza s prekrasnom alpskom panoramom iznad Saaldorf-Surheima — put prolazi brdima sa sirokim pogledom na Hochstaufen, Untersberg, Watzmann i salzbursko podgorje."
+        }
+      }
     }
   ]
 }
