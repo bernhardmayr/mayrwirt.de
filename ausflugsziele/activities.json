@@ -5898,6 +5898,67 @@
           "desc": "Kratka, ali nagradna planinska tura od St. Bartholomä do Kührointalme — veličanstven pogled na smaragdnozeleni Königssee, Watzmann i okolne vrhove."
         }
       }
+    },
+    {
+      "id": "salzburger-festspiele",
+      "category": "city",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 28,
+      "icon": "🎭",
+      "url": "https://www.salzburgerfestspiele.at/",
+      "i18n": {
+        "de": {
+          "name": "Salzburger Festspiele",
+          "town": "Salzburg",
+          "desc": "Weltberühmtes Sommer-Festival in der Mozartstadt: Opern, Konzerte und Schauspiel mit den besten Interpreten der Welt – ein kulturelles Weltereignis im Juli und August."
+        },
+        "en": {
+          "name": "Salzburg Festival",
+          "town": "Salzburg",
+          "desc": "World-famous summer festival in Mozart's birthplace: opera, concerts and theatre with the finest performers on the planet – a cultural highlight in July and August."
+        },
+        "it": {
+          "name": "Festival di Salisburgo",
+          "town": "Salisburgo",
+          "desc": "Festival estivo di fama mondiale nella città di Mozart: opera, concerti e teatro con i migliori artisti del mondo – un grande evento culturale in luglio e agosto."
+        },
+        "hu": {
+          "name": "Salzburgi Ünnepi Játékok",
+          "town": "Salzburg",
+          "desc": "Világhírű nyári fesztivál Mozart szülővárosában: opera, koncertek és színház a világ legjobb előadóival – kulturális kiemelkedő esemény júliusban és augusztusban."
+        },
+        "cs": {
+          "name": "Salcburský festival",
+          "town": "Salzburg",
+          "desc": "Světoznámý letní festival v Mozartově rodišti: opera, koncerty a divadlo s nejlepšími interprety světa – kulturní skvost v červenci a srpnu."
+        },
+        "es": {
+          "name": "Festival de Salzburgo",
+          "town": "Salzburgo",
+          "desc": "Festival de verano de fama mundial en la ciudad natal de Mozart: ópera, conciertos y teatro con los mejores artistas del mundo – un acontecimiento cultural en julio y agosto."
+        },
+        "fr": {
+          "name": "Festival de Salzbourg",
+          "town": "Salzbourg",
+          "desc": "Festival d'été de renommée mondiale dans la ville natale de Mozart : opéra, concerts et théâtre avec les meilleurs artistes du monde – un événement culturel majeur en juillet et août."
+        },
+        "pl": {
+          "name": "Festiwal Salzburski",
+          "town": "Salzburg",
+          "desc": "Światowej sławy letni festiwal w mieście urodzin Mozarta: opera, koncerty i teatr z najlepszymi wykonawcami świata – kulturalne wydarzenie w lipcu i sierpniu."
+        },
+        "hr": {
+          "name": "Salzburški festival",
+          "town": "Salzburg",
+          "desc": "Svjetski poznati ljetni festival u Mozartovom rodnom gradu: opera, koncerti i kazalište s najboljim izvođačima na svijetu – kulturni vrhunac u srpnju i kolovozu."
+        }
+      }
     }
   ]
 }
