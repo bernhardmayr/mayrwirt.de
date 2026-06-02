@@ -4584,6 +4584,68 @@
           "desc": "Međunarodne utrke Svjetskog kupa u Max Aicher Areni — jedna od najbrzih staza za brzo klizanje na svijetu, svjetski rekordi zajamčeni."
         }
       }
+    },
+    {
+      "id": "hoeglwoerther-see",
+      "category": "lakes",
+      "roles": [
+        "family",
+        "couple",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 19,
+      "icon": "🏊",
+      "url": "https://www.anger.de/tourismus/hoeglwoerther-see/",
+      "i18n": {
+        "de": {
+          "name": "Höglwörther See",
+          "town": "Anger",
+          "desc": "Naturidyllischer Badesee direkt neben dem malerischen Kloster Höglwörth — klares Wasser, ruhige Ufer und herrliche Alpenkulisse, ideal für Familien."
+        },
+        "en": {
+          "name": "Höglwörther See",
+          "town": "Anger",
+          "desc": "A nature idyll bathing lake right beside the picturesque Höglwörth Abbey — clear water, peaceful shores and a beautiful Alpine backdrop, ideal for families."
+        },
+        "it": {
+          "name": "Lago Höglwörth",
+          "town": "Anger",
+          "desc": "Lago naturale balneabile accanto al pittoresco Monastero di Höglwörth — acqua limpida, rive tranquille e una bella cornice alpina, ideale per le famiglie."
+        },
+        "hu": {
+          "name": "Höglwörther-tó",
+          "town": "Anger",
+          "desc": "Természetidilli fürdőtó a festői Höglwörth-kolostor mellett — tiszta víz, csendes partok és gyönyörű alpesi háttér, ideális családoknak."
+        },
+        "cs": {
+          "name": "Höglwörther See",
+          "town": "Anger",
+          "desc": "Přírodní koupací jezero přímo u malebného kláštera Höglwörth — čistá voda, klidné břehy a nádherné alpské panorama, ideální pro rodiny."
+        },
+        "es": {
+          "name": "Lago Höglwörth",
+          "town": "Anger",
+          "desc": "Lago natural de baño junto al pintoresco Monasterio de Höglwörth — agua clara, orillas tranquilas y un hermoso telón de fondo alpino, ideal para familias."
+        },
+        "fr": {
+          "name": "Lac Höglwörth",
+          "town": "Anger",
+          "desc": "Lac de baignade naturel juste à côté de la pittoresque abbaye de Höglwörth — eau claire, rives paisibles et magnifique arrière-plan alpin, idéal pour les familles."
+        },
+        "pl": {
+          "name": "Jezioro Höglwörth",
+          "town": "Anger",
+          "desc": "Naturalne jezioro kąpielowe tuż obok malowniczego opactwa Höglwörth — czysta woda, spokojne brzegi i piękne alpejskie tło, idealne dla rodzin."
+        },
+        "hr": {
+          "name": "Jezero Höglwörth",
+          "town": "Anger",
+          "desc": "Prirodno kupačko jezero tik uz slikoviti samostan Höglwörth — bistra voda, mirne obale i prekrasan alpski pejzaž, idealno za obitelji."
+        }
+      }
     }
   ]
 }
