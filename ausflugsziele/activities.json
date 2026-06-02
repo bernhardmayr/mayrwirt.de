@@ -5390,6 +5390,67 @@
           "desc": "Legendarna granična planina između Bavarske i Salzburga (1.972 m) — žičarom ili planinarskim putem na Hochthron, neusporediv pogled na Salzburg, Berchtesgaden i Alpe."
         }
       }
+    },
+    {
+      "id": "maerchenpfad-bischofswiesen",
+      "category": "mountains",
+      "roles": [
+        "family",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 33,
+      "icon": "🧚",
+      "url": "https://www.bischofswiesen.de/erleben/maerchenpfad/",
+      "i18n": {
+        "de": {
+          "name": "Märchenpfad Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Bezaubernder Themenwanderweg mit Märchenfiguren und Stationen entlang des Weges — leicht begehbar, ideal für Familien mit Kindern, mitten in der Natur des Berchtesgadener Lands."
+        },
+        "en": {
+          "name": "Märchenpfad Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Enchanting themed hiking trail with fairy tale figures and stations along the way — easy to walk, ideal for families with children, set in the heart of the Berchtesgaden countryside."
+        },
+        "it": {
+          "name": "Sentiero delle fiabe Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Incantevole sentiero tematico con personaggi delle fiabe e stazioni lungo il percorso — facile da percorrere, ideale per famiglie con bambini, nel cuore della natura di Berchtesgaden."
+        },
+        "hu": {
+          "name": "Mesék ösvénye Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Varázslatos tematikus gyalogtúra mesefigurákkal és állomásokkal az úton — könnyen járható, tökéletes gyermekes családoknak, a Berchtesgadeni-ország természetének közepén."
+        },
+        "cs": {
+          "name": "Pohádková stezka Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Kouzelná tematická turistická trasa s pohádkovými figurkami a zastávkami podél cesty — snadno schůdná, ideální pro rodiny s dětmi, uprostřed přírody Berchtesgadenského kraje."
+        },
+        "es": {
+          "name": "Sendero de cuentos Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Encantador sendero temático con figuras de cuentos y estaciones a lo largo del camino — fácil de recorrer, ideal para familias con niños, en plena naturaleza de Berchtesgaden."
+        },
+        "fr": {
+          "name": "Sentier des contes Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Sentier thématique enchanteur avec des personnages de contes et des stations le long du chemin — facile à parcourir, idéal pour les familles avec enfants, en pleine nature du pays de Berchtesgaden."
+        },
+        "pl": {
+          "name": "Bajkowa ścieżka Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Czarująca tematyczna ścieżka piesza z postaciami z bajek i stacjami wzdłuż drogi — łatwa do przejścia, idealna dla rodzin z dziećmi, pośród przyrody krainy Berchtesgaden."
+        },
+        "hr": {
+          "name": "Bajkovita staza Bischofswiesen",
+          "town": "Bischofswiesen",
+          "desc": "Čarobna tematska planinarska staza s bajkovitim figurama i postajama duž puta — lako prohodna, idealna za obitelji s djecom, usred prirode Berchtesgadenskog kraja."
+        }
+      }
     }
   ]
 }
