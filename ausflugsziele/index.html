@@ -71,5 +71,19 @@
 </main>
 
 <script src="activities.js"></script>
+<script>
+function toggleSubLang(){
+    var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
+    var h=m.classList.toggle('hidden');
+    b.setAttribute('aria-expanded',String(!h));
+}
+document.addEventListener('click',function(e){
+    var w=document.getElementById('sub-lang-wrap');
+    if(w&&!w.contains(e.target)){
+        document.getElementById('sub-lang-menu').classList.add('hidden');
+        document.getElementById('sub-lang-trigger').setAttribute('aria-expanded','false');
+    }
+});
+</script>
 </body>
 </html>
