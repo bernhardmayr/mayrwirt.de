@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /wp-admin/
+
+Sitemap: https://bernhardmayr.github.io/mayrwirt.de/sitemap.xml

@@ -17,7 +17,7 @@
         .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
         .site-header .back { font-size: 0.8rem; color: rgba(255,255,255,0.75); display: flex; align-items: center; gap: 0.4rem; }
         .site-header .back:hover { color: white; text-decoration: none; }
-        .lang-switcher { display: flex; gap: 0.5rem; font-size: 0.8rem; }
+        .lang-switcher { display: flex; gap: 0.5rem; font-size: 0.8rem; flex-wrap: wrap; }
         .lang-switcher a { color: rgba(255,255,255,0.65); font-weight: 500; padding: 0.2rem 0.4rem; }
         .lang-switcher a.active, .lang-switcher a:hover { color: white; font-weight: 700; text-decoration: none; }
         .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
@@ -35,437 +35,68 @@
         .item-price-stack .price-row { white-space: nowrap; color: #2D5016; font-weight: 600; font-size: 0.9rem; }
         .drinks-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.1rem 1.5rem; }
         .drink-item { display: flex; justify-content: space-between; padding: 0.3rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); font-size: 0.85rem; }
+        .drink-name { color: #2C2C2C; }
         .drink-price { color: #2D5016; font-weight: 600; white-space: nowrap; margin-left: 0.5rem; }
         .wine-item { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06); }
-        .wine-item:last-child { border-bottom: none; }
+        .wine-item:last-child { border-bottom: none; margin-bottom: 0; }
         .wine-name { font-weight: 600; font-size: 0.95rem; }
         .wine-producer { font-size: 0.78rem; color: #6B6458; margin-top: 0.15rem; }
         .wine-price { font-weight: 600; color: #2D5016; font-size: 0.9rem; margin-top: 0.25rem; }
         .note { background: white; border-radius: 0.75rem; padding: 1rem 1.25rem; font-size: 0.78rem; color: #6B6458; line-height: 1.6; margin-top: 2rem; border: 1px solid #e5e5e0; }
+        @media print { .site-header { position: static; } body { background: white; } }
         @media (max-width: 480px) { .drinks-grid { grid-template-columns: 1fr; } }
-    </style>
+            /* Sub-page language dropdown */
+        .sub-lang-dd { position: relative; }
+        .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
+        .sub-lang-chevron { font-size: 0.65rem; transition: transform 0.2s; display: inline-block; }
+        .sub-lang-btn[aria-expanded="true"] .sub-lang-chevron { transform: rotate(180deg); }
+        .sub-lang-menu { position: absolute; right: 0; top: calc(100% + 0.35rem); background: rgba(25,50,12,0.97); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 0.65rem; min-width: 9.5rem; z-index: 200; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        .sub-lang-menu.hidden { display: none; }
+        .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
+        .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
+        .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
+        </style>
 </head>
 <body>
 
 <header class="site-header">
     <a href="../index.html" class="back">← Back to website</a>
     <span class="brand">Mayrwirt</span>
-    <div class="lang-switcher">
-        <a href="de.html">DE</a>
-        <a href="en.html" class="active">EN</a>
-        <a href="it.html">IT</a>
+    <div class="sub-lang-dd" id="sub-lang-wrap">
+        <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
+            🇬🇧&nbsp;EN <span class="sub-lang-chevron">▾</span>
+        </button>
+        <div class="sub-lang-menu hidden" id="sub-lang-menu">
+        <a href="de.html">🇩🇪 Deutsch</a>
+        <a href="en.html" class="active">🇬🇧 English</a>
+        <a href="it.html">🇮🇹 Italiano</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
+        <a href="cs.html">🇨🇿 Čeština</a>
+        <a href="es.html">🇪🇸 Español</a>
+        <a href="fr.html">🇫🇷 Français</a>
+        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="hr.html">🇭🇷 Hrvatski</a>
+        </div>
     </div>
 </header>
 
-<div class="container">
+<div class="container" id="menu-root"></div>
 
-    <h1 class="menu-title">Menu</h1>
-    <p class="menu-subtitle">Country Inn &amp; Butcher Shop Mayrwirt · Saaldorf</p>
-
-    <!-- Starters -->
-    <div class="section">
-        <h2 class="section-title">Starters</h2>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Beef Fillet Carpaccio</div>
-                <div class="item-desc">with olive oil, lemon, Grana Padano, mixed salad &amp; baguette</div>
-            </div>
-            <div class="item-price">€ 15,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Caramelised Goat's Cheese</div>
-                <div class="item-desc">with pear chutney &amp; chicory-orange salad</div>
-            </div>
-            <div class="item-price">€ 13,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Bruschetta</div>
-                <div class="item-desc">Tomatoes, garlic &amp; olive oil on white bread</div>
-            </div>
-            <div class="item-price">€ 9,80</div>
-        </div>
-    </div>
-
-    <!-- Soups -->
-    <div class="section">
-        <h2 class="section-title">Soups</h2>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Pancake Soup</div></div>
-            <div class="item-price">€ 5,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Garlic Soup with White Bread Croutons</div></div>
-            <div class="item-price">€ 5,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Liver Dumpling Soup</div></div>
-            <div class="item-price">€ 6,50</div>
-        </div>
-    </div>
-
-    <!-- Pasta -->
-    <div class="section">
-        <h2 class="section-title">Pasta</h2>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Tagliatelle with Grilled Vegetables &amp; Grana Padano</div>
-                <div class="item-desc">with sautéed chicken breast wrapped in bacon</div>
-            </div>
-            <div class="item-price-stack">
-                <div class="price-row">€ 13,50</div>
-                <div class="price-row">€ 17,90</div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Spaghetti with Grilled Herb Prawns</div>
-                <div class="item-desc">Garlic, braised tomatoes &amp; Grana Padano</div>
-            </div>
-            <div class="item-price">€ 20,90</div>
-        </div>
-    </div>
-
-    <!-- Fish -->
-    <div class="section">
-        <h2 class="section-title">Fish</h2>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Pan-fried Pike-Perch Fillet with Melted Butter</div>
-                <div class="item-desc">Potatoes &amp; mixed salad</div>
-            </div>
-            <div class="item-price">€ 20,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Mixed Fish Grill Plate</div>
-                <div class="item-desc">Pike-perch, char, John Dory &amp; prawn, with potatoes &amp; mixed salad</div>
-            </div>
-            <div class="item-price">€ 22,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Grilled Char Fillet</div>
-                <div class="item-desc">on stuffed rocket pasta &amp; braised tomatoes</div>
-            </div>
-            <div class="item-price">€ 20,90</div>
-        </div>
-    </div>
-
-    <!-- Main Courses -->
-    <div class="section">
-        <h2 class="section-title">Main Courses</h2>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Mixed Grill Plate</div>
-                <div class="item-desc">Beef, pork, turkey &amp; grilled sausage, with French fries &amp; herb butter</div>
-            </div>
-            <div class="item-price">€ 18,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Breaded Pork Schnitzel Viennese Style</div>
-                <div class="item-desc">with potato salad &amp; lingonberries</div>
-            </div>
-            <div class="item-price">€ 14,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Wiener Schnitzel (veal)</div>
-                <div class="item-desc">with fried potatoes &amp; lingonberries</div>
-            </div>
-            <div class="item-price">€ 24,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Schwabenpfandl – Swabian Pan</div>
-                <div class="item-desc">Pork fillet medallions in mushroom cream sauce with Spätzle (egg noodles)</div>
-            </div>
-            <div class="item-price">€ 18,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Beef Tenderloin Steak in Pepper Sauce</div>
-                <div class="item-desc">with hash browns</div>
-            </div>
-            <div class="item-price">€ 25,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Grilled Rump Steak</div>
-                <div class="item-desc">with French fries, fried onions &amp; butter beans</div>
-            </div>
-            <div class="item-price">€ 26,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Viennese Onion Roast Beef</div>
-                <div class="item-desc">with potatoes &amp; mixed salad</div>
-            </div>
-            <div class="item-price">€ 25,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Grilled Beef Fillet Steak</div>
-                <div class="item-desc">with French fries, herb butter &amp; broccoli</div>
-            </div>
-            <div class="item-price">€ 33,90</div>
-        </div>
-    </div>
-
-    <!-- Salads & Snacks -->
-    <div class="section">
-        <h2 class="section-title">Salads &amp; Snacks</h2>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Small Mixed Salad</div></div>
-            <div class="item-price">€ 5,40</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Seasonal Mixed Leaf Salad</div>
-                <div class="item-desc">with grilled turkey strips, corn &amp; cocktail dressing</div>
-            </div>
-            <div class="item-price">€ 15,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-desc">with baked chicken breast &amp; Styrian pumpkin seed oil</div>
-            </div>
-            <div class="item-price">€ 17,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-desc">with grilled prawns, balsamic dressing &amp; baguette</div>
-            </div>
-            <div class="item-price">€ 19,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Baked Camembert</div>
-                <div class="item-desc">with lingonberries, salad garnish &amp; toast</div>
-            </div>
-            <div class="item-price">€ 12,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Baked Mushrooms</div>
-                <div class="item-desc">with remoulade sauce &amp; salad garnish</div>
-            </div>
-            <div class="item-price">€ 12,90</div>
-        </div>
-    </div>
-
-    <!-- Desserts -->
-    <div class="section">
-        <h2 class="section-title">Desserts</h2>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Quark Dumplings in Buttered Breadcrumbs</div>
-                <div class="item-desc">with sour cherry compote</div>
-            </div>
-            <div class="item-price-stack">
-                <div class="price-row">1 pc. € 7,50</div>
-                <div class="price-row">2 pcs. € 8,50</div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Crêpes</div>
-                <div class="item-desc">with apricot jam or vanilla ice cream</div>
-            </div>
-            <div class="item-price-stack">
-                <div class="price-row">1 pc. € 8,50</div>
-                <div class="price-row">2 pcs. € 9,50</div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Kaiserschmarrn (Shredded Pancake)</div>
-                <div class="item-desc">with plum compote or apple sauce</div>
-            </div>
-            <div class="item-price">€ 13,50</div>
-        </div>
-        <div class="item">
-            <div class="item-info">
-                <div class="item-name">Apple Fritters in Beer Batter</div>
-                <div class="item-desc">with walnut ice cream &amp; cream</div>
-            </div>
-            <div class="item-price">€ 9,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Mixed Ice Cream – Strawberry, Vanilla &amp; Chocolate with Cream</div></div>
-            <div class="item-price-stack">
-                <div class="price-row">2 scoops € 5,90</div>
-                <div class="price-row">3 scoops € 6,50</div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Iced Coffee – Vanilla Ice Cream, Coffee &amp; Cream</div></div>
-            <div class="item-price">€ 6,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Iced Chocolate – Vanilla Ice Cream, Chocolate &amp; Cream</div></div>
-            <div class="item-price">€ 6,90</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Fruit Sundae – Strawberry Ice Cream, Vanilla Ice Cream, Fresh Fruit &amp; Cream</div></div>
-            <div class="item-price">€ 8,20</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Chocolate Sundae – Chocolate Ice Cream, Advocaat &amp; Cream</div></div>
-            <div class="item-price">€ 8,20</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Nut Sundae – Walnut Ice Cream, Nuts, Hazelnut Liqueur &amp; Cream</div></div>
-            <div class="item-price">€ 8,20</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Banana Split – Vanilla Ice Cream, Chocolate Ice Cream, Almonds, Chocolate Sauce &amp; Cream</div></div>
-            <div class="item-price">€ 8,20</div>
-        </div>
-        <div class="item">
-            <div class="item-info"><div class="item-name">Vanilla Ice Cream with Hot Raspberries or Hot Cherries</div></div>
-            <div class="item-price">€ 8,20</div>
-        </div>
-    </div>
-
-    <!-- Hot drinks -->
-    <div class="section">
-        <h2 class="section-title">Hot Drinks</h2>
-        <div class="drinks-grid">
-            <div class="drink-item"><span class="drink-name">Cup of Coffee</span><span class="drink-price">€ 3,90</span></div>
-            <div class="drink-item"><span class="drink-name">Pot of Coffee</span><span class="drink-price">€ 4,40</span></div>
-            <div class="drink-item"><span class="drink-name">Cappuccino</span><span class="drink-price">€ 4,20</span></div>
-            <div class="drink-item"><span class="drink-name">Latte Macchiato</span><span class="drink-price">€ 4,60</span></div>
-            <div class="drink-item"><span class="drink-name">Café au Lait</span><span class="drink-price">€ 4,00</span></div>
-            <div class="drink-item"><span class="drink-name">Café Crème</span><span class="drink-price">€ 4,60</span></div>
-            <div class="drink-item"><span class="drink-name">Espresso</span><span class="drink-price">€ 4,60</span></div>
-            <div class="drink-item"><span class="drink-name">Glass of Tea</span><span class="drink-price">€ 4,60</span></div>
-            <div class="drink-item"><span class="drink-name">Pot of Tea</span><span class="drink-price">€ 4,60</span></div>
-            <div class="drink-item"><span class="drink-name">Mulled Wine</span><span class="drink-price">€ 4,40</span></div>
-        </div>
-    </div>
-
-    <!-- Beers -->
-    <div class="section">
-        <h2 class="section-title">Beers – Wieninger Brewery</h2>
-        <div class="drinks-grid">
-            <div class="drink-item"><span class="drink-name">Teisendorfer Lager 0.3 l</span><span class="drink-price">€ 3,40</span></div>
-            <div class="drink-item"><span class="drink-name">Teisendorfer Lager 0.5 l</span><span class="drink-price">€ 4,70</span></div>
-            <div class="drink-item"><span class="drink-name">Pilsner 0.3 l</span><span class="drink-price">€ 3,70</span></div>
-            <div class="drink-item"><span class="drink-name">Dark Lager 0.5 l</span><span class="drink-price">€ 5,50</span></div>
-            <div class="drink-item"><span class="drink-name">Wheat Beer 0.3 l</span><span class="drink-price">€ 3,80</span></div>
-            <div class="drink-item"><span class="drink-name">Wheat Beer 0.5 l</span><span class="drink-price">€ 4,80</span></div>
-            <div class="drink-item"><span class="drink-name">Dark Wheat Beer 0.5 l</span><span class="drink-price">€ 4,80</span></div>
-            <div class="drink-item"><span class="drink-name">Shandy (Radler) 0.5 l</span><span class="drink-price">€ 4,50</span></div>
-            <div class="drink-item"><span class="drink-name">Alcohol-free Beer 0.5 l</span><span class="drink-price">€ 4,60</span></div>
-            <div class="drink-item"><span class="drink-name">1813 Speciale 0.5 l</span><span class="drink-price">€ 5,50</span></div>
-        </div>
-    </div>
-
-    <!-- Aperitifs -->
-    <div class="section">
-        <h2 class="section-title">Aperitifs</h2>
-        <div class="drinks-grid">
-            <div class="drink-item"><span class="drink-name">Campari 5 cl</span><span class="drink-price">€ 5,00</span></div>
-            <div class="drink-item"><span class="drink-name">Campari Orange 5 cl</span><span class="drink-price">€ 6,20</span></div>
-            <div class="drink-item"><span class="drink-name">Sherry 5 cl</span><span class="drink-price">€ 4,50</span></div>
-            <div class="drink-item"><span class="drink-name">Prosecco piccolo 0.2 l</span><span class="drink-price">€ 7,50</span></div>
-            <div class="drink-item"><span class="drink-name">Glass of Sparkling Wine 0.1 l</span><span class="drink-price">€ 4,50</span></div>
-            <div class="drink-item"><span class="drink-name">Hugo</span><span class="drink-price">€ 5,50</span></div>
-            <div class="drink-item"><span class="drink-name">Aperol Spritz</span><span class="drink-price">€ 5,50</span></div>
-            <div class="drink-item"><span class="drink-name">Prosecco-Aperol Spritz</span><span class="drink-price">€ 6,00</span></div>
-        </div>
-    </div>
-
-    <!-- Soft Drinks -->
-    <div class="section">
-        <h2 class="section-title">Non-Alcoholic Drinks</h2>
-        <div class="drinks-grid">
-            <div class="drink-item"><span class="drink-name">Still water 0.3 l</span><span class="drink-price">€ 3,30</span></div>
-            <div class="drink-item"><span class="drink-name">Still water 0.5 l</span><span class="drink-price">€ 3,80</span></div>
-            <div class="drink-item"><span class="drink-name">Sparkling water 0.25 l</span><span class="drink-price">€ 3,50</span></div>
-            <div class="drink-item"><span class="drink-name">Sparkling water 0.5 l</span><span class="drink-price">€ 4,50</span></div>
-            <div class="drink-item"><span class="drink-name">Lemonade 0.3 l</span><span class="drink-price">€ 3,60</span></div>
-            <div class="drink-item"><span class="drink-name">Cola 0.33 l</span><span class="drink-price">€ 3,90</span></div>
-            <div class="drink-item"><span class="drink-name">Fanta 0.33 l</span><span class="drink-price">€ 3,90</span></div>
-            <div class="drink-item"><span class="drink-name">Tonic Water 0.2 l</span><span class="drink-price">€ 3,80</span></div>
-            <div class="drink-item"><span class="drink-name">Bitter Lemon 0.2 l</span><span class="drink-price">€ 3,80</span></div>
-            <div class="drink-item"><span class="drink-name">Juice spritzer 0.3 l</span><span class="drink-price">€ 4,80</span></div>
-        </div>
-    </div>
-
-    <!-- Wines -->
-    <div class="section">
-        <h2 class="section-title">White Wines</h2>
-        <div class="wine-item">
-            <div class="wine-name">Grüner Veltliner</div>
-            <div class="wine-producer">Weingut Markus Huber – Reichersdorf / Lower Austria</div>
-            <div class="wine-price">1/8 l &nbsp; € 3,20</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Grüner Veltliner, Terrasse</div>
-            <div class="wine-producer">Weingut Jurtschitsch – Langenlois / Lower Austria</div>
-            <div class="wine-price">1/8 l &nbsp; € 4,00</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Riesling Exclusiv</div>
-            <div class="wine-producer">Winzer Matthias Glaser – Hainfeld / Palatinate</div>
-            <div class="wine-price">1/8 l &nbsp; € 4,00</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Pinot Blanc (Weißburgunder)</div>
-            <div class="wine-producer">Winzer Matthias Glaser – Hainfeld / Palatinate</div>
-            <div class="wine-price">1/8 l &nbsp; € 4,00</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Chardonnay</div>
-            <div class="wine-producer">Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum</div>
-            <div class="wine-price">1/8 l &nbsp; € 4,50</div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Rosé</h2>
-        <div class="wine-item">
-            <div class="wine-name">Portugieser Rosé</div>
-            <div class="wine-producer">Winzer Matthias Glaser – Hainfeld / Palatinate</div>
-            <div class="wine-price">1/8 l &nbsp; € 3,00</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Heideboden Rosé – Burgenland</div>
-            <div class="wine-price">1/8 l &nbsp; € 3,50</div>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">Red Wines</h2>
-        <div class="wine-item">
-            <div class="wine-name">Blaufränkisch</div>
-            <div class="wine-producer">Winzer Markowitsch – Göttelsbrunn / Lower Austria</div>
-            <div class="wine-price">1/8 l &nbsp; € 3,20</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Zweigelt</div>
-            <div class="wine-producer">Weingut Jurtschitsch – Langenlois / Lower Austria</div>
-            <div class="wine-price">1/8 l &nbsp; € 4,50</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Heideboden Merlot – Burgenland</div>
-            <div class="wine-price">1/8 l &nbsp; € 3,80</div>
-        </div>
-        <div class="wine-item">
-            <div class="wine-name">Wine Spritzer (white or red)</div>
-            <div class="wine-price">1/4 l &nbsp; € 3,80</div>
-        </div>
-    </div>
-
-    <div class="note">
-        Bottled wines are listed on our wine card.<br>
-        Allergens are listed on our allergen sheet — please ask your server.
-    </div>
-
-</div>
+<script src="menu.js"></script>
+<script>
+function toggleSubLang(){
+    var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
+    var h=m.classList.toggle('hidden');
+    b.setAttribute('aria-expanded',String(!h));
+}
+document.addEventListener('click',function(e){
+    var w=document.getElementById('sub-lang-wrap');
+    if(w&&!w.contains(e.target)){
+        document.getElementById('sub-lang-menu').classList.add('hidden');
+        document.getElementById('sub-lang-trigger').setAttribute('aria-expanded','false');
+    }
+});
+</script>
 </body>
 </html>
