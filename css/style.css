@@ -464,6 +464,35 @@ a.area-card { display: block; text-decoration: none; color: inherit; }
 .act-subtitle { text-align: center; color: #C9962C; font-size: 0.95rem; font-weight: 600; margin-bottom: 1rem; }
 .act-intro { text-align: center; color: #6B6458; max-width: 640px; margin: 0 auto 2rem; font-size: 0.95rem; line-height: 1.6; }
 
+/* Search bar */
+.act-search-wrap { margin-bottom: 1rem; position: relative; }
+.act-search-input {
+    width: 100%;
+    padding: 0.7rem 1.1rem 0.7rem 2.6rem;
+    border: 1px solid #d8d5cd;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #2D2A25;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    box-sizing: border-box;
+}
+.act-search-input:focus { border-color: #2D5016; box-shadow: 0 0 0 3px rgba(45,80,22,0.1); }
+.act-search-wrap::before {
+    content: '';
+    position: absolute;
+    left: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236B6458' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") center/contain no-repeat;
+    pointer-events: none;
+}
+
 /* Filter bar */
 .act-filters { background: #fff; border: 1px solid #e8e6e0; border-radius: 1rem; padding: 1.25rem 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 1.25rem; }
 .filter-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid #f0eee8; }
