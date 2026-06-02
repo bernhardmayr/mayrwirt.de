@@ -2573,49 +2573,49 @@
       "url": "https://www.herren-chiemsee.de/",
       "i18n": {
         "de": {
-          "name": "Chiemsee & Schloss Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Schifffahrt über Bayerns größten See zum Königsschloss Ludwigs II. auf der Herreninsel."
+          "desc": "Bayerns größter See mit zwei zauberhaften Inseln — Schloss Herrenchiemsee (Ludwigs II. Versailles) und das romantische Kloster Frauenwörth auf der Fraueninsel. Per Schifffahrt erreichbar."
         },
         "en": {
-          "name": "Lake Chiemsee & Herrenchiemsee Palace",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "A boat trip across Bavaria's largest lake to King Ludwig II's palace on Herreninsel."
+          "desc": "Bavaria's largest lake with two enchanting islands — Schloss Herrenchiemsee (Ludwig II's Versailles) and the romantic Frauenwörth Convent on Fraueninsel. Reachable by boat."
         },
         "it": {
-          "name": "Chiemsee & Castello di Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Navigazione sul lago più grande della Baviera fino al castello di Ludovico II sull'isola Herreninsel."
+          "desc": "Il lago più grande della Baviera con due isole incantevoli — Schloss Herrenchiemsee (la Versailles di Ludovico II) e il romantico monastero di Frauenwörth sulla Fraueninsel. Raggiungibili in barca."
         },
         "hu": {
-          "name": "Chiemsee & Herrenchiemsee kastély",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Hajózás Bajorország legnagyobb taván II. Lajos király kastélyához a Herren-szigeten."
+          "desc": "Bajorország legnagyobb tava két varázslatos szigettel — a Herrenchiemsee-kastély (II. Lajos Versailles-a) és a romantikus Frauenwörth-kolostor a Fraueninselen. Hajóval megközelíthető."
         },
         "cs": {
-          "name": "Chiemsee & zámek Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Plavba po největším bavorském jezeře k zámku krále Ludvíka II. na ostrově Herreninsel."
+          "desc": "Největší jezero Bavorska se dvěma okouzlujícími ostrovy — zámek Herrenchiemsee (Versailles Ludvíka II.) a romantický klášter Frauenwörth na Fraueninsel. Dostupné lodí."
         },
         "es": {
-          "name": "Chiemsee & Castillo de Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Paseo en barco por el lago más grande de Baviera hasta el castillo del rey Luis II en la isla Herreninsel."
+          "desc": "El lago más grande de Baviera con dos encantadoras islas — el Castillo Herrenchiemsee (el Versalles de Luis II) y el romántico Convento Frauenwörth en la Fraueninsel. Accesibles en barco."
         },
         "fr": {
-          "name": "Chiemsee & Château de Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Traversée en bateau du plus grand lac de Bavière jusqu'au château du roi Louis II sur l'île Herreninsel."
+          "desc": "Le plus grand lac de Bavière avec deux îles enchanteresses — le Château Herrenchiemsee (le Versailles de Louis II) et le romantique Couvent Frauenwörth sur la Fraueninsel. Accessibles en bateau."
         },
         "pl": {
-          "name": "Chiemsee & Zamek Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Rejs po największym jeziorze Bawarii do zamku króla Ludwika II na wyspie Herreninsel."
+          "desc": "Największe jezioro Bawarii z dwiema czarującymi wyspami — zamek Herrenchiemsee (Wersal Ludwika II) i romantyczny klasztor Frauenwörth na Fraueninsel. Dostępne łodzią."
         },
         "hr": {
-          "name": "Chiemsee & Dvorac Herrenchiemsee",
+          "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
-          "desc": "Brodska vožnja po najvećem bavarskom jezeru do dvorca kralja Ludwiga II. na otoku Herreninsel."
+          "desc": "Najveće jezero Bavarske s dva čarobna otoka — dvorac Herrenchiemsee (Versailles Ludvika II.) i romantični samostan Frauenwörth na Fraueninsel. Dostupni brodom."
         }
       }
     },
@@ -5775,7 +5775,7 @@
       }
     },
     {
-      "id": "malerwinkel-chiemsee",
+      "id": "malerwinkel-koenigssee",
       "category": "lakes",
       "roles": [
         "family",
@@ -5786,54 +5786,54 @@
         "summer",
         "allyear"
       ],
-      "distance": 55,
+      "distance": 42,
       "icon": "🎨",
-      "url": "https://www.chiemsee-alpenland.de/sehenswertes/malerwinkel/",
+      "url": "https://www.koenigssee.com/de/sehenswertes/malerwinkel/",
       "i18n": {
         "de": {
-          "name": "Malerwinkel am Chiemsee",
-          "town": "Gstadt am Chiemsee",
-          "desc": "Berühmtester Aussichtspunkt am Chiemsee — der flache Weg zum Malerwinkel bietet den klassischen Blick auf Fraueninsel, Herreninsel und das Alpenpanorama, der unzählige Künstler inspirierte."
+          "name": "Malerwinkel am Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Berühmtester Fotomotiv Bayerns — der Malerwinkel am Westufer des Königssees bietet den klassischen Blick auf St. Bartholomä mit Watzmann-Spiegelung im smaragdgrünen Wasser."
         },
         "en": {
-          "name": "Malerwinkel at Lake Chiemsee",
-          "town": "Gstadt am Chiemsee",
-          "desc": "The most famous viewpoint at Lake Chiemsee — the flat path to the Malerwinkel offers the classic view of Fraueninsel, Herreninsel and the Alpine panorama that inspired countless artists."
+          "name": "Malerwinkel at Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Bavaria's most famous photo spot — the Malerwinkel on the western shore of the Königssee offers the classic view of St. Bartholomä with the Watzmann reflected in emerald-green water."
         },
         "it": {
-          "name": "Malerwinkel al Chiemsee",
-          "town": "Gstadt am Chiemsee",
-          "desc": "Il punto panoramico più famoso del Chiemsee — il percorso pianeggiante verso il Malerwinkel offre la vista classica sulla Fraueninsel, l'Herreninsel e il panorama alpino che ha ispirato innumerevoli artisti."
+          "name": "Malerwinkel al Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Il soggetto fotografico più famoso della Baviera — il Malerwinkel sulla riva occidentale del Königssee offre la vista classica di San Bartolomeo con il Watzmann specchiato nell'acqua verde smeraldo."
         },
         "hu": {
-          "name": "Malerwinkel a Chiemseenél",
-          "town": "Gstadt am Chiemsee",
-          "desc": "A Chiemsee leghíresebb kilátópontja — a sík út a Malerwinkelig a Fraueninsel, a Herreninsel és az alpesi panoráma klasszikus képét kínálja, amely számtalan művészt ihletett."
+          "name": "Malerwinkel a Königssee-nél",
+          "town": "Schönau a. Königssee",
+          "desc": "Bajorország leghíresebb fotómotívuma — a Königssee nyugati partján lévő Malerwinkel a St. Bartholomä klasszikus nézetét kínálja a Watzmann smaragdzöld tükörképével."
         },
         "cs": {
-          "name": "Malerwinkel u Chiemského jezera",
-          "town": "Gstadt am Chiemsee",
-          "desc": "Nejznámější vyhlídkový bod u Chiemského jezera — rovinatá cesta k Malerwinkel nabízí klasický pohled na Fraueninsel, Herreninsel a alpské panorama, které inspirovalo nesčetné umělce."
+          "name": "Malerwinkel u Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Nejslavnější fotografický motiv Bavorska — Malerwinkel na západním břehu Königssee nabízí klasický pohled na St. Bartholomä s odrazem Watzmannu ve smaragdové vodě."
         },
         "es": {
-          "name": "Malerwinkel en el Chiemsee",
-          "town": "Gstadt am Chiemsee",
-          "desc": "El punto de vista más famoso del Chiemsee — el camino plano al Malerwinkel ofrece la vista clásica de Fraueninsel, Herreninsel y el panorama alpino que inspiró a innumerables artistas."
+          "name": "Malerwinkel en el Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "El lugar fotográfico más famoso de Baviera — el Malerwinkel en la orilla occidental del Königssee ofrece la vista clásica de St. Bartholomä con el Watzmann reflejado en el agua verde esmeralda."
         },
         "fr": {
-          "name": "Malerwinkel au Chiemsee",
-          "town": "Gstadt am Chiemsee",
-          "desc": "Le point de vue le plus célèbre du Chiemsee — le chemin plat jusqu'au Malerwinkel offre la vue classique sur la Fraueninsel, l'Herreninsel et le panorama alpin qui a inspiré d'innombrables artistes."
+          "name": "Malerwinkel au Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Le site photographique le plus célèbre de Bavière — le Malerwinkel sur la rive ouest du Königssee offre la vue classique de St. Bartholomä avec le Watzmann se reflétant dans l'eau vert émeraude."
         },
         "pl": {
-          "name": "Malerwinkel nad Chiemsee",
-          "town": "Gstadt am Chiemsee",
-          "desc": "Najsłynniejszy punkt widokowy nad Chiemsee — płaska ścieżka do Malerwinkla oferuje klasyczny widok na Fraueninsel, Herreninsel i alpską panoramę, która inspirowała niezliczonych artystów."
+          "name": "Malerwinkel nad Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Najsłynniejszy motyw fotograficzny Bawarii — Malerwinkel na zachodnim brzegu Königssee oferuje klasyczny widok na St. Bartholomä z odbiciem Watzmann w szmaragdowej wodzie."
         },
         "hr": {
-          "name": "Malerwinkel na Chiemseeu",
-          "town": "Gstadt am Chiemsee",
-          "desc": "Najpoznatije vidikovačko mjesto na Chiemseeu — ravna staza do Malerwinkela nudi klasičan pogled na Fraueninsel, Herreninsel i alpsku panoramu koja je inspirirala bezbroj umjetnika."
+          "name": "Malerwinkel uz Königssee",
+          "town": "Schönau a. Königssee",
+          "desc": "Najpoznatiji fotografski motiv Bavarske — Malerwinkel na zapadnoj obali Königssee nudi klasičan pogled na St. Bartholomä s odrazom Watzmann u smaragdnozelenim vodama."
         }
       }
     },
