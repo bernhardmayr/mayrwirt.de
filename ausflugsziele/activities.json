@@ -793,6 +793,201 @@
         "pl": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idylliczna górska chata na Lattengebirge — przytulny postój po pięknej wycieczce z rozległym widokiem na dolinę."},
         "hr": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idiličan planinarski dom na Lattengebirgeu — ugodan odmor nakon lijepe planinarenja s prostranim pogledom na dolinu."}
       }
+    },
+    {
+      "id": "waginger-see", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 14, "icon": "🏖️",
+      "url": "https://www.waginger-see.de/",
+      "i18n": {
+        "de": {"name": "Waginger See", "town": "Waging am See", "desc": "Der wärmste Badesee Oberbayerns mit feinen Sandstränden, Tretbooten und Wassertemperaturen bis 27 °C."},
+        "en": {"name": "Lake Waging", "town": "Waging am See", "desc": "The warmest bathing lake in Upper Bavaria with fine sandy beaches, pedal boats and water up to 27 °C."},
+        "it": {"name": "Lago di Waging", "town": "Waging am See", "desc": "Il lago balneabile più caldo dell'Alta Baviera, con spiagge sabbiose, pedalò e acqua fino a 27 °C."},
+        "hu": {"name": "Waging-tó", "town": "Waging am See", "desc": "Felső-Bajorország legmelegebb fürdőtava finom homokos strandokkal, vízibiciklikkel és akár 27 °C-os vízzel."},
+        "cs": {"name": "Wagingské jezero", "town": "Waging am See", "desc": "Nejteplejší koupací jezero v Horním Bavorsku s jemnými písečnými plážemi, šlapadly a vodou až 27 °C."},
+        "es": {"name": "Lago de Waging", "town": "Waging am See", "desc": "El lago de baño más cálido de la Alta Baviera, con finas playas de arena, hidropedales y agua de hasta 27 °C."},
+        "fr": {"name": "Lac de Waging", "town": "Waging am See", "desc": "Le lac de baignade le plus chaud de Haute-Bavière, avec plages de sable fin, pédalos et eau jusqu'à 27 °C."},
+        "pl": {"name": "Jezioro Waging", "town": "Waging am See", "desc": "Najcieplejsze jezioro kąpielowe Górnej Bawarii z piaszczystymi plażami, rowerami wodnymi i wodą do 27 °C."},
+        "hr": {"name": "Jezero Waging", "town": "Waging am See", "desc": "Najtoplije kupališno jezero u Gornjoj Bavarskoj s finim pješčanim plažama, pedalinama i vodom do 27 °C."}
+      }
+    },
+    {
+      "id": "minigolf-waging", "category": "sport", "roles": ["family", "active"], "seasons": ["summer"], "distance": 14, "icon": "⛳",
+      "url": "https://www.minigolf-kurparkwaging.de/",
+      "i18n": {
+        "de": {"name": "Minigolf & Adventuregolf", "town": "Waging am See", "desc": "36 abwechslungsreiche Bahnen im Kurpark Waging — klassisches Minigolf und kniffliger Adventuregolf für die ganze Familie."},
+        "en": {"name": "Mini-Golf & Adventure Golf", "town": "Waging am See", "desc": "36 varied lanes in the Waging spa park — classic mini-golf and tricky adventure golf for the whole family."},
+        "it": {"name": "Minigolf & Adventure Golf", "town": "Waging am See", "desc": "36 piste varie nel parco termale di Waging — minigolf classico e adventure golf per tutta la famiglia."},
+        "hu": {"name": "Minigolf & kalandgolf", "town": "Waging am See", "desc": "36 változatos pálya a wagingi gyógyparkban — klasszikus minigolf és trükkös kalandgolf az egész családnak."},
+        "cs": {"name": "Minigolf & adventure golf", "town": "Waging am See", "desc": "36 rozmanitých drah v lázeňském parku Waging — klasický minigolf a záludný adventure golf pro celou rodinu."},
+        "es": {"name": "Minigolf & Adventure Golf", "town": "Waging am See", "desc": "36 pistas variadas en el parque termal de Waging — minigolf clásico y adventure golf para toda la familia."},
+        "fr": {"name": "Mini-golf & Adventure Golf", "town": "Waging am See", "desc": "36 parcours variés dans le parc thermal de Waging — mini-golf classique et adventure golf pour toute la famille."},
+        "pl": {"name": "Minigolf & Adventure Golf", "town": "Waging am See", "desc": "36 zróżnicowanych torów w parku zdrojowym Waging — klasyczny minigolf i podchwytliwy adventure golf dla całej rodziny."},
+        "hr": {"name": "Minigolf & Adventure Golf", "town": "Waging am See", "desc": "36 raznolikih staza u lječilišnom parku Waging — klasični minigolf i zahtjevni adventure golf za cijelu obitelj."}
+      }
+    },
+    {
+      "id": "hoppolino-anif", "category": "sport", "roles": ["family"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🎈",
+      "url": "https://www.hoppolino.at/",
+      "i18n": {
+        "de": {"name": "Hoppolino Indoor-Spielplatz", "town": "Anif", "desc": "Riesiges Indoor-Spieleparadies bei Salzburg mit Klettern, Rutschen und Trampolinen — Spielspaß bei jedem Wetter."},
+        "en": {"name": "Hoppolino Indoor Playground", "town": "Anif", "desc": "A huge indoor play paradise near Salzburg with climbing, slides and trampolines — fun whatever the weather."},
+        "it": {"name": "Parco giochi al coperto Hoppolino", "town": "Anif", "desc": "Enorme paradiso di giochi al coperto vicino a Salisburgo con arrampicate, scivoli e trampolini — divertimento con qualsiasi tempo."},
+        "hu": {"name": "Hoppolino beltéri játszótér", "town": "Anif", "desc": "Hatalmas beltéri játékparadicsom Salzburg mellett mászással, csúszdákkal és trambulinokkal — szórakozás minden időben."},
+        "cs": {"name": "Vnitřní hřiště Hoppolino", "town": "Anif", "desc": "Obrovský vnitřní herní ráj u Salcburku s lezením, skluzavkami a trampolínami — zábava za každého počasí."},
+        "es": {"name": "Parque infantil cubierto Hoppolino", "town": "Anif", "desc": "Enorme paraíso de juegos cubierto cerca de Salzburgo con escalada, toboganes y camas elásticas — diversión con cualquier clima."},
+        "fr": {"name": "Aire de jeux couverte Hoppolino", "town": "Anif", "desc": "Immense paradis de jeux couvert près de Salzbourg avec escalade, toboggans et trampolines — du plaisir par tous les temps."},
+        "pl": {"name": "Kryty plac zabaw Hoppolino", "town": "Anif", "desc": "Ogromny kryty raj zabaw koło Salzburga ze wspinaczką, zjeżdżalniami i trampolinami — zabawa przy każdej pogodzie."},
+        "hr": {"name": "Zatvoreno igralište Hoppolino", "town": "Anif", "desc": "Golemi zatvoreni raj za igru blizu Salzburga s penjanjem, toboganima i trampolinima — zabava po svakom vremenu."}
+      }
+    },
+    {
+      "id": "babalu-traunstein", "category": "sport", "roles": ["family"], "seasons": ["allyear", "indoor"], "distance": 24, "icon": "🎪",
+      "url": "https://babalu-traunstein.de/",
+      "i18n": {
+        "de": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Chiemgaus größter Indoorspielplatz mit Klettervulkan, Riesenrutschen und Kartbahn — perfekt für Regentage."},
+        "en": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "The Chiemgau's largest indoor playground with a climbing volcano, giant slides and a kart track — perfect for rainy days."},
+        "it": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Il più grande parco giochi al coperto del Chiemgau con vulcano da arrampicata, scivoli giganti e pista per kart — perfetto per i giorni di pioggia."},
+        "hu": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "A Chiemgau legnagyobb beltéri játszótere mászóvulkánnal, óriáscsúszdákkal és gokartpályával — esős napokra tökéletes."},
+        "cs": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Největší vnitřní hřiště v Chiemgau s lezeckou sopkou, obřími skluzavkami a motokárovou dráhou — ideální do deště."},
+        "es": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "El parque infantil cubierto más grande del Chiemgau con volcán de escalada, toboganes gigantes y pista de karts — perfecto para días de lluvia."},
+        "fr": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Le plus grand parc de jeux couvert du Chiemgau avec volcan d'escalade, toboggans géants et piste de karting — parfait pour les jours de pluie."},
+        "pl": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Największy kryty plac zabaw w Chiemgau z wulkanem wspinaczkowym, gigantycznymi zjeżdżalniami i torem kartingowym — idealny na deszczowe dni."},
+        "hr": {"name": "Babalu Funpark", "town": "Traunstein", "desc": "Najveće zatvoreno igralište u Chiemgauu s vulkanom za penjanje, divovskim toboganima i kart-stazom — savršeno za kišne dane."}
+      }
+    },
+    {
+      "id": "zoo-salzburg", "category": "city", "roles": ["family", "couple", "culture"], "seasons": ["allyear"], "distance": 20, "icon": "🦁",
+      "url": "https://www.salzburg-zoo.at/",
+      "i18n": {
+        "de": {"name": "Zoo Salzburg Hellbrunn", "town": "Salzburg", "desc": "Naturnaher Tiergarten am Fuße des Hellbrunner Berges mit rund 1.500 Tieren aus aller Welt."},
+        "en": {"name": "Salzburg Zoo Hellbrunn", "town": "Salzburg", "desc": "A near-natural zoo at the foot of the Hellbrunn mountain with around 1,500 animals from all over the world."},
+        "it": {"name": "Zoo di Salisburgo Hellbrunn", "town": "Salisburgo", "desc": "Zoo immerso nella natura ai piedi del monte di Hellbrunn, con circa 1.500 animali da tutto il mondo."},
+        "hu": {"name": "Salzburgi Állatkert Hellbrunn", "town": "Salzburg", "desc": "Természetközeli állatkert a Hellbrunn-hegy lábánál, mintegy 1500 állattal a világ minden tájáról."},
+        "cs": {"name": "Zoo Salcburk Hellbrunn", "town": "Salcburk", "desc": "Přírodě blízká zoo na úpatí hory Hellbrunn s asi 1 500 zvířaty z celého světa."},
+        "es": {"name": "Zoo de Salzburgo Hellbrunn", "town": "Salzburgo", "desc": "Un zoo cercano a la naturaleza al pie del monte Hellbrunn, con unos 1.500 animales de todo el mundo."},
+        "fr": {"name": "Zoo de Salzbourg Hellbrunn", "town": "Salzbourg", "desc": "Un zoo proche de la nature au pied du mont Hellbrunn, avec environ 1 500 animaux du monde entier."},
+        "pl": {"name": "Zoo Salzburg Hellbrunn", "town": "Salzburg", "desc": "Bliski naturze ogród zoologiczny u podnóża góry Hellbrunn z około 1500 zwierzętami z całego świata."},
+        "hr": {"name": "Zoološki vrt Salzburg Hellbrunn", "town": "Salzburg", "desc": "Prirodi blizak zoološki vrt u podnožju brda Hellbrunn s oko 1500 životinja iz cijelog svijeta."}
+      }
+    },
+    {
+      "id": "freilichtmuseum-grossgmain", "category": "museum", "roles": ["family", "couple", "culture"], "seasons": ["summer"], "distance": 16, "icon": "🏡",
+      "url": "https://www.freilichtmuseum.com/",
+      "i18n": {
+        "de": {"name": "Salzburger Freilichtmuseum", "town": "Großgmain", "desc": "100 originale historische Bauernhäuser und Werkstätten auf weitem Gelände — lebendige Landgeschichte mit Museumsbahn."},
+        "en": {"name": "Salzburg Open-Air Museum", "town": "Großgmain", "desc": "100 original historic farmhouses and workshops on extensive grounds — living rural history with a museum railway."},
+        "it": {"name": "Museo all'aperto di Salisburgo", "town": "Großgmain", "desc": "100 antiche case contadine e botteghe originali su un vasto terreno — storia rurale viva con trenino del museo."},
+        "hu": {"name": "Salzburgi Szabadtéri Múzeum", "town": "Großgmain", "desc": "100 eredeti, történelmi parasztház és műhely a tágas területen — eleven vidéki történelem múzeumvasúttal."},
+        "cs": {"name": "Salcburské muzeum v přírodě", "town": "Großgmain", "desc": "100 původních historických selských domů a dílen na rozlehlém areálu — živá venkovská historie s muzejní železnicí."},
+        "es": {"name": "Museo al aire libre de Salzburgo", "town": "Großgmain", "desc": "100 casas de labranza y talleres históricos originales en un amplio recinto — historia rural viva con tren del museo."},
+        "fr": {"name": "Musée de plein air de Salzbourg", "town": "Großgmain", "desc": "100 fermes et ateliers historiques d'origine sur un vaste terrain — histoire rurale vivante avec un petit train de musée."},
+        "pl": {"name": "Skansen w Salzburgu", "town": "Großgmain", "desc": "100 oryginalnych zabytkowych chat i warsztatów na rozległym terenie — żywa historia wsi z koleją muzealną."},
+        "hr": {"name": "Salzburški muzej na otvorenom", "town": "Großgmain", "desc": "100 izvornih povijesnih seoskih kuća i radionica na prostranom području — živa ruralna povijest s muzejskom željeznicom."}
+      }
+    },
+    {
+      "id": "christkindlmarkt-salzburg", "category": "city", "roles": ["couple", "culture", "family"], "seasons": ["winter"], "distance": 20, "icon": "🎄",
+      "url": "https://www.christkindlmarkt.co.at/",
+      "i18n": {
+        "de": {"name": "Salzburger Christkindlmarkt", "town": "Salzburg", "desc": "Stimmungsvoller Adventmarkt am Dom- und Residenzplatz — einer der ältesten und schönsten der Welt."},
+        "en": {"name": "Salzburg Christmas Market", "town": "Salzburg", "desc": "An atmospheric Advent market on Cathedral and Residence Square — one of the oldest and loveliest in the world."},
+        "it": {"name": "Mercatino di Natale di Salisburgo", "town": "Salisburgo", "desc": "Suggestivo mercatino dell'Avvento in Domplatz e Residenzplatz — uno dei più antichi e belli al mondo."},
+        "hu": {"name": "Salzburgi karácsonyi vásár", "town": "Salzburg", "desc": "Hangulatos adventi vásár a Dóm- és a Rezidencia téren — a világ egyik legrégebbi és legszebbike."},
+        "cs": {"name": "Salcburský vánoční trh", "town": "Salcburk", "desc": "Atmosférický adventní trh na Dómském a Rezidenčním náměstí — jeden z nejstarších a nejkrásnějších na světě."},
+        "es": {"name": "Mercado navideño de Salzburgo", "town": "Salzburgo", "desc": "Un mágico mercado de Adviento en las plazas de la Catedral y la Residencia — uno de los más antiguos y bellos del mundo."},
+        "fr": {"name": "Marché de Noël de Salzbourg", "town": "Salzbourg", "desc": "Un marché de l'Avent plein d'ambiance sur les places de la Cathédrale et de la Résidence — l'un des plus anciens et des plus beaux au monde."},
+        "pl": {"name": "Jarmark bożonarodzeniowy w Salzburgu", "town": "Salzburg", "desc": "Klimatyczny jarmark adwentowy na placu Katedralnym i Rezydencji — jeden z najstarszych i najpiękniejszych na świecie."},
+        "hr": {"name": "Božićni sajam u Salzburgu", "town": "Salzburg", "desc": "Čaroban adventski sajam na Stolnom i Rezidencijskom trgu — jedan od najstarijih i najljepših na svijetu."}
+      }
+    },
+    {
+      "id": "museum-der-moderne", "category": "museum", "roles": ["couple", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🎨",
+      "url": "https://www.museumdermoderne.at/",
+      "i18n": {
+        "de": {"name": "Museum der Moderne", "town": "Salzburg", "desc": "Moderne Kunst hoch über der Stadt auf dem Mönchsberg — mit spektakulärer Aussichtsterrasse."},
+        "en": {"name": "Museum der Moderne", "town": "Salzburg", "desc": "Modern art high above the city on the Mönchsberg — with a spectacular viewing terrace."},
+        "it": {"name": "Museo d'Arte Moderna", "town": "Salisburgo", "desc": "Arte moderna in alto sopra la città, sul Mönchsberg — con una spettacolare terrazza panoramica."},
+        "hu": {"name": "Modern Művészetek Múzeuma", "town": "Salzburg", "desc": "Modern művészet a város felett a Mönchsbergen — látványos kilátóterasszal."},
+        "cs": {"name": "Muzeum moderního umění", "town": "Salcburk", "desc": "Moderní umění vysoko nad městem na Mönchsbergu — s velkolepou vyhlídkovou terasou."},
+        "es": {"name": "Museo de Arte Moderno", "town": "Salzburgo", "desc": "Arte moderno en lo alto de la ciudad, en el Mönchsberg — con una espectacular terraza panorámica."},
+        "fr": {"name": "Musée d'Art Moderne", "town": "Salzbourg", "desc": "Art moderne au-dessus de la ville, sur le Mönchsberg — avec une terrasse panoramique spectaculaire."},
+        "pl": {"name": "Muzeum Sztuki Nowoczesnej", "town": "Salzburg", "desc": "Sztuka nowoczesna wysoko nad miastem na Mönchsbergu — ze spektakularnym tarasem widokowym."},
+        "hr": {"name": "Muzej moderne umjetnosti", "town": "Salzburg", "desc": "Moderna umjetnost visoko iznad grada na Mönchsbergu — sa spektakularnom vidikovac terasom."}
+      }
+    },
+    {
+      "id": "domquartier-salzburg", "category": "museum", "roles": ["couple", "culture", "family"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "⛪",
+      "url": "https://www.domquartier.at/",
+      "i18n": {
+        "de": {"name": "DomQuartier", "town": "Salzburg", "desc": "Prunkräume der Fürsterzbischöfe, Dombögen und Kunstsammlungen — ein barocker Rundgang im Herzen Salzburgs."},
+        "en": {"name": "DomQuartier", "town": "Salzburg", "desc": "State rooms of the prince-archbishops, cathedral arches and art collections — a baroque tour in the heart of Salzburg."},
+        "it": {"name": "DomQuartier", "town": "Salisburgo", "desc": "Sale di rappresentanza dei principi-arcivescovi, arcate del duomo e collezioni d'arte — un percorso barocco nel cuore di Salisburgo."},
+        "hu": {"name": "DomQuartier", "town": "Salzburg", "desc": "A hercegérsekek dísztermei, a dóm árkádjai és műgyűjtemények — barokk körséta Salzburg szívében."},
+        "cs": {"name": "DomQuartier", "town": "Salcburk", "desc": "Reprezentační sály knížat-arcibiskupů, oblouky katedrály a umělecké sbírky — barokní okruh v srdci Salcburku."},
+        "es": {"name": "DomQuartier", "town": "Salzburgo", "desc": "Salones de gala de los príncipes-arzobispos, arcos de la catedral y colecciones de arte — un recorrido barroco en el corazón de Salzburgo."},
+        "fr": {"name": "DomQuartier", "town": "Salzbourg", "desc": "Salles d'apparat des princes-archevêques, arcades de la cathédrale et collections d'art — un parcours baroque au cœur de Salzbourg."},
+        "pl": {"name": "DomQuartier", "town": "Salzburg", "desc": "Reprezentacyjne sale książąt-arcybiskupów, arkady katedry i kolekcje sztuki — barokowa trasa w sercu Salzburga."},
+        "hr": {"name": "DomQuartier", "town": "Salzburg", "desc": "Svečane dvorane knezova-nadbiskupa, lukovi katedrale i umjetničke zbirke — barokni obilazak u srcu Salzburga."}
+      }
+    },
+    {
+      "id": "moenchsberg", "category": "city", "roles": ["active", "couple", "family"], "seasons": ["allyear"], "distance": 20, "icon": "🌳",
+      "url": "https://www.salzburg.info/",
+      "i18n": {
+        "de": {"name": "Mönchsberg", "town": "Salzburg", "desc": "Grüner Stadtberg über der Altstadt mit Wanderwegen, Aussichtspunkten und dem schnellen Mönchsberg-Aufzug."},
+        "en": {"name": "Mönchsberg", "town": "Salzburg", "desc": "A green city hill above the old town with footpaths, viewpoints and the speedy Mönchsberg lift."},
+        "it": {"name": "Mönchsberg", "town": "Salisburgo", "desc": "Collina verde sopra il centro storico con sentieri, punti panoramici e il rapido ascensore del Mönchsberg."},
+        "hu": {"name": "Mönchsberg", "town": "Salzburg", "desc": "Zöld városi hegy az óváros felett sétautakkal, kilátópontokkal és a gyors Mönchsberg-lifttel."},
+        "cs": {"name": "Mönchsberg", "town": "Salcburk", "desc": "Zelený městský kopec nad starým městem se stezkami, vyhlídkami a rychlým výtahem na Mönchsberg."},
+        "es": {"name": "Mönchsberg", "town": "Salzburgo", "desc": "Colina verde sobre el casco antiguo con senderos, miradores y el rápido ascensor del Mönchsberg."},
+        "fr": {"name": "Mönchsberg", "town": "Salzbourg", "desc": "Colline verdoyante au-dessus de la vieille ville avec sentiers, points de vue et l'ascenseur rapide du Mönchsberg."},
+        "pl": {"name": "Mönchsberg", "town": "Salzburg", "desc": "Zielone miejskie wzgórze nad starówką ze ścieżkami, punktami widokowymi i szybką windą na Mönchsberg."},
+        "hr": {"name": "Mönchsberg", "town": "Salzburg", "desc": "Zeleno gradsko brdo iznad starog grada sa stazama, vidikovcima i brzim liftom na Mönchsberg."}
+      }
+    },
+    {
+      "id": "kapuzinerberg", "category": "city", "roles": ["active", "couple"], "seasons": ["allyear"], "distance": 20, "icon": "🌲",
+      "url": "https://www.salzburg.info/",
+      "i18n": {
+        "de": {"name": "Kapuzinerberg", "town": "Salzburg", "desc": "Bewaldeter Stadtberg mit steilen Stiegen, Kapuzinerkloster und herrlichem Blick über die Salzburger Altstadt."},
+        "en": {"name": "Kapuzinerberg", "town": "Salzburg", "desc": "A wooded city hill with steep stairways, a Capuchin monastery and a glorious view over Salzburg's old town."},
+        "it": {"name": "Kapuzinerberg", "town": "Salisburgo", "desc": "Collina boscosa con ripide scalinate, convento dei Cappuccini e splendida vista sul centro storico di Salisburgo."},
+        "hu": {"name": "Kapuzinerberg", "town": "Salzburg", "desc": "Erdős városi hegy meredek lépcsőkkel, kapucinus kolostorral és pompás kilátással Salzburg óvárosára."},
+        "cs": {"name": "Kapuzinerberg", "town": "Salcburk", "desc": "Zalesněný městský kopec se strmými schody, kapucínským klášterem a nádherným výhledem na staré město Salcburku."},
+        "es": {"name": "Kapuzinerberg", "town": "Salzburgo", "desc": "Colina boscosa con empinadas escaleras, un convento de capuchinos y una espléndida vista sobre el casco antiguo de Salzburgo."},
+        "fr": {"name": "Kapuzinerberg", "town": "Salzbourg", "desc": "Colline boisée avec des escaliers escarpés, un couvent de capucins et une vue splendide sur la vieille ville de Salzbourg."},
+        "pl": {"name": "Kapuzinerberg", "town": "Salzburg", "desc": "Zalesione miejskie wzgórze ze stromymi schodami, klasztorem kapucynów i wspaniałym widokiem na starówkę Salzburga."},
+        "hr": {"name": "Kapuzinerberg", "town": "Salzburg", "desc": "Pošumljeno gradsko brdo sa strmim stubama, kapucinskim samostanom i prekrasnim pogledom na stari grad Salzburga."}
+      }
+    },
+    {
+      "id": "fossilien-haunsberg", "category": "mountains", "roles": ["family", "active", "culture"], "seasons": ["summer"], "distance": 22, "icon": "🐚",
+      "url": "https://www.nussdorf.at/",
+      "i18n": {
+        "de": {"name": "Fossilien-Lehrpfad Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Auf dem Geologie-Lehrpfad bei Nußdorf nahe Oberndorf rund 50 Mio. Jahre alte Versteinerungen selbst entdecken."},
+        "en": {"name": "Haunsberg Fossil Trail", "town": "Nußdorf am Haunsberg", "desc": "Discover around 50-million-year-old fossils yourself on the geology trail near Nußdorf, close to Oberndorf."},
+        "it": {"name": "Sentiero dei fossili del Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Sul sentiero geologico presso Nußdorf, vicino a Oberndorf, si scoprono fossili vecchi di circa 50 milioni di anni."},
+        "hu": {"name": "Haunsberg fosszília-tanösvény", "town": "Nußdorf am Haunsberg", "desc": "A Nußdorf melletti geológiai tanösvényen Oberndorf közelében mintegy 50 millió éves kövületeket fedezhetsz fel."},
+        "cs": {"name": "Naučná stezka fosilií Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Na geologické naučné stezce u Nußdorfu poblíž Oberndorfu objevíte zkameněliny staré asi 50 milionů let."},
+        "es": {"name": "Sendero de fósiles del Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "En el sendero geológico cerca de Nußdorf, junto a Oberndorf, descubrirás fósiles de unos 50 millones de años."},
+        "fr": {"name": "Sentier des fossiles du Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Sur le sentier géologique près de Nußdorf, à côté d'Oberndorf, découvrez des fossiles vieux d'environ 50 millions d'années."},
+        "pl": {"name": "Ścieżka skamieniałości Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Na ścieżce geologicznej koło Nußdorf w pobliżu Oberndorf odkryjesz skamieniałości sprzed około 50 mln lat."},
+        "hr": {"name": "Poučna staza fosila Haunsberg", "town": "Nußdorf am Haunsberg", "desc": "Na geološkoj poučnoj stazi kod Nußdorfa blizu Oberndorfa otkrijte fosile stare oko 50 milijuna godina."}
+      }
+    },
+    {
+      "id": "glasenbachklamm", "category": "mountains", "roles": ["family", "active", "culture"], "seasons": ["summer"], "distance": 25, "icon": "🦖",
+      "url": "https://www.elsbethen.at/",
+      "i18n": {
+        "de": {"name": "Glasenbachklamm", "town": "Elsbethen", "desc": "Wildromantische Fossilienklamm bei Salzburg mit Wanderweg, Wasserfällen und versteinerten Meerestieren."},
+        "en": {"name": "Glasenbach Gorge", "town": "Elsbethen", "desc": "A wild, romantic fossil gorge near Salzburg with a hiking trail, waterfalls and petrified sea creatures."},
+        "it": {"name": "Gola di Glasenbach", "town": "Elsbethen", "desc": "Selvaggia e romantica gola dei fossili vicino a Salisburgo con sentiero, cascate e animali marini pietrificati."},
+        "hu": {"name": "Glasenbach-szurdok", "town": "Elsbethen", "desc": "Vadregényes fosszília-szurdok Salzburg mellett túraúttal, vízesésekkel és megkövült tengeri élőlényekkel."},
+        "cs": {"name": "Soutěska Glasenbach", "town": "Elsbethen", "desc": "Divoce romantická fosilní soutěska u Salcburku se stezkou, vodopády a zkamenělými mořskými živočichy."},
+        "es": {"name": "Garganta de Glasenbach", "town": "Elsbethen", "desc": "Una salvaje y romántica garganta de fósiles cerca de Salzburgo con sendero, cascadas y criaturas marinas petrificadas."},
+        "fr": {"name": "Gorges de Glasenbach", "town": "Elsbethen", "desc": "Gorges fossilifères sauvages et romantiques près de Salzbourg avec sentier, cascades et créatures marines pétrifiées."},
+        "pl": {"name": "Wąwóz Glasenbach", "town": "Elsbethen", "desc": "Dziko romantyczny wąwóz skamieniałości koło Salzburga ze szlakiem, wodospadami i skamieniałymi morskimi stworzeniami."},
+        "hr": {"name": "Klisura Glasenbach", "town": "Elsbethen", "desc": "Divlje romantična fosilna klisura blizu Salzburga sa stazom, slapovima i okamenjenim morskim životinjama."}
+      }
     }
   ]
 }
