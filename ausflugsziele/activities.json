@@ -6792,6 +6792,71 @@
           "desc": "Obiteljski opcinski bazen s lezalisom, decjim bazenom i daskom za skokove — tik do njega uredjeni minigolf teren. Idealna kombinacija za opusteni ljetni dan."
         }
       }
+    },
+    {
+      "id": "stift-st-peter-salzburg",
+      "category": "museum",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "⛪",
+      "url": "https://www.stift-stpeter.at/",
+      "i18n": {
+        "de": {
+          "name": "Stift St. Peter",
+          "town": "Salzburg",
+          "desc": "Eines der aeltesten Kloester im deutschsprachigen Raum mitten in der Salzburger Altstadt: romanische Stiftskirche, historischer Petersfriedhof mit Felsenkatakoomben und der legendaere Stiftskeller als aeltestes Restaurant Europas."
+        },
+        "en": {
+          "name": "St. Peter's Abbey",
+          "town": "Salzburg",
+          "desc": "One of the oldest monasteries in the German-speaking world in the heart of Salzburg's old town: Romanesque abbey church, historic St. Peter's Cemetery with rock catacombs, and the legendary Stiftskeller — Europe's oldest restaurant."
+        },
+        "it": {
+          "name": "Abbazia di San Pietro",
+          "town": "Salisburgo",
+          "desc": "Uno dei monasteri piu antichi del mondo di lingua tedesca nel cuore della citta vecchia di Salisburgo: chiesa abbaziale romanica, storico cimitero di San Pietro con catacombe rupestri e il leggendario Stiftskeller, il piu antico ristorante d'Europa."
+        },
+        "hu": {
+          "name": "St. Peter-i apatsag",
+          "town": "Salzburg",
+          "desc": "A nemet nyelvteru vilag egyik legosisabb kolostora Salzburg oobelvaros sziveben: roman apatsagi templom, tortenelmi Peeter-temetoo sziklakatakombakkal es a legendas Stiftskeller, Europa legregebb etterme."
+        },
+        "cs": {
+          "name": "Opatstvi sv. Petra",
+          "town": "Salzburg",
+          "desc": "Jeden z nejstarsich klasteru v nemecky mluvicim svete v srdci salzburskego stareho mesta: romansky klasterny kostel, historicky Petersfriedhof s katakombami a legendarni Stiftskeller — nejstarsi restaurace v Evrope."
+        },
+        "es": {
+          "name": "Abadia de San Pedro",
+          "town": "Salzburgo",
+          "desc": "Uno de los monasterios mas antiguos del mundo de habla alemana en el corazon del casco antiguo de Salzburgo: iglesia abacial romanica, historico cementerio de San Pedro con catacumbas y el legendario Stiftskeller, el restaurante mas antiguo de Europa."
+        },
+        "fr": {
+          "name": "Abbaye Saint-Pierre",
+          "town": "Salzbourg",
+          "desc": "L'un des plus anciens monastères du monde germanophone au coeur de la vieille ville de Salzbourg : eglise abbatiale romane, historique cimetiere Saint-Pierre avec catacombes et le legendaire Stiftskeller, le plus vieux restaurant d'Europe."
+        },
+        "pl": {
+          "name": "Opactwo sw. Piotra",
+          "town": "Salzburg",
+          "desc": "Jeden z najstarszych klasztorow w krajach niemieckojezycznych w sercu starego miasta Salzburg: romanski kosciol opactwa, historyczny cmentarz sw. Piotra z katakumbami oraz legendarny Stiftskeller — najstarsza restauracja w Europie."
+        },
+        "hr": {
+          "name": "Opatija sv. Petra",
+          "town": "Salzburg",
+          "desc": "Jedan od najstarijih samostana u njemackogovornom svijetu u srcu salzburstog starog grada: romanska opatijska crkva, povijesno groblje sv. Petra s katakombama u stijeni i legendarni Stiftskeller — najstariji restoran u Europi."
+        }
+      }
     }
   ]
 }
