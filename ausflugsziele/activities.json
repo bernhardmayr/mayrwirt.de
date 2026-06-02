@@ -386,6 +386,123 @@
         "d50": "≤ 50 km",
         "d60": "≤ 60 km"
       }
+    },
+    "uk": {
+      "title": "Екскурсії навколо Mayrwirt",
+      "subtitle": "Понад 30 ідей для екскурсій у радіусі 50 км — гори, озера, культура та більше",
+      "intro": "Зальдорф-Зюргайм розташований ідеально між Зальцбургом, Бад-Райхенхалем та Берхтесгаденом. Фільтруйте за інтересами, відстанню та погодою — і відкрийте найкрасивіші місця регіону.",
+      "found": "знайдено місць",
+      "none": "Немає місць для цього вибору — будь ласка, змініть фільтри.",
+      "reset": "Скинути фільтри",
+      "more": "Дізнатися більше",
+      "back": "Назад на сайт",
+      "filterRole": "Для кого?",
+      "filterCat": "Категорія",
+      "filterDist": "Відстань",
+      "filterSeason": "Пора року / Погода",
+      "roles": {
+        "family": "Сім'я",
+        "couple": "Пари",
+        "active": "Активні & Спортсмени",
+        "culture": "Культура & Насолода"
+      },
+      "cats": {
+        "mountains": "Гори & Походи",
+        "lakes": "Озера & Купання",
+        "city": "Міста & Культура",
+        "museum": "Закриті приміщення & Музеї",
+        "sport": "Спорт & Акція",
+        "wellness": "Велнес & Спа"
+      },
+      "seasons": {
+        "summer": "Літо",
+        "winter": "Зима",
+        "allyear": "Цілий рік",
+        "indoor": "У будь-яку погоду"
+      },
+      "dists": {
+        "d10": "≤ 10 км",
+        "d25": "≤ 25 км",
+        "d50": "≤ 50 км"
+      }
+    },
+    "sk": {
+      "title": "Výlety v okolí Mayrwirtu",
+      "subtitle": "Viac ako 30 tipov na výlety v okruhu 50 km — hory, jazerá, kultúra a ďalšie",
+      "intro": "Saaldorf-Surheim leží ideálne medzi Salzburgom, Bad Reichenhallom a Berchtesgadenom. Filtrujte podľa záujmu, vzdialenosti a počasia — a objavte najkrajšie ciele regiónu.",
+      "found": "cieľov nájdených",
+      "none": "Pre tento výber nie sú žiadne ciele — upravte prosím filtre.",
+      "reset": "Zrušiť filtre",
+      "more": "Viac informácií",
+      "back": "Späť na stránku",
+      "filterRole": "Pre koho?",
+      "filterCat": "Kategória",
+      "filterDist": "Vzdialenosť",
+      "filterSeason": "Ročné obdobie / Počasie",
+      "roles": {
+        "family": "Rodina",
+        "couple": "Páry",
+        "active": "Aktívni & Športovci",
+        "culture": "Kultúra & Požitok"
+      },
+      "cats": {
+        "mountains": "Hory & Turistika",
+        "lakes": "Jazerá & Kúpanie",
+        "city": "Mestá & Kultúra",
+        "museum": "Interiér & Múzeá",
+        "sport": "Šport & Akcia",
+        "wellness": "Wellness & Kúpele"
+      },
+      "seasons": {
+        "summer": "Leto",
+        "winter": "Zima",
+        "allyear": "Celoročne",
+        "indoor": "Vhodné za dažďa"
+      },
+      "dists": {
+        "d10": "≤ 10 km",
+        "d25": "≤ 25 km",
+        "d50": "≤ 50 km"
+      }
+    },
+    "nl": {
+      "title": "Uitstapjes rond de Mayrwirt",
+      "subtitle": "Meer dan 30 uitstapideeën binnen 50 km — bergen, meren, cultuur en meer",
+      "intro": "Saaldorf-Surheim ligt ideaal tussen Salzburg, Bad Reichenhall en Berchtesgaden. Filter op interesse, afstand en weer — en ontdek de mooiste bestemmingen van de regio.",
+      "found": "bestemmingen gevonden",
+      "none": "Geen bestemmingen voor deze selectie — pas de filters aan.",
+      "reset": "Filters resetten",
+      "more": "Meer informatie",
+      "back": "Terug naar de site",
+      "filterRole": "Voor wie?",
+      "filterCat": "Categorie",
+      "filterDist": "Afstand",
+      "filterSeason": "Seizoen / Weer",
+      "roles": {
+        "family": "Familie",
+        "couple": "Koppels",
+        "active": "Actief & Sportief",
+        "culture": "Cultuur & Plezier"
+      },
+      "cats": {
+        "mountains": "Bergen & Wandelen",
+        "lakes": "Meren & Zwemmen",
+        "city": "Steden & Cultuur",
+        "museum": "Binnen & Musea",
+        "sport": "Sport & Actie",
+        "wellness": "Wellness & Spa"
+      },
+      "seasons": {
+        "summer": "Zomer",
+        "winter": "Winter",
+        "allyear": "Het hele jaar",
+        "indoor": "Regenweer"
+      },
+      "dists": {
+        "d10": "≤ 10 km",
+        "d25": "≤ 25 km",
+        "d50": "≤ 50 km"
+      }
     }
   },
   "activities": [
@@ -448,6 +565,21 @@
           "name": "Jezero Abtsdorf",
           "town": "Saaldorf-Surheim",
           "desc": "Najtoplije jezero u Bavarskoj — idealno za plivanje, pedaline i šetnje s pogledom na Alpe."
+        },
+        "uk": {
+          "name": "Озеро Абтсдорф",
+          "town": "Зальдорф-Зюргайм",
+          "desc": "Найтепліше озеро Баварії — ідеально для купання, катання на педальних човнах і прогулянок з краєвидом Альп."
+        },
+        "sk": {
+          "name": "Abtsdorfské jazero",
+          "town": "Saaldorf-Surheim",
+          "desc": "Najteplejšie jazero v Bavorsku — ideálne na kúpanie, šliapavé člny a prechádzky s výhľadom na Alpy."
+        },
+        "nl": {
+          "name": "Meer van Abtsdorf",
+          "town": "Saaldorf-Surheim",
+          "desc": "Het warmste meer van Beieren — perfect voor zwemmen, watertrappen en wandelingen met uitzicht op de Alpen."
         }
       }
     },
@@ -510,6 +642,21 @@
           "name": "Lokwelt Freilassing",
           "town": "Freilassing",
           "desc": "Željezničarski muzej s povijesnim lokomotivama na 17 tračnica i simulatorom vožnje."
+        },
+        "uk": {
+          "name": "Lokwelt Freilassing",
+          "town": "Фрайлассінг",
+          "desc": "Залізничний музей з історичними локомотивами на 17 коліях і симулятором водіння."
+        },
+        "sk": {
+          "name": "Lokwelt Freilassing",
+          "town": "Freilassing",
+          "desc": "Železničné múzeum s historickými lokomotívami na 17 koľajach a simulátorom jazdy."
+        },
+        "nl": {
+          "name": "Lokwelt Freilassing",
+          "town": "Freilassing",
+          "desc": "Spoorwegmuseum met historische locomotieven op 17 sporen en een rijsimulator."
         }
       }
     },
@@ -572,6 +719,21 @@
           "name": "Badylon Freilassing",
           "town": "Freilassing",
           "desc": "Golem sportski centar s unutarnjim bazenom, dvoranom za penjanje, skate-parkom i sportskim dvoranama."
+        },
+        "uk": {
+          "name": "Badylon Freilassing",
+          "town": "Фрайлассінг",
+          "desc": "Величезний спортивний центр з критим басейном, скелолазним залом, скейт-парком та спортивними залами."
+        },
+        "sk": {
+          "name": "Badylon Freilassing",
+          "town": "Freilassing",
+          "desc": "Obrovské športové centrum s krytým bazénom, lezeckou stenou, skateboardovým parkom a telocvičňami."
+        },
+        "nl": {
+          "name": "Badylon Freilassing",
+          "town": "Freilassing",
+          "desc": "Groot sportcentrum met overdekt zwembad, klimhal, skatepark en sporthallen — voor elk weer."
         }
       }
     },
@@ -634,6 +796,21 @@
           "name": "Rudarski muzej Achthal",
           "town": "Teisendorf",
           "desc": "Fascinantni uvid u stoljetno rudarenje željezne rude na Teisenbergu."
+        },
+        "uk": {
+          "name": "Гірничий музей Ахталь",
+          "town": "Тайзендорф",
+          "desc": "Захоплюючий погляд на багатовікове видобування залізної руди на горі Тайзенберг."
+        },
+        "sk": {
+          "name": "Banícke múzeum Achthal",
+          "town": "Teisendorf",
+          "desc": "Zaujímavý pohľad na storočia ťažby železnej rudy na hore Teisenberg."
+        },
+        "nl": {
+          "name": "Mijnbouwmuseum Achthal",
+          "town": "Teisendorf",
+          "desc": "Fascinerende kijk op eeuwen van ijzerwinning op de Teisenberg."
         }
       }
     },
@@ -697,6 +874,21 @@
           "name": "Hans-Peter Porsche TraumWerk",
           "town": "Anger",
           "desc": "Muzej igračaka, ogroman svijet modelnih željeznica i pustolovni igralište za cijelu obitelj."
+        },
+        "uk": {
+          "name": "Hans-Peter Porsche TraumWerk",
+          "town": "Ангер",
+          "desc": "Музей іграшок, величезний світ модельних залізниць і пригодницький майданчик для всієї родини."
+        },
+        "sk": {
+          "name": "Hans-Peter Porsche TraumWerk",
+          "town": "Anger",
+          "desc": "Múzeum hračiek, obrovský svet modelovej železnice a dobrodružné ihrisko pre celú rodinu."
+        },
+        "nl": {
+          "name": "Hans-Peter Porsche TraumWerk",
+          "town": "Anger",
+          "desc": "Speelgoedmuseum, een uitgebreide modelspoorwereld en een avonturenpark voor het hele gezin."
         }
       }
     },
@@ -757,6 +949,21 @@
           "name": "Staufenbad Anger",
           "town": "Anger",
           "desc": "Grijani otvoreni bazen s pogledom na Hochstaufen — opušteni dan za cijelu obitelj."
+        },
+        "uk": {
+          "name": "Staufenbad Anger",
+          "town": "Ангер",
+          "desc": "Опалюваний відкритий басейн з видом на Гохштауфен — розслаблений день для всієї родини."
+        },
+        "sk": {
+          "name": "Staufenbad Anger",
+          "town": "Anger",
+          "desc": "Vyhrievaný vonkajší bazén s výhľadom na Hochstaufen — príjemný deň pre celú rodinu."
+        },
+        "nl": {
+          "name": "Staufenbad Anger",
+          "town": "Anger",
+          "desc": "Verwarmd openluchtzwembad met uitzicht op de Hochstaufen — een ontspannen dag voor het hele gezin."
         }
       }
     },
@@ -820,6 +1027,21 @@
           "name": "Stara Solana & Muzej soli",
           "town": "Bad Reichenhall",
           "desc": "Fascinantno vođenje kroz povijesni sustav hodnika kraljevske solane."
+        },
+        "uk": {
+          "name": "Стара Солеварня & Музей солі",
+          "town": "Бад-Райхенхаль",
+          "desc": "Захоплива екскурсія по історичній тунельній системі королівської солеварні."
+        },
+        "sk": {
+          "name": "Stará soľovareň & Múzeum soli",
+          "town": "Bad Reichenhall",
+          "desc": "Fascinujúca prehliadka historického systému tunelov kráľovskej soľovarne."
+        },
+        "nl": {
+          "name": "Oude Zoutziederij & Zoutmuseum",
+          "town": "Bad Reichenhall",
+          "desc": "Een fascinerende rondleiding door het historische tunnelsysteem van de koninklijke zoutziederij."
         }
       }
     },
@@ -882,6 +1104,21 @@
           "name": "RupertusTherme",
           "town": "Bad Reichenhall",
           "desc": "Raj termalnih kupelji i sauna s alpskom slanom vodom, pustolovnom toboganom i obiteljskim bazenom."
+        },
+        "uk": {
+          "name": "RupertusTherme",
+          "town": "Бад-Райхенхаль",
+          "desc": "Термальний та сауновий рай з альпійським розсолом, пригодницькою гіркою та сімейним басейном."
+        },
+        "sk": {
+          "name": "RupertusTherme",
+          "town": "Bad Reichenhall",
+          "desc": "Termálny a saunový raj s alpskou soľankou, zážitkovou šmýkačkou a rodinným bazénom."
+        },
+        "nl": {
+          "name": "RupertusTherme",
+          "town": "Bad Reichenhall",
+          "desc": "Een thermaal- en saunaparadijs met Alpenzout, avonturenslide en familiebad."
         }
       }
     },
@@ -944,6 +1181,21 @@
           "name": "Žičara Predigtstuhl",
           "town": "Bad Reichenhall",
           "desc": "Najstarija originalna žičara s velikim kabinama na svijetu — gore na panoramsku planinu."
+        },
+        "uk": {
+          "name": "Канатна дорога Прадігштуль",
+          "town": "Бад-Райхенхаль",
+          "desc": "Найстаріша оригінальна великогабаритна канатна дорога у світі — вгору на оглядову гору."
+        },
+        "sk": {
+          "name": "Lanovka Predigtstuhl",
+          "town": "Bad Reichenhall",
+          "desc": "Najstaršia pôvodná veľkokabínová lanovka na svete — nahor na vyhliadkovú horu."
+        },
+        "nl": {
+          "name": "Predigtstuhl Kabelbaan",
+          "town": "Bad Reichenhall",
+          "desc": "De oudste originele grote-cabine kabelbaan ter wereld — omhoog naar de panoramaberg."
         }
       }
     },
@@ -1006,6 +1258,21 @@
           "name": "Gradirnica & Lječilišni park",
           "town": "Bad Reichenhall",
           "desc": "Udišite ljekoviti zrak salamure u prostranom lječilišnom parku s povijesnom gradirnicom."
+        },
+        "uk": {
+          "name": "Градирня & Курортний парк",
+          "town": "Бад-Райхенхаль",
+          "desc": "Дихайте цілющим повітрям розсолу в просторому курортному парку з історичною градирнею."
+        },
+        "sk": {
+          "name": "Gradovňa & Kúpeľný park",
+          "town": "Bad Reichenhall",
+          "desc": "Dýchajte liečivý vzduch soľanky v rozľahlom kúpeľnom parku s historickou gradovňou."
+        },
+        "nl": {
+          "name": "Graduatietoren & Kuurtuin",
+          "town": "Bad Reichenhall",
+          "desc": "Adem de heilzame pekellucht in de ruime kuurtuin met zijn historische graduatietoren."
         }
       }
     },
@@ -1069,6 +1336,21 @@
           "name": "Königssee & Izlet brodom",
           "town": "Schönau a. Königssee",
           "desc": "Električni brod do hodočasničke crkve sv. Bartolomeja — čuvena trubačka jeka, kristalno čista voda i veličanstvena planinska kulisa u nacionalnom parku."
+        },
+        "uk": {
+          "name": "Кенігзее & Санкт-Бартоломе",
+          "town": "Шенау-ам-Кенігзее",
+          "desc": "Смарагдово-зелена прогулянка на човні до паломницької церкви Санкт-Бартоломе з відомим тромпетним луною."
+        },
+        "sk": {
+          "name": "Königssee & St. Bartholomä",
+          "town": "Schönau a. Königssee",
+          "desc": "Smaragdovozelená plavba loďou ku kostolu St. Bartholomä so slávnou trúbkovou ozvenu."
+        },
+        "nl": {
+          "name": "Königssee & St. Bartholomä",
+          "town": "Schönau a. Königssee",
+          "desc": "Een smaragdgroene boottocht naar de bedevaartskerk St. Bartholomä met de beroemde trompetongeweer."
         }
       }
     },
@@ -1132,6 +1414,21 @@
           "name": "Rudnik soli Berchtesgaden",
           "town": "Berchtesgaden",
           "desc": "Duboko u planinu rudarskim vlakom, rudarskim tobogånima i splavom preko slanog jezera."
+        },
+        "uk": {
+          "name": "Соляна шахта Берхтесгаден",
+          "town": "Берхтесгаден",
+          "desc": "Глибоко в гору шахтним поїздом, шахтарськими гірками та плотом по соляному озеру."
+        },
+        "sk": {
+          "name": "Soľný dôl Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Hlboko do hory banským vlakčekom, baníckymi šmýkačkami a na plti cez soľné jazero."
+        },
+        "nl": {
+          "name": "Zoutmijn Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Diep de berg in met een mijntrein, mijnwerkersglijbanen en een vlottocht over het zoutmeer."
         }
       }
     },
@@ -1194,6 +1491,21 @@
           "name": "Jenner & Žičara Jenner",
           "town": "Schönau a. Königssee",
           "desc": "Modernom žičarom na 1800 m — veličanstavan pogled na Königssee i Watzmann."
+        },
+        "uk": {
+          "name": "Єннер & Канатна дорога Єннер",
+          "town": "Шенау-ам-Кенігзее",
+          "desc": "Сучасною канатною дорогою на 1800 м — чудовий краєвид на Кенігзее та Ватцманн."
+        },
+        "sk": {
+          "name": "Jenner & lanovka Jenner",
+          "town": "Schönau a. Königssee",
+          "desc": "Modernou lanovkou na 1 800 m — nádherný výhľad na Königssee a Watzmann."
+        },
+        "nl": {
+          "name": "Jenner & Jenner Kabelbaan",
+          "town": "Schönau a. Königssee",
+          "desc": "Met de moderne kabelbaan naar 1.800 m — een prachtig uitzicht op de Königssee en de Watzmann."
         }
       }
     },
@@ -1255,6 +1567,21 @@
           "name": "Dokumentacijski centar Obersalzberg",
           "town": "Berchtesgaden",
           "desc": "Potresna dokumentacija suvremene povijesti na povijesnom lokalitetu."
+        },
+        "uk": {
+          "name": "Документаційний центр Оберзальцберг",
+          "town": "Берхтесгаден",
+          "desc": "Вражаюча документація сучасної історії на цьому значущому історичному місці."
+        },
+        "sk": {
+          "name": "Dokumentačné centrum Obersalzberg",
+          "town": "Berchtesgaden",
+          "desc": "Pôsobivá dokumentácia súčasných dejín na historickom mieste."
+        },
+        "nl": {
+          "name": "Documentatiecentrum Obersalzberg",
+          "town": "Berchtesgaden",
+          "desc": "Een indrukwekkende tentoonstelling over de 20e-eeuwse geschiedenis op deze historische plek."
         }
       }
     },
@@ -1317,6 +1644,21 @@
           "name": "Watzmann Therme",
           "town": "Berchtesgaden",
           "desc": "Čisti odmor: termalni bazeni, svijet sauna i tobogani s planinskim panoramom."
+        },
+        "uk": {
+          "name": "Ватцманн Терме",
+          "town": "Берхтесгаден",
+          "desc": "Чистий відпочинок: термальні басейни, світ саун та гірки з гірською панорамою."
+        },
+        "sk": {
+          "name": "Watzmann Therme",
+          "town": "Berchtesgaden",
+          "desc": "Čistý oddych: termálne bazény, svet sáun a šmýkačky s horskou panorámou."
+        },
+        "nl": {
+          "name": "Watzmann Therme",
+          "town": "Berchtesgaden",
+          "desc": "Pure ontspanning: thermale baden, saunawereld en glijbanen met bergpanorama."
         }
       }
     },
@@ -1379,6 +1721,21 @@
           "name": "Klisura Wimbach & Wimbachgries",
           "town": "Ramsau",
           "desc": "Hurlajuća klisura u nacionalnom parku — nastavljajući put stiže se do prostrane doline Wimbachgries s veličanstvenom alpskom panoramom."
+        },
+        "uk": {
+          "name": "Ущелина Вімбах & Національний парк",
+          "town": "Рамзау",
+          "desc": "Бурхливе гірське ущелище в єдиному альпійському національному парку Німеччини."
+        },
+        "sk": {
+          "name": "Wimbašská roklina & Národný park",
+          "town": "Ramsau",
+          "desc": "Hučiaca horská roklina v jedinom alpskom národnom parku Nemecka."
+        },
+        "nl": {
+          "name": "Wimbach Kloof & Nationaal Park",
+          "town": "Ramsau",
+          "desc": "Een bruisende wildwaterkloof in Duitslands enige alpine nationaal park."
         }
       }
     },
@@ -1439,6 +1796,21 @@
           "name": "Via ferrata Grünstein",
           "town": "Schönau a. Königssee",
           "desc": "Via ferrata za sportske početnike s prostranim pogledom na berchtesgadensku dolinu."
+        },
+        "uk": {
+          "name": "Виа феррата Грюнштайн",
+          "town": "Шенау-ам-Кенігзее",
+          "desc": "Виа феррата для спортивних початківців із широким видом на долину Берхтесгадена."
+        },
+        "sk": {
+          "name": "Via ferrata Grünstein",
+          "town": "Schönau a. Königssee",
+          "desc": "Zaistená cesta pre športových začiatočníkov so širokým výhľadom na berchtesgadenskú dolinu."
+        },
+        "nl": {
+          "name": "Grünstein Via Ferrata",
+          "town": "Schönau a. Königssee",
+          "desc": "Een via ferrata voor sportieve beginners met een weids uitzicht over het dal van Berchtesgaden."
         }
       }
     },
@@ -1501,6 +1873,21 @@
           "name": "Tvrđava Hohensalzburg",
           "town": "Salzburg",
           "desc": "Jedna od najvećih tvrđava u Europi, visoko iznad barokne stare gradske jezgre Salzburga."
+        },
+        "uk": {
+          "name": "Фортеця Гозенсальцбург",
+          "town": "Зальцбург",
+          "desc": "Одна з найбільших фортець Європи, высоко над бароковим старим містом Зальцбурга."
+        },
+        "sk": {
+          "name": "Pevnosť Hohensalzburg",
+          "town": "Salzburg",
+          "desc": "Jedna z najväčších pevností v Európe, vysoko nad barokovým starým mestom Salzburgu."
+        },
+        "nl": {
+          "name": "Vesting Hohensalzburg",
+          "town": "Salzburg",
+          "desc": "Een van de grootste vestingen van Europa, hoog boven de barokke binnenstad van Salzburg."
         }
       }
     },
@@ -1562,6 +1949,21 @@
           "name": "Mozartova rodna kuća & Stari grad",
           "town": "Salzburg",
           "desc": "UNESCO stari grad s Mozartovom rodnom kućom, ulicom Getreidegasse i katedralom."
+        },
+        "uk": {
+          "name": "Будинок народження Моцарта & Старе місто",
+          "town": "Зальцбург",
+          "desc": "Старе місто ЮНЕСКО з будинком народження Моцарта, вулицею Гетрайдегасе та собором."
+        },
+        "sk": {
+          "name": "Mozartov rodný dom & staré mesto",
+          "town": "Salzburg",
+          "desc": "UNESCO staré mesto s Mozartovým rodným domom, ulicou Getreidegasse a katedrálou."
+        },
+        "nl": {
+          "name": "Mozarts geboortehuis & Oude Stad",
+          "town": "Salzburg",
+          "desc": "UNESCO-binnenstad met Mozarts geboortehuis, de Getreidegasse en de kathedraal."
         }
       }
     },
@@ -1624,6 +2026,21 @@
           "name": "Dvorac i vrtovi Mirabell",
           "town": "Salzburg",
           "desc": "Veličanstvan dvorac s baroknim vrtovima — poznat iz filma 'Zvuk glazbe'."
+        },
+        "uk": {
+          "name": "Палац і сад Міра́бель",
+          "town": "Зальцбург",
+          "desc": "Розкішний палац з бароковим садом — відомий з фільму 'Звуки музики'."
+        },
+        "sk": {
+          "name": "Zámok a záhrady Mirabell",
+          "town": "Salzburg",
+          "desc": "Nádherný zámok s barokovým záhradou — známy z filmu 'Zvuky hudby'."
+        },
+        "nl": {
+          "name": "Paleis en Tuinen Mirabell",
+          "town": "Salzburg",
+          "desc": "Een prachtig paleis met barokke tuinen — beroemd uit 'The Sound of Music'."
         }
       }
     },
@@ -1686,6 +2103,21 @@
           "name": "Haus der Natur",
           "town": "Salzburg",
           "desc": "Veliki muzej prirodnih znanosti s akvarijom, zoološkim vrtom gmazova i znanstvenim centrom."
+        },
+        "uk": {
+          "name": "Haus der Natur",
+          "town": "Зальцбург",
+          "desc": "Великий музей природознавства з акваріумом, зоопарком рептилій та науковим центром."
+        },
+        "sk": {
+          "name": "Haus der Natur",
+          "town": "Salzburg",
+          "desc": "Veľké prírodovedné múzeum s akváriom, zoo plazov a vedeckým centrom."
+        },
+        "nl": {
+          "name": "Haus der Natur",
+          "town": "Salzburg",
+          "desc": "Een groot natuurhistorisch museum met aquarium, reptielendierentuin en wetenschapscentrum."
         }
       }
     },
@@ -1748,6 +2180,21 @@
           "name": "Žičara Untersberg",
           "town": "Grödig",
           "desc": "Za nekoliko minuta gore na legendarnu lokalnu planinu Salzburga."
+        },
+        "uk": {
+          "name": "Канатна дорога Унтерсберг",
+          "town": "Гредіг",
+          "desc": "За кілька хвилин вгору на легендарну місцеву гору Зальцбурга."
+        },
+        "sk": {
+          "name": "Lanovka Untersberg",
+          "town": "Grödig",
+          "desc": "Za niekoľko minút nahor na bájnu domácu horu Salzburgu."
+        },
+        "nl": {
+          "name": "Untersberg Kabelbaan",
+          "town": "Grödig",
+          "desc": "In slechts enkele minuten omhoog naar Salzburgs legendarische huisberg."
         }
       }
     },
@@ -1810,6 +2257,21 @@
           "name": "Dvorac Hellbrunn & Vodeni trikovi",
           "town": "Salzburg",
           "desc": "Ljetni dvorac s čuvenim vodenim trikovima i Zoološkim vrtom Salzburga u blizini."
+        },
+        "uk": {
+          "name": "Замок Гелльбрунн & Водні атракціони",
+          "town": "Зальцбург",
+          "desc": "Розважальний замок зі знаменитими водними атракціонами і зоопарком Зальцбург поруч."
+        },
+        "sk": {
+          "name": "Zámok Hellbrunn & Vodné hry",
+          "town": "Salzburg",
+          "desc": "Letný palác so svetoznámymi vodnými hrami a zoo Salzburg vedľa."
+        },
+        "nl": {
+          "name": "Kasteel Hellbrunn & Watergrappen",
+          "town": "Salzburg",
+          "desc": "Een lustslot met wereldberoemde watergrappen en de Dierentuin Salzburg ernaast."
         }
       }
     },
@@ -1873,6 +2335,21 @@
           "name": "Salzwelten Hallein",
           "town": "Hallein",
           "desc": "Najstariji rudnik za posjetitelje na svijetu — s rudarskim tobogånima, vagonetom i slanim jezerom."
+        },
+        "uk": {
+          "name": "Salzwelten Hallein",
+          "town": "Галляйн",
+          "desc": "Найстаріша оглядова шахта у світі — з шахтарськими гірками, шахтним поїздом і соляним озером."
+        },
+        "sk": {
+          "name": "Salzwelten Hallein",
+          "town": "Hallein",
+          "desc": "Najstaršia ukážková baňa na svete — s baníckymi šmýkačkami, banským vlakčekom a soľným jazerom."
+        },
+        "nl": {
+          "name": "Salzwelten Hallein",
+          "town": "Hallein",
+          "desc": "De oudste toeristische mijn ter wereld — met mijnwerkersglijbanen, een mijntreintje en een zoutmeer."
         }
       }
     },
@@ -1935,6 +2412,21 @@
           "name": "Keltski muzej Hallein",
           "town": "Hallein",
           "desc": "Važni nalazi iz keltskog doba na Dürrnbergu, impresivno prezentirani."
+        },
+        "uk": {
+          "name": "Кельтський музей Галляйн",
+          "town": "Галляйн",
+          "desc": "Важливі знахідки кельтської доби з Дюрнберга, вражаюче представлені."
+        },
+        "sk": {
+          "name": "Keltské múzeum Hallein",
+          "town": "Hallein",
+          "desc": "Významné nálezy z keltského obdobia na Dürrnbergu, pôsobivo prezentované."
+        },
+        "nl": {
+          "name": "Keltisch Museum Hallein",
+          "town": "Hallein",
+          "desc": "Belangrijke vondsten uit de Keltische tijd op de Dürrnberg, indrukwekkend gepresenteerd."
         }
       }
     },
@@ -1997,6 +2489,21 @@
           "name": "Dvorac Hohenwerfen",
           "town": "Werfen",
           "desc": "Više od 900 godina stari dvorac s impresivnom letačkom predstavom grabljivica."
+        },
+        "uk": {
+          "name": "Замок Гогенверфен",
+          "town": "Верфен",
+          "desc": "Більш ніж 900-річний замок з вражаючим шоу польоту хижих птахів."
+        },
+        "sk": {
+          "name": "Hrad Hohenwerfen",
+          "town": "Werfen",
+          "desc": "Viac ako 900-ročný hrad s pôsobivou leteckou šou dravých vtákov."
+        },
+        "nl": {
+          "name": "Kasteel Hohenwerfen",
+          "town": "Werfen",
+          "desc": "Een 900 jaar oud kasteel met een indrukwekkende roofvogelshow."
         }
       }
     },
@@ -2059,6 +2566,21 @@
           "name": "Eisriesenwelt Werfen",
           "town": "Werfen",
           "desc": "Najveća ledena špilja na svijetu — fantastične ledene skulpture duboko u planini."
+        },
+        "uk": {
+          "name": "Айсрізенвельт Верфен",
+          "town": "Верфен",
+          "desc": "Найбільша льодова печера у світі — фантастичні льодові скульптури глибоко в горі."
+        },
+        "sk": {
+          "name": "Eisriesenwelt Werfen",
+          "town": "Werfen",
+          "desc": "Najväčšia ľadová jaskyňa na svete — fantastické ľadové sochy hlboko v hore."
+        },
+        "nl": {
+          "name": "Eisriesenwelt Werfen",
+          "town": "Werfen",
+          "desc": "De grootste ijsgrot ter wereld — fantastische ijssculpturen diep in de berg."
         }
       }
     },
@@ -2492,6 +3014,21 @@
           "name": "Chiemsee: Herren- & Fraueninsel",
           "town": "Prien am Chiemsee",
           "desc": "Najveće jezero Bavarske s dva čarobna otoka — dvorac Herrenchiemsee (Versailles Ludvika II.) i romantični samostan Frauenwörth na Fraueninsel. Dostupni brodom."
+        },
+        "uk": {
+          "name": "Кімзее & Замок Герренхімзее",
+          "town": "Прін-ам-Кімзее",
+          "desc": "Прогулянка на човні по найбільшому озеру Баварії до палацу короля Людвіга II на острові Геренінзель."
+        },
+        "sk": {
+          "name": "Chiemsee & zámok Herrenchiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Plavba po najväčšom bavorskom jazere k zámku kráľa Ľudovíta II. na ostrove Herreninsel."
+        },
+        "nl": {
+          "name": "Chiemsee & Herrenchiemsee Paleis",
+          "town": "Prien am Chiemsee",
+          "desc": "Een boottocht over Beierens grootste meer naar het paleis van Koning Ludwig II op het eiland Herreninsel."
         }
       }
     },
@@ -6728,6 +7265,21 @@
           "name": "Haarmoos & Abtsdorfersee",
           "town": "Saaldorf-Surheim",
           "desc": "Prirodni rezervat odmah pred vratima: laka kruzna staza kroz prostrano tresnjak s jezerom za kupanje, kulom za promatranje ptica i panoramskim vidikovcem prema Hochstaufenu i Untersberg."
+        },
+        "uk": {
+          "name": "Гаармоос & Торф'яне озеро",
+          "town": "Леобендорф",
+          "desc": "Широкий природний заповідник з торф'яним купальним озером, велодоріжками та рідкісними птахами — повний спокій."
+        },
+        "sk": {
+          "name": "Haarmoos & rašelinné jazero",
+          "town": "Leobendorf",
+          "desc": "Rozľahlá prírodná rezervácia s rašelinovým kúpacím jazerom, cyklochodníkmi a vzácnymi vtákmi — dokonalý pokoj."
+        },
+        "nl": {
+          "name": "Haarmoos & Veenmeer",
+          "town": "Leobendorf",
+          "desc": "Een uitgestrekt natuurreservaat met een veenbadmeer, fietspaden en zeldzame vogels — pure rust."
         }
       }
     },
