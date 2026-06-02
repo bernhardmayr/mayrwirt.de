@@ -6021,6 +6021,132 @@
           "desc": "Zabava za cijelu obitelj: uredni minigolf teren odmah uz otvoreni bazen u Ainringu – idealno za opušteni ljetni dan s kupanjem."
         }
       }
+    },
+    {
+      "id": "burg-burghausen",
+      "category": "museum",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 40,
+      "icon": "🏰",
+      "url": "https://www.burg-burghausen.de/",
+      "i18n": {
+        "de": {
+          "name": "Burg Burghausen",
+          "town": "Burghausen",
+          "desc": "Die längste Burganlage der Welt (über 1 km!) thront über der Altstadt und der Salzach. Historische Gemächer, Ausstellungen und ein grandioser Panoramablick über das Salzachtal."
+        },
+        "en": {
+          "name": "Burghausen Castle",
+          "town": "Burghausen",
+          "desc": "The longest castle complex in the world (over 1 km!) towers above the old town and the Salzach river. Historic chambers, exhibitions and a breathtaking panoramic view over the Salzach valley."
+        },
+        "it": {
+          "name": "Castello di Burghausen",
+          "town": "Burghausen",
+          "desc": "Il complesso castellano più lungo del mondo (oltre 1 km!) domina la città vecchia e il fiume Salzach. Sale storiche, mostre e una vista panoramica mozzafiato sulla valle della Salzach."
+        },
+        "hu": {
+          "name": "Burghauseni vár",
+          "town": "Burghausen",
+          "desc": "A világ leghosszabb váregyüttese (több mint 1 km!) uralja az óvárost és a Salzach folyót. Történelmi termek, kiállítások és lenyűgöző panoráma a Salzach-völgyre."
+        },
+        "cs": {
+          "name": "Hrad Burghausen",
+          "town": "Burghausen",
+          "desc": "Nejdelší hradní komplex na světě (přes 1 km!) se tyčí nad starým městem a řekou Salzach. Historické komnaty, výstavy a úchvatný výhled na údolí Salzach."
+        },
+        "es": {
+          "name": "Castillo de Burghausen",
+          "town": "Burghausen",
+          "desc": "El complejo castillo más largo del mundo (¡más de 1 km!) domina el casco antiguo y el río Salzach. Cámaras históricas, exposiciones y una vista panorámica impresionante del valle del Salzach."
+        },
+        "fr": {
+          "name": "Château de Burghausen",
+          "town": "Burghausen",
+          "desc": "Le plus long complexe castral du monde (plus de 1 km !) domine la vieille ville et la Salzach. Salles historiques, expositions et une vue panoramique spectaculaire sur la vallée de la Salzach."
+        },
+        "pl": {
+          "name": "Zamek Burghausen",
+          "town": "Burghausen",
+          "desc": "Najdłuższy zamek na świecie (ponad 1 km!) góruje nad starym miastem i rzeką Salzach. Historyczne komnaty, wystawy i zapierający dech widok panoramiczny na dolinę Salzach."
+        },
+        "hr": {
+          "name": "Dvorac Burghausen",
+          "town": "Burghausen",
+          "desc": "Najduži dvorački kompleks na svijetu (više od 1 km!) dominira starim gradom i rijekom Salzach. Povijesne dvorane, izložbe i veličanstavan panoramski pogled na dolinu Salzach."
+        }
+      }
+    },
+    {
+      "id": "erlebnispielplatz-burghausen",
+      "category": "sport",
+      "roles": [
+        "families"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 40,
+      "icon": "🛝",
+      "url": "https://www.burghausen.de/tourismus-freizeit/freizeit/spielplaetze",
+      "i18n": {
+        "de": {
+          "name": "Erlebnispielplatz Burghausen",
+          "town": "Burghausen",
+          "desc": "Großer Abenteuerspielplatz mit Klettergerüsten, Rutschen und Wasserspielen – ein Paradies für Kinder. Lässt sich wunderbar mit einem Besuch der Burg und der Altstadt kombinieren."
+        },
+        "en": {
+          "name": "Adventure Playground Burghausen",
+          "town": "Burghausen",
+          "desc": "Large adventure playground with climbing frames, slides and water features – a paradise for children. Perfectly combined with a visit to the castle and the old town."
+        },
+        "it": {
+          "name": "Parco giochi avventura Burghausen",
+          "town": "Burghausen",
+          "desc": "Grande parco giochi avventura con strutture per arrampicarsi, scivoli e giochi d'acqua – un paradiso per i bambini. Si abbina perfettamente a una visita al castello e alla città vecchia."
+        },
+        "hu": {
+          "name": "Kalandpark Burghausen",
+          "town": "Burghausen",
+          "desc": "Nagy kalandpark mászóvárakkal, csúszdákkal és vizes játékokkal – gyerekek paradicsoma. Tökéletesen kombinálható a vár és az óváros meglátogatásával."
+        },
+        "cs": {
+          "name": "Dobrodružné hřiště Burghausen",
+          "town": "Burghausen",
+          "desc": "Velké dobrodružné hřiště s lezeckými konstrukcemi, skluzavkami a vodními hrami – ráj pro děti. Lze skvěle kombinovat s návštěvou hradu a starého města."
+        },
+        "es": {
+          "name": "Parque de aventuras Burghausen",
+          "town": "Burghausen",
+          "desc": "Gran parque de aventuras con estructuras de escalada, toboganes y juegos de agua – un paraíso para los niños. Se combina perfectamente con una visita al castillo y al casco antiguo."
+        },
+        "fr": {
+          "name": "Aire de jeux aventure Burghausen",
+          "town": "Burghausen",
+          "desc": "Grande aire de jeux aventure avec structures d'escalade, toboggans et jeux d'eau – un paradis pour les enfants. À combiner idéalement avec une visite du château et de la vieille ville."
+        },
+        "pl": {
+          "name": "Plac zabaw Burghausen",
+          "town": "Burghausen",
+          "desc": "Duży plac przygód z urządzeniami do wspinaczki, zjeżdżalniami i wodnymi zabawami – raj dla dzieci. Idealnie łączy się z wizytą w zamku i starym mieście."
+        },
+        "hr": {
+          "name": "Avanturistički playground Burghausen",
+          "town": "Burghausen",
+          "desc": "Veliki avanturistički playground s penjalicama, toboganima i vodenim igrama – raj za djecu. Savršeno se kombinira s posjetom dvorcu i starom gradu."
+        }
+      }
     }
   ]
 }
