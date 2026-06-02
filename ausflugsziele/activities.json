@@ -423,15 +423,15 @@
       "id": "nationalpark-wimbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 33, "icon": "🏞️",
       "url": "https://www.nationalpark-berchtesgaden.bayern.de/",
       "i18n": {
-        "de": {"name": "Wimbachklamm & Nationalpark", "town": "Ramsau", "desc": "Tosende Wildbachklamm im einzigen Alpen-Nationalpark Deutschlands."},
-        "en": {"name": "Wimbach Gorge & National Park", "town": "Ramsau", "desc": "A roaring wild-water gorge in Germany's only Alpine national park."},
-        "it": {"name": "Gola del Wimbach & Parco Nazionale", "town": "Ramsau", "desc": "Impetuosa gola di torrente nell'unico parco nazionale alpino della Germania."},
-        "hu": {"name": "Wimbach-szurdok & Nemzeti Park", "town": "Ramsau", "desc": "Zúgó hegyipatak-szurdok Németország egyetlen alpesi nemzeti parkjában."},
-        "cs": {"name": "Wimbašská soutěska & národní park", "town": "Ramsau", "desc": "Burácející bystřinná soutěska v jediném alpském národním parku Německa."},
-        "es": {"name": "Garganta de Wimbach & Parque Nacional", "town": "Ramsau", "desc": "Una rugiente garganta de aguas bravas en el único parque nacional alpino de Alemania."},
-        "fr": {"name": "Gorges de Wimbach & Parc national", "town": "Ramsau", "desc": "Des gorges torrentielles rugissantes dans le seul parc national alpin d'Allemagne."},
-        "pl": {"name": "Wąwóz Wimbach & Park Narodowy", "town": "Ramsau", "desc": "Huczący wąwóz górskiego potoku w jedynym alpejskim parku narodowym Niemiec."},
-        "hr": {"name": "Klisura Wimbach & Nacionalni park", "town": "Ramsau", "desc": "Hurlajuća gorska klisura u jedinom alpskom nacionalnom parku Njemačke."}
+        "de": {"name": "Wimbachklamm & Wimbachgries", "town": "Ramsau", "desc": "Tosende Wildbachklamm im Nationalpark — wer weiterwandert, erreicht das weite Wimbachgries mit grandiosem Hochgebirgspanorama."},
+        "en": {"name": "Wimbach Gorge & Wimbachgries", "town": "Ramsau", "desc": "Roaring wild-water gorge in the national park — continuing on leads to the wide Wimbachgries valley with stunning Alpine panorama."},
+        "it": {"name": "Gola del Wimbach & Wimbachgries", "town": "Ramsau", "desc": "Impetuosa gola nel parco nazionale — proseguendo si raggiunge l'ampia valle del Wimbachgries con panorama alpino mozzafiato."},
+        "hu": {"name": "Wimbach-szurdok & Wimbachgries", "town": "Ramsau", "desc": "Zúgó szurdok a nemzeti parkban — tovább haladva a széles Wimbachgries-völgybe érünk, lenyűgöző hegyi panorámával."},
+        "cs": {"name": "Soutěska Wimbach & Wimbachgries", "town": "Ramsau", "desc": "Burácející soutěska v národním parku — pokud půjdete dál, dostanete se do rozlehlého údolí Wimbachgries s velkolepým alpským panoramatem."},
+        "es": {"name": "Garganta de Wimbach & Wimbachgries", "town": "Ramsau", "desc": "Rugiente garganta en el parque nacional — siguiendo el camino se llega al amplio valle de Wimbachgries con un grandioso panorama alpino."},
+        "fr": {"name": "Gorges de Wimbach & Wimbachgries", "town": "Ramsau", "desc": "Gorges torrentielles dans le parc national — en continuant, on atteint la large vallée de Wimbachgries avec un panorama alpin grandiose."},
+        "pl": {"name": "Wąwóz Wimbach & Wimbachgries", "town": "Ramsau", "desc": "Huczący wąwóz w parku narodowym — idąc dalej, dociera się do szerokiej doliny Wimbachgries z wspaniałą alpejską panoramą."},
+        "hr": {"name": "Klisura Wimbach & Wimbachgries", "town": "Ramsau", "desc": "Hurlajuća klisura u nacionalnom parku — nastavljajući put stiže se do prostrane doline Wimbachgries s veličanstvenom alpskom panoramom."}
       }
     },
     {
@@ -600,21 +600,6 @@
       }
     },
     {
-      "id": "freibad-laufen", "category": "lakes", "roles": ["family", "couple", "active"], "seasons": ["summer"], "distance": 10, "icon": "🏊",
-      "url": "https://www.laufen-salzach.de/",
-      "i18n": {
-        "de": {"name": "Freibad Laufen", "town": "Laufen a.d. Salzach", "desc": "Familiäres Freibad an der Salzach mit Liegewiese, Wasserrutsche und Blick auf die historische Altstadt."},
-        "en": {"name": "Laufen Open-Air Pool", "town": "Laufen a.d. Salzach", "desc": "Family-friendly outdoor pool on the Salzach with a sunbathing lawn, water slide and views of the historic old town."},
-        "it": {"name": "Piscina all'aperto di Laufen", "town": "Laufen a.d. Salzach", "desc": "Piscina all'aperto a misura di famiglia sulla Salzach con prato, scivolo e vista sul centro storico."},
-        "hu": {"name": "Laufeni szabadtéri fürdő", "town": "Laufen a.d. Salzach", "desc": "Családias szabadtéri strand a Salzach folyó mellett, napozóréttel, vízicsúszdával és kilátással az óvárosra."},
-        "cs": {"name": "Venkovní koupaliště Laufen", "town": "Laufen a.d. Salzach", "desc": "Rodinné venkovní koupaliště na Salzachu s travnatou pláží, vodní skluzavkou a výhledem na historické staré město."},
-        "es": {"name": "Piscina al aire libre de Laufen", "town": "Laufen a.d. Salzach", "desc": "Piscina al aire libre familiar en el Salzach con zona de descanso, tobogán y vistas al casco antiguo histórico."},
-        "fr": {"name": "Piscine en plein air de Laufen", "town": "Laufen a.d. Salzach", "desc": "Piscine familiale en plein air au bord de la Salzach avec pelouse, toboggan et vue sur la vieille ville historique."},
-        "pl": {"name": "Odkryty basen w Laufen", "town": "Laufen a.d. Salzach", "desc": "Rodzinny odkryty basen nad Salzachem z trawnikiem, zjeżdżalnią wodną i widokiem na historyczne stare miasto."},
-        "hr": {"name": "Otvoreni bazen Laufen", "town": "Laufen a.d. Salzach", "desc": "Obiteljski otvoreni bazen na Salzachu s travnatim ležajem, vodenim toboganom i pogledom na povijesni stari grad."}
-      }
-    },
-    {
       "id": "almbachklamm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 26, "icon": "🏞️",
       "url": "https://www.almbachklamm.de/",
       "i18n": {
@@ -717,6 +702,96 @@
         "fr": {"name": "Chiemsee & Château de Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Traversée en bateau du plus grand lac de Bavière jusqu'au château du roi Louis II sur l'île Herreninsel."},
         "pl": {"name": "Chiemsee & Zamek Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Rejs po największym jeziorze Bawarii do zamku króla Ludwika II na wyspie Herreninsel."},
         "hr": {"name": "Chiemsee & Dvorac Herrenchiemsee", "town": "Prien am Chiemsee", "desc": "Brodska vožnja po najvećem bavarskom jezeru do dvorca kralja Ludwiga II. na otoku Herreninsel."}
+      }
+    },
+    {
+      "id": "freibad-freilassing", "category": "lakes", "roles": ["family", "active"], "seasons": ["summer"], "distance": 8, "icon": "🏊",
+      "url": "https://www.freilassing.de/",
+      "i18n": {
+        "de": {"name": "Freibad Freilassing", "town": "Freilassing", "desc": "Beliebtes Freibad mit Kinderbecken, Liegewiesen und Wasserrutsche — idealer Badetag für die ganze Familie."},
+        "en": {"name": "Freilassing Open-Air Pool", "town": "Freilassing", "desc": "Popular outdoor pool with a paddling pool, sunbathing lawns and water slide — a perfect family day out."},
+        "it": {"name": "Piscina all'aperto di Freilassing", "town": "Freilassing", "desc": "Popolare piscina all'aperto con vasca per bambini, prati e scivolo — ideale per una giornata in famiglia."},
+        "hu": {"name": "Freilassing szabadtéri fürdő", "town": "Freilassing", "desc": "Kedvelt szabadtéri fürdő gyermekmedencével, napozóréttel és csúszdával — tökéletes családi nap."},
+        "cs": {"name": "Venkovní koupaliště Freilassing", "town": "Freilassing", "desc": "Oblíbené venkovní koupaliště s dětským bazénem, travnatými plochami a skluzavkou — ideální rodinný den."},
+        "es": {"name": "Piscina al aire libre de Freilassing", "town": "Freilassing", "desc": "Popular piscina al aire libre con zona infantil, césped y tobogán — un día perfecto en familia."},
+        "fr": {"name": "Piscine en plein air de Freilassing", "town": "Freilassing", "desc": "Piscine en plein air populaire avec bassin enfants, pelouses et toboggan — une journée en famille idéale."},
+        "pl": {"name": "Odkryty basen we Freilassing", "town": "Freilassing", "desc": "Popularny odkryty basen z basenem dla dzieci, trawnikami i zjeżdżalnią — idealny dzień rodzinny."},
+        "hr": {"name": "Otvoreni bazen Freilassing", "town": "Freilassing", "desc": "Popularni otvoreni bazen s dječjim bazenom, travnjacima i toboganom — savršen obiteljski dan."}
+      }
+    },
+    {
+      "id": "freibad-ainring", "category": "lakes", "roles": ["family", "active"], "seasons": ["summer"], "distance": 5, "icon": "🏊",
+      "url": "https://www.ainring.de/",
+      "i18n": {
+        "de": {"name": "Freibad Ainring", "town": "Ainring", "desc": "Kleines, familiäres Gemeindefreibad direkt vor der Haustür — mit Liegewiese, Kinderbecken und Sprungbrett."},
+        "en": {"name": "Ainring Open-Air Pool", "town": "Ainring", "desc": "Small, family-friendly community pool right on the doorstep — with lawns, a paddling pool and diving board."},
+        "it": {"name": "Piscina all'aperto di Ainring", "town": "Ainring", "desc": "Piccola e familiare piscina comunale a due passi — con prato, vasca per bambini e trampolino."},
+        "hu": {"name": "Ainring közösségi fürdő", "town": "Ainring", "desc": "Kis, családias közösségi fürdő közvetlenül a szomszédságban — napozóréttel, gyermekmedencével és ugródeszka."},
+        "cs": {"name": "Obecní koupaliště Ainring", "town": "Ainring", "desc": "Malé, rodinné obecní koupaliště hned za dveřmi — s travnatou pláží, dětským bazénem a skokanským prknem."},
+        "es": {"name": "Piscina municipal de Ainring", "town": "Ainring", "desc": "Pequeña piscina municipal familiar justo a la vuelta de la esquina — con césped, zona infantil y trampolín."},
+        "fr": {"name": "Piscine municipale d'Ainring", "town": "Ainring", "desc": "Petite piscine municipale familiale juste à la porte — avec pelouse, bassin enfants et plongeoir."},
+        "pl": {"name": "Basen komunalny w Ainring", "town": "Ainring", "desc": "Mały, rodzinny basen komunalny tuż za progiem — z trawnikiem, basenem dla dzieci i trampoliną."},
+        "hr": {"name": "Općinski bazen Ainring", "town": "Ainring", "desc": "Mali, obiteljski općinski bazen odmah pred kućom — s travnjakom, dječjim bazenom i skakaonom."}
+      }
+    },
+    {
+      "id": "waldbad-anif", "category": "lakes", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 20, "icon": "🌲",
+      "url": "https://www.anif.at/",
+      "i18n": {
+        "de": {"name": "Waldbad Anif", "town": "Anif", "desc": "Naturidyllisches Waldbad mit Kletteranlage, Sprungturm und weiten Liegewiesen — Badespaß im Grünen."},
+        "en": {"name": "Anif Forest Pool", "town": "Anif", "desc": "Natural forest pool with a climbing facility, diving tower and spacious lawns — swimming fun in the green."},
+        "it": {"name": "Bagno nel bosco di Anif", "town": "Anif", "desc": "Idilliaca piscina naturale nel bosco con arrampicata, torre di tuffi e ampi prati — divertimento in natura."},
+        "hu": {"name": "Anif erdei fürdő", "town": "Anif", "desc": "Természet-idilli erdei fürdő mászófalakkal, ugrótoronnyal és nagy napozórétekkel — fürdőmóka a zöldben."},
+        "cs": {"name": "Lesní koupaliště Anif", "town": "Anif", "desc": "Přírodní lesní koupaliště s lezeckou stěnou, skokanskou věží a prostými travnatými plochami — koupání v přírodě."},
+        "es": {"name": "Baño forestal de Anif", "town": "Anif", "desc": "Idílico baño natural en el bosque con zona de escalada, torre de saltos y amplias praderas — diversión al aire libre."},
+        "fr": {"name": "Bain forestier d'Anif", "town": "Anif", "desc": "Bain naturel idyllique en forêt avec mur d'escalade, tour de plongeon et grandes pelouses — baignade en plein air."},
+        "pl": {"name": "Leśny basen w Anif", "town": "Anif", "desc": "Idylliczny leśny basen z ścianką wspinaczkową, wieżą do skoków i rozległymi trawnikami — kąpiel w zieleni."},
+        "hr": {"name": "Šumski bazen Anif", "town": "Anif", "desc": "Idiličan šumski bazen s penjačnicom, tornjem za skokove i prostranim travnjacima — kupanje u zelenilu."}
+      }
+    },
+    {
+      "id": "spielzeugmuseum-salzburg", "category": "museum", "roles": ["family", "culture"], "seasons": ["allyear", "indoor"], "distance": 20, "icon": "🧸",
+      "url": "https://www.spielzeugmuseum.at/",
+      "i18n": {
+        "de": {"name": "Spielzeugmuseum Salzburg", "town": "Salzburg", "desc": "Charmantes Museum im historischen Bürgerspital — über 1.000 Jahre Spielzeuggeschichte auf mehreren Etagen."},
+        "en": {"name": "Salzburg Toy Museum", "town": "Salzburg", "desc": "Charming museum in the historic Bürgerspital — over 1,000 years of toy history across several floors."},
+        "it": {"name": "Museo del giocattolo di Salisburgo", "town": "Salisburgo", "desc": "Affascinante museo nel Bürgerspital storico — oltre 1.000 anni di storia del giocattolo su più piani."},
+        "hu": {"name": "Salzburgi Játékmúzeum", "town": "Salzburg", "desc": "Bájos múzeum a történelmi Bürgerspitalban — több mint 1000 év játéktörténete több emeleten."},
+        "cs": {"name": "Muzeum hraček Salzburg", "town": "Salcburk", "desc": "Okouzlující muzeum v historickém Bürgerspitalu — přes 1000 let historie hraček na několika patrech."},
+        "es": {"name": "Museo del Juguete de Salzburgo", "town": "Salzburgo", "desc": "Encantador museo en el histórico Bürgerspital — más de 1.000 años de historia del juguete en varias plantas."},
+        "fr": {"name": "Musée du jouet de Salzbourg", "town": "Salzbourg", "desc": "Charmant musée dans l'historique Bürgerspital — plus de 1 000 ans d'histoire du jouet sur plusieurs étages."},
+        "pl": {"name": "Muzeum Zabawek w Salzburgu", "town": "Salzburg", "desc": "Urocze muzeum w historycznym Bürgerspital — ponad 1000 lat historii zabawek na kilku piętrach."},
+        "hr": {"name": "Muzej igračaka Salzburg", "town": "Salzburg", "desc": "Šarmantni muzej u povijesnom Bürgerspitalu — više od 1.000 godina povijesti igračaka na nekoliko katova."}
+      }
+    },
+    {
+      "id": "stoisser-alm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 15, "icon": "🥾",
+      "url": "https://www.bad-reichenhall.de/",
+      "i18n": {
+        "de": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Sonnige Almhütte über Bad Reichenhall mit herrlichem Panoramablick — lohnende Wanderung für die ganze Familie."},
+        "en": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Sunny mountain hut above Bad Reichenhall with a magnificent panoramic view — a rewarding hike for the whole family."},
+        "it": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Rifugio alpino soleggiato sopra Bad Reichenhall con splendida vista panoramica — escursione gratificante per tutta la famiglia."},
+        "hu": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Napsütéses alpesi kunyhó Bad Reichenhall felett, gyönyörű panorámával — jutalmazó túra az egész családnak."},
+        "cs": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Slunná horská chata nad Bad Reichenhallem s nádherným panoramatickým výhledem — odměňující túra pro celou rodinu."},
+        "es": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Soleada cabaña de montaña sobre Bad Reichenhall con magnífica vista panorámica — una gratificante excursión para toda la familia."},
+        "fr": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Chalet ensoleillé au-dessus de Bad Reichenhall avec une magnifique vue panoramique — une randonnée récompensante pour toute la famille."},
+        "pl": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Słoneczna górska chata nad Bad Reichenhall z wspaniałą panoramą — satysfakcjonująca wycieczka dla całej rodziny."},
+        "hr": {"name": "Stoisser Alm", "town": "Bayerisch Gmain", "desc": "Sunčana planinska koliba iznad Bad Reichenhalla s veličanstvenim panoramskim pogledom — nagradna planinarenja za cijelu obitelj."}
+      }
+    },
+    {
+      "id": "steiner-alm", "category": "mountains", "roles": ["family", "active", "couple"], "seasons": ["summer"], "distance": 18, "icon": "🥾",
+      "url": "https://www.bad-reichenhall.de/",
+      "i18n": {
+        "de": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idyllische Almhütte am Lattengebirge — gemütliche Einkehr nach schöner Wanderung mit weitem Blick ins Tal."},
+        "en": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idyllic mountain hut on the Lattengebirge — a cosy stop after a beautiful hike with sweeping valley views."},
+        "it": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idilliaco rifugio alpino sul Lattengebirge — sosta accogliente dopo una bella escursione con ampia vista sulla valle."},
+        "hu": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idillikus alpesi kunyhó a Lattengebirgén — kellemes megálló szép túra után, széles völgyi kilátással."},
+        "cs": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idylická horská chata na Lattengebirge — útulná zastávka po krásné túře s výhledem do údolí."},
+        "es": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idílica cabaña de montaña en el Lattengebirge — una parada acogedora tras una hermosa excursión con ampias vistas al valle."},
+        "fr": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Chalet idyllique sur le Lattengebirge — une halte chaleureuse après une belle randonnée avec vue sur la vallée."},
+        "pl": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idylliczna górska chata na Lattengebirge — przytulny postój po pięknej wycieczce z rozległym widokiem na dolinę."},
+        "hr": {"name": "Steiner Alm", "town": "Bad Reichenhall", "desc": "Idiličan planinarski dom na Lattengebirgeu — ugodan odmor nakon lijepe planinarenja s prostranim pogledom na dolinu."}
       }
     }
   ]
