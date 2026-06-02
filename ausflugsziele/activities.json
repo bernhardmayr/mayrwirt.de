@@ -6857,6 +6857,387 @@
           "desc": "Jedan od najstarijih samostana u njemackogovornom svijetu u srcu salzburstog starog grada: romanska opatijska crkva, povijesno groblje sv. Petra s katakombama u stijeni i legendarni Stiftskeller — najstariji restoran u Europi."
         }
       }
+    },
+    {
+      "id": "sole-fels-bad-berchtesgaden",
+      "category": "wellness",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 40,
+      "icon": "🚾",
+      "url": "https://www.soleleitungsbetrieb.de/sole-fels-bad/",
+      "i18n": {
+        "de": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Hallenbad mit heilsamer Berchtesgadener Sole direkt aus dem Salzbergwerk — ideal bei Atemwegserkrankungen und zur Erholung. Kombination aus Schwimmen, Saunawelt und Soletherapie mitten in den Alpen."
+        },
+        "en": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Indoor pool with healing Berchtesgaden brine pumped directly from the salt mine — ideal for respiratory conditions and relaxation. Swimming, sauna world and brine therapy in the heart of the Alps."
+        },
+        "it": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Piscina coperta con salsoiodica curativa di Berchtesgaden proveniente direttamente dalla miniera di sale — ideale per le vie respiratorie e il relax. Nuoto, saune e terapia salina nel cuore delle Alpi."
+        },
+        "hu": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Feddett uszoda gyogyito berchtesgadeni soos vizzel kozvetlenul a sooabanyabol — idealis legzoszervi panaszokra es pihenesre. Uszas, szaunavilag es soosvizterapia az Alpok sziveben."
+        },
+        "cs": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Kryte koupaliste s lecivou berchtesgadenskou slanou vodou primo z dolui — idealni pro dychaci cesty a relaxaci. Plavani, sauna a soline terapie v srdci Alp."
+        },
+        "es": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Piscina cubierta con curativa salmuera de Berchtesgaden extraida directamente de la mina de sal — ideal para afecciones respiratorias y relajacion. Natacion, saunas y terapia de salmuera en el corazon de los Alpes."
+        },
+        "fr": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Piscine couverte avec saumure curative de Berchtesgaden pompee directement de la mine de sel — ideale pour les voies respiratoires et la relaxation. Natation, sauna et therapie a la saumure au coeur des Alpes."
+        },
+        "pl": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Kryty basen z lecznicza solanka z Berchtesgaden, pompowana bezposrednio z kopalni soli — idealny na schorzenia ukladu oddechowego i relaks. Plywanie, sauny i terapia solankowa w sercu Alp."
+        },
+        "hr": {
+          "name": "Sole-Fels-Bad Berchtesgaden",
+          "town": "Berchtesgaden",
+          "desc": "Zatvoreni bazen s ljekovitom berchtesgadenskom slanom vodom izravno iz rudnika soli — idealno za disne puteve i odmor. Plivanje, saune i terapija slanom vodom u srcu Alpa."
+        }
+      }
+    },
+    {
+      "id": "alpentherme-bad-gastein",
+      "category": "wellness",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 70,
+      "icon": "🛁",
+      "url": "https://www.alpentherme.com/",
+      "i18n": {
+        "de": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Spektakulaere Thermenwelt im Herzen der Gasteiner Bergwelt: Aussen- und Innenpools mit Radontherapiewasser, Saunawelt und Panoramablick auf die verschneiten Gipfel — pure Alpenwellness."
+        },
+        "en": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Spectacular thermal spa in the heart of the Gastein mountain world: indoor and outdoor pools with radon therapy water, sauna world and panoramic views of the snowy peaks — pure Alpine wellness."
+        },
+        "it": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Spettacolare terme nel cuore delle montagne di Gastein: piscine interne ed esterne con acqua termale al radon, saune e vista panoramica sulle cime innevate — benessere alpino puro."
+        },
+        "hu": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Latvanvos termalbane a Gastein-hegyiseg sziveben: bel- es kuelteeri medencek radon-gyogyvizzel, szaunavilag es panoramas kilatas a havas csuccsokra — tiszta alpi wellnesss."
+        },
+        "cs": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Okouzlujici termalni lazne v srdci horske krajiny Gasteintal: venkovni i vnitrni bazeny s radonovou lecivou vodou, sauna a panoramaticky pohled na zasnezene stity."
+        },
+        "es": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Espectacular balneario termal en el corazon de las montanas de Gastein: piscinas interiores y exteriores con agua de radonterapia, sauna y vistas panoramicas a las cumbres nevadas."
+        },
+        "fr": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Spectaculaire complexe thermal au coeur des montagnes de Gastein : piscines interieures et exterieures avec eau de radontherapie, sauna et vue panoramique sur les sommets enneiges."
+        },
+        "pl": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Spektakularny kompleks termalny w sercu gor Gastein: baseny kryte i otwarte z woda radonowa, sauna i panoramiczny widok na osniezone szczyty — czyste alpejskie wellness."
+        },
+        "hr": {
+          "name": "Alpentherme Bad Gastein",
+          "town": "Bad Gastein (A)",
+          "desc": "Spektakularni termalni kompleks u srcu planina Gastein: unutarnji i vanjski bazeni s radon-terapijskom vodom, saune i panoramski pogled na zasnijezene vrhove — pravo alpsko wellness iskustvo."
+        }
+      }
+    },
+    {
+      "id": "chiemsee-radweg",
+      "category": "cycling",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 50,
+      "icon": "🚴",
+      "url": "https://www.chiemsee-alpenland.de/sommer/radfahren/radtouren/chiemsee-radweg/",
+      "i18n": {
+        "de": {
+          "name": "Chiemsee-Radweg",
+          "town": "Prien am Chiemsee",
+          "desc": "Rund ums Bayerische Meer: 55 km flacher Rundweg um den gesamten Chiemsee mit Blick auf Herren- und Fraueninsel, Alpenpanorama und Stationen in Prien, Seebruck und Chieming. Hervorragend ausgeschildert."
+        },
+        "en": {
+          "name": "Chiemsee Cycle Route",
+          "town": "Prien am Chiemsee",
+          "desc": "Around Bavaria's Sea: 55 km flat circular cycle route around the whole Chiemsee with views of Herrenchiemsee and Frauenchiemsee islands, Alpine panorama and stops in Prien, Seebruck and Chieming."
+        },
+        "it": {
+          "name": "Percorso ciclabile Chiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Intorno al mare bavarese: 55 km di percorso circolare piatto attorno all'intero Chiemsee con vista sulle isole Herrenchiemsee e Frauenchiemsee, panorama alpino e soste a Prien, Seebruck e Chieming."
+        },
+        "hu": {
+          "name": "Chiemsee kerekpáruet",
+          "town": "Prien am Chiemsee",
+          "desc": "Koeruet a Bajor-tenger koruel: 55 km lapos koerkerekepar az egesz Chiemsee koerul kilatassal a Herren- es Fraueninsel szigetekre, alpanoramma es megallok Prienben, Seebruckban es Chiemingben."
+        },
+        "cs": {
+          "name": "Cyklostezka Chiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Kolem Bavarskeco more: 55 km plochá okruzni cyklotrasa kolem celeho Chiemsee s vyhledem na ostrovy Herrenchiemsee a Frauenchiemsee, alpske panorama a zastavky v Prienu, Seebrucku a Chiemingu."
+        },
+        "es": {
+          "name": "Ruta ciclista del Chiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Vuelta al Mar Bávaro: 55 km de ruta circular plana alrededor del Chiemsee con vistas a las islas Herrenchiemsee y Frauenchiemsee, panorama alpino y paradas en Prien, Seebruck y Chieming."
+        },
+        "fr": {
+          "name": "Piste cyclable du Chiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Le tour de la Mer Bavaroise : 55 km de piste cyclable plate autour du Chiemsee avec vues sur les iles Herrenchiemsee et Frauenchiemsee, panorama alpin et etapes a Prien, Seebruck et Chieming."
+        },
+        "pl": {
+          "name": "Trasa rowerowa Chiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Wokol Bawarskiego Morza: 55 km plasiej petli rowerowej wokol calego Chiemsee z widokami na wyspy Herrenchiemsee i Frauenchiemsee, alppanorama i przystankami w Prien, Seebruck i Chieming."
+        },
+        "hr": {
+          "name": "Biciklisticka staza Chiemsee",
+          "town": "Prien am Chiemsee",
+          "desc": "Oko Bavarskog mora: 55 km ravne kruzne biciklisticke staze oko cijelog Chiemsee s pogledom na otoke Herrenchiemsee i Frauenchiemsee, alpskom panoramom i postajama u Prienu, Seebrucku i Chiemingu."
+        }
+      }
+    },
+    {
+      "id": "tauernradweg",
+      "category": "cycling",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 30,
+      "icon": "🚵",
+      "url": "https://www.tauernradweg.com/",
+      "i18n": {
+        "de": {
+          "name": "Tauernradweg",
+          "town": "Salzburg / Zell am See",
+          "desc": "Einer der beliebtesten Fernradwege Europas fuehrt von Krimml durch Salzburg bis Passau — der Abschnitt ab Salzburg entlang der Salzach ist auch als Tagesrunde ideal: flach, gut ausgebaut und landschaftlich eindrucksvoll."
+        },
+        "en": {
+          "name": "Tauern Cycle Path",
+          "town": "Salzburg / Zell am See",
+          "desc": "One of Europe's most popular long-distance cycle routes runs from Krimml through Salzburg to Passau — the section from Salzburg along the Salzach is ideal as a day trip: flat, well-developed and scenically impressive."
+        },
+        "it": {
+          "name": "Pista ciclabile Tauern",
+          "town": "Salzburg / Zell am See",
+          "desc": "Uno dei percorsi ciclistici a lunga distanza piu amati d'Europa va da Krimml attraverso Salisburgo fino a Passau — il tratto da Salisburgo lungo la Salzach e ideale come gita di un giorno: pianeggiante e scenicamente spettacolare."
+        },
+        "hu": {
+          "name": "Tauern kerekepar-ut",
+          "town": "Salzburg / Zell am See",
+          "desc": "Europa egyik legnepszeruebb tavolsagi kerekparuta Krimml-tol Salzburgen at Passauig — a Salzburgtol a Salzach menten valo szakasz napi kirandulaskent is idealis: lapos, jol kiepitett es latvanvos."
+        },
+        "cs": {
+          "name": "Tauernska cyklostezka",
+          "town": "Salzburg / Zell am See",
+          "desc": "Jedna z nejoblibenejsich dalkovych cyklotras v Evrope vede z Krimllu pres Salzburg do Passau — usek ze Salzburgu podél Salzach je idealni jako denni vyjezd: rovny, dobre vybudovany a krajinne puvabny."
+        },
+        "es": {
+          "name": "Ruta ciclista Tauern",
+          "town": "Salzburg / Zell am See",
+          "desc": "Una de las rutas ciclistas de larga distancia mas populares de Europa va de Krimml a traves de Salzburgo hasta Passau — el tramo desde Salzburgo a lo largo del Salzach es ideal como excursion de un dia."
+        },
+        "fr": {
+          "name": "Piste cyclable Tauern",
+          "town": "Salzburg / Zell am See",
+          "desc": "L'une des pistes cyclables longue distance les plus populaires d'Europe relie Krimml a Passau en passant par Salzbourg — le troncon depuis Salzbourg le long de la Salzach est ideal en excursion d'une journee."
+        },
+        "pl": {
+          "name": "Trasa rowerowa Tauern",
+          "town": "Salzburg / Zell am See",
+          "desc": "Jedna z najpopularniejszych dlugoterminowych tras rowerowych w Europie biegnie z Krimml przez Salzburg do Passau — odcinek od Salzburg wzdluz Salzach jest idealny jako jednodniowa wycieczka."
+        },
+        "hr": {
+          "name": "Tauernska biciklisticka staza",
+          "town": "Salzburg / Zell am See",
+          "desc": "Jedna od najpopularnijih daljinskih biciklistickih staza u Europi vodi od Krimlija kroz Salzburg do Passaua — dionica od Salzburga uz Salzach idealna je kao jednodnevni izlet: ravna, dobro opremljena i krajolicki impresivna."
+        }
+      }
+    },
+    {
+      "id": "inn-salzach-radweg",
+      "category": "cycling",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 5,
+      "icon": "🚴",
+      "url": "https://www.inn-salzach-radweg.de/",
+      "i18n": {
+        "de": {
+          "name": "Inn-Salzach-Radweg",
+          "town": "Freilassing / Laufen",
+          "desc": "Idyllischer Fluss-Radweg entlang von Inn und Salzach — direkt ab Freilassing/Laufen flussabwärts durch naturbelassene Auen, grenzüberschreitend zwischen Bayern und Oesterreich, herrlich flach und familientauglich."
+        },
+        "en": {
+          "name": "Inn-Salzach Cycle Path",
+          "town": "Freilassing / Laufen",
+          "desc": "Idyllic riverside cycle route along the Inn and Salzach — starting right from Freilassing/Laufen downstream through natural floodplains, cross-border between Bavaria and Austria, wonderfully flat and family-friendly."
+        },
+        "it": {
+          "name": "Pista ciclabile Inn-Salzach",
+          "town": "Freilassing / Laufen",
+          "desc": "Idilliaco percorso ciclabile lungo Inn e Salzach — direttamente da Freilassing/Laufen verso valle attraverso piani alluvionali naturali, transfrontaliero tra Baviera e Austria, meravigliosamente pianeggiante."
+        },
+        "hu": {
+          "name": "Inn-Salzach kerekpar-ut",
+          "town": "Freilassing / Laufen",
+          "desc": "Idillikus folyoki kerekparut az Inn es Salzach menten — kozvetlenul Freilassingtol/Laufentol lefele termeszetes artereeken at, bajor-osztrak hataraatlepeset kovetoen, csodálatosan lapos es csalaadbaraat."
+        },
+        "cs": {
+          "name": "Cyklostezka Inn-Salzach",
+          "town": "Freilassing / Laufen",
+          "desc": "Idylicka rekcni cyklostezka podél Innu a Salzach — primo z Freilassingu/Laufenu po proudu pres prirozene luhy, mezinarodni (Bavorsko-Rakousko), krasne rovinna a rodinne privetiva."
+        },
+        "es": {
+          "name": "Ruta ciclista Inn-Salzach",
+          "town": "Freilassing / Laufen",
+          "desc": "Idilica ruta ciclista fluvial a lo largo del Inn y el Salzach — directamente desde Freilassing/Laufen aguas abajo por llanuras aluviales naturales, transfronteriza entre Baviera y Austria, plana y apta para familias."
+        },
+        "fr": {
+          "name": "Piste cyclable Inn-Salzach",
+          "town": "Freilassing / Laufen",
+          "desc": "Idyllique piste cyclable le long de l'Inn et de la Salzach — directement depuis Freilassing/Laufen en aval a travers des plaines alluviales naturelles, transfrontaliere entre Baviere et Autriche, magnifiquement plate."
+        },
+        "pl": {
+          "name": "Trasa rowerowa Inn-Salzach",
+          "town": "Freilassing / Laufen",
+          "desc": "Idylliczna nadrzeczna trasa rowerowa wzdluz Inn i Salzach — bezposrednio z Freilassing/Laufen w dol rzeki przez naturalne legi, transgranicznie miedzy Bawaria a Austria, cudownie plaska i przyjazna rodzinom."
+        },
+        "hr": {
+          "name": "Biciklisticka staza Inn-Salzach",
+          "town": "Freilassing / Laufen",
+          "desc": "Idilicna rijecna biciklisticka staza uz Inn i Salzach — direktno iz Freilassinga/Laufena nizvodno kroz prirodne poplavne ravnice, prekogranicno izmedju Bavarske i Austrije, divno ravna i pogodna za obitelji."
+        }
+      }
+    },
+    {
+      "id": "tachinger-see",
+      "category": "lakes",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 20,
+      "icon": "🏝",
+      "url": "https://www.taching-am-see.de/tourismus/tachinger-see",
+      "i18n": {
+        "de": {
+          "name": "Tachinger See",
+          "town": "Taching am See",
+          "desc": "Naturbelassener Badesee nahe dem Waginger See — ruhigere Alternative mit klarem Wasser, Kiesstrand und Liegewiesen ohne den Trubel des grossen Nachbarn. Ideal fuer Schwimmer und Familien."
+        },
+        "en": {
+          "name": "Tachinger See",
+          "town": "Taching am See",
+          "desc": "Natural swimming lake near the Waginger See — a quieter alternative with clear water, pebbly beach and sunbathing lawns without the crowds of the bigger neighbour. Ideal for swimmers and families."
+        },
+        "it": {
+          "name": "Lago di Taching",
+          "town": "Taching am See",
+          "desc": "Lago naturale per il bagno vicino al Waginger See — alternativa piu tranquilla con acqua limpida, spiaggia ghiaiosa e prati per il relax senza la folla del vicino piu grande. Ideale per nuotatori e famiglie."
+        },
+        "hu": {
+          "name": "Tachinger See",
+          "town": "Taching am See",
+          "desc": "Termeszetes fuerdo-to a Waginger See kozeleben — csendesebb alternativa tiszta vizzel, kavicsos stranddal es napozoretvekkel a nagy szomszed forgalma nelkuel. Idealis uszoknak es csalaadoknak."
+        },
+        "cs": {
+          "name": "Tachinger See",
+          "town": "Taching am See",
+          "desc": "Prirozene koupaliste u Waginger See — klidnejsi alternativa s cistou vodou, sterkovou plazi a luzkami bez davü vetsiho souseda. Idealni pro plavce a rodiny."
+        },
+        "es": {
+          "name": "Lago Taching",
+          "town": "Taching am See",
+          "desc": "Lago natural de bano cerca del Waginger See — alternativa mas tranquila con agua cristalina, playa de guijarros y praderas para tomar el sol sin las multitudes del vecino mas grande. Ideal para nadadores y familias."
+        },
+        "fr": {
+          "name": "Lac de Taching",
+          "town": "Taching am See",
+          "desc": "Lac de baignade naturel pres du Waginger See — alternative plus tranquille avec eau claire, plage de galets et pelouses sans la foule du grand voisin. Ideal pour les nageurs et les familles."
+        },
+        "pl": {
+          "name": "Jezioro Taching",
+          "town": "Taching am See",
+          "desc": "Naturalne kapielisko w poblizu Waginger See — spokojniejsza alternatywa z czystą woda, zwirowisk plazami i lezakowiskami bez tłumow wiekszego sasiada. Idealne dla plywakow i rodzin."
+        },
+        "hr": {
+          "name": "Jezero Taching",
+          "town": "Taching am See",
+          "desc": "Prirodno kupacko jezero blizu Waginger See — mirnija alternativa s bistrom vodom, sljuncanom plazom i lezalisom bez guzve veceg susjeda. Idealno za plivace i obitelji."
+        }
+      }
     }
   ]
 }
