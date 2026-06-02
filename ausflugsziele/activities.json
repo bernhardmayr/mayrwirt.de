@@ -6405,6 +6405,70 @@
           "desc": "Obiteljska kuca Mozartovih na Makartplatzu bila je Wolfgangova rezidencija od 1773. do 1780. Originalni namjestaj, instrumenti i multimedijske izlozbe docaravaju zivot skladatelja."
         }
       }
+    },
+    {
+      "id": "waldthemenpfad-osing",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 11,
+      "icon": "🌲",
+      "url": "https://laufen.bayern/wald-themenpfad-osing.html",
+      "i18n": {
+        "de": {
+          "name": "Wald-Themenpfad Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Kostenloser 2-km-Rundweg mit 15 Stationen zum Thema Waldwandel und Baumvielfalt im Osinger Wald. Interaktive Tafeln und ein Klimawuerfel machen den Pfad zum Naturerlebnis fuer Jung und Alt."
+        },
+        "en": {
+          "name": "Osing Forest Trail",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Free 2-km circular trail with 15 stations on forest change and tree diversity in the Osing forest. Interactive panels and a climate cube make this an educational nature experience for all ages."
+        },
+        "it": {
+          "name": "Sentiero forestale Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Percorso circolare gratuito di 2 km con 15 stazioni sul cambiamento forestale e la diversita degli alberi nel bosco di Osing. Pannelli interattivi per grandi e piccoli."
+        },
+        "hu": {
+          "name": "Osing erdei tanoesveny",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Ingyenes 2 km-es koersetatany 15 allomással az erdovaeltozas es a fafajok sokfelesegerol az Osing-erdoeben. Interaktiv tablak minden korosztaly szamara."
+        },
+        "cs": {
+          "name": "Lesni naucna stezka Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Bezplatna 2 km okruzni stezka s 15 stanovisti o zmenach lesa a druhove pestrosti stromu v Osingskem lese. Interaktivni tabule pro navstevniky vsech veku."
+        },
+        "es": {
+          "name": "Sendero forestal Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Ruta circular gratuita de 2 km con 15 estaciones sobre los cambios del bosque y la diversidad de arboles en el bosque de Osing. Paneles interactivos para todas las edades."
+        },
+        "fr": {
+          "name": "Sentier forestier Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Parcours circulaire gratuit de 2 km avec 15 stations sur les changements de la foret et la diversite des arbres dans la foret d'Osing. Panneaux interactifs pour tous ages."
+        },
+        "pl": {
+          "name": "Lesna sciezka edukacyjna Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Bezplatna 2-km petla z 15 stacjami o zmianach lasu i roznorodnosci drzew w lesie Osing. Interaktywne tablice dla wszystkich grup wiekowych."
+        },
+        "hr": {
+          "name": "Sumska poducna staza Osing",
+          "town": "Laufen a.d. Salzach",
+          "desc": "Besplatna 2 km kruzna staza s 15 postaja o promjenama sume i raznolikosti stabala u sumi Osing. Interaktivne ploce za posjetitelje svih uzrasta."
+        }
+      }
     }
   ]
 }
