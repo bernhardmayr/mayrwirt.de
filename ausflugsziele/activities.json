@@ -7854,7 +7854,7 @@
       }
     },
     {
-      "id": "kino-salzburg",
+      "id": "das-kino-salzburg",
       "category": "city",
       "roles": [
         "families",
@@ -7872,49 +7872,49 @@
       "url": "https://www.daskino.at/",
       "i18n": {
         "de": {
-          "name": "Kino in Salzburg",
+          "name": "Das Kino Salzburg",
           "town": "Salzburg",
-          "desc": "Salzburg bietet mehrere Kinos fuer jeden Geschmack: 'Das Kino' im Stadtzentrum zeigt Arthouse- und internationale Filme, das Cineplexx die aktuellen Blockbuster — ideal fuer Regentage oder Abende in der Stadt."
+          "desc": "Beliebtes Programmkino im Herzen der Altstadt — zeigt internationale Arthouse-Filme, Dokumentationen und Originalversionen. Perfekt fuer Filmliebhaber, die abseits der grossen Blockbuster suchen."
         },
         "en": {
-          "name": "Cinema in Salzburg",
+          "name": "Das Kino Salzburg",
           "town": "Salzburg",
-          "desc": "Salzburg offers several cinemas for every taste: 'Das Kino' in the city centre shows arthouse and international films, while Cineplexx screens the latest blockbusters — perfect for rainy days or evenings in the city."
+          "desc": "Popular arthouse cinema in the heart of the old town — screens international films, documentaries and original-language versions. Perfect for film lovers looking beyond the mainstream blockbusters."
         },
         "it": {
-          "name": "Cinema a Salisburgo",
+          "name": "Das Kino Salisburgo",
           "town": "Salisburgo",
-          "desc": "Salisburgo offre diversi cinema per tutti i gusti: 'Das Kino' nel centro mostra film d'autore e internazionali, il Cineplexx i blockbuster piu recenti — ideale per giorni di pioggia o serate in citta."
+          "desc": "Apprezzato cinema d'essai nel cuore della citta vecchia — proietta film internazionali, documentari e versioni originali. Perfetto per gli amanti del cinema che cercano qualcosa oltre i grandi blockbuster."
         },
         "hu": {
-          "name": "Mozi Salzburgban",
+          "name": "Das Kino Salzburg",
           "town": "Salzburg",
-          "desc": "Salzburg toobb mozit kinaal minden izlesnek: a belvaros 'Das Kino' mozija arthouseot es nemzetkozi filmeket vetit, a Cineplexx a legujabb blockbustereket — idealis esoes napokra vagy varoosi estekre."
+          "desc": "Nepszeru arthouse mozi az obelvaros sziveben — nemzetkozi filmeket, dokumentumfilmeket es eredeti nyelvu vetiteseket kinal. Tokeletes filmkedvelooknek, akik toebbet keresnek a mainstream produkciokon."
         },
         "cs": {
-          "name": "Kino v Salzburgu",
+          "name": "Das Kino Salzburg",
           "town": "Salzburg",
-          "desc": "Salzburg nabizi nekolik kin pro kazky vkus: 'Das Kino' v centru mesta uvadi arthousove a mezinarodni filmy, Cineplexx aktualni traky — idealni na destivy den nebo vecery ve meste."
+          "desc": "Oblibene artove kino v srdci stareho mesta — promita mezinarodni filmy, dokumenty a originalni verze. Idealni pro milovniky filmu, kteri hledaji neco za mainstreamovymi traky."
         },
         "es": {
-          "name": "Cine en Salzburgo",
+          "name": "Das Kino Salzburgo",
           "town": "Salzburgo",
-          "desc": "Salzburgo ofrece varios cines para todos los gustos: 'Das Kino' en el centro muestra peliculas de autor e internacionales, Cineplexx los blockbusters mas recientes — ideal para dias de lluvia o tardes en la ciudad."
+          "desc": "Popular cine de arte y ensayo en el corazon del casco antiguo — proyecta peliculas internacionales, documentales y versiones originales. Perfecto para amantes del cine que buscan mas alla de los blockbusters."
         },
         "fr": {
-          "name": "Cinema a Salzbourg",
+          "name": "Das Kino Salzbourg",
           "town": "Salzbourg",
-          "desc": "Salzbourg propose plusieurs cinemas pour tous les gouts : 'Das Kino' au centre-ville projette des films d'auteur et internationaux, le Cineplexx les derniers blockbusters — ideal pour les jours de pluie ou les soirees en ville."
+          "desc": "Cinema d'art et d'essai populaire au coeur de la vieille ville — projette des films internationaux, des documentaires et des versions originales. Parfait pour les cinephiles en quete de films hors du commun."
         },
         "pl": {
-          "name": "Kino w Salzburgu",
+          "name": "Das Kino Salzburg",
           "town": "Salzburg",
-          "desc": "Salzburg oferuje kilka kin dla kazdego gustu: 'Das Kino' w centrum wyswietla filmy arthouselowe i miedzynarodowe, Cineplexx najnowsze blockbustery — idealne na deszczowe dni lub wieczory w miescie."
+          "desc": "Popularne kino arthouselowe w sercu starego miasta — wyswietla filmy miedzynarodowe, dokumenty i oryginalne wersje jezykowe. Idealne dla milosnikow kina szukajacych czegosc poza mainstreamem."
         },
         "hr": {
-          "name": "Kino u Salzburgu",
+          "name": "Das Kino Salzburg",
           "town": "Salzburg",
-          "desc": "Salzburg nudi nekoliko kina za svaki ukus: 'Das Kino' u centru prikazuje art i medjunarodne filmove, Cineplexx najnovije blockbustere — idealno za kišne dane ili veceri u gradu."
+          "desc": "Popularno art-kino u srcu starog grada — prikazuje medjunarodne filmove, dokumentarce i originalne verzije. Savrseno za ljubitelje filma koji traze nesto izvan glavnih blockbustera."
         }
       }
     },
@@ -7980,6 +7980,136 @@
           "name": "Kino Bad Reichenhall",
           "town": "Bad Reichenhall",
           "desc": "Tradicijsko kino u Bad Reichenhallu prikazuje aktualne filmske hitove — klasicno iskustvo, idealno u kombinaciji sa setnjom kroz Kurpark ili posjetom termama."
+        }
+      }
+    },
+    {
+      "id": "cineplexx-salzburg-city",
+      "category": "city",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 27,
+      "icon": "🎦",
+      "url": "https://www.cineplexx.at/center/salzburg/",
+      "i18n": {
+        "de": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburg",
+          "desc": "Modernes Multiplex-Kino in Salzburg mit grossen Leinwaenden und aktuellem Blockbuster-Programm — ideal fuer einen Kinoabend mit der Familie oder als Ausweichprogramm bei schlechtem Wetter."
+        },
+        "en": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburg",
+          "desc": "Modern multiplex cinema in Salzburg with big screens and the latest blockbuster programme — ideal for a family cinema evening or as a rainy-day alternative."
+        },
+        "it": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salisburgo",
+          "desc": "Moderno cinema multiplex a Salisburgo con grandi schermi e programma di blockbuster aggiornato — ideale per una serata al cinema in famiglia o come alternativa nei giorni di pioggia."
+        },
+        "hu": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburg",
+          "desc": "Modern multiplex mozi Salzburgban nagy vetitovaszakkal es aktualis blockbuster muessorral — idealis csalaadi moziestere vagy rossz idoo eseteen."
+        },
+        "cs": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburg",
+          "desc": "Moderni multiplex kino v Salzburgu s velkymi platny a aktualnim programem traku — idealni pro rodinny vecera nebo alternativu pri spatnem pocasi."
+        },
+        "es": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburgo",
+          "desc": "Moderno cine multiplex en Salzburgo con grandes pantallas y el programa de blockbusters mas reciente — ideal para una velada familiar en el cine o como alternativa en dias de lluvia."
+        },
+        "fr": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzbourg",
+          "desc": "Cinema multiplex moderne a Salzbourg avec grandes salles et programme blockbuster actuel — ideal pour une soiree cinema en famille ou comme alternative par mauvais temps."
+        },
+        "pl": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburg",
+          "desc": "Nowoczesne kino multipleks w Salzburgu z duzymi ekranami i aktualnym programem blockbusterow — idealne na wieczor kinowy z rodzina lub jako alternatywa przy zlej pogodzie."
+        },
+        "hr": {
+          "name": "Cineplexx Salzburg City",
+          "town": "Salzburg",
+          "desc": "Moderno multiplex kino u Salzburgu s velikim ekranima i aktualnim programom blockbustera — idealno za obiteljsku kinovecer ili kao alternativa za kišne dane."
+        }
+      }
+    },
+    {
+      "id": "cineplexx-salzburg-airport",
+      "category": "city",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 25,
+      "icon": "🎦",
+      "url": "https://www.cineplexx.at/center/salzburg-airport/",
+      "i18n": {
+        "de": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburg",
+          "desc": "Grosses Multiplex-Kino direkt am Salzburger Flughafen mit vielen Saelen und breitem Filmprogramm — praktisch kombinierbar mit einem Besuch im nahe gelegenen Hangar 7 oder Shopping in der Umgebung."
+        },
+        "en": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburg",
+          "desc": "Large multiplex cinema right at Salzburg Airport with many screens and a wide film programme — conveniently combined with a visit to nearby Hangar 7 or shopping in the area."
+        },
+        "it": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salisburgo",
+          "desc": "Grande cinema multiplex direttamente all'aeroporto di Salisburgo con molte sale e ampio programma cinematografico — comodamente abbinabile a una visita all'Hangar 7 o allo shopping nei dintorni."
+        },
+        "hu": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburg",
+          "desc": "Nagy multiplex mozi kozvetlenul a salzburgi repulooternal sok vetitoteremmel es szeles filmkinalattal — konnyen kombinalhato a kozeli Hangar 7 latogatasaval vagy bevasarlassal."
+        },
+        "cs": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburg",
+          "desc": "Velke multiplex kino primo u salzburskego letiste s mnoha saly a sirokem filmovym programem — snadno kombinovatelne s navstevou nedalekeho Hangaru 7 nebo nakupovanim."
+        },
+        "es": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburgo",
+          "desc": "Gran cine multiplex directamente en el aeropuerto de Salzburgo con muchas salas y amplio programa cinematografico — facilmente combinable con una visita al cercano Hangar 7 o de compras."
+        },
+        "fr": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzbourg",
+          "desc": "Grand cinema multiplex directement a l'aeroport de Salzbourg avec de nombreuses salles et un large programme de films — facilement combinable avec une visite au Hangar 7 tout proche ou du shopping."
+        },
+        "pl": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburg",
+          "desc": "Duze kino multipleks przy samym lotnisku w Salzburgu z wieloma salami i szerokim programem filmowym — latwo polaczyc z wizyta w pobliskim Hangar 7 lub zakupami."
+        },
+        "hr": {
+          "name": "Cineplexx Salzburg Airport",
+          "town": "Salzburg",
+          "desc": "Veliko multiplex kino izravno na salzburskom aerodromu s mnogim dvoranama i sirokim filmskim programom — lako spojivo s posjetom obliznjem Hangaru 7 ili kupovinom."
         }
       }
     }
