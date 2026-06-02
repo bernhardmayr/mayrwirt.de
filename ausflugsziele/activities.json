@@ -515,67 +515,6 @@
       }
     },
     {
-      "id": "surheimer-runde",
-      "category": "mountains",
-      "roles": [
-        "family",
-        "active"
-      ],
-      "seasons": [
-        "allyear"
-      ],
-      "distance": 2,
-      "icon": "🥾",
-      "url": "https://www.outdooractive.com/de/wanderungen/saaldorf-surheim/wanderungen-in-saaldorf-surheim/1419190/",
-      "i18n": {
-        "de": {
-          "name": "Surheimer Runde",
-          "town": "Saaldorf-Surheim",
-          "desc": "Leichter, gut begehbarer Rundwanderweg direkt vor der Haustür — perfekt für Familien."
-        },
-        "en": {
-          "name": "Surheim Circular Trail",
-          "town": "Saaldorf-Surheim",
-          "desc": "An easy, well-paved circular walk right on the doorstep — perfect for families."
-        },
-        "it": {
-          "name": "Anello di Surheim",
-          "town": "Saaldorf-Surheim",
-          "desc": "Facile sentiero ad anello ben percorribile, proprio dietro l'angolo — ideale per famiglie."
-        },
-        "hu": {
-          "name": "Surheimi körtúra",
-          "town": "Saaldorf-Surheim",
-          "desc": "Könnyű, jól járható körtúra rögtön a ház előtt — tökéletes családoknak."
-        },
-        "cs": {
-          "name": "Surheimský okruh",
-          "town": "Saaldorf-Surheim",
-          "desc": "Snadný, dobře schůdný okružní okruh hned za dveřmi — ideální pro rodiny."
-        },
-        "es": {
-          "name": "Ruta circular de Surheim",
-          "town": "Saaldorf-Surheim",
-          "desc": "Sendero circular fácil y bien transitado, justo a la vuelta de la esquina — perfecto para familias."
-        },
-        "fr": {
-          "name": "Circuit de Surheim",
-          "town": "Saaldorf-Surheim",
-          "desc": "Facile promenade circulaire bien balisée, juste à la porte — parfait pour les familles."
-        },
-        "pl": {
-          "name": "Pętla Surheim",
-          "town": "Saaldorf-Surheim",
-          "desc": "Łatwa, dobrze utwardzona pętla spacerowa tuż za progiem — idealna dla rodzin."
-        },
-        "hr": {
-          "name": "Surheimska kružna staza",
-          "town": "Saaldorf-Surheim",
-          "desc": "Lagana, dobro prohodna kružna staza odmah pred kućom — savršeno za obitelji."
-        }
-      }
-    },
-    {
       "id": "lokwelt-freilassing",
       "category": "museum",
       "roles": [
@@ -6591,6 +6530,70 @@
           "name": "Strandbad Tettenhausen",
           "town": "Tettenhausen",
           "desc": "Prirodno kupkaliste na jezeru Waging s mirnom plazom, lezalisom i bistrom vodom — tisa alternativa glavnom kupkalistu, osobito omiljena medu obiteljima."
+        }
+      }
+    },
+    {
+      "id": "haarmoos-wanderung",
+      "category": "sport",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 4,
+      "icon": "🥾",
+      "url": "https://www.saaldorf-surheim.de/tourismus-freizeit/haarmoos",
+      "i18n": {
+        "de": {
+          "name": "Haarmoos-Wanderung",
+          "town": "Saaldorf-Surheim",
+          "desc": "Leichter Rundweg durch das Haarmoos-Naturschutzgebiet direkt vor der Haustuer: Hochmoorlandschaft, Vogelbeobachtungsturm, Aussichtsplattform mit Alpenpanorama und der naturnahe Abtsdorfersee als Ziel."
+        },
+        "en": {
+          "name": "Haarmoos Hike",
+          "town": "Saaldorf-Surheim",
+          "desc": "Easy circular walk through the Haarmoos nature reserve right on the doorstep: raised bog landscape, bird-watching tower, panoramic viewpoint and the natural Abtsdorfersee lake as the highlight."
+        },
+        "it": {
+          "name": "Escursione Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Facile percorso circolare attraverso la riserva naturale Haarmoos, a due passi dall'albergo: paesaggio di torbiera, torre di osservazione degli uccelli, terrazza panoramica sulle Alpi e il lago Abtsdorfersee."
+        },
+        "hu": {
+          "name": "Haarmoos-turai setatany",
+          "town": "Saaldorf-Surheim",
+          "desc": "Konnyue koersetatany a kozeli Haarmoos termeszeti rezervatumban: laaplandscap, madarmegfigyeloe torony, panoramas kilato az Alpokra es az Abtsdorfersee-to mint celpontk."
+        },
+        "cs": {
+          "name": "Turas Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Lehka okruzni trasaa skrz prirodni rezervaci Haarmoos primo za dvermi: raseliniste, ptaci pozorovatelna, vyhlid na Alpy a prirozene jezero Abtsdorfersee jako cil."
+        },
+        "es": {
+          "name": "Senderismo por Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Ruta circular sencilla por la reserva natural Haarmoos, a pocos pasos del alojamiento: paisaje de turbera, torre de observacion de aves, mirador panoramico de los Alpes y el lago Abtsdorfersee."
+        },
+        "fr": {
+          "name": "Randonnee Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Promenade circulaire facile a travers la reserve naturelle du Haarmoos, juste a cote de l'hotel : tourbiere, tour d'observation ornithologique, point de vue panoramique sur les Alpes et le lac Abtsdorfersee."
+        },
+        "pl": {
+          "name": "Wedrowka Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Latwa petla przez rezerwat przyrody Haarmoos tuza za progiem: krajobraz torfowiskowy, wieza obserwacji ptakow, panoramiczny punkt widokowy na Alpy oraz jezioro Abtsdorfersee."
+        },
+        "hr": {
+          "name": "Pohod Haarmoos",
+          "town": "Saaldorf-Surheim",
+          "desc": "Laka kruzna setnja kroz prirodni rezervat Haarmoos odmah pored smjestaja: mocvarni krajobraz, kula za promatranje ptica, panoramski vidik na Alpe i jezero Abtsdorfersee."
         }
       }
     }
