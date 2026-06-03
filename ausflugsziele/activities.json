@@ -8112,6 +8112,70 @@
           "desc": "Veliko multiplex kino izravno na salzburskom aerodromu s mnogim dvoranama i sirokim filmskim programom — lako spojivo s posjetom obliznjem Hangaru 7 ili kupovinom."
         }
       }
+    },
+    {
+      "id": "schellenberger-eishoehle",
+      "category": "mountains",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 20,
+      "icon": "🧊",
+      "url": "https://www.salzburg.info/de/salzburg/sehenswertes/schellenberger-eishoehle",
+      "i18n": {
+        "de": {
+          "name": "Schellenberger Eishöhle",
+          "town": "Marktschellenberg",
+          "desc": "Beeindruckende natuerliche Eishoehle am suedlichen Untersberg mit phantastischen Eisformationen, Stalaktiten und Stalagmiten aus Eis — eine kuehle Entdeckung auch im Sommer, festes Schuhwerk erforderlich."
+        },
+        "en": {
+          "name": "Schellenberger Ice Cave",
+          "town": "Marktschellenberg",
+          "desc": "Impressive natural ice cave on the southern Untersberg with fantastic ice formations, stalactites and stalagmites — a cool discovery even in summer, sturdy footwear required."
+        },
+        "it": {
+          "name": "Grotta di ghiaccio di Schellenberg",
+          "town": "Marktschellenberg",
+          "desc": "Impressionante grotta di ghiaccio naturale sul versante meridionale dell'Untersberg con fantastiche formazioni di ghiaccio, stalattiti e stalagmiti — una scoperta fresca anche in estate, scarpe robuste necessarie."
+        },
+        "hu": {
+          "name": "Schellenberger jegesbarland",
+          "town": "Marktschellenberg",
+          "desc": "Lelenyes termeszetes jegbarland az Untersberg deli oldalaan fantasztikus jegformacciokkal, stalaktitokkal es stalagmitokkal — hues felfedezees nyaron is, strapabiro labbeli szukseges."
+        },
+        "cs": {
+          "name": "Schellenbergerova ledova jeskyne",
+          "town": "Marktschellenberg",
+          "desc": "Ohromujici prirozena ledova jeskyne na jiznim svahu Unttersbergu s fantastickymi ledovymi utvary, stalaktity a stalugmity — osvezujici objev i v lete, pevna obuv nutna."
+        },
+        "es": {
+          "name": "Cueva de hielo de Schellenberg",
+          "town": "Marktschellenberg",
+          "desc": "Impresionante cueva de hielo natural en el lado sur del Untersberg con fantasticas formaciones de hielo, estalactitas y estalagmitas — un descubrimiento refrescante incluso en verano, calzado resistente necesario."
+        },
+        "fr": {
+          "name": "Grotte de glace de Schellenberg",
+          "town": "Marktschellenberg",
+          "desc": "Impressionnante grotte de glace naturelle sur le versant sud de l'Untersberg avec de fantastiques formations de glace, stalactites et stalagmites — une decouverte fraiche meme en ete, chaussures solides necessaires."
+        },
+        "pl": {
+          "name": "Jaskinia lodowa Schellenberger",
+          "town": "Marktschellenberg",
+          "desc": "Imponujaca naturalna jaskinia lodowa na poludniowym zboczu Unttersbergu z fantastycznymi formacjami lodowymi, stalaktytami i stalagmitami — chlodn eodkrycie nawet latem, wymagane solidne obuwie."
+        },
+        "hr": {
+          "name": "Schellenberger ledena pecina",
+          "town": "Marktschellenberg",
+          "desc": "Impresivna prirodna ledena pecina na juznoj strani Unttersberga s fantasticnim ledenim formacijama, stalaktitima i stalagmitima — hladno otkrice cak i ljeti, potrebna cvrsta obuca."
+        }
+      }
     }
   ]
 }
