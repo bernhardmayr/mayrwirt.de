@@ -8241,6 +8241,134 @@
           "desc": "Domaca planina Chiemgaua (1.669 m) dostupna je pjesice ili ugodnom gondolom — gore cekaju panoramski pogled na Chiemsee i Alpe, planinski objekti i raznovrsne planinarske staze za sve razine kondicije."
         }
       }
+    },
+    {
+      "id": "lamprechtsofen",
+      "category": "mountains",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 55,
+      "icon": "🧱",
+      "url": "https://www.lamprechtsofen.at/",
+      "i18n": {
+        "de": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "Eines der tiefsten bekannten Hohlensysteme der Welt im Loferer Steingebirge — gefuhrte Touren fuehren durch faszinierende Felsgaenge, Wasserlaeufe und beeindruckende Kammern. Ein Abenteuer unter der Erde."
+        },
+        "en": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "One of the deepest known cave systems in the world in the Loferer Steinberge — guided tours lead through fascinating rock passages, underground streams and impressive chambers. An underground adventure."
+        },
+        "it": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "Uno dei sistemi di grotte piu profondi al mondo nelle montagne di Lofer — tour guidati attraverso affascinanti gallerie rocciose, corsi d'acqua sotterranei e impressionanti camere. Un'avventura sottoterra."
+        },
+        "hu": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "A vilag egyik legmelyebb ismert barlangrendszere a Loferer Steingebirge-ben — vezetett turak lenyugeozo sziklajararokon, foldali patakokon es lenyugezozo kamrakan at. Foldalaatti kaland."
+        },
+        "cs": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "Jeden z nejhlubsich znamych jeskynnich systemu sveta v pohori Loferer Steinberge — pruvodcovske prohlídky vedou fascinujicimi skalnimi chodbami, podzemnimi toky a puvodnivami kamery. Dobrodruzstvi pod zemi."
+        },
+        "es": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "Uno de los sistemas de cuevas mas profundos conocidos del mundo en las montanas de Lofer — visitas guiadas por fascinantes galerías rocosas, arroyos subterraneos e impresionantes camaras. Una aventura bajo tierra."
+        },
+        "fr": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "L'un des systemes de grottes les plus profonds connus du monde dans le massif de Lofer — des visites guidees menent a travers des galeries rocheuses fascinantes, des cours d'eau souterrains et des chambres impressionnantes."
+        },
+        "pl": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "Jeden z najglębszych znanych systemow jaskiniowych na swiecie w gorach Loferer Steinberge — wycieczki z przewodnikiem przez fascynujace skalne korytarze, podziemne strumienie i imponujace komnaty."
+        },
+        "hr": {
+          "name": "Lamprechtsofen",
+          "town": "Lofer (A)",
+          "desc": "Jedan od najdubljih poznatih pecinjskih sustava na svijetu u planinama Loferer Steinberge — vodene ture kroz fascinantne stijenaste hodnike, podzemne potoke i impresivne dvorane. Podzemna pustolovina."
+        }
+      }
+    },
+    {
+      "id": "tassilo-hoehlen",
+      "category": "mountains",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 62,
+      "icon": "🌊",
+      "url": "https://www.tassilohoehlen.at/",
+      "i18n": {
+        "de": {
+          "name": "Tassilo-Höhlen",
+          "town": "Mondsee (A)",
+          "desc": "Begehbare Tropfsteinhoeohle am Mondsee mit beeindruckenden Stalagmiten, Stalaktiten und unterirdischen Seen — gefuhrte Touren zeigen die Jahrmillionen alte Entstehungsgeschichte des oesterreichischen Salzkammerguts."
+        },
+        "en": {
+          "name": "Tassilo Caves",
+          "town": "Mondsee (A)",
+          "desc": "Accessible stalactite cave at Lake Mondsee with impressive stalagmites, stalactites and underground lakes — guided tours reveal the millions-of-years-old geological history of the Austrian Salzkammergut."
+        },
+        "it": {
+          "name": "Grotte Tassilo",
+          "town": "Mondsee (A)",
+          "desc": "Grotta di stalattiti visitabile sul lago di Mondsee con impressionanti stalagmiti, stalattiti e laghi sotterranei — tour guidati rivelano la storia geologica del Salzkammergut austriaco formatasi in milioni di anni."
+        },
+        "hu": {
+          "name": "Tassilo-barlangok",
+          "town": "Mondsee (A)",
+          "desc": "Latogathato cseppekoobarlang a Mondsee-nel lenyugeoozo sztalagmitokkal, sztalaktitokkal es fold alatti tavakkal — vezetett turak taarjak fel az osztrak Salzkammergut millio eves geoloogiai tortenelmet."
+        },
+        "cs": {
+          "name": "Tassilo-jeskyne",
+          "town": "Mondsee (A)",
+          "desc": "Pristupna stalaktitova jeskyne u jezera Mondsee s puvabivymi stalaktyty, stalagmity a podzemnimi jezery — pruvodcovske prohlidky odhalaji miliony let stare geologicke dejiny rakouskeho Salzkammergut."
+        },
+        "es": {
+          "name": "Cuevas Tassilo",
+          "town": "Mondsee (A)",
+          "desc": "Cueva de estalactitas accesible junto al lago Mondsee con impresionantes estalagmitas, estalactitas y lagos subterraneos — visitas guiadas revelan la historia geologica del Salzkammergut austriaco."
+        },
+        "fr": {
+          "name": "Grottes Tassilo",
+          "town": "Mondsee (A)",
+          "desc": "Grotte de stalactites accessible au bord du lac de Mondsee avec d'impressionnantes stalagmites, stalactites et lacs souterrains — des visites guidees revelent l'histoire geologique vieille de millions d'annees du Salzkammergut autrichien."
+        },
+        "pl": {
+          "name": "Jaskinie Tassilo",
+          "town": "Mondsee (A)",
+          "desc": "Dostepna jaskinia stalaktytowa nad jeziorem Mondsee z imponujacymi stalagmitami, stalaktytami i podziemnymi jeziorami — wycieczki z przewodnikiem ujawniaja miliony lat stara geologie austriackiego Salzkammergut."
+        },
+        "hr": {
+          "name": "Tassilo-pecine",
+          "town": "Mondsee (A)",
+          "desc": "Dostupna stalaktitna pecina kraj jezera Mondsee s impresivnim stalagmitima, stalaktitima i podzemnim jezerima — vodene ture otkrivaju milijunima godina staru geolosku povijest austrijskog Salzkammerguta."
+        }
+      }
     }
   ]
 }
