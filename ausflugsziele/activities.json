@@ -16,17 +16,17 @@
       "filterDist": "Entfernung",
       "filterSeason": "Jahreszeit / Wetter",
       "roles": {
-        "family": "Familie",
+        "family": "Familie & Kinder",
         "couple": "Paare",
         "active": "Aktive & Sportler",
-        "culture": "Kultur & Genuss"
+        "culture": "Kultur & Festspiele"
       },
       "cats": {
-        "mountains": "Berge & Wandern",
+        "mountains": "Salzburger & Berchtesgadener Alpen",
         "lakes": "Seen & Baden",
-        "city": "Städte & Kultur",
+        "city": "Stadt Salzburg",
         "museum": "Indoor & Museen",
-        "sport": "Sport & Action",
+        "sport": "Aktiv & Abenteuer",
         "wellness": "Wellness & Genuss",
         "cycling": "Radtouren"
       },
@@ -59,17 +59,17 @@
       "filterDist": "Distance",
       "filterSeason": "Season / Weather",
       "roles": {
-        "family": "Family",
+        "family": "Families & Children",
         "couple": "Couples",
         "active": "Active & Sporty",
-        "culture": "Culture & Enjoyment"
+        "culture": "Culture & Festivals"
       },
       "cats": {
-        "mountains": "Mountains & Hiking",
+        "mountains": "Salzburg & Berchtesgaden Alps",
         "lakes": "Lakes & Swimming",
-        "city": "Cities & Culture",
+        "city": "City of Salzburg",
         "museum": "Indoor & Museums",
-        "sport": "Sport & Action",
+        "sport": "Active & Adventure",
         "wellness": "Wellness & Spa",
         "cycling": "Cycling Tours"
       },
@@ -102,17 +102,17 @@
       "filterDist": "Distanza",
       "filterSeason": "Stagione / Meteo",
       "roles": {
-        "family": "Famiglia",
+        "family": "Famiglia & Bambini",
         "couple": "Coppie",
         "active": "Attivi & Sportivi",
-        "culture": "Cultura & Gusto"
+        "culture": "Cultura & Festival"
       },
       "cats": {
-        "mountains": "Montagna & Trekking",
+        "mountains": "Alpi di Salisburgo & Berchtesgaden",
         "lakes": "Laghi & Balneazione",
-        "city": "Città & Cultura",
+        "city": "Città di Salisburgo",
         "museum": "Al coperto & Musei",
-        "sport": "Sport & Avventura",
+        "sport": "Attivo & Avventura",
         "wellness": "Benessere & Terme",
         "cycling": "Cicloturismo"
       },
@@ -145,17 +145,17 @@
       "filterDist": "Távolság",
       "filterSeason": "Évszak / Időjárás",
       "roles": {
-        "family": "Család",
+        "family": "Család & Gyerekek",
         "couple": "Pároknak",
         "active": "Aktív & Sportos",
-        "culture": "Kultúra & Élvezet"
+        "culture": "Kultúra & Fesztiválok"
       },
       "cats": {
-        "mountains": "Hegyek & Túrázás",
+        "mountains": "Salzburgi & Berchtesgadeni Alpok",
         "lakes": "Tavak & Fürdés",
-        "city": "Városok & Kultúra",
+        "city": "Salzburg városa",
         "museum": "Fedett & Múzeumok",
-        "sport": "Sport & Akció",
+        "sport": "Aktív & Kaland",
         "wellness": "Wellness & Gyógyfürdő",
         "cycling": "Kerékpártúrák"
       },
@@ -188,17 +188,17 @@
       "filterDist": "Vzdálenost",
       "filterSeason": "Roční období / Počasí",
       "roles": {
-        "family": "Rodina",
+        "family": "Rodina & Děti",
         "couple": "Páry",
         "active": "Aktivní & Sportovci",
-        "culture": "Kultura & Požitek"
+        "culture": "Kultura & Festivaly"
       },
       "cats": {
-        "mountains": "Hory & Turistika",
+        "mountains": "Salcburské & Berchtesgadenské Alpy",
         "lakes": "Jezera & Koupání",
-        "city": "Města & Kultura",
+        "city": "Město Salzburg",
         "museum": "Interiér & Muzea",
-        "sport": "Sport & Akce",
+        "sport": "Aktivně & Dobrodružství",
         "wellness": "Wellness & Lázně",
         "cycling": "Cykloturistika"
       },
@@ -231,17 +231,17 @@
       "filterDist": "Distancia",
       "filterSeason": "Estación / Tiempo",
       "roles": {
-        "family": "Familia",
+        "family": "Familia & Niños",
         "couple": "Parejas",
         "active": "Activos & Deportistas",
-        "culture": "Cultura & Disfrute"
+        "culture": "Cultura & Festivales"
       },
       "cats": {
-        "mountains": "Montañas & Senderismo",
+        "mountains": "Alpes de Salzburgo & Berchtesgaden",
         "lakes": "Lagos & Baño",
-        "city": "Ciudades & Cultura",
+        "city": "Ciudad de Salzburgo",
         "museum": "Interior & Museos",
-        "sport": "Deporte & Acción",
+        "sport": "Activo & Aventura",
         "wellness": "Bienestar & Spa",
         "cycling": "Rutas en bici"
       },
@@ -274,17 +274,17 @@
       "filterDist": "Distance",
       "filterSeason": "Saison / Météo",
       "roles": {
-        "family": "Famille",
+        "family": "Famille & Enfants",
         "couple": "Couples",
         "active": "Actifs & Sportifs",
-        "culture": "Culture & Plaisir"
+        "culture": "Culture & Festivals"
       },
       "cats": {
-        "mountains": "Montagnes & Randonnée",
+        "mountains": "Alpes de Salzbourg & Berchtesgaden",
         "lakes": "Lacs & Baignade",
-        "city": "Villes & Culture",
+        "city": "Ville de Salzbourg",
         "museum": "Intérieur & Musées",
-        "sport": "Sport & Action",
+        "sport": "Actif & Aventure",
         "wellness": "Bien-être & Spa",
         "cycling": "Vélo & Cyclisme"
       },
@@ -317,17 +317,17 @@
       "filterDist": "Odległość",
       "filterSeason": "Pora roku / Pogoda",
       "roles": {
-        "family": "Rodzina",
+        "family": "Rodzina & Dzieci",
         "couple": "Pary",
         "active": "Aktywni & Sportowcy",
-        "culture": "Kultura & Przyjemność"
+        "culture": "Kultura & Festiwale"
       },
       "cats": {
-        "mountains": "Góry & Turystyka",
+        "mountains": "Alpy Salzburskie & Berchtesgadenskie",
         "lakes": "Jeziora & Kąpiel",
-        "city": "Miasta & Kultura",
+        "city": "Miasto Salzburg",
         "museum": "Wnętrza & Muzea",
-        "sport": "Sport & Akcja",
+        "sport": "Aktywnie & Przygoda",
         "wellness": "Wellness & Spa",
         "cycling": "Trasy rowerowe"
       },
@@ -360,17 +360,17 @@
       "filterDist": "Udaljenost",
       "filterSeason": "Godišnje doba / Vrijeme",
       "roles": {
-        "family": "Obitelj",
+        "family": "Obitelj & Djeca",
         "couple": "Parovi",
         "active": "Aktivni & Sportaši",
-        "culture": "Kultura & Užitak"
+        "culture": "Kultura & Festivali"
       },
       "cats": {
-        "mountains": "Planine & Pješačenje",
+        "mountains": "Salzburške & Berchtesgadenske Alpe",
         "lakes": "Jezera & Kupanje",
-        "city": "Gradovi & Kultura",
+        "city": "Grad Salzburg",
         "museum": "Zatvoreni prostori & Muzeji",
-        "sport": "Sport & Akcija",
+        "sport": "Aktivno & Avantura",
         "wellness": "Wellness & Spa",
         "cycling": "Biciklističke rute"
       },
@@ -401,17 +401,17 @@
       "filterDist": "Відстань",
       "filterSeason": "Пора року / Погода",
       "roles": {
-        "family": "Сім'я",
+        "family": "Сім'я & Діти",
         "couple": "Пари",
         "active": "Активні & Спортсмени",
-        "culture": "Культура & Насолода"
+        "culture": "Культура & Фестивалі"
       },
       "cats": {
-        "mountains": "Гори & Походи",
+        "mountains": "Зальцбурзькі & Берхтесгаденські Альпи",
         "lakes": "Озера & Купання",
-        "city": "Міста & Культура",
+        "city": "Місто Зальцбург",
         "museum": "Закриті приміщення & Музеї",
-        "sport": "Спорт & Акція",
+        "sport": "Активно & Пригоди",
         "wellness": "Велнес & Спа"
       },
       "seasons": {
@@ -440,17 +440,17 @@
       "filterDist": "Vzdialenosť",
       "filterSeason": "Ročné obdobie / Počasie",
       "roles": {
-        "family": "Rodina",
+        "family": "Rodina & Deti",
         "couple": "Páry",
         "active": "Aktívni & Športovci",
-        "culture": "Kultúra & Požitok"
+        "culture": "Kultúra & Festivaly"
       },
       "cats": {
-        "mountains": "Hory & Turistika",
+        "mountains": "Salzburské & Berchtesgadenské Alpy",
         "lakes": "Jazerá & Kúpanie",
-        "city": "Mestá & Kultúra",
+        "city": "Mesto Salzburg",
         "museum": "Interiér & Múzeá",
-        "sport": "Šport & Akcia",
+        "sport": "Aktívne & Dobrodružstvo",
         "wellness": "Wellness & Kúpele"
       },
       "seasons": {
@@ -479,17 +479,17 @@
       "filterDist": "Afstand",
       "filterSeason": "Seizoen / Weer",
       "roles": {
-        "family": "Familie",
+        "family": "Gezin & Kinderen",
         "couple": "Koppels",
         "active": "Actief & Sportief",
-        "culture": "Cultuur & Plezier"
+        "culture": "Cultuur & Festivals"
       },
       "cats": {
-        "mountains": "Bergen & Wandelen",
+        "mountains": "Salzburgse & Berchtesgadense Alpen",
         "lakes": "Meren & Zwemmen",
-        "city": "Steden & Cultuur",
+        "city": "Stad Salzburg",
         "museum": "Binnen & Musea",
-        "sport": "Sport & Actie",
+        "sport": "Actief & Avontuur",
         "wellness": "Wellness & Spa"
       },
       "seasons": {
