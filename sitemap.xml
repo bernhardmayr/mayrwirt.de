@@ -86,6 +86,49 @@
   </url>
 
   <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/jobboerse/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/it.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/hu.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/cs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/hr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/sk.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/nl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/jobboerse/en.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/jobboerse/it.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/jobboerse/hu.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/jobboerse/cs.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
     <loc>https://bernhardmayr.github.io/mayrwirt.de/impressum-und-datenschutz/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
