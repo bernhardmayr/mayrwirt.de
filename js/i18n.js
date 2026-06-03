@@ -35,7 +35,7 @@ async function setLang(lang) {
         btn.classList.toggle('active', btn.dataset.lang === lang);
     });
     const link = document.getElementById('menu-link');
-    if (link) link.href = menuUrls[lang] || menuUrls.de;
+    if (link) link.href = tageskarteUrls[lang] || tageskarteUrls.de;
     const tLink = document.getElementById('tageskarte-link');
     if (tLink) tLink.href = tageskarteUrls[lang] || tageskarteUrls.de;
     document.querySelectorAll('[data-activities-link]').forEach(a => {
