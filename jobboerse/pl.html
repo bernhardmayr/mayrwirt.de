@@ -82,6 +82,8 @@
   .site-footer{background:#111;color:rgba(255,255,255,.4);text-align:center;font-size:.8rem;padding:1.5rem 1rem}
   .site-footer a{color:rgba(255,255,255,.5)}
   .site-footer a:hover{color:#fff}
+  .back-text{display:inline}
+  @media(max-width:480px){.back-text{display:none}}
 </style>
 </head>
 <body class="bg-cream">
@@ -89,9 +91,9 @@
 <header class="act-site-header">
     <a href="../index.html" class="back">
         <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/></svg>
-        Powrót do strony
+        <span class="back-text">Powrót do strony</span>
     </a>
-    <span class="brand"><img src="../wp-content/uploads/2015/05/Mayrwirt.png" alt="Mayrwirt"> Mayrwirt</span>
+    <span class="brand"><img src="../wp-content/uploads/2015/05/Mayrwirt.png" alt="Mayrwirt"></span>
     <div class="sub-lang-dd" id="sub-lang-wrap">
         <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
             🇵🇱&nbsp;PL <span class="sub-lang-chevron">▾</span>
