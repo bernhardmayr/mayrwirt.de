@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jobbörse Mayrwirt – Wir suchen motivierte Mitarbeiter für unser Team in Saaldorf.">
+    <title>Jobbörse – Mayrwirt Landgasthof & Metzgerei</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="../wp-content/uploads/2015/05/FavIcon_16x16.png">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #FAF7F2;
+            color: #2C2C2C;
+            line-height: 1.6;
+        }
+
+        a { color: #2D5016; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            background: #2D5016;
+            color: white;
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+        }
+        .site-header .brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .site-header .brand img { height: 2rem; width: auto; filter: brightness(0) invert(1); }
+        .site-header .back {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.75);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: color 0.2s;
+        }
+        .site-header .back:hover { color: white; text-decoration: none; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #2D5016 0%, #1a3a0a 100%);
+            color: white;
+            text-align: center;
+            padding: 4rem 1.5rem 3.5rem;
+        }
+        .hero .label {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #C9962C;
+            margin-bottom: 1rem;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.05rem;
+            color: rgba(255,255,255,0.8);
+            max-width: 540px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        /* Main */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 3rem 1.25rem 5rem;
+        }
+
+        /* Section heading */
+        .section-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #C9962C;
+            margin-bottom: 0.4rem;
+        }
+
+        /* Job cards */
+        .jobs-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: 1fr;
+            margin-bottom: 3rem;
+        }
+        @media (min-width: 640px) {
+            .jobs-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        .job-card {
+            background: white;
+            border-radius: 1.25rem;
+            padding: 2rem;
+            border: 1px solid #e5e5e0;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .job-card:hover {
+            box-shadow: 0 6px 24px rgba(45,80,22,0.12);
+            transform: translateY(-2px);
+        }
+
+        .job-card-icon {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 0.875rem;
+            background: rgba(45,80,22,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .job-card-icon svg { width: 1.4rem; height: 1.4rem; color: #2D5016; }
+
+        .job-card-header { display: flex; align-items: flex-start; gap: 1rem; }
+
+        .job-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 0.25rem 0.7rem;
+            border-radius: 999px;
+            white-space: nowrap;
+        }
+        .badge-green { background: rgba(45,80,22,0.1); color: #2D5016; }
+        .badge-gold  { background: rgba(201,150,44,0.15); color: #9a6e10; }
+
+        .job-card p {
+            font-size: 0.9rem;
+            color: #555;
+            line-height: 1.65;
+        }
+
+        .job-details {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.45rem;
+        }
+        .job-details li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: #444;
+        }
+        .job-details li svg {
+            width: 1rem;
+            height: 1rem;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+            color: #2D5016;
+        }
+
+        .btn-apply {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: #2D5016;
+            color: white;
+            font-size: 0.875rem;
+            font-weight: 600;
+            padding: 0.65rem 1.4rem;
+            border-radius: 0.75rem;
+            transition: background 0.2s, transform 0.15s;
+            margin-top: auto;
+            align-self: flex-start;
+            text-decoration: none;
+        }
+        .btn-apply:hover { background: #1a3a0a; transform: translateY(-1px); text-decoration: none; }
+        .btn-apply svg { width: 1rem; height: 1rem; }
+
+        /* Contact box */
+        .contact-box {
+            background: #2D5016;
+            color: white;
+            border-radius: 1.25rem;
+            padding: 2.5rem;
+            display: grid;
+            gap: 1.5rem;
+        }
+        @media (min-width: 600px) {
+            .contact-box { grid-template-columns: 1fr 1fr; align-items: start; }
+        }
+
+        .contact-box h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+        .contact-box p {
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.65;
+        }
+        .contact-details {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        .contact-details li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .contact-details li svg {
+            width: 1.1rem;
+            height: 1.1rem;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+            color: #C9962C;
+        }
+        .contact-details a { color: rgba(255,255,255,0.9); }
+        .contact-details a:hover { color: white; }
+
+        /* Footer */
+        .site-footer {
+            background: #111;
+            color: rgba(255,255,255,0.4);
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 1.5rem 1rem;
+        }
+        .site-footer a { color: rgba(255,255,255,0.5); }
+        .site-footer a:hover { color: white; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <a href="../index.html#jobs" class="back">
+        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/>
+        </svg>
+        Zurück zur Website
+    </a>
+    <span class="brand">
+        <img src="../wp-content/uploads/2015/05/Mayrwirt.png" alt="Mayrwirt">
+        Mayrwirt
+    </span>
+</header>
+
+<div class="hero">
+    <span class="label">Karriere</span>
+    <h1>Jetzt beim Mayrwirt einsteigen</h1>
+    <p>Wir suchen zur Verstärkung unseres Teams motivierte Mitarbeiterinnen und Mitarbeiter.</p>
+</div>
+
+<div class="container">
+
+    <div class="jobs-grid">
+
+        <!-- Job 1: Fleischereifachverkäufer/-in -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <div class="job-card-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h2>Fleischereifach&shy;verkäufer/-in (m/w/d)</h2>
+                    <div class="badge-row">
+                        <span class="badge badge-gold">Ab sofort</span>
+                        <span class="badge badge-green">Minijob</span>
+                        <span class="badge badge-green">Teilzeit</span>
+                    </div>
+                </div>
+            </div>
+
+            <p>Sie beraten unsere Kunden an der Theke und helfen bei der Präsentation unserer hausgemachten Fleisch- und Wurstwaren. Quereinsteiger und Berufsanfänger sind herzlich willkommen — wir lernen Sie gerne ein.</p>
+
+            <ul class="job-details">
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    Starttermin: ab sofort
+                </li>
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    Minijob oder Teilzeit
+                </li>
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    Auch zum Anlernen geeignet
+                </li>
+            </ul>
+
+            <a href="mailto:post@mayrwirt.de?subject=Bewerbung%20Fleischereifachverk%C3%A4ufer%2F-in" class="btn-apply">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                Jetzt bewerben
+            </a>
+        </div>
+
+        <!-- Job 2: Reinigungskraft -->
+        <div class="job-card">
+            <div class="job-card-header">
+                <div class="job-card-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                    </svg>
+                </div>
+                <div>
+                    <h2>Reinigungskraft (m/w/d)</h2>
+                    <div class="badge-row">
+                        <span class="badge badge-gold">Ab 1. Mai</span>
+                        <span class="badge badge-green">Minijob</span>
+                        <span class="badge badge-green">Teilzeit</span>
+                    </div>
+                </div>
+            </div>
+
+            <p>Sie übernehmen die Reinigung und Pflege unserer Gästezimmer sowie der Gaststätte und sorgen mit Sorgfalt dafür, dass sich unsere Gäste von Anfang an rundum wohlfühlen.</p>
+
+            <ul class="job-details">
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    Starttermin: ab 1. Mai
+                </li>
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    Minijob oder Teilzeit (bis zu 20&nbsp;Std./Woche)
+                </li>
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/></svg>
+                    Arbeitszeiten flexibel, immer vormittags
+                </li>
+                <li>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                    Einsatzort: Zimmer &amp; Gaststätte
+                </li>
+            </ul>
+
+            <a href="mailto:post@mayrwirt.de?subject=Bewerbung%20Reinigungskraft" class="btn-apply">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                Jetzt bewerben
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Kontakt-Box -->
+    <div class="contact-box">
+        <div>
+            <h2>Bewerbung einreichen</h2>
+            <p>Wir freuen uns auf Ihre Bewerbung — per E-Mail, Post oder einfach persönlich vorbeikommen.</p>
+        </div>
+        <ul class="contact-details">
+            <li>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                <span>Familie Mayr<br>Untere Str. 24<br>83416 Saaldorf</span>
+            </li>
+            <li>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <a href="mailto:post@mayrwirt.de">post@mayrwirt.de</a>
+            </li>
+            <li>
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 9V5z"/></svg>
+                <a href="tel:+4986546903900">08654 690390</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    <div>&copy; 2024 Mayrwirt, Saaldorf &mdash; <a href="../impressum-und-datenschutz/index.html">Impressum &amp; Datenschutz</a></div>
+</footer>
+
+</body>
+</html>
