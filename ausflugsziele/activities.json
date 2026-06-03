@@ -8176,6 +8176,71 @@
           "desc": "Impresivna prirodna ledena pecina na juznoj strani Unttersberga s fantasticnim ledenim formacijama, stalaktitima i stalagmitima — hladno otkrice cak i ljeti, potrebna cvrsta obuca."
         }
       }
+    },
+    {
+      "id": "kampenwand",
+      "category": "mountains",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 52,
+      "icon": "🚡",
+      "url": "https://www.kampenwandbahn.de/",
+      "i18n": {
+        "de": {
+          "name": "Kampenwand & Kampenwandbahn",
+          "town": "Aschau im Chiemgau",
+          "desc": "Der Hausberg des Chiemgaus (1.669 m) ist zu Fuss oder bequem mit der Gondelbahn erreichbar — oben warten Panoramablick auf Chiemsee und Alpen, Almwirtschaften und vielfaeltige Wanderwege fuer alle Konditionsstufen."
+        },
+        "en": {
+          "name": "Kampenwand & Cable Car",
+          "town": "Aschau im Chiemgau",
+          "desc": "The home mountain of the Chiemgau (1,669 m) can be reached on foot or comfortably by gondola — at the top, panoramic views of the Chiemsee and Alps, alpine huts and varied hiking trails for all fitness levels await."
+        },
+        "it": {
+          "name": "Kampenwand e cabinovia",
+          "town": "Aschau im Chiemgau",
+          "desc": "La montagna di casa del Chiemgau (1.669 m) e raggiungibile a piedi o comodamente in gondola — in cima panorama su Chiemsee e Alpi, malghe e variegati sentieri per tutti i livelli di forma fisica."
+        },
+        "hu": {
+          "name": "Kampenwand es kotelpalya",
+          "town": "Aschau im Chiemgau",
+          "desc": "A Chiemgau-hazsaja (1669 m) gyalog vagy kenyelmesen gondolaval kozelitheto meg — a tetoon panorama a Chiemsee-re es az Alpokra, hegyi vendelglok es valtozatos turatvernavonalak minden edzettssegi szinten."
+        },
+        "cs": {
+          "name": "Kampenwand a lanovka",
+          "town": "Aschau im Chiemgau",
+          "desc": "Domaci hora Chiemgau (1 669 m) je dostupna pesky nebo pohodlne lanovkou — nahore cekat panorama Chiemsee a Alp, horske chaty a ruzne turisticke stezky pro vsechny urovne kondice."
+        },
+        "es": {
+          "name": "Kampenwand y teleférico",
+          "town": "Aschau im Chiemgau",
+          "desc": "La montana de casa del Chiemgau (1.669 m) se puede alcanzar a pie o comodamente en gondola — arriba esperan vistas panoramicas al Chiemsee y los Alpes, refugios alpinos y variados senderos para todos los niveles."
+        },
+        "fr": {
+          "name": "Kampenwand et telécabine",
+          "town": "Aschau im Chiemgau",
+          "desc": "La montagne emblematique du Chiemgau (1 669 m) est accessible a pied ou confortablement en telecabine — en haut, panorama sur le Chiemsee et les Alpes, refuges alpins et sentiers varies pour tous les niveaux."
+        },
+        "pl": {
+          "name": "Kampenwand i kolejka linowa",
+          "town": "Aschau im Chiemgau",
+          "desc": "Domowa gora Chiemgau (1669 m) dostepna pieszo lub wygodnie kolejka gondolowa — na szczycie panorama na Chiemsee i Alpy, schroniska alpejskie i roznorodne szlaki dla wszystkich poziomow kondycji."
+        },
+        "hr": {
+          "name": "Kampenwand i gondola",
+          "town": "Aschau im Chiemgau",
+          "desc": "Domaca planina Chiemgaua (1.669 m) dostupna je pjesice ili ugodnom gondolom — gore cekaju panoramski pogled na Chiemsee i Alpe, planinski objekti i raznovrsne planinarske staze za sve razine kondicije."
+        }
+      }
     }
   ]
 }
