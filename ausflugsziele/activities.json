@@ -9318,7 +9318,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "🎬",
@@ -9399,7 +9400,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 23,
       "icon": "🎥",
@@ -9480,7 +9482,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "🎦",
@@ -9561,7 +9564,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 25,
       "icon": "🎦",
