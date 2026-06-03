@@ -1,0 +1,134 @@
+{
+  "title": "Menú del día",
+  "date": "2026-05-29",
+  "subtitle": "Posada de campo &amp; Carnicería Mayrwirt · Saaldorf",
+  "note": "Los alérgenos están en nuestra lista de alérgenos — no dude en preguntar a nuestro personal.",
+  "sections": [
+    {
+      "title": "Nuestra recomendación de vino",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée tinto 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sopa",
+      "type": "items",
+      "items": [
+        {
+          "name": "Crema de espárragos",
+          "desc": "con aceite de hierbas &amp; picatostes",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Platos del día",
+      "type": "items",
+      "items": [
+        {
+          "name": "Gulasch de ternera",
+          "desc": "con knödel &amp; ensalada mixta",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Roulade de ternera",
+          "desc": "rellena de bacon, cebolla, pepinillo &amp; mostaza, tallarines &amp; ensalada mixta",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Bistec del leñador",
+          "desc": "de cuello de cerdo, patatas fritas, cebollas fritas &amp; ensalada de col",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Albóndiga de carne",
+          "desc": "con ensalada de patata y pepino &amp; salsa asada",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Flank steak rosado",
+          "desc": "con judías verdes con bacon, patatas fritas &amp; quark de hierbas",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Curry de pescado afrutado",
+          "desc": "con zanahoria, puerro &amp; arroz con almendras",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Ración de espárragos frescos",
+          "desc": "con patatas &amp; salsa holandesa o mantequilla derretida",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "con Wiener Schnitzel de ternera",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "con Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "con jamón cocido",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "con filete de lucioperca",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Para los golosos",
+      "type": "items",
+      "items": [
+        {
+          "name": "Café con helado pequeño",
+          "desc": "con 1 bola de helado de vainilla, Baileys &amp; nata",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Panna cotta pequeña",
+          "desc": "en tarro con coulis de frambuesa",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Pastel de chocolate caliente",
+          "desc": "con centro líquido, plátano, nata &amp; helado de vainilla",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Helado artesanal de cereza &amp; amaretto",
+          "price": "por bola € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Nuestra ternera",
+      "type": "items",
+      "intro": "Sacrificamos nuestros propios bovinos y los compramos a agricultores del municipio y pueblos vecinos. Las distancias cortas de transporte, la agricultura a pequeña escala y el contacto personal con los agricultores son algo completamente natural para nosotros. Nuestra carne de vacuno proviene actualmente de Leobendorf, Familia Pöllner.",
+      "items": [
+        {
+          "name": "Tomahawk steak a la parrilla",
+          "desc": "con verduras a la parrilla, patatas fritas &amp; chutney de cebolla",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "suplemento para 2 personas",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

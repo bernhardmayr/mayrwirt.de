@@ -1,0 +1,134 @@
+{
+  "title": "Napi menü",
+  "date": "2026-05-29",
+  "subtitle": "Vendégfogadó &amp; Hentesbolt Mayrwirt · Saaldorf",
+  "note": "Az allergének listája megtalálható az allergénlistán — kérjük, kérdezze felszolgálóinkat.",
+  "sections": [
+    {
+      "title": "Borajánlatunk",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée vörös 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leves",
+      "type": "items",
+      "items": [
+        {
+          "name": "Spárgakrémleves",
+          "desc": "gyógynövény-olajjal &amp; krutonnokkal",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Napi ajánlatok",
+      "type": "items",
+      "items": [
+        {
+          "name": "Marhagulyás",
+          "desc": "zsemlegombóccal &amp; vegyes salátával",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Marhatekercs",
+          "desc": "szalonnával, hagymával, savanyú uborkával &amp; mustárral töltve, szélesmetélttel &amp; vegyes salátával",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Favágó steak",
+          "desc": "sertésnyakból, sült burgonyával, sült hagymával &amp; káposztasalátával",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Húspogácsa",
+          "desc": "burgonya-uborkasalátával &amp; pecsenyelével",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Rozé sült flank steak",
+          "desc": "szalonnás babbal, hasábburgonyával &amp; fűszeres túróval",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Gyümölcsös halcurry",
+          "desc": "répával, póréhagymával &amp; mandulás rizzsel",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Friss spárga adag",
+          "desc": "burgonyával &amp; hollandi mártással vagy olvasztott vajjal",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "borjú Wiener Schnitzel-lel",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "Hanging Tender-rel",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "főtt sonkával",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "süllőfilével",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Az édesszájúaknak",
+      "type": "items",
+      "items": [
+        {
+          "name": "Kis jégeskávé",
+          "desc": "1 gombóc vaníliafagylalttal, Baileys-szel &amp; tejszínnel",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Kis panna cotta",
+          "desc": "üvegben málnapürével",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Meleg csokis sütemény",
+          "desc": "folyékony középpel, banánnal, tejszínnel &amp; vaníliafagylalttal",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Házi cseresznyés amarettó fagylalt",
+          "price": "gombóconként € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "A mi marhahúsunk",
+      "type": "items",
+      "intro": "Saját marháinkat magunk vágjuk le, amelyeket a helyi és szomszédos falvak gazdáitól szerzünk be. A rövid szállítási utak, a kisüzemi gazdálkodás és a gazdákkal való személyes kapcsolat számunkra nem különlegesség — ez mindig is természetes volt. Jelenlegi marhahúsunk Leobendorfból, Pöllner családtól származik.",
+      "items": [
+        {
+          "name": "Grillezett tomahawk steak",
+          "desc": "grillzöldséggel, hasábburgonyával &amp; hagymás csatnijelvel",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "felár 2 főre",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "title": "Tageskarte",
+  "date": "2026-05-29",
+  "subtitle": "Landgasthof &amp; Metzgerei Mayrwirt · Saaldorf",
+  "note": "Allergene sind in unserer Allergenliste aufgeführt — fragen Sie einfach unseren Service.",
+  "sections": [
+    {
+      "title": "Unsere Weinempfehlung",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée rot 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Suppe",
+      "type": "items",
+      "items": [
+        {
+          "name": "Spargelcremesuppe",
+          "desc": "mit Kräuteröl &amp; Croutons",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Tagesgerichte",
+      "type": "items",
+      "items": [
+        {
+          "name": "Rindergulasch",
+          "desc": "mit Semmelknödel &amp; gemischtem Salat",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Rinderroulade",
+          "desc": "mit Speck, Zwiebel, Gurke und Senf gefüllt, Bandnudeln &amp; gemischtem Salat",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Holzfällersteak",
+          "desc": "vom Schweinenacken, Bratkartoffeln, Röstzwiebel &amp; Krautsalat",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Fleischpflanzl",
+          "desc": "mit Kartoffel-Gurkensalat &amp; Bratensauce",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Rosa gebratenes Flanksteak",
+          "desc": "mit Speckbohnen, Pommes Frites &amp; Kräuterquark",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Fruchtiges Fischcurry",
+          "desc": "mit Karotte, Lauch &amp; Mandelreis",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Portion frischer Spargel",
+          "desc": "mit Kartoffeln &amp; Sauce Hollandaise oder zerlassener Butter",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "mit Wiener Schnitzel vom Kalb",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "mit Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "mit gekochtem Schinken",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "mit Zanderfilet",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Für die Naschkatzen &amp; Kater",
+      "type": "items",
+      "items": [
+        {
+          "name": "Kleiner Eiskaffee",
+          "desc": "mit 1 Kugel Vanilleis, Baileys &amp; Sahne",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Kleines Panna Cotta",
+          "desc": "im Weckglas mit Himbeermark",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Warmes Schokoküchlein",
+          "desc": "mit flüssigem Kern, Banane, Sahne &amp; Vanilleeis",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Hausgemachtes Kirsch-Amarettoeis",
+          "price": "je Kugel € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Unser Rindfleisch",
+      "type": "items",
+      "intro": "Wir schlachten unsere Rinder selbst und beziehen diese von Landwirten aus dem Gemeindegebiet und Nachbargemeinden. Kurze Transportwege, kleinstrukturierte Landwirtschaft und persönlicher Kontakt zu den Landwirten sind für uns nichts besonderes, sondern schon immer ganz normal. Aktuell ist unser Rindfleisch aus Leobendorf, Familie Pöllner.",
+      "items": [
+        {
+          "name": "Gegrilltes Tomahawk-Steak",
+          "desc": "mit Grillgemüse, Pommes Frites &amp; Zwiebelchutney",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "Aufpreis für 2 Personen",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

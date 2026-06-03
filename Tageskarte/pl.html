@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Étlap – Mayrwirt</title>
+    <title>Menu dnia – Mayrwirt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -17,14 +17,21 @@
         .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
         .site-header .back { font-size: 0.8rem; color: rgba(255,255,255,0.75); display: flex; align-items: center; gap: 0.4rem; }
         .site-header .back:hover { color: white; text-decoration: none; }
-        .lang-switcher { display: flex; gap: 0.5rem; font-size: 0.8rem; flex-wrap: wrap; }
-        .lang-switcher a { color: rgba(255,255,255,0.65); font-weight: 500; padding: 0.2rem 0.4rem; }
-        .lang-switcher a.active, .lang-switcher a:hover { color: white; font-weight: 700; text-decoration: none; }
+        .menu-tabs { display: flex; justify-content: center; background: white; border-bottom: 2px solid #e5e5e0; }
+        .menu-tab { padding: 0.75rem 2rem; font-size: 0.85rem; font-weight: 600; color: #6B6458; text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+        .menu-tab:hover { color: #2D5016; text-decoration: none; }
+        .menu-tab.active { color: #2D5016; border-bottom-color: #C9962C; }
         .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
-        .menu-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #2D5016; text-align: center; margin-bottom: 0.5rem; }
+        .menu-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #2D5016; text-align: center; margin-bottom: 0.4rem; }
+        .menu-date { text-align: center; color: #C9962C; font-size: 0.9rem; font-weight: 600; margin-bottom: 0.3rem; }
         .menu-subtitle { text-align: center; color: #6B6458; font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 2.5rem; }
         .section { margin-bottom: 2.5rem; }
         .section-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #2D5016; border-bottom: 2px solid #C9962C; padding-bottom: 0.4rem; margin-bottom: 1.25rem; }
+        .section-intro { font-size: 0.82rem; color: #6B6458; font-style: italic; margin-bottom: 1.25rem; line-height: 1.6; }
+        .wine-rec-item { background: #FFF9F0; border: 1px solid #C9962C; border-radius: 0.75rem; padding: 0.875rem 1.25rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; }
+        .wine-rec-name { font-weight: 600; font-size: 0.95rem; color: #1a1a1a; }
+        .wine-rec-prices { display: flex; gap: 1.5rem; flex-shrink: 0; }
+        .wine-rec-price { font-weight: 600; color: #C9962C; font-size: 0.9rem; white-space: nowrap; }
         .item { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06); }
         .item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
         .item-info { flex: 1; }
@@ -33,6 +40,10 @@
         .item-price { font-weight: 600; font-size: 0.95rem; white-space: nowrap; color: #2D5016; }
         .item-price-stack { text-align: right; }
         .item-price-stack .price-row { white-space: nowrap; color: #2D5016; font-weight: 600; font-size: 0.9rem; }
+        .item-option { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.25rem 0 0.25rem 1rem; margin-top: -0.75rem; margin-bottom: 0.75rem; font-size: 0.82rem; }
+        .item-option-label { color: #6B6458; }
+        .item-option-label::before { content: "– "; }
+        .item-option-price { font-weight: 600; color: #2D5016; white-space: nowrap; }
         .drinks-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.1rem 1.5rem; }
         .drink-item { display: flex; justify-content: space-between; padding: 0.3rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); font-size: 0.85rem; }
         .drink-name { color: #2C2C2C; }
@@ -43,15 +54,6 @@
         .wine-producer { font-size: 0.78rem; color: #6B6458; margin-top: 0.15rem; }
         .wine-price { font-weight: 600; color: #2D5016; font-size: 0.9rem; margin-top: 0.25rem; }
         .note { background: white; border-radius: 0.75rem; padding: 1rem 1.25rem; font-size: 0.78rem; color: #6B6458; line-height: 1.6; margin-top: 2rem; border: 1px solid #e5e5e0; }
-
-        .menu-tabs { display: flex; justify-content: center; background: white; border-bottom: 2px solid #e5e5e0; }
-        .menu-tab { padding: 0.75rem 2rem; font-size: 0.85rem; font-weight: 600; color: #6B6458; text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
-        .menu-tab:hover { color: #2D5016; text-decoration: none; }
-        .menu-tab.active { color: #2D5016; border-bottom-color: #C9962C; }
-        @media (max-width: 480px) { .menu-tab { padding: 0.75rem 1.25rem; } }
-        @media print { .site-header { position: static; } body { background: white; } }
-        @media (max-width: 480px) { .drinks-grid { grid-template-columns: 1fr; } }
-            /* Sub-page language dropdown */
         .sub-lang-dd { position: relative; }
         .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
         .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
@@ -62,26 +64,28 @@
         .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
         .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
         .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
-        </style>
+        @media print { .site-header, .menu-tabs { position: static; } body { background: white; } }
+        @media (max-width: 480px) { .drinks-grid { grid-template-columns: 1fr; } .menu-tab { padding: 0.75rem 1.25rem; } }
+    </style>
 </head>
 <body>
 
 <header class="site-header">
-    <a href="../index.html" class="back">← Vissza a weboldalra</a>
+    <a href="../index.html" class="back">← Powrót</a>
     <span class="brand">Mayrwirt</span>
     <div class="sub-lang-dd" id="sub-lang-wrap">
         <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
-            🇭🇺&nbsp;HU <span class="sub-lang-chevron">▾</span>
+            🇵🇱&nbsp;PL <span class="sub-lang-chevron">▾</span>
         </button>
         <div class="sub-lang-menu hidden" id="sub-lang-menu">
         <a href="de.html">🇩🇪 Deutsch</a>
         <a href="en.html">🇬🇧 English</a>
         <a href="it.html">🇮🇹 Italiano</a>
-        <a href="hu.html" class="active">🇭🇺 Magyar</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
         <a href="cs.html">🇨🇿 Čeština</a>
         <a href="es.html">🇪🇸 Español</a>
         <a href="fr.html">🇫🇷 Français</a>
-        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="pl.html" class="active">🇵🇱 Polski</a>
         <a href="hr.html">🇭🇷 Hrvatski</a>
         <a href="uk.html">🇺🇦 Українська</a>
         <a href="sk.html">🇸🇰 Slovenčina</a>
@@ -89,14 +93,15 @@
         </div>
     </div>
 </header>
+
 <div class="menu-tabs">
-    <a href="hu.html" class="menu-tab active">Étlap</a>
-    <a href="../Tageskarte/hu.html" class="menu-tab">Napi menü</a>
+    <a href="../Karte/pl.html" class="menu-tab">Karta dań</a>
+    <a href="pl.html" class="menu-tab active">Menu dnia</a>
 </div>
 
 <div class="container" id="menu-root"></div>
 
-<script src="menu.js"></script>
+<script src="tageskarte.js"></script>
 <script>
 function toggleSubLang(){
     var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');

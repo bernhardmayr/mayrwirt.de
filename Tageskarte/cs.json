@@ -1,0 +1,134 @@
+{
+  "title": "Denní menu",
+  "date": "2026-05-29",
+  "subtitle": "Venkovský hostinec &amp; Řeznictví Mayrwirt · Saaldorf",
+  "note": "Alergeny jsou uvedeny na našem listě alergenů — neváhejte se zeptat našeho personálu.",
+  "sections": [
+    {
+      "title": "Naše doporučení vína",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée červené 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Polévka",
+      "type": "items",
+      "items": [
+        {
+          "name": "Chřestová krémová polévka",
+          "desc": "s bylinkovým olejem &amp; krutony",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Denní jídla",
+      "type": "items",
+      "items": [
+        {
+          "name": "Hovězí guláš",
+          "desc": "s houskovým knedlíkem &amp; smíšeným salátem",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Hovězí roláda",
+          "desc": "plněná slaninou, cibulí, okurkou &amp; hořčicí, širokými nudlemi &amp; smíšeným salátem",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Dřevorubecký steak",
+          "desc": "z vepřového krku, opékané brambory, smažená cibulka &amp; zelný salát",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Masový karbanátek",
+          "desc": "s bramborovým a okurkovým salátem &amp; pečenou omáčkou",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Růžový flank steak",
+          "desc": "se zelenými fazolkami se slaninou, hranolkami &amp; bylinkovým tvarohem",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Ovocné rybí kari",
+          "desc": "s mrkví, pórkem &amp; mandlovým rýží",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Porce čerstvého chřestu",
+          "desc": "s brambory &amp; holandskou omáčkou nebo přepuštěným máslem",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "s telecím Wiener Schnitzel",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "s Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "s vařenou šunkou",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "s filetem ze candáta",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pro mlsné jazýčky",
+      "type": "items",
+      "items": [
+        {
+          "name": "Malá ledová káva",
+          "desc": "s 1 kopečkem vanilkové zmrzliny, Baileys &amp; šlehačkou",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Malá panna cotta",
+          "desc": "ve skleničce s malinovým pyré",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Teplý čokoládový košíček",
+          "desc": "s tekutým středem, banánem, šlehačkou &amp; vanilkovou zmrzlinou",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Domácí třešňová zmrzlina s amarettem",
+          "price": "za kopeček € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Naše hovězí maso",
+      "type": "items",
+      "intro": "Naše skot porážíme sami a nakupujeme je od zemědělců z obce a okolních obcí. Krátké přepravní vzdálenosti, malé zemědělství a osobní kontakt se zemědělci jsou pro nás samozřejmostí — vždy tomu tak bylo. Naše hovězí maso aktuálně pochází z Leobendorfu od rodiny Pöllner.",
+      "items": [
+        {
+          "name": "Grilovaný Tomahawk steak",
+          "desc": "s grilovanou zeleninou, hranolkami &amp; cibulovou chutney",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "příplatek pro 2 osoby",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

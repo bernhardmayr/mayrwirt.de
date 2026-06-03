@@ -1,0 +1,134 @@
+{
+  "title": "Carte du jour",
+  "date": "2026-05-29",
+  "subtitle": "Auberge de campagne &amp; Boucherie Mayrwirt · Saaldorf",
+  "note": "Les allergènes figurent sur notre liste d'allergènes — n'hésitez pas à demander à notre personnel.",
+  "sections": [
+    {
+      "title": "Notre sélection de vin",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée rouge 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Soupe",
+      "type": "items",
+      "items": [
+        {
+          "name": "Velouté d'asperges",
+          "desc": "à l'huile aux herbes &amp; croûtons",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Plats du jour",
+      "type": "items",
+      "items": [
+        {
+          "name": "Goulasch de bœuf",
+          "desc": "avec knödel &amp; salade mixte",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Roulade de bœuf",
+          "desc": "farcie au lard, oignon, cornichon &amp; moutarde, tagliatelles &amp; salade mixte",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Steak du bûcheron",
+          "desc": "de cou de porc, pommes sautées, oignons frits &amp; salade de chou",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Boulette de viande",
+          "desc": "avec salade de pommes de terre et concombre &amp; sauce rôtie",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Flank steak rosé",
+          "desc": "avec haricots verts au lard, frites &amp; fromage blanc aux herbes",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Curry de poisson fruité",
+          "desc": "avec carotte, poireau &amp; riz aux amandes",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Portion d'asperges fraîches",
+          "desc": "avec pommes de terre &amp; sauce hollandaise ou beurre fondu",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "avec Wiener Schnitzel de veau",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "avec Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "avec jambon cuit",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "avec filet de sandre",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pour les gourmands",
+      "type": "items",
+      "items": [
+        {
+          "name": "Petit café glacé",
+          "desc": "avec 1 boule de glace vanille, Baileys &amp; crème",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Petite panna cotta",
+          "desc": "en bocal avec coulis de framboises",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Moelleux au chocolat chaud",
+          "desc": "avec cœur fondant, banane, crème &amp; glace vanille",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Glace artisanale cerise &amp; amaretto",
+          "price": "par boule € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Notre bœuf",
+      "type": "items",
+      "intro": "Nous abattons nous-mêmes nos bovins, que nous achetons auprès d'agriculteurs de notre commune et des communes voisines. Les courts trajets, l'agriculture à petite échelle et le contact personnel avec les agriculteurs sont pour nous une évidence depuis toujours. Notre bœuf provient actuellement de Leobendorf, Famille Pöllner.",
+      "items": [
+        {
+          "name": "Tomahawk steak grillé",
+          "desc": "avec légumes grillés, frites &amp; chutney d'oignons",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "supplément pour 2 personnes",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "title": "Menù del giorno",
+  "date": "2026-05-29",
+  "subtitle": "Locanda di campagna &amp; Macelleria Mayrwirt · Saaldorf",
+  "note": "Gli allergeni sono elencati nel foglio degli allergeni — chiedete pure al nostro personale.",
+  "sections": [
+    {
+      "title": "Il nostro consiglio di vino",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée rosso 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zuppa",
+      "type": "items",
+      "items": [
+        {
+          "name": "Vellutata di asparagi",
+          "desc": "con olio alle erbe &amp; crostini",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Piatti del giorno",
+      "type": "items",
+      "items": [
+        {
+          "name": "Gulasch di manzo",
+          "desc": "con canederlo &amp; insalata mista",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Involtino di manzo",
+          "desc": "ripieno di pancetta, cipolla, cetriolino &amp; senape, tagliatelle &amp; insalata mista",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Bistecca del boscaiolo",
+          "desc": "di collo di maiale, patate saltate, cipolla fritta &amp; insalata di cavolo",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Polpetta di carne",
+          "desc": "con insalata di patate e cetrioli &amp; sugo arrosto",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Flank steak al rosato",
+          "desc": "con fagiolini alla pancetta, patatine fritte &amp; quark alle erbe",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Curry di pesce fruttato",
+          "desc": "con carota, porro &amp; riso alle mandorle",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Porzione di asparagi freschi",
+          "desc": "con patate &amp; salsa Olandese o burro fuso",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "con Wiener Schnitzel di vitello",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "con Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "con prosciutto cotto",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "con filetto di luccio-perca",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Per i golosi",
+      "type": "items",
+      "items": [
+        {
+          "name": "Piccolo caffè freddo",
+          "desc": "con 1 pallina di gelato alla vaniglia, Baileys &amp; panna",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Piccola panna cotta",
+          "desc": "in vasetto con coulis di lamponi",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Tortino al cioccolato caldo",
+          "desc": "con cuore fondente, banana, panna &amp; gelato alla vaniglia",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Gelato artigianale ciliegia &amp; amaretto",
+          "price": "a pallina € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Il nostro manzo",
+      "type": "items",
+      "intro": "Macellamo i nostri bovini direttamente e li acquistiamo da agricoltori della nostra comunità e dei comuni limitrofi. Percorsi brevi, agricoltura di piccole dimensioni e contatto personale con gli agricoltori per noi non sono nulla di speciale — è sempre stato così. Attualmente il nostro manzo proviene da Leobendorf, Famiglia Pöllner.",
+      "items": [
+        {
+          "name": "Bistecca Tomahawk alla griglia",
+          "desc": "con verdure alla griglia, patatine fritte &amp; chutney di cipolle",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "supplemento per 2 persone",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

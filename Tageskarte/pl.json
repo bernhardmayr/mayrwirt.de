@@ -1,0 +1,134 @@
+{
+  "title": "Menu dnia",
+  "date": "2026-05-29",
+  "subtitle": "Gospoda wiejska &amp; Rzeźnik Mayrwirt · Saaldorf",
+  "note": "Alergeny są wymienione na naszej liście alergenów — proszę zapytać naszą obsługę.",
+  "sections": [
+    {
+      "title": "Nasza rekomendacja wina",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée czerwone 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Zupa",
+      "type": "items",
+      "items": [
+        {
+          "name": "Krem ze szparagów",
+          "desc": "z olejkiem ziołowym &amp; grzankami",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Dania dnia",
+      "type": "items",
+      "items": [
+        {
+          "name": "Gulasz wołowy",
+          "desc": "z knedlem &amp; sałatką mieszaną",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Roladka wołowa",
+          "desc": "nadziewana boczkiem, cebulą, ogórkiem &amp; musztardą, wstążkami makaronu &amp; sałatką mieszaną",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Befsztyk drwala",
+          "desc": "z karku wieprzowego, smażone ziemniaki, smażona cebula &amp; sałatka z kapusty",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Kotlet mielony",
+          "desc": "z sałatką z ziemniaków i ogórka &amp; sosem pieczeniowym",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Różowy flank steak",
+          "desc": "z fasolką szparagową w boczku, frytkami &amp; twarożkiem ziołowym",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Owocowe curry rybne",
+          "desc": "z marchewką, porem &amp; ryżem migdałowym",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Porcja świeżych szparagów",
+          "desc": "z ziemniakami &amp; sosem holenderskim lub stopionym masłem",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "z cielęcym Wiener Schnitzel",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "z Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "z gotowaną szynką",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "z filetem sandacza",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dla łasuchów",
+      "type": "items",
+      "items": [
+        {
+          "name": "Mała kawa mrożona",
+          "desc": "z 1 gałką lodów waniliowych, Baileys &amp; bitą śmietaną",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Mała panna cotta",
+          "desc": "w słoiczku z puree malinowym",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Ciepłe fondant czekoladowe",
+          "desc": "z płynnym środkiem, bananem, bitą śmietaną &amp; lodami waniliowymi",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Domowe lody wiśniowo-amaretto",
+          "price": "za gałkę € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Nasza wołowina",
+      "type": "items",
+      "intro": "Sami ubijamy nasze bydło, które pozyskujemy od rolników z gminy i okolicznych gmin. Krótkie drogi transportu, rolnictwo małoskalowe i osobisty kontakt z rolnikami są dla nas czymś normalnym — tak było zawsze. Nasza wołowina pochodzi obecnie z Leobendorf, rodzina Pöllner.",
+      "items": [
+        {
+          "name": "Grillowany stek tomahawk",
+          "desc": "z warzywami z grilla, frytkami &amp; chutney cebulową",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "dopłata dla 2 osób",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

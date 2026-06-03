@@ -43,6 +43,12 @@
         .wine-producer { font-size: 0.78rem; color: #6B6458; margin-top: 0.15rem; }
         .wine-price { font-weight: 600; color: #2D5016; font-size: 0.9rem; margin-top: 0.25rem; }
         .note { background: white; border-radius: 0.75rem; padding: 1rem 1.25rem; font-size: 0.78rem; color: #6B6458; line-height: 1.6; margin-top: 2rem; border: 1px solid #e5e5e0; }
+
+        .menu-tabs { display: flex; justify-content: center; background: white; border-bottom: 2px solid #e5e5e0; }
+        .menu-tab { padding: 0.75rem 2rem; font-size: 0.85rem; font-weight: 600; color: #6B6458; text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+        .menu-tab:hover { color: #2D5016; text-decoration: none; }
+        .menu-tab.active { color: #2D5016; border-bottom-color: #C9962C; }
+        @media (max-width: 480px) { .menu-tab { padding: 0.75rem 1.25rem; } }
         @media print { .site-header { position: static; } body { background: white; } }
         @media (max-width: 480px) { .drinks-grid { grid-template-columns: 1fr; } }
             /* Sub-page language dropdown */
@@ -83,6 +89,10 @@
         </div>
     </div>
 </header>
+<div class="menu-tabs">
+    <a href="es.html" class="menu-tab active">Carta</a>
+    <a href="../Tageskarte/es.html" class="menu-tab">Menú del día</a>
+</div>
 
 <div class="container" id="menu-root"></div>
 

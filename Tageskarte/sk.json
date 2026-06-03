@@ -1,0 +1,134 @@
+{
+  "title": "Denné menu",
+  "date": "2026-05-29",
+  "subtitle": "Vidiecky hostinec &amp; Mäsiarstvo Mayrwirt · Saaldorf",
+  "note": "Alergény sú uvedené na našom liste alergenov — neváhajte sa opýtať nášho personálu.",
+  "sections": [
+    {
+      "title": "Naše odporúčanie vína",
+      "type": "wine-rec",
+      "items": [
+        {
+          "name": "Markowitsch – Carnuntum Cuvée červené 2024 – 13% alc.",
+          "prices": [
+            "1/8 l &nbsp; € 4,20",
+            "0,75 l &nbsp; € 24,00"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Polievka",
+      "type": "items",
+      "items": [
+        {
+          "name": "Krémová polievka zo špargľe",
+          "desc": "s bylinkovým olejom &amp; krutónmi",
+          "price": "€ 5,50"
+        }
+      ]
+    },
+    {
+      "title": "Denné jedlá",
+      "type": "items",
+      "items": [
+        {
+          "name": "Hovädzí guláš",
+          "desc": "s knedľou &amp; miešaným šalátom",
+          "price": "€ 17,50"
+        },
+        {
+          "name": "Hovädzia roláda",
+          "desc": "plnená slaninou, cibuľou, kyslou uhorkou &amp; horčicou, širokými rezancami &amp; miešaným šalátom",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Drevársky steak",
+          "desc": "z bravčového krku, pečené zemiaky, smažená cibuľka &amp; kapustový šalát",
+          "price": "€ 16,50"
+        },
+        {
+          "name": "Mäsový karbanátok",
+          "desc": "so zemiakovým a uhorkový šalátom &amp; pečenou omáčkou",
+          "price": "€ 13,00"
+        },
+        {
+          "name": "Ružový flank steak",
+          "desc": "so zelenými fazuľkami so slaninou, hranolkami &amp; bylinkovým tvarohom",
+          "price": "€ 22,00"
+        },
+        {
+          "name": "Ovocné rybacie kari",
+          "desc": "s mrkvou, pórom &amp; mandľovou ryžou",
+          "price": "€ 19,00"
+        },
+        {
+          "name": "Porcia čerstvej špargľe",
+          "desc": "so zemiakmi &amp; holandskou omáčkou alebo prepusteným maslom",
+          "price": "€ 20,00",
+          "options": [
+            {
+              "label": "s teľacím Wiener Schnitzel",
+              "price": "€ 30,00"
+            },
+            {
+              "label": "s Hanging Tender",
+              "price": "€ 33,00"
+            },
+            {
+              "label": "s varenou šunkou",
+              "price": "€ 22,00"
+            },
+            {
+              "label": "s fileom zo šťuky",
+              "price": "€ 27,00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pre sladkých maškrtníkov",
+      "type": "items",
+      "items": [
+        {
+          "name": "Malá ľadová káva",
+          "desc": "s 1 kopčekom vanilkovej zmrzliny, Baileys &amp; šľahačkou",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Malá panna cotta",
+          "desc": "v poháriku s malinovým pyré",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Teplý čokoládový košíček",
+          "desc": "s tekutým stredom, banánom, šľahačkou &amp; vanilkovou zmrzlinou",
+          "price": "€ 8,50"
+        },
+        {
+          "name": "Domáca čerešňová zmrzlina s amarettom",
+          "price": "za kopček € 2,50"
+        }
+      ]
+    },
+    {
+      "title": "Naše hovädzie mäso",
+      "type": "items",
+      "intro": "Naše dobytok porážame sami a nakupujeme ich od farmárov z obce a okolitých obcí. Krátke prepravné vzdialenosti, malé poľnohospodárstvo a osobný kontakt s farmármi sú pre nás niečím úplne bežným — vždy to tak bolo. Naše hovädzie mäso momentálne pochádza z Leobendorfu od rodiny Pöllner.",
+      "items": [
+        {
+          "name": "Grilovaný Tomahawk steak",
+          "desc": "s grilovanou zeleninou, hranolkami &amp; cibuľovým chutney",
+          "price": "€ 41,00",
+          "options": [
+            {
+              "label": "príplatok pre 2 osoby",
+              "price": "+€ 6,00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
