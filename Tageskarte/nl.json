@@ -24,7 +24,11 @@
         {
           "name": "Aspergecrèmesoep",
           "desc": "met kruidenolie &amp; croutons",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Rundvleesgulasch",
           "desc": "met broodknödel &amp; gemengde salade",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Runderrollade",
           "desc": "gevuld met spek, ui, augurk &amp; mosterd, linten pasta &amp; gemengde salade",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Houthakkersbiefstuk",
           "desc": "van varkensnek, gebakken aardappelen, gebakken ui &amp; koolsalade",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Gehaktbal",
           "desc": "met aardappel-komkommersalade &amp; braadsaus",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Roze gebakken flank steak",
           "desc": "met spekbonen, friet &amp; kruidenquark",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Fruitig viskerry",
           "desc": "met wortel, prei &amp; amandelrijst",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Portie verse asperges",
@@ -83,6 +107,10 @@
               "label": "met snoekbaarsfilet",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Kleine ijskoffie",
           "desc": "met 1 bol vanille-ijs, Baileys &amp; slagroom",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Kleine panna cotta",
           "desc": "in een potje met frambozenpuree",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Warme chocoladetaart",
           "desc": "met vloeibare kern, banaan, slagroom &amp; vanille-ijs",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Huisgemaakte kers-amaretto-ijs",
-          "price": "per bol € 2,50"
+          "price": "per bol € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "toeslag voor 2 personen",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetarisch",
+    "glutenfrei": "Glutenvrij",
+    "laktosefrei": "Lactosevrij",
+    "nussfrei": "Notenvrij",
+    "showAll": "Alles tonen"
+  }
 }

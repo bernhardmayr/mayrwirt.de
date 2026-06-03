@@ -7,175 +7,629 @@
       "title": "Předkrmy",
       "type": "items",
       "items": [
-        {"name": "Carpaccio z hovězí svíčkové z místního chovu", "desc": "s olivovým olejem, citronem, Grana Padano, salátem &amp; bagetou", "price": "€ 15,50"},
-        {"name": "Karamelizovaný kozí sýr", "desc": "s hruškovým chutney &amp; salátem z čekanky a pomeranče", "price": "€ 13,90"},
-        {"name": "Bruschetta", "desc": "Rajčata, česnek &amp; olivový olej na bílém chlebu", "price": "€ 9,80"}
+        {
+          "name": "Carpaccio z hovězí svíčkové z místního chovu",
+          "desc": "s olivovým olejem, citronem, Grana Padano, salátem &amp; bagetou",
+          "price": "€ 15,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Karamelizovaný kozí sýr",
+          "desc": "s hruškovým chutney &amp; salátem z čekanky a pomeranče",
+          "price": "€ 13,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Bruschetta",
+          "desc": "Rajčata, česnek &amp; olivový olej na bílém chlebu",
+          "price": "€ 9,80",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Polévky",
       "type": "items",
       "items": [
-        {"name": "Polévka s palačinkami", "price": "€ 5,50"},
-        {"name": "Česnečka s krutony z bílého chleba", "price": "€ 5,50"},
-        {"name": "Polévka s jaterními knedlíčky", "price": "€ 6,50"}
+        {
+          "name": "Polévka s palačinkami",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Česnečka s krutony z bílého chleba",
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Polévka s jaterními knedlíčky",
+          "price": "€ 6,50"
+        }
       ]
     },
     {
       "title": "Těstoviny",
       "type": "items",
       "items": [
-        {"name": "Tagliatelle s grilovanou zeleninou &amp; Grana Padano", "desc": "s opékaným kuřecím prsem v slaninové krustě", "prices": ["€ 13,50", "€ 17,90"]},
-        {"name": "Špagety s grilovanými bylinkovými krevetami", "desc": "česnek, dušená rajčata &amp; Grana Padano", "price": "€ 20,90"}
+        {
+          "name": "Tagliatelle s grilovanou zeleninou &amp; Grana Padano",
+          "desc": "s opékaným kuřecím prsem v slaninové krustě",
+          "prices": [
+            "€ 13,50",
+            "€ 17,90"
+          ]
+        },
+        {
+          "name": "Špagety s grilovanými bylinkovými krevetami",
+          "desc": "česnek, dušená rajčata &amp; Grana Padano",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Ryby",
       "type": "items",
       "items": [
-        {"name": "Pečené candátové filé s rozehřátým máslem", "desc": "brambory &amp; smíšený salát", "price": "€ 20,90"},
-        {"name": "Grilovaný rybí talíř", "desc": "candát, siveň, svatopetrská ryba a krevety, s bramborami &amp; smíšeným salátem", "price": "€ 22,90"},
-        {"name": "Grilované sivěňové filé", "desc": "na plněných rukolových těstovinách &amp; dušených rajčatech", "price": "€ 20,90"}
+        {
+          "name": "Pečené candátové filé s rozehřátým máslem",
+          "desc": "brambory &amp; smíšený salát",
+          "price": "€ 20,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilovaný rybí talíř",
+          "desc": "candát, siveň, svatopetrská ryba a krevety, s bramborami &amp; smíšeným salátem",
+          "price": "€ 22,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilované sivěňové filé",
+          "desc": "na plněných rukolových těstovinách &amp; dušených rajčatech",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Hlavní chody",
       "type": "items",
       "items": [
-        {"name": "Grilovaný talíř", "desc": "hovězí, vepřové, krůtí a grilované klobásy, s hranolkami &amp; bylinkovým máslem", "price": "€ 18,50"},
-        {"name": "Vídeňský řízek z vepřového", "desc": "s bramborovým salátem &amp; brusinkami", "price": "€ 14,90"},
-        {"name": "Vídeňský telecí řízek", "desc": "s opékanými bramborami &amp; brusinkami", "price": "€ 24,90"},
-        {"name": "Švábský hrnec (Schwabenpfandl)", "desc": "medailonky z vepřové svíčkové v houbové smetanové omáčce se Spätzle", "price": "€ 18,50"},
-        {"name": "Hovězí svíčkový steak v pepřové omáčce", "desc": "s rösti", "price": "€ 25,90"},
-        {"name": "Grilovaný rumpsteak", "desc": "s hranolkami, smaženou cibulkou a máslovými fazolkami", "price": "€ 26,90"},
-        {"name": "Vídeňský cibulový roštěnec z hovězí svíčkové", "desc": "s bramborami a smíšeným salátem", "price": "€ 25,90"},
-        {"name": "Grilovaný hovězí filetsteak", "desc": "s hranolkami, bylinkovým máslem a brokolicí", "price": "€ 33,90"}
+        {
+          "name": "Grilovaný talíř",
+          "desc": "hovězí, vepřové, krůtí a grilované klobásy, s hranolkami &amp; bylinkovým máslem",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Vídeňský řízek z vepřového",
+          "desc": "s bramborovým salátem &amp; brusinkami",
+          "price": "€ 14,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Vídeňský telecí řízek",
+          "desc": "s opékanými bramborami &amp; brusinkami",
+          "price": "€ 24,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Švábský hrnec (Schwabenpfandl)",
+          "desc": "medailonky z vepřové svíčkové v houbové smetanové omáčce se Spätzle",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Hovězí svíčkový steak v pepřové omáčce",
+          "desc": "s rösti",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilovaný rumpsteak",
+          "desc": "s hranolkami, smaženou cibulkou a máslovými fazolkami",
+          "price": "€ 26,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Vídeňský cibulový roštěnec z hovězí svíčkové",
+          "desc": "s bramborami a smíšeným salátem",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilovaný hovězí filetsteak",
+          "desc": "s hranolkami, bylinkovým máslem a brokolicí",
+          "price": "€ 33,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Saláty &amp; Snack",
       "type": "items",
       "items": [
-        {"name": "Malý smíšený salát", "price": "€ 5,40"},
-        {"name": "Sezonní listový salátový talíř", "desc": "s grilovanými pruhy krůtího masa, kukuřicí &amp; koktejlovým dresinkem", "price": "€ 15,90"},
-        {"desc": "s pečeným kuřecím prsem &amp; štýrským dýňovým olejem", "price": "€ 17,50"},
-        {"desc": "s grilovanými krevetami, balzamikovým dresinkem &amp; bagetou", "price": "€ 19,90"},
-        {"name": "Smažený camembert", "desc": "s brusinkami, salátovou garniturou a toastem", "price": "€ 12,90"},
-        {"name": "Smažené žampiony", "desc": "s tatarskou omáčkou a salátovou garniturou", "price": "€ 12,90"}
+        {
+          "name": "Malý smíšený salát",
+          "price": "€ 5,40",
+          "tags": [
+            "vegan",
+            "vegetarisch",
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Sezonní listový salátový talíř",
+          "desc": "s grilovanými pruhy krůtího masa, kukuřicí &amp; koktejlovým dresinkem",
+          "price": "€ 15,90",
+          "tags": [
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "s pečeným kuřecím prsem &amp; štýrským dýňovým olejem",
+          "price": "€ 17,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "s grilovanými krevetami, balzamikovým dresinkem &amp; bagetou",
+          "price": "€ 19,90",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Smažený camembert",
+          "desc": "s brusinkami, salátovou garniturou a toastem",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Smažené žampiony",
+          "desc": "s tatarskou omáčkou a salátovou garniturou",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Dezerty",
       "type": "items",
       "items": [
-        {"name": "Tvarohové knedlíčky v máslové strouhance", "desc": "s višňovým kompotem", "prices": ["1 ks € 7,50", "2 ks € 8,50"]},
-        {"name": "Palačinky", "desc": "s meruňkovým džemem nebo vanilkovou zmrzlinou", "prices": ["1 ks € 8,50", "2 ks € 9,50"]},
-        {"name": "Kaiserschmarrn", "desc": "se švestkovým kompote nebo jablečným pyré", "price": "€ 13,50"},
-        {"name": "Jablečné koblíhy v pivním těstíčku", "desc": "s ořechovou zmrzlinou &amp; šlehačkou", "price": "€ 9,90"},
-        {"name": "Míšená zmrzlina – jahoda, vanilka &amp; čokoláda se šlehačkou", "prices": ["2 ks € 5,90", "3 ks € 6,50"]},
-        {"name": "Ledová káva – vanilková zmrzlina, káva &amp; šlehačka", "price": "€ 6,90"},
-        {"name": "Ledová čokoláda – vanilková zmrzlina, čokoláda &amp; šlehačka", "price": "€ 6,90"},
-        {"name": "Ovocný pohár – jahodová zmrzlina, vanilková zmrzlina, čerstvé ovoce &amp; šlehačka", "price": "€ 8,20"},
-        {"name": "Čokoládový pohár – čokoládová zmrzlina, vaječný likér &amp; šlehačka", "price": "€ 8,20"},
-        {"name": "Ořechový pohár – ořechová zmrzlina, ořechy, lískoořechový likér &amp; šlehačka", "price": "€ 8,20"},
-        {"name": "Banana split – vanilková zmrzlina, čokoládová zmrzlina, mandle, čokoládová omáčka &amp; šlehačka", "price": "€ 8,20"},
-        {"name": "Vanilková zmrzlina s horkými malinami nebo horkými třešněmi", "price": "€ 8,20"}
+        {
+          "name": "Tvarohové knedlíčky v máslové strouhance",
+          "desc": "s višňovým kompotem",
+          "prices": [
+            "1 ks € 7,50",
+            "2 ks € 8,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Palačinky",
+          "desc": "s meruňkovým džemem nebo vanilkovou zmrzlinou",
+          "prices": [
+            "1 ks € 8,50",
+            "2 ks € 9,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Kaiserschmarrn",
+          "desc": "se švestkovým kompote nebo jablečným pyré",
+          "price": "€ 13,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Jablečné koblíhy v pivním těstíčku",
+          "desc": "s ořechovou zmrzlinou &amp; šlehačkou",
+          "price": "€ 9,90",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Míšená zmrzlina – jahoda, vanilka &amp; čokoláda se šlehačkou",
+          "prices": [
+            "2 ks € 5,90",
+            "3 ks € 6,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Ledová káva – vanilková zmrzlina, káva &amp; šlehačka",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Ledová čokoláda – vanilková zmrzlina, čokoláda &amp; šlehačka",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Ovocný pohár – jahodová zmrzlina, vanilková zmrzlina, čerstvé ovoce &amp; šlehačka",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Čokoládový pohár – čokoládová zmrzlina, vaječný likér &amp; šlehačka",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Ořechový pohár – ořechová zmrzlina, ořechy, lískoořechový likér &amp; šlehačka",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Banana split – vanilková zmrzlina, čokoládová zmrzlina, mandle, čokoládová omáčka &amp; šlehačka",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Vanilková zmrzlina s horkými malinami nebo horkými třešněmi",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Teplé nápoje",
       "type": "drinks",
       "items": [
-        {"name": "Šálek kávy", "price": "€ 3,90"},
-        {"name": "Konvička kávy", "price": "€ 4,40"},
-        {"name": "Cappuccino", "price": "€ 4,20"},
-        {"name": "Latte Macchiato", "price": "€ 4,60"},
-        {"name": "Bílá káva", "price": "€ 4,00"},
-        {"name": "Café Crème", "price": "€ 4,60"},
-        {"name": "Espresso", "price": "€ 4,60"},
-        {"name": "Sklenice čaje", "price": "€ 4,60"},
-        {"name": "Konvice čaje", "price": "€ 4,60"},
-        {"name": "Svařené víno", "price": "€ 4,40"}
+        {
+          "name": "Šálek kávy",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Konvička kávy",
+          "price": "€ 4,40"
+        },
+        {
+          "name": "Cappuccino",
+          "price": "€ 4,20"
+        },
+        {
+          "name": "Latte Macchiato",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Bílá káva",
+          "price": "€ 4,00"
+        },
+        {
+          "name": "Café Crème",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Espresso",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Sklenice čaje",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Konvice čaje",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Svařené víno",
+          "price": "€ 4,40"
+        }
       ]
     },
     {
       "title": "Piva – pivovar Wieninger",
       "type": "drinks",
       "items": [
-        {"name": "Teisendorfer světlé 0,3 l", "price": "€ 3,40"},
-        {"name": "Teisendorfer světlé 0,5 l", "price": "€ 4,70"},
-        {"name": "Pils 0,3 l", "price": "€ 3,70"},
-        {"name": "Tmavý ležák 0,5 l", "price": "€ 5,50"},
-        {"name": "Pšeničné pivo 0,3 l", "price": "€ 3,80"},
-        {"name": "Pšeničné pivo 0,5 l", "price": "€ 4,80"},
-        {"name": "Tmavé pšeničné pivo 0,5 l", "price": "€ 4,80"},
-        {"name": "Lehké pšeničné pivo 0,5 l", "price": "€ 4,80"},
-        {"name": "Nealkoholické pšeničné pivo 0,5 l", "price": "€ 4,60"},
-        {"name": "Radler 0,5 l", "price": "€ 4,50"},
-        {"name": "1813 Spezial nefiltrované 0,5 l", "price": "€ 5,50"},
-        {"name": "Jever Fun nealkoholické 0,33 l", "price": "€ 3,40"}
+        {
+          "name": "Teisendorfer světlé 0,3 l",
+          "price": "€ 3,40"
+        },
+        {
+          "name": "Teisendorfer světlé 0,5 l",
+          "price": "€ 4,70"
+        },
+        {
+          "name": "Pils 0,3 l",
+          "price": "€ 3,70"
+        },
+        {
+          "name": "Tmavý ležák 0,5 l",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Pšeničné pivo 0,3 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Pšeničné pivo 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Tmavé pšeničné pivo 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Lehké pšeničné pivo 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Nealkoholické pšeničné pivo 0,5 l",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Radler 0,5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "1813 Spezial nefiltrované 0,5 l",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Jever Fun nealkoholické 0,33 l",
+          "price": "€ 3,40"
+        }
       ]
     },
     {
       "title": "Aperitivy",
       "type": "drinks",
       "items": [
-        {"name": "Campari 5 cl", "price": "€ 5,00"},
-        {"name": "Campari-pomeranč 5 cl", "price": "€ 6,20"},
-        {"name": "Sherry 5 cl", "price": "€ 4,50"},
-        {"name": "Piccolo Prosecco 0,2 l", "price": "€ 7,50"},
-        {"name": "Sklenka šumivého vína 0,1 l", "price": "€ 4,50"},
-        {"name": "Hugo", "price": "€ 5,50"},
-        {"name": "Aperol Spritz", "price": "€ 5,50"},
-        {"name": "Prosecco-Spritz-Aperol", "price": "€ 6,00"}
+        {
+          "name": "Campari 5 cl",
+          "price": "€ 5,00"
+        },
+        {
+          "name": "Campari-pomeranč 5 cl",
+          "price": "€ 6,20"
+        },
+        {
+          "name": "Sherry 5 cl",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Piccolo Prosecco 0,2 l",
+          "price": "€ 7,50"
+        },
+        {
+          "name": "Sklenka šumivého vína 0,1 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Hugo",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Aperol Spritz",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Prosecco-Spritz-Aperol",
+          "price": "€ 6,00"
+        }
       ]
     },
     {
       "title": "Nealkoholické nápoje",
       "type": "drinks",
       "items": [
-        {"name": "Stolní voda 0,3 l", "price": "€ 3,30"},
-        {"name": "Stolní voda 0,5 l", "price": "€ 3,80"},
-        {"name": "Minerální voda 0,25 l", "price": "€ 3,50"},
-        {"name": "Minerální voda 0,5 l", "price": "€ 4,50"},
-        {"name": "Libella limonáda 0,3 l", "price": "€ 3,60"},
-        {"name": "Libella limonáda 0,5 l", "price": "€ 4,20"},
-        {"name": "Cola 0,33 l", "price": "€ 3,90"},
-        {"name": "Fanta 0,33 l", "price": "€ 3,90"},
-        {"name": "Almdudler 0,33 l", "price": "€ 4,00"},
-        {"name": "Schweppes Bitter Lemon 0,2 l", "price": "€ 3,80"},
-        {"name": "Schweppes Tonic 0,2 l", "price": "€ 3,80"},
-        {"name": "Džusový střik 0,3 l", "price": "€ 4,80"}
+        {
+          "name": "Stolní voda 0,3 l",
+          "price": "€ 3,30"
+        },
+        {
+          "name": "Stolní voda 0,5 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Minerální voda 0,25 l",
+          "price": "€ 3,50"
+        },
+        {
+          "name": "Minerální voda 0,5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Libella limonáda 0,3 l",
+          "price": "€ 3,60"
+        },
+        {
+          "name": "Libella limonáda 0,5 l",
+          "price": "€ 4,20"
+        },
+        {
+          "name": "Cola 0,33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Fanta 0,33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Almdudler 0,33 l",
+          "price": "€ 4,00"
+        },
+        {
+          "name": "Schweppes Bitter Lemon 0,2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Schweppes Tonic 0,2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Džusový střik 0,3 l",
+          "price": "€ 4,80"
+        }
       ]
     },
     {
       "title": "Bílá vína",
       "type": "wine",
       "items": [
-        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Dolní Rakousy", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Dolní Rakousy", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Falcko", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Weißburgunder", "producer": "Winzer Matthias Glaser – Hainfeld / Falcko", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+        {
+          "name": "Grüner Veltliner",
+          "producer": "Weingut Markus Huber – Reichersdorf / Dolní Rakousy",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Grüner Veltliner, Terrasse",
+          "producer": "Weingut Jurtschitsch – Langenlois / Dolní Rakousy",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Riesling Exclusiv",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Falcko",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Weißburgunder",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Falcko",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Chardonnay",
+          "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum",
+          "price": "1/8 l &nbsp; € 4,50"
+        }
       ]
     },
     {
       "title": "Rosé",
       "type": "wine",
       "items": [
-        {"name": "Portugieser Rosé", "producer": "Winzer Matthias Glaser – Hainfeld / Falcko", "price": "1/8 l &nbsp; € 3,00"},
-        {"name": "Heideboden Rosé – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+        {
+          "name": "Portugieser Rosé",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Falcko",
+          "price": "1/8 l &nbsp; € 3,00"
+        },
+        {
+          "name": "Heideboden Rosé – Burgenland",
+          "price": "1/8 l &nbsp; € 3,50"
+        }
       ]
     },
     {
       "title": "Červená vína",
       "type": "wine",
       "items": [
-        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Dolní Rakousy", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Dolní Rakousy", "price": "1/8 l &nbsp; € 4,50"},
-        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
-        {"name": "Víno s vodou bílé nebo červené", "price": "1/4 l &nbsp; € 3,80"}
+        {
+          "name": "Blaufränkisch",
+          "producer": "Winzer Markowitsch – Göttelsbrunn / Dolní Rakousy",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Zweigelt",
+          "producer": "Weingut Jurtschitsch – Langenlois / Dolní Rakousy",
+          "price": "1/8 l &nbsp; € 4,50"
+        },
+        {
+          "name": "Heideboden Merlot – Burgenland",
+          "price": "1/8 l &nbsp; € 3,80"
+        },
+        {
+          "name": "Víno s vodou bílé nebo červené",
+          "price": "1/4 l &nbsp; € 3,80"
+        }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetariánský",
+    "glutenfrei": "Bez lepku",
+    "laktosefrei": "Bez laktózy",
+    "nussfrei": "Bez ořechů",
+    "showAll": "Zobrazit vše"
+  }
 }

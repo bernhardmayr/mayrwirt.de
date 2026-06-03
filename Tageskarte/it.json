@@ -24,7 +24,11 @@
         {
           "name": "Vellutata di asparagi",
           "desc": "con olio alle erbe &amp; crostini",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Gulasch di manzo",
           "desc": "con canederlo &amp; insalata mista",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Involtino di manzo",
           "desc": "ripieno di pancetta, cipolla, cetriolino &amp; senape, tagliatelle &amp; insalata mista",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Bistecca del boscaiolo",
           "desc": "di collo di maiale, patate saltate, cipolla fritta &amp; insalata di cavolo",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Polpetta di carne",
           "desc": "con insalata di patate e cetrioli &amp; sugo arrosto",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Flank steak al rosato",
           "desc": "con fagiolini alla pancetta, patatine fritte &amp; quark alle erbe",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Curry di pesce fruttato",
           "desc": "con carota, porro &amp; riso alle mandorle",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Porzione di asparagi freschi",
@@ -83,6 +107,10 @@
               "label": "con filetto di luccio-perca",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Piccolo caffè freddo",
           "desc": "con 1 pallina di gelato alla vaniglia, Baileys &amp; panna",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Piccola panna cotta",
           "desc": "in vasetto con coulis di lamponi",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Tortino al cioccolato caldo",
           "desc": "con cuore fondente, banana, panna &amp; gelato alla vaniglia",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Gelato artigianale ciliegia &amp; amaretto",
-          "price": "a pallina € 2,50"
+          "price": "a pallina € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "supplemento per 2 persone",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetariano",
+    "glutenfrei": "Senza glutine",
+    "laktosefrei": "Senza lattosio",
+    "nussfrei": "Senza noci",
+    "showAll": "Mostra tutto"
+  }
 }

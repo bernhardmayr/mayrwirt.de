@@ -24,7 +24,11 @@
         {
           "name": "Krem ze szparagów",
           "desc": "z olejkiem ziołowym &amp; grzankami",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Gulasz wołowy",
           "desc": "z knedlem &amp; sałatką mieszaną",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Roladka wołowa",
           "desc": "nadziewana boczkiem, cebulą, ogórkiem &amp; musztardą, wstążkami makaronu &amp; sałatką mieszaną",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Befsztyk drwala",
           "desc": "z karku wieprzowego, smażone ziemniaki, smażona cebula &amp; sałatka z kapusty",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Kotlet mielony",
           "desc": "z sałatką z ziemniaków i ogórka &amp; sosem pieczeniowym",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Różowy flank steak",
           "desc": "z fasolką szparagową w boczku, frytkami &amp; twarożkiem ziołowym",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Owocowe curry rybne",
           "desc": "z marchewką, porem &amp; ryżem migdałowym",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Porcja świeżych szparagów",
@@ -83,6 +107,10 @@
               "label": "z filetem sandacza",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Mała kawa mrożona",
           "desc": "z 1 gałką lodów waniliowych, Baileys &amp; bitą śmietaną",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Mała panna cotta",
           "desc": "w słoiczku z puree malinowym",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Ciepłe fondant czekoladowe",
           "desc": "z płynnym środkiem, bananem, bitą śmietaną &amp; lodami waniliowymi",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Domowe lody wiśniowo-amaretto",
-          "price": "za gałkę € 2,50"
+          "price": "za gałkę € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "dopłata dla 2 osób",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Wegetariański",
+    "glutenfrei": "Bez glutenu",
+    "laktosefrei": "Bez laktozy",
+    "nussfrei": "Bez orzechów",
+    "showAll": "Pokaż wszystko"
+  }
 }

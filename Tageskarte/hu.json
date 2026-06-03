@@ -24,7 +24,11 @@
         {
           "name": "Spárgakrémleves",
           "desc": "gyógynövény-olajjal &amp; krutonnokkal",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Marhagulyás",
           "desc": "zsemlegombóccal &amp; vegyes salátával",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Marhatekercs",
           "desc": "szalonnával, hagymával, savanyú uborkával &amp; mustárral töltve, szélesmetélttel &amp; vegyes salátával",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Favágó steak",
           "desc": "sertésnyakból, sült burgonyával, sült hagymával &amp; káposztasalátával",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Húspogácsa",
           "desc": "burgonya-uborkasalátával &amp; pecsenyelével",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Rozé sült flank steak",
           "desc": "szalonnás babbal, hasábburgonyával &amp; fűszeres túróval",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Gyümölcsös halcurry",
           "desc": "répával, póréhagymával &amp; mandulás rizzsel",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Friss spárga adag",
@@ -83,6 +107,10 @@
               "label": "süllőfilével",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Kis jégeskávé",
           "desc": "1 gombóc vaníliafagylalttal, Baileys-szel &amp; tejszínnel",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Kis panna cotta",
           "desc": "üvegben málnapürével",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Meleg csokis sütemény",
           "desc": "folyékony középpel, banánnal, tejszínnel &amp; vaníliafagylalttal",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Házi cseresznyés amarettó fagylalt",
-          "price": "gombóconként € 2,50"
+          "price": "gombóconként € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "felár 2 főre",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetáriánus",
+    "glutenfrei": "Gluténmentes",
+    "laktosefrei": "Laktózmentes",
+    "nussfrei": "Dióféléktől mentes",
+    "showAll": "Összes mutatása"
+  }
 }
