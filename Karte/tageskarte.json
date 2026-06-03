@@ -1,0 +1,32 @@
+{
+  "title": "Tageskarte",
+  "date": "3. Juni 2026",
+  "subtitle": "Landgasthof &amp; Metzgerei Mayrwirt · Saaldorf",
+  "note": "Allergene sind in unserer Allergenliste aufgeführt — fragen Sie einfach unseren Service.",
+  "sections": [
+    {
+      "title": "Suppe",
+      "type": "items",
+      "items": [
+        {"name": "Leberknödelsuppe", "price": "€ 6,50"},
+        {"name": "Pfannkuchensuppe", "price": "€ 5,50"}
+      ]
+    },
+    {
+      "title": "Tagesgerichte",
+      "type": "items",
+      "items": [
+        {"name": "Schweinsbraten", "desc": "mit Knödel und Krautsalat", "price": "€ 14,90"},
+        {"name": "Schnitzel Wiener Art vom Schwein", "desc": "mit Kartoffelsalat &amp; Preiselbeeren", "price": "€ 14,90"},
+        {"name": "Gemüsecurry", "desc": "mit Basmatireis (vegetarisch)", "price": "€ 12,90"}
+      ]
+    },
+    {
+      "title": "Dessert",
+      "type": "items",
+      "items": [
+        {"name": "Topfenknödel in Butterbrösel", "desc": "mit Weichselröster", "prices": ["1 Stk. € 7,50", "2 Stk. € 8,50"]}
+      ]
+    }
+  ]
+}

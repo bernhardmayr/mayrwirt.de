@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tageskarte – Mayrwirt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="../wp-content/uploads/2015/05/FavIcon_16x16.png">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #FAF7F2; color: #2C2C2C; }
+        a { color: #2D5016; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 10; }
+        .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
+        .site-header .back { font-size: 0.8rem; color: rgba(255,255,255,0.75); display: flex; align-items: center; gap: 0.4rem; }
+        .site-header .back:hover { color: white; text-decoration: none; }
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+        .menu-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #2D5016; text-align: center; margin-bottom: 0.4rem; }
+        .menu-date { text-align: center; color: #C9962C; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 0.4rem; }
+        .menu-subtitle { text-align: center; color: #6B6458; font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 2.5rem; }
+        .section { margin-bottom: 2.5rem; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #2D5016; border-bottom: 2px solid #C9962C; padding-bottom: 0.4rem; margin-bottom: 1.25rem; }
+        .item { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06); }
+        .item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .item-info { flex: 1; }
+        .item-name { font-weight: 600; font-size: 0.95rem; color: #1a1a1a; }
+        .item-desc { font-size: 0.82rem; color: #6B6458; margin-top: 0.2rem; line-height: 1.45; }
+        .item-price { font-weight: 600; font-size: 0.95rem; white-space: nowrap; color: #2D5016; }
+        .item-price-stack { text-align: right; }
+        .item-price-stack .price-row { white-space: nowrap; color: #2D5016; font-weight: 600; font-size: 0.9rem; }
+        .drinks-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.1rem 1.5rem; }
+        .drink-item { display: flex; justify-content: space-between; padding: 0.3rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); font-size: 0.85rem; }
+        .drink-name { color: #2C2C2C; }
+        .drink-price { color: #2D5016; font-weight: 600; white-space: nowrap; margin-left: 0.5rem; }
+        .note { background: white; border-radius: 0.75rem; padding: 1rem 1.25rem; font-size: 0.78rem; color: #6B6458; line-height: 1.6; margin-top: 2rem; border: 1px solid #e5e5e0; }
+        .pdf-link { text-align: center; margin-top: 1.5rem; font-size: 0.85rem; }
+        .pdf-link a { color: #6B6458; display: inline-flex; align-items: center; gap: 0.4rem; }
+        .pdf-link a:hover { color: #2D5016; }
+        @media print { .site-header { position: static; } body { background: white; } }
+        @media (max-width: 480px) { .drinks-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <a href="../index.html" class="back">← Zurück zur Webseite</a>
+    <span class="brand">Mayrwirt</span>
+    <a href="de.html" class="back">Zur Speisekarte →</a>
+</header>
+
+<div class="container" id="menu-root"></div>
+
+<script src="tageskarte.js"></script>
+</body>
+</html>
