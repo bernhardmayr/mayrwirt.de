@@ -508,7 +508,6 @@
   "activities": [
     {
       "id": "abtsdorfer-see",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -581,11 +580,13 @@
           "town": "Saaldorf-Surheim",
           "desc": "Het warmste meer van Beieren — perfect voor zwemmen, watertrappen en wandelingen met uitzicht op de Alpen."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "lokwelt-freilassing",
-      "category": "museum",
       "roles": [
         "family",
         "culture"
@@ -658,11 +659,13 @@
           "town": "Freilassing",
           "desc": "Spoorwegmuseum met historische locomotieven op 17 sporen en een rijsimulator."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "badylon",
-      "category": "sport",
       "roles": [
         "family",
         "active"
@@ -735,11 +738,13 @@
           "town": "Freilassing",
           "desc": "Groot sportcentrum met overdekt zwembad, klimhal, skatepark en sporthallen — voor elk weer."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "bergbaumuseum-achthal",
-      "category": "museum",
       "roles": [
         "culture",
         "family"
@@ -812,11 +817,13 @@
           "town": "Teisendorf",
           "desc": "Fascinerende kijk op eeuwen van ijzerwinning op de Teisenberg."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "porsche-traumwerk",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -890,11 +897,13 @@
           "town": "Anger",
           "desc": "Speelgoedmuseum, een uitgebreide modelspoorwereld en een avonturenpark voor het hele gezin."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "staufenbad-anger",
-      "category": "lakes",
       "roles": [
         "family"
       ],
@@ -965,11 +974,13 @@
           "town": "Anger",
           "desc": "Verwarmd openluchtzwembad met uitzicht op de Hochstaufen — een ontspannen dag voor het hele gezin."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "alte-saline",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -1043,11 +1054,13 @@
           "town": "Bad Reichenhall",
           "desc": "Een fascinerende rondleiding door het historische tunnelsysteem van de koninklijke zoutziederij."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "rupertustherme",
-      "category": "wellness",
       "roles": [
         "family",
         "couple"
@@ -1120,11 +1133,13 @@
           "town": "Bad Reichenhall",
           "desc": "Een thermaal- en saunaparadijs met Alpenzout, avonturenslide en familiebad."
         }
-      }
+      },
+      "categories": [
+        "wellness"
+      ]
     },
     {
       "id": "predigtstuhlbahn",
-      "category": "mountains",
       "roles": [
         "couple",
         "active",
@@ -1197,11 +1212,13 @@
           "town": "Bad Reichenhall",
           "desc": "De oudste originele grote-cabine kabelbaan ter wereld — omhoog naar de panoramaberg."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "gradierwerk-reichenhall",
-      "category": "wellness",
       "roles": [
         "couple",
         "culture",
@@ -1274,11 +1291,13 @@
           "town": "Bad Reichenhall",
           "desc": "Adem de heilzame pekellucht in de ruime kuurtuin met zijn historische graduatietoren."
         }
-      }
+      },
+      "categories": [
+        "wellness"
+      ]
     },
     {
       "id": "koenigssee",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -1352,11 +1371,13 @@
           "town": "Schönau a. Königssee",
           "desc": "Een smaragdgroene boottocht naar de bedevaartskerk St. Bartholomä met de beroemde trompetongeweer."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "salzbergwerk-bgl",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -1430,11 +1451,13 @@
           "town": "Berchtesgaden",
           "desc": "Diep de berg in met een mijntrein, mijnwerkersglijbanen en een vlottocht over het zoutmeer."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "jenner",
-      "category": "mountains",
       "roles": [
         "family",
         "couple",
@@ -1507,11 +1530,13 @@
           "town": "Schönau a. Königssee",
           "desc": "Met de moderne kabelbaan naar 1.800 m — een prachtig uitzicht op de Königssee en de Watzmann."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "obersalzberg-doku",
-      "category": "museum",
       "roles": [
         "culture"
       ],
@@ -1583,11 +1608,13 @@
           "town": "Berchtesgaden",
           "desc": "Een indrukwekkende tentoonstelling over de 20e-eeuwse geschiedenis op deze historische plek."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "watzmann-therme",
-      "category": "wellness",
       "roles": [
         "family",
         "couple"
@@ -1660,11 +1687,13 @@
           "town": "Berchtesgaden",
           "desc": "Pure ontspanning: thermale baden, saunawereld en glijbanen met bergpanorama."
         }
-      }
+      },
+      "categories": [
+        "wellness"
+      ]
     },
     {
       "id": "nationalpark-wimbachklamm",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -1737,11 +1766,13 @@
           "town": "Ramsau",
           "desc": "Een bruisende wildwaterkloof in Duitslands enige alpine nationaal park."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "gruenstein-klettersteig",
-      "category": "sport",
       "roles": [
         "active"
       ],
@@ -1812,11 +1843,13 @@
           "town": "Schönau a. Königssee",
           "desc": "Een via ferrata voor sportieve beginners met een weids uitzicht over het dal van Berchtesgaden."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "festung-hohensalzburg",
-      "category": "city",
       "roles": [
         "family",
         "couple",
@@ -1889,11 +1922,14 @@
           "town": "Salzburg",
           "desc": "Een van de grootste vestingen van Europa, hoog boven de barokke binnenstad van Salzburg."
         }
-      }
+      },
+      "categories": [
+        "city",
+        "museum"
+      ]
     },
     {
       "id": "mozart-altstadt",
-      "category": "city",
       "roles": [
         "couple",
         "culture"
@@ -1906,39 +1942,39 @@
       "url": "https://www.salzburg.info/",
       "i18n": {
         "de": {
-          "name": "Mozarts Geburtshaus & Altstadt",
+          "name": "Mozarts Geburtshaus",
           "town": "Salzburg",
-          "desc": "UNESCO-Altstadt mit Mozarts Geburtshaus, der Getreidegasse und dem Dom."
+          "desc": "Mozarts Geburtshaus in der Getreidegasse — heute Museum mit original erhaltenen Wohnräumen der Familie Mozart."
         },
         "en": {
-          "name": "Mozart's Birthplace & Old Town",
+          "name": "Mozart's Birthplace",
           "town": "Salzburg",
-          "desc": "UNESCO old town with Mozart's birthplace, the Getreidegasse and the cathedral."
+          "desc": "Mozart's birthplace in the Getreidegasse — today a museum with the family's original rooms preserved."
         },
         "it": {
-          "name": "Casa natale di Mozart & centro storico",
+          "name": "Casa natale di Mozart",
           "town": "Salisburgo",
-          "desc": "Centro storico UNESCO con la casa natale di Mozart, la Getreidegasse e il duomo."
+          "desc": "La casa natale di Mozart nella Getreidegasse — oggi museo con le stanze originali della famiglia."
         },
         "hu": {
-          "name": "Mozart szülőháza & óváros",
+          "name": "Mozart szülőháza",
           "town": "Salzburg",
-          "desc": "UNESCO-óváros Mozart szülőházával, a Getreidegasséval és a dómmal."
+          "desc": "Mozart szülőháza a Getreidegasse-ban — ma múzeum az eredeti szobákkal."
         },
         "cs": {
-          "name": "Mozartův rodný dům & staré město",
+          "name": "Mozartovo rodné město",
           "town": "Salcburk",
-          "desc": "Staré město UNESCO s Mozartovým rodným domem, ulicí Getreidegasse a katedrálou."
+          "desc": "Mozartův rodný dům v Getreidegasse — dnes muzeum s původními pokoji rodiny."
         },
         "es": {
-          "name": "Casa natal de Mozart & Casco antiguo",
+          "name": "Casa natal de Mozart",
           "town": "Salzburgo",
-          "desc": "Casco antiguo UNESCO con la casa natal de Mozart, la Getreidegasse y la catedral."
+          "desc": "La casa natal de Mozart en la Getreidegasse — hoy museo con las habitaciones originales de la familia."
         },
         "fr": {
-          "name": "Maison natale de Mozart & Vieille ville",
+          "name": "Maison natale de Mozart",
           "town": "Salzbourg",
-          "desc": "Vieille ville UNESCO avec la maison natale de Mozart, la Getreidegasse et la cathédrale."
+          "desc": "La maison natale de Mozart dans la Getreidegasse — aujourd'hui musée avec les pièces originales de la famille."
         },
         "pl": {
           "name": "Dom urodzin Mozarta & Stare Miasto",
@@ -1946,9 +1982,9 @@
           "desc": "Stare miasto UNESCO z domem urodzin Mozarta, ulicą Getreidegasse i katedrą."
         },
         "hr": {
-          "name": "Mozartova rodna kuća & Stari grad",
+          "name": "Mozartova rodna kuća",
           "town": "Salzburg",
-          "desc": "UNESCO stari grad s Mozartovom rodnom kućom, ulicom Getreidegasse i katedralom."
+          "desc": "Mozartova rodna kuća u Getreidegasse — danas muzej s originalnim prostorijama obitelji Mozart."
         },
         "uk": {
           "name": "Будинок народження Моцарта & Старе місто",
@@ -1965,11 +2001,96 @@
           "town": "Salzburg",
           "desc": "UNESCO-binnenstad met Mozarts geboortehuis, de Getreidegasse en de kathedraal."
         }
+      },
+      "categories": [
+        "city",
+        "museum"
+      ]
+    },
+    {
+      "id": "altstadt-getreidegasse",
+      "categories": [
+        "city"
+      ],
+      "roles": [
+        "couple",
+        "culture",
+        "family"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "distance": 15,
+      "icon": "🏘️",
+      "url": "https://www.salzburg.info/de/sehenswuerdigkeiten/altstadt",
+      "i18n": {
+        "de": {
+          "name": "Altstadt & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "UNESCO-Weltkulturerbe: Die barocke Altstadt mit der berühmten Getreidegasse, dem Mozartplatz und dem Dom — Salzburgs historisches Herz."
+        },
+        "en": {
+          "name": "Old Town & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "UNESCO World Heritage: the baroque old town with the famous Getreidegasse, Mozartplatz and Cathedral — Salzburg's historic heart."
+        },
+        "it": {
+          "name": "Città Vecchia & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Patrimonio UNESCO: il centro storico barocco con la celebre Getreidegasse, la Mozartplatz e la Cattedrale — il cuore storico di Salisburgo."
+        },
+        "fr": {
+          "name": "Vieille Ville & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Patrimoine mondial UNESCO : la vieille ville baroque avec la célèbre Getreidegasse, la Mozartplatz et la cathédrale — le cœur historique de Salzbourg."
+        },
+        "es": {
+          "name": "Casco Antiguo & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Patrimonio UNESCO: el casco antiguo barroco con la famosa Getreidegasse, la Mozartplatz y la catedral — el corazón histórico de Salzburgo."
+        },
+        "hr": {
+          "name": "Stari Grad & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "UNESCO baština: barokni stari grad s čuvenom Getreidegasse, Mozartplatom i katedralom — povijesno srce Salzburga."
+        },
+        "hu": {
+          "name": "Óváros & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "UNESCO világörökség: a barokk óváros a híres Getreidegasse-val, a Mozartplatzcal és a dómmal — Salzburg történelmi szíve."
+        },
+        "cs": {
+          "name": "Staré Město & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Světové dědictví UNESCO: barokní staré město se slavnou Getreidegasse, Mozartplatcem a katedrálou — historické srdce Salzburku."
+        },
+        "sk": {
+          "name": "Staré Mesto & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Svetové dedičstvo UNESCO: barokové staré mesto so slávnou Getreidegasse, Mozartplatcom a katedrálou — historické srdce Salzburgu."
+        },
+        "pl": {
+          "name": "Stare Miasto & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Dziedzictwo UNESCO: barokowe stare miasto ze słynną Getreidegasse, Mozartplatz i katedrą — historyczne serce Salzburga."
+        },
+        "nl": {
+          "name": "Oude Stad & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "UNESCO Werelderfgoed: de barokke binnenstad met de beroemde Getreidegasse, Mozartplatz en Dom — het historisch hart van Salzburg."
+        },
+        "uk": {
+          "name": "Старе місто & Getreidegasse",
+          "town": "Salzburg",
+          "desc": "Спадщина ЮНЕСКО: барокове старе місто зі знаменитою Гетрайдегассе, Моцартплатцем та Собором — історичне серце Зальцбурга."
+        }
       }
     },
     {
       "id": "schloss-mirabell",
-      "category": "city",
       "roles": [
         "family",
         "couple",
@@ -2042,11 +2163,13 @@
           "town": "Salzburg",
           "desc": "Een prachtig paleis met barokke tuinen — beroemd uit 'The Sound of Music'."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "haus-der-natur",
-      "category": "museum",
       "roles": [
         "family",
         "culture"
@@ -2119,11 +2242,14 @@
           "town": "Salzburg",
           "desc": "Een groot natuurhistorisch museum met aquarium, reptielendierentuin en wetenschapscentrum."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "untersbergbahn",
-      "category": "mountains",
       "roles": [
         "active",
         "couple",
@@ -2196,11 +2322,13 @@
           "town": "Grödig",
           "desc": "In slechts enkele minuten omhoog naar Salzburgs legendarische huisberg."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "hellbrunn",
-      "category": "city",
       "roles": [
         "family",
         "couple",
@@ -2273,11 +2401,14 @@
           "town": "Salzburg",
           "desc": "Een lustslot met wereldberoemde watergrappen en de Dierentuin Salzburg ernaast."
         }
-      }
+      },
+      "categories": [
+        "city",
+        "museum"
+      ]
     },
     {
       "id": "salzwelten-hallein",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -2351,11 +2482,13 @@
           "town": "Hallein",
           "desc": "De oudste toeristische mijn ter wereld — met mijnwerkersglijbanen, een mijntreintje en een zoutmeer."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "keltenmuseum-hallein",
-      "category": "museum",
       "roles": [
         "culture",
         "family"
@@ -2428,11 +2561,13 @@
           "town": "Hallein",
           "desc": "Belangrijke vondsten uit de Keltische tijd op de Dürrnberg, indrukwekkend gepresenteerd."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "burg-hohenwerfen",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -2505,11 +2640,13 @@
           "town": "Werfen",
           "desc": "Een 900 jaar oud kasteel met een indrukwekkende roofvogelshow."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "eisriesenwelt",
-      "category": "mountains",
       "roles": [
         "active",
         "couple",
@@ -2582,11 +2719,13 @@
           "town": "Werfen",
           "desc": "De grootste ijsgrot ter wereld — fantastische ijssculpturen diep in de berg."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "almbachklamm",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -2644,11 +2783,13 @@
           "town": "Marktschellenberg",
           "desc": "Dramatična klisura s grmećim slapovima i uskom stazom uz bučni potok Almbach."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "seisenbergklamm",
-      "category": "mountains",
       "roles": [
         "family",
         "active"
@@ -2705,11 +2846,13 @@
           "town": "Weissbach bei Lofer",
           "desc": "Jedan od najljepših klanaca Austrije — kratka, spektakularna kružna staza kroz hučeće vodopade, uske stjenovite klance i tajanstvene mostove."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "hochstaufen",
-      "category": "mountains",
       "roles": [
         "active",
         "couple"
@@ -2766,11 +2909,13 @@
           "town": "Bad Reichenhall",
           "desc": "Klasičan planinarski uspon na vrh od 1.771 m — široka panorama koja seže daleko do Salzburga i Salzburške zemlje."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "altstadt-laufen",
-      "category": "museum",
       "roles": [
         "culture",
         "family"
@@ -2828,11 +2973,13 @@
           "town": "Laufen a.d. Salzach",
           "desc": "Srednji vijek arkade, goticka kolegialna crkva i muzej kapitola sa sakralnim blagom — kompaktna kruzna setnja starim gradom uz Salzach i gradske zidine, za oko sat vremena."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "museum-stille-nacht",
-      "category": "museum",
       "roles": [
         "culture",
         "couple",
@@ -2891,11 +3038,13 @@
           "town": "Oberndorf bei Salzburg",
           "desc": "Memorijalna kapela označava mjesto gdje je 1818. prvi put izvedena najpoznatija božićna pjesma na svijetu — odmah pored nje je dirljivi muzej."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "roemermuseum-bedaium",
-      "category": "museum",
       "roles": [
         "culture",
         "family"
@@ -2953,11 +3102,13 @@
           "town": "Seebruck am Chiemsee",
           "desc": "Impresivni nalazi iz rimskog naselja Bedaium — direktno na obalama jezera Chiemsee."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "chiemsee-herrenchiemsee",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -3030,11 +3181,13 @@
           "town": "Prien am Chiemsee",
           "desc": "Een boottocht over Beierens grootste meer naar het paleis van Koning Ludwig II op het eiland Herreninsel."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "freibad-freilassing",
-      "category": "lakes",
       "roles": [
         "family",
         "active"
@@ -3091,11 +3244,13 @@
           "town": "Freilassing",
           "desc": "Popularni otvoreni bazen s dječjim bazenom, travnjacima i toboganom — savršen obiteljski dan."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "waldbad-anif",
-      "category": "lakes",
       "roles": [
         "family",
         "active",
@@ -3153,11 +3308,13 @@
           "town": "Anif",
           "desc": "Idiličan šumski bazen s penjačnicom, tornjem za skokove i prostranim travnjacima — kupanje u zelenilu."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "spielzeugmuseum-salzburg",
-      "category": "museum",
       "roles": [
         "family",
         "culture"
@@ -3215,11 +3372,14 @@
           "town": "Salzburg",
           "desc": "Šarmantni muzej u povijesnom Bürgerspitalu — više od 1.000 godina povijesti igračaka na nekoliko katova."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "stoisser-alm",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -3277,11 +3437,13 @@
           "town": "Bayerisch Gmain",
           "desc": "Sunčana planinska koliba iznad Bad Reichenhalla s veličanstvenim panoramskim pogledom — nagradna planinarenja za cijelu obitelj."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "steiner-alm",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -3339,11 +3501,13 @@
           "town": "Bad Reichenhall",
           "desc": "Idiličan planinarski dom na Lattengebirgeu — ugodan odmor nakon lijepe planinarenja s prostranim pogledom na dolinu."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "waginger-see",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -3416,11 +3580,13 @@
           "town": "Waging am See",
           "desc": "Найтепліше купальне озеро Верхньої Баварії — пляж Вагінг пропонує піщаний берег, газон, гірку, пляжний волейбол, прокат човнів та температуру води до 27 °C."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "minigolf-waging",
-      "category": "sport",
       "roles": [
         "family",
         "active"
@@ -3477,11 +3643,13 @@
           "town": "Waging am See",
           "desc": "36 raznolikih staza u lječilišnom parku Waging — klasični minigolf i zahtjevni adventure golf za cijelu obitelj."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "hoppolino-anif",
-      "category": "sport",
       "roles": [
         "family"
       ],
@@ -3538,11 +3706,13 @@
           "town": "Anif",
           "desc": "Golemi zatvoreni raj za igru blizu Salzburga s penjanjem, toboganima i trampolinima — zabava po svakom vremenu."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "babalu-traunstein",
-      "category": "sport",
       "roles": [
         "family"
       ],
@@ -3599,11 +3769,13 @@
           "town": "Traunstein",
           "desc": "Najveće zatvoreno igralište u Chiemgauu s vulkanom za penjanje, divovskim toboganima i kart-stazom — savršeno za kišne dane."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "zoo-salzburg",
-      "category": "city",
       "roles": [
         "family",
         "couple",
@@ -3661,11 +3833,13 @@
           "town": "Salzburg",
           "desc": "Prirodi blizak zoološki vrt u podnožju brda Hellbrunn s oko 1500 životinja iz cijelog svijeta."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "freilichtmuseum-grossgmain",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -3723,11 +3897,13 @@
           "town": "Großgmain",
           "desc": "100 izvornih povijesnih seoskih kuća i radionica na prostranom području — živa ruralna povijest s muzejskom željeznicom."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "christkindlmarkt-salzburg",
-      "category": "city",
       "roles": [
         "couple",
         "culture",
@@ -3785,11 +3961,13 @@
           "town": "Salzburg",
           "desc": "Čaroban adventski sajam na Stolnom i Rezidencijskom trgu — jedan od najstarijih i najljepših na svijetu."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "museum-der-moderne",
-      "category": "museum",
       "roles": [
         "couple",
         "culture"
@@ -3847,11 +4025,14 @@
           "town": "Salzburg",
           "desc": "Moderna umjetnost visoko iznad grada na Mönchsbergu — sa spektakularnom vidikovac terasom."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "domquartier-salzburg",
-      "category": "museum",
       "roles": [
         "couple",
         "culture",
@@ -3910,11 +4091,14 @@
           "town": "Salzburg",
           "desc": "Svečane dvorane knezova-nadbiskupa, lukovi katedrale i umjetničke zbirke — barokni obilazak u srcu Salzburga."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "moenchsberg",
-      "category": "city",
       "roles": [
         "active",
         "couple",
@@ -3972,11 +4156,13 @@
           "town": "Salzburg",
           "desc": "Zeleno gradsko brdo iznad starog grada sa stazama, vidikovcima i brzim liftom na Mönchsberg."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "kapuzinerberg",
-      "category": "city",
       "roles": [
         "active",
         "couple"
@@ -4033,11 +4219,13 @@
           "town": "Salzburg",
           "desc": "Pošumljeno gradsko brdo sa strmim stubama, kapucinskim samostanom i prekrasnim pogledom na stari grad Salzburga."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "fossilien-haunsberg",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -4095,11 +4283,13 @@
           "town": "Nußdorf am Haunsberg",
           "desc": "Na geološkoj poučnoj stazi kod Nußdorfa blizu Oberndorfa otkrijte fosile stare oko 50 milijuna godina."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "glasenbachklamm",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -4157,11 +4347,13 @@
           "town": "Elsbethen",
           "desc": "Divlje romantična fosilna klisura blizu Salzburga sa stazom, slapovima i okamenjenim morskim životinjama."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "baggersee-fridolfing",
-      "category": "lakes",
       "roles": [
         "family",
         "active",
@@ -4219,11 +4411,13 @@
           "town": "Fridolfing",
           "desc": "Popularno kupačko jezero u ravnici Rupertiwinkel — plitke obale, livade za sunčanje i čista voda, idealno za obitelji."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "mammut-museum-siegsdorf",
-      "category": "museum",
       "roles": [
         "family",
         "culture"
@@ -4281,11 +4475,13 @@
           "town": "Siegsdorf",
           "desc": "Najveći kostur mamuta u Europi, iskopan 1975. godine blizu Siegsdorfa. Diorami ledenog doba, fosili na dodir i uzbudljive obiteljske ture."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "maerchenpark-ruhpolding",
-      "category": "sport",
       "roles": [
         "family"
       ],
@@ -4341,11 +4537,13 @@
           "town": "Ruhpolding",
           "desc": "Čarobni vanjski park s bajkovitim figurama, vodenim igrama i avanturističkim stazama — omiljeno mjesto djece."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "maerchenpark-marquartstein",
-      "category": "sport",
       "roles": [
         "family"
       ],
@@ -4401,11 +4599,13 @@
           "town": "Marquartstein",
           "desc": "Prostrani park s bajkovitim svijetom, igralištima i minigolfom u Chiemgauu — obiteljska zabava cijeli dan."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "steinplatte-triassic",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -4463,11 +4663,13 @@
           "town": "Waidring (A)",
           "desc": "Pravi tragovi dinosaura na 1869 m nadmorske visine — gondolom gore, zatim Triassic Park s fosilnim otiscima i figurama dinosaura u prirodnoj veličini."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "zwiesel-bergtour",
-      "category": "mountains",
       "roles": [
         "active",
         "couple",
@@ -4525,11 +4727,13 @@
           "town": "Inzell",
           "desc": "Omiljena lokalna planina Inzella (1782 m) — dobro označena staza kroz gorsku šumu, veličanstvena panorama s vrha na Chiemgauske Alpe i Salzburšku zemlju."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "schoenramer-filz",
-      "category": "mountains",
       "roles": [
         "active",
         "couple",
@@ -4588,11 +4792,13 @@
           "town": "Schönram / Petting",
           "desc": "Veliki prirodni rezervat visokog tresišta s poučnom stazom, rijetkim biljkama i odmorištem ždralova — doživljaj prirode tik pred vratima."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "obertrumer-see",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -4650,11 +4856,13 @@
           "town": "Obertrum am See (A)",
           "desc": "Idiličko jezero u Salzburškoj jezerskoj regiji s bistrom vodom, pješčanom plažom, iznajmljivanjem čamaca i pogledom na planine — omiljeno među obiteljima i izletnicima."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "mondsee",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -4713,11 +4921,13 @@
           "town": "Mondsee (A)",
           "desc": "Najtoplije jezero u Salzkammergut s tirkiznom vodom, jezerskom promenadnom, jedrenjacima i poznatim selom s opatijskom crkvom — idealno za cijeli dan izleta."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "familienbad-reichenhall",
-      "category": "lakes",
       "roles": [
         "family",
         "active"
@@ -4774,11 +4984,13 @@
           "town": "Bad Reichenhall",
           "desc": "Gradski vanjski bazen s bazenom za sve dobi, vodenim toboganom i livadama za sunčanje — u samom srcu lječilišnog grada."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "kletterpark-anif",
-      "category": "sport",
       "roles": [
         "family",
         "active"
@@ -4835,11 +5047,13 @@
           "town": "Anif (A)",
           "desc": "Šumski park s užadima tik uz Waldbad Anif — staze različitih razina težine za djecu i odrasle, idealno nakon kupanja."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "biathlon-weltcup-ruhpolding",
-      "category": "sport",
       "roles": [
         "family",
         "couple",
@@ -4897,11 +5111,13 @@
           "town": "Ruhpolding",
           "desc": "Jedan od najvećih biathlonskih događaja na svijetu — svaki siječanj u ROWE CHIEMGAU ARENI s do 25.000 oduševljenih gledatelja."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "eisschnelllauf-weltcup-inzell",
-      "category": "sport",
       "roles": [
         "family",
         "couple",
@@ -4960,11 +5176,13 @@
           "town": "Inzell",
           "desc": "Međunarodne utrke Svjetskog kupa u Max Aicher Areni — jedna od najbrzih staza za brzo klizanje na svijetu, svjetski rekordi zajamčeni."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "hoeglwoerther-see",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -5022,11 +5240,13 @@
           "town": "Anger",
           "desc": "Prirodno kupačko jezero tik uz slikoviti samostan Höglwörth — bistra voda, mirne obale i prekrasan alpski pejzaž, idealno za obitelji."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "haus-der-berge",
-      "category": "museum",
       "roles": [
         "family",
         "culture",
@@ -5085,11 +5305,13 @@
           "town": "Berchtesgaden",
           "desc": "Moderni centar nacionalnog parka s impresivnim izložbama o Nacionalnom parku Berchtesgaden — od ledenjačkog svijeta do prašume."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "keltenblitz-sommerrodelbahn",
-      "category": "sport",
       "roles": [
         "family",
         "active"
@@ -5146,11 +5368,13 @@
           "town": "Bad Dürrnberg / Hallein (A)",
           "desc": "Uzbudljive ljetne sanke iznad Halleina — vijugava staza s panoramskim pogledom na dolinu Salzach, zabava za cijelu obitelj."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "kletterwald-berchtesgaden",
-      "category": "sport",
       "roles": [
         "family",
         "active"
@@ -5207,11 +5431,13 @@
           "town": "Berchtesgaden",
           "desc": "Visinski park u gorskoj šumi s parcelama za sve dobi i razine težine — pustolovine penjanja u jedinstvenom okruženju nacionalnog parka."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "rafting-salzach",
-      "category": "sport",
       "roles": [
         "active",
         "couple"
@@ -5268,11 +5494,13 @@
           "town": "Golling (A)",
           "desc": "Rafting na bijeloj vodi na Salzachu između Gollinga i Halleina — uzbudljive brzace, zapanjujuće klisure i profesionalni vodiči uključeni."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "canyoning-salzburger-alpen",
-      "category": "sport",
       "roles": [
         "active"
       ],
@@ -5328,11 +5556,13 @@
           "town": "Salzburške Alpe (A)",
           "desc": "Avantura u klancima i vodopadima Salzburških Alpa — spuštanje po užetu, skokovi i plivanje s iskusnim canyoning vodičima. Za početnike i napredne."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "thumsee",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -5390,11 +5620,13 @@
           "town": "Bad Reichenhall",
           "desc": "Idiličko planinsko jezero tik uz Bad Reichenhall s bistrom vodom i pogledom na Hochstaufen — savršeno za kupanje, šetnje i piknik."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "zauberwald-hintersee",
-      "category": "mountains",
       "roles": [
         "family",
         "couple",
@@ -5454,11 +5686,13 @@
           "town": "Ramsau b. Berchtesgaden",
           "desc": "Mahovinom prekrivene stijene, čvornovate korijene i tirkizno jezero — Zauberwald uz Hintersee je lagana kružna staza s spektakularnim stijenskim formacijama, kao iz bajke."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "kehlsteinhaus",
-      "category": "museum",
       "roles": [
         "culture",
         "couple",
@@ -5516,11 +5750,13 @@
           "town": "Berchtesgaden",
           "desc": "Povijesna zgrada na vrhu na 1.834 m, izgrađena 1938. kao dar Hitleru — posebnim autobusom i liftom gore, zapanjujuća panorama cijelog Berchtesgadenskog gorja."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "gaisberg",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -5579,11 +5815,13 @@
           "town": "Salzburg (A)",
           "desc": "Domaća planina Salzburžana (1.288 m) — dostupna automobilom, biciklom ili pješice, fantastičan pogled na Mozartov grad, Alpe i Salzkammergut."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "schneibstein",
-      "category": "mountains",
       "roles": [
         "active",
         "couple"
@@ -5640,11 +5878,13 @@
           "town": "Hagengebirge / Berchtesgaden",
           "desc": "Prepoznatljiv kameni vrh u Hagengebirgeu (2.276 m) na austrijsko-njemačkoj granici — zahtjevna planinska tura s veličanstvenim pogledom na Königssee, Watzmann i Visoke Ture."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "untersberg-hochthron",
-      "category": "mountains",
       "roles": [
         "active",
         "couple",
@@ -5702,11 +5942,13 @@
           "town": "Grödig / Marktschellenberg",
           "desc": "Legendarna granična planina između Bavarske i Salzburga (1.972 m) — žičarom ili planinarskim putem na Hochthron, neusporediv pogled na Salzburg, Berchtesgaden i Alpe."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "maerchenpfad-bischofswiesen",
-      "category": "mountains",
       "roles": [
         "family",
         "active"
@@ -5763,11 +6005,13 @@
           "town": "Bischofswiesen",
           "desc": "Čarobna tematska planinarska staza s bajkovitim figurama i postajama duž puta — lako prohodna, idealna za obitelji s djecom, usred prirode Berchtesgadenskog kraja."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "vorderkaserklamm",
-      "category": "mountains",
       "roles": [
         "family",
         "active",
@@ -5825,11 +6069,13 @@
           "town": "Weissbach bei Lofer (A)",
           "desc": "Duboki klanac s mostovima, ljestvama i mostovima — iza njega čekaju prirodni kupački ribnjaci i lagane obiteljske šetnje u Loferer Steingebirgeu."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "saalachau-ausee",
-      "category": "mountains",
       "roles": [
         "family",
         "couple",
@@ -5888,11 +6134,13 @@
           "town": "Freilassing",
           "desc": "7 km prirodnog područja uz Saalach — idiličko jezero Ausee, vrstama bogata poplavna šuma, ptičji rezervat i Saalachspitz na ušću u Salzach. Savršeno za šetnje i vožnju biciklom."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "saalachtal-radweg",
-      "category": "cycling",
       "roles": [
         "family",
         "couple",
@@ -5951,11 +6199,13 @@
           "town": "Freilassing – Bad Reichenhall",
           "desc": "Ravna obiteljska biciklistička tura uz Saalach — ~17 km od Freilassinga do Bad Reichenhalla, gotovo bez automobila na šljunčanim stazama, s pogledom na planine i povratkom vlakom."
         }
-      }
+      },
+      "categories": [
+        "cycling"
+      ]
     },
     {
       "id": "freilassinger-radrundweg",
-      "category": "cycling",
       "roles": [
         "family",
         "couple",
@@ -6014,11 +6264,13 @@
           "town": "Freilassing / Saaldorf-Surheim",
           "desc": "Ugodna kružna tura biciklom oko Freilassinga i Saaldorf-Surheima — ravničarski teren, sela, polja i alpski pogled. Kreće odmah od Mayrwirta, idealno za obitelji i rekreativne bicikliste."
         }
-      }
+      },
+      "categories": [
+        "cycling"
+      ]
     },
     {
       "id": "gut-aiderbichl",
-      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -6076,11 +6328,13 @@
           "town": "Henndorf am Wallersee (A)",
           "desc": "Slavni raj za spašene životinje — stotine spašenih životinja na prostranome imanju, zoološki vrt za maženje, kafić i dirljiva ideja iza svega: svaka životinja ima pravo na život."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "malerwinkel-koenigssee",
-      "category": "lakes",
       "roles": [
         "family",
         "couple",
@@ -6139,11 +6393,13 @@
           "town": "Schönau a. Königssee",
           "desc": "Najpoznatiji fotografski motiv Bavarske — Malerwinkel na zapadnoj obali Königssee nudi klasičan pogled na St. Bartholomä s odrazom Watzmann u smaragdnozelenim vodama."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "kuehroint-tour",
-      "category": "mountains",
       "roles": [
         "active",
         "couple",
@@ -6201,11 +6457,13 @@
           "town": "Schönau a. Königssee",
           "desc": "Kratka, ali nagradna planinska tura od St. Bartholomä do Kührointalme — veličanstven pogled na smaragdnozeleni Königssee, Watzmann i okolne vrhove."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "salzburger-festspiele",
-      "category": "city",
       "roles": [
         "couple"
       ],
@@ -6261,11 +6519,13 @@
           "town": "Salzburg",
           "desc": "Svjetski poznati ljetni festival u Mozartovom rodnom gradu: opera, koncerti i kazalište s najboljim izvođačima na svijetu – kulturni vrhunac u srpnju i kolovozu."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "burg-burghausen",
-      "category": "museum",
       "roles": [
         "family",
         "couple"
@@ -6324,11 +6584,13 @@
           "town": "Burghausen",
           "desc": "Najduži dvorački kompleks na svijetu (više od 1 km!) dominira starim gradom i rijekom Salzach. Povijesne dvorane, izložbe i veličanstavan panoramski pogled na dolinu Salzach."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "motorikpark-burghausen",
-      "category": "sport",
       "roles": [
         "family"
       ],
@@ -6386,11 +6648,13 @@
           "town": "Burghausen",
           "desc": "Besplatan park kretanja za sve uzraste s ravnotežnim stazama, spravama za penjanje i snagu te igralištima u prirodi. Idealno uz posjet dvorcu."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "hangar7-salzburg",
-      "category": "museum",
       "roles": [
         "family",
         "couple"
@@ -6450,11 +6714,14 @@
           "town": "Salzburg",
           "desc": "Red Bullov futuristički stakleni hangar na salzburškom aerodromu dom je povijesnih zrakoplova, Formula 1 bolida i helikoptera – besplatan ulaz i vrhunski restorani pod jednim krovom."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "stiegl-brauwelt",
-      "category": "museum",
       "roles": [
         "couple"
       ],
@@ -6513,11 +6780,14 @@
           "town": "Salzburg",
           "desc": "Najveca privatna pivovara u Austriji nudi interaktivno putovanje kroz svijet piva: pokazna pivovara, muzej piva, kusanje i pivski vrt s pogledom na proizvodni pogon."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "schloss-leopoldskron",
-      "category": "city",
       "roles": [
         "couple"
       ],
@@ -6575,11 +6845,14 @@
           "town": "Salzburg",
           "desc": "Ovaj barokni dvorac uz jezero stekao je svjetsku slavu kao kulisa za film 'Zvuci muzike'. S idilichnog jezerskoga setalista pruzla se savrseni pogled na procalje s tvrduavom Hohensalzburg."
         }
-      }
+      },
+      "categories": [
+        "city",
+        "museum"
+      ]
     },
     {
       "id": "mozarts-wohnhaus",
-      "category": "museum",
       "roles": [
         "family",
         "couple"
@@ -6639,11 +6912,14 @@
           "town": "Salzburg",
           "desc": "Obiteljska kuca Mozartovih na Makartplatzu bila je Wolfgangova rezidencija od 1773. do 1780. Originalni namjestaj, instrumenti i multimedijske izlozbe docaravaju zivot skladatelja."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "waldthemenpfad-osing",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -6702,11 +6978,13 @@
           "town": "Laufen a.d. Salzach",
           "desc": "Besplatna 2 km kruzna staza s 15 postaja o promjenama sume i raznolikosti stabala u sumi Osing. Interaktivne ploce za posjetitelje svih uzrasta."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "strandbad-tettenhausen",
-      "category": "lakes",
       "roles": [
         "family",
         "couple"
@@ -6763,11 +7041,13 @@
           "town": "Tettenhausen",
           "desc": "Prirodno kupkaliste na jezeru Waging s mirnom plazom, lezalisom i bistrom vodom — tisa alternativa glavnom kupkalistu, osobito omiljena medu obiteljima."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "rund-um-den-abtsee",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -6826,11 +7106,13 @@
           "town": "Saaldorf-Surheim",
           "desc": "Laka kruzna setnja oko jezera Abtsdorfersee — ravna obala, trstici i pogledi na prirodni rezervat Haarmoos. Idealno za obitelji i mirne vecernje setaliste."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "moosrundweg",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -6889,11 +7171,13 @@
           "town": "Saaldorf-Surheim",
           "desc": "Vodjena kruzna staza kroz jedinstveni mocvarni krajobraz oko Saaldorfa — informativne ploce objasnjaju floru, faunu i nastanak treseta. Posebno lijepo u jutarnjoj magli."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "grosse-saaldorfer-runde",
-      "category": "sport",
       "roles": [
         "couple"
       ],
@@ -6951,11 +7235,13 @@
           "town": "Saaldorf-Surheim",
           "desc": "Zahtjevnija kruzna staza oko Saaldorf-Surheima s raznovrsnim krajolicima: polja, sumski odsjeci, prirodni rezervat Haarmoos i pogledi na Berchtesgadenske Alpe."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "kleine-saaldorfer-runde",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -7015,11 +7301,13 @@
           "town": "Saaldorf-Surheim",
           "desc": "Kratka, obiteljska kruzna staza direktno od Mayrwirta kroz polja i sume Saaldorfa — savrsena za opustenu setnju prije ili poslije vecere."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "salzachrundweg",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -7078,11 +7366,13 @@
           "town": "Laufen a.d. Salzach",
           "desc": "Ravna kruzna staza uz Salzach izmedju Laufena i Oberndorfa — obale rijeke, poplavni sumarak, pogled na granicni most i stari grad Laufen. Idealno za obitelji."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "panoramarundweg-saaldorf",
-      "category": "sport",
       "roles": [
         "couple"
       ],
@@ -7140,11 +7430,13 @@
           "town": "Saaldorf-Surheim",
           "desc": "Uzivatelacka kruzna staza s prekrasnom alpskom panoramom iznad Saaldorf-Surheima — put prolazi brdima sa sirokim pogledom na Hochstaufen, Untersberg, Watzmann i salzbursko podgorje."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "haarmoos",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -7218,11 +7510,13 @@
           "town": "Leobendorf",
           "desc": "Een uitgestrekt natuurreservaat met een veenbadmeer, fietspaden en zeldzame vogels — pure rust."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "freibad-ainring",
-      "category": "lakes",
       "roles": [
         "family",
         "active"
@@ -7294,11 +7588,13 @@
           "town": "Ainring",
           "desc": "Сімейний муніципальний басейн з газоном, дитячим басейном та вишкою — ідеально для літнього дня."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "minigolf-ainring",
-      "category": "sport",
       "roles": [
         "family",
         "active"
@@ -7370,11 +7666,13 @@
           "town": "Ainring",
           "desc": "Доглянуте поле для мінігольфу поруч із басейном — ідеально для всієї родини."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "stift-st-peter-salzburg",
-      "category": "museum",
       "roles": [
         "family",
         "couple"
@@ -7434,11 +7732,14 @@
           "town": "Salzburg",
           "desc": "Jedan od najstarijih samostana u njemackogovornom svijetu u srcu salzburstog starog grada: romanska opatijska crkva, povijesno groblje sv. Petra s katakombama u stijeni i legendarni Stiftskeller — najstariji restoran u Europi."
         }
-      }
+      },
+      "categories": [
+        "museum",
+        "city"
+      ]
     },
     {
       "id": "alpentherme-bad-gastein",
-      "category": "wellness",
       "roles": [
         "couple"
       ],
@@ -7497,11 +7798,13 @@
           "town": "Bad Gastein (A)",
           "desc": "Spektakularni termalni kompleks u srcu planina Gastein: unutarnji i vanjski bazeni s radon-terapijskom vodom, saune i panoramski pogled na zasnijezene vrhove — pravo alpsko wellness iskustvo."
         }
-      }
+      },
+      "categories": [
+        "wellness"
+      ]
     },
     {
       "id": "chiemsee-radweg",
-      "category": "cycling",
       "roles": [
         "couple"
       ],
@@ -7559,11 +7862,13 @@
           "town": "Prien am Chiemsee",
           "desc": "Oko Bavarskog mora: 55 km ravne kruzne biciklisticke staze oko cijelog Chiemsee s pogledom na otoke Herrenchiemsee i Frauenchiemsee, alpskom panoramom i postajama u Prienu, Seebrucku i Chiemingu."
         }
-      }
+      },
+      "categories": [
+        "cycling"
+      ]
     },
     {
       "id": "tauernradweg",
-      "category": "cycling",
       "roles": [
         "couple"
       ],
@@ -7621,11 +7926,13 @@
           "town": "Salzburg / Zell am See",
           "desc": "Jedna od najpopularnijih daljinskih biciklistickih staza u Europi vodi od Krimlija kroz Salzburg do Passaua — dionica od Salzburga uz Salzach idealna je kao jednodnevni izlet: ravna, dobro opremljena i krajolicki impresivna."
         }
-      }
+      },
+      "categories": [
+        "cycling"
+      ]
     },
     {
       "id": "inn-salzach-radweg",
-      "category": "cycling",
       "roles": [
         "family",
         "couple"
@@ -7684,11 +7991,13 @@
           "town": "Freilassing / Laufen",
           "desc": "Idilicna rijecna biciklisticka staza uz Inn i Salzach — direktno iz Freilassinga/Laufena nizvodno kroz prirodne poplavne ravnice, prekogranicno izmedju Bavarske i Austrije, divno ravna i pogodna za obitelji."
         }
-      }
+      },
+      "categories": [
+        "cycling"
+      ]
     },
     {
       "id": "tachinger-see",
-      "category": "lakes",
       "roles": [
         "family",
         "couple"
@@ -7745,11 +8054,13 @@
           "town": "Taching am See",
           "desc": "Prirodno kupacko jezero blizu Waginger See — mirnija alternativa s bistrom vodom, sljuncanom plazom i lezalisom bez guzve veceg susjeda. Idealno za plivace i obitelji."
         }
-      }
+      },
+      "categories": [
+        "lakes"
+      ]
     },
     {
       "id": "eislaufen-salzburg",
-      "category": "sport",
       "roles": [
         "family",
         "couple"
@@ -7806,11 +8117,13 @@
           "town": "Salzburg",
           "desc": "Najvece otvoreno umjetno klizaliste u Salzburgu idilicno je smjesteno u Volksgarrenu — od studenog do veljace veliki i mali mogu se klizati, s iznajmljivanjem klizaljki na licu mjesta."
         }
-      }
+      },
+      "categories": [
+        "sport"
+      ]
     },
     {
       "id": "das-kino-salzburg",
-      "category": "city",
       "roles": [
         "family",
         "couple"
@@ -7870,11 +8183,13 @@
           "town": "Salzburg",
           "desc": "Popularno art-kino u srcu starog grada — prikazuje medjunarodne filmove, dokumentarce i originalne verzije. Savrseno za ljubitelje filma koji traze nesto izvan glavnih blockbustera."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "kino-bad-reichenhall",
-      "category": "museum",
       "roles": [
         "family",
         "couple"
@@ -7934,11 +8249,13 @@
           "town": "Bad Reichenhall",
           "desc": "Tradicijsko kino u Bad Reichenhallu prikazuje aktualne filmske hitove — klasicno iskustvo, idealno u kombinaciji sa setnjom kroz Kurpark ili posjetom termama."
         }
-      }
+      },
+      "categories": [
+        "museum"
+      ]
     },
     {
       "id": "cineplexx-salzburg-city",
-      "category": "city",
       "roles": [
         "family",
         "couple"
@@ -7998,11 +8315,13 @@
           "town": "Salzburg",
           "desc": "Moderno multiplex kino u Salzburgu s velikim ekranima i aktualnim programom blockbustera — idealno za obiteljsku kinovecer ili kao alternativa za kišne dane."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "cineplexx-salzburg-airport",
-      "category": "city",
       "roles": [
         "family",
         "couple"
@@ -8062,11 +8381,13 @@
           "town": "Salzburg",
           "desc": "Veliko multiplex kino izravno na salzburskom aerodromu s mnogim dvoranama i sirokim filmskim programom — lako spojivo s posjetom obliznjem Hangaru 7 ili kupovinom."
         }
-      }
+      },
+      "categories": [
+        "city"
+      ]
     },
     {
       "id": "schellenberger-eishoehle",
-      "category": "mountains",
       "roles": [
         "family",
         "couple"
@@ -8125,11 +8446,13 @@
           "town": "Marktschellenberg",
           "desc": "Impresivna prirodna ledena pecina na juznoj strani Unttersberga s fantasticnim ledenim formacijama, stalaktitima i stalagmitima — hladno otkrice cak i ljeti, potrebna cvrsta obuca."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "kampenwand",
-      "category": "mountains",
       "roles": [
         "family",
         "couple"
@@ -8189,11 +8512,13 @@
           "town": "Aschau im Chiemgau",
           "desc": "Domaca planina Chiemgaua (1.669 m) dostupna je pjesice ili ugodnom gondolom — gore cekaju panoramski pogled na Chiemsee i Alpe, planinski objekti i raznovrsne planinarske staze za sve razine kondicije."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "lamprechtsofen",
-      "category": "mountains",
       "roles": [
         "family",
         "couple"
@@ -8252,11 +8577,13 @@
           "town": "Lofer (A)",
           "desc": "Jedan od najdubljih poznatih pecinjskih sustava na svijetu u planinama Loferer Steinberge — vodene ture kroz fascinantne stijenaste hodnike, podzemne potoke i impresivne dvorane. Podzemna pustolovina."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "tassilo-hoehlen",
-      "category": "mountains",
       "roles": [
         "family",
         "couple"
@@ -8315,11 +8642,13 @@
           "town": "Mondsee (A)",
           "desc": "Dostupna stalaktitna pecina kraj jezera Mondsee s impresivnim stalagmitima, stalaktitima i podzemnim jezerima — vodene ture otkrivaju milijunima godina staru geolosku povijest austrijskog Salzkammerguta."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "gollinger-wasserfall",
-      "category": "mountains",
       "roles": [
         "family",
         "couple"
@@ -8378,11 +8707,13 @@
           "town": "Golling an der Salzach (A)",
           "desc": "Jedan od najljepsih slapova Austrije pada u dva stupnja do 75 m — kratka sumska setnja vodi do impresivne magle, idealno za obitelji s djecom."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     },
     {
       "id": "schwarzbachfall",
-      "category": "mountains",
       "roles": [
         "couple"
       ],
@@ -8440,7 +8771,10 @@
           "town": "Lofer (A)",
           "desc": "Divlji, prvobitni slap u planinama Lofer — Schwarzbach se obrusa kroz uzak stijenski klanac, stvarajuci mocno prirodno okruzenje u srcu prirodnog parka Weissbach."
         }
-      }
+      },
+      "categories": [
+        "mountains"
+      ]
     }
   ]
 }

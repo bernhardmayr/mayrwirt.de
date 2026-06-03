@@ -64,7 +64,9 @@
         const t    = a.i18n[lang] || a.i18n.de;
         const de   = a.i18n.de;
         const tags = [];
-        tags.push('<span class="tag-pill tag-cat">' + L.cats[a.category] + '</span>');
+        for (const c of a.categories) {
+            if (L.cats[c]) tags.push('<span class="tag-pill tag-cat">' + L.cats[c] + '</span>');
+        }
         for (const r of a.roles) tags.push('<span class="tag-pill">' + L.roles[r] + '</span>');
 
         // Google Maps directions from the Mayrwirt to this destination
@@ -91,7 +93,7 @@
 
     function matches(a) {
         if (state.roles.size   && !a.roles.some(r => state.roles.has(r)))     return false;
-        if (state.cats.size    && !state.cats.has(a.category))                return false;
+        if (state.cats.size    && !a.categories.some(c => state.cats.has(c)))  return false;
         if (state.seasons.size && !a.seasons.some(s => state.seasons.has(s))) return false;
         if (state.dist !== null && a.distance > state.dist)                   return false;
         if (state.search) {
