@@ -185,4 +185,18 @@
     });
 
     render();
+
+    // Pre-filter from URL hash, e.g. #cat=mountains or #role=family
+    const hash = location.hash.slice(1);
+    if (hash) {
+        const [dim, val] = hash.split('=');
+        const stateKey = dim === 'cat' ? 'cats' : dim === 'role' ? 'roles' : null;
+        if (stateKey && val) {
+            state[stateKey].add(val);
+            const chip = document.querySelector('.filter-chip[data-dim="' + stateKey + '"][data-value="' + val + '"]');
+            if (chip) chip.classList.add('active');
+            render();
+            chip && chip.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    }
 })();
