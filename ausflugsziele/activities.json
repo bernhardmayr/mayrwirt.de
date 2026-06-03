@@ -6372,64 +6372,64 @@
       "url": "https://www.kehlsteinhaus.de",
       "i18n": {
         "de": {
-          "name": "Kehlsteinhaus (Adlerhorst)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Historisches Gipfelhaus auf 1.834 m, erbaut 1938 als Geschenk für Hitler — per Sonderbus und Aufzug hinauf, atemberaubendes Panorama über die gesamten Berchtesgadener Alpen."
+          "desc": "Gipfelhaus auf 1.834 m aus der NS-Zeit — per Sonderbus und Aufzug erreichbar, atemberaubendes Panorama über die Berchtesgadener Alpen. Historische Einblicke im Dokumentationszentrum Obersalzberg."
         },
         "en": {
-          "name": "Kehlsteinhaus (Eagle's Nest)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Historic summit building at 1,834 m, built in 1938 as a gift for Hitler — reach it by special bus and lift, breathtaking panorama over the entire Berchtesgaden Alps."
+          "desc": "Summit house at 1,834 m, built during the Nazi era — accessible by special bus and lift, breathtaking panorama over the Berchtesgaden Alps. Historical context at the Obersalzberg Documentation Centre."
         },
         "it": {
-          "name": "Kehlsteinhaus (Nido dell'Aquila)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Storico edificio di vetta a 1.834 m, costruito nel 1938 come dono per Hitler — si raggiunge con bus speciale e ascensore, panorama mozzafiato sulle Alpi di Berchtesgaden."
+          "desc": "Edificio di vetta a 1.834 m dell'era nazista — accessibile con bus speciale e ascensore, panorama mozzafiato sulle Alpi di Berchtesgaden. Approfondimento storico al Centro di Documentazione dell'Obersalzberg."
         },
         "hu": {
-          "name": "Kehlsteinhaus (Sas fészke)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Történelmi csúcsépület 1834 m magasságban, 1938-ban Hitlernek ajándékba építve — különbusz és lift visz fel, lélegzetelállító panoráma a teljes Berchtesgadeni-Alpokra."
+          "desc": "Csúcsépület 1834 m magasságban, a náci korszakból — különbusz és lift visz fel, lélegzetelállító panoráma a Berchtesgadeni-Alpokra. Történelmi összefüggések az Obersalzberg Dokumentációs Központban."
         },
         "cs": {
-          "name": "Kehlsteinhaus (Orlí hnízdo)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Historická vrcholová budova ve výšce 1 834 m, postavená v roce 1938 jako dar Hitlerovi — zvláštní autobusem a výtahem nahoru, dechberoucí panorama celých Berchtesgadenských Alp."
+          "desc": "Vrcholová budova ve výšce 1 834 m z doby nacistické — zvláštním autobusem a výtahem nahoru, dechberoucí panorama Berchtesgadenských Alp. Historický kontext v Dokumentačním centru Obersalzberg."
         },
         "es": {
-          "name": "Kehlsteinhaus (Nido del Águila)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Edificio histórico en la cumbre a 1.834 m, construido en 1938 como regalo para Hitler — accesible en autobús especial y ascensor, impresionante panorama de todos los Alpes de Berchtesgaden."
+          "desc": "Edificio en la cumbre a 1.834 m de la era nazi — accesible en autobús especial y ascensor, impresionante panorama de los Alpes de Berchtesgaden. Contexto histórico en el Centro de Documentación de Obersalzberg."
         },
         "fr": {
-          "name": "Kehlsteinhaus (Nid d'Aigle)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Bâtiment historique au sommet à 1 834 m, construit en 1938 comme cadeau pour Hitler — accessible en bus spécial et ascenseur, panorama à couper le souffle sur toutes les Alpes de Berchtesgaden."
+          "desc": "Bâtiment au sommet à 1 834 m, de l'époque nazie — accessible en bus spécial et ascenseur, panorama à couper le souffle sur les Alpes de Berchtesgaden. Mise en contexte au Centre de documentation d'Obersalzberg."
         },
         "pl": {
-          "name": "Kehlsteinhaus (Orle Gniazdo)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Historyczny budynek szczytowy na 1834 m n.p.m., zbudowany w 1938 roku jako prezent dla Hitlera — specjalny autobus i winda na górę, zapierająca dech panorama Alp Berchtesgadeńskich."
+          "desc": "Budynek szczytowy na 1834 m n.p.m. z epoki nazistowskiej — specjalnym autobusem i windą na górę, zapierająca dech panorama Alp Berchtesgadeńskich. Kontekst historyczny w Centrum Dokumentacji na Obersalzbergu."
         },
         "hr": {
-          "name": "Kehlsteinhaus (Orlovije gnijezdo)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Povijesna zgrada na vrhu na 1.834 m, izgrađena 1938. kao dar Hitleru — posebnim autobusom i liftom gore, zapanjujuća panorama cijelog Berchtesgadenskog gorja."
+          "desc": "Vrhunska zgrada na 1.834 m iz nacističkog doba — posebnim autobusom i liftom gore, zapanjujuća panorama Berchtesgadenskog gorja. Povijesni kontekst u Dokumentacijskom centru Obersalzberg."
         },
         "uk": {
-          "name": "Кельштайнхаус (Орлине гніздо)",
+          "name": "Кельштайнхаус",
           "town": "Берхтесґаден",
-          "desc": "Історичний гірський будинок на висоті 1834 м, збудований 1938 року як подарунок Гітлеру — спеціальним автобусом і ліфтом нагору, захоплюючий панорамний вигляд на Берхтесґаденські Альпи."
+          "desc": "Гірський будинок на висоті 1834 м із часів нацизму — спеціальним автобусом і ліфтом нагору, захоплюючий вигляд на Берхтесґаденські Альпи. Історичний контекст у Документаційному центрі Оберзальцберґ."
         },
         "sk": {
-          "name": "Kehlsteinhaus (Orlie hniezdo)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Historický vrcholový dom vo výške 1 834 m, postavený v roku 1938 ako dar Hitlerovi — špeciálnym autobusom a výťahom hore, úžasná panoráma celých Berchtesgadenských Álp."
+          "desc": "Vrcholový dom vo výške 1 834 m z čias nacizmu — špeciálnym autobusom a výťahom hore, úžasná panoráma Berchtesgadenských Álp. Historický kontext v Dokumentačnom centre Obersalzberg."
         },
         "nl": {
-          "name": "Kehlsteinhaus (Adelaarsnest)",
+          "name": "Kehlsteinhaus",
           "town": "Berchtesgaden",
-          "desc": "Historisch bergtophuis op 1.834 m, in 1938 gebouwd als geschenk voor Hitler — met een speciale bus en lift omhoog, adembenemend panorama over de gehele Berchtesgadener Alpen."
+          "desc": "Bergtophuis op 1.834 m uit de nazi-tijd — met een speciale bus en lift omhoog, adembenemend panorama over de Berchtesgadener Alpen. Historische achtergrond in het Documentatiecentrum Obersalzberg."
         }
       },
       "categories": [
