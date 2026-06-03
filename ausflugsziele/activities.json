@@ -6192,8 +6192,7 @@
       "id": "salzburger-festspiele",
       "category": "city",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "summer"
@@ -6253,9 +6252,8 @@
       "id": "burg-burghausen",
       "category": "museum",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6317,8 +6315,7 @@
       "id": "motorikpark-burghausen",
       "category": "sport",
       "roles": [
-        "families",
-        "adults"
+        "family"
       ],
       "seasons": [
         "spring",
@@ -6380,9 +6377,8 @@
       "id": "hangar7-salzburg",
       "category": "museum",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6445,8 +6441,7 @@
       "id": "stiegl-brauwelt",
       "category": "museum",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6509,8 +6504,7 @@
       "id": "schloss-leopoldskron",
       "category": "city",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6572,9 +6566,8 @@
       "id": "mozarts-wohnhaus",
       "category": "museum",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6637,9 +6630,8 @@
       "id": "waldthemenpfad-osing",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6701,9 +6693,8 @@
       "id": "strandbad-waging",
       "category": "lakes",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "summer"
@@ -6763,9 +6754,8 @@
       "id": "strandbad-tettenhausen",
       "category": "lakes",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "summer"
@@ -6825,9 +6815,8 @@
       "id": "rund-um-den-abtsee",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6889,9 +6878,8 @@
       "id": "moosrundweg",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -6953,8 +6941,7 @@
       "id": "grosse-saaldorfer-runde",
       "category": "sport",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7016,9 +7003,8 @@
       "id": "kleine-saaldorfer-runde",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7081,9 +7067,8 @@
       "id": "salzachrundweg",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7145,8 +7130,7 @@
       "id": "panoramarundweg-saaldorf",
       "category": "sport",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7208,9 +7192,8 @@
       "id": "haarmoos",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7285,63 +7268,153 @@
     },
     {
       "id": "freibad-ainring",
-      "category": "sport",
+      "category": "lakes",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "active"
       ],
       "seasons": [
         "summer"
       ],
       "distance": 8,
-      "icon": "🏖",
+      "icon": "🏊",
       "url": "https://www.ainring.de/freizeit-tourismus/freibad",
       "i18n": {
         "de": {
-          "name": "Freibad & Minigolf Ainring",
+          "name": "Freibad Ainring",
           "town": "Ainring",
-          "desc": "Familiäres Gemeindefreibad mit Liegewiese, Kinderbecken und Sprungbrett — direkt daneben wartet eine gepflegte Minigolfanlage. Ideale Kombination für einen entspannten Sommertag."
+          "desc": "Familiäres Gemeindefreibad mit Liegewiese, Kinderbecken und Sprungbrett — ideal für einen entspannten Sommertag."
         },
         "en": {
-          "name": "Ainring Open-Air Pool & Minigolf",
+          "name": "Ainring Open-Air Pool",
           "town": "Ainring",
-          "desc": "Family-friendly municipal lido with sunbathing lawn, paddling pool and diving board — right next to it a well-kept minigolf course. The perfect combination for a relaxed summer day."
+          "desc": "Family-friendly municipal lido with sunbathing lawn, paddling pool and diving board — perfect for a relaxed summer day."
         },
         "it": {
-          "name": "Piscina all'aperto & Minigolf Ainring",
+          "name": "Piscina all'aperto Ainring",
           "town": "Ainring",
-          "desc": "Piscina comunale per famiglie con prato, vasca per bambini e trampolino — accanto si trova un curato campo da minigolf. Combinazione ideale per una giornata estiva rilassante."
-        },
-        "hu": {
-          "name": "Ainring strandfuerdo & Minigolf",
-          "town": "Ainring",
-          "desc": "Csalaadbaraat koezseegi strandfuerdo napozoretveel, gyermekmedencevel es ugrodeszkaval — kozvetlenul mellette egy gondozott minigolfpalya. Tokeletes kombinacio egy kellemes nyari naphoz."
-        },
-        "cs": {
-          "name": "Koupalistrte & Minigolf Ainring",
-          "town": "Ainring",
-          "desc": "Rodinne obecni koupaliste s lozkou, detskym bazenem a skokanskym mustkem — hned vedle je udrzovane minigolfove hriste. Idealni kombinace pro prijemny letni den."
-        },
-        "es": {
-          "name": "Piscina & Minigolf Ainring",
-          "town": "Ainring",
-          "desc": "Piscina municipal familiar con zona de descanso, piscina infantil y trampolín — justo al lado hay un cuidado campo de minigolf. Combinación perfecta para un relajante día de verano."
+          "desc": "Piscina comunale per famiglie con prato, vasca per bambini e trampolino — ideale per una giornata estiva."
         },
         "fr": {
-          "name": "Piscine & Minigolf Ainring",
+          "name": "Piscine Ainring",
           "town": "Ainring",
-          "desc": "Piscine municipale familiale avec pelouse, pataugeoire et plongeoir — juste à côté se trouve un parcours de minigolf bien entretenu. Combinaison idéale pour une journée d'été détendue."
+          "desc": "Piscine municipale familiale avec pelouse, pataugeoire et plongeoir — idéal pour une journée d'été détendue."
         },
-        "pl": {
-          "name": "Basen & Minigolf Ainring",
+        "es": {
+          "name": "Piscina Ainring",
           "town": "Ainring",
-          "desc": "Przyjazny rodzinom basen miejski z lezakowiskiem, basenem dla dzieci i trapolin — tuz obok zadbane pole do minigolfa. Idealne polaaczenie na relaksujacy letni dzien."
+          "desc": "Piscina municipal familiar con zona de descanso, piscina infantil y trampolín — perfecta para un día de verano."
         },
         "hr": {
-          "name": "Bazen & Minigolf Ainring",
+          "name": "Bazen Ainring",
           "town": "Ainring",
-          "desc": "Obiteljski opcinski bazen s lezalisom, decjim bazenom i daskom za skokove — tik do njega uredjeni minigolf teren. Idealna kombinacija za opusteni ljetni dan."
+          "desc": "Obiteljski općinski bazen s ležalisom, dječjim bazenom i daskom za skokove — idealno za opušteni ljetni dan."
+        },
+        "hu": {
+          "name": "Ainring strandfürdő",
+          "town": "Ainring",
+          "desc": "Családbarát községi strandfürdő napozóréttel, gyermekmedencével és ugródeszkával — tökéletes nyári nap."
+        },
+        "cs": {
+          "name": "Koupaliště Ainring",
+          "town": "Ainring",
+          "desc": "Rodinné obecní koupaliště s loučkou, dětským bazénem a skokanským můstkem — ideální pro letní den."
+        },
+        "sk": {
+          "name": "Kúpalisko Ainring",
+          "town": "Ainring",
+          "desc": "Rodinné obecné kúpalisko s trávnikom, detským bazénom a skokankou — ideálne na letný deň."
+        },
+        "pl": {
+          "name": "Basen Ainring",
+          "town": "Ainring",
+          "desc": "Rodzinny basen miejski z leżakowiskiem, basenem dla dzieci i trampoliną — idealny na letni dzień."
+        },
+        "nl": {
+          "name": "Zwembad Ainring",
+          "town": "Ainring",
+          "desc": "Gemeentelijk buitenzwembad voor families met ligweide, kinderbad en duikplank — ideaal voor een zomerse dag."
+        },
+        "uk": {
+          "name": "Відкритий басейн Ainring",
+          "town": "Ainring",
+          "desc": "Сімейний муніципальний басейн з газоном, дитячим басейном та вишкою — ідеально для літнього дня."
+        }
+      }
+    },
+    {
+      "id": "minigolf-ainring",
+      "category": "sport",
+      "roles": [
+        "family",
+        "active"
+      ],
+      "seasons": [
+        "summer"
+      ],
+      "distance": 8,
+      "icon": "⛳",
+      "url": "https://www.ainring.de/freizeit-tourismus/freibad",
+      "i18n": {
+        "de": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Gepflegte Minigolfanlage direkt neben dem Freibad — ideal für die ganze Familie nach dem Baden."
+        },
+        "en": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Well-kept minigolf course right next to the outdoor pool — ideal for the whole family after a swim."
+        },
+        "it": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Campo da minigolf ben curato accanto alla piscina — ideale per tutta la famiglia dopo il bagno."
+        },
+        "fr": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Parcours de minigolf bien entretenu juste à côté de la piscine — idéal pour toute la famille."
+        },
+        "es": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Campo de minigolf bien cuidado junto a la piscina — ideal para toda la familia."
+        },
+        "hr": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Uređeni minigolf teren tik uz bazen — idealno za cijelu obitelj."
+        },
+        "hu": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Gondozott minigolfpálya a strandfürdő mellett — ideális az egész családnak."
+        },
+        "cs": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Udržované minigolfové hřiště hned vedle koupaliště — ideální pro celou rodinu."
+        },
+        "sk": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Udržiavané minigolfové ihrisko hneď vedľa kúpaliska — ideálne pre celú rodinu."
+        },
+        "pl": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Zadbane pole do minigolfa tuż obok basenu — idealne dla całej rodziny."
+        },
+        "nl": {
+          "name": "Minigolf Ainring",
+          "town": "Ainring",
+          "desc": "Goed onderhouden minigolfbaan naast het zwembad — ideaal voor het hele gezin."
+        },
+        "uk": {
+          "name": "Мінігольф Ainring",
+          "town": "Ainring",
+          "desc": "Доглянуте поле для мінігольфу поруч із басейном — ідеально для всієї родини."
         }
       }
     },
@@ -7349,9 +7422,8 @@
       "id": "stift-st-peter-salzburg",
       "category": "museum",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7414,8 +7486,7 @@
       "id": "alpentherme-bad-gastein",
       "category": "wellness",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7478,8 +7549,7 @@
       "id": "chiemsee-radweg",
       "category": "cycling",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7541,8 +7611,7 @@
       "id": "tauernradweg",
       "category": "cycling",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7604,9 +7673,8 @@
       "id": "inn-salzach-radweg",
       "category": "cycling",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7668,9 +7736,8 @@
       "id": "tachinger-see",
       "category": "lakes",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "summer"
@@ -7730,9 +7797,8 @@
       "id": "eislaufen-salzburg",
       "category": "sport",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "winter"
@@ -7792,9 +7858,8 @@
       "id": "das-kino-salzburg",
       "category": "city",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7857,9 +7922,8 @@
       "id": "kino-bad-reichenhall",
       "category": "city",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7922,9 +7986,8 @@
       "id": "cineplexx-salzburg-city",
       "category": "city",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -7987,9 +8050,8 @@
       "id": "cineplexx-salzburg-airport",
       "category": "city",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -8052,9 +8114,8 @@
       "id": "schellenberger-eishoehle",
       "category": "mountains",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -8116,9 +8177,8 @@
       "id": "kampenwand",
       "category": "mountains",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -8181,9 +8241,8 @@
       "id": "lamprechtsofen",
       "category": "mountains",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -8245,9 +8304,8 @@
       "id": "tassilo-hoehlen",
       "category": "mountains",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -8309,9 +8367,8 @@
       "id": "gollinger-wasserfall",
       "category": "mountains",
       "roles": [
-        "families",
-        "couples",
-        "adults"
+        "family",
+        "couple"
       ],
       "seasons": [
         "spring",
@@ -8373,8 +8430,7 @@
       "id": "schwarzbachfall",
       "category": "mountains",
       "roles": [
-        "couples",
-        "adults"
+        "couple"
       ],
       "seasons": [
         "spring",
