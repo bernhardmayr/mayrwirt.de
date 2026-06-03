@@ -8369,6 +8369,133 @@
           "desc": "Dostupna stalaktitna pecina kraj jezera Mondsee s impresivnim stalagmitima, stalaktitima i podzemnim jezerima — vodene ture otkrivaju milijunima godina staru geolosku povijest austrijskog Salzkammerguta."
         }
       }
+    },
+    {
+      "id": "gollinger-wasserfall",
+      "category": "mountains",
+      "roles": [
+        "families",
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 38,
+      "icon": "💧",
+      "url": "https://www.golling.at/freizeit-tourismus/natur/gollinger-wasserfall/",
+      "i18n": {
+        "de": {
+          "name": "Gollinger Wasserfall",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Einer der schoensten Wasserfaelle Oesterreichs stuerzt in zwei Stufen bis zu 75 m in die Tiefe — ein kurzer Waldspaziergang fuehrt zur beeindruckenden Gischt, ideal fuer Familien mit Kindern."
+        },
+        "en": {
+          "name": "Golling Waterfall",
+          "town": "Golling an der Salzach (A)",
+          "desc": "One of Austria's most beautiful waterfalls plunges in two stages up to 75 m — a short forest walk leads to the impressive spray, ideal for families with children."
+        },
+        "it": {
+          "name": "Cascata di Golling",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Una delle piu belle cascate d'Austria precipita in due salti fino a 75 m — una breve passeggiata nel bosco porta all'impressionante schiuma, ideale per famiglie con bambini."
+        },
+        "hu": {
+          "name": "Gollinger vizeses",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Ausztria egyik legszebb vizese ket lepesben akár 75 m-t zuhan le — egy rovid erdei setatany vezet a lenyugeozo perahoz, idealis gyermekes csalaadoknak."
+        },
+        "cs": {
+          "name": "Gollingsky vodopad",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Jeden z nejkrasnejsich vodopadu v Rakousku se riti ve dvou stupnich az 75 m hluboko — kratka prochazka lesem vede k puvabivemu spreji, idealni pro rodiny s detmi."
+        },
+        "es": {
+          "name": "Cascada de Golling",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Una de las cascadas más bellas de Austria cae en dos tramos hasta 75 m — un corto paseo por el bosque lleva a la impresionante bruma, ideal para familias con ninos."
+        },
+        "fr": {
+          "name": "Cascade de Golling",
+          "town": "Golling an der Salzach (A)",
+          "desc": "L'une des plus belles cascades d'Autriche tombe en deux etages jusqu'a 75 m — une courte promenade en foret mene aux impressionnantes embruns, ideale pour les familles avec enfants."
+        },
+        "pl": {
+          "name": "Wodospad Golling",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Jeden z najpiekniejszych wodospadow Austrii opada w dwoch stopniach do 75 m — krotki spacer lesny prowadzi do imponujacej mgly wodnej, idealne dla rodzin z dziecmi."
+        },
+        "hr": {
+          "name": "Gollingski vodopad",
+          "town": "Golling an der Salzach (A)",
+          "desc": "Jedan od najljepsih slapova Austrije pada u dva stupnja do 75 m — kratka sumska setnja vodi do impresivne magle, idealno za obitelji s djecom."
+        }
+      }
+    },
+    {
+      "id": "schwarzbachfall",
+      "category": "mountains",
+      "roles": [
+        "couples",
+        "adults"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "distance": 55,
+      "icon": "💧",
+      "url": "https://www.lofer.com/sommer/wandern/schwarzbachfall/",
+      "i18n": {
+        "de": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Wilder, urspruenglicher Wasserfall im Loferer Steingebirge — der Schwarzbach stuerzt durch eine enge Felsschlucht hinab und schafft eine kraftvolle Naturkulisse inmitten des Naturparks Weissbach."
+        },
+        "en": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Wild, primeval waterfall in the Loferer Steinberge — the Schwarzbach plunges through a narrow rocky gorge, creating a powerful natural backdrop in the heart of the Weissbach nature park."
+        },
+        "it": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Cascata selvaggia e primitiva nelle montagne di Lofer — il Schwarzbach precipita attraverso una stretta gola rocciosa, creando uno scenario naturale potente nel cuore del parco naturale Weissbach."
+        },
+        "hu": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Vad, osei vizeses a Loferer Steingebirge-ben — a Schwarzbach szuk sziklagorgen zuhan at, erooteljes termeszeti hattat teremtve a Weissbach termeszeti park sziveben."
+        },
+        "cs": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Divoci, puvodní vodopad v pohori Loferer Steinberge — Schwarzbach se riti uzkou skalní souteskov, vytvari majestátní prirodní kulisu uprostred prirodniho parku Weissbach."
+        },
+        "es": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Cascada salvaje y primigenia en las montanas de Lofer — el Schwarzbach cae por un estrecho desfiladero rocoso, creando un potente escenario natural en el corazon del parque natural Weissbach."
+        },
+        "fr": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Cascade sauvage et primitive dans les montagnes de Lofer — le Schwarzbach se precipite dans une etroite gorge rocheuse, creant un puissant cadre naturel au coeur du parc naturel de Weissbach."
+        },
+        "pl": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Dziki, pierwotny wodospad w gorach Loferer Steinberge — Schwarzbach spada przez waska skalna przelecz, tworzac potezna naturalna scenerie w sercu parku przyrody Weissbach."
+        },
+        "hr": {
+          "name": "Schwarzbachfall",
+          "town": "Lofer (A)",
+          "desc": "Divlji, prvobitni slap u planinama Lofer — Schwarzbach se obrusa kroz uzak stijenski klanac, stvarajuci mocno prirodno okruzenje u srcu prirodnog parka Weissbach."
+        }
+      }
     }
   ]
 }
