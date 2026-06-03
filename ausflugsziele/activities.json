@@ -3352,54 +3352,69 @@
       "seasons": [
         "summer"
       ],
-      "distance": 21,
+      "distance": 18,
       "icon": "🏖️",
       "url": "https://www.waginger-see.de/",
       "i18n": {
         "de": {
-          "name": "Waginger See",
+          "name": "Waginger See & Strandbad",
           "town": "Waging am See",
-          "desc": "Der wärmste Badesee Oberbayerns mit feinen Sandstränden, Tretbooten und Wassertemperaturen bis 27 °C."
+          "desc": "Der wärmste Badesee Oberbayerns — das Strandbad Waging bietet Sandstrand, Liegewiese, Rutsche, Beachvolleyball, Bootsverleih und Wassertemperaturen bis 27 °C."
         },
         "en": {
-          "name": "Lake Waging",
+          "name": "Lake Waging & Lido",
           "town": "Waging am See",
-          "desc": "The warmest bathing lake in Upper Bavaria with fine sandy beaches, pedal boats and water up to 27 °C."
+          "desc": "Upper Bavaria's warmest bathing lake — Waging Lido offers a sandy beach, sunbathing lawn, slide, beach volleyball, boat hire and water temperatures up to 27 °C."
         },
         "it": {
-          "name": "Lago di Waging",
+          "name": "Lago di Waging & Stabilimento",
           "town": "Waging am See",
-          "desc": "Il lago balneabile più caldo dell'Alta Baviera, con spiagge sabbiose, pedalò e acqua fino a 27 °C."
-        },
-        "hu": {
-          "name": "Waging-tó",
-          "town": "Waging am See",
-          "desc": "Felső-Bajorország legmelegebb fürdőtava finom homokos strandokkal, vízibiciklikkel és akár 27 °C-os vízzel."
-        },
-        "cs": {
-          "name": "Wagingské jezero",
-          "town": "Waging am See",
-          "desc": "Nejteplejší koupací jezero v Horním Bavorsku s jemnými písečnými plážemi, šlapadly a vodou až 27 °C."
-        },
-        "es": {
-          "name": "Lago de Waging",
-          "town": "Waging am See",
-          "desc": "El lago de baño más cálido de la Alta Baviera, con finas playas de arena, hidropedales y agua de hasta 27 °C."
+          "desc": "Il lago balneabile più caldo dell'Alta Baviera — il lido di Waging offre spiaggia sabbiosa, prato, scivolo, beach volley, noleggio barche e acqua fino a 27 °C."
         },
         "fr": {
-          "name": "Lac de Waging",
+          "name": "Lac de Waging & Plage",
           "town": "Waging am See",
-          "desc": "Le lac de baignade le plus chaud de Haute-Bavière, avec plages de sable fin, pédalos et eau jusqu'à 27 °C."
+          "desc": "Le lac de baignade le plus chaud de Haute-Bavière — le lido de Waging propose plage de sable, pelouse, toboggan, beach-volley, location de bateaux et eau jusqu'à 27 °C."
         },
-        "pl": {
-          "name": "Jezioro Waging",
+        "es": {
+          "name": "Lago de Waging & Playa",
           "town": "Waging am See",
-          "desc": "Najcieplejsze jezioro kąpielowe Górnej Bawarii z piaszczystymi plażami, rowerami wodnymi i wodą do 27 °C."
+          "desc": "El lago de baño más cálido de Baviera Alta — la playa de Waging ofrece arena, zona de descanso, tobogán, voleibol de playa, alquiler de barcas y agua hasta 27 °C."
         },
         "hr": {
-          "name": "Jezero Waging",
+          "name": "Jezero Waging & Plaža",
           "town": "Waging am See",
-          "desc": "Najtoplije kupališno jezero u Gornjoj Bavarskoj s finim pješčanim plažama, pedalinama i vodom do 27 °C."
+          "desc": "Najtoplije kupališno jezero Gornje Bavarske — plaža Waging nudi pješčanu plažu, ležalište, tobogan, odbojku na pijesku, iznajmljivanje čamaca i vodu do 27 °C."
+        },
+        "hu": {
+          "name": "Waging-tó & Strandfürdő",
+          "town": "Waging am See",
+          "desc": "Felső-Bajorország legmelegebb fürdőtava — a wagingi strandfürdő homokos strandot, napozórétet, csúszdát, strandröplabdát, csónakbérlést és 27 °C-os vizet kínál."
+        },
+        "cs": {
+          "name": "Jezero Waging & Plážový areál",
+          "town": "Waging am See",
+          "desc": "Nejteplejší koupací jezero Horního Bavorska — koupaliště Waging nabízí písečnou pláž, loučku, tobogán, plážový volejbal, půjčovnu lodiček a vodu až 27 °C."
+        },
+        "sk": {
+          "name": "Jazero Waging & Plážový areál",
+          "town": "Waging am See",
+          "desc": "Najteplejšie kúpacie jazero Horného Bavorska — kúpalisko Waging ponúka piesočnatú pláž, trávnik, tobogan, plážový volejbal, požičovňu loďok a vodu do 27 °C."
+        },
+        "pl": {
+          "name": "Jezioro Waging & Plaża",
+          "town": "Waging am See",
+          "desc": "Najcieplejsze jezioro kąpielowe Górnej Bawarii — kąpielisko Waging oferuje piaszczystą plażę, leżakowisko, zjeżdżalnię, siatkówkę plażową, wypożyczalnię łódek i wodę do 27 °C."
+        },
+        "nl": {
+          "name": "Waginger See & Strandbad",
+          "town": "Waging am See",
+          "desc": "Het warmste zwemmeer van Opper-Beieren — het Strandbad Waging biedt een zandstrand, ligweide, glijbaan, beachvolleybal, bootverhuur en watertemperaturen tot 27 °C."
+        },
+        "uk": {
+          "name": "Озеро Вагінг & Пляж",
+          "town": "Waging am See",
+          "desc": "Найтепліше купальне озеро Верхньої Баварії — пляж Вагінг пропонує піщаний берег, газон, гірку, пляжний волейбол, прокат човнів та температуру води до 27 °C."
         }
       }
     },
@@ -6686,67 +6701,6 @@
           "name": "Sumska poducna staza Osing",
           "town": "Laufen a.d. Salzach",
           "desc": "Besplatna 2 km kruzna staza s 15 postaja o promjenama sume i raznolikosti stabala u sumi Osing. Interaktivne ploce za posjetitelje svih uzrasta."
-        }
-      }
-    },
-    {
-      "id": "strandbad-waging",
-      "category": "lakes",
-      "roles": [
-        "family",
-        "couple"
-      ],
-      "seasons": [
-        "summer"
-      ],
-      "distance": 18,
-      "icon": "🏖",
-      "url": "https://www.waging.de/tourismus/strandbad",
-      "i18n": {
-        "de": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Gepflegtes Strandbad am waermsten Badesee Oberbayerns mit Sandstrand, Liegewiese, Rutsche, Beachvolleyball und Bootsverleih. Ideal fuer einen entspannten Familientag am Wasser."
-        },
-        "en": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Well-kept lido on Bavaria's warmest lake with sandy beach, sunbathing lawn, slide, beach volleyball and boat hire. Perfect for a relaxed family day by the water."
-        },
-        "it": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Lido curato sul lago piu caldo della Baviera con spiaggia sabbiosa, prato per il relax, scivolo, beach volley e noleggio barche. Ideale per una giornata in famiglia."
-        },
-        "hu": {
-          "name": "Waging am See strandfuerdo",
-          "town": "Waging am See",
-          "desc": "Gondozott strandfuerdo Bajororszag legmelegebb tavana homokos stranddal, napozoretveel, csuszoadal, strandroptlabda-pallyal es csonikhirre. Tokeletes csalaadi naphoz."
-        },
-        "cs": {
-          "name": "Plovarsky areal Waging am See",
-          "town": "Waging am See",
-          "desc": "Udrzovane koupaliste na nejteplejsim bavorsem jezere s pisecnou plazi, louzkou, tobogánem, plaznim volejbalem a pujcovnou lodi. Idealni pro rodinny den u vody."
-        },
-        "es": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Playa acondicionada junto al lago mas calido de Baviera con playa de arena, zona de descanso, tobogan, voleibol de playa y alquiler de barcas. Ideal para un dia familiar."
-        },
-        "fr": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Bain de soleil amenage sur le lac le plus chaud de Baviere avec plage de sable, pelouse, toboggan, beach-volley et location de bateaux. Ideal pour une journee en famille."
-        },
-        "pl": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Zadbane kapielisko nad najcieplejszym jeziorem Bawarii z piaszczystą plaza, lezakowiskiem, zjezdzalnia, siatkowka plazowa i wypozyczalnia lodek. Idealne na rodzinny dzien."
-        },
-        "hr": {
-          "name": "Strandbad Waging am See",
-          "town": "Waging am See",
-          "desc": "Uredeno kupkaliste na najtoplijem jezeru Bavarske s pjescanom plazom, lezalisom, toboganom, odbojkom na pijesku i iznajmljivanjem camaca. Idealno za obiteljski dan."
         }
       }
     },
