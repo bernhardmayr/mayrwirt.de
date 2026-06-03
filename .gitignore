@@ -1,3 +1,4 @@
 node_modules/
 css/input.css
 package-lock.json
+__pycache__/
