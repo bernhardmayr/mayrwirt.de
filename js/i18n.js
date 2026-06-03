@@ -35,7 +35,9 @@ async function setLang(lang) {
     const link = document.getElementById('menu-link');
     if (link) link.href = menuUrls[lang] || menuUrls.de;
     document.querySelectorAll('[data-activities-link]').forEach(a => {
-        a.href = activitiesUrls[lang] || activitiesUrls.de;
+        const base   = activitiesUrls[lang] || activitiesUrls.de;
+        const filter = a.dataset.filter;
+        a.href = base + (filter ? '#' + filter : '');
     });
 }
 
