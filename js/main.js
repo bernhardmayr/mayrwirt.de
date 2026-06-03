@@ -64,17 +64,17 @@ function initHoursStatus() {
     };
     const lbl = labels[lang] || labels.de;
 
-    // Restaurant: Mo–Do 11–14 & 17–22, Fr–Sa 11–14 & 17–23, So 10–21
+    // Restaurant: So + Mo Ruhetag, Di–Sa 17:00–22:00 (Küche bis 21, Sperrstunde 22)
     function restOpen() {
-        if (day >= 1 && day <= 4) return (mins >= 660 && mins < 840) || (mins >= 1020 && mins < 1320);
-        if (day === 5 || day === 6) return (mins >= 660 && mins < 840) || (mins >= 1020 && mins < 1380);
-        if (day === 0) return mins >= 600 && mins < 1260;
-        return false;
+        if (day === 0 || day === 1) return false;
+        return mins >= 1020 && mins < 1320;
     }
-    // Butcher: Mo–Fr 07–12 & 14–18, Sa 07–12, So closed
+    // Butcher: Mo/Mi 7:30–12, Di/Do 7:30–12 & 14–17:30, Fr 7:30–12 & 14–18, Sa 7:30–12, So closed
     function butchOpen() {
-        if (day >= 1 && day <= 5) return (mins >= 420 && mins < 720) || (mins >= 840 && mins < 1080);
-        if (day === 6) return mins >= 420 && mins < 720;
+        if (day === 1 || day === 3) return mins >= 450 && mins < 720;
+        if (day === 2 || day === 4) return (mins >= 450 && mins < 720) || (mins >= 840 && mins < 1050);
+        if (day === 5) return (mins >= 450 && mins < 720) || (mins >= 840 && mins < 1080);
+        if (day === 6) return mins >= 450 && mins < 720;
         return false;
     }
 
@@ -159,12 +159,12 @@ function getReply(text) {
             jobs:         `Wir suchen aktuell eine Zimmermädchen (m/w/d) und eine Verkäuferin (m/w/d) für unsere Metzgerei. Bewerbungen bitte an ${mail} oder ${tel}.`,
             reservation: `Für Reservierungen erreichen Sie uns unter ${tel} oder per ${mail}.`,
             rooms:        `Wir bieten gemütliche Zimmer mit Frühstück. Bitte kontaktieren Sie uns: ${tel}.`,
-            hours:        'Wirtshaus: Mo–Do 11–14 &amp; 17–22 Uhr, Fr–Sa 11–14 &amp; 17–23 Uhr, So 10–21 Uhr.<br>Metzgerei: Mo–Fr 7–12 &amp; 14–18 Uhr, Sa 7–12 Uhr.',
+            hours:        'Wirtshaus: Di–Sa 17–21 Uhr, Sperrstunde 22:00. So + Mo Ruhetag.<br>Metzgerei: Mo/Mi 7:30–12, Di/Do 7:30–12 &amp; 14–17:30, Fr 7:30–12 &amp; 14–18, Sa 7:30–12.',
             menu:         `Unsere Speisekarte finden Sie als ${pdf}.`,
             address:      'Wir sind in der Untere Str. 24, 83416 Saaldorf — zwischen Salzburg und Freilassing.',
             price:        `Für Preisinformationen kontaktieren Sie uns bitte direkt: ${tel}.`,
             breakfast:    'Frühstück ist in der Zimmermiete inklusive — mit hausgemachten Produkten aus unserer Metzgerei.',
-            butcher:      `Unsere Metzgerei ist Mo–Fr 7–18 Uhr und Sa 7–12 Uhr geöffnet. Aktuelle Angebote: ${offer}.`,
+            butcher:      `Unsere Metzgerei: Mo/Mi 7:30–12, Di/Do 7:30–12 &amp; 14–17:30, Fr 7:30–12 &amp; 14–18, Sa 7:30–12. Aktuelle Angebote: ${offer}.`,
             area:         'Salzburg ist ca. 20 km entfernt, Berchtesgaden ca. 30 km — ideal für Tagesausflüge!',
             fallback:     `Vielen Dank für Ihre Frage! Für genaue Auskünfte: ${tel} oder ${mail}.`,
         },
@@ -173,12 +173,12 @@ function getReply(text) {
             jobs:         `We are currently looking for a Housekeeping Staff (m/f/d) and a Butcher Shop Sales Assistant (m/f/d). Please send your application to ${mail} or call ${tel}.`,
             reservation: `For reservations please contact us at ${tel} or ${mail}.`,
             rooms:        `We offer cosy rooms with breakfast included. Please contact us: ${tel}.`,
-            hours:        'Restaurant: Mon–Thu 11am–2pm &amp; 5–10pm, Fri–Sat 11am–2pm &amp; 5–11pm, Sun 10am–9pm.<br>Butcher: Mon–Fri 7am–12pm &amp; 2–6pm, Sat 7am–12pm.',
+            hours:        'Restaurant: Tue–Sat 5–9pm, closing time 10pm. Sun + Mon closed.<br>Butcher: Mon/Wed 7:30–12, Tue/Thu 7:30–12 &amp; 2–5:30pm, Fri 7:30–12 &amp; 2–6pm, Sat 7:30–12.',
             menu:         `You can find our menu as a ${pdf}.`,
             address:      'We are located at Untere Str. 24, 83416 Saaldorf — between Salzburg and Freilassing.',
             price:        `For price information please contact us directly: ${tel}.`,
             breakfast:    `Breakfast is included in the room rate — with home-made products from our own butcher's shop.`,
-            butcher:      `Our butcher's shop is open Mon–Fri 7am–6pm and Sat 7am–12pm. Current offers: ${offer}.`,
+            butcher:      `Butcher: Mon/Wed 7:30–12, Tue/Thu 7:30–12 &amp; 2–5:30pm, Fri 7:30–12 &amp; 2–6pm, Sat 7:30–12. Current offers: ${offer}.`,
             area:         'Salzburg is approx. 20 km away, Berchtesgaden approx. 30 km — perfect for day trips!',
             fallback:     `Thank you for your question! For detailed information: ${tel} or ${mail}.`,
         },
@@ -187,12 +187,12 @@ function getReply(text) {
             jobs:         `Stiamo cercando un addetta alle pulizie (m/f/d) e una commessa per la macelleria (m/f/d). Invia la tua candidatura a ${mail} o chiamaci al ${tel}.`,
             reservation: `Per prenotazioni ci può contattare al ${tel} o via ${mail}.`,
             rooms:        `Offriamo camere accoglienti con colazione inclusa. Contattateci: ${tel}.`,
-            hours:        'Ristorante: Lun–Gio 11–14 &amp; 17–22, Ven–Sab 11–14 &amp; 17–23, Dom 10–21.<br>Macelleria: Lun–Ven 7–12 &amp; 14–18, Sab 7–12.',
+            hours:        'Ristorante: Mar–Sab 17–21, chiusura 22:00. Dom + Lun giorno di riposo.<br>Macelleria: Lun/Mer 7:30–12, Mar/Gio 7:30–12 &amp; 14–17:30, Ven 7:30–12 &amp; 14–18, Sab 7:30–12.',
             menu:         `Il nostro menù è disponibile come ${pdf}.`,
             address:      'Siamo a Untere Str. 24, 83416 Saaldorf — tra Salisburgo e Freilassing.',
             price:        `Per informazioni sui prezzi contattateci direttamente: ${tel}.`,
             breakfast:    'La colazione è inclusa nel prezzo della camera — con prodotti artigianali della nostra macelleria.',
-            butcher:      `La nostra macelleria è aperta Lun–Ven 7–18 e Sab 7–12. Offerte: ${offer}.`,
+            butcher:      `Macelleria: Lun/Mer 7:30–12, Mar/Gio 7:30–12 &amp; 14–17:30, Ven 7:30–12 &amp; 14–18, Sab 7:30–12. Offerte: ${offer}.`,
             area:         'Salisburgo è a circa 20 km, Berchtesgaden a circa 30 km — ideale per gite!',
             fallback:     `Grazie per la domanda! Per informazioni: ${tel} o ${mail}.`,
         },
@@ -201,12 +201,12 @@ function getReply(text) {
             jobs:         `Jelenleg szobaasszonyt (m/n/d) és hentesüzleti eladót (m/n/d) keresünk. Önéletrajzát küldje az ${mail} címre vagy hívjon: ${tel}.`,
             reservation: `Foglaláshoz hívjon minket: ${tel} vagy írjon: ${mail}.`,
             rooms:        `Reggelivel ellátott, hangulatos szobákat kínálunk. Kérjük, vegye fel velünk a kapcsolatot: ${tel}.`,
-            hours:        'Étterem: H–Cs 11–14 &amp; 17–22, P–Szo 11–14 &amp; 17–23, V 10–21.<br>Hentesüzlet: H–P 7–12 &amp; 14–18, Szo 7–12.',
+            hours:        'Étterem: K–Szo 17–21, zárás 22:00. V + H szünnap.<br>Hentesüzlet: H/Sze 7:30–12, K/Cs 7:30–12 &amp; 14–17:30, P 7:30–12 &amp; 14–18, Szo 7:30–12.',
             menu:         `Az étlapunkat ${pdf} formátumban találja.`,
             address:      'Untere Str. 24, 83416 Saaldorf — Salzburg és Freilassing között.',
             price:        `Az árakkal kapcsolatban kérjük, lépjen velünk kapcsolatba: ${tel}.`,
             breakfast:    'A reggeli az ár részét képezi — saját hentesüzletünk házi termékeivel.',
-            butcher:      `Hentesüzletünk H–P 7–18 és Szo 7–12 között tart nyitva. Aktuális ajánlatok: ${offer}.`,
+            butcher:      `Hentesüzlet: H/Sze 7:30–12, K/Cs 7:30–12 &amp; 14–17:30, P 7:30–12 &amp; 14–18, Szo 7:30–12. Aktuális ajánlatok: ${offer}.`,
             area:         'Salzburg kb. 20 km-re, Berchtesgaden kb. 30 km-re van — ideális kiránduláshoz!',
             fallback:     `Köszönjük a kérdést! Részletes tájékoztatásért: ${tel} vagy ${mail}.`,
         },
@@ -215,12 +215,12 @@ function getReply(text) {
             jobs:         `Hledáme pokojskou (m/ž/d) a prodavač/ku do řeznictví (m/ž/d). Přihlášky zasílejte na ${mail} nebo volejte ${tel}.`,
             reservation: `Pro rezervace nás kontaktujte na ${tel} nebo ${mail}.`,
             rooms:        `Nabízíme útulné pokoje se snídaní. Kontaktujte nás: ${tel}.`,
-            hours:        'Hostinec: Po–Čt 11–14 &amp; 17–22, Pá–So 11–14 &amp; 17–23, Ne 10–21.<br>Řeznictví: Po–Pá 7–12 &amp; 14–18, So 7–12.',
+            hours:        'Hostinec: Út–So 17–21, zavírání 22:00. Ne + Po zavřeno.<br>Řeznictví: Po/St 7:30–12, Út/Čt 7:30–12 &amp; 14–17:30, Pá 7:30–12 &amp; 14–18, So 7:30–12.',
             menu:         `Náš jídelní lístek naleznete jako ${pdf}.`,
             address:      'Jsme na adrese Untere Str. 24, 83416 Saaldorf — mezi Salzburgem a Freilasingem.',
             price:        `Pro informace o cenách nás prosím kontaktujte přímo: ${tel}.`,
             breakfast:    'Snídaně je zahrnuta v ceně pokoje — s domácími produkty z našeho vlastního řeznictví.',
-            butcher:      `Naše řeznictví je otevřeno Po–Pá 7–18 a So 7–12. Aktuální nabídka: ${offer}.`,
+            butcher:      `Řeznictví: Po/St 7:30–12, Út/Čt 7:30–12 &amp; 14–17:30, Pá 7:30–12 &amp; 14–18, So 7:30–12. Aktuální nabídka: ${offer}.`,
             area:         'Salzburg je cca 20 km daleko, Berchtesgaden cca 30 km — ideální pro výlety!',
             fallback:     `Děkujeme za dotaz! Pro podrobné informace: ${tel} nebo ${mail}.`,
         },
