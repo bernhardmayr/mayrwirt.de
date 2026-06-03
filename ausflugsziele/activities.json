@@ -2432,7 +2432,7 @@
     },
     {
       "id": "burg-hohenwerfen",
-      "category": "city",
+      "category": "museum",
       "roles": [
         "family",
         "couple",
@@ -7874,7 +7874,7 @@
     },
     {
       "id": "kino-bad-reichenhall",
-      "category": "city",
+      "category": "museum",
       "roles": [
         "family",
         "couple"
