@@ -1862,7 +1862,8 @@
         "culture"
       ],
       "seasons": [
-        "allyear"
+        "allyear",
+        "indoor"
       ],
       "distance": 15,
       "icon": "🏰",
@@ -1941,7 +1942,8 @@
         "culture"
       ],
       "seasons": [
-        "allyear"
+        "allyear",
+        "indoor"
       ],
       "distance": 15,
       "icon": "🎼",
@@ -2659,7 +2661,8 @@
         "culture"
       ],
       "seasons": [
-        "summer"
+        "summer",
+        "indoor"
       ],
       "distance": 56,
       "icon": "🧊",
@@ -3211,7 +3214,8 @@
         "culture"
       ],
       "seasons": [
-        "summer"
+        "summer",
+        "indoor"
       ],
       "distance": 55,
       "icon": "👑",
@@ -7314,7 +7318,8 @@
         "couple"
       ],
       "seasons": [
-        "summer"
+        "summer",
+        "indoor"
       ],
       "distance": 28,
       "icon": "🎭",
@@ -7394,7 +7399,8 @@
       "seasons": [
         "spring",
         "summer",
-        "autumn"
+        "autumn",
+        "indoor"
       ],
       "distance": 40,
       "icon": "🏰",
@@ -7554,7 +7560,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "✈️",
@@ -7635,7 +7642,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "🍺",
@@ -7797,7 +7805,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "🎼",
@@ -8752,7 +8761,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "⛪",
@@ -8833,7 +8843,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 70,
       "icon": "🛁",
@@ -9308,7 +9319,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "🎬",
@@ -9389,7 +9401,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 23,
       "icon": "🎥",
@@ -9470,7 +9483,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 27,
       "icon": "🎦",
@@ -9551,7 +9565,8 @@
         "spring",
         "summer",
         "autumn",
-        "winter"
+        "winter",
+        "indoor"
       ],
       "distance": 25,
       "icon": "🎦",
@@ -9631,7 +9646,8 @@
       "seasons": [
         "spring",
         "summer",
-        "autumn"
+        "autumn",
+        "indoor"
       ],
       "distance": 20,
       "icon": "🧊",
@@ -9792,7 +9808,8 @@
       "seasons": [
         "spring",
         "summer",
-        "autumn"
+        "autumn",
+        "indoor"
       ],
       "distance": 55,
       "icon": "🧱",
@@ -9872,7 +9889,8 @@
       "seasons": [
         "spring",
         "summer",
-        "autumn"
+        "autumn",
+        "indoor"
       ],
       "distance": 62,
       "icon": "🌊",
