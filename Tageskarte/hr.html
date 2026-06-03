@@ -15,8 +15,8 @@
         a:hover { text-decoration: underline; }
         .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 10; }
         .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
-        .site-header .back { font-size: 0.8rem; color: rgba(255,255,255,0.75); display: flex; align-items: center; gap: 0.4rem; }
-        .site-header .back:hover { color: white; text-decoration: none; }
+        .site-header .back { font-size: 0.8rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 0.5rem; padding: 0.3rem 0.75rem; display: flex; align-items: center; gap: 0.4rem; transition: background 0.15s; }
+        .site-header .back:hover { background: rgba(255,255,255,0.25); text-decoration: none; color: #fff; }
         .menu-tabs { display: flex; justify-content: center; background: white; border-bottom: 2px solid #e5e5e0; }
         .menu-tab { padding: 0.75rem 2rem; font-size: 0.85rem; font-weight: 600; color: #6B6458; text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
         .menu-tab:hover { color: #2D5016; text-decoration: none; }
@@ -71,7 +71,7 @@
 <body>
 
 <header class="site-header">
-    <a href="../index.html" class="back">← Povratak na stranicu</a>
+    <a href="../index.html" class="back">← Natrag</a>
     <span class="brand">Mayrwirt</span>
     <div class="sub-lang-dd" id="sub-lang-wrap">
         <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
