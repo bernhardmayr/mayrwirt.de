@@ -1,6 +1,11 @@
 {
   "labels": {
     "de": {
+      "mapTitle": "Ausflugsziele auf der Karte",
+      "mapIntro": "Alle Ausflugsziele rund um den Mayrwirt auf einen Blick — tippen Sie auf eine Markierung für Details und die Route.",
+      "mapLink": "Karte",
+      "listLink": "Liste",
+      "here": "Mayrwirt — hier sind Sie",
       "title": "Ausflugsziele rund um den Mayrwirt",
       "subtitle": "Über 100 Freizeittipps im Umkreis von rund 60 km — Berge, Seen, Kultur & mehr",
       "intro": "Saaldorf-Surheim liegt ideal zwischen Salzburg, Bad Reichenhall und Berchtesgaden. Filtern Sie nach Interesse, Entfernung und Wetter — und entdecken Sie die schönsten Ziele der Region.",
@@ -44,6 +49,11 @@
       }
     },
     "en": {
+      "mapTitle": "Destinations on the Map",
+      "mapIntro": "All day-trip destinations around the Mayrwirt at a glance — tap a marker for details and directions.",
+      "mapLink": "Map",
+      "listLink": "List",
+      "here": "Mayrwirt — you are here",
       "title": "Things to Do Around the Mayrwirt",
       "subtitle": "Over 100 day-trip ideas within around 60 km — mountains, lakes, culture & more",
       "intro": "Saaldorf-Surheim sits perfectly between Salzburg, Bad Reichenhall and Berchtesgaden. Filter by interest, distance and weather — and discover the region's finest destinations.",
@@ -87,6 +97,11 @@
       }
     },
     "it": {
+      "mapTitle": "Mete sulla mappa",
+      "mapIntro": "Tutte le mete intorno al Mayrwirt a colpo d'occhio — tocca un segnaposto per dettagli e itinerario.",
+      "mapLink": "Mappa",
+      "listLink": "Elenco",
+      "here": "Mayrwirt — sei qui",
       "title": "Cosa fare intorno al Mayrwirt",
       "subtitle": "Oltre 100 idee per gite entro circa 60 km — montagne, laghi, cultura e altro",
       "intro": "Saaldorf-Surheim si trova in posizione ideale tra Salisburgo, Bad Reichenhall e Berchtesgaden. Filtra per interesse, distanza e meteo — e scopri le mete più belle della regione.",
@@ -130,6 +145,11 @@
       }
     },
     "hu": {
+      "mapTitle": "Kirándulóhelyek a térképen",
+      "mapIntro": "A Mayrwirt környéki összes kirándulóhely egy pillantásra — koppintson egy jelölőre a részletekért és az útvonalért.",
+      "mapLink": "Térkép",
+      "listLink": "Lista",
+      "here": "Mayrwirt — Ön itt van",
       "title": "Kirándulóhelyek a Mayrwirt környékén",
       "subtitle": "Több mint 100 kirándulási ötlet kb. 60 km-en belül — hegyek, tavak, kultúra és más",
       "intro": "Saaldorf-Surheim ideálisan fekszik Salzburg, Bad Reichenhall és Berchtesgaden között. Szűrjön érdeklődés, távolság és időjárás szerint — és fedezze fel a régió legszebb célpontjait.",
@@ -173,6 +193,11 @@
       }
     },
     "cs": {
+      "mapTitle": "Výletní cíle na mapě",
+      "mapIntro": "Všechny výletní cíle v okolí Mayrwirtu na jeden pohled — klepněte na značku pro podrobnosti a trasu.",
+      "mapLink": "Mapa",
+      "listLink": "Seznam",
+      "here": "Mayrwirt — zde se nacházíte",
       "title": "Výlety v okolí Mayrwirtu",
       "subtitle": "Více než 100 tipů na výlety do zhruba 60 km — hory, jezera, kultura a další",
       "intro": "Saaldorf-Surheim leží ideálně mezi Salcburkem, Bad Reichenhall a Berchtesgadenem. Filtrujte podle zájmu, vzdálenosti a počasí — a objevte nejkrásnější cíle regionu.",
@@ -216,6 +241,11 @@
       }
     },
     "es": {
+      "mapTitle": "Destinos en el mapa",
+      "mapIntro": "Todos los destinos de excursión alrededor del Mayrwirt de un vistazo — toca un marcador para ver detalles y la ruta.",
+      "mapLink": "Mapa",
+      "listLink": "Lista",
+      "here": "Mayrwirt — estás aquí",
       "title": "Excursiones alrededor del Mayrwirt",
       "subtitle": "Más de 100 ideas de excursión en un radio de unos 60 km — montañas, lagos, cultura y más",
       "intro": "Saaldorf-Surheim se encuentra en una posición ideal entre Salzburgo, Bad Reichenhall y Berchtesgaden. Filtra por interés, distancia y tiempo — y descubre los destinos más bonitos de la región.",
@@ -259,6 +289,11 @@
       }
     },
     "fr": {
+      "mapTitle": "Destinations sur la carte",
+      "mapIntro": "Toutes les destinations autour du Mayrwirt en un coup d'œil — touchez un repère pour les détails et l'itinéraire.",
+      "mapLink": "Carte",
+      "listLink": "Liste",
+      "here": "Mayrwirt — vous êtes ici",
       "title": "Excursions autour du Mayrwirt",
       "subtitle": "Plus de 100 idées d'excursion dans un rayon d'environ 60 km — montagnes, lacs, culture et plus",
       "intro": "Saaldorf-Surheim est idéalement situé entre Salzbourg, Bad Reichenhall et Berchtesgaden. Filtrez par intérêt, distance et météo — et découvrez les plus belles destinations de la région.",
@@ -302,6 +337,11 @@
       }
     },
     "pl": {
+      "mapTitle": "Cele wycieczek na mapie",
+      "mapIntro": "Wszystkie cele wycieczek w okolicy Mayrwirt na pierwszy rzut oka — dotknij znacznika, aby zobaczyć szczegóły i trasę.",
+      "mapLink": "Mapa",
+      "listLink": "Lista",
+      "here": "Mayrwirt — tu jesteś",
       "title": "Wycieczki w okolicach Mayrwirt",
       "subtitle": "Ponad 100 pomysłów na wycieczki w promieniu około 60 km — góry, jeziora, kultura i więcej",
       "intro": "Saaldorf-Surheim leży idealnie między Salzburgiem, Bad Reichenhall a Berchtesgaden. Filtruj według zainteresowań, odległości i pogody — i odkryj najpiękniejsze destynacje regionu.",
@@ -345,6 +385,11 @@
       }
     },
     "hr": {
+      "mapTitle": "Odredišta na karti",
+      "mapIntro": "Sva izletišta u okolici Mayrwirta na jednom mjestu — dodirnite oznaku za detalje i rutu.",
+      "mapLink": "Karta",
+      "listLink": "Popis",
+      "here": "Mayrwirt — ovdje ste",
       "title": "Izleti u okolici Mayrwirta",
       "subtitle": "Više od 100 ideja za izlete u radijusu od oko 60 km — planine, jezera, kultura i više",
       "intro": "Saaldorf-Surheim se nalazi idealno između Salzburga, Bad Reichenhalla i Berchtesgadena. Filtrirajte prema interesu, udaljenosti i vremenu — i otkrijte najljepše destinacije regije.",
@@ -388,6 +433,11 @@
       }
     },
     "uk": {
+      "mapTitle": "Цілі для поїздок на карті",
+      "mapIntro": "Усі місця для відпочинку навколо Mayrwirt на одній карті — торкніться позначки, щоб побачити деталі та маршрут.",
+      "mapLink": "Карта",
+      "listLink": "Список",
+      "here": "Mayrwirt — ви тут",
       "title": "Екскурсії навколо Mayrwirt",
       "subtitle": "Понад 100 ідей для екскурсій у радіусі 60 км — гори, озера, культура та більше",
       "intro": "Зальдорф-Зюргайм розташований ідеально між Зальцбургом, Бад-Райхенхалем та Берхтесгаденом. Фільтруйте за інтересами, відстанню та погодою — і відкрийте найкрасивіші місця регіону.",
@@ -429,6 +479,11 @@
       "search": "Пошук …"
     },
     "sk": {
+      "mapTitle": "Výletné ciele na mape",
+      "mapIntro": "Všetky výletné ciele v okolí Mayrwirtu na jeden pohľad — ťuknite na značku pre podrobnosti a trasu.",
+      "mapLink": "Mapa",
+      "listLink": "Zoznam",
+      "here": "Mayrwirt — tu sa nachádzate",
       "title": "Výlety v okolí Mayrwirtu",
       "subtitle": "Viac ako 100 tipov na výlety v okruhu 60 km — hory, jazerá, kultúra a ďalšie",
       "intro": "Saaldorf-Surheim leží ideálne medzi Salzburgom, Bad Reichenhallom a Berchtesgadenom. Filtrujte podľa záujmu, vzdialenosti a počasia — a objavte najkrajšie ciele regiónu.",
@@ -470,6 +525,11 @@
       "search": "Hľadať …"
     },
     "nl": {
+      "mapTitle": "Bestemmingen op de kaart",
+      "mapIntro": "Alle uitstapbestemmingen rond de Mayrwirt in één oogopslag — tik op een markering voor details en de route.",
+      "mapLink": "Kaart",
+      "listLink": "Lijst",
+      "here": "Mayrwirt — u bent hier",
       "title": "Uitstapjes rond de Mayrwirt",
       "subtitle": "Meer dan 100 uitstapideeën binnen 60 km — bergen, meren, cultuur en meer",
       "intro": "Saaldorf-Surheim ligt ideaal tussen Salzburg, Bad Reichenhall en Berchtesgaden. Filter op interesse, afstand en weer — en ontdek de mooiste bestemmingen van de regio.",
@@ -514,6 +574,8 @@
   "activities": [
     {
       "id": "abtsdorfer-see",
+      "lat": 47.892,
+      "lng": 12.893,
       "roles": [
         "family",
         "couple",
@@ -593,6 +655,8 @@
     },
     {
       "id": "lokwelt-freilassing",
+      "lat": 47.8347,
+      "lng": 12.9805,
       "roles": [
         "family",
         "culture"
@@ -672,6 +736,8 @@
     },
     {
       "id": "badylon",
+      "lat": 47.8402,
+      "lng": 12.972,
       "roles": [
         "family",
         "active"
@@ -751,6 +817,8 @@
     },
     {
       "id": "bergbaumuseum-achthal",
+      "lat": 47.808,
+      "lng": 12.836,
       "roles": [
         "culture",
         "family"
@@ -830,6 +898,8 @@
     },
     {
       "id": "porsche-traumwerk",
+      "lat": 47.7782,
+      "lng": 12.9445,
       "roles": [
         "family",
         "couple",
@@ -910,6 +980,8 @@
     },
     {
       "id": "staufenbad-anger",
+      "lat": 47.7888,
+      "lng": 12.928,
       "roles": [
         "family"
       ],
@@ -987,6 +1059,8 @@
     },
     {
       "id": "alte-saline",
+      "lat": 47.7186,
+      "lng": 12.8736,
       "roles": [
         "family",
         "couple",
@@ -1067,6 +1141,8 @@
     },
     {
       "id": "rupertustherme",
+      "lat": 47.7264,
+      "lng": 12.895,
       "roles": [
         "family",
         "couple"
@@ -1146,6 +1222,8 @@
     },
     {
       "id": "predigtstuhlbahn",
+      "lat": 47.7156,
+      "lng": 12.883,
       "roles": [
         "couple",
         "active",
@@ -1225,6 +1303,8 @@
     },
     {
       "id": "gradierwerk-reichenhall",
+      "lat": 47.7228,
+      "lng": 12.8783,
       "roles": [
         "couple",
         "culture",
@@ -1304,6 +1384,8 @@
     },
     {
       "id": "koenigssee",
+      "lat": 47.585,
+      "lng": 12.988,
       "roles": [
         "family",
         "couple",
@@ -1384,6 +1466,8 @@
     },
     {
       "id": "salzbergwerk-bgl",
+      "lat": 47.643,
+      "lng": 13.01,
       "roles": [
         "family",
         "couple",
@@ -1464,6 +1548,8 @@
     },
     {
       "id": "jenner",
+      "lat": 47.5862,
+      "lng": 12.9912,
       "roles": [
         "family",
         "couple",
@@ -1543,6 +1629,8 @@
     },
     {
       "id": "obersalzberg-doku",
+      "lat": 47.633,
+      "lng": 13.045,
       "roles": [
         "culture"
       ],
@@ -1621,6 +1709,8 @@
     },
     {
       "id": "watzmann-therme",
+      "lat": 47.62,
+      "lng": 12.995,
       "roles": [
         "family",
         "couple"
@@ -1700,6 +1790,8 @@
     },
     {
       "id": "nationalpark-wimbachklamm",
+      "lat": 47.6,
+      "lng": 12.935,
       "roles": [
         "family",
         "active",
@@ -1779,6 +1871,8 @@
     },
     {
       "id": "gruenstein-klettersteig",
+      "lat": 47.578,
+      "lng": 12.975,
       "roles": [
         "active"
       ],
@@ -1856,6 +1950,8 @@
     },
     {
       "id": "festung-hohensalzburg",
+      "lat": 47.7949,
+      "lng": 13.0476,
       "roles": [
         "family",
         "couple",
@@ -1936,6 +2032,8 @@
     },
     {
       "id": "mozart-altstadt",
+      "lat": 47.8001,
+      "lng": 13.0436,
       "roles": [
         "couple",
         "culture"
@@ -2015,6 +2113,8 @@
     },
     {
       "id": "altstadt-getreidegasse",
+      "lat": 47.8,
+      "lng": 13.044,
       "categories": [
         "city"
       ],
@@ -2097,6 +2197,8 @@
     },
     {
       "id": "schloss-mirabell",
+      "lat": 47.8055,
+      "lng": 13.0423,
       "roles": [
         "family",
         "couple",
@@ -2176,6 +2278,8 @@
     },
     {
       "id": "haus-der-natur",
+      "lat": 47.8009,
+      "lng": 13.0386,
       "roles": [
         "family",
         "culture"
@@ -2256,6 +2360,8 @@
     },
     {
       "id": "untersbergbahn",
+      "lat": 47.713,
+      "lng": 13.013,
       "roles": [
         "active",
         "couple",
@@ -2335,6 +2441,8 @@
     },
     {
       "id": "hellbrunn",
+      "lat": 47.7625,
+      "lng": 13.0598,
       "roles": [
         "family",
         "couple",
@@ -2415,6 +2523,8 @@
     },
     {
       "id": "salzwelten-hallein",
+      "lat": 47.665,
+      "lng": 13.075,
       "roles": [
         "family",
         "couple",
@@ -2495,6 +2605,8 @@
     },
     {
       "id": "keltenmuseum-hallein",
+      "lat": 47.6829,
+      "lng": 13.0978,
       "roles": [
         "culture",
         "family"
@@ -2574,6 +2686,8 @@
     },
     {
       "id": "burg-hohenwerfen",
+      "lat": 47.4806,
+      "lng": 13.186,
       "roles": [
         "family",
         "couple",
@@ -2653,6 +2767,8 @@
     },
     {
       "id": "eisriesenwelt",
+      "lat": 47.503,
+      "lng": 13.19,
       "roles": [
         "active",
         "couple",
@@ -2732,6 +2848,8 @@
     },
     {
       "id": "almbachklamm",
+      "lat": 47.691,
+      "lng": 13.027,
       "roles": [
         "family",
         "active",
@@ -2811,6 +2929,8 @@
     },
     {
       "id": "seisenbergklamm",
+      "lat": 47.58,
+      "lng": 12.785,
       "roles": [
         "family",
         "active"
@@ -2889,6 +3009,8 @@
     },
     {
       "id": "hochstaufen",
+      "lat": 47.7936,
+      "lng": 12.8911,
       "roles": [
         "active",
         "couple"
@@ -2967,6 +3089,8 @@
     },
     {
       "id": "altstadt-laufen",
+      "lat": 47.9377,
+      "lng": 12.9293,
       "roles": [
         "culture",
         "family"
@@ -3046,6 +3170,8 @@
     },
     {
       "id": "museum-stille-nacht",
+      "lat": 47.943,
+      "lng": 12.943,
       "roles": [
         "culture",
         "couple",
@@ -3126,6 +3252,8 @@
     },
     {
       "id": "roemermuseum-bedaium",
+      "lat": 47.939,
+      "lng": 12.483,
       "roles": [
         "culture",
         "family"
@@ -3205,6 +3333,8 @@
     },
     {
       "id": "chiemsee-herrenchiemsee",
+      "lat": 47.867,
+      "lng": 12.395,
       "roles": [
         "family",
         "couple",
@@ -3284,6 +3414,8 @@
     },
     {
       "id": "freibad-freilassing",
+      "lat": 47.842,
+      "lng": 12.97,
       "roles": [
         "family",
         "active"
@@ -3362,6 +3494,8 @@
     },
     {
       "id": "waldbad-anif",
+      "lat": 47.748,
+      "lng": 13.06,
       "roles": [
         "family",
         "active",
@@ -3441,6 +3575,8 @@
     },
     {
       "id": "spielzeugmuseum-salzburg",
+      "lat": 47.799,
+      "lng": 13.041,
       "roles": [
         "family",
         "culture"
@@ -3521,6 +3657,8 @@
     },
     {
       "id": "stoisser-alm",
+      "lat": 47.715,
+      "lng": 12.94,
       "roles": [
         "family",
         "active",
@@ -3600,6 +3738,8 @@
     },
     {
       "id": "steiner-alm",
+      "lat": 47.785,
+      "lng": 12.84,
       "roles": [
         "family",
         "active",
@@ -3679,6 +3819,8 @@
     },
     {
       "id": "waginger-see",
+      "lat": 47.925,
+      "lng": 12.73,
       "roles": [
         "family",
         "couple",
@@ -3758,6 +3900,8 @@
     },
     {
       "id": "minigolf-waging",
+      "lat": 47.928,
+      "lng": 12.735,
       "roles": [
         "family",
         "active"
@@ -3836,6 +3980,8 @@
     },
     {
       "id": "hoppolino-anif",
+      "lat": 47.75,
+      "lng": 13.065,
       "roles": [
         "family"
       ],
@@ -3914,6 +4060,8 @@
     },
     {
       "id": "babalu-traunstein",
+      "lat": 47.868,
+      "lng": 12.64,
       "roles": [
         "family"
       ],
@@ -3992,6 +4140,8 @@
     },
     {
       "id": "zoo-salzburg",
+      "lat": 47.755,
+      "lng": 13.063,
       "roles": [
         "family",
         "couple",
@@ -4071,6 +4221,8 @@
     },
     {
       "id": "freilichtmuseum-grossgmain",
+      "lat": 47.726,
+      "lng": 12.975,
       "roles": [
         "family",
         "couple",
@@ -4150,6 +4302,8 @@
     },
     {
       "id": "christkindlmarkt-salzburg",
+      "lat": 47.798,
+      "lng": 13.046,
       "roles": [
         "couple",
         "culture",
@@ -4229,6 +4383,8 @@
     },
     {
       "id": "museum-der-moderne",
+      "lat": 47.798,
+      "lng": 13.038,
       "roles": [
         "couple",
         "culture"
@@ -4309,6 +4465,8 @@
     },
     {
       "id": "domquartier-salzburg",
+      "lat": 47.7977,
+      "lng": 13.0464,
       "roles": [
         "couple",
         "culture",
@@ -4390,6 +4548,8 @@
     },
     {
       "id": "moenchsberg",
+      "lat": 47.797,
+      "lng": 13.037,
       "roles": [
         "active",
         "couple",
@@ -4469,6 +4629,8 @@
     },
     {
       "id": "kapuzinerberg",
+      "lat": 47.803,
+      "lng": 13.052,
       "roles": [
         "active",
         "couple"
@@ -4547,6 +4709,8 @@
     },
     {
       "id": "fossilien-haunsberg",
+      "lat": 47.918,
+      "lng": 13.0,
       "roles": [
         "family",
         "active",
@@ -4626,6 +4790,8 @@
     },
     {
       "id": "glasenbachklamm",
+      "lat": 47.757,
+      "lng": 13.08,
       "roles": [
         "family",
         "active",
@@ -4705,6 +4871,8 @@
     },
     {
       "id": "baggersee-fridolfing",
+      "lat": 47.865,
+      "lng": 12.785,
       "roles": [
         "family",
         "active",
@@ -4784,6 +4952,8 @@
     },
     {
       "id": "mammut-museum-siegsdorf",
+      "lat": 47.802,
+      "lng": 12.642,
       "roles": [
         "family",
         "culture"
@@ -4863,6 +5033,8 @@
     },
     {
       "id": "maerchenpark-ruhpolding",
+      "lat": 47.752,
+      "lng": 12.642,
       "roles": [
         "family"
       ],
@@ -4940,6 +5112,8 @@
     },
     {
       "id": "maerchenpark-marquartstein",
+      "lat": 47.757,
+      "lng": 12.46,
       "roles": [
         "family"
       ],
@@ -5017,6 +5191,8 @@
     },
     {
       "id": "steinplatte-triassic",
+      "lat": 47.62,
+      "lng": 12.595,
       "roles": [
         "family",
         "active",
@@ -5096,6 +5272,8 @@
     },
     {
       "id": "zwiesel-bergtour",
+      "lat": 47.79,
+      "lng": 12.79,
       "roles": [
         "active",
         "couple",
@@ -5175,6 +5353,8 @@
     },
     {
       "id": "schoenramer-filz",
+      "lat": 47.91,
+      "lng": 12.81,
       "roles": [
         "active",
         "couple",
@@ -5255,6 +5435,8 @@
     },
     {
       "id": "obertrumer-see",
+      "lat": 47.94,
+      "lng": 13.085,
       "roles": [
         "family",
         "couple",
@@ -5334,6 +5516,8 @@
     },
     {
       "id": "mondsee",
+      "lat": 47.85,
+      "lng": 13.4,
       "roles": [
         "family",
         "couple",
@@ -5414,6 +5598,8 @@
     },
     {
       "id": "familienbad-reichenhall",
+      "lat": 47.728,
+      "lng": 12.89,
       "roles": [
         "family",
         "active"
@@ -5492,6 +5678,8 @@
     },
     {
       "id": "kletterpark-anif",
+      "lat": 47.748,
+      "lng": 13.058,
       "roles": [
         "family",
         "active"
@@ -5570,6 +5758,8 @@
     },
     {
       "id": "biathlon-weltcup-ruhpolding",
+      "lat": 47.738,
+      "lng": 12.665,
       "roles": [
         "family",
         "couple",
@@ -5649,6 +5839,8 @@
     },
     {
       "id": "eisschnelllauf-weltcup-inzell",
+      "lat": 47.768,
+      "lng": 12.748,
       "roles": [
         "family",
         "couple",
@@ -5729,6 +5921,8 @@
     },
     {
       "id": "hoeglwoerther-see",
+      "lat": 47.785,
+      "lng": 12.905,
       "roles": [
         "family",
         "couple",
@@ -5808,6 +6002,8 @@
     },
     {
       "id": "haus-der-berge",
+      "lat": 47.622,
+      "lng": 13.003,
       "roles": [
         "family",
         "culture",
@@ -5888,6 +6084,8 @@
     },
     {
       "id": "keltenblitz-sommerrodelbahn",
+      "lat": 47.663,
+      "lng": 13.073,
       "roles": [
         "family",
         "active"
@@ -5966,6 +6164,8 @@
     },
     {
       "id": "kletterwald-berchtesgaden",
+      "lat": 47.625,
+      "lng": 13.0,
       "roles": [
         "family",
         "active"
@@ -6044,6 +6244,8 @@
     },
     {
       "id": "rafting-salzach",
+      "lat": 47.598,
+      "lng": 13.165,
       "roles": [
         "active",
         "couple"
@@ -6122,6 +6324,8 @@
     },
     {
       "id": "canyoning-salzburger-alpen",
+      "lat": 47.55,
+      "lng": 13.15,
       "roles": [
         "active"
       ],
@@ -6199,6 +6403,8 @@
     },
     {
       "id": "thumsee",
+      "lat": 47.722,
+      "lng": 12.835,
       "roles": [
         "family",
         "couple",
@@ -6278,6 +6484,8 @@
     },
     {
       "id": "zauberwald-hintersee",
+      "lat": 47.594,
+      "lng": 12.86,
       "roles": [
         "family",
         "couple",
@@ -6359,6 +6567,8 @@
     },
     {
       "id": "kehlsteinhaus",
+      "lat": 47.611,
+      "lng": 13.041,
       "roles": [
         "culture",
         "couple",
@@ -6438,6 +6648,8 @@
     },
     {
       "id": "gaisberg",
+      "lat": 47.804,
+      "lng": 13.11,
       "roles": [
         "family",
         "active",
@@ -6518,6 +6730,8 @@
     },
     {
       "id": "schneibstein",
+      "lat": 47.545,
+      "lng": 13.02,
       "roles": [
         "active",
         "couple"
@@ -6596,6 +6810,8 @@
     },
     {
       "id": "untersberg-hochthron",
+      "lat": 47.7,
+      "lng": 13.015,
       "roles": [
         "active",
         "couple",
@@ -6675,6 +6891,8 @@
     },
     {
       "id": "maerchenpfad-bischofswiesen",
+      "lat": 47.645,
+      "lng": 12.965,
       "roles": [
         "family",
         "active"
@@ -6753,6 +6971,8 @@
     },
     {
       "id": "vorderkaserklamm",
+      "lat": 47.56,
+      "lng": 12.78,
       "roles": [
         "family",
         "active",
@@ -6832,6 +7052,8 @@
     },
     {
       "id": "saalachau-ausee",
+      "lat": 47.852,
+      "lng": 12.965,
       "roles": [
         "family",
         "couple",
@@ -6912,6 +7134,8 @@
     },
     {
       "id": "saalachtal-radweg",
+      "lat": 47.8,
+      "lng": 12.92,
       "roles": [
         "family",
         "couple",
@@ -6992,6 +7216,8 @@
     },
     {
       "id": "freilassinger-radrundweg",
+      "lat": 47.855,
+      "lng": 12.92,
       "roles": [
         "family",
         "couple",
@@ -7072,6 +7298,8 @@
     },
     {
       "id": "gut-aiderbichl",
+      "lat": 47.905,
+      "lng": 13.205,
       "roles": [
         "family",
         "couple",
@@ -7151,6 +7379,8 @@
     },
     {
       "id": "malerwinkel-koenigssee",
+      "lat": 47.575,
+      "lng": 12.974,
       "roles": [
         "family",
         "couple",
@@ -7231,6 +7461,8 @@
     },
     {
       "id": "kuehroint-tour",
+      "lat": 47.55,
+      "lng": 12.95,
       "roles": [
         "active",
         "couple",
@@ -7310,6 +7542,8 @@
     },
     {
       "id": "salzburger-festspiele",
+      "lat": 47.798,
+      "lng": 13.041,
       "roles": [
         "couple"
       ],
@@ -7387,6 +7621,8 @@
     },
     {
       "id": "burg-burghausen",
+      "lat": 48.1583,
+      "lng": 12.8306,
       "roles": [
         "family",
         "couple"
@@ -7467,6 +7703,8 @@
     },
     {
       "id": "motorikpark-burghausen",
+      "lat": 48.17,
+      "lng": 12.825,
       "roles": [
         "family"
       ],
@@ -7546,6 +7784,8 @@
     },
     {
       "id": "hangar7-salzburg",
+      "lat": 47.793,
+      "lng": 13.001,
       "roles": [
         "family",
         "couple"
@@ -7628,6 +7868,8 @@
     },
     {
       "id": "stiegl-brauwelt",
+      "lat": 47.785,
+      "lng": 13.022,
       "roles": [
         "couple"
       ],
@@ -7709,6 +7951,8 @@
     },
     {
       "id": "schloss-leopoldskron",
+      "lat": 47.785,
+      "lng": 13.03,
       "roles": [
         "couple"
       ],
@@ -7789,6 +8033,8 @@
     },
     {
       "id": "mozarts-wohnhaus",
+      "lat": 47.803,
+      "lng": 13.043,
       "roles": [
         "family",
         "couple"
@@ -7871,6 +8117,8 @@
     },
     {
       "id": "waldthemenpfad-osing",
+      "lat": 47.91,
+      "lng": 12.9,
       "roles": [
         "family",
         "couple"
@@ -7951,6 +8199,8 @@
     },
     {
       "id": "strandbad-tettenhausen",
+      "lat": 47.945,
+      "lng": 12.76,
       "roles": [
         "family",
         "couple"
@@ -8029,6 +8279,8 @@
     },
     {
       "id": "rund-um-den-abtsee",
+      "lat": 47.886,
+      "lng": 12.88,
       "roles": [
         "family",
         "couple"
@@ -8109,6 +8361,8 @@
     },
     {
       "id": "moosrundweg",
+      "lat": 47.88,
+      "lng": 12.865,
       "roles": [
         "family",
         "couple"
@@ -8189,6 +8443,8 @@
     },
     {
       "id": "grosse-saaldorfer-runde",
+      "lat": 47.878,
+      "lng": 12.87,
       "roles": [
         "couple"
       ],
@@ -8268,6 +8524,8 @@
     },
     {
       "id": "kleine-saaldorfer-runde",
+      "lat": 47.879,
+      "lng": 12.873,
       "roles": [
         "family",
         "couple"
@@ -8349,6 +8607,8 @@
     },
     {
       "id": "salzachrundweg",
+      "lat": 47.93,
+      "lng": 12.93,
       "roles": [
         "family",
         "couple"
@@ -8429,6 +8689,8 @@
     },
     {
       "id": "panoramarundweg-saaldorf",
+      "lat": 47.882,
+      "lng": 12.86,
       "roles": [
         "couple"
       ],
@@ -8508,6 +8770,8 @@
     },
     {
       "id": "haarmoos",
+      "lat": 47.905,
+      "lng": 12.905,
       "roles": [
         "family",
         "couple"
@@ -8588,6 +8852,8 @@
     },
     {
       "id": "freibad-ainring",
+      "lat": 47.815,
+      "lng": 12.935,
       "roles": [
         "family",
         "active"
@@ -8666,6 +8932,8 @@
     },
     {
       "id": "minigolf-ainring",
+      "lat": 47.813,
+      "lng": 12.933,
       "roles": [
         "family",
         "active"
@@ -8744,6 +9012,8 @@
     },
     {
       "id": "stift-st-peter-salzburg",
+      "lat": 47.7966,
+      "lng": 13.0457,
       "roles": [
         "family",
         "couple"
@@ -8826,6 +9096,8 @@
     },
     {
       "id": "alpentherme-bad-gastein",
+      "lat": 47.115,
+      "lng": 13.135,
       "roles": [
         "couple"
       ],
@@ -8906,6 +9178,8 @@
     },
     {
       "id": "chiemsee-radweg",
+      "lat": 47.85,
+      "lng": 12.36,
       "roles": [
         "couple"
       ],
@@ -8985,6 +9259,8 @@
     },
     {
       "id": "tauernradweg",
+      "lat": 47.68,
+      "lng": 13.1,
       "roles": [
         "couple"
       ],
@@ -9064,6 +9340,8 @@
     },
     {
       "id": "inn-salzach-radweg",
+      "lat": 47.88,
+      "lng": 12.92,
       "roles": [
         "family",
         "couple"
@@ -9144,6 +9422,8 @@
     },
     {
       "id": "tachinger-see",
+      "lat": 47.95,
+      "lng": 12.73,
       "roles": [
         "family",
         "couple"
@@ -9222,6 +9502,8 @@
     },
     {
       "id": "eislaufen-salzburg",
+      "lat": 47.808,
+      "lng": 13.055,
       "roles": [
         "family",
         "couple"
@@ -9300,6 +9582,8 @@
     },
     {
       "id": "das-kino-salzburg",
+      "lat": 47.8,
+      "lng": 13.043,
       "roles": [
         "family",
         "couple"
@@ -9381,6 +9665,8 @@
     },
     {
       "id": "kino-bad-reichenhall",
+      "lat": 47.725,
+      "lng": 12.88,
       "roles": [
         "family",
         "couple"
@@ -9462,6 +9748,8 @@
     },
     {
       "id": "cineplexx-salzburg-city",
+      "lat": 47.788,
+      "lng": 13.062,
       "roles": [
         "family",
         "couple"
@@ -9543,6 +9831,8 @@
     },
     {
       "id": "cineplexx-salzburg-airport",
+      "lat": 47.815,
+      "lng": 12.991,
       "roles": [
         "family",
         "couple"
@@ -9624,6 +9914,8 @@
     },
     {
       "id": "schellenberger-eishoehle",
+      "lat": 47.7,
+      "lng": 13.06,
       "roles": [
         "family",
         "couple"
@@ -9704,6 +9996,8 @@
     },
     {
       "id": "kampenwand",
+      "lat": 47.748,
+      "lng": 12.348,
       "roles": [
         "family",
         "couple"
@@ -9785,6 +10079,8 @@
     },
     {
       "id": "lamprechtsofen",
+      "lat": 47.595,
+      "lng": 12.7,
       "roles": [
         "family",
         "couple"
@@ -9865,6 +10161,8 @@
     },
     {
       "id": "tassilo-hoehlen",
+      "lat": 47.82,
+      "lng": 13.42,
       "roles": [
         "family",
         "couple"
@@ -9945,6 +10243,8 @@
     },
     {
       "id": "gollinger-wasserfall",
+      "lat": 47.595,
+      "lng": 13.155,
       "roles": [
         "family",
         "couple"
@@ -10025,6 +10325,8 @@
     },
     {
       "id": "schwarzbachfall",
+      "lat": 47.62,
+      "lng": 12.73,
       "roles": [
         "couple"
       ],

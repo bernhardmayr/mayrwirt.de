@@ -86,6 +86,25 @@
   </url>
 
   <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/it.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/hu.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/cs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/hr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/sk.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/nl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://bernhardmayr.github.io/mayrwirt.de/jobboerse/</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://bernhardmayr.github.io/mayrwirt.de/jobboerse/en.html"/>
