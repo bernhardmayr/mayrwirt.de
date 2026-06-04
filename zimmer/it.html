@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zimmer – Mayrwirt Landgasthof</title>
+    <meta name="description" content="Komfortable Zimmer im Landgasthof Mayrwirt in Saaldorf-Surheim. Erleben Sie bayerische Gastlichkeit in gepflegten Gästezimmern.">
+    <link rel="canonical" href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="icon" href="../wp-content/uploads/2015/05/FavIcon_16x16.png" sizes="16x16" type="image/png">
+    <link rel="apple-touch-icon" href="../wp-content/uploads/2015/05/FavIcon_144x144.png" sizes="144x144">
+
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website">
+    <meta property="og:title"       content="Zimmer – Mayrwirt Landgasthof">
+    <meta property="og:description" content="Komfortable Zimmer im Landgasthof Mayrwirt in Saaldorf-Surheim.">
+    <meta property="og:image"       content="https://bernhardmayr.github.io/mayrwirt.de/wp-content/uploads/2015/05/mayrwirt-hausansicht-abends.jpg">
+    <meta property="og:url"         content="https://bernhardmayr.github.io/mayrwirt.de/zimmer/">
+    <meta property="og:locale"      content="de_DE">
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="de"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/">
+    <link rel="alternate" hreflang="en"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/en.html">
+    <link rel="alternate" hreflang="it"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/it.html">
+    <link rel="alternate" hreflang="hu"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/hu.html">
+    <link rel="alternate" hreflang="cs"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/cs.html">
+    <link rel="alternate" hreflang="es"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/es.html">
+    <link rel="alternate" hreflang="fr"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/fr.html">
+    <link rel="alternate" hreflang="pl"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/pl.html">
+    <link rel="alternate" hreflang="hr"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/hr.html">
+    <link rel="alternate" hreflang="uk"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/uk.html">
+    <link rel="alternate" hreflang="sk"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/sk.html">
+    <link rel="alternate" hreflang="nl"        href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/nl.html">
+    <link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/zimmer/">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #FAF7F2; color: #2C2C2C; }
+        a { color: #2D5016; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 10; }
+        .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
+        .site-header .back { font-size: 0.8rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 0.5rem; padding: 0.3rem 0.75rem; display: flex; align-items: center; gap: 0.4rem; transition: background 0.15s; }
+        .site-header .back:hover { background: rgba(255,255,255,0.25); text-decoration: none; color: #fff; }
+        .sub-lang-dd { position: relative; }
+        .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
+        .sub-lang-chevron { font-size: 0.65rem; transition: transform 0.2s; display: inline-block; }
+        .sub-lang-btn[aria-expanded="true"] .sub-lang-chevron { transform: rotate(180deg); }
+        .sub-lang-menu { position: absolute; right: 0; top: calc(100% + 0.35rem); background: rgba(25,50,12,0.97); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 0.65rem; min-width: 9.5rem; z-index: 200; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        .sub-lang-menu.hidden { display: none; }
+        .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
+        .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
+        .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
+        .container { max-width: 860px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; color: #2D5016; text-align: center; margin-bottom: 1rem; }
+        .subtitle { text-align: center; color: #6B6458; font-size: 1rem; margin-bottom: 3rem; line-height: 1.6; }
+        .rooms-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+        .room-card { background: white; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.08); transition: box-shadow 0.2s, transform 0.2s; }
+        .room-card:hover { box-shadow: 0 8px 24px rgba(45,80,22,0.12); transform: translateY(-2px); }
+        .room-image { width: 100%; height: 220px; background: linear-gradient(135deg, #2D5016 0%, #1a3a0a 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; }
+        .room-content { padding: 1.5rem; }
+        .room-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #2D5016; margin-bottom: 0.5rem; }
+        .room-desc { font-size: 0.9rem; color: #6B6458; line-height: 1.6; margin-bottom: 1rem; }
+        .room-features { font-size: 0.85rem; color: #555; list-style: none; margin-bottom: 1rem; }
+        .room-features li:before { content: "✓ "; color: #C9962C; font-weight: 600; }
+        .contact-section { background: #2D5016; color: white; border-radius: 1rem; padding: 2.5rem; text-align: center; }
+        .contact-section h2 { color: white; font-size: 1.5rem; margin-bottom: 1rem; border: none; }
+        .contact-section p { color: rgba(255,255,255,0.8); margin-bottom: 1.5rem; }
+        .contact-links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .contact-links a { display: inline-block; background: #C9962C; color: white; padding: 0.6rem 1.5rem; border-radius: 0.5rem; font-weight: 600; transition: background 0.2s; }
+        .contact-links a:hover { background: #b88520; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <a href="../index.html" class="back">← Indietro</a>
+    <span class="brand">Mayrwirt</span>
+    <div class="sub-lang-dd" id="sub-lang-wrap">
+        <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
+            🇮🇹&nbsp;IT <span class="sub-lang-chevron">▾</span>
+        </button>
+        <div class="sub-lang-menu hidden" id="sub-lang-menu">
+        <a href="index.html">🇩🇪 Deutsch</a>
+        <a href="en.html">🇬🇧 English</a>
+        <a href="it.html" class="active">🇮🇹 Italiano</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
+        <a href="cs.html">🇨🇿 Čeština</a>
+        <a href="es.html">🇪🇸 Español</a>
+        <a href="fr.html">🇫🇷 Français</a>
+        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="hr.html">🇭🇷 Hrvatski</a>
+        <a href="uk.html">🇺🇦 Українська</a>
+        <a href="sk.html">🇸🇰 Slovenčina</a>
+        <a href="nl.html">🇳🇱 Nederlands</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <h1>Zimmer im Mayrwirt</h1>
+    <p class="subtitle">Komfortable Zimmer mit bayerischer Gemütlichkeit in Saaldorf-Surheim</p>
+
+    <div class="rooms-grid">
+        <div class="room-card">
+            <div class="room-image">🛏️</div>
+            <div class="room-content">
+                <div class="room-title">Doppelzimmer</div>
+                <p class="room-desc">Geräumige Zimmer mit Komfortausstattung für Ihren erholsamen Aufenthalt.</p>
+                <ul class="room-features">
+                    <li>Privatbad mit Dusche/Badewanne</li>
+                    <li>Kostenlos WLAN</li>
+                    <li>Flachbildschirm</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="room-card">
+            <div class="room-image">👥</div>
+            <div class="room-content">
+                <div class="room-title">Familienzimmer</div>
+                <p class="room-desc">Großzügige Zimmer ideal für Familien mit Kindern.</p>
+                <ul class="room-features">
+                    <li>Großer Wohnbereich</li>
+                    <li>Mehrere Betten</li>
+                    <li>Kinderfreundlich ausgestattet</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="room-card">
+            <div class="room-image">⭐</div>
+            <div class="room-content">
+                <div class="room-title">Premium-Suite</div>
+                <p class="room-desc">Unsere luxuriöseste Unterkunft mit gehobener Ausstattung.</p>
+                <ul class="room-features">
+                    <li>Separates Wohnzimmer</li>
+                    <li>Marmoreinrichtung</li>
+                    <li>Minibar & Safe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h2>Buchen Sie Ihr Zimmer</h2>
+        <p>Interessiert? Kontaktieren Sie uns direkt für Verfügbarkeit und Preise.</p>
+        <div class="contact-links">
+            <a href="tel:+4986546903900">Anrufen</a>
+            <a href="mailto:office@mayrwirt.com">E-Mail</a>
+        </div>
+    </div>
+</div>
+
+<script>
+function toggleSubLang(){
+    var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
+    var h=m.classList.toggle('hidden');
+    b.setAttribute('aria-expanded',String(!h));
+}
+document.addEventListener('click',function(e){
+    var w=document.getElementById('sub-lang-wrap');
+    if(w&&!w.contains(e.target)){
+        document.getElementById('sub-lang-menu').classList.add('hidden');
+        document.getElementById('sub-lang-trigger').setAttribute('aria-expanded','false');
+    }
+});
+</script>
+</body>
+</html>
