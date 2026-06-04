@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos en el mapa | Mayrwirt</title>
+    <meta name="description" content="Todos los destinos de excursión alrededor del Mayrwirt de un vistazo — toca un marcador para ver detalles y la ruta.">
+    <link rel="canonical" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/es.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+
+    <link rel="stylesheet" href="../../css/tailwind.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="icon" href="../../wp-content/uploads/2015/05/FavIcon_16x16.png" sizes="16x16" type="image/png">
+    <link rel="apple-touch-icon" href="../../wp-content/uploads/2015/05/FavIcon_144x144.png" sizes="144x144">
+
+    <meta property="og:type"        content="website">
+    <meta property="og:title"       content="Destinos en el mapa">
+    <meta property="og:description" content="Todos los destinos de excursión alrededor del Mayrwirt de un vistazo — toca un marcador para ver detalles y la ruta.">
+    <meta property="og:image"       content="https://bernhardmayr.github.io/mayrwirt.de/wp-content/uploads/2015/05/mayrwirt-hausansicht-abends.jpg">
+    <meta property="og:url"         content="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/es.html">
+    <meta property="og:locale"      content="es_ES">
+
+    <link rel="alternate" hreflang="de" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/">
+    <link rel="alternate" hreflang="en" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/en.html">
+    <link rel="alternate" hreflang="it" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/it.html">
+    <link rel="alternate" hreflang="hu" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/hu.html">
+    <link rel="alternate" hreflang="cs" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/cs.html">
+    <link rel="alternate" hreflang="es" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/es.html">
+    <link rel="alternate" hreflang="fr" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/fr.html">
+    <link rel="alternate" hreflang="pl" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/pl.html">
+    <link rel="alternate" hreflang="hr" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/hr.html">
+    <link rel="alternate" hreflang="uk" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/uk.html">
+    <link rel="alternate" hreflang="sk" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/sk.html">
+    <link rel="alternate" hreflang="nl" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/nl.html">
+    <link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/karte/">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #FAF7F2; color: #2C2C2C; }
+        a { color: #2D5016; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 1000; }
+        .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
+        .header-right { display: flex; align-items: center; gap: 0.6rem; }
+        .site-header .back { font-size: 0.8rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 0.5rem; padding: 0.3rem 0.75rem; display: flex; align-items: center; gap: 0.4rem; transition: background 0.15s; white-space: nowrap; }
+        .site-header .back:hover { background: rgba(255,255,255,0.25); text-decoration: none; color: #fff; }
+        .sub-lang-dd { position: relative; }
+        .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
+        .sub-lang-chevron { font-size: 0.65rem; transition: transform 0.2s; display: inline-block; }
+        .sub-lang-btn[aria-expanded="true"] .sub-lang-chevron { transform: rotate(180deg); }
+        .sub-lang-menu { position: absolute; right: 0; top: calc(100% + 0.35rem); background: rgba(25,50,12,0.97); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 0.65rem; min-width: 9.5rem; z-index: 2000; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        .sub-lang-menu.hidden { display: none; }
+        .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
+        .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
+        .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
+        .map-wrap { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1.25rem 3rem; }
+        #map { height: 68vh; min-height: 440px; width: 100%; border-radius: 1rem; border: 1px solid #e8e6e0; box-shadow: 0 2px 14px rgba(0,0,0,0.08); margin-top: 1.25rem; z-index: 1; }
+        .act-marker { width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; background: #fff; border: 2px solid #2D5016; border-radius: 50%; font-size: 1.05rem; line-height: 1; box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+        .act-marker.origin { width: 38px; height: 38px; border-color: #C9962C; background: #2D5016; font-size: 1.2rem; }
+        .map-popup { font-family: 'Inter', system-ui, sans-serif; min-width: 180px; max-width: 230px; }
+        .map-popup .mp-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.35rem; }
+        .map-popup .mp-icon { font-size: 1.6rem; line-height: 1; }
+        .map-popup .mp-dist { font-size: 0.7rem; font-weight: 700; color: #2D5016; background: rgba(45,80,22,0.08); padding: 0.15rem 0.55rem; border-radius: 9999px; }
+        .map-popup .mp-name { font-family: 'Playfair Display', Georgia, serif; font-size: 1.05rem; font-weight: 700; color: #1a1a1a; margin: 0 0 0.15rem; line-height: 1.2; }
+        .map-popup .mp-town { font-size: 0.74rem; color: #8a8478; margin-bottom: 0.4rem; }
+        .map-popup .mp-desc { font-size: 0.8rem; color: #5a564e; line-height: 1.45; margin-bottom: 0.55rem; }
+        .map-popup .mp-links { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+        .map-popup .mp-links a { font-size: 0.8rem; font-weight: 600; }
+        .map-popup .mp-links a:first-child { color: #2D5016; }
+        .map-popup .mp-links a:last-child { color: #C9962C; }
+        .leaflet-popup-content { margin: 0.75rem 0.9rem; }
+        @media (max-width: 560px) { .site-header { flex-wrap: wrap; } .header-right { width: 100%; justify-content: flex-end; } }
+    </style>
+</head>
+<body class="bg-cream">
+
+<header class="site-header">
+    <a href="../../index.html" class="back">← Volver</a>
+    <span class="brand">Mayrwirt</span>
+    <div class="header-right">
+        <a href="../es.html" class="back act-list-link" id="act-list-link">☰ Lista</a>
+        <div class="sub-lang-dd" id="sub-lang-wrap">
+            <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
+                🇪🇸&nbsp;ES <span class="sub-lang-chevron">▾</span>
+            </button>
+            <div class="sub-lang-menu hidden" id="sub-lang-menu">
+        <a href="index.html">🇩🇪 Deutsch</a>
+        <a href="en.html">🇬🇧 English</a>
+        <a href="it.html">🇮🇹 Italiano</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
+        <a href="cs.html">🇨🇿 Čeština</a>
+        <a href="es.html" class="active">🇪🇸 Español</a>
+        <a href="fr.html">🇫🇷 Français</a>
+        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="hr.html">🇭🇷 Hrvatski</a>
+        <a href="uk.html">🇺🇦 Українська</a>
+        <a href="sk.html">🇸🇰 Slovenčina</a>
+        <a href="nl.html">🇳🇱 Nederlands</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="map-wrap">
+    <h1 class="act-title"  id="act-title">Destinos en el mapa</h1>
+    <p  class="act-intro"  id="act-intro"></p>
+
+    <div class="act-search"></div>
+    <div class="act-filters" id="act-filters"></div>
+    <div class="act-count"   id="act-count"></div>
+    <div id="map"></div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="map.js"></script>
+<script>
+function toggleSubLang(){
+    var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
+    var h=m.classList.toggle('hidden');
+    b.setAttribute('aria-expanded',String(!h));
+}
+document.addEventListener('click',function(e){
+    var w=document.getElementById('sub-lang-wrap');
+    if(w&&!w.contains(e.target)){
+        document.getElementById('sub-lang-menu').classList.add('hidden');
+        document.getElementById('sub-lang-trigger').setAttribute('aria-expanded','false');
+    }
+});
+</script>
+</body>
+</html>
