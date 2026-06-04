@@ -1,0 +1,68 @@
+{
+  "title": "Oferty z naszego rzeźnictwa",
+  "subtitle": "Gospoda &amp; Rzeźnictwo Mayrwirt · Saaldorf",
+  "validUntil": "Ważne do środy 27 maja 2026",
+  "topTitle": "Oferta specjalna",
+  "topItems": [
+    {
+      "name": "Łopatka wieprzowa bez kości",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Szynka do grillowania",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Oferty",
+  "offerItems": [
+    {
+      "name": "Polędwiczka wieprzowa",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Gulasz wołowy (krojony)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Pieczeń wołowa (z udźca)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Kiełbaski z bułką do pieczenia",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Pasztetowa w osłonce naturalnej, wędzona, drobna i gruba",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Karyncki ser śmietankowy",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Nasza wołowina z własnego uboju w tym tygodniu: rodzina Pöllner, Leobendorf",
+  "hoursTitle": "Godziny otwarcia rzeźnictwa",
+  "hours": [
+    {
+      "day": "Poniedziałek, środa i sobota",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Wtorek i czwartek",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Piątek",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Do wyczerpania zapasów, zmiany zastrzeżone."
+}

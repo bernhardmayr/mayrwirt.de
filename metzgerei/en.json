@@ -1,0 +1,68 @@
+{
+  "title": "Offers from Our Butcher Shop",
+  "subtitle": "Country Inn &amp; Butcher Shop Mayrwirt · Saaldorf",
+  "validUntil": "Valid until Wednesday, 27 May 2026",
+  "topTitle": "Top Offer",
+  "topItems": [
+    {
+      "name": "Boneless pork shoulder",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Grilling ham",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Offers",
+  "offerItems": [
+    {
+      "name": "Pork tenderloin",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Beef goulash, diced",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Beef roast from the round",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Semmel bratwurst sausages",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Liver sausage in natural casing, smoked, fine &amp; coarse",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Carinthian cream cheese",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Our beef from our own slaughtering this week: the Pöllner family, Leobendorf",
+  "hoursTitle": "Butcher Shop Opening Hours",
+  "hours": [
+    {
+      "day": "Monday, Wednesday &amp; Saturday",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Tuesday &amp; Thursday",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Friday",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "While stocks last, subject to change."
+}

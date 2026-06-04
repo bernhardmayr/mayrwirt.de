@@ -129,6 +129,25 @@
   </url>
 
   <url>
+    <loc>https://bernhardmayr.github.io/mayrwirt.de/metzgerei/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/en.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/it.html"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/hu.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/cs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/pl.html"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/hr.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/sk.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/nl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/metzgerei/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://bernhardmayr.github.io/mayrwirt.de/impressum-und-datenschutz/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

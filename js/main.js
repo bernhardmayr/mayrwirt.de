@@ -149,7 +149,8 @@ function getReply(text) {
     const tel  = '<a href="tel:+4986546903900" class="font-semibold text-green-800">+49 8654 69 03 90</a>';
     const mail = '<a href="mailto:office@mayrwirt.com" class="font-semibold text-green-800">office@mayrwirt.com</a>';
     const pdf  = `<a href="Karte/Karte.pdf" target="_blank" class="font-semibold text-green-800">PDF</a>`;
-    const offer= `<a href="Karte/Angebot.pdf" target="_blank" class="font-semibold text-green-800">PDF</a>`;
+    const offerUrls = { de: 'metzgerei/index.html', en: 'metzgerei/en.html', it: 'metzgerei/it.html', hu: 'metzgerei/hu.html', cs: 'metzgerei/cs.html' };
+    const offer= `<a href="${offerUrls[lang] || offerUrls.de}" class="font-semibold text-green-800">${({de:'Angebote',en:'offers page',it:'offerte',hu:'ajánlatok',cs:'nabídku'})[lang] || 'Angebote'}</a>`;
     const actUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html' };
     const act  = `<a href="${actUrls[lang] || actUrls.de}" class="font-semibold text-green-800">${({de:'Ausflugsziele',en:'destinations page',it:'mete e gite',hu:'kirándulóhelyek',cs:'výlety'})[lang] || 'Ausflugsziele'}</a>`;
     const zimmerUrls = { de: 'zimmer/index.html', en: 'zimmer/en.html', it: 'zimmer/it.html', hu: 'zimmer/hu.html', cs: 'zimmer/cs.html' };

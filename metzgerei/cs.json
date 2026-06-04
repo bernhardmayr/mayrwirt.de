@@ -1,0 +1,68 @@
+{
+  "title": "Nabídka z našeho řeznictví",
+  "subtitle": "Hostinec &amp; Řeznictví Mayrwirt · Saaldorf",
+  "validUntil": "Platí do středy 27. května 2026",
+  "topTitle": "Top nabídka",
+  "topItems": [
+    {
+      "name": "Vepřová plec bez kosti",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Grilovací šunka",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Nabídka",
+  "offerItems": [
+    {
+      "name": "Vepřová panenka",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Hovězí guláš (krájený)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Hovězí pečeně (ze stehna)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Houskové klobásy na opékání",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Játrová klobása v přírodním střívku, uzená, jemná a hrubá",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Korutanský smetanový sýr",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Naše hovězí z vlastní porážky tento týden: rodina Pöllner, Leobendorf",
+  "hoursTitle": "Otevírací doba řeznictví",
+  "hours": [
+    {
+      "day": "Pondělí, středa a sobota",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Úterý a čtvrtek",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Pátek",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Do vyprodání zásob, změny vyhrazeny."
+}

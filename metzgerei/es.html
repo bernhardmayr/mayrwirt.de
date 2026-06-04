@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas – Mayrwirt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="../wp-content/uploads/2015/05/FavIcon_16x16.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #FAF7F2; color: #2C2C2C; }
+        a { color: #2D5016; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 10; }
+        .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
+        .site-header .back { font-size: 0.8rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 0.5rem; padding: 0.3rem 0.75rem; display: flex; align-items: center; gap: 0.4rem; transition: background 0.15s; }
+        .site-header .back:hover { background: rgba(255,255,255,0.25); text-decoration: none; color: #fff; }
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+        .offers-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #2D5016; text-align: center; margin-bottom: 0.4rem; }
+        .offers-subtitle { text-align: center; color: #6B6458; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.75rem; }
+        .offers-valid { text-align: center; color: #C9962C; font-size: 0.9rem; font-weight: 700; margin-bottom: 2.25rem; }
+        .top-offer { background: linear-gradient(135deg, #2D5016, #3c6b1e); border-radius: 1rem; padding: 1.5rem 1.5rem 1.75rem; margin-bottom: 2.5rem; box-shadow: 0 10px 28px rgba(45,80,22,0.22); }
+        .top-offer-label { display: inline-block; background: #C9962C; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.3rem 0.8rem; border-radius: 999px; margin-bottom: 1.1rem; }
+        .top-offer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; }
+        .top-card { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18); border-radius: 0.75rem; padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.6rem; }
+        .top-card-name { color: #fff; font-weight: 600; font-size: 0.98rem; line-height: 1.35; }
+        .top-card-price { display: flex; align-items: baseline; gap: 0.45rem; flex-wrap: wrap; }
+        .top-card-unit { color: rgba(255,255,255,0.7); font-size: 0.8rem; font-weight: 500; }
+        .top-card-amount { color: #F4CE7B; font-weight: 700; font-size: 1.4rem; font-family: 'Playfair Display', serif; }
+        .section { margin-bottom: 2.25rem; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #2D5016; border-bottom: 2px solid #C9962C; padding-bottom: 0.4rem; margin-bottom: 1.25rem; }
+        .offer-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.06); }
+        .offer-row:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .offer-info { flex: 1; }
+        .offer-name { font-weight: 600; font-size: 0.95rem; color: #1a1a1a; }
+        .offer-desc { font-size: 0.82rem; color: #6B6458; margin-top: 0.2rem; line-height: 1.45; }
+        .offer-price { display: flex; align-items: baseline; gap: 0.5rem; white-space: nowrap; }
+        .offer-unit { color: #6B6458; font-size: 0.8rem; font-weight: 500; }
+        .offer-amount { color: #2D5016; font-weight: 700; font-size: 0.98rem; }
+        .beef-note { text-align: center; font-style: italic; color: #6B6458; font-size: 0.88rem; line-height: 1.6; margin: 0 auto 2.5rem; max-width: 30rem; }
+        .hours-card { background: white; border: 1px solid #e5e5e0; border-radius: 0.85rem; padding: 1.25rem 1.5rem; margin-bottom: 1.75rem; }
+        .hours-title { font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700; color: #2D5016; margin-bottom: 0.9rem; }
+        .hours-row { display: flex; justify-content: space-between; gap: 1rem; padding: 0.35rem 0; font-size: 0.88rem; border-bottom: 1px solid rgba(0,0,0,0.05); }
+        .hours-row:last-child { border-bottom: none; }
+        .hours-day { color: #6B6458; }
+        .hours-time { color: #2D5016; font-weight: 600; text-align: right; }
+        .offers-disclaimer { text-align: center; color: #9a9384; font-size: 0.78rem; font-style: italic; }
+        .sub-lang-dd { position: relative; }
+        .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
+        .sub-lang-chevron { font-size: 0.65rem; transition: transform 0.2s; display: inline-block; }
+        .sub-lang-btn[aria-expanded="true"] .sub-lang-chevron { transform: rotate(180deg); }
+        .sub-lang-menu { position: absolute; right: 0; top: calc(100% + 0.35rem); background: rgba(25,50,12,0.97); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 0.65rem; min-width: 9.5rem; z-index: 200; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        .sub-lang-menu.hidden { display: none; }
+        .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
+        .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
+        .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
+        @media print { .site-header { position: static; } body { background: white; } }
+        @media (max-width: 480px) { .top-offer-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <a href="../index.html" class="back">← Volver</a>
+    <span class="brand">Mayrwirt</span>
+    <div class="sub-lang-dd" id="sub-lang-wrap">
+        <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
+            🇪🇸&nbsp;ES <span class="sub-lang-chevron">▾</span>
+        </button>
+        <div class="sub-lang-menu hidden" id="sub-lang-menu">
+        <a href="index.html">🇩🇪 Deutsch</a>
+        <a href="en.html">🇬🇧 English</a>
+        <a href="it.html">🇮🇹 Italiano</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
+        <a href="cs.html">🇨🇿 Čeština</a>
+        <a href="es.html" class="active">🇪🇸 Español</a>
+        <a href="fr.html">🇫🇷 Français</a>
+        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="hr.html">🇭🇷 Hrvatski</a>
+        <a href="uk.html">🇺🇦 Українська</a>
+        <a href="sk.html">🇸🇰 Slovenčina</a>
+        <a href="nl.html">🇳🇱 Nederlands</a>
+        </div>
+    </div>
+</header>
+
+<div class="container" id="offers-root"></div>
+
+<script src="offers.js?v=1"></script>
+<script>
+function toggleSubLang(){
+    var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
+    var h=m.classList.toggle('hidden');
+    b.setAttribute('aria-expanded',String(!h));
+}
+document.addEventListener('click',function(e){
+    var w=document.getElementById('sub-lang-wrap');
+    if(w&&!w.contains(e.target)){
+        document.getElementById('sub-lang-menu').classList.add('hidden');
+        document.getElementById('sub-lang-trigger').setAttribute('aria-expanded','false');
+    }
+});
+</script>
+</body>
+</html>

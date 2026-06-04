@@ -1,0 +1,68 @@
+{
+  "title": "Ajánlatok a hentesüzletünkből",
+  "subtitle": "Vendéglő &amp; Hentesüzlet Mayrwirt · Saaldorf",
+  "validUntil": "Érvényes 2026. május 27-ig, szerdáig",
+  "topTitle": "Topajánlat",
+  "topItems": [
+    {
+      "name": "Csont nélküli sertéslapocka",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Grillsonka",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Ajánlatok",
+  "offerItems": [
+    {
+      "name": "Sertésszűz",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Marhapörkölt (vágott)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Marhasült (combból)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Zsemlés sült kolbász",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Májas hurka natúrbélben, füstölt, finom és durva",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Karintiai krémsajt",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Saját vágású marhahúsunk ezen a héten: Pöllner család, Leobendorf",
+  "hoursTitle": "A hentesüzlet nyitvatartása",
+  "hours": [
+    {
+      "day": "Hétfő, szerda és szombat",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Kedd és csütörtök",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Péntek",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "A készlet erejéig, a változtatás jogát fenntartjuk."
+}

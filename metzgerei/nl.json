@@ -1,0 +1,68 @@
+{
+  "title": "Aanbiedingen uit onze slagerij",
+  "subtitle": "Landhotel &amp; Slagerij Mayrwirt · Saaldorf",
+  "validUntil": "Geldig tot woensdag 27 mei 2026",
+  "topTitle": "Topaanbieding",
+  "topItems": [
+    {
+      "name": "Varkensschouder zonder been",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Grillham",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Aanbiedingen",
+  "offerItems": [
+    {
+      "name": "Varkenshaas",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Rundergoulash (gesneden)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Runderbraadstuk (van de bout)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Braadworstjes met broodje (Semmelbratwurst)",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Leverworst in natuurdarm, gerookt, fijn en grof",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Karinthische roomkaas",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Ons rundvlees uit eigen slacht deze week: familie Pöllner, Leobendorf",
+  "hoursTitle": "Openingstijden slagerij",
+  "hours": [
+    {
+      "day": "Maandag, woensdag en zaterdag",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Dinsdag en donderdag",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Vrijdag",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Zolang de voorraad strekt, wijzigingen voorbehouden."
+}
