@@ -189,7 +189,6 @@
           "name": "Malý miešaný šalát",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -625,7 +624,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Vegetariánsky",
     "glutenfrei": "Bezlepkový",
     "laktosefrei": "Bez laktózy",

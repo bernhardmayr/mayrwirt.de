@@ -189,7 +189,6 @@
           "name": "Insalata Mista Piccola",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -609,7 +608,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Vegetariano",
     "glutenfrei": "Senza glutine",
     "laktosefrei": "Senza lattosio",

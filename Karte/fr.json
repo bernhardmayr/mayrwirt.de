@@ -189,7 +189,6 @@
           "name": "Petite Salade Mixte",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -609,7 +608,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Végétarien",
     "glutenfrei": "Sans gluten",
     "laktosefrei": "Sans lactose",
