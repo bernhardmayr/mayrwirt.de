@@ -184,28 +184,55 @@
     </div>
 </section>
 
-<!-- ========== HIGHLIGHTS STRIP ========== -->
-<section class="bg-forest text-white py-10">
-    <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-        <div class="flex flex-col items-center gap-2">
-            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
-            <div class="font-serif text-lg font-semibold" data-i18n="hl.cuisine">Bayerische Küche</div>
-            <div class="text-white/60 text-sm" data-i18n="hl.cuisineSub">Regional &amp; saisonal</div>
+<!-- ========== WILLKOMMEN / STORY ========== -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="fade-in">
+                <img src="wp-content/uploads/2015/05/Impression_Restaurant.jpg" alt="Mayrwirt Gastraum" class="w-full h-[26rem] object-cover rounded-2xl" loading="lazy">
+            </div>
+            <div class="fade-in">
+                <p class="label-tag" data-i18n="story.label">Willkommen</p>
+                <h2 class="section-title" data-i18n="story.title">Ein Wirtshaus mit Herz</h2>
+                <p class="text-warm text-lg leading-relaxed" data-i18n="story.text">
+                    Seit Generationen steht der Mayrwirt in Saaldorf für bayerische Gastfreundschaft: ehrliche Küche aus eigener Metzgerei, gemütliche Zimmer und ein herzliches Willkommen. Ob auf der Durchreise, im Urlaub oder beim Feiern — bei uns sind Sie in guten Händen.
+                </p>
+            </div>
         </div>
-        <div class="flex flex-col items-center gap-2">
-            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-            <div class="font-serif text-lg font-semibold" data-i18n="hl.rooms">Gemütliche Zimmer</div>
-            <div class="text-white/60 text-sm" data-i18n="hl.roomsSub">Mit Frühstück</div>
-        </div>
-        <div class="flex flex-col items-center gap-2">
-            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
-            <div class="font-serif text-lg font-semibold" data-i18n="hl.butcher">Eigene Metzgerei</div>
-            <div class="text-white/60 text-sm" data-i18n="hl.butcherSub">Hausgemachte Spezialitäten</div>
-        </div>
-        <div class="flex flex-col items-center gap-2">
-            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-            <div class="font-serif text-lg font-semibold" data-i18n="hl.location">Ideal gelegen</div>
-            <div class="text-white/60 text-sm" data-i18n="hl.locationSub">Nahe Salzburg &amp; Berchtesgaden</div>
+    </div>
+</section>
+
+<!-- ========== ENTDECKEN / 3 SÄULEN ========== -->
+<section class="pb-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <a href="#wirtshaus" class="pillar-card fade-in">
+                <img src="wp-content/uploads/2015/05/MW_Restaurant_04.jpg" alt="Wirtshaus" loading="lazy">
+                <div class="pillar-body">
+                    <div class="pillar-kicker" data-i18n="rest.label">Wirtshaus</div>
+                    <div class="pillar-title" data-i18n="hl.cuisine">Bayerische Küche</div>
+                    <div class="pillar-desc" data-i18n="hl.cuisineSub">Regional &amp; saisonal</div>
+                    <span class="pillar-cta" data-i18n="pill.discover">Entdecken</span>
+                </div>
+            </a>
+            <a href="zimmer/" class="pillar-card fade-in">
+                <img src="wp-content/uploads/2015/05/Mayrwirt_Zimmer_01.jpg" alt="Zimmer" loading="lazy">
+                <div class="pillar-body">
+                    <div class="pillar-kicker" data-i18n="rooms.label">Übernachten</div>
+                    <div class="pillar-title" data-i18n="hl.rooms">Gemütliche Zimmer</div>
+                    <div class="pillar-desc" data-i18n="hl.roomsSub">Mit Frühstück</div>
+                    <span class="pillar-cta" data-i18n="pill.discover">Entdecken</span>
+                </div>
+            </a>
+            <a href="#metzgerei" class="pillar-card fade-in">
+                <img src="wp-content/uploads/2015/06/Mayrwirt_Metzgerei_Hauptbild.jpg" alt="Metzgerei" loading="lazy">
+                <div class="pillar-body">
+                    <div class="pillar-kicker" data-i18n="butch.label">Metzgerei</div>
+                    <div class="pillar-title" data-i18n="hl.butcher">Eigene Metzgerei</div>
+                    <div class="pillar-desc" data-i18n="hl.butcherSub">Hausgemachte Spezialitäten</div>
+                    <span class="pillar-cta" data-i18n="pill.discover">Entdecken</span>
+                </div>
+            </a>
         </div>
     </div>
 </section>
@@ -220,10 +247,6 @@
                 <p class="text-warm text-lg leading-relaxed mb-5" data-i18n="rest.desc1">
                     Im Mayrwirt tischen wir auf, was die Region zu bieten hat — ehrliche Hausmannskost, frisch zubereitet aus saisonalen Zutaten. Ob Schweinsbraten, Wiener Schnitzel oder Tagesgerichte: Bei uns schmeckt man den Unterschied.
                 </p>
-                <p class="text-warm leading-relaxed mb-8" data-i18n="rest.desc2">
-                    Unser gemütlicher Gastraum bietet Platz für Familienfeiern, Ausflüge und Betriebsfeste. Wir freuen uns auf Ihre Reservierung.
-                </p>
-
                 <div class="hours-card bg-white rounded-2xl p-6 shadow-sm border border-gray-100 mb-8">
                     <h3 class="font-serif text-lg font-semibold text-gray-900 mb-4" data-i18n="rest.hours">Öffnungszeiten<span id="rest-status" class="status-badge"></span></h3>
                     <div class="space-y-2 text-sm">
@@ -248,10 +271,8 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-4 fade-in">
-                <img src="wp-content/uploads/2015/05/Impression_Restaurant.jpg" alt="Restaurant Impression" class="w-full h-64 object-cover rounded-2xl col-span-2">
-                <img src="wp-content/uploads/2015/05/MW_Restaurant_04.jpg"      alt="Restaurant"           class="w-full h-48 object-cover rounded-2xl">
-                <img src="wp-content/uploads/2015/05/MW_Restaurant_05.jpg"      alt="Restaurant"           class="w-full h-48 object-cover rounded-2xl">
+            <div class="fade-in">
+                <img src="wp-content/uploads/2015/05/MW_Restaurant_05.jpg" alt="Gastraum im Mayrwirt" class="w-full h-[30rem] object-cover rounded-2xl" loading="lazy">
             </div>
         </div>
     </div>
@@ -264,61 +285,24 @@
             <p class="label-tag mx-auto" data-i18n="rooms.label">Übernachten</p>
             <h2 class="section-title" data-i18n="rooms.title">Zimmer &amp; Frühstück</h2>
             <p class="text-warm text-lg max-w-2xl mx-auto" data-i18n="rooms.subtitle">
-                Erholen Sie sich in unseren gemütlich eingerichteten Zimmern — ideal als Ausgangspunkt für Ausflüge nach Salzburg und ins Berchtesgadener Land.
+                Gemütliche Zimmer mit reichhaltigem Frühstück — Ihre Auszeit im Berchtesgadener Land.
             </p>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5 mb-14 fade-in">
-            <div class="img-card"><img src="wp-content/uploads/2015/05/Mayrwirt_Zimmer_01.jpg" alt="Zimmer 1" loading="lazy"></div>
-            <div class="img-card"><img src="wp-content/uploads/2015/05/Mayrwirt_Zimmer_02.jpg" alt="Zimmer 2" loading="lazy"></div>
-            <div class="img-card"><img src="wp-content/uploads/2015/05/Mayrwirt_Zimmer_03.jpg" alt="Zimmer 3" loading="lazy"></div>
-            <div class="img-card"><img src="wp-content/uploads/2015/05/Mayrwirt_Zimmer_04.jpg" alt="Zimmer 4" loading="lazy"></div>
-            <div class="img-card"><img src="wp-content/uploads/2015/05/Mayrwirt_Bad_01.jpg"    alt="Badezimmer" loading="lazy"></div>
-            <div class="img-card"><img src="wp-content/uploads/2015/05/Mayrwirt_Bad_02.jpg"    alt="Badezimmer 2" loading="lazy"></div>
-        </div>
-
         <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="grid grid-cols-2 gap-4 fade-in">
+                <img src="wp-content/uploads/2015/05/Mayrwirt_Zimmer_02.jpg" alt="Zimmer im Mayrwirt" class="w-full h-72 object-cover rounded-2xl" loading="lazy">
+                <img src="wp-content/uploads/2015/05/Frühstück_01.jpg" alt="Frühstück" class="w-full h-72 object-cover rounded-2xl" loading="lazy">
+            </div>
+
             <div class="fade-in">
-                <h3 class="font-serif text-2xl font-bold text-gray-900 mb-6" data-i18n="rooms.features">Zimmerausstattung</h3>
-                <div class="grid grid-cols-2 gap-3 mb-8">
-                    <div class="feature-item" data-i18n="rooms.wifi">WLAN inklusive</div>
-                    <div class="feature-item" data-i18n="rooms.tv">Flatscreen TV</div>
-                    <div class="feature-item" data-i18n="rooms.shower">Dusche / WC</div>
-                    <div class="feature-item" data-i18n="rooms.parking">Parkplatz gratis</div>
-                    <div class="feature-item" data-i18n="rooms.breakfast">Frühstück inklusive</div>
-                    <div class="feature-item" data-i18n="rooms.quiet">Ruhige Lage</div>
-                </div>
-                <div class="hours-card rounded-2xl p-5 mb-6 bg-cream">
-                    <h3 class="font-serif text-base font-semibold text-gray-900 mb-3" data-i18n="rooms.receptionTitle">Öffnungszeiten Rezeption</h3>
-                    <div class="space-y-1.5 text-sm">
-                        <div class="flex justify-between gap-4">
-                            <span class="text-warm" data-i18n="h.tueSun">Di – So</span>
-                            <span class="font-medium">07:00 – 20:00 Uhr</span>
-                        </div>
-                        <div class="flex justify-between gap-4">
-                            <span class="text-warm" data-i18n="rooms.checkin">Check-in</span>
-                            <span class="font-medium" data-i18n="rooms.checkinTime">14:00 – 20:00 Uhr</span>
-                        </div>
-                        <div class="flex justify-between gap-4">
-                            <span class="text-warm" data-i18n="rooms.checkout">Check-out</span>
-                            <span class="font-medium" data-i18n="rooms.checkoutTime">bis 10:00 Uhr</span>
-                        </div>
-                    </div>
-                    <p class="text-xs text-warm mt-3" data-i18n="rooms.checkinNote">Späte Anreise bitte telefonisch voranmelden.</p>
-                </div>
+                <p class="text-warm text-lg leading-relaxed mb-5" data-i18n="rooms.breakfastDesc">
+                    Starten Sie entspannt in den Tag mit unserem reichhaltigen bayerischen Frühstücksbuffet — mit hausgemachten Produkten aus unserer eigenen Metzgerei.
+                </p>
+                <p class="text-sm text-warm/80 mb-8" data-i18n="rooms.amenitiesInline">WLAN · Flatscreen-TV · Dusche/WC · Parkplatz · Frühstück inklusive</p>
                 <div class="flex flex-wrap gap-3">
                     <a href="zimmer/" class="btn-primary" data-i18n="rooms.allBtn">Alle Zimmer &amp; Buchung →</a>
                     <a href="#kontakt" class="btn-secondary" data-i18n="rooms.bookBtn">Jetzt anfragen</a>
-                </div>
-            </div>
-
-            <div class="bg-cream rounded-2xl overflow-hidden fade-in">
-                <img src="wp-content/uploads/2015/05/Frühstück_01.jpg" alt="Frühstück" class="w-full h-56 object-cover" loading="lazy">
-                <div class="p-6">
-                    <h3 class="font-serif text-xl font-bold text-gray-900 mb-2" data-i18n="rooms.breakfastTitle">Unser Frühstück</h3>
-                    <p class="text-warm text-sm leading-relaxed" data-i18n="rooms.breakfastDesc">
-                        Starten Sie entspannt in den Tag mit unserem reichhaltigen bayerischen Frühstücksbuffet — mit hausgemachten Produkten aus unserer eigenen Metzgerei.
-                    </p>
                 </div>
             </div>
         </div>
@@ -338,10 +322,6 @@
                 <p class="text-white/80 text-lg leading-relaxed mb-5" data-i18n="butch.desc1">
                     Unsere hauseigene Metzgerei steht für Qualität und Tradition. Wir verarbeiten regionales Fleisch zu hausgemachten Wurstwaren, Schinken und Spezialitäten.
                 </p>
-                <p class="text-white/70 leading-relaxed mb-8" data-i18n="butch.desc2">
-                    Die Produkte unserer Metzgerei finden Sie direkt auf Ihrem Teller — und im Verkauf zum Mitnehmen.
-                </p>
-
                 <div class="hours-card-inv bg-white/10 rounded-2xl p-6 mb-8">
                     <h3 class="font-serif text-lg font-semibold mb-4" data-i18n="butch.hours">Öffnungszeiten Metzgerei<span id="butch-status" class="status-badge status-badge-inv"></span></h3>
                     <div class="space-y-2 text-sm">
@@ -390,52 +370,19 @@
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12 fade-in">
             <a class="area-card" href="ausflugsziele/index.html#cat=city" data-activities-link data-filter="cat=city">
-                <div class="flex items-start justify-between mb-3">
-                    <div class="text-3xl">🏙️</div>
-                    <span class="area-dist-badge">~20 km</span>
-                </div>
+                <div class="text-3xl mb-3">🏙️</div>
                 <h3 class="font-serif text-lg font-bold text-gray-900 mb-2" data-i18n="area.stadtSalzburg">Stadt Salzburg</h3>
                 <p class="text-warm text-sm leading-relaxed" data-i18n="area.stadtSalzburgDesc">Mozarts Geburtsstadt — Festung, Altstadt, Hangar 7 und weltberühmte Festspiele.</p>
             </a>
             <a class="area-card" href="ausflugsziele/index.html#cat=mountains" data-activities-link data-filter="cat=mountains">
-                <div class="flex items-start justify-between mb-3">
-                    <div class="text-3xl">⛰️</div>
-                    <span class="area-dist-badge">~30 km</span>
-                </div>
+                <div class="text-3xl mb-3">⛰️</div>
                 <h3 class="font-serif text-lg font-bold text-gray-900 mb-2" data-i18n="area.alpen">Salzburger &amp; Berchtesgadener Alpen</h3>
                 <p class="text-warm text-sm leading-relaxed" data-i18n="area.alpenDesc">Von der Glasenbachklamm bei Salzburg über Almbachklamm und Königssee bis zum Kehlsteinhaus — Wanderungen und alpine Erlebnisse für jede Jahreszeit.</p>
             </a>
-            <a class="area-card" href="ausflugsziele/index.html#role=culture" data-activities-link data-filter="role=culture">
-                <div class="flex items-start justify-between mb-3">
-                    <div class="text-3xl">🎭</div>
-                    <span class="area-dist-badge">ab 5 km</span>
-                </div>
-                <h3 class="font-serif text-lg font-bold text-gray-900 mb-2" data-i18n="area.kulturFest">Kultur &amp; Festspiele</h3>
-                <p class="text-warm text-sm leading-relaxed" data-i18n="area.kulturFestDesc">Lokwelt Freilassing, Festung Hohensalzburg, Salzburger Festspiele, Hangar 7 und Kehlsteinhaus — Weltkultur vor der Haustür.</p>
-            </a>
-            <a class="area-card" href="ausflugsziele/index.html#role=family" data-activities-link data-filter="role=family">
-                <div class="flex items-start justify-between mb-3">
-                    <div class="text-3xl">👨‍👩‍👧</div>
-                    <span class="area-dist-badge">ab 8 km</span>
-                </div>
-                <h3 class="font-serif text-lg font-bold text-gray-900 mb-2" data-i18n="area.familie">Familie &amp; Kinder</h3>
-                <p class="text-warm text-sm leading-relaxed" data-i18n="area.familieDesc">Zoo Salzburg, Hoppolino-Spielplatz, Babalu Funpark, Märchenpark Ruhpolding und Dino-Fundstätten — Ausflugsziele, die Kinder begeistern.</p>
-            </a>
             <a class="area-card" href="ausflugsziele/index.html#cat=lakes" data-activities-link data-filter="cat=lakes">
-                <div class="flex items-start justify-between mb-3">
-                    <div class="text-3xl">🏊</div>
-                    <span class="area-dist-badge">ab 5 km</span>
-                </div>
+                <div class="text-3xl mb-3">🏊</div>
                 <h3 class="font-serif text-lg font-bold text-gray-900 mb-2" data-i18n="area.seenBaden">Seen &amp; Baden</h3>
                 <p class="text-warm text-sm leading-relaxed" data-i18n="area.seenBadenDesc">Abtsdorfersee, Höglwörther See, Waginger See (wärmster See Oberbayerns) und Thumsee — Badespaß in der Umgebung.</p>
-            </a>
-            <a class="area-card" href="ausflugsziele/index.html#cat=sport" data-activities-link data-filter="cat=sport">
-                <div class="flex items-start justify-between mb-3">
-                    <div class="text-3xl">🧗</div>
-                    <span class="area-dist-badge">ab 5 km</span>
-                </div>
-                <h3 class="font-serif text-lg font-bold text-gray-900 mb-2" data-i18n="area.aktiv">Aktiv &amp; Abenteuer</h3>
-                <p class="text-warm text-sm leading-relaxed" data-i18n="area.aktivDesc">Saalachtal-Radweg, Sommerrodelbahn, Rafting auf der Salzach, Canyoning und Grünstein-Klettersteig — Sport für jedes Alter.</p>
             </a>
         </div>
 

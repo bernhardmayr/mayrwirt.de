@@ -43,7 +43,7 @@
   "h.tueSun": "Ut – Ne",
   "rooms.label": "Ubytovanie",
   "rooms.title": "Izby &amp; Raňajky",
-  "rooms.subtitle": "Oddýchnite si v našich starostlivo zariadených izbách — ideálna základňa pre výlety do Salzburgu a okolia Berchtesgadenu.",
+  "rooms.subtitle": "Útulné izby s výdatnými raňajkami — váš oddych v regióne Berchtesgaden.",
   "rooms.features": "Vybavenie izby",
   "rooms.wifi": "Bezplatné Wi-Fi",
   "rooms.tv": "Televízor s plochou obrazovkou",
@@ -116,5 +116,10 @@
   "job2.title": "Predavačka v mäsiárstve (ž/m/d)",
   "job2.desc": "Budete radiť zákazníkom pri pulte, pomáhať pri prezentácii našich remeselných výrobkov a byť pohostinnou tvárou nášho mäsiarstva.",
   "chat.online": "Online · odpovedá ihneď",
-  "chat.greeting": "Ahoj! 👋 Ako vám môžem pomôcť? Odpoviem na otázky o rezerváciách, jedálnom lístku a izbách."
+  "chat.greeting": "Ahoj! 👋 Ako vám môžem pomôcť? Odpoviem na otázky o rezerváciách, jedálnom lístku a izbách.",
+  "story.label": "Vitajte",
+  "story.title": "Hostinec so srdcom",
+  "story.text": "Mayrwirt v Saaldorfe už po generácie znamená bavorskú pohostinnosť: poctivú kuchyňu z vlastného mäsiarstva, útulné izby a srdečné privítanie. Či už prechádzate, ste na dovolenke alebo oslavujete — u nás ste v dobrých rukách.",
+  "pill.discover": "Objaviť",
+  "rooms.amenitiesInline": "Wi-Fi · Plochý TV · Sprcha/WC · Parkovanie · Raňajky v cene"
 }

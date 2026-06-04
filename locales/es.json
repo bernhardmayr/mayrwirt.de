@@ -43,7 +43,7 @@
   "h.tueSun": "Mar – Dom",
   "rooms.label": "Alojamiento",
   "rooms.title": "Habitaciones &amp; Desayuno",
-  "rooms.subtitle": "Descanse en nuestras habitaciones cuidadosamente decoradas — ideal como base para excursiones a Salzburgo y la zona de Berchtesgaden.",
+  "rooms.subtitle": "Habitaciones acogedoras con abundante desayuno — su descanso en la región de Berchtesgaden.",
   "rooms.features": "Equipamiento de la habitación",
   "rooms.wifi": "Wi-Fi gratuito",
   "rooms.tv": "TV de pantalla plana",
@@ -116,5 +116,10 @@
   "job2.title": "Dependienta de carnicería (h/m/d)",
   "job2.desc": "Asesorará a los clientes en el mostrador, ayudará en la presentación de nuestros productos artesanales y será el rostro acogedor de nuestra carnicería.",
   "chat.online": "En línea · responde enseguida",
-  "chat.greeting": "¡Hola! 👋 ¿En qué puedo ayudarle? Respondo preguntas sobre reservas, carta y habitaciones."
+  "chat.greeting": "¡Hola! 👋 ¿En qué puedo ayudarle? Respondo preguntas sobre reservas, carta y habitaciones.",
+  "story.label": "Bienvenidos",
+  "story.title": "Una posada con corazón",
+  "story.text": "Durante generaciones, el Mayrwirt de Saaldorf ha sido sinónimo de hospitalidad bávara: cocina honesta de nuestra propia carnicería, habitaciones acogedoras y una cálida bienvenida. De paso, de vacaciones o celebrando — con nosotros está en buenas manos.",
+  "pill.discover": "Descubrir",
+  "rooms.amenitiesInline": "Wi-Fi · TV de pantalla plana · Ducha/WC · Aparcamiento · Desayuno incluido"
 }

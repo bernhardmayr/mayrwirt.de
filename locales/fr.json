@@ -43,7 +43,7 @@
   "h.tueSun": "Mar – Dim",
   "rooms.label": "Hébergement",
   "rooms.title": "Chambres &amp; Petit-déjeuner",
-  "rooms.subtitle": "Reposez-vous dans nos chambres soigneusement aménagées — idéal comme base pour des excursions à Salzbourg et dans la région de Berchtesgaden.",
+  "rooms.subtitle": "Des chambres chaleureuses avec un copieux petit-déjeuner — votre pause dans la région de Berchtesgaden.",
   "rooms.features": "Équipements de la chambre",
   "rooms.wifi": "Wi-Fi gratuit",
   "rooms.tv": "TV écran plat",
@@ -116,5 +116,10 @@
   "job2.title": "Vendeuse en boucherie (h/f/d)",
   "job2.desc": "Vous conseillerez les clients au comptoir, aiderez à la présentation de nos produits artisanaux et serez le visage accueillant de notre boucherie.",
   "chat.online": "En ligne · répond immédiatement",
-  "chat.greeting": "Bonjour ! 👋 Comment puis-je vous aider ? Je réponds aux questions sur les réservations, la carte et les chambres."
+  "chat.greeting": "Bonjour ! 👋 Comment puis-je vous aider ? Je réponds aux questions sur les réservations, la carte et les chambres.",
+  "story.label": "Bienvenue",
+  "story.title": "Une auberge de cœur",
+  "story.text": "Depuis des générations, le Mayrwirt à Saaldorf incarne l'hospitalité bavaroise : une cuisine authentique issue de notre propre boucherie, des chambres chaleureuses et un accueil cordial. De passage, en vacances ou pour faire la fête — vous êtes entre de bonnes mains.",
+  "pill.discover": "Découvrir",
+  "rooms.amenitiesInline": "Wi-Fi · TV à écran plat · Douche/WC · Parking · Petit-déjeuner inclus"
 }

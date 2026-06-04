@@ -43,7 +43,7 @@
   "h.tueSun": "Wt – Nd",
   "rooms.label": "Noclegi",
   "rooms.title": "Pokoje &amp; Śniadanie",
-  "rooms.subtitle": "Odpoczywaj w naszych starannie urządzonych pokojach — idealna baza wypadowa na wycieczki do Salzburga i okolic Berchtesgaden.",
+  "rooms.subtitle": "Przytulne pokoje z obfitym śniadaniem — Twój wypoczynek w regionie Berchtesgaden.",
   "rooms.features": "Wyposażenie pokoju",
   "rooms.wifi": "Bezpłatne Wi-Fi",
   "rooms.tv": "Telewizor plazmowy",
@@ -116,5 +116,10 @@
   "job2.title": "Sprzedawczyni w rzeźnictwie (k/m/d)",
   "job2.desc": "Będziesz doradzać klientom przy ladzie, pomagać w prezentacji naszych rzemieślniczych produktów i być gościnną twarzą naszego rzeźnictwa.",
   "chat.online": "Online · odpowiada od razu",
-  "chat.greeting": "Cześć! 👋 Jak mogę pomóc? Odpowiem na pytania dotyczące rezerwacji, karty i pokoi."
+  "chat.greeting": "Cześć! 👋 Jak mogę pomóc? Odpowiem na pytania dotyczące rezerwacji, karty i pokoi.",
+  "story.label": "Witamy",
+  "story.title": "Gospoda z sercem",
+  "story.text": "Od pokoleń Mayrwirt w Saaldorf to bawarska gościnność: szczera kuchnia z własnej masarni, przytulne pokoje i serdeczne powitanie. Przejazdem, na wakacjach czy na świętowaniu — u nas jesteś w dobrych rękach.",
+  "pill.discover": "Odkryj",
+  "rooms.amenitiesInline": "Wi-Fi · Telewizor LCD · Prysznic/WC · Parking · Śniadanie w cenie"
 }

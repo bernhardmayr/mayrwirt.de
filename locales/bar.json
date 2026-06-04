@@ -44,7 +44,7 @@
   "h.tueSun": "Di – So",
   "rooms.label": "Übernachtn",
   "rooms.title": "Zimmer &amp; Frühstick",
-  "rooms.subtitle": "Erhol's enk in unserne gmiatlich eingrichtetn Zimmern — ideal ois Ausgangspunkt fia Ausfliga nach Söizburg und ins Berchtesgadener Land.",
+  "rooms.subtitle": "Gmiatliche Zimmer mit am deftign Friahstück — dei Auszeit im Berchtesgadner Land.",
   "rooms.features": "Zimmerausstattung",
   "rooms.wifi": "WLAN dabei",
   "rooms.tv": "Flatscreen TV",
@@ -116,5 +116,10 @@
   "job2.title": "Verkäuferin Metzg (m/w/d)",
   "job2.desc": "Du berätst unsere Kunden an der Theke, hilfst bei der Präsentation vo unserne hausgemachtn Schmankerln und bist des freundliche Gesicht vo unserer Metzg.",
   "chat.online": "Online · antwortet glei",
-  "chat.greeting": "Servus! 👋 Wia kann i enk hölfa? I beantworte Frogn zu Reservierungen, Speisakartn und Zimmern."
+  "chat.greeting": "Servus! 👋 Wia kann i enk hölfa? I beantworte Frogn zu Reservierungen, Speisakartn und Zimmern.",
+  "story.label": "Servus",
+  "story.title": "A Wirtshaus mit Herz",
+  "story.text": "Scho seit Generationa steht da Mayrwirt z'Saaldorf fia boarische Gmiatlichkeit: a ehrliche Kuchl aus da eigna Metzgerei, gmiatliche Zimmer und a herzlichs Willkomma. Ob af da Durchreis, im Urlaub oder beim Feian — bei uns sads in guade Händ.",
+  "pill.discover": "Schau eina",
+  "rooms.amenitiesInline": "WLAN · Flatscreen-TV · Dusch/WC · Parkplatz · Friahstück dabei"
 }
