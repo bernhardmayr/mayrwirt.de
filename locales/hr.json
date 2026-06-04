@@ -43,7 +43,7 @@
   "h.tueSun": "Uto – Ned",
   "rooms.label": "Smještaj",
   "rooms.title": "Sobe &amp; Doručak",
-  "rooms.subtitle": "Odmarajte se u našim pažljivo uređenim sobama — idealno kao baza za izlete u Salzburg i okolicu Berchtesgadena.",
+  "rooms.subtitle": "Ugodne sobe s bogatim doručkom — vaš predah u regiji Berchtesgaden.",
   "rooms.features": "Oprema sobe",
   "rooms.wifi": "Besplatni Wi-Fi",
   "rooms.tv": "Ravni TV ekran",
@@ -116,5 +116,10 @@
   "job2.title": "Prodavačica u mesnici (ž/m/d)",
   "job2.desc": "Savjetovat ćete kupce za šankom, pomagati u prezentaciji naših zanatskih proizvoda i biti gostoljubivo lice naše mesnice.",
   "chat.online": "Online · odmah odgovara",
-  "chat.greeting": "Bok! 👋 Kako vam mogu pomoći? Odgovaram na pitanja o rezervacijama, jelovniku i sobama."
+  "chat.greeting": "Bok! 👋 Kako vam mogu pomoći? Odgovaram na pitanja o rezervacijama, jelovniku i sobama.",
+  "story.label": "Dobrodošli",
+  "story.title": "Gostionica sa srcem",
+  "story.text": "Već generacijama Mayrwirt u Saaldorfu znači bavarsko gostoprimstvo: poštenu kuhinju iz vlastite mesnice, ugodne sobe i srdačnu dobrodošlicu. U prolazu, na odmoru ili na slavlju — kod nas ste u dobrim rukama.",
+  "pill.discover": "Otkrijte",
+  "rooms.amenitiesInline": "Wi-Fi · Ravni TV · Tuš/WC · Parking · Doručak uključen"
 }

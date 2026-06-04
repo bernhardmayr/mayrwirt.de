@@ -43,7 +43,7 @@
   "h.tueSun": "Di – So",
   "rooms.label": "Übernachten",
   "rooms.title": "Zimmer &amp; Frühstück",
-  "rooms.subtitle": "Erholen Sie sich in unseren gemütlich eingerichteten Zimmern — ideal als Ausgangspunkt für Ausflüge nach Salzburg und ins Berchtesgadener Land.",
+  "rooms.subtitle": "Gemütliche Zimmer mit reichhaltigem Frühstück — Ihre Auszeit im Berchtesgadener Land.",
   "rooms.features": "Zimmerausstattung",
   "rooms.wifi": "WLAN inklusive",
   "rooms.tv": "Flatscreen TV",
@@ -116,5 +116,10 @@
   "job2.title": "Verkäuferin Metzgerei (m/w/d)",
   "job2.desc": "Sie beraten unsere Kunden an der Theke, helfen bei der Präsentation unserer hausgemachten Fleisch- und Wurstwaren und sind das freundliche Gesicht unserer Metzgerei.",
   "chat.online": "Online · antwortet sofort",
-  "chat.greeting": "Hallo! 👋 Wie kann ich Ihnen helfen? Ich beantworte Fragen zu Reservierungen, Speisekarte und Zimmern."
+  "chat.greeting": "Hallo! 👋 Wie kann ich Ihnen helfen? Ich beantworte Fragen zu Reservierungen, Speisekarte und Zimmern.",
+  "story.label": "Willkommen",
+  "story.title": "Ein Wirtshaus mit Herz",
+  "story.text": "Seit Generationen steht der Mayrwirt in Saaldorf für bayerische Gastfreundschaft: ehrliche Küche aus eigener Metzgerei, gemütliche Zimmer und ein herzliches Willkommen. Ob auf der Durchreise, im Urlaub oder beim Feiern — bei uns sind Sie in guten Händen.",
+  "pill.discover": "Entdecken",
+  "rooms.amenitiesInline": "WLAN · Flatscreen-TV · Dusche/WC · Parkplatz · Frühstück inklusive"
 }

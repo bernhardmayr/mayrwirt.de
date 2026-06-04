@@ -43,7 +43,7 @@
   "h.tueSun": "Út – Ne",
   "rooms.label": "Ubytování",
   "rooms.title": "Pokoje &amp; Snídaně",
-  "rooms.subtitle": "Odpočiňte si v našich útulně zařízených pokojích — ideální výchozí bod pro výlety do Salzburku a Berchtesgadenského kraje.",
+  "rooms.subtitle": "Útulné pokoje s vydatnou snídaní — váš oddech v Berchtesgadensku.",
   "rooms.features": "Vybavení pokoje",
   "rooms.wifi": "Wi-Fi zdarma",
   "rooms.tv": "Televizor s plochou obrazovkou",
@@ -116,5 +116,10 @@
   "job2.title": "Prodavač/ka v řeznictví (m/ž/d)",
   "job2.desc": "Budete radit zákazníkům u pultu, pomáhat s prezentací domácích masných výrobků a být přátelskou tváří našeho řeznictví.",
   "chat.online": "Online · odpovídá ihned",
-  "chat.greeting": "Vítejte! 👋 Jak vám mohu pomoci? Zodpovídám dotazy k rezervacím, jídelnímu lístku a pokojům."
+  "chat.greeting": "Vítejte! 👋 Jak vám mohu pomoci? Zodpovídám dotazy k rezervacím, jídelnímu lístku a pokojům.",
+  "story.label": "Vítejte",
+  "story.title": "Hostinec se srdcem",
+  "story.text": "Mayrwirt v Saaldorfu už po generace znamená bavorskou pohostinnost: poctivou kuchyni z vlastního řeznictví, útulné pokoje a srdečné přivítání. Ať už projíždíte, jste na dovolené nebo slavíte — u nás jste v dobrých rukou.",
+  "pill.discover": "Objevit",
+  "rooms.amenitiesInline": "Wi-Fi · Plochá TV · Sprcha/WC · Parkování · Snídaně v ceně"
 }

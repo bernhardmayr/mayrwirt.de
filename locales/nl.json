@@ -43,7 +43,7 @@
   "h.tueSun": "Di – Zo",
   "rooms.label": "Accommodatie",
   "rooms.title": "Kamers &amp; Ontbijt",
-  "rooms.subtitle": "Rust uit in onze zorgvuldig ingerichte kamers — ideaal als uitvalsbasis voor uitstapjes naar Salzburg en de regio Berchtesgaden.",
+  "rooms.subtitle": "Gezellige kamers met een uitgebreid ontbijt — uw rustpunt in het Berchtesgadener Land.",
   "rooms.features": "Kameruitrusting",
   "rooms.wifi": "Gratis Wi-Fi",
   "rooms.tv": "Flatscreen-tv",
@@ -116,5 +116,10 @@
   "job2.title": "Verkoopster in de slagerij (v/m/d)",
   "job2.desc": "U adviseert klanten aan de toonbank, helpt bij de presentatie van onze ambachtelijke producten en bent het vriendelijke gezicht van onze slagerij.",
   "chat.online": "Online · antwoordt direct",
-  "chat.greeting": "Hallo! 👋 Hoe kan ik u helpen? Ik beantwoord vragen over reserveringen, de menukaart en kamers."
+  "chat.greeting": "Hallo! 👋 Hoe kan ik u helpen? Ik beantwoord vragen over reserveringen, de menukaart en kamers.",
+  "story.label": "Welkom",
+  "story.title": "Een herberg met hart",
+  "story.text": "Al generaties lang staat de Mayrwirt in Saaldorf voor Beierse gastvrijheid: eerlijke keuken uit onze eigen slagerij, gezellige kamers en een hartelijk welkom. Op doorreis, met vakantie of om te vieren — bij ons bent u in goede handen.",
+  "pill.discover": "Ontdekken",
+  "rooms.amenitiesInline": "Wifi · Flatscreen-tv · Douche/wc · Parkeren · Ontbijt inbegrepen"
 }

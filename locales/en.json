@@ -43,7 +43,7 @@
   "h.tueSun": "Tue – Sun",
   "rooms.label": "Accommodation",
   "rooms.title": "Rooms &amp; Breakfast",
-  "rooms.subtitle": "Rest in our cosy rooms — ideal as a base for trips to Salzburg and the Berchtesgaden area.",
+  "rooms.subtitle": "Cosy rooms with a hearty breakfast — your retreat in the Berchtesgaden region.",
   "rooms.features": "Room Amenities",
   "rooms.wifi": "Free Wi-Fi",
   "rooms.tv": "Flat-screen TV",
@@ -116,5 +116,10 @@
   "job2.title": "Butcher Shop Sales Assistant (m/f/d)",
   "job2.desc": "You will advise customers at the counter, assist with the presentation of our home-made meat and sausage products, and be the friendly face of our butcher's shop.",
   "chat.online": "Online · replies instantly",
-  "chat.greeting": "Hello! 👋 How can I help you? I can answer questions about reservations, the menu and rooms."
+  "chat.greeting": "Hello! 👋 How can I help you? I can answer questions about reservations, the menu and rooms.",
+  "story.label": "Welcome",
+  "story.title": "An Inn with Heart",
+  "story.text": "For generations, the Mayrwirt in Saaldorf has stood for Bavarian hospitality: honest cuisine from our own butcher shop, cosy rooms and a warm welcome. Whether passing through, on holiday or celebrating — you are in good hands with us.",
+  "pill.discover": "Discover",
+  "rooms.amenitiesInline": "Wi-Fi · Flat-screen TV · Shower/WC · Parking · Breakfast included"
 }

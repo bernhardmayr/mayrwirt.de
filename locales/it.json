@@ -43,7 +43,7 @@
   "h.tueSun": "Mar – Dom",
   "rooms.label": "Pernottamento",
   "rooms.title": "Camere &amp; Colazione",
-  "rooms.subtitle": "Riposatevi nelle nostre camere arredate con cura — ideale come base per escursioni a Salisburgo e nella zona di Berchtesgaden.",
+  "rooms.subtitle": "Camere accoglienti con ricca colazione — la vostra pausa nel Berchtesgadener Land.",
   "rooms.features": "Dotazioni della camera",
   "rooms.wifi": "Wi-Fi gratuito",
   "rooms.tv": "TV a schermo piatto",
@@ -116,5 +116,10 @@
   "job2.title": "Commessa macelleria (m/f/d)",
   "job2.desc": "Consiglierai i clienti al banco, aiuterai nella presentazione dei nostri prodotti artigianali e sarai il volto accogliente della nostra macelleria.",
   "chat.online": "Online · risponde subito",
-  "chat.greeting": "Ciao! 👋 Come posso aiutarla? Rispondo a domande su prenotazioni, menù e camere."
+  "chat.greeting": "Ciao! 👋 Come posso aiutarla? Rispondo a domande su prenotazioni, menù e camere.",
+  "story.label": "Benvenuti",
+  "story.title": "Una locanda con il cuore",
+  "story.text": "Da generazioni il Mayrwirt di Saaldorf è sinonimo di ospitalità bavarese: cucina genuina dalla nostra macelleria, camere accoglienti e un caloroso benvenuto. Di passaggio, in vacanza o per festeggiare — con noi siete in buone mani.",
+  "pill.discover": "Scopri",
+  "rooms.amenitiesInline": "Wi-Fi · TV a schermo piatto · Doccia/WC · Parcheggio · Colazione inclusa"
 }
