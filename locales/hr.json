@@ -121,5 +121,7 @@
   "story.title": "Gostionica sa srcem",
   "story.text": "Već generacijama Mayrwirt u Saaldorfu znači bavarsko gostoprimstvo: poštenu kuhinju iz vlastite mesnice, ugodne sobe i srdačnu dobrodošlicu. U prolazu, na odmoru ili na slavlju — kod nas ste u dobrim rukama.",
   "pill.discover": "Otkrijte",
-  "rooms.amenitiesInline": "Wi-Fi · Ravni TV · Tuš/WC · Parking · Doručak uključen"
+  "rooms.amenitiesInline": "Wi-Fi · Ravni TV · Tuš/WC · Parking · Doručak uključen",
+  "pill.label": "Na prvi pogled",
+  "pill.title": "Što vas očekuje u Mayrwirtu"
 }

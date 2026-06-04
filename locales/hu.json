@@ -121,5 +121,7 @@
   "story.title": "Vendéglő szívvel",
   "story.text": "A saaldorfi Mayrwirt generációk óta a bajor vendégszeretetet jelenti: őszinte konyha saját húsboltunkból, otthonos szobák és szívélyes fogadtatás. Akár átutazóban, nyaraláson vagy ünneplés közben — nálunk jó kezekben van.",
   "pill.discover": "Felfedezés",
-  "rooms.amenitiesInline": "Wi-Fi · Síkképernyős TV · Zuhanyzó/WC · Parkoló · Reggelivel"
+  "rooms.amenitiesInline": "Wi-Fi · Síkképernyős TV · Zuhanyzó/WC · Parkoló · Reggelivel",
+  "pill.label": "Egy pillantásra",
+  "pill.title": "Ez vár Önre a Mayrwirtnél"
 }

@@ -121,5 +121,7 @@
   "story.title": "Ein Wirtshaus mit Herz",
   "story.text": "Seit Generationen steht der Mayrwirt in Saaldorf für bayerische Gastfreundschaft: ehrliche Küche aus eigener Metzgerei, gemütliche Zimmer und ein herzliches Willkommen. Ob auf der Durchreise, im Urlaub oder beim Feiern — bei uns sind Sie in guten Händen.",
   "pill.discover": "Entdecken",
-  "rooms.amenitiesInline": "WLAN · Flatscreen-TV · Dusche/WC · Parkplatz · Frühstück inklusive"
+  "rooms.amenitiesInline": "WLAN · Flatscreen-TV · Dusche/WC · Parkplatz · Frühstück inklusive",
+  "pill.label": "Auf einen Blick",
+  "pill.title": "Das erwartet Sie beim Mayrwirt"
 }

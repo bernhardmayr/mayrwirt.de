@@ -121,5 +121,7 @@
   "story.title": "Una locanda con il cuore",
   "story.text": "Da generazioni il Mayrwirt di Saaldorf è sinonimo di ospitalità bavarese: cucina genuina dalla nostra macelleria, camere accoglienti e un caloroso benvenuto. Di passaggio, in vacanza o per festeggiare — con noi siete in buone mani.",
   "pill.discover": "Scopri",
-  "rooms.amenitiesInline": "Wi-Fi · TV a schermo piatto · Doccia/WC · Parcheggio · Colazione inclusa"
+  "rooms.amenitiesInline": "Wi-Fi · TV a schermo piatto · Doccia/WC · Parcheggio · Colazione inclusa",
+  "pill.label": "In breve",
+  "pill.title": "Cosa vi aspetta al Mayrwirt"
 }

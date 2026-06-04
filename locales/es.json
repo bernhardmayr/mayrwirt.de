@@ -121,5 +121,7 @@
   "story.title": "Una posada con corazón",
   "story.text": "Durante generaciones, el Mayrwirt de Saaldorf ha sido sinónimo de hospitalidad bávara: cocina honesta de nuestra propia carnicería, habitaciones acogedoras y una cálida bienvenida. De paso, de vacaciones o celebrando — con nosotros está en buenas manos.",
   "pill.discover": "Descubrir",
-  "rooms.amenitiesInline": "Wi-Fi · TV de pantalla plana · Ducha/WC · Aparcamiento · Desayuno incluido"
+  "rooms.amenitiesInline": "Wi-Fi · TV de pantalla plana · Ducha/WC · Aparcamiento · Desayuno incluido",
+  "pill.label": "De un vistazo",
+  "pill.title": "Lo que le espera en el Mayrwirt"
 }

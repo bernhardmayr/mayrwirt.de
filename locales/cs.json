@@ -121,5 +121,7 @@
   "story.title": "Hostinec se srdcem",
   "story.text": "Mayrwirt v Saaldorfu už po generace znamená bavorskou pohostinnost: poctivou kuchyni z vlastního řeznictví, útulné pokoje a srdečné přivítání. Ať už projíždíte, jste na dovolené nebo slavíte — u nás jste v dobrých rukou.",
   "pill.discover": "Objevit",
-  "rooms.amenitiesInline": "Wi-Fi · Plochá TV · Sprcha/WC · Parkování · Snídaně v ceně"
+  "rooms.amenitiesInline": "Wi-Fi · Plochá TV · Sprcha/WC · Parkování · Snídaně v ceně",
+  "pill.label": "Ve zkratce",
+  "pill.title": "Co vás čeká v Mayrwirtu"
 }

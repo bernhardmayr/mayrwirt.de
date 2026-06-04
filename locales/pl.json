@@ -121,5 +121,7 @@
   "story.title": "Gospoda z sercem",
   "story.text": "Od pokoleń Mayrwirt w Saaldorf to bawarska gościnność: szczera kuchnia z własnej masarni, przytulne pokoje i serdeczne powitanie. Przejazdem, na wakacjach czy na świętowaniu — u nas jesteś w dobrych rękach.",
   "pill.discover": "Odkryj",
-  "rooms.amenitiesInline": "Wi-Fi · Telewizor LCD · Prysznic/WC · Parking · Śniadanie w cenie"
+  "rooms.amenitiesInline": "Wi-Fi · Telewizor LCD · Prysznic/WC · Parking · Śniadanie w cenie",
+  "pill.label": "W skrócie",
+  "pill.title": "Co czeka na Ciebie w Mayrwirt"
 }

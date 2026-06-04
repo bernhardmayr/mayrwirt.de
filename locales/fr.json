@@ -121,5 +121,7 @@
   "story.title": "Une auberge de cœur",
   "story.text": "Depuis des générations, le Mayrwirt à Saaldorf incarne l'hospitalité bavaroise : une cuisine authentique issue de notre propre boucherie, des chambres chaleureuses et un accueil cordial. De passage, en vacances ou pour faire la fête — vous êtes entre de bonnes mains.",
   "pill.discover": "Découvrir",
-  "rooms.amenitiesInline": "Wi-Fi · TV à écran plat · Douche/WC · Parking · Petit-déjeuner inclus"
+  "rooms.amenitiesInline": "Wi-Fi · TV à écran plat · Douche/WC · Parking · Petit-déjeuner inclus",
+  "pill.label": "En un coup d'œil",
+  "pill.title": "Ce qui vous attend au Mayrwirt"
 }
