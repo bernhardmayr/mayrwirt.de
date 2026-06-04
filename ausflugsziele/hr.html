@@ -37,11 +37,32 @@
     <link rel="alternate" hreflang="sk"        href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/sk.html">
     <link rel="alternate" hreflang="nl"        href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/nl.html">
     <link rel="alternate" hreflang="x-default" href="https://bernhardmayr.github.io/mayrwirt.de/ausflugsziele/">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', system-ui, sans-serif; background: #FAF7F2; color: #2C2C2C; }
+        a { color: #2D5016; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 10; }
+        .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
+        .site-header .back { font-size: 0.8rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 0.5rem; padding: 0.3rem 0.75rem; display: flex; align-items: center; gap: 0.4rem; transition: background 0.15s; }
+        .site-header .back:hover { background: rgba(255,255,255,0.25); text-decoration: none; color: #fff; }
+        .sub-lang-dd { position: relative; }
+        .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
+        .sub-lang-chevron { font-size: 0.65rem; transition: transform 0.2s; display: inline-block; }
+        .sub-lang-btn[aria-expanded="true"] .sub-lang-chevron { transform: rotate(180deg); }
+        .sub-lang-menu { position: absolute; right: 0; top: calc(100% + 0.35rem); background: rgba(25,50,12,0.97); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 0.65rem; min-width: 9.5rem; z-index: 200; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        .sub-lang-menu.hidden { display: none; }
+        .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
+        .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
+        .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
+    </style>
 </head>
 <body class="bg-cream">
 
-<header class="act-site-header">
-    <a href="../index.html" class="back">← <span id="act-back">Povratak na stranicu</span></a>
+<header class="site-header">
+    <a href="../index.html" class="back">← Natrag</a>
     <span class="brand">Mayrwirt</span>
     <div class="sub-lang-dd" id="sub-lang-wrap">
         <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">

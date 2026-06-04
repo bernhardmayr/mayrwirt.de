@@ -15,8 +15,18 @@
         a:hover { text-decoration: underline; }
         .site-header { background: #2D5016; color: white; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; position: sticky; top: 0; z-index: 10; }
         .site-header .brand { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: white; }
-        .site-header .back { font-size: 0.8rem; color: rgba(255,255,255,0.75); display: flex; align-items: center; gap: 0.4rem; }
-        .site-header .back:hover { color: white; text-decoration: none; }
+        .site-header .back { font-size: 0.8rem; font-weight: 600; color: #fff; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 0.5rem; padding: 0.3rem 0.75rem; display: flex; align-items: center; gap: 0.4rem; transition: background 0.15s; }
+        .site-header .back:hover { background: rgba(255,255,255,0.25); text-decoration: none; color: #fff; }
+        .sub-lang-dd { position: relative; }
+        .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
+        .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
+        .sub-lang-chevron { font-size: 0.65rem; transition: transform 0.2s; display: inline-block; }
+        .sub-lang-btn[aria-expanded="true"] .sub-lang-chevron { transform: rotate(180deg); }
+        .sub-lang-menu { position: absolute; right: 0; top: calc(100% + 0.35rem); background: rgba(25,50,12,0.97); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 0.65rem; min-width: 9.5rem; z-index: 200; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+        .sub-lang-menu.hidden { display: none; }
+        .sub-lang-menu a { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.875rem; color: rgba(255,255,255,0.7); font-size: 0.875rem; font-weight: 500; text-decoration: none; transition: background 0.15s, color 0.15s; }
+        .sub-lang-menu a:hover { background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
+        .sub-lang-menu a.active { background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; }
         .container { max-width: 720px; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
         h1 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #2D5016; margin-bottom: 2rem; }
         h2 { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #2D5016; border-bottom: 2px solid #C9962C; padding-bottom: 0.4rem; margin: 2rem 0 1rem; }
@@ -30,8 +40,27 @@
 <body>
 
 <header class="site-header">
-    <a href="../index.html" class="back">← Zurück zur Webseite</a>
+    <a href="../index.html" class="back">← Zurück</a>
     <span class="brand">Mayrwirt</span>
+    <div class="sub-lang-dd" id="sub-lang-wrap">
+        <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
+            🇩🇪&nbsp;DE <span class="sub-lang-chevron">▾</span>
+        </button>
+        <div class="sub-lang-menu hidden" id="sub-lang-menu">
+        <a href="index.html" class="active">🇩🇪 Deutsch</a>
+        <a href="en.html">🇬🇧 English</a>
+        <a href="it.html">🇮🇹 Italiano</a>
+        <a href="hu.html">🇭🇺 Magyar</a>
+        <a href="cs.html">🇨🇿 Čeština</a>
+        <a href="es.html">🇪🇸 Español</a>
+        <a href="fr.html">🇫🇷 Français</a>
+        <a href="pl.html">🇵🇱 Polski</a>
+        <a href="hr.html">🇭🇷 Hrvatski</a>
+        <a href="uk.html">🇺🇦 Українська</a>
+        <a href="sk.html">🇸🇰 Slovenčina</a>
+        <a href="nl.html">🇳🇱 Nederlands</a>
+        </div>
+    </div>
 </header>
 
 <div class="container">
@@ -136,5 +165,20 @@
     </div>
 
 </div>
+
+<script>
+function toggleSubLang(){
+    var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
+    var h=m.classList.toggle('hidden');
+    b.setAttribute('aria-expanded',String(!h));
+}
+document.addEventListener('click',function(e){
+    var w=document.getElementById('sub-lang-wrap');
+    if(w&&!w.contains(e.target)){
+        document.getElementById('sub-lang-menu').classList.add('hidden');
+        document.getElementById('sub-lang-trigger').setAttribute('aria-expanded','false');
+    }
+});
+</script>
 </body>
 </html>
