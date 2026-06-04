@@ -1,0 +1,68 @@
+{
+  "title": "Ponuda iz naše mesnice",
+  "subtitle": "Gostionica &amp; Mesnica Mayrwirt · Saaldorf",
+  "validUntil": "Vrijedi do srijede, 27. svibnja 2026.",
+  "topTitle": "Top ponuda",
+  "topItems": [
+    {
+      "name": "Svinjska lopatica bez kosti",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Šunka za roštilj",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Ponuda",
+  "offerItems": [
+    {
+      "name": "Svinjski file",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Goveđi gulaš (rezani)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Goveđa pečenka (od buta)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Kobasice za pečenje (Semmelbratwurst)",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Jetrena kobasica u prirodnom crijevu, dimljena, fina i gruba",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Koruški kremasti sir",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Naša govedina iz vlastitog klanja ovaj tjedan: obitelj Pöllner, Leobendorf",
+  "hoursTitle": "Radno vrijeme mesnice",
+  "hours": [
+    {
+      "day": "Ponedjeljak, srijeda i subota",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Utorak i četvrtak",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Petak",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Do isteka zaliha, uz mogućnost izmjena."
+}

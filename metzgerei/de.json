@@ -1,0 +1,68 @@
+{
+  "title": "Angebote aus unserer Metzgerei",
+  "subtitle": "Landgasthof &amp; Metzgerei Mayrwirt · Saaldorf",
+  "validUntil": "Gültig bis Mittwoch, 27. Mai 2026",
+  "topTitle": "Topangebot",
+  "topItems": [
+    {
+      "name": "Schweineschulter ohne Knochen",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Grillschinken",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Angebote",
+  "offerItems": [
+    {
+      "name": "Schweinefilet",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Rindergulasch, geschnitten",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Rinderbraten vom Schlegel",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Semmelbratwürste",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Leberwurst im Naturdarm, geräuchert, fein &amp; grob",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Kärntner Rahmkäse",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Unser Rindfleisch aus eigener Schlachtung diese Woche: Familie Pöllner, Leobendorf",
+  "hoursTitle": "Öffnungszeiten der Metzgerei",
+  "hours": [
+    {
+      "day": "Montag, Mittwoch &amp; Samstag",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Dienstag &amp; Donnerstag",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Freitag",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Solange der Vorrat reicht, Änderungen vorbehalten."
+}

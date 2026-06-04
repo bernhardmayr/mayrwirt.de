@@ -1,0 +1,68 @@
+{
+  "title": "Ponuky z nášho mäsiarstva",
+  "subtitle": "Hostinec &amp; Mäsiarstvo Mayrwirt · Saaldorf",
+  "validUntil": "Platí do stredy 27. mája 2026",
+  "topTitle": "Top ponuka",
+  "topItems": [
+    {
+      "name": "Bravčové plece bez kosti",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Šunka na grilovanie",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Ponuky",
+  "offerItems": [
+    {
+      "name": "Bravčová panenka",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Hovädzí guláš (krájaný)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Hovädzia pečienka (zo stehna)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Žemľové klobásy na opekanie",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Pečeňová klobása v prírodnom čreve, údená, jemná a hrubá",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Korutánsky smotanový syr",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Naše hovädzie z vlastnej zakáľačky tento týždeň: rodina Pöllner, Leobendorf",
+  "hoursTitle": "Otváracie hodiny mäsiarstva",
+  "hours": [
+    {
+      "day": "Pondelok, streda a sobota",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Utorok a štvrtok",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Piatok",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Do vypredania zásob, zmena vyhradená."
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Ofertas de nuestra carnicería",
+  "subtitle": "Posada &amp; Carnicería Mayrwirt · Saaldorf",
+  "validUntil": "Válido hasta el miércoles 27 de mayo de 2026",
+  "topTitle": "Oferta destacada",
+  "topItems": [
+    {
+      "name": "Paleta de cerdo deshuesada",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Jamón para asar",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Ofertas",
+  "offerItems": [
+    {
+      "name": "Solomillo de cerdo",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Gulash de ternera (cortado)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Asado de ternera (de pierna)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Salchichas para asar (Semmelbratwurst)",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Paté de hígado en tripa natural, ahumado, fino y grueso",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Queso cremoso de Carintia",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Nuestra carne de ternera de sacrificio propio esta semana: familia Pöllner, Leobendorf",
+  "hoursTitle": "Horario de la carnicería",
+  "hours": [
+    {
+      "day": "Lunes, miércoles y sábado",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Martes y jueves",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Viernes",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Hasta agotar existencias, sujeto a cambios."
+}

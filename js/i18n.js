@@ -5,6 +5,7 @@ const menuUrls       = { de: 'Karte/de.html', en: 'Karte/en.html', it: 'Karte/it
 const tageskarteUrls = { de: 'Tageskarte/de.html', en: 'Tageskarte/en.html', it: 'Tageskarte/it.html', hu: 'Tageskarte/hu.html', cs: 'Tageskarte/cs.html', es: 'Tageskarte/es.html', fr: 'Tageskarte/fr.html', pl: 'Tageskarte/pl.html', hr: 'Tageskarte/hr.html', uk: 'Tageskarte/uk.html', sk: 'Tageskarte/sk.html', nl: 'Tageskarte/nl.html' };
 const activitiesUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html', es: 'ausflugsziele/es.html', fr: 'ausflugsziele/fr.html', pl: 'ausflugsziele/pl.html', hr: 'ausflugsziele/hr.html', uk: 'ausflugsziele/uk.html', sk: 'ausflugsziele/sk.html', nl: 'ausflugsziele/nl.html' };
 const jobsUrls       = { de: 'jobboerse/index.html', en: 'jobboerse/en.html', it: 'jobboerse/it.html', hu: 'jobboerse/hu.html', cs: 'jobboerse/cs.html', es: 'jobboerse/es.html', fr: 'jobboerse/fr.html', pl: 'jobboerse/pl.html', hr: 'jobboerse/hr.html', uk: 'jobboerse/uk.html', sk: 'jobboerse/sk.html', nl: 'jobboerse/nl.html' };
+const offersUrls     = { de: 'metzgerei/index.html', en: 'metzgerei/en.html', it: 'metzgerei/it.html', hu: 'metzgerei/hu.html', cs: 'metzgerei/cs.html', es: 'metzgerei/es.html', fr: 'metzgerei/fr.html', pl: 'metzgerei/pl.html', hr: 'metzgerei/hr.html', uk: 'metzgerei/uk.html', sk: 'metzgerei/sk.html', nl: 'metzgerei/nl.html' };
 const langFlags = { de: '🇩🇪', en: '🇬🇧', it: '🇮🇹', hu: '🇭🇺', cs: '🇨🇿', es: '🇪🇸', fr: '🇫🇷', pl: '🇵🇱', hr: '🇭🇷', uk: '🇺🇦', sk: '🇸🇰', nl: '🇳🇱' };
 const langCodes = { de: 'DE',  en: 'EN',  it: 'IT',  hu: 'HU',  cs: 'CS',  es: 'ES',  fr: 'FR',  pl: 'PL',  hr: 'HR',  uk: 'UK',  sk: 'SK',  nl: 'NL'  };
 
@@ -45,6 +46,9 @@ async function setLang(lang) {
     });
     document.querySelectorAll('[data-jobs-link]').forEach(a => {
         a.href = jobsUrls[lang] || jobsUrls.de;
+    });
+    document.querySelectorAll('[data-offers-link]').forEach(a => {
+        a.href = offersUrls[lang] || offersUrls.de;
     });
 }
 

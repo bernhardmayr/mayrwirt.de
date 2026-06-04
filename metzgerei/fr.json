@@ -1,0 +1,68 @@
+{
+  "title": "Offres de notre boucherie",
+  "subtitle": "Auberge &amp; Boucherie Mayrwirt · Saaldorf",
+  "validUntil": "Valable jusqu'au mercredi 27 mai 2026",
+  "topTitle": "Offre phare",
+  "topItems": [
+    {
+      "name": "Épaule de porc désossée",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Jambon à griller",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Offres",
+  "offerItems": [
+    {
+      "name": "Filet de porc",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Goulasch de bœuf (en morceaux)",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Rôti de bœuf (de cuisse)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Saucisses à griller (Semmelbratwurst)",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Pâté de foie en boyau naturel, fumé, fin et gros",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Fromage à la crème de Carinthie",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "Notre bœuf issu de notre propre abattage cette semaine : famille Pöllner, Leobendorf",
+  "hoursTitle": "Horaires de la boucherie",
+  "hours": [
+    {
+      "day": "Lundi, mercredi et samedi",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Mardi et jeudi",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Vendredi",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Jusqu'à épuisement des stocks, sous réserve de modifications."
+}

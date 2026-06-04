@@ -1,0 +1,68 @@
+{
+  "title": "Offerte della nostra macelleria",
+  "subtitle": "Locanda &amp; Macelleria Mayrwirt · Saaldorf",
+  "validUntil": "Valido fino a mercoledì 27 maggio 2026",
+  "topTitle": "Offerta top",
+  "topItems": [
+    {
+      "name": "Spalla di maiale senza osso",
+      "unit": "1 kg",
+      "price": "8,99 €"
+    },
+    {
+      "name": "Prosciutto da grigliare",
+      "unit": "100 g",
+      "price": "1,79 €"
+    }
+  ],
+  "offerTitle": "Offerte",
+  "offerItems": [
+    {
+      "name": "Filetto di maiale",
+      "unit": "1 kg",
+      "price": "15,99 €"
+    },
+    {
+      "name": "Gulasch di manzo a pezzi",
+      "unit": "1 kg",
+      "price": "17,99 €"
+    },
+    {
+      "name": "Arrosto di manzo (di fesa)",
+      "unit": "1 kg",
+      "price": "19,99 €"
+    },
+    {
+      "name": "Salsicce da arrostire (Semmelbratwurst)",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Salsiccia di fegato in budello naturale, affumicata, fine e grossa",
+      "unit": "100 g",
+      "price": "1,09 €"
+    },
+    {
+      "name": "Formaggio cremoso della Carinzia",
+      "unit": "100 g",
+      "price": "2,09 €"
+    }
+  ],
+  "beefNote": "La nostra carne bovina di macellazione propria questa settimana: famiglia Pöllner, Leobendorf",
+  "hoursTitle": "Orari della macelleria",
+  "hours": [
+    {
+      "day": "Lunedì, mercoledì e sabato",
+      "time": "7:30 – 12:00"
+    },
+    {
+      "day": "Martedì e giovedì",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    },
+    {
+      "day": "Venerdì",
+      "time": "7:30 – 12:00 &amp; 14:00 – 18:00"
+    }
+  ],
+  "disclaimer": "Fino a esaurimento scorte, salvo modifiche."
+}
