@@ -7,6 +7,15 @@
         fr: 'Carte complète', pl: 'Pełna karta', hr: 'Puni jelovnik',
         uk: 'Повне меню', sk: 'Kompletný lístok', nl: 'Volledig menu'
     };
+    // Tageskarte section index → insert before Speisekarte section at this index
+    // Sorted descending so splice operations don't shift subsequent positions
+    const MERGE_MAP = [
+        { tIdx: 0, kIdx: 11 }, // Weinempfehlung  → vor Weißweine
+        { tIdx: 3, kIdx: 6  }, // Naschkatzen     → vor Desserts
+        { tIdx: 4, kIdx: 5  }, // Rindfleisch     → vor Salat & Snack (nach Hauptgänge)
+        { tIdx: 2, kIdx: 4  }, // Tagesgerichte   → vor Hauptgänge
+        { tIdx: 1, kIdx: 1  }, // Suppe           → vor Suppen
+    ];
     const activeFilters = new Set();
 
     const lang = document.documentElement.lang || 'de';
@@ -16,6 +25,14 @@
     ]);
     const [tData, kData] = await Promise.all([tRes.json(), kRes.json()]);
 
+    // Merge Tageskarte sections into Speisekarte at logical positions
+    const sections = [...kData.sections];
+    for (const { tIdx, kIdx } of MERGE_MAP) {
+        if (tData.sections[tIdx]) {
+            sections.splice(kIdx, 0, tData.sections[tIdx]);
+        }
+    }
+
     function badgeHtml(item) {
         if (!item.tags || !item.tags.length) return '';
         return '<span class="diet-badges">'
@@ -23,9 +40,9 @@
             + '</span>';
     }
 
-    function renderSections(sections) {
+    function renderSections(sectionList) {
         let html = '';
-        for (const section of sections) {
+        for (const section of sectionList) {
             html += '<div class="section" data-section>';
             html += '<h2 class="section-title">' + section.title + '</h2>';
 
@@ -104,8 +121,7 @@
     }
 
     html += '<p class="menu-subtitle">' + tData.subtitle + '</p>';
-    html += renderSections(tData.sections);
-    html += renderSections(kData.sections);
+    html += renderSections(sections);
     html += '<div class="note">' + tData.note + '</div>';
 
     document.getElementById('menu-root').innerHTML = html;
