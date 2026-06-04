@@ -26,11 +26,8 @@
         }
     }
 
-    let firstSection = true;
     for (const section of data.sections) {
-        const extraClass = firstSection ? ' section--first' : '';
-        firstSection = false;
-        html += '<div class="section' + extraClass + '" data-section>';
+        html += '<div class="section" data-section>';
         html += '<h2 class="section-title">' + section.title + '</h2>';
 
         if (section.intro) {

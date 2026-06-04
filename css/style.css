@@ -619,5 +619,3 @@ a.area-card { display: block; text-decoration: none; color: inherit; }
 .diet-badge--laktosefrei  { background: #e8f0ff; color: #2c4a8a; }
 .diet-badge--nussfrei     { background: #fce8f5; color: #7a1c5a; }
 
-/* First section heading in Tageskarte has no border */
-.section--first .section-title { border-bottom: none; padding-bottom: 0; }
