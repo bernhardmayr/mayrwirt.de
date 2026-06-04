@@ -1,6 +1,12 @@
 (async function () {
     const BADGE_SHORT   = { vegan: 'Ve', vegetarisch: 'V', glutenfrei: 'GF', laktosefrei: 'LF', nussfrei: 'NF' };
     const ALL_TAGS      = ['vegan', 'vegetarisch', 'glutenfrei', 'laktosefrei', 'nussfrei'];
+    const TITLES        = {
+        de: 'Gesamtkarte', en: 'Full Menu', it: 'Menù completo',
+        hu: 'Teljes étlap', cs: 'Kompletní menu', es: 'Carta completa',
+        fr: 'Carte complète', pl: 'Pełna karta', hr: 'Puni jelovnik',
+        uk: 'Повне меню', sk: 'Kompletný lístok', nl: 'Volledig menu'
+    };
     const activeFilters = new Set();
 
     const lang = document.documentElement.lang || 'de';
@@ -85,7 +91,7 @@
         return html;
     }
 
-    let html = '<h1 class="menu-title">' + tData.title + '</h1>';
+    let html = '<h1 class="menu-title">' + (TITLES[lang] || 'Gesamtkarte') + '</h1>';
 
     if (tData.date) {
         try {
@@ -99,14 +105,8 @@
 
     html += '<p class="menu-subtitle">' + tData.subtitle + '</p>';
     html += renderSections(tData.sections);
-    html += '<div class="note">' + tData.note + '</div>';
-
-    html += '<div class="menu-divider" aria-hidden="true"></div>';
-
-    html += '<h1 class="menu-title menu-title--speise">' + kData.title + '</h1>';
-    html += '<p class="menu-subtitle">' + kData.subtitle + '</p>';
     html += renderSections(kData.sections);
-    html += '<div class="note">' + kData.note + '</div>';
+    html += '<div class="note">' + tData.note + '</div>';
 
     document.getElementById('menu-root').innerHTML = html;
 
