@@ -189,7 +189,6 @@
           "name": "Small Mixed Salad",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -609,7 +608,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Vegetarian",
     "glutenfrei": "Gluten-free",
     "laktosefrei": "Lactose-free",

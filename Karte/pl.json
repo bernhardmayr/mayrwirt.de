@@ -189,7 +189,6 @@
           "name": "Mała Sałatka Mixowa",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -609,7 +608,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Wegetariański",
     "glutenfrei": "Bez glutenu",
     "laktosefrei": "Bez laktozy",

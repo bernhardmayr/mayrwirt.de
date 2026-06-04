@@ -189,7 +189,6 @@
           "name": "Kleine gemengde salade",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -625,7 +624,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Vegetarisch",
     "glutenfrei": "Glutenvrij",
     "laktosefrei": "Lactosevrij",

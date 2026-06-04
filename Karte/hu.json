@@ -189,7 +189,6 @@
           "name": "Kis vegyes saláta",
           "price": "€ 5,40",
           "tags": [
-            "vegan",
             "vegetarisch",
             "glutenfrei",
             "laktosefrei",
@@ -625,7 +624,6 @@
     }
   ],
   "filterLabels": {
-    "vegan": "Vegan",
     "vegetarisch": "Vegetáriánus",
     "glutenfrei": "Gluténmentes",
     "laktosefrei": "Laktózmentes",

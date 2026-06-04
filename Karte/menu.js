@@ -1,6 +1,6 @@
 (async function () {
-    const BADGE_SHORT   = { vegan: 'Ve', vegetarisch: 'V', glutenfrei: 'GF', laktosefrei: 'LF', nussfrei: 'NF' };
-    const ALL_TAGS      = ['vegan', 'vegetarisch', 'glutenfrei', 'laktosefrei', 'nussfrei'];
+    const BADGE_SHORT   = { vegetarisch: 'V', glutenfrei: 'GF', laktosefrei: 'LF', nussfrei: 'NF' };
+    const ALL_TAGS      = ['vegetarisch', 'glutenfrei', 'laktosefrei', 'nussfrei'];
     const activeFilters = new Set();
 
     const lang = document.documentElement.lang || 'de';
@@ -14,8 +14,7 @@
             + '</span>';
     }
 
-    let html = '<h1 class="menu-title">' + data.title + '</h1>'
-             + '<p class="menu-subtitle">' + data.subtitle + '</p>';
+    let html = '<h1 class="menu-title">' + data.title + '</h1>';
 
     for (const section of data.sections) {
         html += '<div class="section" data-section><h2 class="section-title">' + section.title + '</h2>';

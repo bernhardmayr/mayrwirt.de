@@ -3,186 +3,630 @@
   "subtitle": "Landgasthof &amp; Metzgerei Mayrwirt · Saaldorf",
   "note": "Flaschenweine finden Sie auf unserer Weinkarte.<br>Allergene sind in unserer Allergenliste aufgeführt — fragen Sie einfach unseren Service.",
   "filterLabels": {
-    "vegan":       "Vegan",
     "vegetarisch": "Vegetarisch",
-    "glutenfrei":  "Glutenfrei",
+    "glutenfrei": "Glutenfrei",
     "laktosefrei": "Laktosefrei",
-    "nussfrei":    "Nussfrei",
-    "showAll":     "Alle anzeigen"
+    "nussfrei": "Nussfrei",
+    "showAll": "Alle anzeigen"
   },
   "sections": [
     {
       "title": "Vorspeisen",
       "type": "items",
       "items": [
-        {"name": "Rinderfiletcarpaccio vom heimischen Rind", "desc": "mit Olivenöl, Zitrone, Grana Padano, Salatbouquet &amp; Baguette", "price": "€ 15,50", "tags": ["nussfrei"]},
-        {"name": "Karamellisierter Ziegenkäse", "desc": "mit Birnen-Chutney &amp; Chicorée-Orangensalat", "price": "€ 13,90", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
-        {"name": "Bruschetta", "desc": "Tomaten, Knoblauch &amp; Olivenöl auf Weißbrot", "price": "€ 9,80", "tags": ["vegetarisch", "nussfrei"]}
+        {
+          "name": "Rinderfiletcarpaccio vom heimischen Rind",
+          "desc": "mit Olivenöl, Zitrone, Grana Padano, Salatbouquet &amp; Baguette",
+          "price": "€ 15,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Karamellisierter Ziegenkäse",
+          "desc": "mit Birnen-Chutney &amp; Chicorée-Orangensalat",
+          "price": "€ 13,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Bruschetta",
+          "desc": "Tomaten, Knoblauch &amp; Olivenöl auf Weißbrot",
+          "price": "€ 9,80",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Suppen",
       "type": "items",
       "items": [
-        {"name": "Pfannkuchensuppe", "price": "€ 5,50"},
-        {"name": "Knoblauchsuppe mit Weißbrotcroutons", "price": "€ 5,50", "tags": ["vegetarisch"]},
-        {"name": "Leberknödelsuppe", "price": "€ 6,50"}
+        {
+          "name": "Pfannkuchensuppe",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Knoblauchsuppe mit Weißbrotcroutons",
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Leberknödelsuppe",
+          "price": "€ 6,50"
+        }
       ]
     },
     {
       "title": "Nudeln",
       "type": "items",
       "items": [
-        {"name": "Bandnudeln mit Grillgemüse &amp; Grana Padano", "desc": "mit gebratener Hühnchenbrust im Speckmantel", "prices": ["€ 13,50", "€ 17,90"]},
-        {"name": "Spaghetti mit gegrillten Kräutergarnelen", "desc": "Knoblauch, Schmortomaten &amp; Grana Padano", "price": "€ 20,90", "tags": ["nussfrei"]}
+        {
+          "name": "Bandnudeln mit Grillgemüse &amp; Grana Padano",
+          "desc": "mit gebratener Hühnchenbrust im Speckmantel",
+          "prices": [
+            "€ 13,50",
+            "€ 17,90"
+          ]
+        },
+        {
+          "name": "Spaghetti mit gegrillten Kräutergarnelen",
+          "desc": "Knoblauch, Schmortomaten &amp; Grana Padano",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Fisch",
       "type": "items",
       "items": [
-        {"name": "Gebratenes Zanderfilet mit zerlassener Butter", "desc": "Kartoffeln &amp; gemischtem Salat", "price": "€ 20,90", "tags": ["glutenfrei", "nussfrei"]},
-        {"name": "Fischgrillteller", "desc": "von Zander, Saibling, St. Petersfisch und Garnele, mit Kartoffeln &amp; gemischtem Salat", "price": "€ 22,90", "tags": ["glutenfrei", "nussfrei"]},
-        {"name": "Gegrilltes Saiblingsfilet", "desc": "auf gefüllten Rucolanudeln &amp; Schmortomaten", "price": "€ 20,90", "tags": ["nussfrei"]}
+        {
+          "name": "Gebratenes Zanderfilet mit zerlassener Butter",
+          "desc": "Kartoffeln &amp; gemischtem Salat",
+          "price": "€ 20,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Fischgrillteller",
+          "desc": "von Zander, Saibling, St. Petersfisch und Garnele, mit Kartoffeln &amp; gemischtem Salat",
+          "price": "€ 22,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Gegrilltes Saiblingsfilet",
+          "desc": "auf gefüllten Rucolanudeln &amp; Schmortomaten",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Hauptgänge",
       "type": "items",
       "items": [
-        {"name": "Grillteller", "desc": "von Rind, Schwein, Pute und Grillwürstchen, mit Pommes Frites &amp; Kräuterbutter", "price": "€ 18,50", "tags": ["nussfrei"]},
-        {"name": "Schnitzel Wiener Art vom Schwein", "desc": "mit Kartoffelsalat &amp; Preiselbeeren", "price": "€ 14,90", "tags": ["nussfrei"]},
-        {"name": "Wiener Schnitzel vom Kalb", "desc": "mit Bratkartoffeln &amp; Preiselbeeren", "price": "€ 24,90", "tags": ["nussfrei"]},
-        {"name": "Schwabenpfandl", "desc": "Medaillons vom Schweinefilet in Champignonrahmsauce mit Spätzle", "price": "€ 18,50", "tags": ["nussfrei"]},
-        {"name": "Rinderlendensteak in Pfeffersauce", "desc": "mit Röstinchen", "price": "€ 25,90", "tags": ["nussfrei"]},
-        {"name": "Gegrilltes Rumpsteak", "desc": "mit Pommes Frites, Röstzwiebel und Butterbohnen", "price": "€ 26,90", "tags": ["nussfrei"]},
-        {"name": "Wiener Zwiebelrostbraten von der Rinderlende", "desc": "mit Kartoffeln und gemischtem Salat", "price": "€ 25,90", "tags": ["nussfrei"]},
-        {"name": "Gegrilltes Rinderfiletsteak", "desc": "mit Pommes Frites, Kräuterbutter und Brokkoli", "price": "€ 33,90", "tags": ["nussfrei"]}
+        {
+          "name": "Grillteller",
+          "desc": "von Rind, Schwein, Pute und Grillwürstchen, mit Pommes Frites &amp; Kräuterbutter",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Schnitzel Wiener Art vom Schwein",
+          "desc": "mit Kartoffelsalat &amp; Preiselbeeren",
+          "price": "€ 14,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Wiener Schnitzel vom Kalb",
+          "desc": "mit Bratkartoffeln &amp; Preiselbeeren",
+          "price": "€ 24,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Schwabenpfandl",
+          "desc": "Medaillons vom Schweinefilet in Champignonrahmsauce mit Spätzle",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Rinderlendensteak in Pfeffersauce",
+          "desc": "mit Röstinchen",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Gegrilltes Rumpsteak",
+          "desc": "mit Pommes Frites, Röstzwiebel und Butterbohnen",
+          "price": "€ 26,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Wiener Zwiebelrostbraten von der Rinderlende",
+          "desc": "mit Kartoffeln und gemischtem Salat",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Gegrilltes Rinderfiletsteak",
+          "desc": "mit Pommes Frites, Kräuterbutter und Brokkoli",
+          "price": "€ 33,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Salat &amp; Snack",
       "type": "items",
       "items": [
-        {"name": "Kleiner gemischter Salat", "price": "€ 5,40", "tags": ["vegan", "vegetarisch", "glutenfrei", "laktosefrei", "nussfrei"]},
-        {"name": "Bunter Blattsalatteller der Saison", "desc": "mit gegrillten Putenstreifen, Mais &amp; Cocktaildressing", "price": "€ 15,90", "tags": ["glutenfrei", "laktosefrei", "nussfrei"]},
-        {"desc": "mit gebackener Hendlbrust &amp; steirischem Kürbiskernöl", "price": "€ 17,50", "tags": ["nussfrei"]},
-        {"desc": "mit gegrillten Garnelen, Balsamicodressing &amp; Baguette", "price": "€ 19,90", "tags": ["laktosefrei", "nussfrei"]},
-        {"name": "Gebackener Camembert", "desc": "mit Preiselbeeren, Salatgarnitur und Toast", "price": "€ 12,90", "tags": ["vegetarisch", "nussfrei"]},
-        {"name": "Gebackene Champignons", "desc": "mit Sauce Remoulade und Salatgarnitur", "price": "€ 12,90", "tags": ["vegetarisch", "nussfrei"]}
+        {
+          "name": "Kleiner gemischter Salat",
+          "price": "€ 5,40",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Bunter Blattsalatteller der Saison",
+          "desc": "mit gegrillten Putenstreifen, Mais &amp; Cocktaildressing",
+          "price": "€ 15,90",
+          "tags": [
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "mit gebackener Hendlbrust &amp; steirischem Kürbiskernöl",
+          "price": "€ 17,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "mit gegrillten Garnelen, Balsamicodressing &amp; Baguette",
+          "price": "€ 19,90",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Gebackener Camembert",
+          "desc": "mit Preiselbeeren, Salatgarnitur und Toast",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Gebackene Champignons",
+          "desc": "mit Sauce Remoulade und Salatgarnitur",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Desserts",
       "type": "items",
       "items": [
-        {"name": "Topfenknödel in Butterbrösel", "desc": "mit Weichselröster", "prices": ["1 Stk. € 7,50", "2 Stk. € 8,50"], "tags": ["vegetarisch", "nussfrei"]},
-        {"name": "Palatschinken", "desc": "mit Marillenmarmelade oder Vanilleeis", "prices": ["1 Stk. € 8,50", "2 Stk. € 9,50"], "tags": ["vegetarisch", "nussfrei"]},
-        {"name": "Kaiserschmarrn", "desc": "mit Zwetschgenkompott oder Apfelmus", "price": "€ 13,50", "tags": ["vegetarisch", "nussfrei"]},
-        {"name": "Apfelkücherl im Bierteig gebacken", "desc": "mit Wallnusseis &amp; Sahne", "price": "€ 9,90", "tags": ["vegetarisch"]},
-        {"name": "Gemischtes Eis – Erdbeere, Vanille &amp; Schoko mit Sahne", "prices": ["2 Kgl. € 5,90", "3 Kgl. € 6,50"], "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
-        {"name": "Eiskaffee – Vanilleeis, Kaffee &amp; Sahne", "price": "€ 6,90", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
-        {"name": "Eisschokolade – Vanilleeis, Schokolade &amp; Sahne", "price": "€ 6,90", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
-        {"name": "Früchtebecher – Erdbeereis, Vanilleeis, frische Früchte &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
-        {"name": "Schokobecher – Schokoeis, Eierlikör &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
-        {"name": "Nussbecher – Walnusseis, Nüsse, Haselnusslikör &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei"]},
-        {"name": "Bananensplit – Vanilleeis, Schokoeis, Mandeln, Schokosauce &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei"]},
-        {"name": "Vanilleeis mit heißen Himbeeren oder heißen Kirschen", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]}
+        {
+          "name": "Topfenknödel in Butterbrösel",
+          "desc": "mit Weichselröster",
+          "prices": [
+            "1 Stk. € 7,50",
+            "2 Stk. € 8,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Palatschinken",
+          "desc": "mit Marillenmarmelade oder Vanilleeis",
+          "prices": [
+            "1 Stk. € 8,50",
+            "2 Stk. € 9,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Kaiserschmarrn",
+          "desc": "mit Zwetschgenkompott oder Apfelmus",
+          "price": "€ 13,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Apfelkücherl im Bierteig gebacken",
+          "desc": "mit Wallnusseis &amp; Sahne",
+          "price": "€ 9,90",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Gemischtes Eis – Erdbeere, Vanille &amp; Schoko mit Sahne",
+          "prices": [
+            "2 Kgl. € 5,90",
+            "3 Kgl. € 6,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Eiskaffee – Vanilleeis, Kaffee &amp; Sahne",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Eisschokolade – Vanilleeis, Schokolade &amp; Sahne",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Früchtebecher – Erdbeereis, Vanilleeis, frische Früchte &amp; Sahne",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Schokobecher – Schokoeis, Eierlikör &amp; Sahne",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Nussbecher – Walnusseis, Nüsse, Haselnusslikör &amp; Sahne",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Bananensplit – Vanilleeis, Schokoeis, Mandeln, Schokosauce &amp; Sahne",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Vanilleeis mit heißen Himbeeren oder heißen Kirschen",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Warme Getränke",
       "type": "drinks",
       "items": [
-        {"name": "Tasse Kaffee", "price": "€ 3,90"},
-        {"name": "Portion Kaffee", "price": "€ 4,40"},
-        {"name": "Cappuccino", "price": "€ 4,20"},
-        {"name": "Latte Macchiato", "price": "€ 4,60"},
-        {"name": "Milchkaffee", "price": "€ 4,00"},
-        {"name": "Café Crème", "price": "€ 4,60"},
-        {"name": "Espresso", "price": "€ 4,60"},
-        {"name": "Glas Tee", "price": "€ 4,60"},
-        {"name": "Kanne Tee", "price": "€ 4,60"},
-        {"name": "Glühwein", "price": "€ 4,40"}
+        {
+          "name": "Tasse Kaffee",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Portion Kaffee",
+          "price": "€ 4,40"
+        },
+        {
+          "name": "Cappuccino",
+          "price": "€ 4,20"
+        },
+        {
+          "name": "Latte Macchiato",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Milchkaffee",
+          "price": "€ 4,00"
+        },
+        {
+          "name": "Café Crème",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Espresso",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Glas Tee",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Kanne Tee",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Glühwein",
+          "price": "€ 4,40"
+        }
       ]
     },
     {
       "title": "Biere – Wieninger Brauerei",
       "type": "drinks",
       "items": [
-        {"name": "Teisendorfer Hell 0,3 l", "price": "€ 3,40"},
-        {"name": "Teisendorfer Hell 0,5 l", "price": "€ 4,70"},
-        {"name": "Pils 0,3 l", "price": "€ 3,70"},
-        {"name": "Lagerbier Dunkel 0,5 l", "price": "€ 5,50"},
-        {"name": "Weißbier hell 0,3 l", "price": "€ 3,80"},
-        {"name": "Weißbier hell 0,5 l", "price": "€ 4,80"},
-        {"name": "Weißbier dunkel 0,5 l", "price": "€ 4,80"},
-        {"name": "Weißbier leicht 0,5 l", "price": "€ 4,80"},
-        {"name": "Weißbier alkoholfrei 0,5 l", "price": "€ 4,60"},
-        {"name": "Radler 0,5 l", "price": "€ 4,50"},
-        {"name": "1813 Spezial naturtrüb 0,5 l", "price": "€ 5,50"},
-        {"name": "Jever Fun alkoholfrei 0,33 l", "price": "€ 3,40"}
+        {
+          "name": "Teisendorfer Hell 0,3 l",
+          "price": "€ 3,40"
+        },
+        {
+          "name": "Teisendorfer Hell 0,5 l",
+          "price": "€ 4,70"
+        },
+        {
+          "name": "Pils 0,3 l",
+          "price": "€ 3,70"
+        },
+        {
+          "name": "Lagerbier Dunkel 0,5 l",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Weißbier hell 0,3 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Weißbier hell 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Weißbier dunkel 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Weißbier leicht 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Weißbier alkoholfrei 0,5 l",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Radler 0,5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "1813 Spezial naturtrüb 0,5 l",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Jever Fun alkoholfrei 0,33 l",
+          "price": "€ 3,40"
+        }
       ]
     },
     {
       "title": "Aperitifs",
       "type": "drinks",
       "items": [
-        {"name": "Campari 5 cl", "price": "€ 5,00"},
-        {"name": "Campari-Orange 5 cl", "price": "€ 6,20"},
-        {"name": "Sherry 5 cl", "price": "€ 4,50"},
-        {"name": "Piccolo Prosecco 0,2 l", "price": "€ 7,50"},
-        {"name": "Glas Sekt 0,1 l", "price": "€ 4,50"},
-        {"name": "Hugo", "price": "€ 5,50"},
-        {"name": "Aperol Spritz", "price": "€ 5,50"},
-        {"name": "Prosecco-Spritzer-Aperol", "price": "€ 6,00"}
+        {
+          "name": "Campari 5 cl",
+          "price": "€ 5,00"
+        },
+        {
+          "name": "Campari-Orange 5 cl",
+          "price": "€ 6,20"
+        },
+        {
+          "name": "Sherry 5 cl",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Piccolo Prosecco 0,2 l",
+          "price": "€ 7,50"
+        },
+        {
+          "name": "Glas Sekt 0,1 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Hugo",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Aperol Spritz",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Prosecco-Spritzer-Aperol",
+          "price": "€ 6,00"
+        }
       ]
     },
     {
       "title": "Alkoholfreie Getränke",
       "type": "drinks",
       "items": [
-        {"name": "Tafelwasser 0,3 l", "price": "€ 3,30"},
-        {"name": "Tafelwasser 0,5 l", "price": "€ 3,80"},
-        {"name": "Mineralwasser 0,25 l", "price": "€ 3,50"},
-        {"name": "Mineralwasser 0,5 l", "price": "€ 4,50"},
-        {"name": "Libella Limonade 0,3 l", "price": "€ 3,60"},
-        {"name": "Libella Limonade 0,5 l", "price": "€ 4,20"},
-        {"name": "Cola 0,33 l", "price": "€ 3,90"},
-        {"name": "Fanta 0,33 l", "price": "€ 3,90"},
-        {"name": "Almdudler 0,33 l", "price": "€ 4,00"},
-        {"name": "Schweppes Bitter Lemon 0,2 l", "price": "€ 3,80"},
-        {"name": "Schweppes Tonic 0,2 l", "price": "€ 3,80"},
-        {"name": "Saftschorle 0,3 l", "price": "€ 4,80"}
+        {
+          "name": "Tafelwasser 0,3 l",
+          "price": "€ 3,30"
+        },
+        {
+          "name": "Tafelwasser 0,5 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Mineralwasser 0,25 l",
+          "price": "€ 3,50"
+        },
+        {
+          "name": "Mineralwasser 0,5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Libella Limonade 0,3 l",
+          "price": "€ 3,60"
+        },
+        {
+          "name": "Libella Limonade 0,5 l",
+          "price": "€ 4,20"
+        },
+        {
+          "name": "Cola 0,33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Fanta 0,33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Almdudler 0,33 l",
+          "price": "€ 4,00"
+        },
+        {
+          "name": "Schweppes Bitter Lemon 0,2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Schweppes Tonic 0,2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Saftschorle 0,3 l",
+          "price": "€ 4,80"
+        }
       ]
     },
     {
       "title": "Weißweine",
       "type": "wine",
       "items": [
-        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Niederösterreich", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Niederösterreich", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Weißburgunder", "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+        {
+          "name": "Grüner Veltliner",
+          "producer": "Weingut Markus Huber – Reichersdorf / Niederösterreich",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Grüner Veltliner, Terrasse",
+          "producer": "Weingut Jurtschitsch – Langenlois / Niederösterreich",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Riesling Exclusiv",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Weißburgunder",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Chardonnay",
+          "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum",
+          "price": "1/8 l &nbsp; € 4,50"
+        }
       ]
     },
     {
       "title": "Rosé",
       "type": "wine",
       "items": [
-        {"name": "Portugieser Rosé", "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz", "price": "1/8 l &nbsp; € 3,00"},
-        {"name": "Heideboden Rosé – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+        {
+          "name": "Portugieser Rosé",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Pfalz",
+          "price": "1/8 l &nbsp; € 3,00"
+        },
+        {
+          "name": "Heideboden Rosé – Burgenland",
+          "price": "1/8 l &nbsp; € 3,50"
+        }
       ]
     },
     {
       "title": "Rotweine",
       "type": "wine",
       "items": [
-        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Niederösterreich", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Niederösterreich", "price": "1/8 l &nbsp; € 4,50"},
-        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
-        {"name": "Weinschorle weiß oder rot", "price": "1/4 l &nbsp; € 3,80"}
+        {
+          "name": "Blaufränkisch",
+          "producer": "Winzer Markowitsch – Göttelsbrunn / Niederösterreich",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Zweigelt",
+          "producer": "Weingut Jurtschitsch – Langenlois / Niederösterreich",
+          "price": "1/8 l &nbsp; € 4,50"
+        },
+        {
+          "name": "Heideboden Merlot – Burgenland",
+          "price": "1/8 l &nbsp; € 3,80"
+        },
+        {
+          "name": "Weinschorle weiß oder rot",
+          "price": "1/4 l &nbsp; € 3,80"
+        }
       ]
     }
   ]

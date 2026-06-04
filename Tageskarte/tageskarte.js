@@ -1,6 +1,6 @@
 (async function () {
-    const BADGE_SHORT   = { vegan: 'Ve', vegetarisch: 'V', glutenfrei: 'GF', laktosefrei: 'LF', nussfrei: 'NF' };
-    const ALL_TAGS      = ['vegan', 'vegetarisch', 'glutenfrei', 'laktosefrei', 'nussfrei'];
+    const BADGE_SHORT   = { vegetarisch: 'V', glutenfrei: 'GF', laktosefrei: 'LF', nussfrei: 'NF' };
+    const ALL_TAGS      = ['vegetarisch', 'glutenfrei', 'laktosefrei', 'nussfrei'];
     const activeFilters = new Set();
 
     const lang = document.documentElement.lang || 'de';
@@ -26,10 +26,11 @@
         }
     }
 
-    html += '<p class="menu-subtitle">' + data.subtitle + '</p>';
-
+    let firstSection = true;
     for (const section of data.sections) {
-        html += '<div class="section" data-section>';
+        const extraClass = firstSection ? ' section--first' : '';
+        firstSection = false;
+        html += '<div class="section' + extraClass + '" data-section>';
         html += '<h2 class="section-title">' + section.title + '</h2>';
 
         if (section.intro) {
