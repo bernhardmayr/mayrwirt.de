@@ -7959,7 +7959,7 @@
         "summer"
       ],
       "distance": 15,
-      "icon": "🏖",
+      "icon": "🏖️",
       "url": "https://www.tettenhausen.de/tourismus/strandbad",
       "i18n": {
         "de": {
@@ -9230,7 +9230,7 @@
         "winter"
       ],
       "distance": 27,
-      "icon": "⛸",
+      "icon": "⛸️",
       "url": "https://www.volksgarten-salzburg.at/",
       "i18n": {
         "de": {
@@ -9311,7 +9311,7 @@
         "winter"
       ],
       "distance": 27,
-      "icon": "🎬",
+      "icon": "🎦",
       "url": "https://www.daskino.at/",
       "i18n": {
         "de": {
@@ -9392,7 +9392,7 @@
         "winter"
       ],
       "distance": 23,
-      "icon": "🎥",
+      "icon": "🎦",
       "url": "https://www.kino-reichenhall.de/",
       "i18n": {
         "de": {
