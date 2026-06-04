@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú del día – Mayrwirt</title>
+    <title>Puni jelovnik – Mayrwirt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
@@ -55,6 +55,8 @@
         .wine-producer { font-size: 0.78rem; color: #6B6458; margin-top: 0.15rem; }
         .wine-price { font-weight: 600; color: #2D5016; font-size: 0.9rem; margin-top: 0.25rem; }
         .note { background: white; border-radius: 0.75rem; padding: 1rem 1.25rem; font-size: 0.78rem; color: #6B6458; line-height: 1.6; margin-top: 2rem; border: 1px solid #e5e5e0; }
+        .menu-divider { border: none; border-top: 3px solid #C9962C; margin: 3rem 0 2.5rem; opacity: 0.4; }
+        .menu-title--speise { margin-top: 0; }
         .sub-lang-dd { position: relative; }
         .sub-lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); color: #fff; font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
         .sub-lang-btn:hover { background: rgba(255,255,255,0.22); }
@@ -72,11 +74,11 @@
 <body>
 
 <header class="site-header">
-    <a href="../index.html" class="back">← Volver</a>
+    <a href="../index.html" class="back">← Natrag</a>
     <span class="brand">Mayrwirt</span>
     <div class="sub-lang-dd" id="sub-lang-wrap">
         <button class="sub-lang-btn" id="sub-lang-trigger" onclick="toggleSubLang()" aria-haspopup="true" aria-expanded="false">
-            🇪🇸&nbsp;ES <span class="sub-lang-chevron">▾</span>
+            🇭🇷 HR <span class="sub-lang-chevron">▾</span>
         </button>
         <div class="sub-lang-menu hidden" id="sub-lang-menu">
         <a href="de.html">🇩🇪 Deutsch</a>
@@ -84,10 +86,10 @@
         <a href="it.html">🇮🇹 Italiano</a>
         <a href="hu.html">🇭🇺 Magyar</a>
         <a href="cs.html">🇨🇿 Čeština</a>
-        <a href="es.html" class="active">🇪🇸 Español</a>
+        <a href="es.html">🇪🇸 Español</a>
         <a href="fr.html">🇫🇷 Français</a>
         <a href="pl.html">🇵🇱 Polski</a>
-        <a href="hr.html">🇭🇷 Hrvatski</a>
+        <a href="hr.html" class="active">🇭🇷 Hrvatski</a>
         <a href="uk.html">🇺🇦 Українська</a>
         <a href="sk.html">🇸🇰 Slovenčina</a>
         <a href="nl.html">🇳🇱 Nederlands</a>
@@ -96,14 +98,14 @@
 </header>
 
 <div class="menu-tabs">
-    <a href="es.html" class="menu-tab active">Menú del día</a>
-    <a href="../Karte/es.html" class="menu-tab">Carta</a>
-    <a href="../Gesamtkarte/es.html" class="menu-tab">Carta completa</a>
+    <a href="../Tageskarte/hr.html" class="menu-tab">Dnevni meni</a>
+    <a href="../Karte/hr.html" class="menu-tab">Jelovnik</a>
+    <a href="hr.html" class="menu-tab active">Puni jelovnik</a>
 </div>
 
 <div class="container" id="menu-root"></div>
 
-<script src="tageskarte.js"></script>
+<script src="gesamtkarte.js"></script>
 <script>
 function toggleSubLang(){
     var m=document.getElementById('sub-lang-menu'),b=document.getElementById('sub-lang-trigger');
