@@ -24,7 +24,11 @@
         {
           "name": "Crema de espárragos",
           "desc": "con aceite de hierbas &amp; picatostes",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Gulasch de ternera",
           "desc": "con knödel &amp; ensalada mixta",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Roulade de ternera",
           "desc": "rellena de bacon, cebolla, pepinillo &amp; mostaza, tallarines &amp; ensalada mixta",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Bistec del leñador",
           "desc": "de cuello de cerdo, patatas fritas, cebollas fritas &amp; ensalada de col",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Albóndiga de carne",
           "desc": "con ensalada de patata y pepino &amp; salsa asada",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Flank steak rosado",
           "desc": "con judías verdes con bacon, patatas fritas &amp; quark de hierbas",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Curry de pescado afrutado",
           "desc": "con zanahoria, puerro &amp; arroz con almendras",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Ración de espárragos frescos",
@@ -83,6 +107,10 @@
               "label": "con filete de lucioperca",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Café con helado pequeño",
           "desc": "con 1 bola de helado de vainilla, Baileys &amp; nata",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Panna cotta pequeña",
           "desc": "en tarro con coulis de frambuesa",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Pastel de chocolate caliente",
           "desc": "con centro líquido, plátano, nata &amp; helado de vainilla",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Helado artesanal de cereza &amp; amaretto",
-          "price": "por bola € 2,50"
+          "price": "por bola € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "suplemento para 2 personas",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetariano",
+    "glutenfrei": "Sin gluten",
+    "laktosefrei": "Sin lactosa",
+    "nussfrei": "Sin frutos secos",
+    "showAll": "Mostrar todo"
+  }
 }

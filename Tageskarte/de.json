@@ -3,6 +3,14 @@
   "date": "2026-05-29",
   "subtitle": "Landgasthof &amp; Metzgerei Mayrwirt · Saaldorf",
   "note": "Allergene sind in unserer Allergenliste aufgeführt — fragen Sie einfach unseren Service.",
+  "filterLabels": {
+    "vegan":       "Vegan",
+    "vegetarisch": "Vegetarisch",
+    "glutenfrei":  "Glutenfrei",
+    "laktosefrei": "Laktosefrei",
+    "nussfrei":    "Nussfrei",
+    "showAll":     "Alle anzeigen"
+  },
   "sections": [
     {
       "title": "Unsere Weinempfehlung",
@@ -24,7 +32,8 @@
         {
           "name": "Spargelcremesuppe",
           "desc": "mit Kräuteröl &amp; Croutons",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": ["vegetarisch", "nussfrei"]
         }
       ]
     },
@@ -35,37 +44,44 @@
         {
           "name": "Rindergulasch",
           "desc": "mit Semmelknödel &amp; gemischtem Salat",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": ["laktosefrei", "nussfrei"]
         },
         {
           "name": "Rinderroulade",
           "desc": "mit Speck, Zwiebel, Gurke und Senf gefüllt, Bandnudeln &amp; gemischtem Salat",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": ["nussfrei"]
         },
         {
           "name": "Holzfällersteak",
           "desc": "vom Schweinenacken, Bratkartoffeln, Röstzwiebel &amp; Krautsalat",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": ["laktosefrei", "nussfrei"]
         },
         {
           "name": "Fleischpflanzl",
           "desc": "mit Kartoffel-Gurkensalat &amp; Bratensauce",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": ["nussfrei"]
         },
         {
           "name": "Rosa gebratenes Flanksteak",
           "desc": "mit Speckbohnen, Pommes Frites &amp; Kräuterquark",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": ["nussfrei"]
         },
         {
           "name": "Fruchtiges Fischcurry",
           "desc": "mit Karotte, Lauch &amp; Mandelreis",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": ["laktosefrei"]
         },
         {
           "name": "Portion frischer Spargel",
           "desc": "mit Kartoffeln &amp; Sauce Hollandaise oder zerlassener Butter",
           "price": "€ 20,00",
+          "tags": ["vegetarisch", "nussfrei"],
           "options": [
             {
               "label": "mit Wiener Schnitzel vom Kalb",
@@ -94,21 +110,25 @@
         {
           "name": "Kleiner Eiskaffee",
           "desc": "mit 1 Kugel Vanilleis, Baileys &amp; Sahne",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": ["vegetarisch", "glutenfrei", "nussfrei"]
         },
         {
           "name": "Kleines Panna Cotta",
           "desc": "im Weckglas mit Himbeermark",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": ["vegetarisch", "glutenfrei", "nussfrei"]
         },
         {
           "name": "Warmes Schokoküchlein",
           "desc": "mit flüssigem Kern, Banane, Sahne &amp; Vanilleeis",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": ["vegetarisch", "nussfrei"]
         },
         {
           "name": "Hausgemachtes Kirsch-Amarettoeis",
-          "price": "je Kugel € 2,50"
+          "price": "je Kugel € 2,50",
+          "tags": ["vegetarisch", "glutenfrei", "nussfrei"]
         }
       ]
     },
@@ -121,6 +141,7 @@
           "name": "Gegrilltes Tomahawk-Steak",
           "desc": "mit Grillgemüse, Pommes Frites &amp; Zwiebelchutney",
           "price": "€ 41,00",
+          "tags": ["laktosefrei", "glutenfrei", "nussfrei"],
           "options": [
             {
               "label": "Aufpreis für 2 Personen",

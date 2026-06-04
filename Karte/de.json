@@ -2,14 +2,22 @@
   "title": "Speisekarte",
   "subtitle": "Landgasthof &amp; Metzgerei Mayrwirt · Saaldorf",
   "note": "Flaschenweine finden Sie auf unserer Weinkarte.<br>Allergene sind in unserer Allergenliste aufgeführt — fragen Sie einfach unseren Service.",
+  "filterLabels": {
+    "vegan":       "Vegan",
+    "vegetarisch": "Vegetarisch",
+    "glutenfrei":  "Glutenfrei",
+    "laktosefrei": "Laktosefrei",
+    "nussfrei":    "Nussfrei",
+    "showAll":     "Alle anzeigen"
+  },
   "sections": [
     {
       "title": "Vorspeisen",
       "type": "items",
       "items": [
-        {"name": "Rinderfiletcarpaccio vom heimischen Rind", "desc": "mit Olivenöl, Zitrone, Grana Padano, Salatbouquet &amp; Baguette", "price": "€ 15,50"},
-        {"name": "Karamellisierter Ziegenkäse", "desc": "mit Birnen-Chutney &amp; Chicorée-Orangensalat", "price": "€ 13,90"},
-        {"name": "Bruschetta", "desc": "Tomaten, Knoblauch &amp; Olivenöl auf Weißbrot", "price": "€ 9,80"}
+        {"name": "Rinderfiletcarpaccio vom heimischen Rind", "desc": "mit Olivenöl, Zitrone, Grana Padano, Salatbouquet &amp; Baguette", "price": "€ 15,50", "tags": ["nussfrei"]},
+        {"name": "Karamellisierter Ziegenkäse", "desc": "mit Birnen-Chutney &amp; Chicorée-Orangensalat", "price": "€ 13,90", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
+        {"name": "Bruschetta", "desc": "Tomaten, Knoblauch &amp; Olivenöl auf Weißbrot", "price": "€ 9,80", "tags": ["vegetarisch", "nussfrei"]}
       ]
     },
     {
@@ -17,7 +25,7 @@
       "type": "items",
       "items": [
         {"name": "Pfannkuchensuppe", "price": "€ 5,50"},
-        {"name": "Knoblauchsuppe mit Weißbrotcroutons", "price": "€ 5,50"},
+        {"name": "Knoblauchsuppe mit Weißbrotcroutons", "price": "€ 5,50", "tags": ["vegetarisch"]},
         {"name": "Leberknödelsuppe", "price": "€ 6,50"}
       ]
     },
@@ -26,60 +34,60 @@
       "type": "items",
       "items": [
         {"name": "Bandnudeln mit Grillgemüse &amp; Grana Padano", "desc": "mit gebratener Hühnchenbrust im Speckmantel", "prices": ["€ 13,50", "€ 17,90"]},
-        {"name": "Spaghetti mit gegrillten Kräutergarnelen", "desc": "Knoblauch, Schmortomaten &amp; Grana Padano", "price": "€ 20,90"}
+        {"name": "Spaghetti mit gegrillten Kräutergarnelen", "desc": "Knoblauch, Schmortomaten &amp; Grana Padano", "price": "€ 20,90", "tags": ["nussfrei"]}
       ]
     },
     {
       "title": "Fisch",
       "type": "items",
       "items": [
-        {"name": "Gebratenes Zanderfilet mit zerlassener Butter", "desc": "Kartoffeln &amp; gemischtem Salat", "price": "€ 20,90"},
-        {"name": "Fischgrillteller", "desc": "von Zander, Saibling, St. Petersfisch und Garnele, mit Kartoffeln &amp; gemischtem Salat", "price": "€ 22,90"},
-        {"name": "Gegrilltes Saiblingsfilet", "desc": "auf gefüllten Rucolanudeln &amp; Schmortomaten", "price": "€ 20,90"}
+        {"name": "Gebratenes Zanderfilet mit zerlassener Butter", "desc": "Kartoffeln &amp; gemischtem Salat", "price": "€ 20,90", "tags": ["glutenfrei", "nussfrei"]},
+        {"name": "Fischgrillteller", "desc": "von Zander, Saibling, St. Petersfisch und Garnele, mit Kartoffeln &amp; gemischtem Salat", "price": "€ 22,90", "tags": ["glutenfrei", "nussfrei"]},
+        {"name": "Gegrilltes Saiblingsfilet", "desc": "auf gefüllten Rucolanudeln &amp; Schmortomaten", "price": "€ 20,90", "tags": ["nussfrei"]}
       ]
     },
     {
       "title": "Hauptgänge",
       "type": "items",
       "items": [
-        {"name": "Grillteller", "desc": "von Rind, Schwein, Pute und Grillwürstchen, mit Pommes Frites &amp; Kräuterbutter", "price": "€ 18,50"},
-        {"name": "Schnitzel Wiener Art vom Schwein", "desc": "mit Kartoffelsalat &amp; Preiselbeeren", "price": "€ 14,90"},
-        {"name": "Wiener Schnitzel vom Kalb", "desc": "mit Bratkartoffeln &amp; Preiselbeeren", "price": "€ 24,90"},
-        {"name": "Schwabenpfandl", "desc": "Medaillons vom Schweinefilet in Champignonrahmsauce mit Spätzle", "price": "€ 18,50"},
-        {"name": "Rinderlendensteak in Pfeffersauce", "desc": "mit Röstinchen", "price": "€ 25,90"},
-        {"name": "Gegrilltes Rumpsteak", "desc": "mit Pommes Frites, Röstzwiebel und Butterbohnen", "price": "€ 26,90"},
-        {"name": "Wiener Zwiebelrostbraten von der Rinderlende", "desc": "mit Kartoffeln und gemischtem Salat", "price": "€ 25,90"},
-        {"name": "Gegrilltes Rinderfiletsteak", "desc": "mit Pommes Frites, Kräuterbutter und Brokkoli", "price": "€ 33,90"}
+        {"name": "Grillteller", "desc": "von Rind, Schwein, Pute und Grillwürstchen, mit Pommes Frites &amp; Kräuterbutter", "price": "€ 18,50", "tags": ["nussfrei"]},
+        {"name": "Schnitzel Wiener Art vom Schwein", "desc": "mit Kartoffelsalat &amp; Preiselbeeren", "price": "€ 14,90", "tags": ["nussfrei"]},
+        {"name": "Wiener Schnitzel vom Kalb", "desc": "mit Bratkartoffeln &amp; Preiselbeeren", "price": "€ 24,90", "tags": ["nussfrei"]},
+        {"name": "Schwabenpfandl", "desc": "Medaillons vom Schweinefilet in Champignonrahmsauce mit Spätzle", "price": "€ 18,50", "tags": ["nussfrei"]},
+        {"name": "Rinderlendensteak in Pfeffersauce", "desc": "mit Röstinchen", "price": "€ 25,90", "tags": ["nussfrei"]},
+        {"name": "Gegrilltes Rumpsteak", "desc": "mit Pommes Frites, Röstzwiebel und Butterbohnen", "price": "€ 26,90", "tags": ["nussfrei"]},
+        {"name": "Wiener Zwiebelrostbraten von der Rinderlende", "desc": "mit Kartoffeln und gemischtem Salat", "price": "€ 25,90", "tags": ["nussfrei"]},
+        {"name": "Gegrilltes Rinderfiletsteak", "desc": "mit Pommes Frites, Kräuterbutter und Brokkoli", "price": "€ 33,90", "tags": ["nussfrei"]}
       ]
     },
     {
       "title": "Salat &amp; Snack",
       "type": "items",
       "items": [
-        {"name": "Kleiner gemischter Salat", "price": "€ 5,40"},
-        {"name": "Bunter Blattsalatteller der Saison", "desc": "mit gegrillten Putenstreifen, Mais &amp; Cocktaildressing", "price": "€ 15,90"},
-        {"desc": "mit gebackener Hendlbrust &amp; steirischem Kürbiskernöl", "price": "€ 17,50"},
-        {"desc": "mit gegrillten Garnelen, Balsamicodressing &amp; Baguette", "price": "€ 19,90"},
-        {"name": "Gebackener Camembert", "desc": "mit Preiselbeeren, Salatgarnitur und Toast", "price": "€ 12,90"},
-        {"name": "Gebackene Champignons", "desc": "mit Sauce Remoulade und Salatgarnitur", "price": "€ 12,90"}
+        {"name": "Kleiner gemischter Salat", "price": "€ 5,40", "tags": ["vegan", "vegetarisch", "glutenfrei", "laktosefrei", "nussfrei"]},
+        {"name": "Bunter Blattsalatteller der Saison", "desc": "mit gegrillten Putenstreifen, Mais &amp; Cocktaildressing", "price": "€ 15,90", "tags": ["glutenfrei", "laktosefrei", "nussfrei"]},
+        {"desc": "mit gebackener Hendlbrust &amp; steirischem Kürbiskernöl", "price": "€ 17,50", "tags": ["nussfrei"]},
+        {"desc": "mit gegrillten Garnelen, Balsamicodressing &amp; Baguette", "price": "€ 19,90", "tags": ["laktosefrei", "nussfrei"]},
+        {"name": "Gebackener Camembert", "desc": "mit Preiselbeeren, Salatgarnitur und Toast", "price": "€ 12,90", "tags": ["vegetarisch", "nussfrei"]},
+        {"name": "Gebackene Champignons", "desc": "mit Sauce Remoulade und Salatgarnitur", "price": "€ 12,90", "tags": ["vegetarisch", "nussfrei"]}
       ]
     },
     {
       "title": "Desserts",
       "type": "items",
       "items": [
-        {"name": "Topfenknödel in Butterbrösel", "desc": "mit Weichselröster", "prices": ["1 Stk. € 7,50", "2 Stk. € 8,50"]},
-        {"name": "Palatschinken", "desc": "mit Marillenmarmelade oder Vanilleeis", "prices": ["1 Stk. € 8,50", "2 Stk. € 9,50"]},
-        {"name": "Kaiserschmarrn", "desc": "mit Zwetschgenkompott oder Apfelmus", "price": "€ 13,50"},
-        {"name": "Apfelkücherl im Bierteig gebacken", "desc": "mit Wallnusseis &amp; Sahne", "price": "€ 9,90"},
-        {"name": "Gemischtes Eis – Erdbeere, Vanille &amp; Schoko mit Sahne", "prices": ["2 Kgl. € 5,90", "3 Kgl. € 6,50"]},
-        {"name": "Eiskaffee – Vanilleeis, Kaffee &amp; Sahne", "price": "€ 6,90"},
-        {"name": "Eisschokolade – Vanilleeis, Schokolade &amp; Sahne", "price": "€ 6,90"},
-        {"name": "Früchtebecher – Erdbeereis, Vanilleeis, frische Früchte &amp; Sahne", "price": "€ 8,20"},
-        {"name": "Schokobecher – Schokoeis, Eierlikör &amp; Sahne", "price": "€ 8,20"},
-        {"name": "Nussbecher – Walnusseis, Nüsse, Haselnusslikör &amp; Sahne", "price": "€ 8,20"},
-        {"name": "Bananensplit – Vanilleeis, Schokoeis, Mandeln, Schokosauce &amp; Sahne", "price": "€ 8,20"},
-        {"name": "Vanilleeis mit heißen Himbeeren oder heißen Kirschen", "price": "€ 8,20"}
+        {"name": "Topfenknödel in Butterbrösel", "desc": "mit Weichselröster", "prices": ["1 Stk. € 7,50", "2 Stk. € 8,50"], "tags": ["vegetarisch", "nussfrei"]},
+        {"name": "Palatschinken", "desc": "mit Marillenmarmelade oder Vanilleeis", "prices": ["1 Stk. € 8,50", "2 Stk. € 9,50"], "tags": ["vegetarisch", "nussfrei"]},
+        {"name": "Kaiserschmarrn", "desc": "mit Zwetschgenkompott oder Apfelmus", "price": "€ 13,50", "tags": ["vegetarisch", "nussfrei"]},
+        {"name": "Apfelkücherl im Bierteig gebacken", "desc": "mit Wallnusseis &amp; Sahne", "price": "€ 9,90", "tags": ["vegetarisch"]},
+        {"name": "Gemischtes Eis – Erdbeere, Vanille &amp; Schoko mit Sahne", "prices": ["2 Kgl. € 5,90", "3 Kgl. € 6,50"], "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
+        {"name": "Eiskaffee – Vanilleeis, Kaffee &amp; Sahne", "price": "€ 6,90", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
+        {"name": "Eisschokolade – Vanilleeis, Schokolade &amp; Sahne", "price": "€ 6,90", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
+        {"name": "Früchtebecher – Erdbeereis, Vanilleeis, frische Früchte &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
+        {"name": "Schokobecher – Schokoeis, Eierlikör &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]},
+        {"name": "Nussbecher – Walnusseis, Nüsse, Haselnusslikör &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei"]},
+        {"name": "Bananensplit – Vanilleeis, Schokoeis, Mandeln, Schokosauce &amp; Sahne", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei"]},
+        {"name": "Vanilleeis mit heißen Himbeeren oder heißen Kirschen", "price": "€ 8,20", "tags": ["vegetarisch", "glutenfrei", "nussfrei"]}
       ]
     },
     {

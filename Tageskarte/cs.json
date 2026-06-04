@@ -24,7 +24,11 @@
         {
           "name": "Chřestová krémová polévka",
           "desc": "s bylinkovým olejem &amp; krutony",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Hovězí guláš",
           "desc": "s houskovým knedlíkem &amp; smíšeným salátem",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Hovězí roláda",
           "desc": "plněná slaninou, cibulí, okurkou &amp; hořčicí, širokými nudlemi &amp; smíšeným salátem",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Dřevorubecký steak",
           "desc": "z vepřového krku, opékané brambory, smažená cibulka &amp; zelný salát",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Masový karbanátek",
           "desc": "s bramborovým a okurkovým salátem &amp; pečenou omáčkou",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Růžový flank steak",
           "desc": "se zelenými fazolkami se slaninou, hranolkami &amp; bylinkovým tvarohem",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Ovocné rybí kari",
           "desc": "s mrkví, pórkem &amp; mandlovým rýží",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Porce čerstvého chřestu",
@@ -83,6 +107,10 @@
               "label": "s filetem ze candáta",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Malá ledová káva",
           "desc": "s 1 kopečkem vanilkové zmrzliny, Baileys &amp; šlehačkou",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Malá panna cotta",
           "desc": "ve skleničce s malinovým pyré",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Teplý čokoládový košíček",
           "desc": "s tekutým středem, banánem, šlehačkou &amp; vanilkovou zmrzlinou",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Domácí třešňová zmrzlina s amarettem",
-          "price": "za kopeček € 2,50"
+          "price": "za kopeček € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "příplatek pro 2 osoby",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetariánský",
+    "glutenfrei": "Bez lepku",
+    "laktosefrei": "Bez laktózy",
+    "nussfrei": "Bez ořechů",
+    "showAll": "Zobrazit vše"
+  }
 }

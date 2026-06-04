@@ -24,7 +24,11 @@
         {
           "name": "Velouté d'asperges",
           "desc": "à l'huile aux herbes &amp; croûtons",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Goulasch de bœuf",
           "desc": "avec knödel &amp; salade mixte",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Roulade de bœuf",
           "desc": "farcie au lard, oignon, cornichon &amp; moutarde, tagliatelles &amp; salade mixte",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Steak du bûcheron",
           "desc": "de cou de porc, pommes sautées, oignons frits &amp; salade de chou",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Boulette de viande",
           "desc": "avec salade de pommes de terre et concombre &amp; sauce rôtie",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Flank steak rosé",
           "desc": "avec haricots verts au lard, frites &amp; fromage blanc aux herbes",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Curry de poisson fruité",
           "desc": "avec carotte, poireau &amp; riz aux amandes",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Portion d'asperges fraîches",
@@ -83,6 +107,10 @@
               "label": "avec filet de sandre",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Petit café glacé",
           "desc": "avec 1 boule de glace vanille, Baileys &amp; crème",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Petite panna cotta",
           "desc": "en bocal avec coulis de framboises",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Moelleux au chocolat chaud",
           "desc": "avec cœur fondant, banane, crème &amp; glace vanille",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Glace artisanale cerise &amp; amaretto",
-          "price": "par boule € 2,50"
+          "price": "par boule € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "supplément pour 2 personnes",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Végétarien",
+    "glutenfrei": "Sans gluten",
+    "laktosefrei": "Sans lactose",
+    "nussfrei": "Sans noix",
+    "showAll": "Tout afficher"
+  }
 }

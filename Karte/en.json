@@ -7,171 +7,613 @@
       "title": "Starters",
       "type": "items",
       "items": [
-        {"name": "Beef Fillet Carpaccio", "desc": "with olive oil, lemon, Grana Padano, mixed salad &amp; baguette", "price": "€ 15,50"},
-        {"name": "Caramelised Goat's Cheese", "desc": "with pear chutney &amp; chicory-orange salad", "price": "€ 13,90"},
-        {"name": "Bruschetta", "desc": "Tomatoes, garlic &amp; olive oil on white bread", "price": "€ 9,80"}
+        {
+          "name": "Beef Fillet Carpaccio",
+          "desc": "with olive oil, lemon, Grana Padano, mixed salad &amp; baguette",
+          "price": "€ 15,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Caramelised Goat's Cheese",
+          "desc": "with pear chutney &amp; chicory-orange salad",
+          "price": "€ 13,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Bruschetta",
+          "desc": "Tomatoes, garlic &amp; olive oil on white bread",
+          "price": "€ 9,80",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Soups",
       "type": "items",
       "items": [
-        {"name": "Pancake Soup", "price": "€ 5,50"},
-        {"name": "Garlic Soup with White Bread Croutons", "price": "€ 5,50"},
-        {"name": "Liver Dumpling Soup", "price": "€ 6,50"}
+        {
+          "name": "Pancake Soup",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Garlic Soup with White Bread Croutons",
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Liver Dumpling Soup",
+          "price": "€ 6,50"
+        }
       ]
     },
     {
       "title": "Pasta",
       "type": "items",
       "items": [
-        {"name": "Tagliatelle with Grilled Vegetables &amp; Grana Padano", "desc": "with sautéed chicken breast wrapped in bacon", "prices": ["€ 13,50", "€ 17,90"]},
-        {"name": "Spaghetti with Grilled Herb Prawns", "desc": "Garlic, braised tomatoes &amp; Grana Padano", "price": "€ 20,90"}
+        {
+          "name": "Tagliatelle with Grilled Vegetables &amp; Grana Padano",
+          "desc": "with sautéed chicken breast wrapped in bacon",
+          "prices": [
+            "€ 13,50",
+            "€ 17,90"
+          ]
+        },
+        {
+          "name": "Spaghetti with Grilled Herb Prawns",
+          "desc": "Garlic, braised tomatoes &amp; Grana Padano",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Fish",
       "type": "items",
       "items": [
-        {"name": "Pan-fried Pike-Perch Fillet with Melted Butter", "desc": "Potatoes &amp; mixed salad", "price": "€ 20,90"},
-        {"name": "Mixed Fish Grill Plate", "desc": "Pike-perch, char, John Dory &amp; prawn, with potatoes &amp; mixed salad", "price": "€ 22,90"},
-        {"name": "Grilled Char Fillet", "desc": "on stuffed rocket pasta &amp; braised tomatoes", "price": "€ 20,90"}
+        {
+          "name": "Pan-fried Pike-Perch Fillet with Melted Butter",
+          "desc": "Potatoes &amp; mixed salad",
+          "price": "€ 20,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Mixed Fish Grill Plate",
+          "desc": "Pike-perch, char, John Dory &amp; prawn, with potatoes &amp; mixed salad",
+          "price": "€ 22,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilled Char Fillet",
+          "desc": "on stuffed rocket pasta &amp; braised tomatoes",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Main Courses",
       "type": "items",
       "items": [
-        {"name": "Mixed Grill Plate", "desc": "Beef, pork, turkey &amp; grilled sausage, with French fries &amp; herb butter", "price": "€ 18,50"},
-        {"name": "Breaded Pork Schnitzel Viennese Style", "desc": "with potato salad &amp; lingonberries", "price": "€ 14,90"},
-        {"name": "Wiener Schnitzel (veal)", "desc": "with fried potatoes &amp; lingonberries", "price": "€ 24,90"},
-        {"name": "Schwabenpfandl – Swabian Pan", "desc": "Pork fillet medallions in mushroom cream sauce with Spätzle (egg noodles)", "price": "€ 18,50"},
-        {"name": "Beef Tenderloin Steak in Pepper Sauce", "desc": "with hash browns", "price": "€ 25,90"},
-        {"name": "Grilled Rump Steak", "desc": "with French fries, fried onions &amp; butter beans", "price": "€ 26,90"},
-        {"name": "Viennese Onion Roast Beef", "desc": "with potatoes &amp; mixed salad", "price": "€ 25,90"},
-        {"name": "Grilled Beef Fillet Steak", "desc": "with French fries, herb butter &amp; broccoli", "price": "€ 33,90"}
+        {
+          "name": "Mixed Grill Plate",
+          "desc": "Beef, pork, turkey &amp; grilled sausage, with French fries &amp; herb butter",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Breaded Pork Schnitzel Viennese Style",
+          "desc": "with potato salad &amp; lingonberries",
+          "price": "€ 14,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Wiener Schnitzel (veal)",
+          "desc": "with fried potatoes &amp; lingonberries",
+          "price": "€ 24,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Schwabenpfandl – Swabian Pan",
+          "desc": "Pork fillet medallions in mushroom cream sauce with Spätzle (egg noodles)",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Beef Tenderloin Steak in Pepper Sauce",
+          "desc": "with hash browns",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilled Rump Steak",
+          "desc": "with French fries, fried onions &amp; butter beans",
+          "price": "€ 26,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Viennese Onion Roast Beef",
+          "desc": "with potatoes &amp; mixed salad",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Grilled Beef Fillet Steak",
+          "desc": "with French fries, herb butter &amp; broccoli",
+          "price": "€ 33,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Salads &amp; Snacks",
       "type": "items",
       "items": [
-        {"name": "Small Mixed Salad", "price": "€ 5,40"},
-        {"name": "Seasonal Mixed Leaf Salad", "desc": "with grilled turkey strips, corn &amp; cocktail dressing", "price": "€ 15,90"},
-        {"desc": "with baked chicken breast &amp; Styrian pumpkin seed oil", "price": "€ 17,50"},
-        {"desc": "with grilled prawns, balsamic dressing &amp; baguette", "price": "€ 19,90"},
-        {"name": "Baked Camembert", "desc": "with lingonberries, salad garnish &amp; toast", "price": "€ 12,90"},
-        {"name": "Baked Mushrooms", "desc": "with remoulade sauce &amp; salad garnish", "price": "€ 12,90"}
+        {
+          "name": "Small Mixed Salad",
+          "price": "€ 5,40",
+          "tags": [
+            "vegan",
+            "vegetarisch",
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Seasonal Mixed Leaf Salad",
+          "desc": "with grilled turkey strips, corn &amp; cocktail dressing",
+          "price": "€ 15,90",
+          "tags": [
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "with baked chicken breast &amp; Styrian pumpkin seed oil",
+          "price": "€ 17,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "with grilled prawns, balsamic dressing &amp; baguette",
+          "price": "€ 19,90",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Baked Camembert",
+          "desc": "with lingonberries, salad garnish &amp; toast",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Baked Mushrooms",
+          "desc": "with remoulade sauce &amp; salad garnish",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Desserts",
       "type": "items",
       "items": [
-        {"name": "Quark Dumplings in Buttered Breadcrumbs", "desc": "with sour cherry compote", "prices": ["1 pc. € 7,50", "2 pcs. € 8,50"]},
-        {"name": "Crêpes", "desc": "with apricot jam or vanilla ice cream", "prices": ["1 pc. € 8,50", "2 pcs. € 9,50"]},
-        {"name": "Kaiserschmarrn (Shredded Pancake)", "desc": "with plum compote or apple sauce", "price": "€ 13,50"},
-        {"name": "Apple Fritters in Beer Batter", "desc": "with walnut ice cream &amp; cream", "price": "€ 9,90"},
-        {"name": "Mixed Ice Cream – Strawberry, Vanilla &amp; Chocolate with Cream", "prices": ["2 scoops € 5,90", "3 scoops € 6,50"]},
-        {"name": "Iced Coffee – Vanilla Ice Cream, Coffee &amp; Cream", "price": "€ 6,90"},
-        {"name": "Iced Chocolate – Vanilla Ice Cream, Chocolate &amp; Cream", "price": "€ 6,90"},
-        {"name": "Fruit Sundae – Strawberry Ice Cream, Vanilla Ice Cream, Fresh Fruit &amp; Cream", "price": "€ 8,20"},
-        {"name": "Chocolate Sundae – Chocolate Ice Cream, Advocaat &amp; Cream", "price": "€ 8,20"},
-        {"name": "Nut Sundae – Walnut Ice Cream, Nuts, Hazelnut Liqueur &amp; Cream", "price": "€ 8,20"},
-        {"name": "Banana Split – Vanilla Ice Cream, Chocolate Ice Cream, Almonds, Chocolate Sauce &amp; Cream", "price": "€ 8,20"},
-        {"name": "Vanilla Ice Cream with Hot Raspberries or Hot Cherries", "price": "€ 8,20"}
+        {
+          "name": "Quark Dumplings in Buttered Breadcrumbs",
+          "desc": "with sour cherry compote",
+          "prices": [
+            "1 pc. € 7,50",
+            "2 pcs. € 8,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Crêpes",
+          "desc": "with apricot jam or vanilla ice cream",
+          "prices": [
+            "1 pc. € 8,50",
+            "2 pcs. € 9,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Kaiserschmarrn (Shredded Pancake)",
+          "desc": "with plum compote or apple sauce",
+          "price": "€ 13,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Apple Fritters in Beer Batter",
+          "desc": "with walnut ice cream &amp; cream",
+          "price": "€ 9,90",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Mixed Ice Cream – Strawberry, Vanilla &amp; Chocolate with Cream",
+          "prices": [
+            "2 scoops € 5,90",
+            "3 scoops € 6,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Iced Coffee – Vanilla Ice Cream, Coffee &amp; Cream",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Iced Chocolate – Vanilla Ice Cream, Chocolate &amp; Cream",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Fruit Sundae – Strawberry Ice Cream, Vanilla Ice Cream, Fresh Fruit &amp; Cream",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Chocolate Sundae – Chocolate Ice Cream, Advocaat &amp; Cream",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Nut Sundae – Walnut Ice Cream, Nuts, Hazelnut Liqueur &amp; Cream",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Banana Split – Vanilla Ice Cream, Chocolate Ice Cream, Almonds, Chocolate Sauce &amp; Cream",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Vanilla Ice Cream with Hot Raspberries or Hot Cherries",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Hot Drinks",
       "type": "drinks",
       "items": [
-        {"name": "Cup of Coffee", "price": "€ 3,90"},
-        {"name": "Pot of Coffee", "price": "€ 4,40"},
-        {"name": "Cappuccino", "price": "€ 4,20"},
-        {"name": "Latte Macchiato", "price": "€ 4,60"},
-        {"name": "Café au Lait", "price": "€ 4,00"},
-        {"name": "Café Crème", "price": "€ 4,60"},
-        {"name": "Espresso", "price": "€ 4,60"},
-        {"name": "Glass of Tea", "price": "€ 4,60"},
-        {"name": "Pot of Tea", "price": "€ 4,60"},
-        {"name": "Mulled Wine", "price": "€ 4,40"}
+        {
+          "name": "Cup of Coffee",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Pot of Coffee",
+          "price": "€ 4,40"
+        },
+        {
+          "name": "Cappuccino",
+          "price": "€ 4,20"
+        },
+        {
+          "name": "Latte Macchiato",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Café au Lait",
+          "price": "€ 4,00"
+        },
+        {
+          "name": "Café Crème",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Espresso",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Glass of Tea",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Pot of Tea",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Mulled Wine",
+          "price": "€ 4,40"
+        }
       ]
     },
     {
       "title": "Beers – Wieninger Brewery",
       "type": "drinks",
       "items": [
-        {"name": "Teisendorfer Lager 0.3 l", "price": "€ 3,40"},
-        {"name": "Teisendorfer Lager 0.5 l", "price": "€ 4,70"},
-        {"name": "Pilsner 0.3 l", "price": "€ 3,70"},
-        {"name": "Dark Lager 0.5 l", "price": "€ 5,50"},
-        {"name": "Wheat Beer 0.3 l", "price": "€ 3,80"},
-        {"name": "Wheat Beer 0.5 l", "price": "€ 4,80"},
-        {"name": "Dark Wheat Beer 0.5 l", "price": "€ 4,80"},
-        {"name": "Shandy (Radler) 0.5 l", "price": "€ 4,50"},
-        {"name": "Alcohol-free Beer 0.5 l", "price": "€ 4,60"},
-        {"name": "1813 Speciale 0.5 l", "price": "€ 5,50"}
+        {
+          "name": "Teisendorfer Lager 0.3 l",
+          "price": "€ 3,40"
+        },
+        {
+          "name": "Teisendorfer Lager 0.5 l",
+          "price": "€ 4,70"
+        },
+        {
+          "name": "Pilsner 0.3 l",
+          "price": "€ 3,70"
+        },
+        {
+          "name": "Dark Lager 0.5 l",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Wheat Beer 0.3 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Wheat Beer 0.5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Dark Wheat Beer 0.5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Shandy (Radler) 0.5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Alcohol-free Beer 0.5 l",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "1813 Speciale 0.5 l",
+          "price": "€ 5,50"
+        }
       ]
     },
     {
       "title": "Aperitifs",
       "type": "drinks",
       "items": [
-        {"name": "Campari 5 cl", "price": "€ 5,00"},
-        {"name": "Campari Orange 5 cl", "price": "€ 6,20"},
-        {"name": "Sherry 5 cl", "price": "€ 4,50"},
-        {"name": "Prosecco piccolo 0.2 l", "price": "€ 7,50"},
-        {"name": "Glass of Sparkling Wine 0.1 l", "price": "€ 4,50"},
-        {"name": "Hugo", "price": "€ 5,50"},
-        {"name": "Aperol Spritz", "price": "€ 5,50"},
-        {"name": "Prosecco-Aperol Spritz", "price": "€ 6,00"}
+        {
+          "name": "Campari 5 cl",
+          "price": "€ 5,00"
+        },
+        {
+          "name": "Campari Orange 5 cl",
+          "price": "€ 6,20"
+        },
+        {
+          "name": "Sherry 5 cl",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Prosecco piccolo 0.2 l",
+          "price": "€ 7,50"
+        },
+        {
+          "name": "Glass of Sparkling Wine 0.1 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Hugo",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Aperol Spritz",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Prosecco-Aperol Spritz",
+          "price": "€ 6,00"
+        }
       ]
     },
     {
       "title": "Non-Alcoholic Drinks",
       "type": "drinks",
       "items": [
-        {"name": "Still water 0.3 l", "price": "€ 3,30"},
-        {"name": "Still water 0.5 l", "price": "€ 3,80"},
-        {"name": "Sparkling water 0.25 l", "price": "€ 3,50"},
-        {"name": "Sparkling water 0.5 l", "price": "€ 4,50"},
-        {"name": "Lemonade 0.3 l", "price": "€ 3,60"},
-        {"name": "Cola 0.33 l", "price": "€ 3,90"},
-        {"name": "Fanta 0.33 l", "price": "€ 3,90"},
-        {"name": "Tonic Water 0.2 l", "price": "€ 3,80"},
-        {"name": "Bitter Lemon 0.2 l", "price": "€ 3,80"},
-        {"name": "Juice spritzer 0.3 l", "price": "€ 4,80"}
+        {
+          "name": "Still water 0.3 l",
+          "price": "€ 3,30"
+        },
+        {
+          "name": "Still water 0.5 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Sparkling water 0.25 l",
+          "price": "€ 3,50"
+        },
+        {
+          "name": "Sparkling water 0.5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Lemonade 0.3 l",
+          "price": "€ 3,60"
+        },
+        {
+          "name": "Cola 0.33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Fanta 0.33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Tonic Water 0.2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Bitter Lemon 0.2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Juice spritzer 0.3 l",
+          "price": "€ 4,80"
+        }
       ]
     },
     {
       "title": "White Wines",
       "type": "wine",
       "items": [
-        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Lower Austria", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Lower Austria", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinate", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Pinot Blanc (Weißburgunder)", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinate", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+        {
+          "name": "Grüner Veltliner",
+          "producer": "Weingut Markus Huber – Reichersdorf / Lower Austria",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Grüner Veltliner, Terrasse",
+          "producer": "Weingut Jurtschitsch – Langenlois / Lower Austria",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Riesling Exclusiv",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Palatinate",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Pinot Blanc (Weißburgunder)",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Palatinate",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Chardonnay",
+          "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum",
+          "price": "1/8 l &nbsp; € 4,50"
+        }
       ]
     },
     {
       "title": "Rosé",
       "type": "wine",
       "items": [
-        {"name": "Portugieser Rosé", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinate", "price": "1/8 l &nbsp; € 3,00"},
-        {"name": "Heideboden Rosé – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+        {
+          "name": "Portugieser Rosé",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Palatinate",
+          "price": "1/8 l &nbsp; € 3,00"
+        },
+        {
+          "name": "Heideboden Rosé – Burgenland",
+          "price": "1/8 l &nbsp; € 3,50"
+        }
       ]
     },
     {
       "title": "Red Wines",
       "type": "wine",
       "items": [
-        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Lower Austria", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Lower Austria", "price": "1/8 l &nbsp; € 4,50"},
-        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
-        {"name": "Wine Spritzer (white or red)", "price": "1/4 l &nbsp; € 3,80"}
+        {
+          "name": "Blaufränkisch",
+          "producer": "Winzer Markowitsch – Göttelsbrunn / Lower Austria",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Zweigelt",
+          "producer": "Weingut Jurtschitsch – Langenlois / Lower Austria",
+          "price": "1/8 l &nbsp; € 4,50"
+        },
+        {
+          "name": "Heideboden Merlot – Burgenland",
+          "price": "1/8 l &nbsp; € 3,80"
+        },
+        {
+          "name": "Wine Spritzer (white or red)",
+          "price": "1/4 l &nbsp; € 3,80"
+        }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetarian",
+    "glutenfrei": "Gluten-free",
+    "laktosefrei": "Lactose-free",
+    "nussfrei": "Nut-free",
+    "showAll": "Show all"
+  }
 }

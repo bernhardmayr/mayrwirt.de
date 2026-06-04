@@ -24,7 +24,11 @@
         {
           "name": "Krem juha od šparoga",
           "desc": "s biljnim uljem &amp; croutonima",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Goveđi gulaš",
           "desc": "s knödlom &amp; mješovitom salatom",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Goveđa rolada",
           "desc": "punjena slaninom, lukom, kiselim krastavcem &amp; senfom, široki rezanci &amp; mješovita salata",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Drvosječev odrezak",
           "desc": "od svinjskog vrata, pečeni krumpir, prženi luk &amp; salata od kupusa",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Mesna okruglica",
           "desc": "s krumpir-krastavac salatom &amp; umakom od pečenja",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Ružičasti flank steak",
           "desc": "sa zelenim grahom u slanini, pommes frites &amp; začinskim tvarogom",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Voćni ribji curry",
           "desc": "s mrkvom, porilukom &amp; rižom s bademima",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Porcija svježih šparoga",
@@ -83,6 +107,10 @@
               "label": "s fileom smudja",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Mala ledena kava",
           "desc": "s 1 kuglom sladoleda od vanilije, Baileys &amp; šlagom",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Mala panna cotta",
           "desc": "u staklenki s malina coulisom",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Topli čokoladni kolač",
           "desc": "s tekućom jezgrom, bananom, šlagom &amp; sladoledom od vanilije",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Domaći sladoled od trešnje &amp; amaretta",
-          "price": "po kugli € 2,50"
+          "price": "po kugli € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "doplata za 2 osobe",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetarijansko",
+    "glutenfrei": "Bez glutena",
+    "laktosefrei": "Bez laktoze",
+    "nussfrei": "Bez orašastih plodova",
+    "showAll": "Prikaži sve"
+  }
 }

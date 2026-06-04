@@ -560,3 +560,61 @@ a.area-card { display: block; text-decoration: none; color: inherit; }
     .filter-legend { min-width: 100%; }
     .act-grid { grid-template-columns: 1fr; }
 }
+
+/* ---- Dietary filter bar (Karte + Tageskarte) ---- */
+.diet-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+    padding: 0.875rem 1.25rem;
+    background: #fff;
+    border: 1px solid #e5e5e0;
+    border-radius: 0.75rem;
+}
+.diet-chip {
+    border: 1px solid #d8d5cd;
+    background: #faf9f6;
+    color: #4a4640;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.3rem 0.85rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+.diet-chip:hover  { border-color: #C9962C; color: #2D5016; }
+.diet-chip.active { background: #2D5016; border-color: #2D5016; color: #fff; }
+.diet-chip--reset {
+    border-color: transparent;
+    background: none;
+    color: #7B3F1C;
+    font-weight: 600;
+    margin-left: auto;
+    text-decoration: none;
+}
+.diet-chip--reset:hover { text-decoration: underline; color: #5a2e12; }
+.diet-chip--reset.hidden { display: none; }
+
+/* ---- Dietary badges on menu items ---- */
+.diet-badges {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.35rem;
+}
+.diet-badge {
+    display: inline-block;
+    font-size: 0.62rem;
+    font-weight: 700;
+    padding: 0.1rem 0.4rem;
+    border-radius: 9999px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+.diet-badge--vegan        { background: #e8f5e0; color: #2D5016; }
+.diet-badge--vegetarisch  { background: #f0fce8; color: #3a6b1a; }
+.diet-badge--glutenfrei   { background: #fff5e0; color: #7B3F1C; }
+.diet-badge--laktosefrei  { background: #e8f0ff; color: #2c4a8a; }
+.diet-badge--nussfrei     { background: #fce8f5; color: #7a1c5a; }

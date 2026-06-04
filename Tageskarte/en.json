@@ -24,7 +24,11 @@
         {
           "name": "Cream of Asparagus Soup",
           "desc": "with herb oil &amp; croutons",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -35,32 +39,52 @@
         {
           "name": "Beef Goulash",
           "desc": "with bread dumpling &amp; mixed salad",
-          "price": "€ 17,50"
+          "price": "€ 17,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Beef Roulade",
           "desc": "stuffed with bacon, onion, gherkin &amp; mustard, ribbon noodles &amp; mixed salad",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Lumberjack Steak",
           "desc": "pork neck with fried potatoes, fried onions &amp; coleslaw",
-          "price": "€ 16,50"
+          "price": "€ 16,50",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Meat Patty",
           "desc": "with potato-cucumber salad &amp; roast gravy",
-          "price": "€ 13,00"
+          "price": "€ 13,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Pink-Roasted Flank Steak",
           "desc": "with bacon-wrapped green beans, French fries &amp; herb quark",
-          "price": "€ 22,00"
+          "price": "€ 22,00",
+          "tags": [
+            "nussfrei"
+          ]
         },
         {
           "name": "Fruity Fish Curry",
           "desc": "with carrot, leek &amp; almond rice",
-          "price": "€ 19,00"
+          "price": "€ 19,00",
+          "tags": [
+            "laktosefrei"
+          ]
         },
         {
           "name": "Fresh Asparagus",
@@ -83,6 +107,10 @@
               "label": "with pike-perch fillet",
               "price": "€ 27,00"
             }
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
           ]
         }
       ]
@@ -94,21 +122,40 @@
         {
           "name": "Small Iced Coffee",
           "desc": "with 1 scoop vanilla ice cream, Baileys &amp; cream",
-          "price": "€ 5,50"
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Small Panna Cotta",
           "desc": "in a jar with raspberry coulis",
-          "price": "€ 4,50"
+          "price": "€ 4,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         },
         {
           "name": "Warm Chocolate Fondant",
           "desc": "with liquid centre, banana, cream &amp; vanilla ice cream",
-          "price": "€ 8,50"
+          "price": "€ 8,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
         },
         {
           "name": "Homemade Cherry Amaretto Ice Cream",
-          "price": "per scoop € 2,50"
+          "price": "per scoop € 2,50",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
         }
       ]
     },
@@ -126,9 +173,22 @@
               "label": "supplement for 2 persons",
               "price": "+€ 6,00"
             }
+          ],
+          "tags": [
+            "laktosefrei",
+            "glutenfrei",
+            "nussfrei"
           ]
         }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetarian",
+    "glutenfrei": "Gluten-free",
+    "laktosefrei": "Lactose-free",
+    "nussfrei": "Nut-free",
+    "showAll": "Show all"
+  }
 }

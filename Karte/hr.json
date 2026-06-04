@@ -7,171 +7,613 @@
       "title": "Predjela",
       "type": "items",
       "items": [
-        {"name": "Carpaccio od Goveđeg Fileta", "desc": "s maslinovim uljem, limunom, Grana Padanom, mješanom salatom &amp; bagetom", "price": "€ 15,50"},
-        {"name": "Karamalizirani Kozji Sir", "desc": "s čatnijem od kruške &amp; salatom od cikorije i naranče", "price": "€ 13,90"},
-        {"name": "Bruschetta", "desc": "Rajčice, češnjak &amp; maslinovo ulje na bijelom kruhu", "price": "€ 9,80"}
+        {
+          "name": "Carpaccio od Goveđeg Fileta",
+          "desc": "s maslinovim uljem, limunom, Grana Padanom, mješanom salatom &amp; bagetom",
+          "price": "€ 15,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Karamalizirani Kozji Sir",
+          "desc": "s čatnijem od kruške &amp; salatom od cikorije i naranče",
+          "price": "€ 13,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Bruschetta",
+          "desc": "Rajčice, češnjak &amp; maslinovo ulje na bijelom kruhu",
+          "price": "€ 9,80",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Juhe",
       "type": "items",
       "items": [
-        {"name": "Juha s Palačinkama", "price": "€ 5,50"},
-        {"name": "Juha od Češnjaka s Krutonima", "price": "€ 5,50"},
-        {"name": "Juha s Knedlama od Jetre", "price": "€ 6,50"}
+        {
+          "name": "Juha s Palačinkama",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Juha od Češnjaka s Krutonima",
+          "price": "€ 5,50",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Juha s Knedlama od Jetre",
+          "price": "€ 6,50"
+        }
       ]
     },
     {
       "title": "Tjestenina",
       "type": "items",
       "items": [
-        {"name": "Tagliatelle s Grillovanim Povrćem &amp; Grana Padanom", "desc": "s pilećim fileom zamotanim u slaninu", "prices": ["€ 13,50", "€ 17,90"]},
-        {"name": "Špageti s Kozicama na Bilju", "desc": "Češnjak, pirjane rajčice &amp; Grana Padano", "price": "€ 20,90"}
+        {
+          "name": "Tagliatelle s Grillovanim Povrćem &amp; Grana Padanom",
+          "desc": "s pilećim fileom zamotanim u slaninu",
+          "prices": [
+            "€ 13,50",
+            "€ 17,90"
+          ]
+        },
+        {
+          "name": "Špageti s Kozicama na Bilju",
+          "desc": "Češnjak, pirjane rajčice &amp; Grana Padano",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Riba",
       "type": "items",
       "items": [
-        {"name": "Smudut u Tavi s Maslacem", "desc": "Krumpir &amp; mješana salata", "price": "€ 20,90"},
-        {"name": "Mješani Ribarski Roštilj", "desc": "Smudut, arktička pastrva, kovač &amp; škampi, s krumpirom &amp; mješanom salatom", "price": "€ 22,90"},
-        {"name": "Arktička Pastrva s Roštilja", "desc": "na tjestenini s rukolom &amp; pirjanim rajčicama", "price": "€ 20,90"}
+        {
+          "name": "Smudut u Tavi s Maslacem",
+          "desc": "Krumpir &amp; mješana salata",
+          "price": "€ 20,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Mješani Ribarski Roštilj",
+          "desc": "Smudut, arktička pastrva, kovač &amp; škampi, s krumpirom &amp; mješanom salatom",
+          "price": "€ 22,90",
+          "tags": [
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Arktička Pastrva s Roštilja",
+          "desc": "na tjestenini s rukolom &amp; pirjanim rajčicama",
+          "price": "€ 20,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Glavna Jela",
       "type": "items",
       "items": [
-        {"name": "Mješani Roštilj", "desc": "Govedina, svinjetina, puretina &amp; kobasica s roštilja, s pommes frites &amp; maslacem od bilja", "price": "€ 18,50"},
-        {"name": "Bečki Svinjski Šnicl", "desc": "s krumpir salatom &amp; brusnicama", "price": "€ 14,90"},
-        {"name": "Wiener Schnitzel od Teletine", "desc": "s prženim krumpirom &amp; brusnicama", "price": "€ 24,90"},
-        {"name": "Švapska Tava (Schwabenpfandl)", "desc": "Medaljoni svinjskog fileta u umaku od gljiva sa Spätzle", "price": "€ 18,50"},
-        {"name": "Goveđi File u Umaku od Papra", "desc": "s rösti krumpirom", "price": "€ 25,90"},
-        {"name": "Roštilj od Rostbifa", "desc": "s pommes frites, zlatnim lukom &amp; mahunama s maslacem", "price": "€ 26,90"},
-        {"name": "Pečena Govedina s Lukom na Bečki Način", "desc": "s krumpirom &amp; mješanom salatom", "price": "€ 25,90"},
-        {"name": "Goveđi File Odrezak s Roštilja", "desc": "s pommes frites, maslacem od bilja &amp; brokolicom", "price": "€ 33,90"}
+        {
+          "name": "Mješani Roštilj",
+          "desc": "Govedina, svinjetina, puretina &amp; kobasica s roštilja, s pommes frites &amp; maslacem od bilja",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Bečki Svinjski Šnicl",
+          "desc": "s krumpir salatom &amp; brusnicama",
+          "price": "€ 14,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Wiener Schnitzel od Teletine",
+          "desc": "s prženim krumpirom &amp; brusnicama",
+          "price": "€ 24,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Švapska Tava (Schwabenpfandl)",
+          "desc": "Medaljoni svinjskog fileta u umaku od gljiva sa Spätzle",
+          "price": "€ 18,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Goveđi File u Umaku od Papra",
+          "desc": "s rösti krumpirom",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Roštilj od Rostbifa",
+          "desc": "s pommes frites, zlatnim lukom &amp; mahunama s maslacem",
+          "price": "€ 26,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Pečena Govedina s Lukom na Bečki Način",
+          "desc": "s krumpirom &amp; mješanom salatom",
+          "price": "€ 25,90",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Goveđi File Odrezak s Roštilja",
+          "desc": "s pommes frites, maslacem od bilja &amp; brokolicom",
+          "price": "€ 33,90",
+          "tags": [
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Salate &amp; Zakuske",
       "type": "items",
       "items": [
-        {"name": "Mala Mješana Salata", "price": "€ 5,40"},
-        {"name": "Sezonska Mješana Salata", "desc": "s trakicama grillane puretine, kukuruzom &amp; koktajl dresingom", "price": "€ 15,90"},
-        {"desc": "s hrskavim pilećim fileom &amp; uljem od bučinih sjemenki iz Štajerske", "price": "€ 17,50"},
-        {"desc": "s grillanim kozicama, balzamičnim octom &amp; bagetom", "price": "€ 19,90"},
-        {"name": "Prženi Camembert", "desc": "s brusnicama, dodatkom salate &amp; tostom", "price": "€ 12,90"},
-        {"name": "Pržene Šampinjonke", "desc": "s remoulade umakom &amp; dodatkom salate", "price": "€ 12,90"}
+        {
+          "name": "Mala Mješana Salata",
+          "price": "€ 5,40",
+          "tags": [
+            "vegan",
+            "vegetarisch",
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Sezonska Mješana Salata",
+          "desc": "s trakicama grillane puretine, kukuruzom &amp; koktajl dresingom",
+          "price": "€ 15,90",
+          "tags": [
+            "glutenfrei",
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "s hrskavim pilećim fileom &amp; uljem od bučinih sjemenki iz Štajerske",
+          "price": "€ 17,50",
+          "tags": [
+            "nussfrei"
+          ]
+        },
+        {
+          "desc": "s grillanim kozicama, balzamičnim octom &amp; bagetom",
+          "price": "€ 19,90",
+          "tags": [
+            "laktosefrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Prženi Camembert",
+          "desc": "s brusnicama, dodatkom salate &amp; tostom",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Pržene Šampinjonke",
+          "desc": "s remoulade umakom &amp; dodatkom salate",
+          "price": "€ 12,90",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Deserti",
       "type": "items",
       "items": [
-        {"name": "Njoki od Skute s Maslacem i Prezlima", "desc": "s kompostom od višanja", "prices": ["1 kom. € 7,50", "2 kom. € 8,50"]},
-        {"name": "Palačinke", "desc": "s marmeladom od marelice ili sladoledom od vanilije", "prices": ["1 kom. € 8,50", "2 kom. € 9,50"]},
-        {"name": "Kaiserschmarrn", "desc": "s kompostom od šljiva ili pireom od jabuka", "price": "€ 13,50"},
-        {"name": "Fritule od Jabuka u Pivskom Tijestu", "desc": "s orah sladoledom &amp; šlagom", "price": "€ 9,90"},
-        {"name": "Mješoviti Sladoled – Jagoda, Vanilija &amp; Čokolada sa Šlagom", "prices": ["2 kug. € 5,90", "3 kug. € 6,50"]},
-        {"name": "Ledena Kava – Sladoled Vanilija, Kava &amp; Šlag", "price": "€ 6,90"},
-        {"name": "Ledena Čokolada – Sladoled Vanilija, Čokolada &amp; Šlag", "price": "€ 6,90"},
-        {"name": "Voćna Kupa – Sladoled Jagoda, Vanilija, Svježe Voće &amp; Šlag", "price": "€ 8,20"},
-        {"name": "Čokoladna Kupa – Sladoled Čokolada, Advocaat &amp; Šlag", "price": "€ 8,20"},
-        {"name": "Orah Kupa – Orah Sladoled, Orasi, Liker od Lješnjaka &amp; Šlag", "price": "€ 8,20"},
-        {"name": "Banana Split – Sladoled Vanilija, Čokolada, Bademi, Čokoladni Umak &amp; Šlag", "price": "€ 8,20"},
-        {"name": "Sladoled Vanilija s Vrućim Malinama ili Vrućim Trešnjama", "price": "€ 8,20"}
+        {
+          "name": "Njoki od Skute s Maslacem i Prezlima",
+          "desc": "s kompostom od višanja",
+          "prices": [
+            "1 kom. € 7,50",
+            "2 kom. € 8,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Palačinke",
+          "desc": "s marmeladom od marelice ili sladoledom od vanilije",
+          "prices": [
+            "1 kom. € 8,50",
+            "2 kom. € 9,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Kaiserschmarrn",
+          "desc": "s kompostom od šljiva ili pireom od jabuka",
+          "price": "€ 13,50",
+          "tags": [
+            "vegetarisch",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Fritule od Jabuka u Pivskom Tijestu",
+          "desc": "s orah sladoledom &amp; šlagom",
+          "price": "€ 9,90",
+          "tags": [
+            "vegetarisch"
+          ]
+        },
+        {
+          "name": "Mješoviti Sladoled – Jagoda, Vanilija &amp; Čokolada sa Šlagom",
+          "prices": [
+            "2 kug. € 5,90",
+            "3 kug. € 6,50"
+          ],
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Ledena Kava – Sladoled Vanilija, Kava &amp; Šlag",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Ledena Čokolada – Sladoled Vanilija, Čokolada &amp; Šlag",
+          "price": "€ 6,90",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Voćna Kupa – Sladoled Jagoda, Vanilija, Svježe Voće &amp; Šlag",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Čokoladna Kupa – Sladoled Čokolada, Advocaat &amp; Šlag",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        },
+        {
+          "name": "Orah Kupa – Orah Sladoled, Orasi, Liker od Lješnjaka &amp; Šlag",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Banana Split – Sladoled Vanilija, Čokolada, Bademi, Čokoladni Umak &amp; Šlag",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei"
+          ]
+        },
+        {
+          "name": "Sladoled Vanilija s Vrućim Malinama ili Vrućim Trešnjama",
+          "price": "€ 8,20",
+          "tags": [
+            "vegetarisch",
+            "glutenfrei",
+            "nussfrei"
+          ]
+        }
       ]
     },
     {
       "title": "Topli Napici",
       "type": "drinks",
       "items": [
-        {"name": "Šalica Kave", "price": "€ 3,90"},
-        {"name": "Kava u Bočici", "price": "€ 4,40"},
-        {"name": "Cappuccino", "price": "€ 4,20"},
-        {"name": "Latte Macchiato", "price": "€ 4,60"},
-        {"name": "Bijela Kava", "price": "€ 4,00"},
-        {"name": "Café Crème", "price": "€ 4,60"},
-        {"name": "Espresso", "price": "€ 4,60"},
-        {"name": "Čaj (čaša)", "price": "€ 4,60"},
-        {"name": "Čaj (čajnik)", "price": "€ 4,60"},
-        {"name": "Kuhano vino", "price": "€ 4,40"}
+        {
+          "name": "Šalica Kave",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Kava u Bočici",
+          "price": "€ 4,40"
+        },
+        {
+          "name": "Cappuccino",
+          "price": "€ 4,20"
+        },
+        {
+          "name": "Latte Macchiato",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Bijela Kava",
+          "price": "€ 4,00"
+        },
+        {
+          "name": "Café Crème",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Espresso",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Čaj (čaša)",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Čaj (čajnik)",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "Kuhano vino",
+          "price": "€ 4,40"
+        }
       ]
     },
     {
       "title": "Piva – Pivovara Wieninger",
       "type": "drinks",
       "items": [
-        {"name": "Svijetli lager 0,3 l", "price": "€ 3,40"},
-        {"name": "Svijetli lager 0,5 l", "price": "€ 4,70"},
-        {"name": "Pilsner 0,3 l", "price": "€ 3,70"},
-        {"name": "Tamni lager 0,5 l", "price": "€ 5,50"},
-        {"name": "Pšenično pivo 0,3 l", "price": "€ 3,80"},
-        {"name": "Pšenično pivo 0,5 l", "price": "€ 4,80"},
-        {"name": "Tamno pšenično pivo 0,5 l", "price": "€ 4,80"},
-        {"name": "Radler 0,5 l", "price": "€ 4,50"},
-        {"name": "Bezalkoholno pivo 0,5 l", "price": "€ 4,60"},
-        {"name": "1813 Specijal 0,5 l", "price": "€ 5,50"}
+        {
+          "name": "Svijetli lager 0,3 l",
+          "price": "€ 3,40"
+        },
+        {
+          "name": "Svijetli lager 0,5 l",
+          "price": "€ 4,70"
+        },
+        {
+          "name": "Pilsner 0,3 l",
+          "price": "€ 3,70"
+        },
+        {
+          "name": "Tamni lager 0,5 l",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Pšenično pivo 0,3 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Pšenično pivo 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Tamno pšenično pivo 0,5 l",
+          "price": "€ 4,80"
+        },
+        {
+          "name": "Radler 0,5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Bezalkoholno pivo 0,5 l",
+          "price": "€ 4,60"
+        },
+        {
+          "name": "1813 Specijal 0,5 l",
+          "price": "€ 5,50"
+        }
       ]
     },
     {
       "title": "Aperitivi",
       "type": "drinks",
       "items": [
-        {"name": "Campari 5 cl", "price": "€ 5,00"},
-        {"name": "Campari narančasti 5 cl", "price": "€ 6,20"},
-        {"name": "Sherry 5 cl", "price": "€ 4,50"},
-        {"name": "Prosecco malo 0,2 l", "price": "€ 7,50"},
-        {"name": "Čaša pjenušavog 0,1 l", "price": "€ 4,50"},
-        {"name": "Hugo", "price": "€ 5,50"},
-        {"name": "Aperol Spritz", "price": "€ 5,50"},
-        {"name": "Prosecco-Spritz-Aperol", "price": "€ 6,00"}
+        {
+          "name": "Campari 5 cl",
+          "price": "€ 5,00"
+        },
+        {
+          "name": "Campari narančasti 5 cl",
+          "price": "€ 6,20"
+        },
+        {
+          "name": "Sherry 5 cl",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Prosecco malo 0,2 l",
+          "price": "€ 7,50"
+        },
+        {
+          "name": "Čaša pjenušavog 0,1 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Hugo",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Aperol Spritz",
+          "price": "€ 5,50"
+        },
+        {
+          "name": "Prosecco-Spritz-Aperol",
+          "price": "€ 6,00"
+        }
       ]
     },
     {
       "title": "Bezalkoholni Napici",
       "type": "drinks",
       "items": [
-        {"name": "Negazirana voda 0,3 l", "price": "€ 3,30"},
-        {"name": "Negazirana voda 0,5 l", "price": "€ 3,80"},
-        {"name": "Mineralna voda 0,25 l", "price": "€ 3,50"},
-        {"name": "Mineralna voda 0,5 l", "price": "€ 4,50"},
-        {"name": "Limunade 0,3 l", "price": "€ 3,60"},
-        {"name": "Cola 0,33 l", "price": "€ 3,90"},
-        {"name": "Fanta 0,33 l", "price": "€ 3,90"},
-        {"name": "Tonik 0,2 l", "price": "€ 3,80"},
-        {"name": "Bitter Lemon 0,2 l", "price": "€ 3,80"},
-        {"name": "Voćni sok 0,3 l", "price": "€ 4,80"}
+        {
+          "name": "Negazirana voda 0,3 l",
+          "price": "€ 3,30"
+        },
+        {
+          "name": "Negazirana voda 0,5 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Mineralna voda 0,25 l",
+          "price": "€ 3,50"
+        },
+        {
+          "name": "Mineralna voda 0,5 l",
+          "price": "€ 4,50"
+        },
+        {
+          "name": "Limunade 0,3 l",
+          "price": "€ 3,60"
+        },
+        {
+          "name": "Cola 0,33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Fanta 0,33 l",
+          "price": "€ 3,90"
+        },
+        {
+          "name": "Tonik 0,2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Bitter Lemon 0,2 l",
+          "price": "€ 3,80"
+        },
+        {
+          "name": "Voćni sok 0,3 l",
+          "price": "€ 4,80"
+        }
       ]
     },
     {
       "title": "Bijela Vina",
       "type": "wine",
       "items": [
-        {"name": "Grüner Veltliner", "producer": "Weingut Markus Huber – Reichersdorf / Donja Austrija", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Grüner Veltliner, Terrasse", "producer": "Weingut Jurtschitsch – Langenlois / Donja Austrija", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Riesling Exclusiv", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinacija", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Pinot Bijeli (Weißburgunder)", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinacija", "price": "1/8 l &nbsp; € 4,00"},
-        {"name": "Chardonnay", "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum", "price": "1/8 l &nbsp; € 4,50"}
+        {
+          "name": "Grüner Veltliner",
+          "producer": "Weingut Markus Huber – Reichersdorf / Donja Austrija",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Grüner Veltliner, Terrasse",
+          "producer": "Weingut Jurtschitsch – Langenlois / Donja Austrija",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Riesling Exclusiv",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Palatinacija",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Pinot Bijeli (Weißburgunder)",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Palatinacija",
+          "price": "1/8 l &nbsp; € 4,00"
+        },
+        {
+          "name": "Chardonnay",
+          "producer": "Winzer Gerhard Markowitsch – Göttlesbrunn / Carnuntum",
+          "price": "1/8 l &nbsp; € 4,50"
+        }
       ]
     },
     {
       "title": "Rosé",
       "type": "wine",
       "items": [
-        {"name": "Portugieser Rosé", "producer": "Winzer Matthias Glaser – Hainfeld / Palatinacija", "price": "1/8 l &nbsp; € 3,00"},
-        {"name": "Heideboden Rosé – Burgenland", "price": "1/8 l &nbsp; € 3,50"}
+        {
+          "name": "Portugieser Rosé",
+          "producer": "Winzer Matthias Glaser – Hainfeld / Palatinacija",
+          "price": "1/8 l &nbsp; € 3,00"
+        },
+        {
+          "name": "Heideboden Rosé – Burgenland",
+          "price": "1/8 l &nbsp; € 3,50"
+        }
       ]
     },
     {
       "title": "Crna Vina",
       "type": "wine",
       "items": [
-        {"name": "Blaufränkisch", "producer": "Winzer Markowitsch – Göttelsbrunn / Donja Austrija", "price": "1/8 l &nbsp; € 3,20"},
-        {"name": "Zweigelt", "producer": "Weingut Jurtschitsch – Langenlois / Donja Austrija", "price": "1/8 l &nbsp; € 4,50"},
-        {"name": "Heideboden Merlot – Burgenland", "price": "1/8 l &nbsp; € 3,80"},
-        {"name": "Pjenušavo bijelo ili crno", "price": "1/4 l &nbsp; € 3,80"}
+        {
+          "name": "Blaufränkisch",
+          "producer": "Winzer Markowitsch – Göttelsbrunn / Donja Austrija",
+          "price": "1/8 l &nbsp; € 3,20"
+        },
+        {
+          "name": "Zweigelt",
+          "producer": "Weingut Jurtschitsch – Langenlois / Donja Austrija",
+          "price": "1/8 l &nbsp; € 4,50"
+        },
+        {
+          "name": "Heideboden Merlot – Burgenland",
+          "price": "1/8 l &nbsp; € 3,80"
+        },
+        {
+          "name": "Pjenušavo bijelo ili crno",
+          "price": "1/4 l &nbsp; € 3,80"
+        }
       ]
     }
-  ]
+  ],
+  "filterLabels": {
+    "vegan": "Vegan",
+    "vegetarisch": "Vegetarijansko",
+    "glutenfrei": "Bez glutena",
+    "laktosefrei": "Bez laktoze",
+    "nussfrei": "Bez orašastih plodova",
+    "showAll": "Prikaži sve"
+  }
 }
