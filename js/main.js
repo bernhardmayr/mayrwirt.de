@@ -152,13 +152,15 @@ function getReply(text) {
     const offer= `<a href="Karte/Angebot.pdf" target="_blank" class="font-semibold text-green-800">PDF</a>`;
     const actUrls = { de: 'ausflugsziele/index.html', en: 'ausflugsziele/en.html', it: 'ausflugsziele/it.html', hu: 'ausflugsziele/hu.html', cs: 'ausflugsziele/cs.html' };
     const act  = `<a href="${actUrls[lang] || actUrls.de}" class="font-semibold text-green-800">${({de:'Ausflugsziele',en:'destinations page',it:'mete e gite',hu:'kirándulóhelyek',cs:'výlety'})[lang] || 'Ausflugsziele'}</a>`;
+    const zimmerUrls = { de: 'zimmer/index.html', en: 'zimmer/en.html', it: 'zimmer/it.html', hu: 'zimmer/hu.html', cs: 'zimmer/cs.html' };
+    const zimmer = `<a href="${zimmerUrls[lang] || zimmerUrls.de}" class="font-semibold text-green-800">${({de:'Zimmer &amp; Buchung',en:'Rooms &amp; Booking',it:'Camere &amp; Prenotazione',hu:'Szobák &amp; Foglalás',cs:'Pokoje &amp; Rezervace'})[lang] || 'Zimmer &amp; Buchung'}</a>`;
 
     const r = {
         de: {
             activities:   `In der Umgebung gibt es über 30 Ausflugsziele — Berge, Seen, Kultur & mehr. Stöbern Sie auf unserer Seite ${act} und filtern Sie nach Interesse, Entfernung und Wetter.`,
             jobs:         `Wir suchen aktuell eine Zimmermädchen (m/w/d) und eine Verkäuferin (m/w/d) für unsere Metzgerei. Bewerbungen bitte an ${mail} oder ${tel}.`,
             reservation: `Für Reservierungen erreichen Sie uns unter ${tel} oder per ${mail}.`,
-            rooms:        `Wir bieten gemütliche Zimmer mit Frühstück. Bitte kontaktieren Sie uns: ${tel}.`,
+            rooms:        `Wir bieten gemütliche Zimmer mit Frühstück ab €75/Nacht. Mehr Infos und direkte Buchung: ${zimmer}.`,
             hours:        'Wirtshaus: Di–Sa 17–21 Uhr, Sperrstunde 22:00. So + Mo Ruhetag.<br>Metzgerei: Mo/Mi 7:30–12, Di/Do 7:30–12 &amp; 14–17:30, Fr 7:30–12 &amp; 14–18, Sa 7:30–12.',
             menu:         `Unsere Speisekarte finden Sie als ${pdf}.`,
             address:      'Wir sind in der Untere Str. 24, 83416 Saaldorf — zwischen Salzburg und Freilassing.',
@@ -172,7 +174,7 @@ function getReply(text) {
             activities:   `There are over 30 things to do nearby — mountains, lakes, culture & more. Browse our ${act} and filter by interest, distance and weather.`,
             jobs:         `We are currently looking for a Housekeeping Staff (m/f/d) and a Butcher Shop Sales Assistant (m/f/d). Please send your application to ${mail} or call ${tel}.`,
             reservation: `For reservations please contact us at ${tel} or ${mail}.`,
-            rooms:        `We offer cosy rooms with breakfast included. Please contact us: ${tel}.`,
+            rooms:        `We offer cosy rooms with breakfast included from €75/night. More info and direct booking: ${zimmer}.`,
             hours:        'Restaurant: Tue–Sat 5–9pm, closing time 10pm. Sun + Mon closed.<br>Butcher: Mon/Wed 7:30–12, Tue/Thu 7:30–12 &amp; 2–5:30pm, Fri 7:30–12 &amp; 2–6pm, Sat 7:30–12.',
             menu:         `You can find our menu as a ${pdf}.`,
             address:      'We are located at Untere Str. 24, 83416 Saaldorf — between Salzburg and Freilassing.',
@@ -186,7 +188,7 @@ function getReply(text) {
             activities:   `Nei dintorni ci sono oltre 30 mete — montagne, laghi, cultura e altro. Sfoglia la nostra pagina ${act} e filtra per interesse, distanza e meteo.`,
             jobs:         `Stiamo cercando un addetta alle pulizie (m/f/d) e una commessa per la macelleria (m/f/d). Invia la tua candidatura a ${mail} o chiamaci al ${tel}.`,
             reservation: `Per prenotazioni ci può contattare al ${tel} o via ${mail}.`,
-            rooms:        `Offriamo camere accoglienti con colazione inclusa. Contattateci: ${tel}.`,
+            rooms:        `Offriamo camere accoglienti con colazione inclusa da €75/notte. Maggiori info e prenotazione diretta: ${zimmer}.`,
             hours:        'Ristorante: Mar–Sab 17–21, chiusura 22:00. Dom + Lun giorno di riposo.<br>Macelleria: Lun/Mer 7:30–12, Mar/Gio 7:30–12 &amp; 14–17:30, Ven 7:30–12 &amp; 14–18, Sab 7:30–12.',
             menu:         `Il nostro menù è disponibile come ${pdf}.`,
             address:      'Siamo a Untere Str. 24, 83416 Saaldorf — tra Salisburgo e Freilassing.',
@@ -200,7 +202,7 @@ function getReply(text) {
             activities:   `A környéken több mint 30 kirándulóhely található — hegyek, tavak, kultúra és más. Böngésszen a ${act} oldalunkon, és szűrjön érdeklődés, távolság és időjárás szerint.`,
             jobs:         `Jelenleg szobaasszonyt (m/n/d) és hentesüzleti eladót (m/n/d) keresünk. Önéletrajzát küldje az ${mail} címre vagy hívjon: ${tel}.`,
             reservation: `Foglaláshoz hívjon minket: ${tel} vagy írjon: ${mail}.`,
-            rooms:        `Reggelivel ellátott, hangulatos szobákat kínálunk. Kérjük, vegye fel velünk a kapcsolatot: ${tel}.`,
+            rooms:        `Reggelivel ellátott, hangulatos szobákat kínálunk €75/éjtől. Bővebb információ és közvetlen foglalás: ${zimmer}.`,
             hours:        'Étterem: K–Szo 17–21, zárás 22:00. V + H szünnap.<br>Hentesüzlet: H/Sze 7:30–12, K/Cs 7:30–12 &amp; 14–17:30, P 7:30–12 &amp; 14–18, Szo 7:30–12.',
             menu:         `Az étlapunkat ${pdf} formátumban találja.`,
             address:      'Untere Str. 24, 83416 Saaldorf — Salzburg és Freilassing között.',
@@ -214,7 +216,7 @@ function getReply(text) {
             activities:   `V okolí je přes 30 výletních cílů — hory, jezera, kultura a další. Prohlédněte si naši stránku ${act} a filtrujte podle zájmu, vzdálenosti a počasí.`,
             jobs:         `Hledáme pokojskou (m/ž/d) a prodavač/ku do řeznictví (m/ž/d). Přihlášky zasílejte na ${mail} nebo volejte ${tel}.`,
             reservation: `Pro rezervace nás kontaktujte na ${tel} nebo ${mail}.`,
-            rooms:        `Nabízíme útulné pokoje se snídaní. Kontaktujte nás: ${tel}.`,
+            rooms:        `Nabízíme útulné pokoje se snídaní od €75/noc. Více informací a přímá rezervace: ${zimmer}.`,
             hours:        'Hostinec: Út–So 17–21, zavírání 22:00. Ne + Po zavřeno.<br>Řeznictví: Po/St 7:30–12, Út/Čt 7:30–12 &amp; 14–17:30, Pá 7:30–12 &amp; 14–18, So 7:30–12.',
             menu:         `Náš jídelní lístek naleznete jako ${pdf}.`,
             address:      'Jsme na adrese Untere Str. 24, 83416 Saaldorf — mezi Salzburgem a Freilasingem.',
